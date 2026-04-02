@@ -2,6 +2,7 @@ import argparse
 import logging
 import os
 import json
+import subprocess
 import cv2
 import numpy as np
 
@@ -98,12 +99,45 @@ def run(video_path: str, output_dir: str):
         logger.error("No frame_data found in output frames; cannot write video.")
         return
 
-    fourcc = cv2.VideoWriter_fourcc(*"mp4v")
-    writer = cv2.VideoWriter(out_video_path, fourcc, engine.fps, (width, height))
+    _write_video_ffmpeg(
+        output_frames=output_frames,
+        out_path=out_video_path,
+        fps=engine.fps,
+        height=height,
+        width=width,
+        logger=logger,
+    )
+    logger.info(f"Pipeline executed successfully. Final video saved at: {out_video_path}")
+
+
+# ── helpers ───────────────────────────────────────────────────────────
+
+def _write_video_ffmpeg(output_frames, out_path, fps, height, width, logger):
+    """
+    Encode output frames to an H.264 MP4 using a piped FFmpeg subprocess.
+    Frames are written as raw BGR bytes; FFmpeg converts BGR→YUV and encodes
+    with libx264 at CRF=23 (visually lossless at roughly half the mp4v size).
+    """
+    cmd = [
+        "ffmpeg", "-y",
+        "-f", "rawvideo",
+        "-vcodec", "rawvideo",
+        "-pix_fmt", "bgr24",
+        "-s", f"{width}x{height}",
+        "-r", str(fps),
+        "-i", "pipe:0",
+        "-vcodec", "libx264",
+        "-pix_fmt", "yuv420p",
+        "-crf", "23",
+        "-preset", "medium",
+        "-movflags", "+faststart",
+        out_path,
+    ]
+    proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stderr=subprocess.DEVNULL)
 
     for i, out_frame in enumerate(output_frames):
         if out_frame.frame_data is not None:
-            writer.write(out_frame.frame_data)
+            frame_img = out_frame.frame_data
         else:
             # Synthetic frame – interpolate between neighbouring real frames
             prev_img = _find_neighbour(output_frames, i, direction=-1)
@@ -122,13 +156,11 @@ def run(video_path: str, output_dir: str):
             else:
                 frame_img = np.zeros((height, width, 3), dtype=np.uint8)
 
-            writer.write(frame_img)
+        proc.stdin.write(frame_img.tobytes())
 
-    writer.release()
-    logger.info(f"Pipeline executed successfully. Final video saved at: {out_video_path}")
-
-
-# ── helpers ───────────────────────────────────────────────────────────
+    proc.stdin.close()
+    proc.wait()
+    logger.info(f"FFmpeg encoder finished (exit code {proc.returncode}).")
 
 def _find_neighbour(frames, idx, direction):
     """Walk in `direction` from `idx` and return the first real frame_data."""
