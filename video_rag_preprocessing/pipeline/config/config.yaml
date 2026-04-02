@@ -1,8 +1,8 @@
 pipeline:
   target_fps: 24
   target_window_sec: 0.08333333333 # 1/12th sec
-  stride_sec: 0.04166666666      # 1/24th sec
-  
+  stride_sec: 0.04166666666 # 1/24th sec
+
 dimensions:
   clip: 512
   dino: 384

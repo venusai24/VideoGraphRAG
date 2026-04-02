@@ -1,5 +1,5 @@
 import numpy as np
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Optional
 from ..models import NativeFrame
 
 def clip_norm(val: float, p25: float, p75: float, eps: float = 1e-5) -> float:
@@ -26,12 +26,21 @@ def calculate_entity_delta(entities1: List[Any], entities2: List[Any], eps: floa
 
 class Scorer:
     def __init__(self, weights: Dict[str, float]):
+        if not weights:
+            weights = {
+                "semantic": 1.0,
+                "blur": 0.5,
+                "motion": 0.8,
+                "entity": 0.4,
+                "consistency": 0.3,
+                "diversity": 0.2
+            }
         total_w = sum(weights.values())
         self.w = {k: v / total_w for k, v in weights.items()}
         self.eps = 1e-5
 
     def score_frame(self, 
-                    frame: NativeFrame,
+                    cand: NativeFrame,
                     n_hat: float, 
                     q_hat: float, 
                     m_hat: float, 
@@ -42,6 +51,7 @@ class Scorer:
                     temperature: float) -> Dict[str, float]:
         
         gate_arg = (n_hat - tau) / (temperature + self.eps)
+        gate_arg = np.clip(gate_arg, -100, 100) # prevent overflow
         gate = 1.0 / (1.0 + np.exp(-gate_arg))
 
         s_sem = (self.w.get('semantic', 0.0) * n_hat) + \
@@ -60,12 +70,12 @@ class Scorer:
         final_score = s_comp - penalties
 
         return {
-            "semantic": s_sem,
-            "blur": s_blur,
-            "motion": m_hat,
-            "entity": e_hat,
-            "consistency": c_val,
-            "diversity": d_val,
-            "gate": gate,
-            "total": final_score
+            "semantic": float(s_sem),
+            "blur": float(s_blur),
+            "motion": float(m_hat),
+            "entity": float(e_hat),
+            "consistency": float(c_val),
+            "diversity": float(d_val),
+            "gate": float(gate),
+            "total": float(final_score)
         }

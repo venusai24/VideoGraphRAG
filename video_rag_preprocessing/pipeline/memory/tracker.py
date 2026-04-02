@@ -59,13 +59,12 @@ class FaissMemoryBank:
 
     def query_novelty(self, embedding: np.ndarray, top_k: int = 5) -> float:
         if self.count == 0:
-            return 1.0 
+            return 1.0
         
         norm_emb = embedding / (np.linalg.norm(embedding) + 1e-8)
         norm_emb = norm_emb.astype(np.float32).reshape(1, -1)
         
         k = min(top_k, self.count)
         similarities, indices = self.index.search(norm_emb, k)
-        
         mean_sim = np.mean(similarities[0])
         return max(0.0, 1.0 - mean_sim)
