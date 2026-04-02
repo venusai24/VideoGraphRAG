@@ -11,6 +11,7 @@ class NativeFrame:
     blur_variance: float
     optical_flow_mag: float
     entities: List[Any]
+    frame_data: Optional[np.ndarray] = None   # raw BGR pixels
 
 @dataclass
 class OutputFrame:
@@ -21,3 +22,5 @@ class OutputFrame:
     dino_emb: np.ndarray              
     is_synthetic: bool
     scores: Dict[str, float] = field(default_factory=dict)
+    frame_data: Optional[np.ndarray] = None   # BGR pixels for reconstruction
+

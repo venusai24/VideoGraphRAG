@@ -21,6 +21,9 @@ class CompressorEngine:
         self.window_sec = opts.get("target_window_sec", 1/12)
         self.eps = score_opts.get("eps", 1e-5)
 
+        self.clip_dim = dim_opts.get("clip", 512)
+        self.dino_dim = dim_opts.get("dino", 384)
+
         # Trackers
         self.ctx_short = EWMA(alpha=mem_opts.get("ewma_alpha", 0.3))
         self.entity_ewma = EWMA(alpha=0.3)
@@ -67,12 +70,15 @@ class CompressorEngine:
         self.pending_natives = [f for f in self.pending_natives if f.timestamp >= w_start]
 
         if not candidates:
-            self.emission.push_empty(self.target_time, self.output_history_dino)
+            self.output_history_dino.append(np.zeros(self.dino_dim))
+            self.emission.push_empty(self.target_time, self.output_history_dino, self.clip_dim, self.dino_dim)
             return
             
         best_frame = None
         best_score_val = -float('inf')
         best_scores_dict = {}
+        best_n_val = 0.0
+        best_raw_ent = 0.0
 
         for cand in candidates:
             self.p_blur.update(cand.blur_variance)
@@ -83,14 +89,18 @@ class CompressorEngine:
             m_hat = clip_norm(cand.optical_flow_mag, self.p_mot.p25(), self.p_mot.p75(), self.eps)
             
             raw_ent = calculate_entity_delta(self.prev_native_entities, cand.entities, self.eps)
-            e_hat = self.entity_ewma.update(np.array([raw_ent]))[0]
-            self.prev_native_entities = cand.entities
+            
+            ewma_state = self.entity_ewma.get()
+            if ewma_state is None:
+                e_hat = float(raw_ent)
+            else:
+                alpha = self.entity_ewma.alpha
+                e_hat = float(alpha * raw_ent + (1 - alpha) * ewma_state[0])
             
             ctx_v = self.ctx_short.get()
             n_short = cosine_distance(cand.clip_emb, ctx_v) if ctx_v is not None else 1.0
             n_long = self.bank_long.query_novelty(cand.clip_emb)
-            n_val = min(n_short, n_long)
-            self.p_nov.update(n_val)
+            n_val = 0.5 * n_short + 0.5 * n_long
             
             n_hat = clip_norm(n_val, self.p_nov.p25(), self.p_nov.p75(), self.eps)
 
@@ -118,14 +128,20 @@ class CompressorEngine:
                 best_score_val = scores['total']
                 best_frame = cand
                 best_scores_dict = scores
+                best_n_val = n_val
+                best_raw_ent = raw_ent
 
-        self._emit_selected(best_frame, best_scores_dict)
+        self._emit_selected(best_frame, best_scores_dict, best_n_val, best_raw_ent)
 
     def _get_hist(self, steps_back: int) -> Optional[np.ndarray]:
         idx = max(0, len(self.output_history_dino) - steps_back)
         return self.output_history_dino[idx]
 
-    def _emit_selected(self, frame: NativeFrame, scores: Dict[str, float]):
+    def _emit_selected(self, frame: NativeFrame, scores: Dict[str, float], n_val: float, raw_ent: float):
+        self.p_nov.update(n_val)
+        self.entity_ewma.update(np.array([raw_ent]))
+        self.prev_native_entities = frame.entities
+        
         self.ctx_short.update(frame.clip_emb)
         self.bank_long.add(frame.clip_emb)
         self.output_history_dino.append(frame.dino_emb)
@@ -136,7 +152,8 @@ class CompressorEngine:
             clip_emb=frame.clip_emb.copy(),
             dino_emb=frame.dino_emb.copy(),
             is_synthetic=False,
-            scores=scores
+            scores=scores,
+            frame_data=frame.frame_data,
         )
         self.emission.push_populated(out, self.output_history_dino)
 
