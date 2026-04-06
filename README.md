@@ -1,278 +1,126 @@
 # VideoGraphRAG
- Graph-Based Temporal Reasoning for Video Retrieval - Using Graph-Retrieval to retrieve information from videos
 
+Graph-Based Temporal Reasoning for Video Retrieval — Transforming raw video into semantically-rich, graph-indexed representations.
 
-## Preprocessing Phase
-Video RAG Preprocessing Pipeline
+---
 
-A production-grade, modular pipeline for extracting high-quality, non-redundant keyframes from videos, optimized for Video Retrieval-Augmented Generation (Video RAG) systems.
+## 📽️ Core Component: Semantic Video Preprocessing Pipeline
+A production-grade, modular "Semantic Compressor" designed to extract high-signal, non-redundant representations from video. This pipeline is the foundational ingestion layer for Video Retrieval-Augmented Generation (Video RAG) systems.
 
-This pipeline is designed for offline preprocessing, ensuring that downstream retrieval systems operate on semantically meaningful and compact visual representations.
+### 🎯 Objective
 
-🎯 Objective
+To transform high-bitrate, redundant raw video into a compact stream of **OutputFrames** that preserve:
 
-Given an input video, the pipeline:
+1. **Semantic Diversity**: Novel events and objects are prioritized.
+2. **Visual Clarity**: Sharp, high-quality representative frames are selected over blurry ones.
+3. **Temporal Continuity**: Smooth transitions and structural consistency for downstream reconstruction.
 
-Samples frames at 12 FPS uniformly
-Removes blurry / low-quality frames early
-Detects scene boundaries
-Groups frames based on semantic similarity
-Selects one representative frame per group
-Stores metadata and embeddings for retrieval
-🧠 Why This Pipeline Exists
+---
 
-Raw videos are:
+### 🚀 Architectural Pillars
 
-Highly redundant (adjacent frames are similar)
-Noisy (motion blur, compression artifacts)
-Expensive to process during retrieval
+#### 1. Target-Synchronous Emission (TSE)
 
-This pipeline reduces video data by 70–85%, while preserving:
+Unlike traditional keyframe extractors that sample at fixed intervals, this pipeline maintains a **Target Timeline** (default: 24 FPS). It decouples input jitter from output consistency using an adaptive `EmissionBuffer`. If a temporal slot lacks high-quality native frames, the system can mark it for synthetic interpolation.
 
-Semantic diversity
-Visual clarity
-Retrieval relevance
-🧱 Architecture Overview
-Video Input
-   ↓
-Frame Sampling (12 FPS)
-   ↓
-Blur Filtering
-   ↓
-Scene Detection
-   ↓
-Embedding Extraction (CLIP + DINOv2)
-   ↓
-Similarity-Based Grouping
-   ↓
-Representative Frame Selection
-   ↓
-Storage (JSON + Images)
+#### 2. Multi-Modal Feature Engineering
 
-Each stage is modular, enabling independent optimization and testing.
+The pipeline extracts a high-dimensional feature set for every native frame:
 
-⚙️ Pipeline Stages
-1. 🎞️ Frame Sampling
+* **CLIP (Semantics)**: Captures high-level concepts and text-image alignment.
+* **DINOv2 (Structure)**: Captures spatial continuity and visual consistency.
+* **YOLOv8 (Entities)**: Detects and tracks human-level objects with bounding box persistence.
+* **Optical Flow**: Measures motion dynamics to identify high-activity segments.
 
-Goal: Uniformly extract frames at 12 FPS regardless of input video FPS.
+#### 3. Dynamic Scoring Surface
 
-Key Design Choices:
+The scoring engine adapts to video conditions in real-time. Using **Rolling Percentile** trackers, it normalizes metrics like blur and motion relative to the recent history of the specific video being processed, rather than using hard-coded global thresholds.
 
-Uses timestamp-based sampling (not frame skipping)
-Ensures consistency across videos with different frame rates
-Avoids temporal bias
+#### 4. Multi-Tier Memory Systems
 
-Output:
+* **EWMA (Short-Term)**: Maintains a running context of recent semantic states.
+* **FAISS (Long-Term)**: A vector memory bank used to detect global novelty across the entire video duration.
 
-[(frame, timestamp)]
-2. 🧹 Blur Filtering
+---
 
-Goal: Remove low-quality frames early to save compute downstream.
+### 🧠 The Pipeline Engine (`CompressorEngine`)
 
-Method:
+The engine operates on a sliding-window evaluation loop:
 
-Uses Variance of Laplacian to measure sharpness
+#### Window-Based Selection
 
-Behavior:
+For each target timestamp $T$, the engine gathers all native frames within a window $[T - \Delta t, T + \Delta t]$. It calculates a holistic score for each candidate:
 
-Frames below threshold (default: 120) are discarded
-Grayscale conversion is done once for efficiency
+$$Score = Gate \cdot S_{semantic} + (1 - Gate) \cdot S_{blur} - Penalties$$
 
-Why early filtering matters:
+* **$S_{semantic}$**: Composite score of Novelty (CLIP), Motion (Flow), and Entity Delta (YOLO).
+* **$S_{blur}$**: Composite score of Sharpness (Laplacian), Motion, and Entity Delta.
+* **$Gate$**: A sigmoid switch ($\sigma$) controlled by semantic novelty. High novelty opens the gate for semantic priority; low novelty (stagnant scenes) prioritizes technical sharpness.
+* **$Penalties$**: Deductions for lack of visual continuity (DINOv2 distance) and lack of distinctiveness within the current window.
 
-Reduces embedding computation cost
-Improves final keyframe quality
+---
 
-Output:
+### 🛠️ Core Modules
 
-(frame, timestamp, blur_score)
-3. 🎬 Scene Detection
+| Module | Responsibility |
+| :--- | :--- |
+| **`features/extractor.py`** | GPU-accelerated extraction of CLIP, DINOv2, and YOLOv8. |
+| **`memory/tracker.py`** | EWMA, FaissMemoryBank, and RollingPercentile logic. |
+| **`scoring/scorer.py`** | Implementation of the gated multi-modal scoring function. |
+| **`selection/window.py`** | Orchestrates window evaluation and the selection loop. |
+| **`postprocess/emission.py`** | Manages the `EmissionBuffer` for jitter-free output. |
 
-Goal: Split video into semantically coherent segments.
+---
 
-Method:
+### ⚙️ Configuration
+The pipeline is highly configurable via `config/`:
+```python
+pipeline:
+  target_fps: 24             # Consistent output frame rate
+  target_window_sec: 0.083   # Evaluation window size (~2 frames at 24fps)
 
-Detects boundaries using:
-Embedding similarity drop OR
-Histogram differences
+scoring:
+  weights:
+    semantic: 1.0           # Priority for novel content
+    blur: 0.5               # Priority for technical quality
+    motion: 0.8             # Prioritize activity
+    entity: 0.4             # Prioritize object changes
+```
 
-Logic:
+---
 
-If similarity between consecutive frames falls below threshold → new scene
+### 📦 Output Characteristics
+The pipeline produces a deterministic JSON and image sequence output:
+*   **85–95% Semantic Compression**: Massive reduction in storage and compute costs for downstream RAG.
+*   **Graph-Ready Enrichment**: Each frame includes CLIP/DINO embeddings and YOLO entity lists.
+*   **Deterministic Metadata**: Timestamps are aligned to a perfect 24 FPS grid, enabling frame-accurate retrieval and reconstruction.
 
-Design Constraints:
+---
 
-Lightweight (no heavy external libraries)
-Fast enough for large-scale preprocessing
+### 🏁 Getting Started
 
-Output:
+1. **Install Dependencies**:
 
-[
-  [frame1, frame2, ...],  # Scene 1
-  [frame3, frame4, ...],  # Scene 2
-]
-4. 🧠 Embedding Extraction
+   ```bash
+   pip install torch torchvision ultralytics transformers numpy opencv-python faiss-cpu
+   ```
 
-Goal: Represent frames numerically for similarity and retrieval.
+2. **Run the Pipeline**:
 
-Models Used:
+   ```python
+   from video_rag_preprocessing.pipeline.selection.window import CompressorEngine
+   from video_rag_preprocessing.pipeline.features.extractor import FeatureExtractor
 
-CLIP → Cross-modal retrieval (text ↔ image)
-DINOv2 → Visual semantic grouping
+   # Initialize engine and extractor
+   engine = CompressorEngine()
+   extractor = FeatureExtractor()
 
-Key Features:
+   # Process frames...
+   ```
 
-Batch processing (critical for performance)
-GPU/CPU compatible
-Embeddings are normalized
+3. **Verify Output**:
 
-Output per frame:
-
-{
-  "embedding_clip": vector,
-  "embedding_dino": vector
-}
-5. 🔗 Similarity-Based Grouping
-
-Goal: Remove redundancy by grouping similar frames.
-
-Algorithm: Temporal-Aware Grouping
-
-For each frame:
-
-Compare with:
-Last frame in group (local continuity)
-First frame in group (anchor constraint)
-
-Conditions:
-
-cosine(frame, last_frame) > t1 AND
-cosine(frame, first_frame) > t2
-
-Thresholds:
-
-t1 = 0.92 → ensures smooth transitions
-t2 = 0.88 → prevents drift within group
-
-Why this works:
-
-Avoids O(n²) comparisons
-Maintains temporal consistency
-Prevents long-term semantic drift
-
-Output:
-
-[
-  [frame1, frame2, ...],  # Group 1
-  [frame3, frame4, ...],  # Group 2
-]
-6. ⭐ Representative Frame Selection
-
-Goal: Pick the best frame per group.
-
-Scoring Function:
-
-score = w1 * blur_score + w2 * centrality
-
-Where:
-
-blur_score → sharpness
-centrality → similarity to other frames in group
-
-Weights:
-
-w1 = 0.6 → prioritize visual quality
-w2 = 0.4 → ensure representativeness
-
-Why this is important:
-
-Avoids picking blurry frames
-Ensures selected frame represents the group well
-
-Output:
-
-One keyframe per group
-7. 💾 Storage
-
-Goal: Persist outputs for downstream RAG systems.
-
-Stored Data:
-
-Each frame:
-
-{
-  "frame_id": int,
-  "timestamp": float,
-  "scene_id": int,
-  "blur_score": float,
-  "embedding_clip": [...],
-  "embedding_dino": [...],
-  "image_path": "path/to/image.jpg"
-}
-
-Additional Features:
-
-Images saved with deterministic naming
-JSON for easy indexing and retrieval
-Compatible with vector databases
-🔧 Configuration
-
-All parameters are centralized:
-
-FPS_SAMPLE = 12
-BLUR_THRESHOLD = 120
-SIM_T1 = 0.92
-SIM_T2 = 0.88
-W_BLUR = 0.6
-W_CENTRALITY = 0.4
-BATCH_SIZE = 32
-
-This allows:
-
-Easy tuning
-Experiment reproducibility
-Dataset-specific optimization
-🚀 Pipeline Orchestration
-
-The main pipeline executes:
-
-video
- → sampling
- → blur filtering
- → scene detection
- → embedding extraction
- → grouping
- → selection
- → storage
-Logging & Monitoring
-
-At each stage, the pipeline logs:
-
-Total sampled frames
-Frames after blur filtering
-Number of scenes
-Number of groups
-Final selected keyframes
-⚡ Performance Considerations
-Batch processing for embeddings (critical speedup)
-Early filtering reduces unnecessary computation
-Avoids redundant image copies
-Linear-time grouping algorithm
-📦 Output Characteristics
-
-For a typical video:
-
-70–85% frame reduction
-High-quality, sharp keyframes
-Strong semantic coverage
-Ready for:
-Vector DB indexing
-Cross-modal retrieval (text ↔ video)
-Graph-based RAG systems
-
-This pipeline transforms raw video into a compact, high-signal representation by combining:
-
-Signal processing (blur detection)
-Computer vision (scene segmentation)
+   Check the `outputs/` directory for `scores.json` and the compressed keyframe sequence.
+scene segmentation)
 Deep learning (CLIP + DINOv2 embeddings)
 Efficient algorithms (temporal grouping)
