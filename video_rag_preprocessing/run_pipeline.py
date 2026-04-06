@@ -7,6 +7,7 @@ import cv2
 import numpy as np
 
 from pipeline import load_config, VideoIngestor, FeatureExtractor, CompressorEngine
+from pipeline.clip_grouping.grouping import group_frames, calculate_token_cost
 
 
 def setup_logging():
@@ -99,6 +100,16 @@ def run(video_path: str, output_dir: str):
         logger.error("No frame_data found in output frames; cannot write video.")
         return
 
+    _group_and_save_clips(
+        output_frames=output_frames,
+        output_dir=output_dir,
+        config=config,
+        fps=engine.fps,
+        height=height,
+        width=width,
+        logger=logger,
+    )
+
     _write_video_ffmpeg(
         output_frames=output_frames,
         out_path=out_video_path,
@@ -179,6 +190,74 @@ def _find_neighbour_idx(frames, idx, direction):
             return j
         j += direction
     return idx
+
+
+def _group_and_save_clips(output_frames, output_dir, config, fps, height, width, logger):
+    grouping_cfg = config.get("clip_grouping", {}) if isinstance(config, dict) else {}
+    if grouping_cfg.get("enabled", True) is False:
+        logger.info("Clip grouping disabled by config.")
+        return
+
+    clusters = group_frames(
+        raw_frames=output_frames,
+        effective_context_limit=float(grouping_cfg.get("effective_context_limit", 1200.0)),
+        base_merge_threshold=float(grouping_cfg.get("base_merge_threshold", 0.55)),
+        default_visual_token_cost=float(grouping_cfg.get("default_visual_token_cost", 30.0)),
+        entity_token_cost=float(grouping_cfg.get("entity_token_cost", 2.0)),
+        subtitle_token_cost=float(grouping_cfg.get("subtitle_token_cost", 0.5)),
+        max_drop_ratio=float(grouping_cfg.get("max_drop_ratio", 0.5)),
+    )
+
+    if not clusters:
+        logger.info("Clip grouping produced 0 clips.")
+        return
+
+    clips_dir = os.path.join(output_dir, "clips")
+    os.makedirs(clips_dir, exist_ok=True)
+
+    manifest = []
+    for i, cluster in enumerate(clusters):
+        start_idx = max(0, cluster.boundary_frames[0].index)
+        end_idx = min(len(output_frames) - 1, cluster.boundary_frames[1].index)
+        if end_idx < start_idx:
+            continue
+
+        clip_frames = output_frames[start_idx : end_idx + 1]
+        clip_path = os.path.join(clips_dir, f"clip_{i:04d}.mp4")
+        _write_video_ffmpeg(
+            output_frames=clip_frames,
+            out_path=clip_path,
+            fps=fps,
+            height=height,
+            width=width,
+            logger=logger,
+        )
+
+        manifest.append(
+            {
+                "clip_index": i,
+                "cluster_id": cluster.id,
+                "start_frame_index": start_idx,
+                "end_frame_index": end_idx,
+                "start_time_sec": start_idx / float(fps),
+                "end_time_sec": end_idx / float(fps),
+                "frame_count": len(clip_frames),
+                "cluster_frame_count": len(cluster.frames),
+                "token_cost": calculate_token_cost(
+                    cluster,
+                    entity_token_cost=float(grouping_cfg.get("entity_token_cost", 2.0)),
+                    subtitle_token_cost=float(grouping_cfg.get("subtitle_token_cost", 0.5)),
+                ),
+                "score_profile": cluster.cluster_score_profile,
+                "path": clip_path,
+            }
+        )
+
+    manifest_path = os.path.join(clips_dir, "clips.json")
+    with open(manifest_path, "w") as fp:
+        json.dump(manifest, fp, indent=2)
+
+    logger.info("Clip grouping complete. Wrote %d clips to %s", len(manifest), clips_dir)
 
 
 if __name__ == "__main__":
