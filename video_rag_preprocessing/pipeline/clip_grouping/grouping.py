@@ -9,6 +9,11 @@ import numpy as np
 
 from ..scoring.scorer import cosine_distance
 
+def cosine_similarity(a, b):
+    if a is None or b is None:
+        return 0.0
+    return 1.0 - cosine_distance(a, b)
+
 
 @dataclass
 class FrameNode:
@@ -130,9 +135,13 @@ def calculate_merge_affinity(
 
     consistency = 0.5 * (a_last.score("consistency") + b_first.score("consistency"))
     entity_delta = 0.5 * (a_last.score("entity") + b_first.score("entity"))
-    sem_a = a_last.score("semantic")
-    sem_b = b_first.score("semantic")
-    semantic_continuity = max(0.0, 1.0 - abs(sem_a - sem_b))
+    emb_a = a_last.embedding
+    emb_b = b_first.embedding
+    semantic_continuity = cosine_similarity(emb_a, emb_b)
+
+    # Scene cut penalty (hard boundary)
+    if semantic_continuity < 0.2:
+        return 0.0
 
     affinity = (
         (w_consistency * consistency)
@@ -149,20 +158,23 @@ def calculate_token_cost(
 ) -> float:
     base = sum(f.token_cost for f in cluster.frames)
 
-    unique_entities: Set[str] = set()
+    entity_counts: Dict[str, int] = {}
     for f in cluster.frames:
         for e in f.entities:
             if isinstance(e, dict):
-                cls = e.get("class_id", e.get("label", str(e)))
-                unique_entities.add(str(cls))
+                cls = str(e.get("class_id", e.get("label", str(e))))
             else:
-                unique_entities.add(str(e))
+                cls = str(e)
+            entity_counts[cls] = entity_counts.get(cls, 0) + 1
+
+    # weighted entity cost (frequent entities cheaper)
+    weighted_entity_cost = sum(1.0 / (count + 1) for count in entity_counts.values())
 
     subtitle_words = []
     for f in cluster.frames:
         subtitle_words.extend(f.subtitles)
 
-    dynamic = (len(unique_entities) * entity_token_cost) + (
+    dynamic = (weighted_entity_cost * entity_token_cost) + (
         _estimate_text_tokens(subtitle_words) * subtitle_token_cost
     )
     return float(base + dynamic)
@@ -181,8 +193,8 @@ def _frame_keep_priority(frames: List[FrameNode], idx: int) -> float:
         next_e = frames[idx + 1].embedding
         cur_e = cur.embedding
         if prev_e is not None and cur_e is not None and next_e is not None:
-            sim_prev = 1.0 - cosine_distance(prev_e, cur_e)
-            sim_next = 1.0 - cosine_distance(cur_e, next_e)
+            sim_prev = cosine_similarity(prev_e, cur_e)
+            sim_next = cosine_similarity(cur_e, next_e)
             similarity_bonus = 0.5 * (sim_prev + sim_next)
 
     # lower => better candidate to drop
@@ -204,6 +216,8 @@ def adaptive_squeeze(
 ) -> Tuple[bool, ClipCluster]:
     frames = list(tentative_cluster.frames)
     n = len(frames)
+    # do not shrink below minimum duration if provided via attribute
+    min_frames = getattr(tentative_cluster, "min_frames", 2)
     if n <= 2:
         return (
             calculate_token_cost(
@@ -227,7 +241,7 @@ def adaptive_squeeze(
         )
         > token_limit
         and dropped < max_drop
-        and len(candidate.frames) > 2
+        and len(candidate.frames) > max(2, min_frames)
     ):
         # lock first and last frame
         internal_idxs = range(1, len(candidate.frames) - 1)
@@ -250,10 +264,14 @@ def group_frames(
     raw_frames: List[Any],
     effective_context_limit: float,
     base_merge_threshold: float = 0.55,
+    dynamic_threshold: bool = True,
     default_visual_token_cost: float = 30.0,
     entity_token_cost: float = 2.0,
     subtitle_token_cost: float = 0.5,
     max_drop_ratio: float = 0.5,
+    fps: float = 24.0,
+    min_duration_sec: float = 2.75,
+    max_duration_sec: float = 6.0,
 ) -> List[ClipCluster]:
     if not raw_frames:
         return []
@@ -263,6 +281,9 @@ def group_frames(
         for i, f in enumerate(raw_frames)
     ]
     clusters: Dict[int, ClipCluster] = {i: ClipCluster(id=i, frames=[n]) for i, n in enumerate(nodes)}
+
+    min_frames = int(fps * min_duration_sec)
+    max_frames = int(fps * max_duration_sec)
 
     prev_id: Dict[int, Optional[int]] = {i: (i - 1 if i > 0 else None) for i in range(len(nodes))}
     next_id: Dict[int, Optional[int]] = {
@@ -285,6 +306,12 @@ def group_frames(
         if (left, right) in incompatible:
             return
         affinity = calculate_merge_affinity(clusters[left], clusters[right])
+
+        if dynamic_threshold:
+            # penalize large clusters to avoid over-merging
+            size_penalty = min(0.2, 0.01 * (len(clusters[left].frames) + len(clusters[right].frames)))
+            affinity -= size_penalty
+
         heapq.heappush(heap, (-affinity, left, right, next(serial)))
 
     for i in range(len(nodes) - 1):
@@ -293,7 +320,11 @@ def group_frames(
     while heap:
         neg_aff, left, right, _ = heapq.heappop(heap)
         affinity = -neg_aff
-        if affinity < base_merge_threshold:
+        threshold = base_merge_threshold
+        if dynamic_threshold:
+            threshold = base_merge_threshold - 0.05  # slightly relaxed for adaptive behavior
+
+        if affinity < threshold:
             break
 
         if left not in active or right not in active:
@@ -304,6 +335,10 @@ def group_frames(
             continue
 
         merged_frames = clusters[left].frames + clusters[right].frames
+        # enforce max duration constraint before any expensive computation
+        if len(merged_frames) > max_frames:
+            incompatible.add((left, right))
+            continue
         tentative = ClipCluster(id=next_cluster_id, frames=merged_frames)
         cost = calculate_token_cost(
             tentative,
@@ -313,7 +348,14 @@ def group_frames(
 
         if cost <= effective_context_limit:
             ok, accepted = True, tentative
+            # ensure minimum duration (force merge if too small)
+            if len(merged_frames) < min_frames:
+                ok = True
+                accepted = tentative
         else:
+            # pass minimum frame constraint into cluster for squeeze safety
+            tentative.min_frames = min_frames
+
             ok, accepted = adaptive_squeeze(
                 tentative,
                 token_limit=effective_context_limit,
