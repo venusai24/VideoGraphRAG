@@ -17,8 +17,12 @@ def setup_logging():
     return logging.getLogger("SemanticCompressor")
 
 
-def run(video_path: str, output_dir: str):
+def run(video_path: str, output_dir: str, audio_path: str = None):
     logger = setup_logging()
+    
+    if audio_path is None:
+        audio_path = video_path # Default to source video's audio
+        
     logger.info(f"Starting Semantic Compressor for video: {video_path}")
 
     os.makedirs(output_dir, exist_ok=True)
@@ -106,18 +110,38 @@ def run(video_path: str, output_dir: str):
         height=height,
         width=width,
         logger=logger,
+        audio_path=audio_path,
     )
     logger.info(f"Pipeline executed successfully. Final video saved at: {out_video_path}")
 
 
 # ── helpers ───────────────────────────────────────────────────────────
 
-def _write_video_ffmpeg(output_frames, out_path, fps, height, width, logger):
+def _get_audio_info(media_path):
+    cmd = [
+        "ffprobe", "-v", "error", 
+        "-show_entries", "stream=codec_type,duration", 
+        "-of", "json", media_path
+    ]
+    try:
+        res = subprocess.run(cmd, capture_output=True, text=True, check=True)
+        info = json.loads(res.stdout)
+        for stream in info.get("streams", []):
+            if stream.get("codec_type") == "audio" and "duration" in stream:
+                return float(stream["duration"])
+    except Exception:
+        pass
+    return None
+
+def _write_video_ffmpeg(output_frames, out_path, fps, height, width, logger, audio_path=None):
     """
     Encode output frames to an H.264 MP4 using a piped FFmpeg subprocess.
     Frames are written as raw BGR bytes; FFmpeg converts BGR→YUV and encodes
     with libx264 at CRF=23 (visually lossless at roughly half the mp4v size).
+    Also syncs audio by forcing a constant 24fps timeline and stretching audio via atempo.
     """
+    audio_duration = _get_audio_info(audio_path) if audio_path else None
+    
     cmd = [
         "ffmpeg", "-y",
         "-f", "rawvideo",
@@ -126,13 +150,51 @@ def _write_video_ffmpeg(output_frames, out_path, fps, height, width, logger):
         "-s", f"{width}x{height}",
         "-r", str(fps),
         "-i", "pipe:0",
+    ]
+
+    has_audio = audio_duration is not None
+    filter_complex = None
+    
+    if has_audio:
+        video_duration = len(output_frames) / float(fps)
+        drift = abs(video_duration - audio_duration)
+        logger.info(f"Video duration: {video_duration:.3f}s, Audio duration: {audio_duration:.3f}s. Drift: {drift:.3f}s")
+        
+        cmd.extend(["-i", audio_path])
+        
+        if drift > 0.1:  # Threshold of 100ms
+            ratio = audio_duration / video_duration if video_duration > 0 else 1.0
+            logger.info(f"Applying atempo filter with ratio {ratio:.4f} to fix drift.")
+            
+            # atempo supports 0.5 to 100.0, we chain them if ratio < 0.5
+            if ratio < 0.5:
+                # E.g. ratio = 0.25 -> atempo=0.5,atempo=0.5
+                num_filters = int(np.ceil(np.log(ratio) / np.log(0.5)))
+                actual_ratio = ratio ** (1.0 / num_filters)
+                chain = ",".join([f"atempo={actual_ratio}"] * num_filters)
+                filter_complex = f"[1:a]{chain}[outa]"
+            else:
+                ratio = min(100.0, ratio) # cap at 100
+                filter_complex = f"[1:a]atempo={ratio}[outa]"
+    
+    cmd.extend([
         "-vcodec", "libx264",
         "-pix_fmt", "yuv420p",
         "-crf", "23",
         "-preset", "medium",
-        "-movflags", "+faststart",
-        out_path,
-    ]
+        "-g", str(fps), 
+        "-movflags", "+faststart"
+    ])
+    
+    if has_audio:
+        if filter_complex:
+            cmd.extend(["-filter_complex", filter_complex])
+            cmd.extend(["-map", "0:v:0", "-map", "[outa]"])
+        else:
+            cmd.extend(["-map", "0:v:0", "-map", "1:a:0?"])
+            
+    cmd.append(out_path)
+    
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stderr=subprocess.DEVNULL)
 
     for i, out_frame in enumerate(output_frames):
@@ -194,6 +256,12 @@ if __name__ == "__main__":
         default="outputs/",
         help="Directory to save output data",
     )
+    parser.add_argument(
+        "--audio_path",
+        type=str,
+        default=None,
+        help="Optional path to custom audio track. Defaults to the source video audio."
+    )
     args = parser.parse_args()
 
-    run(args.video_path, args.output_dir)
+    run(args.video_path, args.output_dir, args.audio_path)
