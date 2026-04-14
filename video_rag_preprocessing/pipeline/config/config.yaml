@@ -1,0 +1,24 @@
+pipeline:
+  target_fps: 24
+  target_window_sec: 0.08333333333 # 1/12th sec
+  stride_sec: 0.04166666666 # 1/24th sec
+
+dimensions:
+  clip: 512
+  dino: 384
+
+memory:
+  ewma_alpha: 0.3
+  percentile_window: 120
+  faiss_max_elements: 10000
+
+scoring:
+  weights:
+    semantic: 1.0
+    blur: 0.5
+    motion: 0.8
+    entity: 0.4
+    consistency: 0.3
+    diversity: 0.2
+  eps: 1.0e-5
+  conditional_smoothing_threshold: 0.85
