@@ -27,3 +27,6 @@ scipy>=1.10.0
 
 # Config
 pyyaml>=6.0
+
+# Validation
+pydantic>=2.8.0
