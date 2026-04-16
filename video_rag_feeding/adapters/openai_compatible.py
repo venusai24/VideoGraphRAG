@@ -35,14 +35,16 @@ class OpenAICompatibleVisionClient:
         self.timeout_sec = timeout_sec
 
     def infer(self, batch: Sequence[VisionClipInput]) -> Sequence[VisionExtraction]:
-        outputs: List[VisionExtraction] = []
-        for item in batch:
+        from concurrent.futures import ThreadPoolExecutor
+        
+        def process_item(item: VisionClipInput, index: int) -> tuple[int, VisionExtraction]:
             prompt = build_qwen_prompt(item)
             response_text = self._chat_completion(
                 self._build_multimodal_messages(item, prompt)
             )
             try:
-                outputs.append(validate_vision_response(response_text))
+                extraction = validate_vision_response(response_text)
+                return index, extraction
             except Exception:
                 repair_text = self._chat_completion(
                     [
@@ -52,13 +54,19 @@ class OpenAICompatibleVisionClient:
                         }
                     ]
                 )
-                outputs.append(
-                    validate_vision_response(
-                        response_text,
-                        repaired_response=repair_text,
-                    )
+                extraction = validate_vision_response(
+                    response_text,
+                    repaired_response=repair_text,
                 )
-        return outputs
+                return index, extraction
+
+        # Run concurrent requests to correctly utilize hardware batching on local server
+        with ThreadPoolExecutor(max_workers=min(len(batch), 16)) as pool:
+            futures = [pool.submit(process_item, item, i) for i, item in enumerate(batch)]
+            results_with_idx = [future.result() for future in futures]
+            
+        results_with_idx.sort(key=lambda x: x[0])
+        return [res for idx, res in results_with_idx]
 
     def _build_multimodal_messages(
         self,
