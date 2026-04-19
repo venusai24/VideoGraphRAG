@@ -5,6 +5,7 @@ import json
 import math
 import re
 import subprocess
+import cv2
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any, Dict, Iterable, List, Mapping, Optional, Sequence
@@ -200,7 +201,8 @@ def choose_sample_indices(
     duration_sec: float,
     salience_scores: Optional[Mapping[int, float] | Sequence[float]] = None,
 ) -> List[int]:
-    sample_count = min(frame_budget_for_duration(duration_sec), frame_count)
+    # Use uniform 12 fps
+    sample_count = max(1, min(int(duration_sec * 12), frame_count))
     base = _uniform_indices(frame_count, sample_count)
     if len(base) <= 2:
         return base
@@ -234,26 +236,17 @@ def choose_sample_indices(
 
 
 def probe_video_metadata(video_path: str) -> Dict[str, Any]:
-    cmd = [
-        "ffprobe",
-        "-v",
-        "error",
-        "-show_entries",
-        "stream=avg_frame_rate,nb_frames,duration",
-        "-of",
-        "json",
-        video_path,
-    ]
-    result = subprocess.run(cmd, capture_output=True, text=True, check=True)
-    payload = json.loads(result.stdout)
-    stream = (payload.get("streams") or [{}])[0]
-    fps = _parse_ffprobe_rate(stream.get("avg_frame_rate"))
-    nb_frames = stream.get("nb_frames")
-    duration = stream.get("duration")
+    cap = cv2.VideoCapture(video_path)
+    if not cap.isOpened():
+        return {"fps": None, "frame_count": None, "duration": None}
+    fps = cap.get(cv2.CAP_PROP_FPS)
+    frame_count = cap.get(cv2.CAP_PROP_FRAME_COUNT)
+    duration = frame_count / fps if fps and fps > 0 else None
+    cap.release()
     return {
-        "fps": fps,
-        "frame_count": int(nb_frames) if str(nb_frames).isdigit() else None,
-        "duration": float(duration) if duration is not None else None,
+        "fps": float(fps) if fps and fps > 0 else None,
+        "frame_count": int(frame_count) if frame_count and frame_count > 0 else None,
+        "duration": float(duration) if duration else None,
     }
 
 
@@ -327,24 +320,15 @@ def extract_sampled_frames(
         absolute_timestamp = clip.start_time_sec + relative_offset_sec
         frame_filename = f"{clip.clip_id}_f{ordinal:02d}_{frame_index:04d}.png"
         frame_path = output_path / frame_filename
-        cmd = [
-            "ffmpeg",
-            "-v",
-            "error",
-            "-y",
-            "-ss",
-            f"{seek_base + relative_offset_sec:.6f}",
-            "-i",
-            media_path,
-            "-frames:v",
-            "1",
-            str(frame_path),
-        ]
-        result = subprocess.run(cmd, capture_output=True, text=True)
-        if result.returncode != 0:
-            raise MediaExtractionError(
-                f"Failed to extract frame {frame_index} from clip {clip.clip_id}: {result.stderr.strip()}"
-            )
+        cap = cv2.VideoCapture(media_path)
+        cap.set(cv2.CAP_PROP_POS_MSEC, (seek_base + relative_offset_sec) * 1000)
+        ret, frame = cap.read()
+        if ret:
+            cv2.imwrite(str(frame_path), frame)
+        else:
+            cap.release()
+            raise MediaExtractionError(f"Failed to extract frame {frame_index} from clip {clip.clip_id}")
+        cap.release()
         sampled_frames.append(
             FrameReference(
                 frame_index=frame_index,
