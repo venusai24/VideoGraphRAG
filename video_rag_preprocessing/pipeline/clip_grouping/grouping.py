@@ -110,6 +110,10 @@ def build_frame_node(
     )
     embedding = _get(raw_frame, "embedding", None)
     if embedding is None:
+        embedding = _get(raw_frame, "dino_emb", None)
+    if embedding is None:
+        embedding = _get(raw_frame, "clip_emb", None)
+    if embedding is None:
         embedding = _get(raw_frame, "frame_embedding", None)
 
     return FrameNode(
@@ -144,7 +148,7 @@ def calculate_merge_affinity(
         return 0.0
 
     affinity = (
-        (w_consistency * consistency)
+        (w_consistency * (1.0 - consistency))
         + (w_entity * (1.0 - entity_delta))
         + (w_semantic * semantic_continuity)
     )

@@ -371,8 +371,10 @@ def build_qwen_prompt(clip_input: VisionClipInput) -> str:
             f"- frame_{index}: offset={frame.relative_offset_sec:.3f}s absolute_time={frame.timestamp_sec:.3f}s"
         )
     frame_block = "\n".join(frame_lines)
+    
     return (
-        "You are extracting graph-ready visual facts from a short video clip.\n"
+        "You are a sophisticated visual intelligence agent specializing in Scene Graph Generation (SGG) and Video Graph RAG. "
+        "Your task is to analyze the provided frames from a video clip and extract precise, high-fidelity visual facts suitable for a Knowledge Graph.\n\n"
         "Return JSON only. Do not wrap it in markdown.\n"
         "Use this schema exactly:\n"
         "{\n"
@@ -384,6 +386,10 @@ def build_qwen_prompt(clip_input: VisionClipInput) -> str:
         '"evidence_frame_offsets_sec": [0.0], "confidence": 0.0}],\n'
         '  "uncertainties": ["string"]\n'
         "}\n\n"
+        "### Extraction Focus:\n"
+        "1. **Durable Entities**: Identify key subjects (people, roles, unique vehicles, equipment, distinct locations). Use concrete nouns.\n"
+        "2. **Observable Actions**: Describe interactions between subjects and objects or environment using active verbs.\n"
+        "3. **Evidence-Based**: Only claim what is visible in the provided frames. Use the provided frame offsets as evidence.\n\n"
         f"Clip ID: {clip_input.clip.clip_id}\n"
         f"Clip start: {clip_input.clip.start_time_sec:.3f}s\n"
         f"Clip end: {clip_input.clip.end_time_sec:.3f}s\n"
@@ -391,10 +397,10 @@ def build_qwen_prompt(clip_input: VisionClipInput) -> str:
         "Sampled frames in chronological order:\n"
         f"{frame_block}\n\n"
         "Requirements:\n"
-        "- Use stable, concrete entity names.\n"
-        "- Keep actions observable and clip-bounded.\n"
-        "- Use only listed frame offsets as evidence.\n"
-        "- If uncertain, note it in uncertainties instead of inventing facts."
+        "- Use stable, concrete entity names (e.g., 'Astronaut Ryland Grace' instead of 'man').\n"
+        "- Attributes should describe current state/appearance (e.g., 'wearing a white spacesuit').\n"
+        "- If uncertain, note it in uncertainties instead of inventing facts.\n"
+        "- Ensure subjects and objects in actions correspond to names in the entities list."
     )
 
 

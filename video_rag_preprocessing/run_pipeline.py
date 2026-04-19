@@ -233,7 +233,10 @@ def _write_video_ffmpeg(output_frames, out_path, fps, height, width, logger, aud
 
     proc.stdin.close()
     proc.wait()
-    logger.info(f"FFmpeg encoder finished (exit code {proc.returncode}).")
+    if proc.returncode != 0:
+        logger.error(f"FFmpeg failed with exit code {proc.returncode} for path: {out_path}")
+        raise RuntimeError(f"FFmpeg failed with exit code {proc.returncode}")
+    # Low-noise logging: only log if it's NOT a small clip (or move to caller)
 
 def _find_neighbour(frames, idx, direction):
     """Walk in `direction` from `idx` and return the first real frame_data."""
@@ -314,6 +317,9 @@ def _group_and_save_clips(output_frames, output_dir, config, fps, height, width,
                 "path": clip_path,
             }
         )
+        
+        if (i + 1) % 10 == 0 or (i + 1) == len(clusters):
+            logger.info(f"Generated {i + 1}/{len(clusters)} clips...")
 
     manifest_path = os.path.join(clips_dir, "clips.json")
     with open(manifest_path, "w") as fp:
