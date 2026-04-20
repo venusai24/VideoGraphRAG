@@ -60,7 +60,18 @@ JSON
 ```
 {
   "@context": "https://schema.org/",
-  "clip_graph_layer_1":,
+  "clip_graph_layer_1":{
+      "clip id": "",
+      "summary": "",
+      "relations": [
+        {
+          "subject": "",
+          "action": "",
+          "object": "",
+          "grounding": ""
+        }
+      ]
+  },
   "semantic_graph_layer_2": {
     "entities":,
     "triples": [
