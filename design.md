@@ -143,3 +143,14 @@ The system processes video into a two-layer knowledge graph (Grounding and Reaso
 - **Learning-Based Segmentation**: Swap greedy hierarchical merge frameworks out for global dynamically programmed temporal distribution constraints.
 - **Better Token Estimation**: Overhaul naive string cost equations with raw LLM-specific tiktoken encoders.
 - **Graph Structure Evolution**: Replace forced clip sub-sampling compression mechanics entirely with generative summarization, allowing perfect continuous temporal metadata encoding.
+
+
+
+# stage 2: output:
+   >graph1:
+      >clip id:
+      >summary:
+      >relations entityes
+   >graph 2:
+      >entities
+      >relations
