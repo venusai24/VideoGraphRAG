@@ -1,0 +1,121 @@
+INFO:     Started server process [17381]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+Preloading model: Qwen2.5-VL-7B-Instruct-8bit
+Loading model from: Qwen2.5-VL-7B-Instruct-8bit
+Model and processor loaded successfully.
+INFO:     127.0.0.1:60186 - "GET /v1/models HTTP/1.1" 200 OK
+Using cached model: Qwen2.5-VL-7B-Instruct-8bit, Adapter: None
+Prefill:   0%|          | 0/5773 [00:00<?, ?tok/s]Prefill:  35%|███▌      | 2048/5773 [00:14<00:25, 144.23tok/s]Prefill:  71%|███████   | 4096/5773 [00:23<00:09, 179.01tok/s]Prefill: 100%|█████████▉| 5772/5773 [00:32<00:00, 186.32tok/s]Prefill: 100%|█████████▉| 5772/5773 [00:32<00:00, 179.38tok/s]
+Generation finished, cleared cache.
+INFO:     127.0.0.1:61912 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+Using cached model: Qwen2.5-VL-7B-Instruct-8bit, Adapter: None
+Prefill:   0%|          | 0/5361 [00:00<?, ?tok/s]Prefill:  38%|███▊      | 2048/5361 [00:13<00:21, 157.10tok/s]Prefill:  76%|███████▋  | 4096/5361 [00:22<00:06, 188.83tok/s]Prefill: 100%|█████████▉| 5360/5361 [00:28<00:00, 192.50tok/s]Prefill: 100%|█████████▉| 5360/5361 [00:28<00:00, 186.94tok/s]
+Generation finished, cleared cache.
+INFO:     127.0.0.1:61910 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+Using cached model: Qwen2.5-VL-7B-Instruct-8bit, Adapter: None
+Prefill:   0%|          | 0/5773 [00:00<?, ?tok/s]Prefill:  35%|███▌      | 2048/5773 [00:14<00:25, 144.69tok/s]Prefill:  71%|███████   | 4096/5773 [00:23<00:09, 179.75tok/s]Prefill: 100%|█████████▉| 5772/5773 [00:31<00:00, 194.32tok/s]Prefill: 100%|█████████▉| 5772/5773 [00:31<00:00, 184.49tok/s]
+Generation finished, cleared cache.
+INFO:     127.0.0.1:62040 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+Using cached model: Qwen2.5-VL-7B-Instruct-8bit, Adapter: None
+Prefill:   0%|          | 0/5361 [00:00<?, ?tok/s]Prefill:  38%|███▊      | 2048/5361 [00:13<00:22, 149.07tok/s]Prefill:  76%|███████▋  | 4096/5361 [00:23<00:06, 182.63tok/s]Prefill: 100%|█████████▉| 5360/5361 [00:29<00:00, 190.96tok/s]Prefill: 100%|█████████▉| 5360/5361 [00:29<00:00, 183.38tok/s]
+Generation finished, cleared cache.
+INFO:     127.0.0.1:62041 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+Using cached model: Qwen2.5-VL-7B-Instruct-8bit, Adapter: None
+Prefill:   0%|          | 0/5508 [00:00<?, ?tok/s]Prefill:  37%|███▋      | 2048/5508 [00:13<00:23, 147.34tok/s]Prefill:  74%|███████▍  | 4096/5508 [00:23<00:07, 182.40tok/s]Prefill: 100%|█████████▉| 5507/5508 [00:30<00:00, 189.87tok/s]Prefill: 100%|█████████▉| 5507/5508 [00:30<00:00, 182.56tok/s]
+Generation finished, cleared cache.
+INFO:     127.0.0.1:62164 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+Using cached model: Qwen2.5-VL-7B-Instruct-8bit, Adapter: None
+Prefill:   0%|          | 0/5690 [00:00<?, ?tok/s]Prefill:  36%|███▌      | 2048/5690 [00:13<00:24, 148.02tok/s]Prefill:  72%|███████▏  | 4096/5690 [00:23<00:08, 181.38tok/s]Prefill: 100%|█████████▉| 5689/5690 [00:31<00:00, 189.43tok/s]Prefill: 100%|█████████▉| 5689/5690 [00:31<00:00, 182.41tok/s]
+Generation finished, cleared cache.
+INFO:     127.0.0.1:62162 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+Using cached model: Qwen2.5-VL-7B-Instruct-8bit, Adapter: None
+Prefill:   0%|          | 0/5690 [00:00<?, ?tok/s]Prefill:  36%|███▌      | 2048/5690 [00:13<00:24, 149.48tok/s]Prefill:  72%|███████▏  | 4096/5690 [00:23<00:08, 182.95tok/s]Prefill: 100%|█████████▉| 5689/5690 [00:30<00:00, 191.94tok/s]Prefill: 100%|█████████▉| 5689/5690 [00:30<00:00, 184.60tok/s]
+Generation finished, cleared cache.
+INFO:     127.0.0.1:62286 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+Using cached model: Qwen2.5-VL-7B-Instruct-8bit, Adapter: None
+Generation finished, cleared cache.
+INFO:     127.0.0.1:62366 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+Using cached model: Qwen2.5-VL-7B-Instruct-8bit, Adapter: None
+Prefill:   0%|          | 0/5716 [00:00<?, ?tok/s]Prefill:  36%|███▌      | 2048/5716 [00:13<00:23, 154.22tok/s]Prefill:  72%|███████▏  | 4096/5716 [00:21<00:08, 194.51tok/s]Prefill: 100%|█████████▉| 5715/5716 [00:29<00:00, 201.12tok/s]Prefill: 100%|█████████▉| 5715/5716 [00:29<00:00, 193.58tok/s]
+Generation finished, cleared cache.
+INFO:     127.0.0.1:62288 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+Using cached model: Qwen2.5-VL-7B-Instruct-8bit, Adapter: None
+Prefill:   0%|          | 0/5824 [00:00<?, ?tok/s]Prefill:  35%|███▌      | 2048/5824 [00:12<00:22, 169.88tok/s]Prefill:  70%|███████   | 4096/5824 [00:21<00:08, 197.16tok/s]Prefill: 100%|█████████▉| 5823/5824 [00:29<00:00, 205.03tok/s]Prefill: 100%|█████████▉| 5823/5824 [00:29<00:00, 199.24tok/s]
+Generation finished, cleared cache.
+INFO:     127.0.0.1:62435 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+Using cached model: Qwen2.5-VL-7B-Instruct-8bit, Adapter: None
+Generation finished, cleared cache.
+INFO:     127.0.0.1:62478 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+Using cached model: Qwen2.5-VL-7B-Instruct-8bit, Adapter: None
+Prefill:   0%|          | 0/5846 [00:00<?, ?tok/s]Prefill:  35%|███▌      | 2048/5846 [00:13<00:25, 151.49tok/s]Prefill:  70%|███████   | 4096/5846 [00:22<00:09, 184.65tok/s]Prefill: 100%|█████████▉| 5845/5846 [00:30<00:00, 205.42tok/s]Prefill: 100%|█████████▉| 5845/5846 [00:30<00:00, 194.21tok/s]
+Generation finished, cleared cache.
+INFO:     127.0.0.1:62439 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+Using cached model: Qwen2.5-VL-7B-Instruct-8bit, Adapter: None
+Prefill:   0%|          | 0/5668 [00:00<?, ?tok/s]Prefill:  36%|███▌      | 2048/5668 [00:12<00:22, 161.49tok/s]Prefill:  72%|███████▏  | 4096/5668 [00:20<00:07, 208.36tok/s]Prefill: 100%|█████████▉| 5667/5668 [00:28<00:00, 208.83tok/s]Prefill: 100%|█████████▉| 5667/5668 [00:28<00:00, 202.31tok/s]
+Generation finished, cleared cache.
+INFO:     127.0.0.1:62551 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+Using cached model: Qwen2.5-VL-7B-Instruct-8bit, Adapter: None
+Prefill:   0%|          | 0/5766 [00:00<?, ?tok/s]Prefill:  36%|███▌      | 2048/5766 [00:13<00:24, 149.04tok/s]Prefill:  71%|███████   | 4096/5766 [00:23<00:09, 180.37tok/s]Prefill: 100%|█████████▉| 5765/5766 [00:31<00:00, 186.92tok/s]Prefill: 100%|█████████▉| 5765/5766 [00:31<00:00, 180.79tok/s]
+Generation finished, cleared cache.
+INFO:     127.0.0.1:62553 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+Using cached model: Qwen2.5-VL-7B-Instruct-8bit, Adapter: None
+Generation finished, cleared cache.
+INFO:     127.0.0.1:62657 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+Using cached model: Qwen2.5-VL-7B-Instruct-8bit, Adapter: None
+Prefill:   0%|          | 0/5711 [00:00<?, ?tok/s]Prefill:  36%|███▌      | 2048/5711 [00:14<00:25, 145.21tok/s]Prefill:  72%|███████▏  | 4096/5711 [00:23<00:09, 178.30tok/s]Prefill: 100%|█████████▉| 5710/5711 [00:31<00:00, 185.64tok/s]Prefill: 100%|█████████▉| 5710/5711 [00:31<00:00, 178.68tok/s]
+Generation finished, cleared cache.
+INFO:     127.0.0.1:62689 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+Using cached model: Qwen2.5-VL-7B-Instruct-8bit, Adapter: None
+Prefill:   0%|          | 0/5864 [00:00<?, ?tok/s]Prefill:  35%|███▍      | 2048/5864 [00:14<00:26, 141.90tok/s]Prefill:  70%|██████▉   | 4096/5864 [00:24<00:10, 174.05tok/s]Prefill: 100%|█████████▉| 5863/5864 [00:33<00:00, 183.89tok/s]Prefill: 100%|█████████▉| 5863/5864 [00:33<00:00, 176.62tok/s]
+Generation finished, cleared cache.
+INFO:     127.0.0.1:62687 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+Using cached model: Qwen2.5-VL-7B-Instruct-8bit, Adapter: None
+Generation finished, cleared cache.
+INFO:     127.0.0.1:62816 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+Using cached model: Qwen2.5-VL-7B-Instruct-8bit, Adapter: None
+Prefill:   0%|          | 0/5589 [00:00<?, ?tok/s]Prefill:  37%|███▋      | 2048/5589 [00:13<00:24, 146.62tok/s]Prefill:  73%|███████▎  | 4096/5589 [00:23<00:08, 180.12tok/s]Prefill: 100%|█████████▉| 5588/5589 [00:30<00:00, 187.67tok/s]Prefill: 100%|█████████▉| 5588/5589 [00:30<00:00, 180.67tok/s]
+Generation finished, cleared cache.
+INFO:     127.0.0.1:62840 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+Using cached model: Qwen2.5-VL-7B-Instruct-8bit, Adapter: None
+Prefill:   0%|          | 0/5667 [00:00<?, ?tok/s]Prefill:  36%|███▌      | 2048/5667 [00:13<00:24, 149.48tok/s]Prefill:  72%|███████▏  | 4096/5667 [00:23<00:08, 183.66tok/s]Prefill: 100%|█████████▉| 5666/5667 [00:30<00:00, 191.34tok/s]Prefill: 100%|█████████▉| 5666/5667 [00:30<00:00, 184.32tok/s]
+Generation finished, cleared cache.
+INFO:     127.0.0.1:62843 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+Using cached model: Qwen2.5-VL-7B-Instruct-8bit, Adapter: None
+Prefill:   0%|          | 0/5780 [00:00<?, ?tok/s]Prefill:  35%|███▌      | 2048/5780 [00:13<00:24, 154.58tok/s]Prefill:  71%|███████   | 4096/5780 [00:21<00:08, 194.70tok/s]Prefill: 100%|█████████▉| 5779/5780 [00:29<00:00, 200.83tok/s]Prefill: 100%|█████████▉| 5779/5780 [00:29<00:00, 193.54tok/s]
+Generation finished, cleared cache.
+INFO:     127.0.0.1:62954 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+Using cached model: Qwen2.5-VL-7B-Instruct-8bit, Adapter: None
+Prefill:   0%|          | 0/5497 [00:00<?, ?tok/s]Prefill:  37%|███▋      | 2048/5497 [00:14<00:24, 143.27tok/s]Prefill:  75%|███████▍  | 4096/5497 [00:23<00:07, 178.34tok/s]Prefill: 100%|█████████▉| 5496/5497 [00:30<00:00, 187.90tok/s]Prefill: 100%|█████████▉| 5496/5497 [00:30<00:00, 179.79tok/s]
+Generation finished, cleared cache.
+INFO:     127.0.0.1:62957 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+Using cached model: Qwen2.5-VL-7B-Instruct-8bit, Adapter: None
+Prefill:   0%|          | 0/5844 [00:00<?, ?tok/s]Prefill:  35%|███▌      | 2048/5844 [00:13<00:25, 149.76tok/s]Prefill:  70%|███████   | 4096/5844 [00:21<00:08, 197.86tok/s]Prefill: 100%|█████████▉| 5843/5844 [00:29<00:00, 207.22tok/s]Prefill: 100%|█████████▉| 5843/5844 [00:29<00:00, 197.55tok/s]
+Generation finished, cleared cache.
+INFO:     127.0.0.1:63097 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+Using cached model: Qwen2.5-VL-7B-Instruct-8bit, Adapter: None
+Prefill:   0%|          | 0/5779 [00:00<?, ?tok/s]Prefill:  35%|███▌      | 2048/5779 [00:13<00:24, 154.02tok/s]Prefill:  71%|███████   | 4096/5779 [00:22<00:08, 190.77tok/s]Prefill: 100%|█████████▉| 5778/5779 [00:29<00:00, 209.48tok/s]Prefill: 100%|█████████▉| 5778/5779 [00:29<00:00, 198.35tok/s]
+Generation finished, cleared cache.
+INFO:     127.0.0.1:63100 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+Using cached model: Qwen2.5-VL-7B-Instruct-8bit, Adapter: None
+Prefill:   0%|          | 0/5921 [00:00<?, ?tok/s]Prefill:  35%|███▍      | 2048/5921 [00:14<00:27, 141.70tok/s]Prefill:  69%|██████▉   | 4096/5921 [00:24<00:10, 175.34tok/s]Prefill: 100%|█████████▉| 5920/5921 [00:32<00:00, 190.79tok/s]Prefill: 100%|█████████▉| 5920/5921 [00:32<00:00, 181.43tok/s]
+Generation finished, cleared cache.
+INFO:     127.0.0.1:63205 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+Using cached model: Qwen2.5-VL-7B-Instruct-8bit, Adapter: None
+Prefill:   0%|          | 0/5566 [00:00<?, ?tok/s]Prefill:  37%|███▋      | 2048/5566 [00:13<00:22, 155.93tok/s]Prefill:  74%|███████▎  | 4096/5566 [00:21<00:07, 194.54tok/s]Prefill: 100%|█████████▉| 5565/5566 [00:28<00:00, 200.85tok/s]Prefill: 100%|█████████▉| 5565/5566 [00:28<00:00, 193.51tok/s]
+Generation finished, cleared cache.
+INFO:     127.0.0.1:63201 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+Using cached model: Qwen2.5-VL-7B-Instruct-8bit, Adapter: None
+Prefill:   0%|          | 0/3434 [00:00<?, ?tok/s]Prefill:  60%|█████▉    | 2048/3434 [00:12<00:08, 159.98tok/s]Prefill: 100%|█████████▉| 3433/3434 [00:18<00:00, 188.46tok/s]Prefill: 100%|█████████▉| 3433/3434 [00:18<00:00, 182.64tok/s]
+Generation finished, cleared cache.
+INFO:     127.0.0.1:63316 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+Using cached model: Qwen2.5-VL-7B-Instruct-8bit, Adapter: None
+Prefill:   0%|          | 0/5618 [00:00<?, ?tok/s]Prefill:  36%|███▋      | 2048/5618 [00:12<00:22, 161.18tok/s]Prefill:  73%|███████▎  | 4096/5618 [00:21<00:07, 193.06tok/s]Prefill: 100%|█████████▉| 5617/5618 [00:29<00:00, 198.93tok/s]Prefill: 100%|█████████▉| 5617/5618 [00:29<00:00, 192.88tok/s]
+Generation finished, cleared cache.
+INFO:     127.0.0.1:63318 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+Using cached model: Qwen2.5-VL-7B-Instruct-8bit, Adapter: None
+Generation finished, cleared cache.
+INFO:     127.0.0.1:63401 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+/opt/homebrew/Cellar/python@3.14/3.14.4/Frameworks/Python.framework/Versions/3.14/lib/python3.14/multiprocessing/resource_tracker.py:396: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown: {'/loky-17381-v5jgt918'}
+  warnings.warn(

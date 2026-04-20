@@ -24,24 +24,30 @@ preprocess:
 	@echo "=== PREPROCESSING COMPLETE ==="
 
 asr:
-	@echo "=== STARTING ASR PIPELINE (Cohere-Transcribe) ==="
-	@echo "Running purely on CPU/MPS to process audio."
-	PATH=$(HOMEBREW_PATH):$(PATH) ./vgent/bin/python -c "from video_rag_feeding.orchestrator import run_feeding_pipeline; from video_rag_feeding.adapters.huggingface_asr import TransformersAsrClient; asr = TransformersAsrClient(device='mps'); run_feeding_pipeline(clip_source='$(OUTPUT_DIR)clips/clips.json', vision_client=None, asr_client=asr, output_path='$(OUTPUT_DIR)enrichment_audio.jsonl', workspace_dir='$(OUTPUT_DIR)workspace_audio')"
+	@echo "=== STARTING ASR PIPELINE (Cohere-Transcribe Full Audio) ==="
+	@echo "Running on MPS/CPU to process the optimal raw audio stream."
+	PATH="$(HOMEBREW_PATH):$(PATH)" ./vgent/bin/python video_rag_feeding/transcribe_full.py mps
 	@echo "=== ASR COMPLETE ==="
 
 vlm_server:
 	@echo "=== STARTING LOCAL QWEN SERVER (MLX) ==="
-	# Check if port 8080 is already in use and skip if it is, or we might fail.
 	@if lsof -i :8080 > /dev/null; then echo "Server already running on 8080"; else \
-		./vgent/bin/python -m mlx_vlm.server --model MLX-Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-8bit --port 8080 --max-tokens 16384 > vlm_server.log 2>&1 & \
-		echo "Waiting for server to start..."; \
-		sleep 15; \
+		./vgent/bin/python -m mlx_vlm.server --model Qwen2.5-VL-7B-Instruct-8bit --port 8080 > vlm_server.log 2>&1 & \
+		echo "Waiting for server to be ready..."; \
+		for i in {1..30}; do \
+			if curl -s http://localhost:8080/v1/models > /dev/null; then \
+				echo "Server is UP!"; \
+				break; \
+			fi; \
+			echo "Still waiting ($$i/30)..."; \
+			sleep 2; \
+		done; \
 	fi
 
 vlm:
-	@echo "=== STARTING VLM PIPELINE ==="
+	@echo "=== STARTING VLM PIPELINE === "
 	@echo "Sending API requests to local mlx_vlm server on port 8080"
-	./vgent/bin/python -c "from video_rag_feeding.orchestrator import run_feeding_pipeline; from video_rag_feeding.adapters.openai_compatible import OpenAICompatibleVisionClient; vlm = OpenAICompatibleVisionClient(endpoint_url='http://localhost:8080/v1/chat/completions', model_name='MLX-Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-8bit'); run_feeding_pipeline(clip_source='$(OUTPUT_DIR)clips/clips.json', vision_client=vlm, asr_client=None, output_path='$(OUTPUT_DIR)enrichment_vision.jsonl', workspace_dir='$(OUTPUT_DIR)workspace_vision', vision_batch_size=2)"
+	PATH="$(HOMEBREW_PATH):$(PATH)" ./vgent/bin/python -c "from video_rag_feeding.orchestrator import run_feeding_pipeline; from video_rag_feeding.adapters.openai_compatible import OpenAICompatibleVisionClient; vlm = OpenAICompatibleVisionClient(endpoint_url='http://localhost:8080/v1/chat/completions', model_name='Qwen2.5-VL-7B-Instruct-8bit'); run_feeding_pipeline(clip_source='$(OUTPUT_DIR)clips/clips.json', vision_client=vlm, output_path='$(OUTPUT_DIR)enrichment_vision.jsonl', workspace_dir='$(OUTPUT_DIR)workspace_vision', vision_batch_size=2)"
 	@echo "=== VLM COMPLETE ==="
 
 vlm_stop:

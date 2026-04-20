@@ -345,12 +345,23 @@ def prepare_vision_input(
     workspace_dir: str | Path,
     *,
     salience_scores: Optional[Mapping[int, float] | Sequence[float]] = None,
+    transcript_chunks: Optional[List[Dict[str, Any]]] = None,
 ) -> VisionClipInput:
     sampled_frames = extract_sampled_frames(
         clip,
         Path(workspace_dir) / "frames",
         salience_scores=salience_scores,
     )
+    subtitles_text = ""
+    if transcript_chunks:
+        overlapping = []
+        for chunk in transcript_chunks:
+            c_start = chunk.get("start", 0.0)
+            c_end = chunk.get("end", c_start + 1.0)
+            if max(c_start, clip.start_time_sec) < min(c_end, clip.end_time_sec):
+                overlapping.append(chunk.get("text", ""))
+        subtitles_text = " ".join(overlapping).strip()
+
     return VisionClipInput(
         clip=clip,
         sampled_frames=sampled_frames,
@@ -359,6 +370,7 @@ def prepare_vision_input(
             "clip_fps": clip.clip_fps or 12.0,
             "frame_indices": [frame.frame_index for frame in sampled_frames],
             "frame_offsets_sec": [frame.relative_offset_sec for frame in sampled_frames],
+            "subtitles": subtitles_text,
         },
         clip_video_path=clip.clip_path,
     )
@@ -394,6 +406,7 @@ def build_qwen_prompt(clip_input: VisionClipInput) -> str:
         f"Clip start: {clip_input.clip.start_time_sec:.3f}s\n"
         f"Clip end: {clip_input.clip.end_time_sec:.3f}s\n"
         f"Clip fps: {clip_input.prompt_context.get('clip_fps', 12.0)}\n"
+        f"{'### Audio Context (Subtitles):\n' + clip_input.prompt_context.get('subtitles', '') + '\n\n' if clip_input.prompt_context.get('subtitles') else ''}"
         "Sampled frames in chronological order:\n"
         f"{frame_block}\n\n"
         "Requirements:\n"

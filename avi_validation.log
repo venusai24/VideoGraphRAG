@@ -1,0 +1,152 @@
+2026-04-20 13:29:20,099 - [INFO] - === STARTING AZURE VIDEO INDEXER PRODUCTION VALIDATION ===
+2026-04-20 13:29:20,099 - [INFO] - Initializing Task 1: Configuration Validation
+2026-04-20 13:29:20,099 - [INFO] - Loaded VIDEO_INDEXER_ACCESS_TOKEN: eyJhbG...w_ylEQ
+2026-04-20 13:29:20,100 - [INFO] - Loaded VIDEO_INDEXER_ACCOUNT_ID: 6a69f8ca-0f6e-46d3-bd5a-6f3a83dc7b2b
+2026-04-20 13:29:20,100 - [INFO] - Loaded VIDEO_INDEXER_LOCATION: East US
+2026-04-20 13:29:20,100 - [INFO] - Loaded VIDEO_INDEXER_ACCOUNT_TYPE: trial
+2026-04-20 13:29:20,100 - [INFO] - Test Video URL: https://www.youtube.com/watch?v=sW_7i6T_H98
+2026-04-20 13:29:20,100 - [INFO] - Initializing Task 2: API Connectivity Check
+2026-04-20 13:29:21,315 - [ERROR] - Unauthorized: Access Token may be expired or invalid.
+2026-04-20 13:29:21,316 - [ERROR] - API Connectivity Test Failed: 401 Unauthorized - Check VIDEO_INDEXER_ACCESS_TOKEN
+2026-04-20 13:29:21,316 - [ERROR] - VALIDATION FAILED: 401 Unauthorized - Check VIDEO_INDEXER_ACCESS_TOKEN
+2026-04-20 13:29:42,253 - [INFO] - === STARTING AZURE VIDEO INDEXER PRODUCTION VALIDATION ===
+2026-04-20 13:29:42,253 - [INFO] - Initializing Task 1: Configuration Validation
+2026-04-20 13:29:42,254 - [INFO] - Loaded VIDEO_INDEXER_ACCESS_TOKEN: eyJhbG...w_ylEQ
+2026-04-20 13:29:42,255 - [INFO] - Loaded VIDEO_INDEXER_ACCOUNT_ID: 6a69f8ca-0f6e-46d3-bd5a-6f3a83dc7b2b
+2026-04-20 13:29:42,255 - [INFO] - Loaded VIDEO_INDEXER_LOCATION: East US
+2026-04-20 13:29:42,255 - [INFO] - Loaded VIDEO_INDEXER_ACCOUNT_TYPE: trial
+2026-04-20 13:29:42,255 - [INFO] - Test Video URL: https://www.youtube.com/watch?v=sW_7i6T_H98
+2026-04-20 13:29:42,255 - [INFO] - Initializing Task 2: API Connectivity Check
+2026-04-20 13:29:43,531 - [WARNING] - Token expired. Attempting rotation...
+2026-04-20 13:29:43,532 - [INFO] - Attempting to fetch fresh access token via API Key...
+2026-04-20 13:29:44,653 - [ERROR] - Failed to fetch fresh token: 401 - {
+              "ErrorType": "INVALID_AUTH_SUBSCRIPTION_KEY",
+              "Message": "Access denied due to invalid subscription key. Make sure to provide a valid key for an active subscription." 
+          }
+2026-04-20 13:29:44,654 - [ERROR] - Connectivity Failed: 401 - {"ErrorType":"ACCESS_TOKEN_VALIDATION_FAILED","Message":"Token expired. Trace id: '300f1aba-e52d-4b03-9ec4-bbc0e5c1898e'."}
+2026-04-20 13:29:44,655 - [ERROR] - VALIDATION FAILED: API Connectivity Error: 401
+2026-04-20 13:37:56,254 - [INFO] - === STARTING AZURE VIDEO INDEXER PRODUCTION VALIDATION ===
+2026-04-20 13:37:56,254 - [INFO] - Initializing Task 1: Configuration Validation
+2026-04-20 13:37:56,255 - [INFO] - Loaded VIDEO_INDEXER_ACCESS_TOKEN: eyJhbG...w_ylEQ
+2026-04-20 13:37:56,255 - [INFO] - Loaded VIDEO_INDEXER_ACCOUNT_ID: 6a69f8ca-0f6e-46d3-bd5a-6f3a83dc7b2b
+2026-04-20 13:37:56,255 - [INFO] - Loaded VIDEO_INDEXER_LOCATION: East US
+2026-04-20 13:37:56,255 - [INFO] - Loaded VIDEO_INDEXER_ACCOUNT_TYPE: trial
+2026-04-20 13:37:56,255 - [INFO] - Test Video URL: https://www.youtube.com/watch?v=sW_7i6T_H98
+2026-04-20 13:37:56,255 - [INFO] - Initializing Task 2: API Connectivity Check
+2026-04-20 13:37:58,645 - [WARNING] - Token expired. Attempting rotation...
+2026-04-20 13:37:58,645 - [INFO] - Attempting to fetch fresh access token via Subscription Key...
+2026-04-20 13:37:59,159 - [INFO] - Success: Fresh Access Token acquired.
+2026-04-20 13:37:59,601 - [INFO] - Connectivity Validated: Status 200 OK
+2026-04-20 13:37:59,604 - [INFO] - Initializing Task 3: Uploading Test Video
+2026-04-20 13:38:00,283 - [ERROR] - Upload Failed: 400 - {"ErrorType":"INVALID_INPUT","Message":"Url content type 'text/html' is not supported. Only audio and video files are supported. You can find the supported types here: https://aka.ms/upload-standard-formats. Trace id: '12d5b09f-3488-4def-8512-014364291db9'."}
+2026-04-20 13:38:00,284 - [ERROR] - VALIDATION FAILED: 400 Client Error: Bad Request for url: https://api.videoindexer.ai/trial/Accounts/6a69f8ca-0f6e-46d3-bd5a-6f3a83dc7b2b/Videos?name=project-hail-mary-test&privacy=Private&videoUrl=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DsW_7i6T_H98&indexingPreset=AdvancedVideo&language=en-US
+2026-04-20 13:38:54,355 - [INFO] - === STARTING AZURE VIDEO INDEXER PRODUCTION VALIDATION ===
+2026-04-20 13:38:54,355 - [INFO] - Initializing Task 1: Configuration Validation
+2026-04-20 13:38:54,356 - [INFO] - Loaded VIDEO_INDEXER_ACCESS_TOKEN: eyJhbG...w_ylEQ
+2026-04-20 13:38:54,356 - [INFO] - Loaded VIDEO_INDEXER_ACCOUNT_ID: 6a69f8ca-0f6e-46d3-bd5a-6f3a83dc7b2b
+2026-04-20 13:38:54,356 - [INFO] - Loaded VIDEO_INDEXER_LOCATION: East US
+2026-04-20 13:38:54,356 - [INFO] - Loaded VIDEO_INDEXER_ACCOUNT_TYPE: trial
+2026-04-20 13:38:54,356 - [INFO] - Test Video URL: Project Hail Mary - Official Trailer.webm
+2026-04-20 13:38:54,356 - [INFO] - Initializing Task 2: API Connectivity Check
+2026-04-20 13:38:58,876 - [WARNING] - Token expired. Attempting rotation...
+2026-04-20 13:38:58,877 - [INFO] - Attempting to fetch fresh access token via Subscription Key...
+2026-04-20 13:38:59,467 - [INFO] - Success: Fresh Access Token acquired.
+2026-04-20 13:39:00,286 - [INFO] - Connectivity Validated: Status 200 OK
+2026-04-20 13:39:00,287 - [INFO] - Initializing Task 3: Uploading Test Video
+2026-04-20 13:39:07,973 - [INFO] - Upload Successful. Target Video ID: ls83w2uz6v
+2026-04-20 13:39:07,977 - [INFO] - Initializing Task 4: Polling status for ls83w2uz6v
+2026-04-20 13:39:08,482 - [INFO] - Polling Status: Processing (0s elapsed)
+2026-04-20 13:39:28,966 - [INFO] - Polling Status: Failed (20s elapsed)
+2026-04-20 13:39:28,968 - [ERROR] - Indexing Failed.
+2026-04-20 13:39:28,968 - [ERROR] - VALIDATION FAILED: Azure Video Indexer reported a failure state.
+2026-04-20 13:40:23,664 - [INFO] - === STARTING AZURE VIDEO INDEXER PRODUCTION VALIDATION ===
+2026-04-20 13:40:23,665 - [INFO] - Initializing Task 1: Configuration Validation
+2026-04-20 13:40:23,666 - [INFO] - Loaded VIDEO_INDEXER_ACCESS_TOKEN: eyJhbG...w_ylEQ
+2026-04-20 13:40:23,666 - [INFO] - Loaded VIDEO_INDEXER_ACCOUNT_ID: 6a69f8ca-0f6e-46d3-bd5a-6f3a83dc7b2b
+2026-04-20 13:40:23,666 - [INFO] - Loaded VIDEO_INDEXER_LOCATION: East US
+2026-04-20 13:40:23,666 - [INFO] - Loaded VIDEO_INDEXER_ACCOUNT_TYPE: trial
+2026-04-20 13:40:23,666 - [INFO] - Test Video URL: Project Hail Mary - Official Trailer.webm
+2026-04-20 13:40:23,666 - [INFO] - Initializing Task 2: API Connectivity Check
+2026-04-20 13:40:26,284 - [WARNING] - Token expired. Attempting rotation...
+2026-04-20 13:40:26,284 - [INFO] - Attempting to fetch fresh access token via Subscription Key...
+2026-04-20 13:40:26,816 - [INFO] - Success: Fresh Access Token acquired.
+2026-04-20 13:40:29,685 - [INFO] - Connectivity Validated: Status 200 OK
+2026-04-20 13:40:29,687 - [INFO] - Initializing Task 3: Uploading Test Video
+2026-04-20 13:40:36,417 - [ERROR] - Upload Failed: 409 - {"ErrorType":"VIDEO_ALREADY_FAILED","Message":"An attempt to upload this video recently failed (video id: 'ls83w2uz6v'). If you’d like to try to upload it again, please wait 118.49010976666666 minutes and try again. Trace id: 'ed74d5e9-5bcd-4c75-9ae2-db03ebea986a'."}
+2026-04-20 13:40:36,418 - [ERROR] - VALIDATION FAILED: 409 Client Error: Conflict for url: https://api.videoindexer.ai/trial/Accounts/6a69f8ca-0f6e-46d3-bd5a-6f3a83dc7b2b/Videos?name=project-hail-mary-test&privacy=Private&indexingPreset=AdvancedVideo&language=en-US
+2026-04-20 13:45:55,987 - [INFO] - === STARTING AZURE VIDEO INDEXER PRODUCTION VALIDATION ===
+2026-04-20 13:45:55,987 - [INFO] - Initializing Task 1: Configuration Validation
+2026-04-20 13:45:55,988 - [INFO] - Loaded VIDEO_INDEXER_ACCESS_TOKEN: eyJhbG...w_ylEQ
+2026-04-20 13:45:55,988 - [INFO] - Loaded VIDEO_INDEXER_ACCOUNT_ID: 6a69f8ca-0f6e-46d3-bd5a-6f3a83dc7b2b
+2026-04-20 13:45:55,988 - [INFO] - Loaded VIDEO_INDEXER_LOCATION: East US
+2026-04-20 13:45:55,988 - [INFO] - Loaded VIDEO_INDEXER_ACCOUNT_TYPE: trial
+2026-04-20 13:45:55,988 - [INFO] - Test Video URL: Project Hail Mary - Official Trailer.mp4
+2026-04-20 13:45:55,988 - [INFO] - Initializing Task 2: API Connectivity Check
+2026-04-20 13:45:58,387 - [WARNING] - Token expired. Attempting rotation...
+2026-04-20 13:45:58,388 - [INFO] - Attempting to fetch fresh access token via Subscription Key...
+2026-04-20 13:45:59,820 - [INFO] - Success: Fresh Access Token acquired.
+2026-04-20 13:46:00,336 - [INFO] - Connectivity Validated: Status 200 OK
+2026-04-20 13:46:00,338 - [INFO] - Initializing Task 3: Uploading Test Video
+2026-04-20 13:46:09,681 - [INFO] - Upload Successful. Target Video ID: dlv62fc2gn
+2026-04-20 13:46:09,685 - [INFO] - Initializing Task 4: Polling status for dlv62fc2gn
+2026-04-20 13:46:11,803 - [INFO] - Polling Status: Processing (2s elapsed)
+2026-04-20 13:46:32,304 - [INFO] - Polling Status: Failed (22s elapsed)
+2026-04-20 13:46:32,305 - [ERROR] - Indexing Failed. Reason: Failed to process the given input file since the file format is not supported. Please try a different file format.
+2026-04-20 13:46:32,305 - [ERROR] - VALIDATION FAILED: Azure Video Indexer reported a failure state: Failed to process the given input file since the file format is not supported. Please try a different file format.
+2026-04-20 13:48:07,658 - [INFO] - === STARTING AZURE VIDEO INDEXER PRODUCTION VALIDATION ===
+2026-04-20 13:48:07,658 - [INFO] - Initializing Task 1: Configuration Validation
+2026-04-20 13:48:07,659 - [INFO] - Loaded VIDEO_INDEXER_ACCESS_TOKEN: eyJhbG...w_ylEQ
+2026-04-20 13:48:07,659 - [INFO] - Loaded VIDEO_INDEXER_ACCOUNT_ID: 6a69f8ca-0f6e-46d3-bd5a-6f3a83dc7b2b
+2026-04-20 13:48:07,659 - [INFO] - Loaded VIDEO_INDEXER_LOCATION: East US
+2026-04-20 13:48:07,659 - [INFO] - Loaded VIDEO_INDEXER_ACCOUNT_TYPE: trial
+2026-04-20 13:48:07,659 - [INFO] - Test Video URL: when i breeth.mp4
+2026-04-20 13:48:07,659 - [INFO] - Initializing Task 2: API Connectivity Check
+2026-04-20 13:48:08,947 - [WARNING] - Token expired. Attempting rotation...
+2026-04-20 13:48:08,947 - [INFO] - Attempting to fetch fresh access token via Subscription Key...
+2026-04-20 13:48:10,897 - [INFO] - Success: Fresh Access Token acquired.
+2026-04-20 13:48:12,263 - [INFO] - Connectivity Validated: Status 200 OK
+2026-04-20 13:48:12,265 - [INFO] - Initializing Task 3: Uploading Test Video
+2026-04-20 13:48:16,102 - [INFO] - Upload Successful. Target Video ID: wabx7pjx3y
+2026-04-20 13:48:16,106 - [INFO] - Initializing Task 4: Polling status for wabx7pjx3y
+2026-04-20 13:48:16,593 - [INFO] - Polling Status: Processing (0s elapsed)
+2026-04-20 13:48:37,112 - [INFO] - Polling Status: Processing (21s elapsed)
+2026-04-20 13:48:57,635 - [INFO] - Polling Status: Processing (41s elapsed)
+2026-04-20 13:49:18,280 - [INFO] - Polling Status: Processing (62s elapsed)
+2026-04-20 13:49:39,887 - [INFO] - Polling Status: Processing (83s elapsed)
+2026-04-20 13:50:00,387 - [INFO] - Polling Status: Processing (104s elapsed)
+2026-04-20 13:50:21,397 - [INFO] - Polling Status: Processing (125s elapsed)
+2026-04-20 13:50:43,167 - [INFO] - Polling Status: Processing (147s elapsed)
+2026-04-20 13:51:03,753 - [INFO] - Polling Status: Processing (167s elapsed)
+2026-04-20 13:51:24,331 - [INFO] - Polling Status: Processing (188s elapsed)
+2026-04-20 13:51:45,004 - [INFO] - Polling Status: Processed (208s elapsed)
+2026-04-20 13:51:45,006 - [INFO] - Indexing Complete.
+2026-04-20 13:51:45,007 - [INFO] - Initializing Task 6: Data Extraction
+2026-04-20 13:51:45,007 - [INFO] - Extracted 0 transcript segments
+2026-04-20 13:51:45,007 - [INFO] - Extracted 0 OCR elements
+2026-04-20 13:51:45,007 - [INFO] - Initializing Task 7: RAG Chunking
+2026-04-20 13:51:45,008 - [INFO] - Initializing Task 8: Saving artifacts to outputs/video_indexer_test
+2026-04-20 13:51:45,011 - [INFO] - All artifacts persisted successfully.
+2026-04-20 13:51:45,011 - [INFO] - === FINAL VALIDATION RESULTS ===
+2026-04-20 13:51:45,011 - [INFO] - Video ID: wabx7pjx3y
+2026-04-20 13:51:45,011 - [INFO] - Total Transcript Segments: 0
+2026-04-20 13:51:45,011 - [INFO] - Total RAG Chunks: 0
+2026-04-20 13:51:45,011 - [WARNING] - VALIDATION WARNING: Transcript is empty!
+2026-04-20 13:59:27,425 - [INFO] - === STARTING AZURE VIDEO INDEXER PRODUCTION VALIDATION ===
+2026-04-20 13:59:27,425 - [INFO] - Initializing Task 1: Configuration Validation
+2026-04-20 13:59:27,426 - [INFO] - Loaded VIDEO_INDEXER_ACCESS_TOKEN: eyJhbG...w_ylEQ
+2026-04-20 13:59:27,426 - [INFO] - Loaded VIDEO_INDEXER_ACCOUNT_ID: 6a69f8ca-0f6e-46d3-bd5a-6f3a83dc7b2b
+2026-04-20 13:59:27,426 - [INFO] - Loaded VIDEO_INDEXER_LOCATION: East US
+2026-04-20 13:59:27,426 - [INFO] - Loaded VIDEO_INDEXER_ACCOUNT_TYPE: trial
+2026-04-20 13:59:27,426 - [INFO] - Test Video URL: Project Hail Mary - Official Trailer.mp4
+2026-04-20 13:59:27,426 - [INFO] - Initializing Task 2: API Connectivity Check
+2026-04-20 13:59:28,512 - [WARNING] - Token expired. Attempting rotation...
+2026-04-20 13:59:28,512 - [INFO] - Attempting to fetch fresh access token via Subscription Key...
+2026-04-20 13:59:29,125 - [INFO] - Success: Fresh Access Token acquired.
+2026-04-20 13:59:29,711 - [INFO] - Connectivity Validated: Status 200 OK
+2026-04-20 13:59:29,712 - [INFO] - Initializing Task 3: Uploading Test Video
+2026-04-20 13:59:43,163 - [INFO] - Upload Successful. Target Video ID: v9ze0e8owy
+2026-04-20 13:59:43,167 - [INFO] - Initializing Task 4: Polling status for v9ze0e8owy
+2026-04-20 13:59:44,185 - [INFO] - Polling Status: Processing (1s elapsed)
+2026-04-20 14:00:04,976 - [INFO] - Polling Status: Failed (21s elapsed)
+2026-04-20 14:00:04,976 - [ERROR] - Indexing Failed. Reason: Failed to process the given input file since the file format is not supported. Please try a different file format.
+2026-04-20 14:00:04,976 - [ERROR] - VALIDATION FAILED: Azure Video Indexer reported a failure state: Failed to process the given input file since the file format is not supported. Please try a different file format.

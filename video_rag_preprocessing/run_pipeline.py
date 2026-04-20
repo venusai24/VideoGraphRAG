@@ -31,6 +31,23 @@ def run(video_path: str, output_dir: str, audio_path: str = None):
     config = load_config()
     logger.info("Configuration loaded.")
 
+    # Phase 1: Global Audio Extraction
+    optimal_audio_path = os.path.join(output_dir, "optimal_audio.wav")
+    logger.info(f"Extracting optimal 16kHz mono audio for ASR to {optimal_audio_path}...")
+    try:
+        subprocess.run([
+            "ffmpeg", "-y", "-v", "error",
+            "-i", audio_path,
+            "-vn",
+            "-acodec", "pcm_s16le",
+            "-ar", "16000",
+            "-ac", "1",
+            optimal_audio_path
+        ], check=True)
+    except subprocess.CalledProcessError as e:
+        logger.error(f"Failed to extract optimal audio: {e}")
+        raise
+
     ingestor = VideoIngestor(video_path=video_path)
     extractor = FeatureExtractor(
         clip_dim=config["dimensions"]["clip"],
@@ -112,6 +129,7 @@ def run(video_path: str, output_dir: str, audio_path: str = None):
         height=height,
         width=width,
         logger=logger,
+        audio_path=audio_path,
     )
 
     _write_video_ffmpeg(
@@ -144,14 +162,16 @@ def _get_audio_info(media_path):
         pass
     return None
 
-def _write_video_ffmpeg(output_frames, out_path, fps, height, width, logger, audio_path=None):
+def _write_video_ffmpeg(output_frames, out_path, fps, height, width, logger, audio_path=None, audio_start=0, audio_duration=None):
     """
     Encode output frames to an H.264 MP4 using a piped FFmpeg subprocess.
     Frames are written as raw BGR bytes; FFmpeg converts BGR→YUV and encodes
     with libx264 at CRF=23 (visually lossless at roughly half the mp4v size).
     Also syncs audio by forcing a constant 24fps timeline and stretching audio via atempo.
     """
-    audio_duration = _get_audio_info(audio_path) if audio_path else None
+    is_subclip = audio_duration is not None
+    if audio_path and audio_duration is None:
+        audio_duration = _get_audio_info(audio_path)
     
     cmd = [
         "ffmpeg", "-y",
@@ -171,7 +191,10 @@ def _write_video_ffmpeg(output_frames, out_path, fps, height, width, logger, aud
         drift = abs(video_duration - audio_duration)
         logger.info(f"Video duration: {video_duration:.3f}s, Audio duration: {audio_duration:.3f}s. Drift: {drift:.3f}s")
         
-        cmd.extend(["-i", audio_path])
+        if is_subclip:
+            cmd.extend(["-ss", str(audio_start), "-t", str(audio_duration), "-i", audio_path])
+        else:
+            cmd.extend(["-i", audio_path])
         
         if drift > 0.1:  # Threshold of 100ms
             ratio = audio_duration / video_duration if video_duration > 0 else 1.0
@@ -257,7 +280,7 @@ def _find_neighbour_idx(frames, idx, direction):
     return idx
 
 
-def _group_and_save_clips(output_frames, output_dir, config, fps, height, width, logger):
+def _group_and_save_clips(output_frames, output_dir, config, fps, height, width, logger, audio_path=None):
     grouping_cfg = config.get("clip_grouping", {}) if isinstance(config, dict) else {}
     if grouping_cfg.get("enabled", True) is False:
         logger.info("Clip grouping disabled by config.")
@@ -271,6 +294,9 @@ def _group_and_save_clips(output_frames, output_dir, config, fps, height, width,
         entity_token_cost=float(grouping_cfg.get("entity_token_cost", 2.0)),
         subtitle_token_cost=float(grouping_cfg.get("subtitle_token_cost", 0.5)),
         max_drop_ratio=float(grouping_cfg.get("max_drop_ratio", 0.5)),
+        fps=float(fps),
+        min_duration_sec=float(grouping_cfg.get("min_duration_sec", 2.0)),
+        max_duration_sec=float(grouping_cfg.get("max_duration_sec", 6.0)),
     )
 
     if not clusters:
@@ -289,6 +315,10 @@ def _group_and_save_clips(output_frames, output_dir, config, fps, height, width,
 
         clip_frames = output_frames[start_idx : end_idx + 1]
         clip_path = os.path.join(clips_dir, f"clip_{i:04d}.mp4")
+        # Calculate audio slice
+        audio_start = clip_frames[0].native_timestamp
+        audio_len = len(clip_frames) / float(fps)
+        
         _write_video_ffmpeg(
             output_frames=clip_frames,
             out_path=clip_path,
@@ -296,6 +326,9 @@ def _group_and_save_clips(output_frames, output_dir, config, fps, height, width,
             height=height,
             width=width,
             logger=logger,
+            audio_path=audio_path or video_path,
+            audio_start=audio_start,
+            audio_duration=audio_len
         )
 
         manifest.append(
@@ -314,7 +347,7 @@ def _group_and_save_clips(output_frames, output_dir, config, fps, height, width,
                     subtitle_token_cost=float(grouping_cfg.get("subtitle_token_cost", 0.5)),
                 ),
                 "score_profile": cluster.cluster_score_profile,
-                "path": clip_path,
+                "path": os.path.basename(clip_path),
             }
         )
         

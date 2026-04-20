@@ -274,7 +274,7 @@ def group_frames(
     subtitle_token_cost: float = 0.5,
     max_drop_ratio: float = 0.5,
     fps: float = 24.0,
-    min_duration_sec: float = 2.75,
+    min_duration_sec: float = 2.0,
     max_duration_sec: float = 6.0,
 ) -> List[ClipCluster]:
     if not raw_frames:
@@ -339,8 +339,9 @@ def group_frames(
             continue
 
         merged_frames = clusters[left].frames + clusters[right].frames
-        # enforce max duration constraint before any expensive computation
-        if len(merged_frames) > max_frames:
+        # enforce max duration constraint based on temporal indices, not current frame list size
+        temporal_span = merged_frames[-1].index - merged_frames[0].index + 1
+        if temporal_span > max_frames:
             incompatible.add((left, right))
             continue
         tentative = ClipCluster(id=next_cluster_id, frames=merged_frames)
@@ -420,14 +421,47 @@ def group_frames(
         seen.add(cur)
         cur = next_id.get(cur)
 
-    return out
+    if not out:
+        return []
 
+    # Force merge any remaining small clusters to prevent zero-duration clips
+    final_out: List[ClipCluster] = []
+    for cluster in out:
+        if len(cluster.frames) < min_frames and final_out:
+            prev = final_out[-1]
+            merged_span = cluster.frames[-1].index - prev.frames[0].index + 1
+            if merged_span <= max_frames * 1.5:
+                # Merge into the last cluster
+                merged = ClipCluster(id=prev.id, frames=prev.frames + cluster.frames)
+                cost = calculate_token_cost(
+                    merged,
+                    entity_token_cost=entity_token_cost,
+                    subtitle_token_cost=subtitle_token_cost,
+                )
+                if cost > effective_context_limit:
+                    merged.min_frames = min_frames
+                    _, merged = adaptive_squeeze(
+                        merged,
+                        token_limit=effective_context_limit,
+                        max_drop_ratio=max_drop_ratio,
+                        entity_token_cost=entity_token_cost,
+                        subtitle_token_cost=subtitle_token_cost,
+                    )
+                final_out[-1] = merged
+                continue # Skip appending as it's merged
+
+        final_out.append(cluster)
+
+    if len(final_out) > 1 and len(final_out[0].frames) < min_frames:
+        first = final_out.pop(0)
+        final_out[0] = ClipCluster(id=final_out[0].id, frames=first.frames + final_out[0].frames)
+
+    return final_out
 
 # PascalCase aliases from the plan
 Calculate_Merge_Affinity = calculate_merge_affinity
 Calculate_Token_Cost = calculate_token_cost
 Adaptive_Squeeze = adaptive_squeeze
-
 
 __all__ = [
     "FrameNode",

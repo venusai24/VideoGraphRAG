@@ -22,3 +22,14 @@ scoring:
     diversity: 0.2
   eps: 1.0e-5
   conditional_smoothing_threshold: 0.85
+
+clip_grouping:
+  enabled: true
+  min_duration_sec: 2.0
+  max_duration_sec: 6.0
+  effective_context_limit: 1200.0
+  base_merge_threshold: 0.55
+  default_visual_token_cost: 30.0
+  entity_token_cost: 2.0
+  subtitle_token_cost: 0.5
+  max_drop_ratio: 0.5

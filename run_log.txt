@@ -1,0 +1,77 @@
+2026-04-20 00:06:01,805 - INFO - Starting Semantic Compressor for video: when i breeth.mp4
+2026-04-20 00:06:01,807 - INFO - Configuration loaded.
+2026-04-20 00:06:01,807 - INFO - Extracting optimal 16kHz mono audio for ASR to outputs/optimal_audio.wav...
+2026-04-20 00:06:06,199 - INFO - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-20 00:06:06,284 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/openai/clip-vit-base-patch32/3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268/config.json "HTTP/1.1 200 OK"
+2026-04-20 00:06:06,663 - INFO - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+2026-04-20 00:06:07,180 - INFO - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+2026-04-20 00:06:07,646 - INFO - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/pytorch_model.bin "HTTP/1.1 302 Found"
+2026-04-20 00:06:07,986 - INFO - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]Loading weights: 100%|██████████| 398/398 [00:00<00:00, 45424.03it/s]
+[1mCLIPModel LOAD REPORT[0m from: openai/clip-vit-base-patch32
+Key                                  | Status     |  | 
+-------------------------------------+------------+--+-
+vision_model.embeddings.position_ids | UNEXPECTED |  | 
+text_model.embeddings.position_ids   | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+2026-04-20 00:06:08,446 - INFO - HTTP Request: GET https://huggingface.co/api/models/openai/clip-vit-base-patch32 "HTTP/1.1 200 OK"
+2026-04-20 00:06:08,920 - INFO - HTTP Request: GET https://huggingface.co/api/models/openai/clip-vit-base-patch32/commits/main "HTTP/1.1 200 OK"
+2026-04-20 00:06:09,434 - INFO - HTTP Request: GET https://huggingface.co/api/models/openai/clip-vit-base-patch32/discussions?p=0 "HTTP/1.1 200 OK"
+2026-04-20 00:06:09,435 - INFO - HTTP Request: GET https://huggingface.co/api/models/openai/clip-vit-base-patch32/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-20 00:06:09,947 - INFO - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-04-20 00:06:09,948 - INFO - HTTP Request: GET https://huggingface.co/api/models/openai/clip-vit-base-patch32/commits/refs%2Fpr%2F66 "HTTP/1.1 200 OK"
+2026-04-20 00:06:10,348 - INFO - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/refs%2Fpr%2F66/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+2026-04-20 00:06:10,349 - INFO - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/chat_template.json "HTTP/1.1 404 Not Found"
+2026-04-20 00:06:10,743 - INFO - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/chat_template.jinja "HTTP/1.1 404 Not Found"
+2026-04-20 00:06:10,744 - INFO - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/refs%2Fpr%2F66/model.safetensors "HTTP/1.1 302 Found"
+2026-04-20 00:06:11,167 - INFO - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/audio_tokenizer_config.json "HTTP/1.1 404 Not Found"
+2026-04-20 00:06:11,685 - INFO - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-04-20 00:06:12,199 - INFO - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-20 00:06:12,272 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/openai/clip-vit-base-patch32/3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268/preprocessor_config.json "HTTP/1.1 200 OK"
+2026-04-20 00:06:12,812 - INFO - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-04-20 00:06:13,208 - INFO - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-20 00:06:13,315 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/openai/clip-vit-base-patch32/3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268/preprocessor_config.json "HTTP/1.1 200 OK"
+2026-04-20 00:06:13,697 - INFO - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-20 00:06:13,804 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/openai/clip-vit-base-patch32/3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268/config.json "HTTP/1.1 200 OK"
+2026-04-20 00:06:14,158 - INFO - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-20 00:06:14,202 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/openai/clip-vit-base-patch32/3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-20 00:06:14,509 - INFO - HTTP Request: GET https://huggingface.co/api/models/openai/clip-vit-base-patch32/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-20 00:06:15,069 - INFO - HTTP Request: GET https://huggingface.co/api/models/openai/clip-vit-base-patch32/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-20 00:06:15,190 - INFO - CLIP model loaded on mps
+Using cache found in /Users/aderlasatvik/.cache/torch/hub/facebookresearch_dinov2_main
+/Users/aderlasatvik/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/Users/aderlasatvik/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/Users/aderlasatvik/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+2026-04-20 00:06:16,322 - INFO - using MLP layer as FFN
+2026-04-20 00:06:16,732 - INFO - DINOv2 model loaded on mps
+2026-04-20 00:06:16,849 - INFO - YOLOv8n entity detector loaded
+2026-04-20 00:06:16,850 - INFO - Pipeline components initialized (native FPS=30.00). Commencing frame streaming...
+2026-04-20 00:06:19,684 - INFO - Processed 30 native frames. Compressor time target: 0.96s
+2026-04-20 00:06:22,234 - INFO - Processed 60 native frames. Compressor time target: 1.96s
+2026-04-20 00:06:24,717 - INFO - Processed 90 native frames. Compressor time target: 2.96s
+2026-04-20 00:06:27,154 - INFO - Processed 120 native frames. Compressor time target: 3.96s
+2026-04-20 00:06:29,556 - INFO - Processed 150 native frames. Compressor time target: 4.96s
+2026-04-20 00:06:31,944 - INFO - Processed 180 native frames. Compressor time target: 5.96s
+2026-04-20 00:06:34,419 - INFO - Processed 210 native frames. Compressor time target: 6.96s
+2026-04-20 00:06:36,957 - INFO - Processed 240 native frames. Compressor time target: 7.96s
+2026-04-20 00:06:39,292 - INFO - Processed 270 native frames. Compressor time target: 8.96s
+2026-04-20 00:06:41,671 - INFO - Processed 300 native frames. Compressor time target: 9.96s
+2026-04-20 00:06:43,989 - INFO - Processed 330 native frames. Compressor time target: 10.96s
+2026-04-20 00:06:46,339 - INFO - Processed 360 native frames. Compressor time target: 11.96s
+2026-04-20 00:06:49,023 - INFO - Processed 390 native frames. Compressor time target: 12.96s
+2026-04-20 00:06:51,368 - INFO - Processed 420 native frames. Compressor time target: 13.96s
+2026-04-20 00:06:53,824 - INFO - Processed 450 native frames. Compressor time target: 14.96s
+2026-04-20 00:06:53,826 - INFO - Emission complete. Generated 359 standardized 24 FPS semantic output frames from 450 native frames.
+2026-04-20 00:06:53,832 - INFO - Saved execution telemetry to outputs/scores.json. Included 0 synthetic gap-fills.
+2026-04-20 00:06:53,832 - INFO - Starting video reconstruction...
+2026-04-20 00:06:53,960 - INFO - Video duration: 8.000s, Audio duration: 8.000s. Drift: 0.000s
+2026-04-20 00:06:55,100 - INFO - Generated 1/1 clips...
+2026-04-20 00:06:55,101 - INFO - Clip grouping complete. Wrote 1 clips to outputs/clips
+2026-04-20 00:06:55,161 - INFO - Video duration: 14.958s, Audio duration: 15.067s. Drift: 0.109s
+2026-04-20 00:06:55,161 - INFO - Applying atempo filter with ratio 1.0073 to fix drift.
+2026-04-20 00:06:57,074 - INFO - Pipeline executed successfully. Final video saved at: outputs/reconstructed.mp4
