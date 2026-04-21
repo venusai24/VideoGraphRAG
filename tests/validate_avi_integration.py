@@ -54,9 +54,9 @@ class AzureVideoIndexerValidator:
                 self.config[var] = val
                 logger.info(f"Loaded {var}: {val}")
 
-        # Handle TEST_VIDEO_URL (defaulting if not present for the validation run)
-        self.config["TEST_VIDEO_URL"] = os.getenv("TEST_VIDEO_URL", "https://www.youtube.com/watch?v=sW_7i6T_H98")
-        logger.info(f"Test Video URL: {self.config['TEST_VIDEO_URL']}")
+        # Handle TEST_VIDEO_URL (using the local file requested by the user)
+        self.config["TEST_VIDEO_URL"] = os.getenv("TEST_VIDEO_URL", "when i breeth.mp4")
+        logger.info(f"Test Video Path: {self.config['TEST_VIDEO_URL']}")
 
     def _get_headers(self, token: str = None):
         t = token or self.config.get("VIDEO_INDEXER_ACCESS_TOKEN")
@@ -268,6 +268,19 @@ class AzureVideoIndexerValidator:
         logger.info(f"Generated {len(chunks)} RAG chunks")
         return chunks
 
+    def delete_video(self, video_id: str):
+        """Task 10: Delete Video from Azure Video Indexer"""
+        logger.info(f"Initializing Task 10: Deleting video {video_id}")
+        loc = "trial" if self.config["VIDEO_INDEXER_ACCOUNT_TYPE"].lower() == "trial" else self.config["VIDEO_INDEXER_LOCATION"]
+        url = f"{self.base_url}/{loc}/Accounts/{self.config['VIDEO_INDEXER_ACCOUNT_ID']}/Videos/{video_id}"
+        
+        response = requests.delete(url, headers=self._get_headers())
+        
+        if response.status_code in [200, 204]:
+            logger.info(f"Successfully deleted video {video_id} from storage.")
+        else:
+            logger.error(f"Failed to delete video: {response.status_code} - {response.text}")
+
     def save_outputs(self, raw_data: Dict[str, Any], extracted: Dict[str, Any], chunks: List[Dict[str, Any]]):
         """Task 8: Persist to File System"""
         logger.info(f"Initializing Task 8: Saving artifacts to {self.output_dir}")
@@ -316,6 +329,9 @@ class AzureVideoIndexerValidator:
                 
             if len(chunks) > 0:
                 logger.info("VALIDATION SUCCESS: RAG Chunks generated.")
+            
+            # Step 10: Delete
+            self.delete_video(video_id)
             
         except Exception as e:
             logger.error(f"VALIDATION FAILED: {str(e)}")

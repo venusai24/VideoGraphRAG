@@ -150,3 +150,133 @@
 2026-04-20 14:00:04,976 - [INFO] - Polling Status: Failed (21s elapsed)
 2026-04-20 14:00:04,976 - [ERROR] - Indexing Failed. Reason: Failed to process the given input file since the file format is not supported. Please try a different file format.
 2026-04-20 14:00:04,976 - [ERROR] - VALIDATION FAILED: Azure Video Indexer reported a failure state: Failed to process the given input file since the file format is not supported. Please try a different file format.
+2026-04-20 21:08:54,102 - [INFO] - === STARTING AZURE VIDEO INDEXER PRODUCTION VALIDATION ===
+2026-04-20 21:08:54,102 - [INFO] - Initializing Task 1: Configuration Validation
+2026-04-20 21:08:54,103 - [INFO] - Loaded VIDEO_INDEXER_ACCESS_TOKEN: dummy...dummy
+2026-04-20 21:08:54,103 - [INFO] - Loaded VIDEO_INDEXER_ACCOUNT_ID: b4be5186-a745-46e1-a73b-fabf3897e631
+2026-04-20 21:08:54,103 - [INFO] - Loaded VIDEO_INDEXER_LOCATION: trial
+2026-04-20 21:08:54,103 - [INFO] - Loaded VIDEO_INDEXER_ACCOUNT_TYPE: trial
+2026-04-20 21:08:54,103 - [INFO] - Test Video URL: https://www.youtube.com/watch?v=sW_7i6T_H98
+2026-04-20 21:08:54,103 - [INFO] - Initializing Task 2: API Connectivity Check
+2026-04-20 21:08:55,094 - [WARNING] - Token expired. Attempting rotation...
+2026-04-20 21:08:55,094 - [INFO] - Attempting to fetch fresh access token via Subscription Key...
+2026-04-20 21:08:56,533 - [INFO] - Success: Fresh Access Token acquired.
+2026-04-20 21:08:57,281 - [INFO] - Connectivity Validated: Status 200 OK
+2026-04-20 21:08:57,282 - [INFO] - Initializing Task 3: Uploading Test Video
+2026-04-20 21:08:57,765 - [ERROR] - Upload Failed: 400 - {"ErrorType":"INVALID_INPUT","Message":"Url content type 'text/html' is not supported. Only audio and video files are supported. You can find the supported types here: https://aka.ms/upload-standard-formats. Trace id: '0545914a-7a00-4d30-aaab-8ee12fd30833'."}
+2026-04-20 21:08:57,766 - [ERROR] - VALIDATION FAILED: 400 Client Error: Bad Request for url: https://api.videoindexer.ai/trial/Accounts/b4be5186-a745-46e1-a73b-fabf3897e631/Videos?name=project-hail-mary-test-20260420-210857&privacy=Private&indexingPreset=AdvancedVideo&language=en-US&videoUrl=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DsW_7i6T_H98
+2026-04-20 21:12:44,280 - [INFO] - === STARTING AZURE VIDEO INDEXER PRODUCTION VALIDATION ===
+2026-04-20 21:12:44,280 - [INFO] - Initializing Task 1: Configuration Validation
+2026-04-20 21:12:44,281 - [INFO] - Loaded VIDEO_INDEXER_ACCESS_TOKEN: dummy...dummy
+2026-04-20 21:12:44,281 - [INFO] - Loaded VIDEO_INDEXER_ACCOUNT_ID: b4be5186-a745-46e1-a73b-fabf3897e631
+2026-04-20 21:12:44,281 - [INFO] - Loaded VIDEO_INDEXER_LOCATION: trial
+2026-04-20 21:12:44,281 - [INFO] - Loaded VIDEO_INDEXER_ACCOUNT_TYPE: trial
+2026-04-20 21:12:44,281 - [INFO] - Test Video Path: when i breeth.mp4
+2026-04-20 21:12:44,281 - [INFO] - Initializing Task 2: API Connectivity Check
+2026-04-20 21:12:44,678 - [WARNING] - Token expired. Attempting rotation...
+2026-04-20 21:12:44,678 - [INFO] - Attempting to fetch fresh access token via Subscription Key...
+2026-04-20 21:12:48,982 - [INFO] - Success: Fresh Access Token acquired.
+2026-04-20 21:12:49,435 - [INFO] - Connectivity Validated: Status 200 OK
+2026-04-20 21:12:49,438 - [INFO] - Initializing Task 3: Uploading Test Video
+2026-04-20 21:13:20,372 - [INFO] - Upload Successful. Target Video ID: fmqoaaskaz
+2026-04-20 21:13:20,375 - [INFO] - Initializing Task 4: Polling status for fmqoaaskaz
+2026-04-20 21:13:21,160 - [INFO] - Polling Status: Processing (0s elapsed)
+2026-04-20 21:13:41,903 - [INFO] - Polling Status: Processing (21s elapsed)
+2026-04-20 21:14:02,917 - [INFO] - Polling Status: Processing (42s elapsed)
+2026-04-20 21:14:24,612 - [INFO] - Polling Status: Processing (64s elapsed)
+2026-04-20 21:14:46,512 - [INFO] - Polling Status: Processing (86s elapsed)
+2026-04-20 21:15:07,432 - [INFO] - Polling Status: Processing (107s elapsed)
+2026-04-20 21:15:28,119 - [INFO] - Polling Status: Processing (127s elapsed)
+2026-04-20 21:15:48,598 - [INFO] - Polling Status: Processing (148s elapsed)
+2026-04-20 21:16:09,601 - [INFO] - Polling Status: Processing (169s elapsed)
+2026-04-20 21:16:30,314 - [INFO] - Polling Status: Processing (189s elapsed)
+2026-04-20 21:16:51,103 - [INFO] - Polling Status: Processing (210s elapsed)
+2026-04-20 21:17:12,717 - [INFO] - Polling Status: Processed (232s elapsed)
+2026-04-20 21:17:12,719 - [INFO] - Indexing Complete.
+2026-04-20 21:17:12,721 - [INFO] - Initializing Task 6: Data Extraction
+2026-04-20 21:17:12,722 - [INFO] - Extracted 0 transcript segments
+2026-04-20 21:17:12,722 - [INFO] - Extracted 0 OCR elements
+2026-04-20 21:17:12,722 - [INFO] - Initializing Task 7: RAG Chunking
+2026-04-20 21:17:12,722 - [INFO] - Initializing Task 8: Saving artifacts to outputs/video_indexer_test
+2026-04-20 21:17:12,728 - [INFO] - All artifacts persisted successfully.
+2026-04-20 21:17:12,728 - [INFO] - === FINAL VALIDATION RESULTS ===
+2026-04-20 21:17:12,728 - [INFO] - Video ID: fmqoaaskaz
+2026-04-20 21:17:12,728 - [INFO] - Total Transcript Segments: 0
+2026-04-20 21:17:12,728 - [INFO] - Total RAG Chunks: 0
+2026-04-20 21:17:12,728 - [WARNING] - VALIDATION WARNING: Transcript is empty!
+2026-04-20 21:17:12,728 - [INFO] - Initializing Task 10: Deleting video fmqoaaskaz
+2026-04-20 21:17:16,365 - [INFO] - Successfully deleted video fmqoaaskaz from storage.
+2026-04-20 21:22:49,001 - [INFO] - === STARTING AZURE VIDEO INDEXER PRODUCTION VALIDATION ===
+2026-04-20 21:22:49,001 - [INFO] - Initializing Task 1: Configuration Validation
+2026-04-20 21:22:49,002 - [INFO] - Loaded VIDEO_INDEXER_ACCESS_TOKEN: dummy...dummy
+2026-04-20 21:22:49,002 - [INFO] - Loaded VIDEO_INDEXER_ACCOUNT_ID: 1f406357-bffb-45f2-91fe-02ef69da2203
+2026-04-20 21:22:49,002 - [INFO] - Loaded VIDEO_INDEXER_LOCATION: trial
+2026-04-20 21:22:49,002 - [INFO] - Loaded VIDEO_INDEXER_ACCOUNT_TYPE: trial
+2026-04-20 21:22:49,002 - [INFO] - Test Video Path: when i breeth.mp4
+2026-04-20 21:22:49,002 - [INFO] - Initializing Task 2: API Connectivity Check
+2026-04-20 21:22:51,424 - [WARNING] - Token expired. Attempting rotation...
+2026-04-20 21:22:51,425 - [INFO] - Attempting to fetch fresh access token via Subscription Key...
+2026-04-20 21:22:52,437 - [INFO] - Success: Fresh Access Token acquired.
+2026-04-20 21:22:53,771 - [INFO] - Connectivity Validated: Status 200 OK
+2026-04-20 21:22:53,773 - [INFO] - Initializing Task 3: Uploading Test Video
+2026-04-20 21:23:15,173 - [INFO] - Upload Successful. Target Video ID: efbwu374lt
+2026-04-20 21:23:15,176 - [INFO] - Initializing Task 4: Polling status for efbwu374lt
+2026-04-20 21:23:15,684 - [INFO] - Polling Status: Processing (0s elapsed)
+2026-04-20 21:23:36,382 - [INFO] - Polling Status: Processing (21s elapsed)
+2026-04-20 21:23:57,155 - [INFO] - Polling Status: Processing (41s elapsed)
+2026-04-20 21:24:17,646 - [INFO] - Polling Status: Processing (62s elapsed)
+2026-04-20 21:24:38,936 - [INFO] - Polling Status: Processing (83s elapsed)
+2026-04-20 21:24:59,854 - [INFO] - Polling Status: Processing (104s elapsed)
+2026-04-20 21:25:21,380 - [INFO] - Polling Status: Processing (126s elapsed)
+2026-04-20 21:25:41,946 - [INFO] - Polling Status: Processing (146s elapsed)
+2026-04-20 21:26:02,745 - [INFO] - Polling Status: Processed (167s elapsed)
+2026-04-20 21:26:02,746 - [INFO] - Indexing Complete.
+2026-04-20 21:26:02,748 - [INFO] - Initializing Task 6: Data Extraction
+2026-04-20 21:26:02,748 - [INFO] - Extracted 0 transcript segments
+2026-04-20 21:26:02,748 - [INFO] - Extracted 0 OCR elements
+2026-04-20 21:26:02,748 - [INFO] - Initializing Task 7: RAG Chunking
+2026-04-20 21:26:02,749 - [INFO] - Initializing Task 8: Saving artifacts to outputs/video_indexer_test
+2026-04-20 21:26:02,753 - [INFO] - All artifacts persisted successfully.
+2026-04-20 21:26:02,753 - [INFO] - === FINAL VALIDATION RESULTS ===
+2026-04-20 21:26:02,753 - [INFO] - Video ID: efbwu374lt
+2026-04-20 21:26:02,754 - [INFO] - Total Transcript Segments: 0
+2026-04-20 21:26:02,754 - [INFO] - Total RAG Chunks: 0
+2026-04-20 21:26:02,754 - [WARNING] - VALIDATION WARNING: Transcript is empty!
+2026-04-20 21:26:02,754 - [INFO] - Initializing Task 10: Deleting video efbwu374lt
+2026-04-20 21:26:03,695 - [INFO] - Successfully deleted video efbwu374lt from storage.
+2026-04-20 21:51:40,468 - [INFO] - === STARTING AZURE VIDEO INDEXER PRODUCTION VALIDATION ===
+2026-04-20 21:51:40,468 - [INFO] - Initializing Task 1: Configuration Validation
+2026-04-20 21:51:40,469 - [INFO] - Loaded VIDEO_INDEXER_ACCESS_TOKEN: dummy...dummy
+2026-04-20 21:51:40,469 - [INFO] - Loaded VIDEO_INDEXER_ACCOUNT_ID: 398969ab-2964-4b6c-9fc6-80486e766222
+2026-04-20 21:51:40,469 - [INFO] - Loaded VIDEO_INDEXER_LOCATION: trial
+2026-04-20 21:51:40,469 - [INFO] - Loaded VIDEO_INDEXER_ACCOUNT_TYPE: trial
+2026-04-20 21:51:40,469 - [INFO] - Test Video Path: when i breeth.mp4
+2026-04-20 21:51:40,469 - [INFO] - Initializing Task 2: API Connectivity Check
+2026-04-20 21:51:41,447 - [WARNING] - Token expired. Attempting rotation...
+2026-04-20 21:51:41,448 - [INFO] - Attempting to fetch fresh access token via Subscription Key...
+2026-04-20 21:51:42,001 - [INFO] - Success: Fresh Access Token acquired.
+2026-04-20 21:51:43,684 - [INFO] - Connectivity Validated: Status 200 OK
+2026-04-20 21:51:43,685 - [INFO] - Initializing Task 3: Uploading Test Video
+2026-04-20 21:52:05,976 - [INFO] - Upload Successful. Target Video ID: 8ar7h1x0xv
+2026-04-20 21:52:05,981 - [INFO] - Initializing Task 4: Polling status for 8ar7h1x0xv
+2026-04-20 21:52:06,884 - [INFO] - Polling Status: Processing (0s elapsed)
+2026-04-20 21:52:27,343 - [INFO] - Polling Status: Processing (21s elapsed)
+2026-04-20 21:52:48,905 - [INFO] - Polling Status: Processing (42s elapsed)
+2026-04-20 21:53:09,455 - [INFO] - Polling Status: Processing (63s elapsed)
+2026-04-20 21:53:29,936 - [INFO] - Polling Status: Processing (83s elapsed)
+2026-04-20 21:53:52,126 - [INFO] - Polling Status: Processing (106s elapsed)
+2026-04-20 21:54:12,819 - [INFO] - Polling Status: Processed (126s elapsed)
+2026-04-20 21:54:12,819 - [INFO] - Indexing Complete.
+2026-04-20 21:54:12,820 - [INFO] - Initializing Task 6: Data Extraction
+2026-04-20 21:54:12,820 - [INFO] - Extracted 0 transcript segments
+2026-04-20 21:54:12,820 - [INFO] - Extracted 0 OCR elements
+2026-04-20 21:54:12,820 - [INFO] - Initializing Task 7: RAG Chunking
+2026-04-20 21:54:12,821 - [INFO] - Initializing Task 8: Saving artifacts to outputs/video_indexer_test
+2026-04-20 21:54:12,824 - [INFO] - All artifacts persisted successfully.
+2026-04-20 21:54:12,824 - [INFO] - === FINAL VALIDATION RESULTS ===
+2026-04-20 21:54:12,824 - [INFO] - Video ID: 8ar7h1x0xv
+2026-04-20 21:54:12,824 - [INFO] - Total Transcript Segments: 0
+2026-04-20 21:54:12,824 - [INFO] - Total RAG Chunks: 0
+2026-04-20 21:54:12,824 - [WARNING] - VALIDATION WARNING: Transcript is empty!
+2026-04-20 21:54:12,824 - [INFO] - Initializing Task 10: Deleting video 8ar7h1x0xv
+2026-04-20 21:54:14,063 - [INFO] - Successfully deleted video 8ar7h1x0xv from storage.
