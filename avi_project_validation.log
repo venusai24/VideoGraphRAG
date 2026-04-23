@@ -1,0 +1,44 @@
+2026-04-22 23:25:22,171 - [INFO] - === STARTING AZURE VIDEO INDEXER PROJECT PIPELINE ===
+2026-04-22 23:25:22,171 - [INFO] - Initializing Task 1: Configuration Validation
+2026-04-22 23:25:22,171 - [INFO] - Loaded VIDEO_INDEXER_ACCESS_TOKEN: eyJhbG...w_ylEQ
+2026-04-22 23:25:22,171 - [INFO] - Loaded VIDEO_INDEXER_ACCOUNT_ID: 6a69f8ca-0f6e-46d3-bd5a-6f3a83dc7b2b
+2026-04-22 23:25:22,171 - [INFO] - Loaded VIDEO_INDEXER_LOCATION: East US
+2026-04-22 23:25:22,171 - [INFO] - Loaded VIDEO_INDEXER_ACCOUNT_TYPE: trial
+2026-04-22 23:25:22,172 - [INFO] - Loaded and verified 9 local videos for the project.
+2026-04-22 23:25:22,172 - [INFO] - Initializing Task 2: API Connectivity Check
+2026-04-22 23:25:23,573 - [WARNING] - Token expired. Attempting rotation...
+2026-04-22 23:25:23,573 - [INFO] - Attempting to fetch fresh access token via Subscription Key...
+2026-04-22 23:25:24,286 - [INFO] - Success: Fresh Access Token acquired.
+2026-04-22 23:25:24,900 - [INFO] - Connectivity Validated: Status 200 OK
+2026-04-22 23:25:24,902 - [INFO] - Initializing Task 3: Parallel Local Video Uploads
+2026-04-22 23:25:24,906 - [INFO] - Uploading local video 0: clip_000.mp4...
+2026-04-22 23:25:24,907 - [INFO] - Uploading local video 1: clip_001.mp4...
+2026-04-22 23:25:24,908 - [INFO] - Uploading local video 2: clip_002.mp4...
+2026-04-22 23:25:24,909 - [INFO] - Uploading local video 3: clip_003.mp4...
+2026-04-22 23:25:24,910 - [INFO] - Uploading local video 4: clip_004.mp4...
+2026-04-22 23:25:30,330 - [INFO] - Video 0 (clip_000.mp4) uploaded successfully. Target ID: e4h7j816m7
+2026-04-22 23:25:30,330 - [INFO] - Video 2 (clip_002.mp4) uploaded successfully. Target ID: xaoj2tjsd8
+2026-04-22 23:25:30,332 - [INFO] - Uploading local video 5: clip_005.mp4...
+2026-04-22 23:25:30,335 - [INFO] - Uploading local video 6: clip_006.mp4...
+2026-04-22 23:25:30,337 - [INFO] - Video 3 (clip_003.mp4) uploaded successfully. Target ID: 1p8mdifbcb
+2026-04-22 23:25:30,338 - [INFO] - Uploading local video 7: clip_007.mp4...
+2026-04-22 23:25:30,573 - [INFO] - Video 4 (clip_004.mp4) uploaded successfully. Target ID: hrq3z2iqe8
+2026-04-22 23:25:30,576 - [INFO] - Uploading local video 8: clip_008.mp4...
+2026-04-22 23:25:30,634 - [INFO] - Video 1 (clip_001.mp4) uploaded successfully. Target ID: v9krny4792
+2026-04-22 23:25:33,016 - [INFO] - Video 8 (clip_008.mp4) uploaded successfully. Target ID: 3a903xr8or
+2026-04-22 23:25:33,610 - [INFO] - Video 6 (clip_006.mp4) uploaded successfully. Target ID: an7gepv28c
+2026-04-22 23:25:33,750 - [INFO] - Video 5 (clip_005.mp4) uploaded successfully. Target ID: x44chuv1nj
+2026-04-22 23:25:34,119 - [INFO] - Video 7 (clip_007.mp4) uploaded successfully. Target ID: 4bc77dcwwd
+2026-04-22 23:25:34,122 - [INFO] - Initializing Task 4: Polling status for 9 videos
+2026-04-22 23:26:22,763 - [INFO] - Video e4h7j816m7 indexing Complete. Duration: 0:00:30.102
+2026-04-22 23:26:38,260 - [INFO] - Video x44chuv1nj indexing Complete. Duration: 0:00:30.044
+2026-04-22 23:26:38,299 - [INFO] - Video xaoj2tjsd8 indexing Complete. Duration: 0:00:30.079
+2026-04-22 23:28:28,910 - [INFO] - Video an7gepv28c indexing Complete. Duration: 0:00:30.074
+2026-04-22 23:28:44,244 - [INFO] - Video 4bc77dcwwd indexing Complete. Duration: 0:00:30.104
+2026-04-22 23:28:44,248 - [INFO] - Video 3a903xr8or indexing Complete. Duration: 0:00:14.835011
+2026-04-22 23:28:44,267 - [INFO] - Video hrq3z2iqe8 indexing Complete. Duration: 0:00:30.055
+2026-04-22 23:28:44,883 - [INFO] - Video v9krny4792 indexing Complete. Duration: 0:00:30.049
+2026-04-22 23:29:00,115 - [INFO] - Video 1p8mdifbcb indexing Complete. Duration: 0:00:30.067
+2026-04-22 23:29:00,118 - [INFO] - Initializing Task 5: Creating Project with strict API schema
+2026-04-22 23:29:00,650 - [ERROR] - Project Creation Failed: {"ErrorType":"INVALID_INPUT","Message":"Request payload is invalid.\n Name: The 'name' property is required to have non-empty value\n. Trace id: 'd99ea300-b367-4998-a95e-253796b30e5f'."}
+2026-04-22 23:29:00,650 - [ERROR] - PIPELINE FAILED: 400 Client Error: Bad Request for url: https://api.videoindexer.ai/trial/Accounts/6a69f8ca-0f6e-46d3-bd5a-6f3a83dc7b2b/Projects?name=Aggregated-Project-20260422-232900

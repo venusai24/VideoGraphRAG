@@ -1,0 +1,106 @@
+2026-04-22 23:34:09,745 - [INFO] - === STARTING AZURE PROJECT ASSEMBLY (SKIPPING UPLOADS) ===
+2026-04-22 23:34:09,745 - [INFO] - Initializing Task 1: Configuration Validation
+2026-04-22 23:34:09,745 - [INFO] - Loaded VIDEO_INDEXER_ACCESS_TOKEN: eyJhbG...w_ylEQ
+2026-04-22 23:34:09,746 - [INFO] - Loaded VIDEO_INDEXER_ACCOUNT_ID: 6a69f8ca-0f6e-46d3-bd5a-6f3a83dc7b2b
+2026-04-22 23:34:09,746 - [INFO] - Loaded VIDEO_INDEXER_LOCATION: East US
+2026-04-22 23:34:09,746 - [INFO] - Loaded VIDEO_INDEXER_ACCOUNT_TYPE: trial
+2026-04-22 23:34:09,746 - [INFO] - Initializing Task 5: Creating Project with correct JSON payload
+2026-04-22 23:34:11,127 - [INFO] - Success: Fresh Access Token acquired.
+2026-04-22 23:34:11,864 - [INFO] - Project created successfully! Project ID: u1snihmm6s
+2026-04-22 23:34:11,866 - [INFO] - Initializing Task 6: Fetching Project Index for u1snihmm6s
+2026-04-22 23:34:12,415 - [INFO] - Successfully fetched Project Index (including summarized insights).
+2026-04-22 23:34:12,417 - [INFO] - Initializing Task 7: Persisting Project JSON
+2026-04-22 23:34:12,419 - [INFO] - Project insights stored successfully at: outputs/projects/project_u1snihmm6s_index.json
+2026-04-22 23:34:12,419 - [INFO] - === PIPELINE COMPLETED SUCCESSFULLY ===
+2026-04-22 23:34:12,419 - [INFO] - Project ID: u1snihmm6s
+2026-04-22 23:34:12,419 - [INFO] - Total Videos Indexed in Project: 9
+2026-04-22 23:39:07,392 - [INFO] - === STARTING AZURE PROJECT ASSEMBLY (SKIPPING UPLOADS) ===
+2026-04-22 23:39:07,392 - [INFO] - Initializing Task 1: Configuration Validation
+2026-04-22 23:39:07,393 - [INFO] - Loaded VIDEO_INDEXER_ACCESS_TOKEN: eyJhbG...w_ylEQ
+2026-04-22 23:39:07,393 - [INFO] - Loaded VIDEO_INDEXER_ACCOUNT_ID: 6a69f8ca-0f6e-46d3-bd5a-6f3a83dc7b2b
+2026-04-22 23:39:07,393 - [INFO] - Loaded VIDEO_INDEXER_LOCATION: East US
+2026-04-22 23:39:07,393 - [INFO] - Loaded VIDEO_INDEXER_ACCOUNT_TYPE: trial
+2026-04-22 23:39:07,393 - [INFO] - Initializing Task 5: Creating Project with root video arrays
+2026-04-22 23:39:08,702 - [INFO] - Success: Fresh Access Token acquired.
+2026-04-22 23:39:09,419 - [ERROR] - Project Creation Failed: {"ErrorType":"GENERAL","Message":" Trace id: '0783c994-095f-40b9-adb4-e98bee60dc78'."}
+2026-04-22 23:39:09,419 - [ERROR] - PIPELINE FAILED: 500 Server Error: Internal Server Error for url: https://api.videoindexer.ai/trial/Accounts/6a69f8ca-0f6e-46d3-bd5a-6f3a83dc7b2b/Projects
+2026-04-22 23:41:57,772 - [INFO] - === STARTING AZURE PROJECT ASSEMBLY (SKIPPING UPLOADS) ===
+2026-04-22 23:41:57,772 - [INFO] - Initializing Task 1: Configuration Validation
+2026-04-22 23:41:57,773 - [INFO] - Loaded VIDEO_INDEXER_ACCESS_TOKEN: eyJhbG...w_ylEQ
+2026-04-22 23:41:57,773 - [INFO] - Loaded VIDEO_INDEXER_ACCOUNT_ID: 6a69f8ca-0f6e-46d3-bd5a-6f3a83dc7b2b
+2026-04-22 23:41:57,773 - [INFO] - Loaded VIDEO_INDEXER_LOCATION: East US
+2026-04-22 23:41:57,773 - [INFO] - Loaded VIDEO_INDEXER_ACCOUNT_TYPE: trial
+2026-04-22 23:41:57,773 - [INFO] - Initializing Task 5: Creating Project with safe schema
+2026-04-22 23:41:58,890 - [INFO] - Success: Fresh Access Token acquired.
+2026-04-22 23:41:59,707 - [INFO] - Project created successfully! Project ID: ux3dat2b2c
+2026-04-22 23:41:59,708 - [INFO] - Initializing Task 6: Fetching Project Index for ux3dat2b2c
+2026-04-22 23:42:00,319 - [INFO] - Successfully fetched Project Index (including summarized insights).
+2026-04-22 23:42:00,322 - [INFO] - Initializing Task 7: Persisting Project JSON
+2026-04-22 23:42:00,323 - [INFO] - Project insights stored successfully at: outputs/projects/project_ux3dat2b2c_index.json
+2026-04-22 23:42:00,323 - [INFO] - === PIPELINE COMPLETED SUCCESSFULLY ===
+2026-04-22 23:42:00,323 - [INFO] - Project ID: ux3dat2b2c
+2026-04-22 23:42:00,323 - [INFO] - Total Videos Indexed in Project: 9
+2026-04-22 23:45:57,391 - [INFO] - === STARTING AZURE PROJECT ASSEMBLY (SKIPPING UPLOADS) ===
+2026-04-22 23:45:57,391 - [INFO] - Initializing Task 1: Configuration Validation
+2026-04-22 23:45:57,392 - [INFO] - Loaded VIDEO_INDEXER_ACCESS_TOKEN: eyJhbG...w_ylEQ
+2026-04-22 23:45:57,392 - [INFO] - Loaded VIDEO_INDEXER_ACCOUNT_ID: 6a69f8ca-0f6e-46d3-bd5a-6f3a83dc7b2b
+2026-04-22 23:45:57,392 - [INFO] - Loaded VIDEO_INDEXER_LOCATION: East US
+2026-04-22 23:45:57,392 - [INFO] - Loaded VIDEO_INDEXER_ACCOUNT_TYPE: trial
+2026-04-22 23:45:57,392 - [INFO] - Initializing Task 5: Creating Project (Create Empty -> PUT Update)
+2026-04-22 23:45:58,447 - [INFO] - Success: Fresh Access Token acquired.
+2026-04-22 23:45:59,531 - [INFO] - Empty Project shell created! Project ID: lejqyzzlgi
+2026-04-22 23:46:00,349 - [ERROR] - Project Update Failed: {"ErrorType":"GENERAL","Message":" Trace id: 'e41d1f9d-6ea8-42d3-9b58-1728693922fd'."}
+2026-04-22 23:46:00,349 - [ERROR] - PIPELINE FAILED: 500 Server Error: Internal Server Error for url: https://api.videoindexer.ai/trial/Accounts/6a69f8ca-0f6e-46d3-bd5a-6f3a83dc7b2b/Projects/lejqyzzlgi
+2026-04-22 23:50:28,313 - [INFO] - === STARTING AZURE PROJECT ASSEMBLY (SKIPPING UPLOADS) ===
+2026-04-22 23:50:28,313 - [INFO] - Initializing Task 1: Configuration Validation
+2026-04-22 23:50:28,314 - [INFO] - Loaded VIDEO_INDEXER_ACCESS_TOKEN: eyJhbG...w_ylEQ
+2026-04-22 23:50:28,314 - [INFO] - Loaded VIDEO_INDEXER_ACCOUNT_ID: 6a69f8ca-0f6e-46d3-bd5a-6f3a83dc7b2b
+2026-04-22 23:50:28,314 - [INFO] - Loaded VIDEO_INDEXER_LOCATION: East US
+2026-04-22 23:50:28,314 - [INFO] - Loaded VIDEO_INDEXER_ACCOUNT_TYPE: trial
+2026-04-22 23:50:28,314 - [INFO] - Initializing Task 5: Creating Project via Full Object Injection
+2026-04-22 23:50:28,938 - [INFO] - Success: Fresh Access Token acquired.
+2026-04-22 23:50:29,679 - [INFO] - Empty Project shell created! Project ID: 5e85zm3w00
+2026-04-22 23:50:29,679 - [INFO] - Fetching full metadata for indexed videos to satisfy Azure parser...
+2026-04-22 23:50:30,445 - [INFO] - Successfully extracted native metadata for e4h7j816m7
+2026-04-22 23:50:31,668 - [INFO] - Successfully extracted native metadata for v9krny4792
+2026-04-22 23:50:32,791 - [INFO] - Successfully extracted native metadata for xaoj2tjsd8
+2026-04-22 23:50:33,503 - [INFO] - Successfully extracted native metadata for 1p8mdifbcb
+2026-04-22 23:50:34,746 - [INFO] - Successfully extracted native metadata for hrq3z2iqe8
+2026-04-22 23:50:36,209 - [INFO] - Successfully extracted native metadata for x44chuv1nj
+2026-04-22 23:50:37,505 - [INFO] - Successfully extracted native metadata for an7gepv28c
+2026-04-22 23:50:38,345 - [INFO] - Successfully extracted native metadata for 4bc77dcwwd
+2026-04-22 23:50:39,023 - [INFO] - Successfully extracted native metadata for 3a903xr8or
+2026-04-22 23:50:39,023 - [INFO] - Pushing fully populated timeline to Azure...
+2026-04-22 23:50:40,093 - [ERROR] - Project Update Failed: {"ErrorType":"GENERAL","Message":" Trace id: '592a5610-a3f0-41d7-ac35-f2785787cf34'."}
+2026-04-22 23:50:40,094 - [ERROR] - PIPELINE FAILED: 500 Server Error: Internal Server Error for url: https://api.videoindexer.ai/trial/Accounts/6a69f8ca-0f6e-46d3-bd5a-6f3a83dc7b2b/Projects/5e85zm3w00
+2026-04-23 10:00:43,495 - [INFO] - === STARTING AZURE PROJECT ASSEMBLY (SKIPPING UPLOADS) ===
+2026-04-23 10:00:43,495 - [INFO] - Initializing Task 1: Configuration Validation
+2026-04-23 10:00:43,497 - [INFO] - Loaded VIDEO_INDEXER_ACCESS_TOKEN: eyJhbG...w_ylEQ
+2026-04-23 10:00:43,497 - [ERROR] - Missing mandatory environment variable: VIDEO_INDEXER_ACCOUNT_ID
+2026-04-23 10:00:43,497 - [ERROR] - PIPELINE FAILED: CRITICAL: VIDEO_INDEXER_ACCOUNT_ID is not defined in .env
+2026-04-23 10:03:43,654 - [INFO] - === STARTING AZURE PROJECT ASSEMBLY (SKIPPING UPLOADS) ===
+2026-04-23 10:03:43,654 - [INFO] - Initializing Task 1: Configuration Validation
+2026-04-23 10:03:43,655 - [INFO] - Loaded VIDEO_INDEXER_ACCESS_TOKEN: eyJhbG...w_ylEQ
+2026-04-23 10:03:43,655 - [INFO] - Loaded AZURE_VIDEO_INDEXER_ACCOUNT_ID: 6a69f8ca-0f6e-46d3-bd5a-6f3a83dc7b2b
+2026-04-23 10:03:43,655 - [INFO] - Loaded VIDEO_INDEXER_LOCATION: East US
+2026-04-23 10:03:43,655 - [INFO] - Loaded VIDEO_INDEXER_ACCOUNT_TYPE: trial
+2026-04-23 10:03:43,655 - [INFO] - Initializing Task 5: Creating Project with updated PUT JSON payload
+2026-04-23 10:03:44,852 - [INFO] - Success: Fresh Access Token acquired.
+2026-04-23 10:03:45,198 - [ERROR] - Project Creation Failed: {"ErrorType":"NOT_FOUND","Message":"Playlist 'c4e8cbb6-38ff-4acc-a41a-275c15eb98b7' does not exist in account '6a69f8ca-0f6e-46d3-bd5a-6f3a83dc7b2b'. Trace id: '6edb4a21-07ec-4297-99e5-262a396ab18c'."}
+2026-04-23 10:03:45,198 - [ERROR] - PIPELINE FAILED: 404 Client Error: Not Found for url: https://api.videoindexer.ai/trial/Accounts/6a69f8ca-0f6e-46d3-bd5a-6f3a83dc7b2b/Projects/c4e8cbb6-38ff-4acc-a41a-275c15eb98b7
+2026-04-23 10:18:51,710 - [INFO] - === STARTING AZURE PROJECT ASSEMBLY (SKIPPING UPLOADS) ===
+2026-04-23 10:18:51,710 - [INFO] - Initializing Task 1: Configuration Validation
+2026-04-23 10:18:51,711 - [INFO] - Loaded VIDEO_INDEXER_ACCESS_TOKEN: eyJhbG...w_ylEQ
+2026-04-23 10:18:51,711 - [INFO] - Loaded VIDEO_INDEXER_ACCOUNT_ID: 6a69f8ca-0f6e-46d3-bd5a-6f3a83dc7b2b
+2026-04-23 10:18:51,711 - [INFO] - Loaded VIDEO_INDEXER_LOCATION: East US
+2026-04-23 10:18:51,711 - [INFO] - Loaded VIDEO_INDEXER_ACCOUNT_TYPE: trial
+2026-04-23 10:18:51,711 - [INFO] - Initializing Task 5: Creating Project with updated POST JSON payload
+2026-04-23 10:18:52,869 - [INFO] - Success: Fresh Access Token acquired.
+2026-04-23 10:18:55,960 - [INFO] - Project created successfully! Project ID: yvryjpdpll
+2026-04-23 10:18:55,962 - [INFO] - Initializing Task 6: Fetching Project Index for yvryjpdpll
+2026-04-23 10:18:57,531 - [INFO] - Successfully fetched Project Index.
+2026-04-23 10:18:57,539 - [INFO] - Initializing Task 7: Persisting Project JSON
+2026-04-23 10:18:57,556 - [INFO] - Project insights stored successfully at: outputs/projects/project_yvryjpdpll_index.json
+2026-04-23 10:18:57,556 - [INFO] - === PIPELINE COMPLETED SUCCESSFULLY ===
+2026-04-23 10:18:57,556 - [INFO] - Project ID: yvryjpdpll
+2026-04-23 10:18:57,557 - [INFO] - Total Videos Indexed in Project: 9

@@ -1,0 +1,12 @@
+2026-04-23 00:00:25,244 - [INFO] - === STARTING AZURE PROJECT ASSEMBLY (SKIPPING UPLOADS) ===
+2026-04-23 00:00:25,244 - [INFO] - Initializing Task 1: Configuration Validation
+2026-04-23 00:00:25,245 - [INFO] - Loaded VIDEO_INDEXER_ACCESS_TOKEN: eyJhbG...w_ylEQ
+2026-04-23 00:00:25,245 - [INFO] - Loaded VIDEO_INDEXER_ACCOUNT_ID: 6a69f8ca-0f6e-46d3-bd5a-6f3a83dc7b2b
+2026-04-23 00:00:25,245 - [INFO] - Loaded VIDEO_INDEXER_LOCATION: East US
+2026-04-23 00:00:25,245 - [INFO] - Loaded VIDEO_INDEXER_ACCOUNT_TYPE: trial
+2026-04-23 00:00:25,245 - [INFO] - Initializing Task 5: Creating Project (Strict DTO Update)
+2026-04-23 00:00:26,265 - [INFO] - Success: Fresh Access Token acquired.
+2026-04-23 00:00:27,174 - [INFO] - Empty Project shell created! Project ID: ix6ttxwbns
+2026-04-23 00:00:27,174 - [INFO] - Pushing clean timeline DTO to Azure...
+2026-04-23 00:00:28,094 - [ERROR] - Project Update Failed: {"ErrorType":"GENERAL","Message":" Trace id: 'f752fd73-3715-4cb1-8aa5-e766979e2087'."}
+2026-04-23 00:00:28,095 - [ERROR] - PIPELINE FAILED: 500 Server Error: Internal Server Error for url: https://api.videoindexer.ai/trial/Accounts/6a69f8ca-0f6e-46d3-bd5a-6f3a83dc7b2b/Projects/ix6ttxwbns

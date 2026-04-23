@@ -25,7 +25,7 @@ class AzureVideoIndexerValidator:
     def __init__(self):
         self.config = {}
         self.base_url = "https://api.videoindexer.ai"
-        self.output_dir = "outputs/video_indexer_test"
+        self.base_output_dir = "outputs"
         
     def validate_config(self):
         """Task 1: Validate Configuration"""
@@ -55,7 +55,7 @@ class AzureVideoIndexerValidator:
                 logger.info(f"Loaded {var}: {val}")
 
         # Handle TEST_VIDEO_URL (defaulting if not present for the validation run)
-        self.config["TEST_VIDEO_URL"] = os.getenv("TEST_VIDEO_URL", "https://www.youtube.com/watch?v=sW_7i6T_H98")
+        self.config["TEST_VIDEO_URL"] = os.getenv("TEST_VIDEO_URL", "https://www.youtube.com/watch?v=AoOeTBD1iEQ")
         logger.info(f"Test Video URL: {self.config['TEST_VIDEO_URL']}")
 
     def _get_headers(self, token: str = None):
@@ -132,7 +132,7 @@ class AzureVideoIndexerValidator:
         params = {
             "name": video_name,
             "privacy": "Private",
-            "indexingPreset": "AdvancedVideo",
+            "indexingPreset": "Default",
             "language": "en-US"
         }
         
@@ -177,6 +177,22 @@ class AzureVideoIndexerValidator:
             
             if state == "Processed":
                 logger.info("Indexing Complete.")
+
+                videos = data.get("videos", [{}])
+                video_info = videos[0] if videos else {}
+
+                insights = video_info.get("insights", {})
+                transcript = insights.get("transcript", [])
+
+                if not transcript:
+                    logger.warning("⚠️ Transcript is EMPTY (likely low speech signal)")
+                else:
+                    logger.info(f"✅ Transcript found: {len(transcript)} segments")
+
+                # Optional debug (VERY useful)
+                logger.info(f"Detected language: {video_info.get('language')}")
+                logger.info(f"Duration: {video_info.get('duration')}")
+
                 return data
             elif state == "Failed":
                 failure_message = data.get("videos", [{}])[0].get("failureMessage", str(data))
@@ -270,8 +286,21 @@ class AzureVideoIndexerValidator:
 
     def save_outputs(self, raw_data: Dict[str, Any], extracted: Dict[str, Any], chunks: List[Dict[str, Any]]):
         """Task 8: Persist to File System"""
-        logger.info(f"Initializing Task 8: Saving artifacts to {self.output_dir}")
-        os.makedirs(self.output_dir, exist_ok=True)
+        # Ensure base outputs directory exists
+        os.makedirs(self.base_output_dir, exist_ok=True)
+        
+        # Determine the number based on existing items in the outputs folder
+        num_items = len(os.listdir(self.base_output_dir))
+        
+        # Prevent collisions in case directories were manually deleted or numbered differently
+        clip_num = num_items
+        while os.path.exists(os.path.join(self.base_output_dir, f"clip_{clip_num}")):
+            clip_num += 1
+            
+        output_dir = os.path.join(self.base_output_dir, f"clip_{clip_num}")
+        os.makedirs(output_dir, exist_ok=True)
+        
+        logger.info(f"Initializing Task 8: Saving artifacts to {output_dir}")
         
         files_to_save = {
             "raw_insights.json": raw_data,
@@ -283,7 +312,7 @@ class AzureVideoIndexerValidator:
         }
         
         for name, content in files_to_save.items():
-            path = os.path.join(self.output_dir, name)
+            path = os.path.join(output_dir, name)
             with open(path, 'w', encoding='utf-8') as f:
                 json.dump(content, f, indent=2, ensure_ascii=False)
         
