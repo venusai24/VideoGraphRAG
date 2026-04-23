@@ -1,0 +1,433 @@
+"""
+Retrieval pipeline for the two-layer VideoGraphRAG NetworkX graph.
+
+Optimized for CPU execution:
+  - Sentence-Transformer embedding with all-MiniLM-L6-v2
+  - NumPy-vectorized cosine similarity for seed entity selection
+  - BM25 ranking via rank_bm25 for final clip scoring
+"""
+
+import logging
+import re
+from dataclasses import dataclass, field
+from typing import Dict, List, Optional, Tuple, Any
+
+import networkx as nx
+import numpy as np
+from rank_bm25 import BM25Plus
+from sentence_transformers import SentenceTransformer
+
+logger = logging.getLogger(__name__)
+
+# ---------------------------------------------------------------------------
+# Data structures
+# ---------------------------------------------------------------------------
+
+@dataclass
+class RetrievedClip:
+    """A single clip returned by the retrieval pipeline."""
+    node_id: str
+    video_id: str
+    start: float
+    end: float
+    bm25_score: float
+    entity_confidence: float
+    final_score: float
+    transcript: str = ""
+    ocr: str = ""
+    summary: str = ""
+
+
+@dataclass
+class RetrievalResult:
+    """Full output of a retrieval call."""
+    query: str
+    seed_entities: List[Tuple[str, float]]   # (node_id, similarity)
+    candidate_clip_count: int
+    clips: List[RetrievedClip] = field(default_factory=list)
+
+
+# ---------------------------------------------------------------------------
+# Tokeniser (lightweight, no external deps)
+# ---------------------------------------------------------------------------
+
+_SPLIT_RE = re.compile(r"[^a-z0-9]+")
+
+STOPWORDS = {"a", "an", "and", "are", "as", "at", "be", "but", "by", "for", "if", "in", "into", "is", "it", "no", "not", "of", "on", "or", "such", "that", "the", "their", "then", "there", "these", "they", "this", "to", "was", "will", "with", "which", "who", "whom", "what", "where", "when", "how", "why", "has", "been", "somehow", "them"}
+
+def _tokenize(text: str) -> List[str]:
+    """Lower-case split with non-alphanumeric separator. Fast on CPU. Filters stopwords. Basic stemming."""
+    tokens = []
+    for tok in _SPLIT_RE.split(text.lower()):
+        if tok and tok not in STOPWORDS:
+            # Basic plural removal (e.g. presidents -> president, countries -> countrie)
+            if tok.endswith('s') and len(tok) > 3 and not tok.endswith('ss'):
+                tok = tok[:-1]
+            tokens.append(tok)
+    return tokens
+
+
+# ---------------------------------------------------------------------------
+# Main pipeline class
+# ---------------------------------------------------------------------------
+
+class VideoGraphRetriever:
+    """
+    CPU-optimized retrieval over a two-layer NetworkX graph.
+
+    Layer 1 – Clip nodes  (have 'start', 'end', 'video_id', 'transcript', 'ocr')
+    Layer 2 – Semantic nodes (have 'type' in {person, brand, location, topic, text})
+
+    Workflow:
+      1. Embed the user query with all-MiniLM-L6-v2.
+      2. Cosine-similarity against pre-computed entity embeddings → top-k seeds.
+      3. Traverse bipartite edges to collect candidate clip nodes.
+      4. BM25-rank candidates on concatenated transcript + OCR text.
+      5. Return top-n clips.
+    """
+
+    def __init__(
+        self,
+        graph: nx.DiGraph,
+        bipartite_dict: Dict[str, List[Dict[str, Any]]] = None,
+        model_name: str = "sentence-transformers/all-MiniLM-L6-v2",
+        batch_size: int = 64,
+    ):
+        self.graph = graph
+        self.bipartite_dict = bipartite_dict or {}
+        self.batch_size = batch_size
+
+        # ── Partition nodes by layer ──────────────────────────────────
+        self._entity_ids: List[str] = []
+        self._entity_texts: List[str] = []
+        self._clip_ids: set = set()
+        
+        self._known_emotions: set = set()
+        self._known_speakers: set = set()
+
+        for node_id, attr in graph.nodes(data=True):
+            if attr.get("type") in {"person", "brand", "location", "topic", "text"}:
+                # Build a search-friendly text from node name + description
+                name = attr.get("name", "") or ""
+                desc = attr.get("description", "") or ""
+                self._entity_ids.append(node_id)
+                
+                text_to_embed = f"{name} {desc}".strip()
+                if not text_to_embed:
+                    text_to_embed = node_id
+                self._entity_texts.append(text_to_embed)
+            elif "start" in attr and "end" in attr:
+                self._clip_ids.add(node_id)
+                if attr.get("emotion"):
+                    self._known_emotions.add(str(attr["emotion"]).lower())
+                for s_id in attr.get("speaker_ids", []):
+                    self._known_speakers.add(str(s_id).lower())
+
+        logger.info(
+            "Indexed %d entity nodes and %d clip nodes.",
+            len(self._entity_ids),
+            len(self._clip_ids),
+        )
+
+        # ── Load model & pre-compute entity embeddings (one-time cost) ──
+        logger.info("Loading SentenceTransformer model: %s ...", model_name)
+        self._model = SentenceTransformer(model_name, device="cpu")
+
+        if self._entity_texts:
+            logger.info("Pre-computing embeddings for %d entities ...", len(self._entity_texts))
+            self._entity_embeddings = self._model.encode(
+                self._entity_texts,
+                batch_size=self.batch_size,
+                show_progress_bar=False,
+                convert_to_numpy=True,
+                normalize_embeddings=True,   # so dot-product == cosine similarity
+            )
+        else:
+            self._entity_embeddings = np.empty((0, 384), dtype=np.float32)
+
+    # ------------------------------------------------------------------
+    # Public API
+    # ------------------------------------------------------------------
+
+    def retrieve(
+        self,
+        query: str,
+        top_k_entities: int = 3,
+        top_n_clips: int = 5,
+    ) -> RetrievalResult:
+        """
+        End-to-end retrieval: query → seed entities → candidate clips → BM25 ranking.
+
+        Args:
+            query: Natural-language search query.
+            top_k_entities: Number of seed entities to select (default 3).
+            top_n_clips: Number of final clips to return (default 5).
+
+        Returns:
+            A RetrievalResult dataclass with ranked clips.
+        """
+        if not query or not query.strip():
+            return RetrievalResult(query=query, seed_entities=[], candidate_clip_count=0)
+
+        # Step 1 — Embed query (single forward pass)
+        query_vec = self._model.encode(
+            [query],
+            batch_size=1,
+            show_progress_bar=False,
+            convert_to_numpy=True,
+            normalize_embeddings=True,
+        )[0]  # shape (384,)
+
+        # Step 2 — Cosine similarity against all entity embeddings (vectorised)
+        seed_entities = self._find_seed_entities(query_vec, top_k_entities)
+
+        if not seed_entities:
+            return RetrievalResult(
+                query=query, seed_entities=[], candidate_clip_count=0
+            )
+
+        # Step 3 — Graph traversal: seed entities → clip nodes
+        candidate_clips = self._traverse_to_clips(seed_entities)
+
+        if not candidate_clips:
+            return RetrievalResult(
+                query=query,
+                seed_entities=seed_entities,
+                candidate_clip_count=0,
+            )
+
+        # Step 3.5 — Attribute filtering
+        query_lower = query.lower()
+        mentioned_emotions = {e for e in self._known_emotions if e in query_lower}
+        mentioned_speakers = {s for s in self._known_speakers if f"speaker {s}" in query_lower}
+        
+        filtered_candidates = {}
+        for cid, conf in candidate_clips.items():
+            attr = self.graph.nodes[cid]
+            keep = True
+            if mentioned_emotions:
+                if str(attr.get("emotion", "")).lower() not in mentioned_emotions:
+                    keep = False
+            if mentioned_speakers:
+                clip_speakers = [str(s).lower() for s in attr.get("speaker_ids", [])]
+                if not any(s in mentioned_speakers for s in clip_speakers):
+                    keep = False
+            if keep:
+                filtered_candidates[cid] = conf
+
+        if not filtered_candidates:
+            return RetrievalResult(
+                query=query,
+                seed_entities=seed_entities,
+                candidate_clip_count=0,
+            )
+
+        # Step 4 — Hybrid ranking (BM25 + Dense Semantic)
+        ranked_clips = self._rank_bm25(query, query_vec, filtered_candidates, top_n_clips)
+
+        return RetrievalResult(
+            query=query,
+            seed_entities=seed_entities,
+            candidate_clip_count=len(filtered_candidates),
+            clips=ranked_clips,
+        )
+
+    # ------------------------------------------------------------------
+    # Internal helpers
+    # ------------------------------------------------------------------
+
+    def _find_seed_entities(
+        self, query_vec: np.ndarray, top_k: int
+    ) -> List[Tuple[str, float]]:
+        """Vectorised cosine similarity → top-k entity nodes."""
+        if self._entity_embeddings.shape[0] == 0:
+            return []
+
+        # Dot product on L2-normalised vectors == cosine similarity
+        scores = self._entity_embeddings @ query_vec          # shape (N,)
+
+        # Partial argsort is O(N + k·log k) – faster than full sort for large N
+        k = min(top_k, len(scores))
+        top_indices = np.argpartition(scores, -k)[-k:]
+        top_indices = top_indices[np.argsort(scores[top_indices])[::-1]]  # descending
+
+        seeds = [
+            (self._entity_ids[i], float(scores[i]))
+            for i in top_indices
+            if scores[i] > 0.0   # discard non-positive similarities
+        ]
+        logger.info("Seed entities: %s", seeds)
+        return seeds
+
+    def _traverse_to_clips(
+        self, seeds: List[Tuple[str, float]]
+    ) -> Dict[str, float]:
+        """Follow bipartite mapping from seed entities to unique clip nodes. Returns max confidence per clip."""
+        candidate_dict: Dict[str, float] = {}
+
+        for entity_id, _ in seeds:
+            # O(1) lookup using bipartite_dict
+            if entity_id in self.bipartite_dict:
+                for clip_info in self.bipartite_dict[entity_id]:
+                    cid = clip_info['clip_id']
+                    conf = clip_info.get('confidence', 1.0)
+                    if cid not in candidate_dict or conf > candidate_dict[cid]:
+                        candidate_dict[cid] = conf
+            else:
+                # Fallback to graph edges if not in dict (e.g. if dict wasn't provided)
+                for neighbour in self.graph.successors(entity_id):
+                    if neighbour in self._clip_ids:
+                        edge_data = self.graph.get_edge_data(entity_id, neighbour, default={})
+                        conf = edge_data.get('confidence', 1.0)
+                        if neighbour not in candidate_dict or conf > candidate_dict[neighbour]:
+                            candidate_dict[neighbour] = conf
+                for neighbour in self.graph.predecessors(entity_id):
+                    if neighbour in self._clip_ids:
+                        edge_data = self.graph.get_edge_data(neighbour, entity_id, default={})
+                        conf = edge_data.get('confidence', 1.0)
+                        if neighbour not in candidate_dict or conf > candidate_dict[neighbour]:
+                            candidate_dict[neighbour] = conf
+
+        logger.info(
+            "Graph traversal yielded %d candidate clips from %d seed entities.",
+            len(candidate_dict),
+            len(seeds),
+        )
+        return candidate_dict
+
+    def _rank_bm25(
+        self,
+        query: str,
+        query_vec: np.ndarray,
+        candidate_dict: Dict[str, float],
+        top_n: int,
+    ) -> List[RetrievedClip]:
+        """Hybrid scoring combining BM25Okapi, Dense Semantic Similarity, and Entity Confidence."""
+        candidate_ids = list(candidate_dict.keys())
+        
+        # Build corpus (tokenised docs)
+        corpus_tokens: List[List[str]] = []
+        candidate_texts: List[str] = []
+        for cid in candidate_ids:
+            attr = self.graph.nodes[cid]
+            doc_text = " ".join(filter(None, [
+                attr.get("transcript", ""),
+                attr.get("ocr", ""),
+                attr.get("keywords", ""),
+                attr.get("summary", ""),
+            ]))
+            corpus_tokens.append(_tokenize(doc_text))
+            candidate_texts.append(doc_text)
+
+        bm25 = BM25Plus(corpus_tokens)
+        query_tokens = _tokenize(query)
+        bm25_scores = bm25.get_scores(query_tokens)   # ndarray (len(candidates),)
+
+        # Compute Dense Semantic Similarity for candidates
+        semantic_embeddings = self._model.encode(
+            candidate_texts,
+            batch_size=self.batch_size,
+            show_progress_bar=False,
+            convert_to_numpy=True,
+            normalize_embeddings=True,
+        )
+        semantic_scores = semantic_embeddings @ query_vec
+
+        # Combine BM25, Semantic Score, and Entity Confidence
+        final_scores = np.zeros_like(bm25_scores)
+        for i, cid in enumerate(candidate_ids):
+            conf = candidate_dict[cid]
+            # Final score: Weight semantic heavily to solve synonymous matches
+            final_scores[i] = (bm25_scores[i] * 0.5) + (semantic_scores[i] * 8.0) + (conf * 2.0)
+
+        # Top-n by score
+        n = min(top_n, len(final_scores))
+        top_indices = np.argpartition(final_scores, -n)[-n:]
+        top_indices = top_indices[np.argsort(final_scores[top_indices])[::-1]]
+
+        results: List[RetrievedClip] = []
+        for idx in top_indices:
+            cid = candidate_ids[idx]
+            attr = self.graph.nodes[cid]
+            results.append(
+                RetrievedClip(
+                    node_id=cid,
+                    video_id=attr.get("video_id", ""),
+                    start=attr.get("start", 0.0),
+                    end=attr.get("end", 0.0),
+                    bm25_score=float(bm25_scores[idx]),
+                    entity_confidence=float(candidate_dict[cid]),
+                    final_score=float(final_scores[idx]),
+                    transcript=attr.get("transcript", ""),
+                    ocr=attr.get("ocr", ""),
+                    summary=attr.get("summary", ""),
+                )
+            )
+
+        return results
+
+
+# ---------------------------------------------------------------------------
+# Convenience function (top-level entry point)
+# ---------------------------------------------------------------------------
+
+def retrieve_clips(
+    graph: nx.DiGraph,
+    query: str,
+    top_k_entities: int = 3,
+    top_n_clips: int = 5,
+    *,
+    bipartite_dict: Dict[str, List[Dict[str, Any]]] = None,
+    model_name: str = "sentence-transformers/all-MiniLM-L6-v2",
+) -> RetrievalResult:
+    """
+    One-shot convenience wrapper.  Builds the retriever, embeds entities,
+    and returns results.  For repeated queries, prefer instantiating
+    ``VideoGraphRetriever`` once and calling ``.retrieve()`` in a loop.
+    """
+    retriever = VideoGraphRetriever(graph, bipartite_dict, model_name=model_name)
+    return retriever.retrieve(query, top_k_entities=top_k_entities, top_n_clips=top_n_clips)
+
+
+# ---------------------------------------------------------------------------
+# CLI demo
+# ---------------------------------------------------------------------------
+
+if __name__ == "__main__":
+    import sys
+    from data_loader import VideoDataLoader
+    from temporal_clip_graph import build_temporal_clip_graph
+    from semantic_graph import build_semantic_graph, build_bipartite_mapping, build_bipartite_mapping_dict
+
+    logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
+
+    outputs_dir = sys.argv[1] if len(sys.argv) > 1 else "outputs"
+    query_text = sys.argv[2] if len(sys.argv) > 2 else "What brands appear in the video?"
+
+    # 1. Build graph
+    loader = VideoDataLoader(outputs_dir)
+    data = loader.load_data()
+    G = build_temporal_clip_graph(data)
+    G = build_semantic_graph(G, data)
+    G = build_bipartite_mapping(G, data)
+    bipartite_dict = build_bipartite_mapping_dict(G, data)
+
+    logger.info("Graph: %d nodes, %d edges", G.number_of_nodes(), G.number_of_edges())
+
+    # 2. Retrieve
+    retriever = VideoGraphRetriever(G, bipartite_dict)
+    result = retriever.retrieve(query_text)
+
+    # 3. Display results
+    print(f"\n{'='*70}")
+    print(f"  Query: {result.query}")
+    print(f"  Seed entities: {result.seed_entities}")
+    print(f"  Candidate clips evaluated: {result.candidate_clip_count}")
+    print(f"{'='*70}\n")
+
+    for i, clip in enumerate(result.clips, 1):
+        print(f"  #{i}  [{clip.video_id}]  {clip.start:.2f}s – {clip.end:.2f}s")
+        print(f"       Final Score : {clip.final_score:.4f} (BM25: {clip.bm25_score:.4f}, Entity Conf: {clip.entity_confidence:.4f})")
+        print(f"       Transcript  : {clip.transcript[:120]}...")
+        print(f"       OCR         : {clip.ocr[:80]}...")
+        print()
