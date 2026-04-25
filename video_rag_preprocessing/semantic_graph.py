@@ -3,6 +3,12 @@ from typing import Dict, Any, List, Tuple
 import logging
 from temporal_clip_graph import parse_time
 import itertools
+import os
+import sys
+
+# Add the parent directory to path to import entity_normalizer
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+from entity_normalizer import EntityNormalizer
 
 logger = logging.getLogger(__name__)
 
@@ -28,6 +34,46 @@ def get_entity_id(entity: Dict[str, Any], entity_type: str) -> str:
         return f"{entity_type}_{normalize_name(key)}"
         
     return ""
+
+def get_normalized_mapping(clip_data: Dict[str, Dict[str, Any]], merge_threshold: float = 0.85) -> Dict[str, str]:
+    """
+    Does a first pass over clip_data to collect all entities,
+    then runs EntityNormalizer to compute the canonical mapping.
+    """
+    raw_entities = []
+    entity_categories = {
+        'namedPeople': 'person', 'brands': 'brand', 'namedLocations': 'location',
+        'topics': 'topic', 'labels': 'label', 'detectedObjects': 'detected_object'
+    }
+
+    for folder_name, payloads in clip_data.items():
+        raw_insights = payloads.get('raw_insights')
+        if not raw_insights: continue
+
+        for category, entity_type in entity_categories.items():
+            for entity in raw_insights.get(category, []):
+                raw_id = get_entity_id(entity, entity_type)
+                if raw_id:
+                    raw_entities.append({
+                        'id': raw_id,
+                        'type': entity_type,
+                        'name': entity.get('name', ''),
+                        'description': entity.get('description', '')
+                    })
+
+        summarized = raw_insights.get('summarizedInsights', {})
+        for sent in summarized.get('sentiments', []):
+            raw_id = get_entity_id(sent, 'sentiment')
+            if raw_id:
+                raw_entities.append({'id': raw_id, 'type': 'sentiment', 'name': sent.get('sentimentKey', ''), 'description': ''})
+        
+        for em in summarized.get('emotions', []):
+            raw_id = get_entity_id(em, 'emotion')
+            if raw_id:
+                raw_entities.append({'id': raw_id, 'type': 'emotion', 'name': em.get('type', ''), 'description': ''})
+
+    normalizer = EntityNormalizer(merge_threshold=merge_threshold)
+    return normalizer.normalize_entities(raw_entities)
 
 def filter_instances(instances: List[Dict[str, Any]], default_conf: float = 1.0) -> List[Dict[str, Any]]:
     valid = []
@@ -55,7 +101,7 @@ def check_overlap(inst1: Dict[str, Any], inst2: Dict[str, Any]) -> bool:
     
     return max(float(start1), float(start2)) < min(float(end1), float(end2))
 
-def build_semantic_graph(G: nx.DiGraph, clip_data: Dict[str, Dict[str, Any]]) -> nx.DiGraph:
+def build_semantic_graph(G: nx.DiGraph, clip_data: Dict[str, Dict[str, Any]], merge_threshold: float = 0.85) -> nx.DiGraph:
     entity_categories = {
         'namedPeople': 'person',
         'brands': 'brand',
@@ -64,6 +110,12 @@ def build_semantic_graph(G: nx.DiGraph, clip_data: Dict[str, Dict[str, Any]]) ->
         'labels': 'label',
         'detectedObjects': 'detected_object'
     }
+
+    canonical_mapping = get_normalized_mapping(clip_data, merge_threshold=merge_threshold)
+
+    def get_canonical(entity, e_type):
+        raw_id = get_entity_id(entity, e_type)
+        return canonical_mapping.get(raw_id, raw_id) if raw_id else ""
 
     for folder_name, payloads in clip_data.items():
         raw_insights = payloads.get('raw_insights')
@@ -78,7 +130,7 @@ def build_semantic_graph(G: nx.DiGraph, clip_data: Dict[str, Dict[str, Any]]) ->
             for entity in entities:
                 if not isinstance(entity, dict): continue
                 
-                node_id = get_entity_id(entity, entity_type)
+                node_id = get_canonical(entity, entity_type)
                 if not node_id: continue
                 
                 if node_id not in G:
@@ -119,20 +171,20 @@ def build_semantic_graph(G: nx.DiGraph, clip_data: Dict[str, Dict[str, Any]]) ->
         
         sentiments = summarized.get('sentiments', [])
         for sent in sentiments:
-            node_id = get_entity_id(sent, 'sentiment')
+            node_id = get_canonical(sent, 'sentiment')
             if node_id and node_id not in G:
                 G.add_node(node_id, node_class='Entity', type='sentiment', name=sent.get('sentimentKey', ''), description='')
                 
         emotions = summarized.get('emotions', [])
         for em in emotions:
-            node_id = get_entity_id(em, 'emotion')
+            node_id = get_canonical(em, 'emotion')
             if node_id and node_id not in G:
                 G.add_node(node_id, node_class='Entity', type='emotion', name=em.get('type', ''), description='')
                 
         # 3. Person -> Emotion/Sentiment edges
         people = raw_insights.get('namedPeople', [])
         for person in people:
-            p_id = get_entity_id(person, 'person')
+            p_id = get_canonical(person, 'person')
             if not p_id or p_id not in G: continue
             
             p_instances = filter_instances(person.get('instances', []) + person.get('appearances', []))
@@ -140,7 +192,7 @@ def build_semantic_graph(G: nx.DiGraph, clip_data: Dict[str, Dict[str, Any]]) ->
             
             # Check overlap with sentiments
             for sent in sentiments:
-                s_id = get_entity_id(sent, 'sentiment')
+                s_id = get_canonical(sent, 'sentiment')
                 if not s_id or s_id not in G: continue
                 s_instances = filter_instances(sent.get('appearances', []), default_conf=1.0)
                 
@@ -152,7 +204,7 @@ def build_semantic_graph(G: nx.DiGraph, clip_data: Dict[str, Dict[str, Any]]) ->
             
             # Check overlap with emotions
             for em in emotions:
-                e_id = get_entity_id(em, 'emotion')
+                e_id = get_canonical(em, 'emotion')
                 if not e_id or e_id not in G: continue
                 e_instances = filter_instances(em.get('appearances', []), default_conf=1.0)
                 
@@ -172,7 +224,7 @@ def get_relationship_type(type1: str, type2: str) -> str:
     if 'sentiment' in types or 'emotion' in types: return 'emotional_context'
     return 'co_occurrence'
 
-def build_bipartite_mapping(G: nx.DiGraph, clip_data: Dict[str, Dict[str, Any]]) -> nx.DiGraph:
+def build_bipartite_mapping(G: nx.DiGraph, clip_data: Dict[str, Dict[str, Any]], merge_threshold: float = 0.85) -> nx.DiGraph:
     clip_intervals = []
     for node_id, attr in G.nodes(data=True):
         if attr.get('node_class') == 'Clip' and 'start' in attr and 'end' in attr:
@@ -191,6 +243,12 @@ def build_bipartite_mapping(G: nx.DiGraph, clip_data: Dict[str, Dict[str, Any]])
         'labels': 'label',
         'detectedObjects': 'detected_object'
     }
+
+    canonical_mapping = get_normalized_mapping(clip_data, merge_threshold=merge_threshold)
+
+    def get_canonical(entity, e_type):
+        raw_id = get_entity_id(entity, e_type)
+        return canonical_mapping.get(raw_id, raw_id) if raw_id else ""
 
     for folder_name, payloads in clip_data.items():
         raw_insights = payloads.get('raw_insights')
@@ -235,17 +293,17 @@ def build_bipartite_mapping(G: nx.DiGraph, clip_data: Dict[str, Dict[str, Any]])
             # Regular entities
             for category, entity_type in entity_categories.items():
                 for entity in raw_insights.get(category, []):
-                    node_id = get_entity_id(entity, entity_type)
+                    node_id = get_canonical(entity, entity_type)
                     arrays_to_check = entity.get('instances', []) + entity.get('appearances', [])
                     map_instances_to_clips(node_id, arrays_to_check)
             
             # Sentiments and Emotions
             summarized = raw_insights.get('summarizedInsights', {})
             for sent in summarized.get('sentiments', []):
-                node_id = get_entity_id(sent, 'sentiment')
+                node_id = get_canonical(sent, 'sentiment')
                 map_instances_to_clips(node_id, sent.get('appearances', []), default_conf=1.0)
             for em in summarized.get('emotions', []):
-                node_id = get_entity_id(em, 'emotion')
+                node_id = get_canonical(em, 'emotion')
                 map_instances_to_clips(node_id, em.get('appearances', []), default_conf=1.0)
 
         # 3. Process ocr.json
@@ -291,7 +349,7 @@ def build_bipartite_mapping(G: nx.DiGraph, clip_data: Dict[str, Dict[str, Any]])
 
     return G
 
-def build_bipartite_mapping_dict(G: nx.DiGraph, clip_data: Dict[str, Dict[str, Any]]) -> Dict[str, List[Dict[str, Any]]]:
+def build_bipartite_mapping_dict(G: nx.DiGraph, clip_data: Dict[str, Dict[str, Any]], merge_threshold: float = 0.85) -> Dict[str, List[Dict[str, Any]]]:
     """
     Creates a Bipartite Mapping dictionary linking Semantic Entity IDs to Clip IDs.
     This allows for O(1) lookup: Given an Entity ID, returns all overlapping Clip IDs
@@ -317,6 +375,12 @@ def build_bipartite_mapping_dict(G: nx.DiGraph, clip_data: Dict[str, Dict[str, A
         'labels': 'label',
         'detectedObjects': 'detected_object'
     }
+
+    canonical_mapping = get_normalized_mapping(clip_data, merge_threshold=merge_threshold)
+
+    def get_canonical(entity, e_type):
+        raw_id = get_entity_id(entity, e_type)
+        return canonical_mapping.get(raw_id, raw_id) if raw_id else ""
 
     for folder_name, payloads in clip_data.items():
         raw_insights = payloads.get('raw_insights')
@@ -367,17 +431,17 @@ def build_bipartite_mapping_dict(G: nx.DiGraph, clip_data: Dict[str, Dict[str, A
             # Regular entities
             for category, entity_type in entity_categories.items():
                 for entity in raw_insights.get(category, []):
-                    node_id = get_entity_id(entity, entity_type)
+                    node_id = get_canonical(entity, entity_type)
                     arrays_to_check = entity.get('instances', []) + entity.get('appearances', [])
                     map_instances_to_dict(node_id, arrays_to_check, source_name=category)
             
             # Sentiments and Emotions
             summarized = raw_insights.get('summarizedInsights', {})
             for sent in summarized.get('sentiments', []):
-                node_id = get_entity_id(sent, 'sentiment')
+                node_id = get_canonical(sent, 'sentiment')
                 map_instances_to_dict(node_id, sent.get('appearances', []), source_name='sentiments', default_conf=1.0)
             for em in summarized.get('emotions', []):
-                node_id = get_entity_id(em, 'emotion')
+                node_id = get_canonical(em, 'emotion')
                 map_instances_to_dict(node_id, em.get('appearances', []), source_name='emotions', default_conf=1.0)
 
         # Process ocr.json
@@ -392,6 +456,61 @@ def build_bipartite_mapping_dict(G: nx.DiGraph, clip_data: Dict[str, Dict[str, A
                 map_instances_to_dict(node_id_str, arrays_to_check, source_name='OCR')
 
     return mapping
+
+import math
+
+def build_clip_to_clip_edges(G: nx.DiGraph, significance_threshold: float = 0.5) -> nx.DiGraph:
+    """
+    Builds SHARES_ENTITY edges between Clip nodes based on shared Entity nodes.
+    Uses inverse frequency (IDF) weighting to penalize ubiquitous entities.
+    """
+    clip_nodes = [n for n, d in G.nodes(data=True) if d.get('node_class') == 'Clip']
+    N = len(clip_nodes)
+    if N == 0:
+        return G
+
+    # Calculate Document Frequency (df) for each entity
+    entity_df = {}
+    clip_entities = {} # clip -> dict of {entity: confidence}
+
+    for clip in clip_nodes:
+        clip_entities[clip] = {}
+        for neighbor in G.neighbors(clip):
+            if G.nodes[neighbor].get('node_class') == 'Entity':
+                conf = G[clip][neighbor].get('confidence', 1.0)
+                clip_entities[clip][neighbor] = conf
+                entity_df[neighbor] = entity_df.get(neighbor, 0) + 1
+
+    # Calculate IDF
+    entity_idf = {}
+    for e, df in entity_df.items():
+        # log(N / df)
+        entity_idf[e] = math.log(N / max(1, df))
+
+    # Build edges
+    edges_added = 0
+    for c1, c2 in itertools.combinations(clip_nodes, 2):
+        shared = set(clip_entities[c1].keys()).intersection(set(clip_entities[c2].keys()))
+        if not shared:
+            continue
+
+        score = 0.0
+        for e in shared:
+            conf1 = clip_entities[c1][e]
+            conf2 = clip_entities[c2][e]
+            avg_conf = (conf1 + conf2) / 2.0
+            # TF-IDF style weighting
+            score += avg_conf * entity_idf[e]
+
+        if score >= significance_threshold:
+            # Undirected semantic edge, add both directions for DiGraph traversal
+            G.add_edge(c1, c2, type='SHARES_ENTITY', weight=score)
+            G.add_edge(c2, c1, type='SHARES_ENTITY', weight=score)
+            edges_added += 1
+
+    logger.info(f"Clip-to-Clip Connectivity: Added {edges_added} SHARES_ENTITY edges (threshold={significance_threshold}).")
+    return G
+
 def print_semantic_graph_samples(G: nx.DiGraph, num_samples: int = 5):
     print(f"\n--- Layer 2 (Semantic) & Bipartite Samples ---")
     
@@ -447,6 +566,8 @@ if __name__ == "__main__":
     edges_after = graph.number_of_edges()
     logger.info(f"Bipartite & Co-occurrence added. New edges: {edges_after - edges_before}.")
     
+    graph = build_clip_to_clip_edges(graph, significance_threshold=0.5)
+
     print_semantic_graph_samples(graph)
     
     mapping_dict = build_bipartite_mapping_dict(graph, data)

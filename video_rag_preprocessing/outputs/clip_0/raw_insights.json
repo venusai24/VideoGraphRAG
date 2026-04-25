@@ -1,0 +1,714 @@
+{
+  "partition": null,
+  "description": null,
+  "privacyMode": "Private",
+  "state": "Processed",
+  "accountId": "398969ab-2964-4b6c-9fc6-80486e766222",
+  "id": "8ar7h1x0xv",
+  "name": "project-hail-mary-test-20260420-215143",
+  "userName": "Vigil Das",
+  "created": "2026-04-20T16:22:01.9633333+00:00",
+  "isOwned": true,
+  "isEditable": true,
+  "isBase": true,
+  "durationInSeconds": 15,
+  "duration": "0:00:15.067",
+  "summarizedInsights": {
+    "name": "project-hail-mary-test-20260420-215143",
+    "id": "8ar7h1x0xv",
+    "privacyMode": "Private",
+    "duration": {
+      "time": "0:00:15.067",
+      "seconds": 15.1
+    },
+    "thumbnailVideoId": "8ar7h1x0xv",
+    "thumbnailId": "1fb3fa35-f8d0-4ad3-bcca-a2a275f38a58",
+    "faces": [],
+    "keywords": [],
+    "sentiments": [],
+    "emotions": [],
+    "audioEffects": [],
+    "labels": [
+      {
+        "id": 1,
+        "name": "human face",
+        "appearances": [
+          {
+            "confidence": 0.9879,
+            "startTime": "0:00:00",
+            "endTime": "0:00:14.9666667",
+            "startSeconds": 0,
+            "endSeconds": 15
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "lipstick",
+        "appearances": [
+          {
+            "confidence": 0.9668,
+            "startTime": "0:00:00",
+            "endTime": "0:00:14.9666667",
+            "startSeconds": 0,
+            "endSeconds": 15
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "lip",
+        "appearances": [
+          {
+            "confidence": 0.9721,
+            "startTime": "0:00:00",
+            "endTime": "0:00:14.9666667",
+            "startSeconds": 0,
+            "endSeconds": 15
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "eyelash",
+        "appearances": [
+          {
+            "confidence": 0.9633,
+            "startTime": "0:00:00.2666667",
+            "endTime": "0:00:14.9666667",
+            "startSeconds": 0.3,
+            "endSeconds": 15
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "eyebrow",
+        "appearances": [
+          {
+            "confidence": 0.9554,
+            "startTime": "0:00:01.8666667",
+            "endTime": "0:00:14.9666667",
+            "startSeconds": 1.9,
+            "endSeconds": 15
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "person",
+        "appearances": [
+          {
+            "confidence": 0.962,
+            "startTime": "0:00:03.4666667",
+            "endTime": "0:00:14.9666667",
+            "startSeconds": 3.5,
+            "endSeconds": 15
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "makeover",
+        "appearances": [
+          {
+            "confidence": 0.9534,
+            "startTime": "0:00:06.4",
+            "endTime": "0:00:09.6333333",
+            "startSeconds": 6.4,
+            "endSeconds": 9.6
+          },
+          {
+            "confidence": 0.9506,
+            "startTime": "0:00:13.3333333",
+            "endTime": "0:00:13.3666667",
+            "startSeconds": 13.3,
+            "endSeconds": 13.4
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "name": "smile",
+        "appearances": [
+          {
+            "confidence": 0.96,
+            "startTime": "0:00:11.4666667",
+            "endTime": "0:00:13.3666667",
+            "startSeconds": 11.5,
+            "endSeconds": 13.4
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "cosmetics",
+        "appearances": [
+          {
+            "confidence": 0.9558,
+            "startTime": "0:00:02.6666667",
+            "endTime": "0:00:03.2333333",
+            "startSeconds": 2.7,
+            "endSeconds": 3.2
+          },
+          {
+            "confidence": 0.9569,
+            "startTime": "0:00:08.8",
+            "endTime": "0:00:09.6333333",
+            "startSeconds": 8.8,
+            "endSeconds": 9.6
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "lip gloss",
+        "appearances": [
+          {
+            "confidence": 0.9544,
+            "startTime": "0:00:06.4",
+            "endTime": "0:00:06.4333333",
+            "startSeconds": 6.4,
+            "endSeconds": 6.4
+          },
+          {
+            "confidence": 0.9544,
+            "startTime": "0:00:12.5333333",
+            "endTime": "0:00:12.5666667",
+            "startSeconds": 12.5,
+            "endSeconds": 12.6
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "fashion accessory",
+        "appearances": [
+          {
+            "confidence": 0.9764,
+            "startTime": "0:00:03.2",
+            "endTime": "0:00:03.2333333",
+            "startSeconds": 3.2,
+            "endSeconds": 3.2
+          },
+          {
+            "confidence": 0.9645,
+            "startTime": "0:00:06.4",
+            "endTime": "0:00:06.4333333",
+            "startSeconds": 6.4,
+            "endSeconds": 6.4
+          }
+        ]
+      }
+    ],
+    "framePatterns": [],
+    "brands": [],
+    "namedLocations": [],
+    "namedPeople": [],
+    "statistics": {
+      "correspondenceCount": 0,
+      "speakerTalkToListenRatio": {},
+      "speakerLongestMonolog": {},
+      "speakerNumberOfFragments": {},
+      "speakerWordCount": {}
+    },
+    "topics": []
+  },
+  "videos": [
+    {
+      "accountId": "398969ab-2964-4b6c-9fc6-80486e766222",
+      "id": "8ar7h1x0xv",
+      "state": "Processed",
+      "moderationState": "OK",
+      "reviewState": "None",
+      "privacyMode": "Private",
+      "processingProgress": "100%",
+      "failureMessage": "",
+      "externalId": null,
+      "externalUrl": null,
+      "metadata": null,
+      "insights": {
+        "version": "1.0.0.0",
+        "duration": "0:00:15.067",
+        "sourceLanguage": "en-US",
+        "sourceLanguages": [
+          "en-US"
+        ],
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "labels": [
+          {
+            "id": 1,
+            "name": "human face",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9879,
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:00:14.9666667",
+                "start": "0:00:00",
+                "end": "0:00:14.9666667"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "lipstick",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9668,
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:00:14.9666667",
+                "start": "0:00:00",
+                "end": "0:00:14.9666667"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "lip",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9621,
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:00:01.3666667",
+                "start": "0:00:00",
+                "end": "0:00:01.3666667"
+              },
+              {
+                "confidence": 0.9605,
+                "adjustedStart": "0:00:01.8666667",
+                "adjustedEnd": "0:00:03.7666667",
+                "start": "0:00:01.8666667",
+                "end": "0:00:03.7666667"
+              },
+              {
+                "confidence": 0.9721,
+                "adjustedStart": "0:00:04.2666667",
+                "adjustedEnd": "0:00:14.9666667",
+                "start": "0:00:04.2666667",
+                "end": "0:00:14.9666667"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "name": "eyelash",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.957,
+                "adjustedStart": "0:00:00.2666667",
+                "adjustedEnd": "0:00:02.9666667",
+                "start": "0:00:00.2666667",
+                "end": "0:00:02.9666667"
+              },
+              {
+                "confidence": 0.9681,
+                "adjustedStart": "0:00:03.4666667",
+                "adjustedEnd": "0:00:06.1666667",
+                "start": "0:00:03.4666667",
+                "end": "0:00:06.1666667"
+              },
+              {
+                "confidence": 0.97,
+                "adjustedStart": "0:00:06.6666667",
+                "adjustedEnd": "0:00:11.2333333",
+                "start": "0:00:06.6666667",
+                "end": "0:00:11.2333333"
+              },
+              {
+                "confidence": 0.9608,
+                "adjustedStart": "0:00:12",
+                "adjustedEnd": "0:00:12.8333333",
+                "start": "0:00:12",
+                "end": "0:00:12.8333333"
+              },
+              {
+                "confidence": 0.9633,
+                "adjustedStart": "0:00:13.8666667",
+                "adjustedEnd": "0:00:14.9666667",
+                "start": "0:00:13.8666667",
+                "end": "0:00:14.9666667"
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "name": "eyebrow",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9537,
+                "adjustedStart": "0:00:01.8666667",
+                "adjustedEnd": "0:00:02.4333333",
+                "start": "0:00:01.8666667",
+                "end": "0:00:02.4333333"
+              },
+              {
+                "confidence": 0.9561,
+                "adjustedStart": "0:00:02.9333333",
+                "adjustedEnd": "0:00:02.9666667",
+                "start": "0:00:02.9333333",
+                "end": "0:00:02.9666667"
+              },
+              {
+                "confidence": 0.9606,
+                "adjustedStart": "0:00:03.4666667",
+                "adjustedEnd": "0:00:03.7666667",
+                "start": "0:00:03.4666667",
+                "end": "0:00:03.7666667"
+              },
+              {
+                "confidence": 0.9522,
+                "adjustedStart": "0:00:04.5333333",
+                "adjustedEnd": "0:00:04.8333333",
+                "start": "0:00:04.5333333",
+                "end": "0:00:04.8333333"
+              },
+              {
+                "confidence": 0.95,
+                "adjustedStart": "0:00:06.6666667",
+                "adjustedEnd": "0:00:06.7",
+                "start": "0:00:06.6666667",
+                "end": "0:00:06.7"
+              },
+              {
+                "confidence": 0.9526,
+                "adjustedStart": "0:00:07.2",
+                "adjustedEnd": "0:00:07.2333333",
+                "start": "0:00:07.2",
+                "end": "0:00:07.2333333"
+              },
+              {
+                "confidence": 0.9505,
+                "adjustedStart": "0:00:08.5333333",
+                "adjustedEnd": "0:00:08.5666667",
+                "start": "0:00:08.5333333",
+                "end": "0:00:08.5666667"
+              },
+              {
+                "confidence": 0.9507,
+                "adjustedStart": "0:00:11.2",
+                "adjustedEnd": "0:00:11.2333333",
+                "start": "0:00:11.2",
+                "end": "0:00:11.2333333"
+              },
+              {
+                "confidence": 0.9517,
+                "adjustedStart": "0:00:13.8666667",
+                "adjustedEnd": "0:00:13.9",
+                "start": "0:00:13.8666667",
+                "end": "0:00:13.9"
+              },
+              {
+                "confidence": 0.9554,
+                "adjustedStart": "0:00:14.4",
+                "adjustedEnd": "0:00:14.9666667",
+                "start": "0:00:14.4",
+                "end": "0:00:14.9666667"
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "name": "cosmetics",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9521,
+                "adjustedStart": "0:00:02.6666667",
+                "adjustedEnd": "0:00:02.7",
+                "start": "0:00:02.6666667",
+                "end": "0:00:02.7"
+              },
+              {
+                "confidence": 0.9558,
+                "adjustedStart": "0:00:03.2",
+                "adjustedEnd": "0:00:03.2333333",
+                "start": "0:00:03.2",
+                "end": "0:00:03.2333333"
+              },
+              {
+                "confidence": 0.9658,
+                "adjustedStart": "0:00:08.8",
+                "adjustedEnd": "0:00:08.8333333",
+                "start": "0:00:08.8",
+                "end": "0:00:08.8333333"
+              },
+              {
+                "confidence": 0.9569,
+                "adjustedStart": "0:00:09.6",
+                "adjustedEnd": "0:00:09.6333333",
+                "start": "0:00:09.6",
+                "end": "0:00:09.6333333"
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "name": "fashion accessory",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9764,
+                "adjustedStart": "0:00:03.2",
+                "adjustedEnd": "0:00:03.2333333",
+                "start": "0:00:03.2",
+                "end": "0:00:03.2333333"
+              },
+              {
+                "confidence": 0.9645,
+                "adjustedStart": "0:00:06.4",
+                "adjustedEnd": "0:00:06.4333333",
+                "start": "0:00:06.4",
+                "end": "0:00:06.4333333"
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "name": "person",
+            "referenceId": "person",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9627,
+                "adjustedStart": "0:00:03.4666667",
+                "adjustedEnd": "0:00:03.5",
+                "start": "0:00:03.4666667",
+                "end": "0:00:03.5"
+              },
+              {
+                "confidence": 0.9577,
+                "adjustedStart": "0:00:04.8",
+                "adjustedEnd": "0:00:05.1",
+                "start": "0:00:04.8",
+                "end": "0:00:05.1"
+              },
+              {
+                "confidence": 0.9672,
+                "adjustedStart": "0:00:05.6",
+                "adjustedEnd": "0:00:07.2333333",
+                "start": "0:00:05.6",
+                "end": "0:00:07.2333333"
+              },
+              {
+                "confidence": 0.957,
+                "adjustedStart": "0:00:08.5333333",
+                "adjustedEnd": "0:00:08.5666667",
+                "start": "0:00:08.5333333",
+                "end": "0:00:08.5666667"
+              },
+              {
+                "confidence": 0.9539,
+                "adjustedStart": "0:00:09.6",
+                "adjustedEnd": "0:00:09.6333333",
+                "start": "0:00:09.6",
+                "end": "0:00:09.6333333"
+              },
+              {
+                "confidence": 0.9673,
+                "adjustedStart": "0:00:10.9333333",
+                "adjustedEnd": "0:00:13.3666667",
+                "start": "0:00:10.9333333",
+                "end": "0:00:13.3666667"
+              },
+              {
+                "confidence": 0.962,
+                "adjustedStart": "0:00:13.8666667",
+                "adjustedEnd": "0:00:14.9666667",
+                "start": "0:00:13.8666667",
+                "end": "0:00:14.9666667"
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "name": "makeover",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9606,
+                "adjustedStart": "0:00:06.4",
+                "adjustedEnd": "0:00:06.7",
+                "start": "0:00:06.4",
+                "end": "0:00:06.7"
+              },
+              {
+                "confidence": 0.9534,
+                "adjustedStart": "0:00:09.6",
+                "adjustedEnd": "0:00:09.6333333",
+                "start": "0:00:09.6",
+                "end": "0:00:09.6333333"
+              },
+              {
+                "confidence": 0.9506,
+                "adjustedStart": "0:00:13.3333333",
+                "adjustedEnd": "0:00:13.3666667",
+                "start": "0:00:13.3333333",
+                "end": "0:00:13.3666667"
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "name": "lip gloss",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9544,
+                "adjustedStart": "0:00:06.4",
+                "adjustedEnd": "0:00:06.4333333",
+                "start": "0:00:06.4",
+                "end": "0:00:06.4333333"
+              },
+              {
+                "confidence": 0.9544,
+                "adjustedStart": "0:00:12.5333333",
+                "adjustedEnd": "0:00:12.5666667",
+                "start": "0:00:12.5333333",
+                "end": "0:00:12.5666667"
+              }
+            ]
+          },
+          {
+            "id": 11,
+            "name": "smile",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9588,
+                "adjustedStart": "0:00:11.4666667",
+                "adjustedEnd": "0:00:11.5",
+                "start": "0:00:11.4666667",
+                "end": "0:00:11.5"
+              },
+              {
+                "confidence": 0.96,
+                "adjustedStart": "0:00:13.3333333",
+                "adjustedEnd": "0:00:13.3666667",
+                "start": "0:00:13.3333333",
+                "end": "0:00:13.3666667"
+              }
+            ]
+          }
+        ],
+        "scenes": [
+          {
+            "id": 1,
+            "instances": [
+              {
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:00:15",
+                "start": "0:00:00",
+                "end": "0:00:15"
+              }
+            ]
+          }
+        ],
+        "shots": [
+          {
+            "id": 1,
+            "keyFrames": [
+              {
+                "id": 1,
+                "instances": [
+                  {
+                    "thumbnailId": "f30fd5dc-eda2-4404-8dbf-f45cc1836271",
+                    "adjustedStart": "0:00:01.4333333",
+                    "adjustedEnd": "0:00:01.4666667",
+                    "start": "0:00:01.4333333",
+                    "end": "0:00:01.4666667"
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "instances": [
+                  {
+                    "thumbnailId": "b1b4f8b2-8328-4744-a9b6-fcf2c24b0a04",
+                    "adjustedStart": "0:00:07.4",
+                    "adjustedEnd": "0:00:07.4333333",
+                    "start": "0:00:07.4",
+                    "end": "0:00:07.4333333"
+                  }
+                ]
+              },
+              {
+                "id": 3,
+                "instances": [
+                  {
+                    "thumbnailId": "8598e702-afac-4ddd-97be-6fb2b956a8a0",
+                    "adjustedStart": "0:00:11.7666667",
+                    "adjustedEnd": "0:00:11.8",
+                    "start": "0:00:11.7666667",
+                    "end": "0:00:11.8"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:00:15",
+                "start": "0:00:00",
+                "end": "0:00:15"
+              }
+            ]
+          }
+        ],
+        "textualContentModeration": {
+          "id": 0,
+          "bannedWordsCount": 0,
+          "bannedWordsRatio": 0,
+          "instances": []
+        },
+        "statistics": {
+          "correspondenceCount": 0,
+          "speakerTalkToListenRatio": {},
+          "speakerLongestMonolog": {},
+          "speakerNumberOfFragments": {},
+          "speakerWordCount": {}
+        }
+      },
+      "thumbnailId": "1fb3fa35-f8d0-4ad3-bcca-a2a275f38a58",
+      "width": 720,
+      "height": 1280,
+      "detectSourceLanguage": false,
+      "languageAutoDetectMode": "None",
+      "sourceLanguage": "en-US",
+      "sourceLanguages": [
+        "en-US"
+      ],
+      "language": "en-US",
+      "languages": [
+        "en-US"
+      ],
+      "indexingPreset": "AdvancedVideo",
+      "streamingPreset": "Default",
+      "linguisticModelId": "00000000-0000-0000-0000-000000000000",
+      "personModelId": "00000000-0000-0000-0000-000000000000",
+      "logoGroupId": null,
+      "isAdult": false,
+      "excludedAIs": [],
+      "isSearchable": true,
+      "publishedUrl": "https://api.videoindexer.ai/internals/Trial/Accounts/398969ab-2964-4b6c-9fc6-80486e766222/Videos/8ar7h1x0xv/streaming-manifest/manifest.m3u8",
+      "publishedProxyUrl": null,
+      "viewToken": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJWZXJzaW9uIjoiMi4wLjAuMCIsIktleVZlcnNpb24iOiI1OGYzODM3MTQ0MDc0ZGJiYTg3N2RkNTdhNzUyMDUxYiIsIkFjY291bnRJZCI6IjM5ODk2OWFiLTI5NjQtNGI2Yy05ZmM2LTgwNDg2ZTc2NjIyMiIsIkFjY291bnRUeXBlIjoiVHJpYWwiLCJWaWRlb0lkIjoiOGFyN2gxeDB4diIsIlBlcm1pc3Npb24iOiJSZXN0cmljdGVkVmlld2VyIiwiRXh0ZXJuYWxVc2VySWQiOiIxMDcwMzUxMDExMDY5ODk3Mzk0MjYiLCJVc2VyVHlwZSI6Ikdvb2dsZSIsIklzc3VlckxvY2F0aW9uIjoiVHJpYWwiLCJuYmYiOjE3NzY3MDE5NTIsImV4cCI6MTc3NjcwNTg1MiwiaXNzIjoiaHR0cHM6Ly9hcGkudmlkZW9pbmRleGVyLmFpLyIsImF1ZCI6Imh0dHBzOi8vYXBpLnZpZGVvaW5kZXhlci5haS8ifQ.U-D87MG1-KkVXXx0DtFKIYJQV3z4a66vNwL7iqJqhbwn0iJYME-o2Ld9I-wZFuCLn10yY8LGiXOkvrLGwB2RPwSZ0lhywPkMAyngDvJI6EjLKy31-5kwF9Lxgte4TOWYR1cMzPcv_wpZyakxFKGj6HpgT_2AAFbZG-97J76Ej2q2wYbV3QOIShiyVBJImvJwdCKcruE52h23dvl7qqdykkIMbGrbY2aKnxyl7iwhHHB1hKUdwpFc5gXIxGFRr_GeIRG6KjJLexvOWdVyxgFrM6Z8_GdrAv2SKhuRYV0mZx2U3kr-VYV_e9KPfw1BnGlNrChTJ1UgOZ9q_eXw1XulWQ"
+    }
+  ],
+  "videosRanges": [
+    {
+      "videoId": "8ar7h1x0xv",
+      "range": {
+        "start": "0:00:00",
+        "end": "0:00:15.067"
+      }
+    }
+  ]
+}

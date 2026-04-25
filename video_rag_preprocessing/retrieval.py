@@ -32,6 +32,7 @@ class RetrievedClip:
     end: float
     bm25_score: float
     entity_confidence: float
+    semantic_score: float
     final_score: float
     transcript: str = ""
     ocr: str = ""
@@ -154,6 +155,10 @@ class VideoGraphRetriever:
         query: str,
         top_k_entities: int = 3,
         top_n_clips: int = 5,
+        max_hops: int = 2,
+        semantic_decay: float = 0.6,
+        temporal_decay: float = 0.9,
+        semantic_verification_threshold: float = 0.2
     ) -> RetrievalResult:
         """
         End-to-end retrieval: query → seed entities → candidate clips → BM25 ranking.
@@ -162,6 +167,10 @@ class VideoGraphRetriever:
             query: Natural-language search query.
             top_k_entities: Number of seed entities to select (default 3).
             top_n_clips: Number of final clips to return (default 5).
+            max_hops: Depth of clip-to-clip traversal.
+            semantic_decay: Decay factor for SHARES_ENTITY edges.
+            temporal_decay: Decay factor for NEXT edges.
+            semantic_verification_threshold: Minimum semantic score to pass verification.
 
         Returns:
             A RetrievalResult dataclass with ranked clips.
@@ -187,7 +196,10 @@ class VideoGraphRetriever:
             )
 
         # Step 3 — Graph traversal: seed entities → clip nodes
-        candidate_clips = self._traverse_to_clips(seed_entities)
+        candidate_clips = self._traverse_to_clips(
+            seed_entities, max_hops=max_hops, 
+            semantic_decay=semantic_decay, temporal_decay=temporal_decay
+        )
 
         if not candidate_clips:
             return RetrievalResult(
@@ -223,13 +235,34 @@ class VideoGraphRetriever:
             )
 
         # Step 4 — Hybrid ranking (BM25 + Dense Semantic)
-        ranked_clips = self._rank_bm25(query, query_vec, filtered_candidates, top_n_clips)
+        # Fetch more candidates initially to allow for pruning during verification
+        ranked_clips = self._rank_bm25(query, query_vec, filtered_candidates, top_n_clips * 3)
+
+        # Step 5 — Structured Verification Pipeline
+        verified_clips = []
+        query_keywords = set(_tokenize(query))
+        
+        for clip in ranked_clips:
+            # 1. Lexical filtering (cheap check)
+            clip_text = " ".join(filter(None, [clip.transcript, clip.summary, clip.ocr]))
+            clip_tokens = set(_tokenize(clip_text))
+            lexical_match = any(kw in clip_tokens for kw in query_keywords)
+            
+            # 2. Semantic similarity filtering
+            semantic_match = clip.semantic_score >= semantic_verification_threshold
+            
+            # 3. Final Pruning: Clip must have either a strong semantic match or a lexical match
+            if lexical_match or semantic_match:
+                verified_clips.append(clip)
+            
+            if len(verified_clips) >= top_n_clips:
+                break
 
         return RetrievalResult(
             query=query,
             seed_entities=seed_entities,
             candidate_clip_count=len(filtered_candidates),
-            clips=ranked_clips,
+            clips=verified_clips,
         )
 
     # ------------------------------------------------------------------
@@ -260,38 +293,83 @@ class VideoGraphRetriever:
         return seeds
 
     def _traverse_to_clips(
-        self, seeds: List[Tuple[str, float]]
+        self, seeds: List[Tuple[str, float]], max_hops: int = 2, 
+        semantic_decay: float = 0.6, temporal_decay: float = 0.9
     ) -> Dict[str, float]:
-        """Follow bipartite mapping from seed entities to unique clip nodes. Returns max confidence per clip."""
+        """Follow bipartite mapping from seed entities to unique clip nodes. 
+        Then expands via SHARES_ENTITY and NEXT edges with score decay."""
         candidate_dict: Dict[str, float] = {}
 
-        for entity_id, _ in seeds:
-            # O(1) lookup using bipartite_dict
+        # 0. High-precision initial candidate set (Entity -> Clip)
+        initial_clips = {}
+        for entity_id, conf in seeds:
             if entity_id in self.bipartite_dict:
                 for clip_info in self.bipartite_dict[entity_id]:
                     cid = clip_info['clip_id']
-                    conf = clip_info.get('confidence', 1.0)
-                    if cid not in candidate_dict or conf > candidate_dict[cid]:
-                        candidate_dict[cid] = conf
+                    c_conf = clip_info.get('confidence', 1.0) * conf
+                    if cid not in initial_clips or c_conf > initial_clips[cid]:
+                        initial_clips[cid] = c_conf
             else:
-                # Fallback to graph edges if not in dict (e.g. if dict wasn't provided)
                 for neighbour in self.graph.successors(entity_id):
                     if neighbour in self._clip_ids:
                         edge_data = self.graph.get_edge_data(entity_id, neighbour, default={})
-                        conf = edge_data.get('confidence', 1.0)
-                        if neighbour not in candidate_dict or conf > candidate_dict[neighbour]:
-                            candidate_dict[neighbour] = conf
+                        c_conf = edge_data.get('confidence', 1.0) * conf
+                        if neighbour not in initial_clips or c_conf > initial_clips[neighbour]:
+                            initial_clips[neighbour] = c_conf
                 for neighbour in self.graph.predecessors(entity_id):
                     if neighbour in self._clip_ids:
                         edge_data = self.graph.get_edge_data(neighbour, entity_id, default={})
-                        conf = edge_data.get('confidence', 1.0)
-                        if neighbour not in candidate_dict or conf > candidate_dict[neighbour]:
-                            candidate_dict[neighbour] = conf
+                        c_conf = edge_data.get('confidence', 1.0) * conf
+                        if neighbour not in initial_clips or c_conf > initial_clips[neighbour]:
+                            initial_clips[neighbour] = c_conf
+
+        candidate_dict.update(initial_clips)
+
+        # 1. Edge-Type-Aware Traversal (Expansion)
+        current_frontier = list(initial_clips.items())
+        
+        for hop in range(max_hops):
+            next_frontier = {}
+            for cid, score in current_frontier:
+                # Traverse outgoing
+                for neighbour in self.graph.successors(cid):
+                    if neighbour in self._clip_ids:
+                        edge_data = self.graph.get_edge_data(cid, neighbour, default={})
+                        edge_type = edge_data.get('type')
+                        
+                        decay = 1.0
+                        if edge_type == 'NEXT': decay = temporal_decay
+                        elif edge_type == 'SHARES_ENTITY': decay = semantic_decay
+                        else: continue
+                        
+                        new_score = score * decay
+                        if neighbour not in candidate_dict or new_score > candidate_dict[neighbour]:
+                            candidate_dict[neighbour] = new_score
+                            next_frontier[neighbour] = new_score
+                
+                # Traverse incoming
+                for neighbour in self.graph.predecessors(cid):
+                    if neighbour in self._clip_ids:
+                        edge_data = self.graph.get_edge_data(neighbour, cid, default={})
+                        edge_type = edge_data.get('type')
+                        
+                        decay = 1.0
+                        if edge_type == 'NEXT': decay = temporal_decay * 0.8 # Penality for going backwards in time
+                        elif edge_type == 'SHARES_ENTITY': decay = semantic_decay
+                        else: continue
+                        
+                        new_score = score * decay
+                        if neighbour not in candidate_dict or new_score > candidate_dict[neighbour]:
+                            candidate_dict[neighbour] = new_score
+                            next_frontier[neighbour] = new_score
+            
+            current_frontier = list(next_frontier.items())
+            if not current_frontier:
+                break
 
         logger.info(
-            "Graph traversal yielded %d candidate clips from %d seed entities.",
-            len(candidate_dict),
-            len(seeds),
+            "Graph traversal yielded %d candidate clips from %d seed entities (max_hops=%d).",
+            len(candidate_dict), len(seeds), max_hops
         )
         return candidate_dict
 
@@ -357,6 +435,7 @@ class VideoGraphRetriever:
                     end=attr.get("end", 0.0),
                     bm25_score=float(bm25_scores[idx]),
                     entity_confidence=float(candidate_dict[cid]),
+                    semantic_score=float(semantic_scores[idx]),
                     final_score=float(final_scores[idx]),
                     transcript=attr.get("transcript", ""),
                     ocr=attr.get("ocr", ""),

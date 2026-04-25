@@ -1,7 +1,7 @@
 import logging
 import itertools
 from typing import Dict, Any, List
-from semantic_graph import get_entity_id, normalize_name, get_relationship_type
+from semantic_graph import get_entity_id, normalize_name, get_relationship_type, get_normalized_mapping
 
 logger = logging.getLogger(__name__)
 
@@ -41,6 +41,12 @@ class EntityGraphBuilder:
             'detectedObjects': 'detected_object'
         }
 
+        canonical_mapping = get_normalized_mapping(clip_data, merge_threshold=0.85)
+
+        def get_canonical(entity, e_type):
+            raw_id = get_entity_id(entity, e_type)
+            return canonical_mapping.get(raw_id, raw_id) if raw_id else ""
+
         for folder_name, payloads in clip_data.items():
             raw_insights = payloads.get('raw_insights')
             ocr = payloads.get('ocr')
@@ -59,7 +65,7 @@ class EntityGraphBuilder:
                     for entity in entities:
                         if not isinstance(entity, dict): continue
                         
-                        node_id = get_entity_id(entity, entity_type)
+                        node_id = get_canonical(entity, entity_type)
                         if not node_id: continue
                         
                         entities_in_current_clip.add(node_id)
@@ -102,7 +108,7 @@ class EntityGraphBuilder:
                 
                 sentiments = summarized.get('sentiments', [])
                 for sent in sentiments:
-                    node_id = get_entity_id(sent, 'sentiment')
+                    node_id = get_canonical(sent, 'sentiment')
                     if node_id:
                         entities_in_current_clip.add(node_id)
                         if node_id not in all_entities:
@@ -110,7 +116,7 @@ class EntityGraphBuilder:
                         
                 emotions = summarized.get('emotions', [])
                 for em in emotions:
-                    node_id = get_entity_id(em, 'emotion')
+                    node_id = get_canonical(em, 'emotion')
                     if node_id:
                         entities_in_current_clip.add(node_id)
                         if node_id not in all_entities:
@@ -121,15 +127,15 @@ class EntityGraphBuilder:
                 # but we will connect them if they co-exist in this clip's payload)
                 people = raw_insights.get('namedPeople', [])
                 for person in people:
-                    p_id = get_entity_id(person, 'person')
+                    p_id = get_canonical(person, 'person')
                     if not p_id: continue
                     
                     for sent in sentiments:
-                        s_id = get_entity_id(sent, 'sentiment')
+                        s_id = get_canonical(sent, 'sentiment')
                         if s_id: assoc_edges.append((p_id, s_id))
                         
                     for em in emotions:
-                        e_id = get_entity_id(em, 'emotion')
+                        e_id = get_canonical(em, 'emotion')
                         if e_id: expressed_edges.append((p_id, e_id))
 
             # 4. Add OCR Text
