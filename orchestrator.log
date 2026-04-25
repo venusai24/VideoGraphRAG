@@ -1123,3 +1123,51 @@
 2026-04-25 15:19:34,554 - Orchestrator - WARNING - [GRAPH-ERR] 2026-04-25 15:19:33,756 - graph_store.connection - INFO - Closed connection to Entity Graph.
 2026-04-25 15:19:34,554 - Orchestrator - WARNING - [GRAPH-ERR] 2026-04-25 15:19:33,756 - graph_store.connection - INFO - Closed connection to Mapping Graph.
 2026-04-25 15:19:34,554 - Orchestrator - INFO - [9b10ee3e] - [COMPLETED] - End-to-end pipeline successful.
+2026-04-25 16:51:09,588 - Orchestrator - INFO - [940c9dac] - [PENDING] - Registered: Project Hail Mary - Official Trailer.mp4
+2026-04-25 16:51:09,591 - Orchestrator - INFO - [eb38471a] - [PENDING] - Registered: The International Airport That Can Only Send Flights to Turkey.mp4
+2026-04-25 16:51:09,591 - Orchestrator - INFO - [f4b00ab1] - [PENDING] - Registered: Why Amtrak’s Most Important Tunnels Are Doomed.mp4
+2026-04-25 16:51:09,591 - Orchestrator - INFO - [4121a958] - [PENDING] - Registered: Why The US Government Put 480 Million Needles Into the Sky.mp4
+2026-04-25 16:51:09,591 - Orchestrator - INFO - [6b558b4b] - [PENDING] - Registered: when i breeth.mp4
+2026-04-25 16:51:09,591 - Orchestrator - INFO - [940c9dac] - [LOCAL_RUNNING] - Processing Project Hail Mary - Official Trailer.mp4
+2026-04-25 16:51:09,593 - Orchestrator - INFO - [940c9dac] - [AZURE_RUNNING] - Uploading and indexing via AVI...
+2026-04-25 16:51:09,593 - Orchestrator - INFO - [eb38471a] - [LOCAL_RUNNING] - Processing The International Airport That Can Only Send Flights to Turkey.mp4
+2026-04-25 16:51:09,594 - Orchestrator - INFO - Launching local pipeline: Project Hail Mary - Official Trailer.mp4 → /Users/aderlasatvik/Downloads/acad projects/ir/VideoGraphRAG/outputs/940c9dac
+2026-04-25 16:51:09,594 - Orchestrator - INFO - [eb38471a] - [AZURE_RUNNING] - Uploading and indexing via AVI...
+2026-04-25 16:51:09,602 - Orchestrator - INFO - Launching local pipeline: The International Airport That Can Only Send Flights to Turkey.mp4 → /Users/aderlasatvik/Downloads/acad projects/ir/VideoGraphRAG/outputs/eb38471a
+2026-04-25 16:51:09,603 - Orchestrator - INFO - [f4b00ab1] - [LOCAL_RUNNING] - Processing Why Amtrak’s Most Important Tunnels Are Doomed.mp4
+2026-04-25 16:51:09,603 - Orchestrator - INFO - [f4b00ab1] - [AZURE_RUNNING] - Uploading and indexing via AVI...
+2026-04-25 16:51:09,603 - Orchestrator - INFO - [4121a958] - [LOCAL_RUNNING] - Processing Why The US Government Put 480 Million Needles Into the Sky.mp4
+2026-04-25 16:51:09,606 - Orchestrator - INFO - [4121a958] - [AZURE_RUNNING] - Uploading and indexing via AVI...
+2026-04-25 16:51:09,613 - Orchestrator - INFO - [6b558b4b] - [LOCAL_RUNNING] - Processing when i breeth.mp4
+2026-04-25 16:51:09,613 - Orchestrator - INFO - [6b558b4b] - [AZURE_RUNNING] - Uploading and indexing via AVI...
+2026-04-25 16:51:16,288 - Orchestrator - INFO - Watching input for new .mp4 files...
+2026-04-25 16:51:16,289 - Orchestrator - INFO - [c58336fa] - [PENDING] - Registered: Project Hail Mary - Official Trailer.mp4
+2026-04-25 16:51:16,289 - Orchestrator - INFO - [9803f9bf] - [PENDING] - Registered: The International Airport That Can Only Send Flights to Turkey.mp4
+2026-04-25 16:51:16,289 - Orchestrator - INFO - [ed5deccc] - [PENDING] - Registered: Why Amtrak’s Most Important Tunnels Are Doomed.mp4
+2026-04-25 16:51:16,289 - Orchestrator - INFO - [30828ef4] - [PENDING] - Registered: Why The US Government Put 480 Million Needles Into the Sky.mp4
+2026-04-25 16:51:16,289 - Orchestrator - INFO - [dab60058] - [PENDING] - Registered: when i breeth.mp4
+2026-04-25 16:51:16,289 - Orchestrator - INFO - [c58336fa] - [LOCAL_RUNNING] - Processing Project Hail Mary - Official Trailer.mp4
+2026-04-25 16:51:16,289 - Orchestrator - INFO - [c58336fa] - [AZURE_RUNNING] - Uploading and indexing via AVI...
+2026-04-25 16:51:16,289 - Orchestrator - INFO - Launching local pipeline: Project Hail Mary - Official Trailer.mp4 → /Users/aderlasatvik/Downloads/acad projects/ir/VideoGraphRAG/outputs/c58336fa
+2026-04-25 16:51:16,289 - Orchestrator - INFO - [9803f9bf] - [LOCAL_RUNNING] - Processing The International Airport That Can Only Send Flights to Turkey.mp4
+2026-04-25 16:51:16,289 - avi_client - INFO - Attempting to fetch fresh access token via Subscription Key...
+2026-04-25 16:51:16,292 - Orchestrator - INFO - [9803f9bf] - [AZURE_RUNNING] - Uploading and indexing via AVI...
+2026-04-25 16:51:16,292 - Orchestrator - INFO - Launching local pipeline: The International Airport That Can Only Send Flights to Turkey.mp4 → /Users/aderlasatvik/Downloads/acad projects/ir/VideoGraphRAG/outputs/9803f9bf
+2026-04-25 16:51:16,292 - Orchestrator - INFO - [ed5deccc] - [LOCAL_RUNNING] - Processing Why Amtrak’s Most Important Tunnels Are Doomed.mp4
+2026-04-25 16:51:16,293 - avi_client - INFO - Attempting to fetch fresh access token via Subscription Key...
+2026-04-25 16:51:16,294 - Orchestrator - INFO - [ed5deccc] - [AZURE_RUNNING] - Uploading and indexing via AVI...
+2026-04-25 16:51:16,294 - Orchestrator - INFO - [30828ef4] - [LOCAL_RUNNING] - Processing Why The US Government Put 480 Million Needles Into the Sky.mp4
+2026-04-25 16:51:16,295 - Orchestrator - INFO - [30828ef4] - [AZURE_RUNNING] - Uploading and indexing via AVI...
+2026-04-25 16:51:16,295 - Orchestrator - INFO - [dab60058] - [LOCAL_RUNNING] - Processing when i breeth.mp4
+2026-04-25 16:51:16,296 - Orchestrator - INFO - [dab60058] - [AZURE_RUNNING] - Uploading and indexing via AVI...
+2026-04-25 16:51:54,916 - avi_client - INFO - Attempting to fetch fresh access token via Subscription Key...
+2026-04-25 16:52:06,828 - Orchestrator - INFO - Launching local pipeline: Why Amtrak’s Most Important Tunnels Are Doomed.mp4 → /Users/aderlasatvik/Downloads/acad projects/ir/VideoGraphRAG/outputs/f4b00ab1
+2026-04-25 16:52:06,839 - Orchestrator - INFO - [eb38471a] - [AZURE_FAILED] - ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2026-04-25 16:52:09,275 - avi_client - INFO - Upload Successful. Target Video ID: b5nadwbz0u
+2026-04-25 16:52:09,297 - Orchestrator - INFO - Launching local pipeline: Why Amtrak’s Most Important Tunnels Are Doomed.mp4 → /Users/aderlasatvik/Downloads/acad projects/ir/VideoGraphRAG/outputs/ed5deccc
+2026-04-25 16:52:42,764 - avi_client - INFO - Upload Successful. Target Video ID: xxo4o3fv6u
+2026-04-25 16:53:03,072 - Orchestrator - INFO - [f4b00ab1] - [AZURE_FAILED] - HTTPSConnectionPool(host='api.videoindexer.ai', port=443): Read timed out. (read timeout=None)
+2026-04-25 16:53:03,073 - Orchestrator - INFO - Launching local pipeline: Why The US Government Put 480 Million Needles Into the Sky.mp4 → /Users/aderlasatvik/Downloads/acad projects/ir/VideoGraphRAG/outputs/4121a958
+2026-04-25 16:53:18,052 - avi_client - INFO - Upload Successful. Target Video ID: mz8nd9o6uu
+2026-04-25 16:54:43,954 - avi_client - INFO - Upload Successful. Target Video ID: k9anbdps2m
+2026-04-25 16:54:44,122 - Orchestrator - INFO - Launching local pipeline: Why The US Government Put 480 Million Needles Into the Sky.mp4 → /Users/aderlasatvik/Downloads/acad projects/ir/VideoGraphRAG/outputs/30828ef4
