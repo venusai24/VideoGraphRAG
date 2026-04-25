@@ -1,0 +1,262 @@
+2026-04-25 17:45:01,391 - Orchestrator - INFO - Watching input for new .mp4 files (Sequential Mode)...
+2026-04-25 17:45:01,391 - Orchestrator - INFO - [5648f696] - [PENDING] - Registered: Project Hail Mary - Official Trailer.mp4
+2026-04-25 17:45:01,391 - Orchestrator - INFO - [5648f696] - [LOCAL_RUNNING] - Processing Project Hail Mary - Official Trailer.mp4
+2026-04-25 17:45:01,391 - Orchestrator - INFO - [5648f696] - [AZURE_RUNNING] - Uploading and indexing via AVI...
+2026-04-25 17:45:01,391 - Orchestrator - INFO - Launching local pipeline: Project Hail Mary - Official Trailer.mp4 → /Users/aderlasatvik/Downloads/acad projects/ir/VideoGraphRAG/outputs/5648f696
+2026-04-25 17:45:01,393 - avi_client - INFO - Attempting to fetch fresh access token via Subscription Key...
+2026-04-25 17:45:10,927 - avi_client - INFO - Upload Successful. Target Video ID: ex8a4egfvx
+2026-04-25 17:45:11,657 - avi_client - INFO - Polling Status: Processing (0s elapsed)
+2026-04-25 17:45:42,172 - avi_client - INFO - Polling Status: Failed (31s elapsed)
+2026-04-25 17:45:42,172 - Orchestrator - INFO - [5648f696] - [AZURE_FAILED] - Azure Video Indexer failure: Failed to process the given input file since the file format is not supported. Please try a different file format.
+2026-04-25 17:48:10,243 - Orchestrator - INFO - Orchestrator shutting down.
+2026-04-25 17:48:11,757 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:02,480 - INFO - Starting Semantic Compressor for video: /Users/aderlasatvik/Downloads/acad projects/ir/VideoGraphRAG/input/Project Hail Mary - Official Trailer.mp4
+2026-04-25 17:48:11,758 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:02,481 - INFO - Configuration loaded.
+2026-04-25 17:48:11,758 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:02,481 - INFO - Extracting optimal 16kHz mono audio for ASR to /Users/aderlasatvik/Downloads/acad projects/ir/VideoGraphRAG/outputs/5648f696/optimal_audio.wav...
+2026-04-25 17:48:11,758 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:08,932 - INFO - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 17:48:11,758 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:09,019 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/openai/clip-vit-base-patch32/3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268/config.json "HTTP/1.1 200 OK"
+2026-04-25 17:48:11,758 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:09,344 - INFO - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+2026-04-25 17:48:11,758 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:11,065 - INFO - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+2026-04-25 17:48:11,758 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:11,865 - INFO - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/pytorch_model.bin "HTTP/1.1 302 Found"
+2026-04-25 17:48:11,758 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:12,273 - INFO - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+2026-04-25 17:48:11,758 - Orchestrator - WARNING - [LOCAL-ERR] Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]
+2026-04-25 17:48:11,758 - Orchestrator - WARNING - [LOCAL-ERR] Loading weights: 100%|██████████| 398/398 [00:00<00:00, 49141.39it/s]
+2026-04-25 17:48:11,758 - Orchestrator - WARNING - [LOCAL-ERR] [1mCLIPModel LOAD REPORT[0m from: openai/clip-vit-base-patch32
+2026-04-25 17:48:11,758 - Orchestrator - WARNING - [LOCAL-ERR] Key                                  | Status     |  | 
+2026-04-25 17:48:11,758 - Orchestrator - WARNING - [LOCAL-ERR] -------------------------------------+------------+--+-
+2026-04-25 17:48:11,758 - Orchestrator - WARNING - [LOCAL-ERR] vision_model.embeddings.position_ids | UNEXPECTED |  | 
+2026-04-25 17:48:11,758 - Orchestrator - WARNING - [LOCAL-ERR] text_model.embeddings.position_ids   | UNEXPECTED |  | 
+2026-04-25 17:48:11,758 - Orchestrator - WARNING - [LOCAL-ERR] Notes:
+2026-04-25 17:48:11,758 - Orchestrator - WARNING - [LOCAL-ERR] - UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+2026-04-25 17:48:11,758 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:12,680 - INFO - HTTP Request: GET https://huggingface.co/api/models/openai/clip-vit-base-patch32 "HTTP/1.1 200 OK"
+2026-04-25 17:48:11,758 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:13,014 - INFO - HTTP Request: GET https://huggingface.co/api/models/openai/clip-vit-base-patch32/commits/main "HTTP/1.1 200 OK"
+2026-04-25 17:48:11,758 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:13,398 - INFO - HTTP Request: GET https://huggingface.co/api/models/openai/clip-vit-base-patch32/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-25 17:48:11,758 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:13,399 - INFO - HTTP Request: GET https://huggingface.co/api/models/openai/clip-vit-base-patch32/discussions?p=0 "HTTP/1.1 200 OK"
+2026-04-25 17:48:11,758 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:13,808 - INFO - HTTP Request: GET https://huggingface.co/api/models/openai/clip-vit-base-patch32/commits/refs%2Fpr%2F66 "HTTP/1.1 200 OK"
+2026-04-25 17:48:11,758 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:13,809 - INFO - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-04-25 17:48:11,758 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:14,226 - INFO - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/chat_template.json "HTTP/1.1 404 Not Found"
+2026-04-25 17:48:11,758 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:14,365 - INFO - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/refs%2Fpr%2F66/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+2026-04-25 17:48:11,758 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:14,550 - INFO - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/chat_template.jinja "HTTP/1.1 404 Not Found"
+2026-04-25 17:48:11,758 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:14,686 - INFO - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/refs%2Fpr%2F66/model.safetensors "HTTP/1.1 302 Found"
+2026-04-25 17:48:11,758 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:14,858 - INFO - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/audio_tokenizer_config.json "HTTP/1.1 404 Not Found"
+2026-04-25 17:48:11,758 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:15,241 - INFO - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-04-25 17:48:11,758 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:15,651 - INFO - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 17:48:11,758 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:15,712 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/openai/clip-vit-base-patch32/3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268/preprocessor_config.json "HTTP/1.1 200 OK"
+2026-04-25 17:48:11,758 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:16,040 - INFO - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-04-25 17:48:11,758 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:16,369 - INFO - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 17:48:11,758 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:16,429 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/openai/clip-vit-base-patch32/3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268/preprocessor_config.json "HTTP/1.1 200 OK"
+2026-04-25 17:48:11,758 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:16,778 - INFO - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 17:48:11,758 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:16,839 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/openai/clip-vit-base-patch32/3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268/config.json "HTTP/1.1 200 OK"
+2026-04-25 17:48:11,758 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:17,187 - INFO - HTTP Request: HEAD https://huggingface.co/openai/clip-vit-base-patch32/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 17:48:11,758 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:17,264 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/openai/clip-vit-base-patch32/3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-25 17:48:11,758 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:17,588 - INFO - HTTP Request: GET https://huggingface.co/api/models/openai/clip-vit-base-patch32/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-25 17:48:11,758 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:18,075 - INFO - HTTP Request: GET https://huggingface.co/api/models/openai/clip-vit-base-patch32/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-25 17:48:11,758 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:18,186 - INFO - CLIP model loaded on mps
+2026-04-25 17:48:11,758 - Orchestrator - WARNING - [LOCAL-ERR] Using cache found in /Users/aderlasatvik/.cache/torch/hub/facebookresearch_dinov2_main
+2026-04-25 17:48:11,758 - Orchestrator - WARNING - [LOCAL-ERR] /Users/aderlasatvik/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+2026-04-25 17:48:11,758 - Orchestrator - WARNING - [LOCAL-ERR]   warnings.warn("xFormers is not available (SwiGLU)")
+2026-04-25 17:48:11,758 - Orchestrator - WARNING - [LOCAL-ERR] /Users/aderlasatvik/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+2026-04-25 17:48:11,758 - Orchestrator - WARNING - [LOCAL-ERR]   warnings.warn("xFormers is not available (Attention)")
+2026-04-25 17:48:11,758 - Orchestrator - WARNING - [LOCAL-ERR] /Users/aderlasatvik/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+2026-04-25 17:48:11,758 - Orchestrator - WARNING - [LOCAL-ERR]   warnings.warn("xFormers is not available (Block)")
+2026-04-25 17:48:11,761 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:19,043 - INFO - using MLP layer as FFN
+2026-04-25 17:48:11,761 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:19,420 - INFO - DINOv2 model loaded on mps
+2026-04-25 17:48:11,761 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:19,420 - WARNING - YOLO unavailable (No module named 'ultralytics') – entity list will be empty
+2026-04-25 17:48:11,762 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:19,421 - INFO - Pipeline components initialized (native FPS=23.98). Commencing frame streaming...
+2026-04-25 17:48:11,762 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:21,264 - INFO - Processed 30 native frames. Compressor time target: 1.21s
+2026-04-25 17:48:11,762 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:22,825 - INFO - Processed 60 native frames. Compressor time target: 2.46s
+2026-04-25 17:48:11,762 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:24,328 - INFO - Processed 90 native frames. Compressor time target: 3.71s
+2026-04-25 17:48:11,762 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:25,826 - INFO - Processed 120 native frames. Compressor time target: 4.96s
+2026-04-25 17:48:11,762 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:27,299 - INFO - Processed 150 native frames. Compressor time target: 6.21s
+2026-04-25 17:48:11,762 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:28,755 - INFO - Processed 180 native frames. Compressor time target: 7.46s
+2026-04-25 17:48:11,762 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:30,217 - INFO - Processed 210 native frames. Compressor time target: 8.71s
+2026-04-25 17:48:11,762 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:31,706 - INFO - Processed 240 native frames. Compressor time target: 9.96s
+2026-04-25 17:48:11,762 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:33,131 - INFO - Processed 270 native frames. Compressor time target: 11.21s
+2026-04-25 17:48:11,762 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:34,560 - INFO - Processed 300 native frames. Compressor time target: 12.46s
+2026-04-25 17:48:11,762 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:36,005 - INFO - Processed 330 native frames. Compressor time target: 13.71s
+2026-04-25 17:48:11,762 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:37,562 - INFO - Processed 360 native frames. Compressor time target: 14.96s
+2026-04-25 17:48:11,762 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:39,062 - INFO - Processed 390 native frames. Compressor time target: 16.21s
+2026-04-25 17:48:11,762 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:40,640 - INFO - Processed 420 native frames. Compressor time target: 17.46s
+2026-04-25 17:48:11,762 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:42,105 - INFO - Processed 450 native frames. Compressor time target: 18.71s
+2026-04-25 17:48:11,762 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:43,684 - INFO - Processed 480 native frames. Compressor time target: 19.96s
+2026-04-25 17:48:11,762 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:45,170 - INFO - Processed 510 native frames. Compressor time target: 21.21s
+2026-04-25 17:48:11,762 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:46,617 - INFO - Processed 540 native frames. Compressor time target: 22.46s
+2026-04-25 17:48:11,762 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:48,190 - INFO - Processed 570 native frames. Compressor time target: 23.71s
+2026-04-25 17:48:11,762 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:49,624 - INFO - Processed 600 native frames. Compressor time target: 24.96s
+2026-04-25 17:48:11,762 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:51,092 - INFO - Processed 630 native frames. Compressor time target: 26.21s
+2026-04-25 17:48:11,762 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:52,492 - INFO - Processed 660 native frames. Compressor time target: 27.46s
+2026-04-25 17:48:11,762 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:53,887 - INFO - Processed 690 native frames. Compressor time target: 28.71s
+2026-04-25 17:48:11,762 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:55,280 - INFO - Processed 720 native frames. Compressor time target: 29.96s
+2026-04-25 17:48:11,762 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:56,677 - INFO - Processed 750 native frames. Compressor time target: 31.21s
+2026-04-25 17:48:11,762 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:58,103 - INFO - Processed 780 native frames. Compressor time target: 32.46s
+2026-04-25 17:48:11,762 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:45:59,626 - INFO - Processed 810 native frames. Compressor time target: 33.71s
+2026-04-25 17:48:11,762 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:46:01,118 - INFO - Processed 840 native frames. Compressor time target: 34.96s
+2026-04-25 17:48:11,762 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:46:02,600 - INFO - Processed 870 native frames. Compressor time target: 36.21s
+2026-04-25 17:48:11,762 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:46:04,013 - INFO - Processed 900 native frames. Compressor time target: 37.46s
+2026-04-25 17:48:11,762 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:46:05,411 - INFO - Processed 930 native frames. Compressor time target: 38.71s
+2026-04-25 17:48:11,762 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:46:06,811 - INFO - Processed 960 native frames. Compressor time target: 39.96s
+2026-04-25 17:48:11,762 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:46:08,205 - INFO - Processed 990 native frames. Compressor time target: 41.21s
+2026-04-25 17:48:11,762 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:46:09,635 - INFO - Processed 1020 native frames. Compressor time target: 42.50s
+2026-04-25 17:48:11,762 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:46:11,058 - INFO - Processed 1050 native frames. Compressor time target: 43.75s
+2026-04-25 17:48:11,762 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:46:12,447 - INFO - Processed 1080 native frames. Compressor time target: 45.00s
+2026-04-25 17:48:11,762 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:46:13,951 - INFO - Processed 1110 native frames. Compressor time target: 46.25s
+2026-04-25 17:48:11,762 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:46:15,357 - INFO - Processed 1140 native frames. Compressor time target: 47.50s
+2026-04-25 17:48:11,762 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:46:16,780 - INFO - Processed 1170 native frames. Compressor time target: 48.75s
+2026-04-25 17:48:11,762 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:46:18,230 - INFO - Processed 1200 native frames. Compressor time target: 50.00s
+2026-04-25 17:48:11,762 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:46:19,657 - INFO - Processed 1230 native frames. Compressor time target: 51.25s
+2026-04-25 17:48:11,762 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:46:21,109 - INFO - Processed 1260 native frames. Compressor time target: 52.50s
+2026-04-25 17:48:11,762 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:46:22,521 - INFO - Processed 1290 native frames. Compressor time target: 53.75s
+2026-04-25 17:48:11,762 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:46:23,952 - INFO - Processed 1320 native frames. Compressor time target: 55.00s
+2026-04-25 17:48:11,762 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:46:25,407 - INFO - Processed 1350 native frames. Compressor time target: 56.25s
+2026-04-25 17:48:11,762 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:46:26,807 - INFO - Processed 1380 native frames. Compressor time target: 57.50s
+2026-04-25 17:48:11,762 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:46:28,218 - INFO - Processed 1410 native frames. Compressor time target: 58.75s
+2026-04-25 17:48:11,762 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:46:29,630 - INFO - Processed 1440 native frames. Compressor time target: 60.00s
+2026-04-25 17:48:11,762 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:46:31,036 - INFO - Processed 1470 native frames. Compressor time target: 61.25s
+2026-04-25 17:48:11,762 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:46:32,438 - INFO - Processed 1500 native frames. Compressor time target: 62.50s
+2026-04-25 17:48:11,762 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:46:33,843 - INFO - Processed 1530 native frames. Compressor time target: 63.75s
+2026-04-25 17:48:11,762 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:46:35,252 - INFO - Processed 1560 native frames. Compressor time target: 65.00s
+2026-04-25 17:48:11,763 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:46:36,657 - INFO - Processed 1590 native frames. Compressor time target: 66.25s
+2026-04-25 17:48:11,763 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:46:38,072 - INFO - Processed 1620 native frames. Compressor time target: 67.50s
+2026-04-25 17:48:11,763 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:46:39,522 - INFO - Processed 1650 native frames. Compressor time target: 68.75s
+2026-04-25 17:48:11,763 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:46:40,969 - INFO - Processed 1680 native frames. Compressor time target: 70.00s
+2026-04-25 17:48:11,763 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:46:42,379 - INFO - Processed 1710 native frames. Compressor time target: 71.25s
+2026-04-25 17:48:11,763 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:46:43,800 - INFO - Processed 1740 native frames. Compressor time target: 72.50s
+2026-04-25 17:48:11,763 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:46:45,213 - INFO - Processed 1770 native frames. Compressor time target: 73.75s
+2026-04-25 17:48:11,763 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:46:46,613 - INFO - Processed 1800 native frames. Compressor time target: 75.00s
+2026-04-25 17:48:11,763 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:46:48,005 - INFO - Processed 1830 native frames. Compressor time target: 76.25s
+2026-04-25 17:48:11,763 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:46:49,409 - INFO - Processed 1860 native frames. Compressor time target: 77.50s
+2026-04-25 17:48:11,763 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:46:50,808 - INFO - Processed 1890 native frames. Compressor time target: 78.75s
+2026-04-25 17:48:11,763 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:46:52,230 - INFO - Processed 1920 native frames. Compressor time target: 80.00s
+2026-04-25 17:48:11,763 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:46:53,639 - INFO - Processed 1950 native frames. Compressor time target: 81.25s
+2026-04-25 17:48:11,763 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:46:55,047 - INFO - Processed 1980 native frames. Compressor time target: 82.50s
+2026-04-25 17:48:11,764 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:46:56,459 - INFO - Processed 2010 native frames. Compressor time target: 83.75s
+2026-04-25 17:48:11,764 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:46:57,871 - INFO - Processed 2040 native frames. Compressor time target: 85.04s
+2026-04-25 17:48:11,764 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:46:59,272 - INFO - Processed 2070 native frames. Compressor time target: 86.29s
+2026-04-25 17:48:11,764 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:47:00,672 - INFO - Processed 2100 native frames. Compressor time target: 87.54s
+2026-04-25 17:48:11,764 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:47:02,082 - INFO - Processed 2130 native frames. Compressor time target: 88.79s
+2026-04-25 17:48:11,764 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:47:03,490 - INFO - Processed 2160 native frames. Compressor time target: 90.04s
+2026-04-25 17:48:11,764 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:47:04,896 - INFO - Processed 2190 native frames. Compressor time target: 91.29s
+2026-04-25 17:48:11,766 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:47:06,301 - INFO - Processed 2220 native frames. Compressor time target: 92.54s
+2026-04-25 17:48:11,766 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:47:07,706 - INFO - Processed 2250 native frames. Compressor time target: 93.79s
+2026-04-25 17:48:11,766 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:47:09,110 - INFO - Processed 2280 native frames. Compressor time target: 95.04s
+2026-04-25 17:48:11,766 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:47:10,520 - INFO - Processed 2310 native frames. Compressor time target: 96.29s
+2026-04-25 17:48:11,766 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:47:11,930 - INFO - Processed 2340 native frames. Compressor time target: 97.54s
+2026-04-25 17:48:11,766 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:47:13,380 - INFO - Processed 2370 native frames. Compressor time target: 98.79s
+2026-04-25 17:48:11,766 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:47:14,909 - INFO - Processed 2400 native frames. Compressor time target: 100.04s
+2026-04-25 17:48:11,766 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:47:16,348 - INFO - Processed 2430 native frames. Compressor time target: 101.29s
+2026-04-25 17:48:11,766 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:47:17,749 - INFO - Processed 2460 native frames. Compressor time target: 102.54s
+2026-04-25 17:48:11,766 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:47:19,189 - INFO - Processed 2490 native frames. Compressor time target: 103.79s
+2026-04-25 17:48:11,766 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:47:20,612 - INFO - Processed 2520 native frames. Compressor time target: 105.04s
+2026-04-25 17:48:11,766 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:47:22,044 - INFO - Processed 2550 native frames. Compressor time target: 106.29s
+2026-04-25 17:48:11,766 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:47:23,459 - INFO - Processed 2580 native frames. Compressor time target: 107.54s
+2026-04-25 17:48:11,766 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:47:25,025 - INFO - Processed 2610 native frames. Compressor time target: 108.79s
+2026-04-25 17:48:11,766 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:47:26,454 - INFO - Processed 2640 native frames. Compressor time target: 110.04s
+2026-04-25 17:48:11,766 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:47:27,882 - INFO - Processed 2670 native frames. Compressor time target: 111.29s
+2026-04-25 17:48:11,766 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:47:29,292 - INFO - Processed 2700 native frames. Compressor time target: 112.54s
+2026-04-25 17:48:11,766 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:47:30,694 - INFO - Processed 2730 native frames. Compressor time target: 113.79s
+2026-04-25 17:48:11,766 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:47:32,108 - INFO - Processed 2760 native frames. Compressor time target: 115.04s
+2026-04-25 17:48:11,766 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:47:33,513 - INFO - Processed 2790 native frames. Compressor time target: 116.29s
+2026-04-25 17:48:11,766 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:47:34,929 - INFO - Processed 2820 native frames. Compressor time target: 117.54s
+2026-04-25 17:48:11,766 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:47:36,343 - INFO - Processed 2850 native frames. Compressor time target: 118.79s
+2026-04-25 17:48:11,766 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:47:37,739 - INFO - Processed 2880 native frames. Compressor time target: 120.04s
+2026-04-25 17:48:11,766 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:47:39,158 - INFO - Processed 2910 native frames. Compressor time target: 121.29s
+2026-04-25 17:48:11,766 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:47:40,571 - INFO - Processed 2940 native frames. Compressor time target: 122.54s
+2026-04-25 17:48:11,766 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:47:41,986 - INFO - Processed 2970 native frames. Compressor time target: 123.79s
+2026-04-25 17:48:11,766 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:47:43,399 - INFO - Processed 3000 native frames. Compressor time target: 125.04s
+2026-04-25 17:48:11,766 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:47:44,829 - INFO - Processed 3030 native frames. Compressor time target: 126.33s
+2026-04-25 17:48:11,766 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:47:46,237 - INFO - Processed 3060 native frames. Compressor time target: 127.58s
+2026-04-25 17:48:11,766 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:47:47,675 - INFO - Processed 3090 native frames. Compressor time target: 128.83s
+2026-04-25 17:48:11,766 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:47:49,115 - INFO - Processed 3120 native frames. Compressor time target: 130.08s
+2026-04-25 17:48:11,766 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:47:50,532 - INFO - Processed 3150 native frames. Compressor time target: 131.33s
+2026-04-25 17:48:11,766 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:47:51,992 - INFO - Processed 3180 native frames. Compressor time target: 132.58s
+2026-04-25 17:48:11,766 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:47:53,410 - INFO - Processed 3210 native frames. Compressor time target: 133.83s
+2026-04-25 17:48:11,766 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:47:54,821 - INFO - Processed 3240 native frames. Compressor time target: 135.08s
+2026-04-25 17:48:11,766 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:47:56,229 - INFO - Processed 3270 native frames. Compressor time target: 136.33s
+2026-04-25 17:48:11,766 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:47:57,657 - INFO - Processed 3300 native frames. Compressor time target: 137.58s
+2026-04-25 17:48:11,766 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:47:59,103 - INFO - Processed 3330 native frames. Compressor time target: 138.83s
+2026-04-25 17:48:11,766 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:48:00,679 - INFO - Processed 3360 native frames. Compressor time target: 140.08s
+2026-04-25 17:48:11,766 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:48:02,188 - INFO - Processed 3390 native frames. Compressor time target: 141.33s
+2026-04-25 17:48:11,766 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:48:03,722 - INFO - Processed 3420 native frames. Compressor time target: 142.58s
+2026-04-25 17:48:11,767 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:48:05,218 - INFO - Processed 3450 native frames. Compressor time target: 143.83s
+2026-04-25 17:48:11,767 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:48:06,769 - INFO - Processed 3480 native frames. Compressor time target: 145.08s
+2026-04-25 17:48:11,767 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:48:08,336 - INFO - Processed 3510 native frames. Compressor time target: 146.33s
+2026-04-25 17:48:11,767 - Orchestrator - WARNING - [LOCAL-ERR] 2026-04-25 17:48:09,853 - INFO - Processed 3540 native frames. Compressor time target: 147.58s
+2026-04-25 17:48:11,767 - Orchestrator - WARNING - [LOCAL-ERR] Traceback (most recent call last):
+2026-04-25 17:48:11,767 - Orchestrator - WARNING - [LOCAL-ERR]   File "/Users/aderlasatvik/Downloads/acad projects/ir/VideoGraphRAG/video_rag_preprocessing/run_pipeline.py", line 379, in <module>
+2026-04-25 17:48:11,767 - Orchestrator - WARNING - [LOCAL-ERR]     run(args.video_path, args.output_dir, args.audio_path)
+2026-04-25 17:48:11,767 - Orchestrator - WARNING - [LOCAL-ERR]     ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-04-25 17:48:11,767 - Orchestrator - WARNING - [LOCAL-ERR]   File "/Users/aderlasatvik/Downloads/acad projects/ir/VideoGraphRAG/video_rag_preprocessing/run_pipeline.py", line 65, in run
+2026-04-25 17:48:11,767 - Orchestrator - WARNING - [LOCAL-ERR]     native_frame = extractor.process_frame(frame_data, timestamp)
+2026-04-25 17:48:11,767 - Orchestrator - WARNING - [LOCAL-ERR]   File "/Users/aderlasatvik/Downloads/acad projects/ir/VideoGraphRAG/video_rag_preprocessing/pipeline/features/extractor.py", line 66, in process_frame
+2026-04-25 17:48:11,767 - Orchestrator - WARNING - [LOCAL-ERR]     clip_emb = self._extract_clip(frame_data)
+2026-04-25 17:48:11,767 - Orchestrator - WARNING - [LOCAL-ERR]   File "/Users/aderlasatvik/Downloads/acad projects/ir/VideoGraphRAG/video_rag_preprocessing/pipeline/features/extractor.py", line 94, in _extract_clip
+2026-04-25 17:48:11,767 - Orchestrator - WARNING - [LOCAL-ERR]     vision_out = self._clip_model.vision_model(pixel_values=pixel_values)
+2026-04-25 17:48:11,767 - Orchestrator - WARNING - [LOCAL-ERR]   File "/Users/aderlasatvik/Downloads/acad projects/ir/VideoGraphRAG/vgent/lib/python3.14/site-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
+2026-04-25 17:48:11,767 - Orchestrator - WARNING - [LOCAL-ERR]     return self._call_impl(*args, **kwargs)
+2026-04-25 17:48:11,767 - Orchestrator - WARNING - [LOCAL-ERR]            ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+2026-04-25 17:48:11,767 - Orchestrator - WARNING - [LOCAL-ERR]   File "/Users/aderlasatvik/Downloads/acad projects/ir/VideoGraphRAG/vgent/lib/python3.14/site-packages/torch/nn/modules/module.py", line 1790, in _call_impl
+2026-04-25 17:48:11,767 - Orchestrator - WARNING - [LOCAL-ERR]     return forward_call(*args, **kwargs)
+2026-04-25 17:48:11,767 - Orchestrator - WARNING - [LOCAL-ERR]   File "/Users/aderlasatvik/Downloads/acad projects/ir/VideoGraphRAG/vgent/lib/python3.14/site-packages/transformers/utils/generic.py", line 952, in wrapper
+2026-04-25 17:48:11,767 - Orchestrator - WARNING - [LOCAL-ERR]     output = func(self, *args, **kwargs)
+2026-04-25 17:48:11,767 - Orchestrator - WARNING - [LOCAL-ERR]   File "/Users/aderlasatvik/Downloads/acad projects/ir/VideoGraphRAG/vgent/lib/python3.14/site-packages/transformers/utils/output_capturing.py", line 248, in wrapper
+2026-04-25 17:48:11,767 - Orchestrator - WARNING - [LOCAL-ERR]     outputs = func(self, *args, **kwargs)
+2026-04-25 17:48:11,767 - Orchestrator - WARNING - [LOCAL-ERR]   File "/Users/aderlasatvik/Downloads/acad projects/ir/VideoGraphRAG/vgent/lib/python3.14/site-packages/transformers/models/clip/modeling_clip.py", line 680, in forward
+2026-04-25 17:48:11,767 - Orchestrator - WARNING - [LOCAL-ERR]     encoder_outputs: BaseModelOutput = self.encoder(
+2026-04-25 17:48:11,767 - Orchestrator - WARNING - [LOCAL-ERR]                                        ~~~~~~~~~~~~^
+2026-04-25 17:48:11,767 - Orchestrator - WARNING - [LOCAL-ERR]         inputs_embeds=hidden_states,
+2026-04-25 17:48:11,767 - Orchestrator - WARNING - [LOCAL-ERR]         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-04-25 17:48:11,767 - Orchestrator - WARNING - [LOCAL-ERR]         **kwargs,
+2026-04-25 17:48:11,767 - Orchestrator - WARNING - [LOCAL-ERR]         ^^^^^^^^^
+2026-04-25 17:48:11,767 - Orchestrator - WARNING - [LOCAL-ERR]     )
+2026-04-25 17:48:11,767 - Orchestrator - WARNING - [LOCAL-ERR]     ^
+2026-04-25 17:48:11,767 - Orchestrator - WARNING - [LOCAL-ERR]   File "/Users/aderlasatvik/Downloads/acad projects/ir/VideoGraphRAG/vgent/lib/python3.14/site-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
+2026-04-25 17:48:11,767 - Orchestrator - WARNING - [LOCAL-ERR]     return self._call_impl(*args, **kwargs)
+2026-04-25 17:48:11,767 - Orchestrator - WARNING - [LOCAL-ERR]            ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+2026-04-25 17:48:11,767 - Orchestrator - WARNING - [LOCAL-ERR]   File "/Users/aderlasatvik/Downloads/acad projects/ir/VideoGraphRAG/vgent/lib/python3.14/site-packages/torch/nn/modules/module.py", line 1790, in _call_impl
+2026-04-25 17:48:11,767 - Orchestrator - WARNING - [LOCAL-ERR]     return forward_call(*args, **kwargs)
+2026-04-25 17:48:11,767 - Orchestrator - WARNING - [LOCAL-ERR]   File "/Users/aderlasatvik/Downloads/acad projects/ir/VideoGraphRAG/vgent/lib/python3.14/site-packages/transformers/models/clip/modeling_clip.py", line 500, in forward
+2026-04-25 17:48:11,767 - Orchestrator - WARNING - [LOCAL-ERR]     hidden_states = encoder_layer(
+2026-04-25 17:48:11,767 - Orchestrator - WARNING - [LOCAL-ERR]         hidden_states,
+2026-04-25 17:48:11,767 - Orchestrator - WARNING - [LOCAL-ERR]         attention_mask,
+2026-04-25 17:48:11,767 - Orchestrator - WARNING - [LOCAL-ERR]         **kwargs,
+2026-04-25 17:48:11,767 - Orchestrator - WARNING - [LOCAL-ERR]     )
+2026-04-25 17:48:11,767 - Orchestrator - WARNING - [LOCAL-ERR]   File "/Users/aderlasatvik/Downloads/acad projects/ir/VideoGraphRAG/vgent/lib/python3.14/site-packages/transformers/modeling_layers.py", line 93, in __call__
+2026-04-25 17:48:11,767 - Orchestrator - WARNING - [LOCAL-ERR]     return super().__call__(*args, **kwargs)
+2026-04-25 17:48:11,768 - Orchestrator - WARNING - [LOCAL-ERR]            ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+2026-04-25 17:48:11,768 - Orchestrator - WARNING - [LOCAL-ERR]   File "/Users/aderlasatvik/Downloads/acad projects/ir/VideoGraphRAG/vgent/lib/python3.14/site-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
+2026-04-25 17:48:11,768 - Orchestrator - WARNING - [LOCAL-ERR]     return self._call_impl(*args, **kwargs)
+2026-04-25 17:48:11,768 - Orchestrator - WARNING - [LOCAL-ERR]            ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+2026-04-25 17:48:11,768 - Orchestrator - WARNING - [LOCAL-ERR]   File "/Users/aderlasatvik/Downloads/acad projects/ir/VideoGraphRAG/vgent/lib/python3.14/site-packages/torch/nn/modules/module.py", line 1790, in _call_impl
+2026-04-25 17:48:11,768 - Orchestrator - WARNING - [LOCAL-ERR]     return forward_call(*args, **kwargs)
+2026-04-25 17:48:11,768 - Orchestrator - WARNING - [LOCAL-ERR]   File "/Users/aderlasatvik/Downloads/acad projects/ir/VideoGraphRAG/vgent/lib/python3.14/site-packages/transformers/models/clip/modeling_clip.py", line 373, in forward
+2026-04-25 17:48:11,768 - Orchestrator - WARNING - [LOCAL-ERR]     hidden_states, _ = self.self_attn(
+2026-04-25 17:48:11,768 - Orchestrator - WARNING - [LOCAL-ERR]                        ~~~~~~~~~~~~~~^
+2026-04-25 17:48:11,768 - Orchestrator - WARNING - [LOCAL-ERR]         hidden_states=hidden_states,
+2026-04-25 17:48:11,768 - Orchestrator - WARNING - [LOCAL-ERR]         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-04-25 17:48:11,768 - Orchestrator - WARNING - [LOCAL-ERR]         attention_mask=attention_mask,
+2026-04-25 17:48:11,768 - Orchestrator - WARNING - [LOCAL-ERR]         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-04-25 17:48:11,768 - Orchestrator - WARNING - [LOCAL-ERR]         **kwargs,
+2026-04-25 17:48:11,768 - Orchestrator - WARNING - [LOCAL-ERR]         ^^^^^^^^^
+2026-04-25 17:48:11,768 - Orchestrator - WARNING - [LOCAL-ERR]     )
+2026-04-25 17:48:11,768 - Orchestrator - WARNING - [LOCAL-ERR]     ^
+2026-04-25 17:48:11,768 - Orchestrator - WARNING - [LOCAL-ERR]   File "/Users/aderlasatvik/Downloads/acad projects/ir/VideoGraphRAG/vgent/lib/python3.14/site-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
+2026-04-25 17:48:11,768 - Orchestrator - WARNING - [LOCAL-ERR]     return self._call_impl(*args, **kwargs)
+2026-04-25 17:48:11,768 - Orchestrator - WARNING - [LOCAL-ERR]            ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+2026-04-25 17:48:11,768 - Orchestrator - WARNING - [LOCAL-ERR]   File "/Users/aderlasatvik/Downloads/acad projects/ir/VideoGraphRAG/vgent/lib/python3.14/site-packages/torch/nn/modules/module.py", line 1790, in _call_impl
+2026-04-25 17:48:11,768 - Orchestrator - WARNING - [LOCAL-ERR]     return forward_call(*args, **kwargs)
+2026-04-25 17:48:11,768 - Orchestrator - WARNING - [LOCAL-ERR]   File "/Users/aderlasatvik/Downloads/acad projects/ir/VideoGraphRAG/vgent/lib/python3.14/site-packages/transformers/models/clip/modeling_clip.py", line 323, in forward
+2026-04-25 17:48:11,768 - Orchestrator - WARNING - [LOCAL-ERR]     attn_output, attn_weights = attention_interface(
+2026-04-25 17:48:11,768 - Orchestrator - WARNING - [LOCAL-ERR]                                 ~~~~~~~~~~~~~~~~~~~^
+2026-04-25 17:48:11,768 - Orchestrator - WARNING - [LOCAL-ERR]         self,
+2026-04-25 17:48:11,768 - Orchestrator - WARNING - [LOCAL-ERR]         ^^^^^
+2026-04-25 17:48:11,768 - Orchestrator - WARNING - [LOCAL-ERR]     ...<6 lines>...
+2026-04-25 17:48:11,769 - Orchestrator - WARNING - [LOCAL-ERR]         **kwargs,
+2026-04-25 17:48:11,769 - Orchestrator - WARNING - [LOCAL-ERR]         ^^^^^^^^^
+2026-04-25 17:48:11,769 - Orchestrator - WARNING - [LOCAL-ERR]     )
+2026-04-25 17:48:11,769 - Orchestrator - WARNING - [LOCAL-ERR]     ^
+2026-04-25 17:48:11,769 - Orchestrator - WARNING - [LOCAL-ERR]   File "/Users/aderlasatvik/Downloads/acad projects/ir/VideoGraphRAG/vgent/lib/python3.14/site-packages/transformers/integrations/sdpa_attention.py", line 92, in sdpa_attention_forward
+2026-04-25 17:48:11,769 - Orchestrator - WARNING - [LOCAL-ERR]     attn_output = torch.nn.functional.scaled_dot_product_attention(
+2026-04-25 17:48:11,769 - Orchestrator - WARNING - [LOCAL-ERR]         query,
+2026-04-25 17:48:11,769 - Orchestrator - WARNING - [LOCAL-ERR]     ...<6 lines>...
+2026-04-25 17:48:11,769 - Orchestrator - WARNING - [LOCAL-ERR]         **sdpa_kwargs,
+2026-04-25 17:48:11,769 - Orchestrator - WARNING - [LOCAL-ERR]     )
+2026-04-25 17:48:11,769 - Orchestrator - WARNING - [LOCAL-ERR] KeyboardInterrupt
