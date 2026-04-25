@@ -37,9 +37,18 @@ class QueryDecomposer:
     def _resolve_entities(self, decomposition: QueryDecomposition):
         """
         Maps extracted entities to canonical EntityRef IDs via embedding similarity.
+        Enforces strict type consistency: if the entity type does not match the corpus type prefix, it is rejected.
         """
         if not self.encoder or not self.corpus_embeddings is not None or len(self.entity_corpus) == 0:
+            decomposition.confidence = 1.0 # Base parsing confidence if no corpus
             return
+
+        if not decomposition.entities:
+            decomposition.confidence = 1.0 # High confidence if no entities to map
+            return
+
+        total_score = 0.0
+        mapped_count = 0
 
         for entity in decomposition.entities:
             query_emb = self.encoder.encode([entity.name], normalize_embeddings=True)[0]
@@ -49,10 +58,38 @@ class QueryDecomposer:
             
             # Threshold for accepting a match
             if best_score > 0.6:
-                entity.resolved_entity_id = self.entity_corpus[best_idx]['id']
-                logger.info(f"Mapped entity '{entity.name}' to '{entity.resolved_entity_id}' (score: {best_score:.2f})")
+                best_corpus_id = self.entity_corpus[best_idx]['id']
+                # Enforce type consistency (e.g., person -> person_*)
+                if best_corpus_id.startswith(f"{entity.type.lower()}_"):
+                    entity.resolved_entity_id = best_corpus_id
+                    total_score += best_score
+                    mapped_count += 1
+                    logger.info(f"Mapped entity '{entity.name}' (type: {entity.type}) to '{entity.resolved_entity_id}' (score: {best_score:.2f})")
+                else:
+                    entity.resolved_entity_id = None
+                    total_score += 0.0 # Mismatch counts as 0
+                    logger.warning(f"Rejected mapping for '{entity.name}': Type mismatch (expected {entity.type}_*, got {best_corpus_id})")
             else:
+                entity.resolved_entity_id = None
+                total_score += 0.0
                 logger.warning(f"Could not reliably map entity '{entity.name}' (best score: {best_score:.2f})")
+
+        # Compute overall confidence
+        decomposition.confidence = total_score / len(decomposition.entities)
+
+    def _enforce_temporal_logic(self, decomposition: QueryDecomposition):
+        """
+        Programmatically enforce the direction based on the temporal relation.
+        DO NOT rely on the LLM for direction correctness.
+        """
+        if decomposition.temporal_constraints:
+            rel = decomposition.temporal_constraints.relation
+            if rel == "before":
+                decomposition.temporal_constraints.direction = "backward"
+            elif rel == "after":
+                decomposition.temporal_constraints.direction = "forward"
+            elif rel == "during":
+                decomposition.temporal_constraints.direction = "neutral"
 
     def decompose(self, query: str) -> QueryDecomposition | FailureResponse:
         """
@@ -63,6 +100,7 @@ class QueryDecomposer:
         
         if isinstance(result, QueryDecomposition):
             logger.info("Successfully generated decomposition plan. Running post-processing...")
+            self._enforce_temporal_logic(result)
             self._resolve_entities(result)
             return result
         else:

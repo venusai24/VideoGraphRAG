@@ -9,7 +9,7 @@ class Entity(BaseModel):
 class TemporalConstraints(BaseModel):
     relation: Literal["before", "after", "during", "none"] = Field("none", description="The temporal relationship.")
     anchor_event: Optional[str] = Field(None, description="The anchor event string if applicable.")
-    direction: Literal["forward", "backward", "none"] = Field("none", description="The traversal direction.")
+    direction: Literal["forward", "backward", "neutral", "none"] = Field("none", description="The traversal direction.")
 
 class SubQuery(BaseModel):
     id: str = Field(..., description="A unique identifier for this sub-query, e.g., 'Q1'.")
