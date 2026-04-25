@@ -61,47 +61,43 @@ class VideoDataLoader:
 
     def _auto_discover_clips(self) -> None:
         """
-        Scans the outputs directory for 'clip_*' folders and extracts video IDs from their contents.
+        Since we now output everything to outputs/<video_id>/ directly,
+        we just treat the single folder as the video container.
         """
         if not self.outputs_dir.exists():
             logger.error(f"Outputs directory not found: {self.outputs_dir}")
             return
-
-        for item in self.outputs_dir.iterdir():
-            # Only process directories starting with 'clip_'
-            if item.is_dir() and item.name.startswith("clip_"):
-                video_id = None
+            
+        # Instead of scanning for clip_*, the outputs_dir itself contains the video data.
+        # Determine video ID from raw_insights.json or folder name.
+        video_id = self.outputs_dir.name
+        insights_path = self.outputs_dir / "raw_insights.json"
+        if insights_path.exists():
+            try:
+                with open(insights_path, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                    video_id = data.get("id") or data.get("video_id") or video_id
+            except Exception:
+                pass
                 
-                # Check for video_id in raw_insights.json
-                insights_path = item / "raw_insights.json"
-                if insights_path.exists():
-                    try:
-                        with open(insights_path, 'r', encoding='utf-8') as f:
-                            data = json.load(f)
-                            video_id = data.get("id") or data.get("video_id")
-                    except Exception:
-                        pass
-                
-                # Fallback to rag_chunks.json
-                if not video_id:
-                    chunks_path = item / "rag_chunks.json"
-                    if chunks_path.exists():
-                        try:
-                            with open(chunks_path, 'r', encoding='utf-8') as f:
-                                data = json.load(f)
-                                if isinstance(data, list) and len(data) > 0:
-                                    video_id = data[0].get("video_id") or data[0].get("id")
-                        except Exception:
-                            pass
-                
-                # Use folder name as final fallback for ID
-                final_id = str(video_id) if video_id else item.name
-                self.video_to_folder[final_id] = item.name
-                logger.info(f"Mapped {item.name} to video_id: {final_id}")
+        # Fallback to rag_chunks.json
+        if not insights_path.exists():
+            chunks_path = self.outputs_dir / "rag_chunks.json"
+            if chunks_path.exists():
+                try:
+                    with open(chunks_path, 'r', encoding='utf-8') as f:
+                        data = json.load(f)
+                        if isinstance(data, list) and len(data) > 0:
+                            video_id = data[0].get("video_id") or data[0].get("id") or video_id
+                except Exception:
+                    pass
+                    
+        self.video_to_folder[str(video_id)] = self.outputs_dir.name
+        logger.info(f"Mapped {self.outputs_dir.name} to video_id: {video_id}")
 
     def load_data(self) -> Dict[str, Dict[str, Any]]:
         """
-        Sequentially loads all the JSON files for each clip into memory.
+        Loads all JSON files from the outputs directory for a single video.
         
         Returns:
             A structured dictionary where keys are the folder names and 
@@ -118,30 +114,26 @@ class VideoDataLoader:
             "transcript.json"
         ]
         
-        for video_id, folder_name in self.video_to_folder.items():
-            clip_dir = self.outputs_dir / folder_name
+        # Load directly from outputs_dir as it's now a unified video representation
+        video_id = list(self.video_to_folder.keys())[0] if self.video_to_folder else self.outputs_dir.name
+        folder_name = self.video_to_folder.get(video_id, self.outputs_dir.name)
+        
+        self.clip_data[folder_name] = {}
+        
+        for file_name in expected_files:
+            file_path = self.outputs_dir / file_name
+            payload_key = file_path.stem  # e.g., 'keywords' from 'keywords.json'
             
-            if not clip_dir.exists() or not clip_dir.is_dir():
-                logger.warning(f"Clip directory does not exist: {clip_dir}")
-                continue
-                
-            self.clip_data[folder_name] = {}
-            
-            for file_name in expected_files:
-                file_path = clip_dir / file_name
-                payload_key = file_path.stem  # e.g., 'keywords' from 'keywords.json'
-                
-                if file_path.exists():
-                    try:
-                        with open(file_path, 'r', encoding='utf-8') as f:
-                            self.clip_data[folder_name][payload_key] = json.load(f)
-                    except json.JSONDecodeError as e:
-                        logger.error(f"Error decoding JSON in {file_path}: {e}")
-                        self.clip_data[folder_name][payload_key] = None
-                else:
-                    # File might be missing for some clips
+            if file_path.exists():
+                try:
+                    with open(file_path, 'r', encoding='utf-8') as f:
+                        self.clip_data[folder_name][payload_key] = json.load(f)
+                except json.JSONDecodeError as e:
+                    logger.error(f"Error decoding JSON in {file_path}: {e}")
                     self.clip_data[folder_name][payload_key] = None
-                    
+            else:
+                self.clip_data[folder_name][payload_key] = None
+                
         return self.clip_data
 
 if __name__ == "__main__":

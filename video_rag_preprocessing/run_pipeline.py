@@ -121,16 +121,10 @@ def run(video_path: str, output_dir: str, audio_path: str = None):
         logger.error("No frame_data found in output frames; cannot write video.")
         return
 
-    _group_and_save_clips(
-        output_frames=output_frames,
-        output_dir=output_dir,
-        config=config,
-        fps=engine.fps,
-        height=height,
-        width=width,
-        logger=logger,
-        audio_path=audio_path,
-    )
+    # Note: Clip grouping is now owned EXCLUSIVELY by the Graph Pipeline.
+    # We do NOT slice clips here. We only reconstruct the optimized video.
+    logger.info("Clip grouping is bypassed in preprocessing. Graph pipeline owns clipping.")
+
 
     _write_video_ffmpeg(
         output_frames=output_frames,

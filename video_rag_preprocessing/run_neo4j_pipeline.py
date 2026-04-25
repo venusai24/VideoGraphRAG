@@ -15,9 +15,9 @@ OUTPUTS_DIR = "outputs/"
 CHUNK_A = 10.0
 CHUNK_B = 12.0
 
-def main():
-    logger.info(f"Loading data from {OUTPUTS_DIR}...")
-    loader = VideoDataLoader(OUTPUTS_DIR)
+def run_graph_pipeline_for_video(outputs_dir: str):
+    logger.info(f"Loading data from {outputs_dir}...")
+    loader = VideoDataLoader(outputs_dir)
     data = loader.load_data()
     
     if not data:
@@ -31,7 +31,7 @@ def main():
         logger.info("="*50)
         logger.info("Building Layer 1: Temporal Clip Graph (Instance 1)...")
         clip_builder = ClipGraphBuilder(manager.clip_graph)
-        clip_builder.build_graph(data, a=CHUNK_A, b=CHUNK_B)
+        clip_builder.build_graph(data, outputs_dir, a=CHUNK_A, b=CHUNK_B)
         logger.info("Layer 1 completed.")
         
         # 2. Build Entity Graph
@@ -45,13 +45,15 @@ def main():
         logger.info("="*50)
         logger.info("Building Layer 3: Cross-Graph Mapping (Instance 3)...")
         mapping_builder = MappingGraphBuilder(manager.mapping_graph)
-        # Pass the clip_graph connection so the mapping builder can fetch actual clip boundaries 
-        # computed by the clip builder in Neo4j (or it could recalculate them locally).
         mapping_builder.build_graph(data, clip_graph_conn=manager.clip_graph)
         logger.info("Layer 3 completed.")
         
         logger.info("="*50)
         logger.info("Neo4j Graph Construction Pipeline Finished Successfully!")
+
+def main():
+    target_dir = sys.argv[1] if len(sys.argv) > 1 else OUTPUTS_DIR
+    run_graph_pipeline_for_video(target_dir)
 
 if __name__ == "__main__":
     main()

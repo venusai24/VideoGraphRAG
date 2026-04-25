@@ -19,14 +19,28 @@ class ClipGraphBuilder:
         except Exception as e:
             logger.warning(f"Could not create constraints for Clip Graph: {e}")
 
-    def build_graph(self, clip_data: Dict[str, Dict[str, Any]], a: float = 10.0, b: float = 12.0):
+    def build_graph(self, clip_data: Dict[str, Dict[str, Any]], outputs_dir: str, a: float = 10.0, b: float = 12.0):
         """
-        Processes loaded clip data, slices it, and builds nodes and NEXT edges in Neo4j.
+        Processes loaded clip data, slices it temporally, physically cuts the video, 
+        and builds nodes and NEXT edges in Neo4j.
         """
+        import os
+        import subprocess
+        
         self.create_constraints()
         
         all_clips = []
         all_edges = []
+        
+        # Check if reconstructed.mp4 exists
+        reconstructed_path = os.path.join(outputs_dir, "reconstructed.mp4")
+        if not os.path.exists(reconstructed_path):
+            logger.warning(f"No reconstructed.mp4 found in {outputs_dir}. Physical clipping will be skipped.")
+            has_video = False
+        else:
+            has_video = True
+            clips_dir = os.path.join(outputs_dir, "clips")
+            os.makedirs(clips_dir, exist_ok=True)
         
         for folder_name, payloads in clip_data.items():
             scenes = payloads.get('scenes')
@@ -97,10 +111,28 @@ class ClipGraphBuilder:
             if rag_chunks and isinstance(rag_chunks, list) and len(rag_chunks) > 0:
                 video_id = rag_chunks[0].get('video_id', folder_name)
                 
-            # 3. Create nodes and edges locally, then batch write to Neo4j
+            # 3. Create nodes, physically slice clips, then batch write to Neo4j
             prev_node_id = None
-            for start, end in final_segments:
+            for idx, (start, end) in enumerate(final_segments):
                 node_id = f"{video_id}_{start:.2f}_{end:.2f}"
+                
+                # Physical slicing using ffmpeg
+                if has_video:
+                    clip_filename = f"clip_{idx:04d}.mp4"
+                    clip_path = os.path.join(clips_dir, clip_filename)
+                    cmd = [
+                        "ffmpeg", "-y", "-v", "error",
+                        "-i", reconstructed_path,
+                        "-ss", str(start),
+                        "-to", str(end),
+                        "-c:v", "libx264", "-crf", "23",
+                        "-c:a", "aac",
+                        clip_path
+                    ]
+                    try:
+                        subprocess.run(cmd, check=True)
+                    except subprocess.CalledProcessError as e:
+                        logger.error(f"Failed to slice clip {clip_filename}: {e}")
                 
                 transcript_text = get_overlapping_text(transcript, start, end, 'text')
                 ocr_text = get_overlapping_text(ocr, start, end, 'text')
