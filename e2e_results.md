@@ -3,36 +3,35 @@
 ### Query: Who is Barack Obama?
 ```json
 {
-  "query_type": "informational",
+  "query_type": "ENTITY_INFO",
   "entities": [
     {
       "name": "Barack Obama",
-      "type": "person",
+      "type": "Person",
       "resolved_entity_id": "person_barack_obama"
     }
   ],
   "actions": [
-    "lookup"
+    "GET_INFO"
   ],
   "temporal_constraints": {
     "relation": "none",
-    "anchor_event": "null",
+    "anchor_event": null,
     "direction": "none"
   },
   "sub_queries": [
     {
       "id": "Q1",
-      "type": "lookup",
-      "goal": "entity_info",
-      "required_graph_components": [
-        "APPEARS_IN"
-      ]
+      "type": "ENTITY_INFO",
+      "goal": "Retrieve basic information about Barack Obama",
+      "required_graph_components": []
     }
   ],
   "execution_plan": [
-    "lookup_entity('Barack Obama')"
+    "Filter entity nodes where name='Barack Obama' and type='Person'",
+    "Extract properties from matched entity node"
   ],
-  "confidence": 0.0,
+  "confidence": 0.9,
   "ambiguity_flags": []
 }
 ```
@@ -40,82 +39,82 @@
 ### Query: Was Obama at the White House before he discussed Climate Change?
 ```json
 {
-  "query_type": "causal",
+  "query_type": "temporal_comparison",
   "entities": [
     {
       "name": "Obama",
-      "type": "person",
+      "type": "Person",
       "resolved_entity_id": "person_barack_obama"
     },
     {
       "name": "White House",
-      "type": "location",
-      "resolved_entity_id": "person_barack_obama"
+      "type": "Location",
+      "resolved_entity_id": null
     },
     {
       "name": "Climate Change",
-      "type": "event",
-      "resolved_entity_id": "person_barack_obama"
+      "type": "Topic",
+      "resolved_entity_id": null
     }
   ],
   "actions": [
+    "was at",
     "discussed"
   ],
   "temporal_constraints": {
     "relation": "before",
     "anchor_event": "discussed Climate Change",
-    "direction": "forward"
+    "direction": "backward"
   },
   "sub_queries": [
     {
       "id": "Q1",
-      "type": "entity_location",
-      "goal": "Obama's location before discussing Climate Change",
+      "type": "event_presence",
+      "goal": "Identify Obama's presence at White House",
       "required_graph_components": [
         "APPEARS_IN"
       ]
     },
     {
       "id": "Q2",
-      "type": "event_action",
-      "goal": "Obama discussed Climate Change",
+      "type": "event_relation",
+      "goal": "Identify Obama's discussion about Climate Change",
       "required_graph_components": [
         "RELATED_TO"
-      ]
-    },
-    {
-      "id": "Q3",
-      "type": "location_event",
-      "goal": "Climate Change at the White House",
-      "required_graph_components": [
-        "SHARES_ENTITY"
       ]
     }
   ],
   "execution_plan": [
-    "Find Obama's location before discussing Climate Change",
-    "Find Obama discussed Climate Change",
-    "Find Climate Change at the White House"
+    "Filter EntityRef[Obama] \u2192 ClipRef[White House] via APPEARS_IN",
+    "Filter EntityRef[Obama] \u2192 ClipRef[Climate Change discussion] via RELATED_TO",
+    "Compare temporal order of ClipRef[White House] and ClipRef[Climate Change discussion]"
   ],
-  "confidence": 0.0,
-  "ambiguity_flags": []
+  "confidence": 0.3,
+  "ambiguity_flags": [
+    "uncertain about specific discussion event"
+  ]
 }
 ```
 
 ### Query: Find the person who discussed Climate Change, and then show me where they went next.
 ```json
 {
-  "query_type": "find_and_follow",
+  "query_type": "event_sequence",
   "entities": [
     {
-      "name": "person",
-      "type": "entity",
+      "name": "Climate Change",
+      "type": "Topic",
+      "resolved_entity_id": null
+    },
+    {
+      "name": "Person",
+      "type": "Person",
       "resolved_entity_id": "person_barack_obama"
     }
   ],
   "actions": [
     "discussed",
-    "went"
+    "went next"
   ],
   "temporal_constraints": {
     "relation": "after",
@@ -125,98 +124,143 @@
   "sub_queries": [
     {
       "id": "Q1",
-      "type": "find",
-      "goal": "person who discussed Climate Change",
+      "type": "entity_identification",
+      "goal": "Identify person node connected to Climate Change discussion",
       "required_graph_components": [
         "APPEARS_IN",
-        "NEXT"
+        "RELATED_TO"
       ]
     },
     {
       "id": "Q2",
-      "type": "follow",
-      "goal": "where they went next",
+      "type": "temporal_sequence",
+      "goal": "Find subsequent locations/events after Climate Change discussion",
       "required_graph_components": [
-        "NEXT"
+        "NEXT",
+        "RELATED_TO"
       ]
     }
   ],
   "execution_plan": [
-    "Find person who discussed Climate Change",
-    "Get next event of person"
+    "Filter Person nodes [P] WHERE P APPEARS_IN Clip C AND C RELATED_TO Topic 'Climate Change'",
+    "Traverse NEXT edges from identified Person node P to find subsequent locations/events",
+    "Extract properties of target nodes from traversal results"
   ],
-  "confidence": 0.0,
-  "ambiguity_flags": []
+  "confidence": 0.45,
+  "ambiguity_flags": [
+    "Multiple persons may discuss Climate Change",
+    "Ambiguous 'next' destination definition"
+  ]
 }
 ```
 
 ### Query: When he was at the White House, did he smile?
 ```json
 {
-  "query_type": "factoid_question",
+  "query_type": "event_verification",
   "entities": [
     {
       "name": "he",
-      "type": "person",
+      "type": "Person",
       "resolved_entity_id": "person_barack_obama"
     },
     {
       "name": "White House",
-      "type": "location",
-      "resolved_entity_id": "person_barack_obama"
+      "type": "Location",
+      "resolved_entity_id": null
     }
   ],
   "actions": [
-    "visit"
+    "smile"
   ],
   "temporal_constraints": {
     "relation": "during",
-    "anchor_event": "visit",
-    "direction": "none"
+    "anchor_event": "he was at the White House",
+    "direction": "neutral"
   },
   "sub_queries": [
     {
       "id": "Q1",
-      "type": "entity_resolution",
-      "goal": "identify person",
+      "type": "location_presence",
+      "goal": "Identify clips where 'he' appears at the White House",
       "required_graph_components": [
         "APPEARS_IN"
       ]
     },
     {
       "id": "Q2",
-      "type": "event_extraction",
-      "goal": "extract visit event",
+      "type": "action_verification",
+      "goal": "Identify clips where 'he' smiles",
       "required_graph_components": [
-        "NEXT",
-        "SHARES_ENTITY"
+        "APPEARS_IN"
       ]
     },
     {
       "id": "Q3",
-      "type": "event_attribute_extraction",
-      "goal": "extract smile attribute",
+      "type": "temporal_overlap",
+      "goal": "Check if smiling clips overlap temporally with White House presence",
       "required_graph_components": [
         "RELATED_TO"
       ]
     }
   ],
   "execution_plan": [
-    "Q1",
-    "Q2",
-    "Q3"
+    "Filter clips where EntityRef(he) APPEARS_IN ClipRef(White House)",
+    "Traverse EntityRef(he) -> APPEARS_IN to find ClipRef(smiling) where action='smile'",
+    "Check temporal overlap between ClipRef(White House) and ClipRef(smiling) via RELATED_TO"
   ],
-  "confidence": 0.0,
-  "ambiguity_flags": []
+  "confidence": 0.45,
+  "ambiguity_flags": [
+    "ambiguous_person_reference"
+  ]
 }
 ```
 
 ### Query: Simulate failure fallback to Groq
 ```json
 {
-  "status": "failure",
-  "reason": "llm_unavailable_or_invalid_output",
-  "fallback": null
+  "query_type": "process_simulation",
+  "entities": [
+    {
+      "name": "Groq",
+      "type": "organization",
+      "resolved_entity_id": null
+    }
+  ],
+  "actions": [
+    "simulate failure",
+    "fallback"
+  ],
+  "temporal_constraints": {
+    "relation": "none",
+    "anchor_event": null,
+    "direction": "neutral"
+  },
+  "sub_queries": [
+    {
+      "id": "Q1",
+      "type": "failure_scenario",
+      "goal": "Identify failure scenarios related to Groq",
+      "required_graph_components": [
+        "RELATED_TO"
+      ]
+    },
+    {
+      "id": "Q2",
+      "type": "fallback_mechanism",
+      "goal": "Locate fallback procedures involving Groq",
+      "required_graph_components": [
+        "RELATED_TO"
+      ]
+    }
+  ],
+  "execution_plan": [
+    "Filter nodes [EntityRef:Groq] connected via [RELATED_TO] edge",
+    "Traverse [RELATED_TO] edges from failure nodes to [EntityRef:Groq]",
+    "Extract fallback pathways from [ClipRef:failure_scenario] to [EntityRef:Groq]"
+  ],
+  "confidence": 0.0,
+  "ambiguity_flags": []
 }
 ```
 

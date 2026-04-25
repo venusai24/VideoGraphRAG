@@ -1,5 +1,5 @@
 import logging
-from typing import List, Dict, Any, Tuple
+from typing import List, Dict, Optional
 from sentence_transformers import SentenceTransformer
 import numpy as np
 
@@ -9,101 +9,159 @@ from .llm_client import LLMClient
 
 logger = logging.getLogger(__name__)
 
+
 class QueryDecomposer:
-    def __init__(self, 
-                 cerebras_keys: List[str], 
-                 groq_keys: List[str], 
-                 entity_corpus: List[Dict[str, str]] = None):
+    def __init__(
+        self,
+        cerebras_keys: List[str],
+        groq_keys: List[str],
+        entity_corpus: List[Dict[str, str]] = None,
+    ):
         """
         Args:
-            cerebras_keys: List of API keys for Cerebras
-            groq_keys: List of API keys for Groq
-            entity_corpus: List of dicts with 'id' and 'name' representing canonical EntityRefs in the graph.
+            cerebras_keys:  Cerebras API keys (tried first, round-robin).
+            groq_keys:      Groq API keys (fallback only after all Cerebras keys fail).
+            entity_corpus:  List of {id, name} dicts representing canonical EntityRef nodes.
         """
         self.key_manager = KeyManager(cerebras_keys, groq_keys)
         self.llm_client = LLMClient(self.key_manager, max_retries_per_key=3)
-        
-        # Post-processing entity resolution setup
-        self.entity_corpus = entity_corpus or []
-        self.encoder = None
+
+        self.entity_corpus: List[Dict[str, str]] = entity_corpus or []
+        self.encoder: Optional[SentenceTransformer] = None
         self.corpus_embeddings = None
-        
+
         if self.entity_corpus:
             logger.info("Initializing SentenceTransformer for entity resolution...")
-            self.encoder = SentenceTransformer('BAAI/bge-large-en-v1.5')
-            names = [e['name'] for e in self.entity_corpus]
+            self.encoder = SentenceTransformer("BAAI/bge-large-en-v1.5")
+            names = [e["name"] for e in self.entity_corpus]
             self.corpus_embeddings = self.encoder.encode(names, normalize_embeddings=True)
 
-    def _resolve_entities(self, decomposition: QueryDecomposition):
+    # ──────────────────────────────────────────────────────────────────────────
+    # Post-processing: temporal logic enforcement
+    # ──────────────────────────────────────────────────────────────────────────
+
+    def _enforce_temporal_logic(self, decomposition: QueryDecomposition) -> None:
         """
-        Maps extracted entities to canonical EntityRef IDs via embedding similarity.
-        Enforces strict type consistency: if the entity type does not match the corpus type prefix, it is rejected.
+        Programmatically correct temporal direction — never trust the LLM.
+        Also patches any temporal_traverse steps in the execution_plan.
         """
-        if not self.encoder or not self.corpus_embeddings is not None or len(self.entity_corpus) == 0:
-            decomposition.confidence = 1.0 # Base parsing confidence if no corpus
+        tc = decomposition.temporal_constraints
+        direction_map = {"before": "backward", "after": "forward", "during": "neutral"}
+        correct_dir = direction_map.get(tc.relation)
+
+        if correct_dir and tc.direction != correct_dir:
+            logger.info(
+                f"Temporal override: relation='{tc.relation}' forced direction "
+                f"'{tc.direction}' -> '{correct_dir}'"
+            )
+            tc.direction = correct_dir
+
+        # Also patch any temporal_traverse steps in the plan
+        if correct_dir:
+            for step in decomposition.execution_plan:
+                if isinstance(step, dict) and step.get("operation") == "temporal_traverse":
+                    step["direction"] = correct_dir
+
+    # ──────────────────────────────────────────────────────────────────────────
+    # Post-processing: entity resolution
+    # ──────────────────────────────────────────────────────────────────────────
+
+    def _resolve_entities(self, decomposition: QueryDecomposition) -> None:
+        """
+        Map extracted entity names to canonical EntityRef IDs via embedding similarity.
+        Enforces strict type-prefix consistency; mismatches are nulled out, not silently accepted.
+        Sets decomposition.confidence based on average mapping quality.
+        """
+        if not self.encoder or self.corpus_embeddings is None or not self.entity_corpus:
+            decomposition.confidence = 1.0
             return
 
         if not decomposition.entities:
-            decomposition.confidence = 1.0 # High confidence if no entities to map
+            decomposition.confidence = 1.0
             return
 
         total_score = 0.0
-        mapped_count = 0
 
         for entity in decomposition.entities:
             query_emb = self.encoder.encode([entity.name], normalize_embeddings=True)[0]
-            similarities = np.dot(self.corpus_embeddings, query_emb)
-            best_idx = np.argmax(similarities)
-            best_score = similarities[best_idx]
-            
-            # Threshold for accepting a match
+            sims = np.dot(self.corpus_embeddings, query_emb)
+            best_idx = int(np.argmax(sims))
+            best_score = float(sims[best_idx])
+
             if best_score > 0.6:
-                best_corpus_id = self.entity_corpus[best_idx]['id']
-                # Enforce type consistency (e.g., person -> person_*)
-                if best_corpus_id.startswith(f"{entity.type.lower()}_"):
-                    entity.resolved_entity_id = best_corpus_id
+                candidate_id = self.entity_corpus[best_idx]["id"]
+                expected_prefix = f"{entity.type.lower()}_"
+
+                if candidate_id.startswith(expected_prefix):
+                    entity.resolved_entity_id = candidate_id
                     total_score += best_score
-                    mapped_count += 1
-                    logger.info(f"Mapped entity '{entity.name}' (type: {entity.type}) to '{entity.resolved_entity_id}' (score: {best_score:.2f})")
+                    logger.info(
+                        f"Resolved '{entity.name}' ({entity.type}) -> '{candidate_id}' "
+                        f"(score={best_score:.2f})"
+                    )
                 else:
                     entity.resolved_entity_id = None
-                    total_score += 0.0 # Mismatch counts as 0
-                    logger.warning(f"Rejected mapping for '{entity.name}': Type mismatch (expected {entity.type}_*, got {best_corpus_id})")
+                    logger.warning(
+                        f"Rejected mapping for '{entity.name}': type mismatch "
+                        f"(expected prefix '{expected_prefix}', got '{candidate_id}')"
+                    )
             else:
                 entity.resolved_entity_id = None
-                total_score += 0.0
-                logger.warning(f"Could not reliably map entity '{entity.name}' (best score: {best_score:.2f})")
+                logger.warning(
+                    f"No reliable match for '{entity.name}' (best score={best_score:.2f})"
+                )
 
-        # Compute overall confidence
         decomposition.confidence = total_score / len(decomposition.entities)
 
-    def _enforce_temporal_logic(self, decomposition: QueryDecomposition):
+    # ──────────────────────────────────────────────────────────────────────────
+    # Post-processing: validate typed execution plan steps
+    # ──────────────────────────────────────────────────────────────────────────
+
+    def _validate_typed_steps(self, decomposition: QueryDecomposition) -> List[str]:
         """
-        Programmatically enforce the direction based on the temporal relation.
-        DO NOT rely on the LLM for direction correctness.
+        Attempt to parse each execution_plan step into its typed model.
+        Returns list of violations (empty = all valid).
         """
-        if decomposition.temporal_constraints:
-            rel = decomposition.temporal_constraints.relation
-            if rel == "before":
-                decomposition.temporal_constraints.direction = "backward"
-            elif rel == "after":
-                decomposition.temporal_constraints.direction = "forward"
-            elif rel == "during":
-                decomposition.temporal_constraints.direction = "neutral"
+        try:
+            typed_steps = decomposition.get_typed_execution_plan()
+            if len(typed_steps) != len(decomposition.execution_plan):
+                return [
+                    f"Only {len(typed_steps)}/{len(decomposition.execution_plan)} "
+                    "steps could be typed — unknown operation in plan"
+                ]
+            return []
+        except Exception as e:
+            return [f"Typed plan validation error: {e}"]
+
+    # ──────────────────────────────────────────────────────────────────────────
+    # Public API
+    # ──────────────────────────────────────────────────────────────────────────
 
     def decompose(self, query: str) -> QueryDecomposition | FailureResponse:
         """
-        Main entry point for query decomposition.
+        Convert a natural language query into a structured, graph-executable plan.
+        Post-processing enforces temporal correctness, entity type safety, and
+        execution-plan structural validity.
         """
-        logger.info(f"Decomposing query: {query}")
+        logger.info(f"Decomposing: {query!r}")
         result = self.llm_client.execute_with_failover(query)
-        
-        if isinstance(result, QueryDecomposition):
-            logger.info("Successfully generated decomposition plan. Running post-processing...")
-            self._enforce_temporal_logic(result)
-            self._resolve_entities(result)
-            return result
-        else:
+
+        if not isinstance(result, QueryDecomposition):
             logger.error(f"Decomposition failed: {result.reason}")
             return result
 
+        logger.info("LLM response validated. Running post-processing...")
+
+        # 1. Enforce temporal direction
+        self._enforce_temporal_logic(result)
+
+        # 2. Resolve entities
+        self._resolve_entities(result)
+
+        # 3. Validate typed execution steps
+        violations = self._validate_typed_steps(result)
+        if violations:
+            logger.warning(f"Execution plan has {len(violations)} violation(s): {violations}")
+            result.ambiguity_flags.extend(violations)
+
+        return result

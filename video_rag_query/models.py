@@ -1,35 +1,103 @@
 from pydantic import BaseModel, Field
-from typing import List, Optional, Literal, Dict, Any
+from typing import List, Optional, Literal, Dict, Any, Union
+
 
 class Entity(BaseModel):
     name: str = Field(..., description="The extracted name of the entity.")
-    type: str = Field(..., description="The type/class of the entity.")
-    resolved_entity_id: Optional[str] = Field(None, description="Placeholder for the canonical EntityRef ID to be populated post-extraction.")
+    type: str = Field(..., description="The type/class of the entity (person, location, topic, object, event).")
+    resolved_entity_id: Optional[str] = Field(None, description="Canonical EntityRef ID, populated post-extraction.")
+
 
 class TemporalConstraints(BaseModel):
-    relation: Literal["before", "after", "during", "none"] = Field("none", description="The temporal relationship.")
-    anchor_event: Optional[str] = Field(None, description="The anchor event string if applicable.")
-    direction: Literal["forward", "backward", "neutral", "none"] = Field("none", description="The traversal direction.")
+    relation: Literal["before", "after", "during", "none"] = Field("none")
+    anchor_event: Optional[str] = Field(None)
+    direction: Literal["forward", "backward", "neutral", "none"] = Field("none")
+
 
 class SubQuery(BaseModel):
-    id: str = Field(..., description="A unique identifier for this sub-query, e.g., 'Q1'.")
-    type: str = Field(..., description="The type of sub-query, e.g., 'temporal_traversal', 'event_localization'.")
-    goal: str = Field(..., description="A clear description of what this sub-query aims to achieve.")
-    required_graph_components: List[Literal["APPEARS_IN", "NEXT", "SHARES_ENTITY", "RELATED_TO"]] = Field(
-        ..., description="The graph components required to execute this sub-query."
-    )
+    id: str = Field(..., description="Unique identifier, e.g. 'Q1'.")
+    type: str = Field(..., description="Sub-query type, e.g. 'entity_lookup', 'temporal_traversal'.")
+    goal: str = Field(..., description="What this sub-query resolves.")
+    required_graph_components: List[Literal["APPEARS_IN", "NEXT", "SHARES_ENTITY", "RELATED_TO"]] = Field(...)
+
+
+# ─── Structured Execution Step types ───────────────────────────────────────────
+
+class StepResolveEntity(BaseModel):
+    step: int
+    operation: Literal["resolve_entity"]
+    input: str = Field(..., description="Entity name string to resolve.")
+    output: str = Field(..., description="Resulting EntityRef node ID variable name.")
+
+
+class StepTraverse(BaseModel):
+    step: int
+    operation: Literal["traverse"]
+    from_node: str = Field(..., alias="from", description="Source node type or variable (EntityRef / ClipRef).")
+    edge: Literal["APPEARS_IN", "NEXT", "SHARES_ENTITY", "RELATED_TO"]
+    to_node: str = Field(..., alias="to", description="Target node type or variable (EntityRef / ClipRef).")
+    filter: Optional[Dict[str, Any]] = Field(None, description="Optional filter conditions on traversal.")
+
+    model_config = {"populate_by_name": True}
+
+
+class StepFilter(BaseModel):
+    step: int
+    operation: Literal["filter"]
+    condition: Dict[str, Any] = Field(..., description="Filter conditions (field, operator, value).")
+
+
+class StepTemporalTraverse(BaseModel):
+    step: int
+    operation: Literal["temporal_traverse"]
+    edge: Literal["NEXT"]
+    direction: Literal["forward", "backward", "neutral"]
+    limit: Optional[int] = Field(None, description="Max hops to traverse.")
+
+
+class StepExtract(BaseModel):
+    step: int
+    operation: Literal["extract"]
+    target: Literal["EntityRef", "ClipRef"]
+    fields: List[str] = Field(..., description="Fields to extract from the target node.")
+
+
+ExecutionStep = Union[StepResolveEntity, StepTraverse, StepFilter, StepTemporalTraverse, StepExtract]
+
+
+# ─── Top-level models ──────────────────────────────────────────────────────────
 
 class QueryDecomposition(BaseModel):
-    query_type: str = Field(..., description="The classified type of the query.")
-    entities: List[Entity] = Field(..., description="List of extracted entities.")
-    actions: List[str] = Field(..., description="List of extracted actions or relations.")
-    temporal_constraints: TemporalConstraints = Field(..., description="Temporal constraints for the query.")
-    sub_queries: List[SubQuery] = Field(..., description="Ordered list of sub-queries for execution.")
-    execution_plan: List[str] = Field(..., description="Ordered traversal steps referencing explicit graph edges.")
-    confidence: float = Field(..., description="Confidence score from 0.0 to 1.0.")
-    ambiguity_flags: List[str] = Field(default_factory=list, description="List of any ambiguities identified.")
+    query_type: str
+    entities: List[Entity]
+    actions: List[str]
+    temporal_constraints: TemporalConstraints
+    sub_queries: List[SubQuery]
+    execution_plan: List[Dict[str, Any]] = Field(
+        ..., description="Ordered list of structured execution steps."
+    )
+    confidence: float = Field(0.0, ge=0.0, le=1.0)
+    ambiguity_flags: List[str] = Field(default_factory=list)
+
+    def get_typed_execution_plan(self) -> List[ExecutionStep]:
+        """Parse execution_plan dicts into typed step objects."""
+        typed = []
+        op_map = {
+            "resolve_entity": StepResolveEntity,
+            "traverse": StepTraverse,
+            "filter": StepFilter,
+            "temporal_traverse": StepTemporalTraverse,
+            "extract": StepExtract,
+        }
+        for raw in self.execution_plan:
+            op = raw.get("operation")
+            cls = op_map.get(op)
+            if cls:
+                typed.append(cls.model_validate(raw))
+        return typed
+
 
 class FailureResponse(BaseModel):
-    status: str = Field("failure", description="Status of the operation.")
-    reason: str = Field(..., description="Reason for failure.")
-    fallback: Optional[Any] = Field(None, description="Fallback information if any.")
+    status: str = Field("failure")
+    reason: str
+    fallback: Optional[Any] = None
