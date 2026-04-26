@@ -17,6 +17,7 @@ from video_rag_query.graph_api import GraphAPI
 from video_rag_query.query_decomposer import QueryDecomposer
 from video_rag_query.traversal import TraversalExecutor, TraversalConfig
 from video_rag_query.models import QueryDecomposition, FailureResponse
+from video_rag_query.answer_generator import AnswerGenerator
 
 # Setup logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -28,6 +29,48 @@ def fetch_entity_corpus(api: GraphAPI) -> List[Dict[str, str]]:
     cypher = "MATCH (e:Entity) RETURN e.id AS id, e.name AS name"
     records = api._entity.execute_query(cypher)
     return [{"id": r["id"], "name": r["name"]} for r in records]
+
+
+def _build_answer_payload(query: str, results, api: GraphAPI) -> Dict[str, object]:
+    """Build multimodal context payload for answer generation."""
+    payload: Dict[str, object] = {"query": query, "results": []}
+    if not results:
+        return payload
+
+    rows: List[Dict[str, object]] = []
+    seen = set()
+
+    for res in results:
+        candidate_clip_id = getattr(res, "best_clip_id", None) or res.clip_id
+        if candidate_clip_id in seen:
+            continue
+
+        props = api.get_node_properties([candidate_clip_id])
+        clip_props = props.get(candidate_clip_id, {})
+
+        # Keep only clip-like records for answer generation context.
+        if "video_id" not in clip_props:
+            continue
+
+        seen.add(candidate_clip_id)
+        rows.append(
+            {
+                "clip_id": candidate_clip_id,
+                "score": float(res.score),
+                "summary": str(clip_props.get("summary", "") or ""),
+                "ocr_text": str(clip_props.get("ocr", "") or ""),
+                "transcript": str(clip_props.get("transcript", "") or ""),
+                "entities": list(getattr(res, "entities", []) or []),
+                "timestamp": {
+                    "start": clip_props.get("start"),
+                    "end": clip_props.get("end"),
+                    "video_id": clip_props.get("video_id"),
+                },
+            }
+        )
+
+    payload["results"] = rows
+    return payload
 
 def run_pipeline(query: str, cerebras_keys: List[str], groq_keys: List[str]):
     # 0. Resolve mapping database path
@@ -61,6 +104,11 @@ def run_pipeline(query: str, cerebras_keys: List[str], groq_keys: List[str]):
         # 5. Execute Traversal
         executor = TraversalExecutor(api, TraversalConfig(beam_width=15))
         results = executor.execute(decomposition, query)
+
+        # 5.5 Generate grounded answer from ranked multimodal evidence
+        answer_generator = AnswerGenerator()
+        answer_payload = _build_answer_payload(query, results, api)
+        generated_answer = answer_generator.generate(answer_payload)
         
         # 6. Display Results
         print("\n" + "="*80)
@@ -108,6 +156,13 @@ def run_pipeline(query: str, cerebras_keys: List[str], groq_keys: List[str]):
                 if 'transcript' in node_props and node_props['transcript']:
                     snippet = node_props['transcript'][:150].replace('\n', ' ')
                     print(f"    📝 Snippet: {snippet}...")
+
+            print("\n" + "="*80)
+            print("GROUNDED ANSWER")
+            print("="*80)
+            print(json.dumps(generated_answer, indent=2, ensure_ascii=False))
+
+            return generated_answer
 
 if __name__ == "__main__":
     load_dotenv()

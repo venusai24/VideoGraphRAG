@@ -1,9 +1,0 @@
-
-============================================================
-Starting recovery: 39fbc2c8
-Plan: ['local-pipeline', 'fetch-avi', 'graph']
-GPU: 0
-============================================================
-
-── Step: local-pipeline ──
-  ✗ Cannot find source video for 39fbc2c8
