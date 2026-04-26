@@ -1,0 +1,2627 @@
+[
+  {
+    "id": 1,
+    "text": "Ah, Paris.",
+    "confidence": 0.5906,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:00.92",
+        "adjustedEnd": "0:00:02.2",
+        "start": "0:00:00.92",
+        "end": "0:00:02.2"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "text": "The most romantic city in the world.",
+    "confidence": 0.9746,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:02.32",
+        "adjustedEnd": "0:00:04.56",
+        "start": "0:00:02.32",
+        "end": "0:00:04.56"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "text": "This place has got it all.",
+    "confidence": 0.9179,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:05.2",
+        "adjustedEnd": "0:00:07.2",
+        "start": "0:00:05.2",
+        "end": "0:00:07.2"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "text": "Fine foods, high culture and most importantly, exquisite buildings.",
+    "confidence": 0.9427,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:07.36",
+        "adjustedEnd": "0:00:12.24",
+        "start": "0:00:07.36",
+        "end": "0:00:12.24"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "text": "Yes, a city doesn't get a reputation like this for nothing, you know.",
+    "confidence": 0.9161,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:12.68",
+        "adjustedEnd": "0:00:15.76",
+        "start": "0:00:12.68",
+        "end": "0:00:15.76"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "text": "It's unblemished.",
+    "confidence": 0.8823,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:15.96",
+        "adjustedEnd": "0:00:17.2",
+        "start": "0:00:15.96",
+        "end": "0:00:17.2"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "text": "Sorry, where was I?",
+    "confidence": 0.8547,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:18.96",
+        "adjustedEnd": "0:00:20.04",
+        "start": "0:00:18.96",
+        "end": "0:00:20.04"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "text": "Oh yes, among the monuments and gilded sculptures.",
+    "confidence": 0.8479,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:20.64",
+        "adjustedEnd": "0:00:23.44",
+        "start": "0:00:20.64",
+        "end": "0:00:23.44"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "text": "You can really lose yourself.",
+    "confidence": 0.9514,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:23.44",
+        "adjustedEnd": "0:00:24.88",
+        "start": "0:00:23.44",
+        "end": "0:00:24.88"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "text": "What is that again, guys?",
+    "confidence": 0.8217,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:25.68",
+        "adjustedEnd": "0:00:27.2",
+        "start": "0:00:25.68",
+        "end": "0:00:27.2"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "text": "Sorry, what is this doing in my script?",
+    "confidence": 0.883,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:27.2",
+        "adjustedEnd": "0:00:29.36",
+        "start": "0:00:27.2",
+        "end": "0:00:29.36"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "text": "Let me just check my notes a minute.",
+    "confidence": 0.6938,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:29.36",
+        "adjustedEnd": "0:00:30.4",
+        "start": "0:00:29.36",
+        "end": "0:00:30.4"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "text": "Hang on.",
+    "confidence": 0.816,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:32.44",
+        "adjustedEnd": "0:00:32.64",
+        "start": "0:00:32.44",
+        "end": "0:00:32.64"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "text": "Oh, OK.",
+    "confidence": 0.7641,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:32.64",
+        "adjustedEnd": "0:00:34.16",
+        "start": "0:00:32.64",
+        "end": "0:00:34.16"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "text": "This is the Tormund Penas.",
+    "confidence": 0.641,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:35.56",
+        "adjustedEnd": "0:00:38.04",
+        "start": "0:00:35.56",
+        "end": "0:00:38.04"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "text": "It was the first skyscraper ever built in Paris and it's a whopper.",
+    "confidence": 0.9075,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:38.16",
+        "adjustedEnd": "0:00:42.04",
+        "start": "0:00:38.16",
+        "end": "0:00:42.04"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "text": "It's 210 meters high and offers 120,000 square meters of office space in one of Paris's most historic neighborhoods.",
+    "confidence": 0.847,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:42.44",
+        "adjustedEnd": "0:00:50.44",
+        "start": "0:00:42.44",
+        "end": "0:00:50.44"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "text": "And the locals hate it.",
+    "confidence": 0.7962,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:51.28",
+        "adjustedEnd": "0:00:53.88",
+        "start": "0:00:51.28",
+        "end": "0:00:53.88"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "text": "In fact, they hate it so much, just a few years after it was completed, a law was passed banning anything like it from ever being built again.",
+    "confidence": 0.9138,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:54.16",
+        "adjustedEnd": "0:01:02.56",
+        "start": "0:00:54.16",
+        "end": "0:01:02.56"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "text": "But fortunately, a plan is underway to transform it from the Phantom of the Opera into the Belle of the Bull.",
+    "confidence": 0.8538,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:02.88",
+        "adjustedEnd": "0:01:08.56",
+        "start": "0:01:02.88",
+        "end": "0:01:08.56"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "text": "That plan?",
+    "confidence": 0.9461,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:09.04",
+        "adjustedEnd": "0:01:09.8",
+        "start": "0:01:09.04",
+        "end": "0:01:09.8"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "text": "Well, they're going to make it invisible.",
+    "confidence": 0.844,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:09.88",
+        "adjustedEnd": "0:01:12.84",
+        "start": "0:01:09.88",
+        "end": "0:01:12.84"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "text": "Europe doesn't really do skyscrapers.",
+    "confidence": 0.9449,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:17.48",
+        "adjustedEnd": "0:01:19.96",
+        "start": "0:01:17.48",
+        "end": "0:01:19.96"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "text": "In fact, there are more in New York City than there are across the entire European continent.",
+    "confidence": 0.9243,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:20",
+        "adjustedEnd": "0:01:24.92",
+        "start": "0:01:20",
+        "end": "0:01:24.92"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "text": "There's no city the better displays this than Paris, which has a rather complicated history with tall buildings.",
+    "confidence": 0.8315,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:25.68",
+        "adjustedEnd": "0:01:31.88",
+        "start": "0:01:25.68",
+        "end": "0:01:31.88"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "text": "That story starts here at the Tormund Penas.",
+    "confidence": 0.7435,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:32.04",
+        "adjustedEnd": "0:01:35.28",
+        "start": "0:01:32.04",
+        "end": "0:01:35.28"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "text": "The blowback from this block was so strong that in 1977, just four years after it's completed, French President Dicard d'astang introduced a ban on building anything over 25 meters in the centre of Paris.",
+    "confidence": 0.8597,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:35.56",
+        "adjustedEnd": "0:01:48.24",
+        "start": "0:01:35.56",
+        "end": "0:01:48.24"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "text": "That lasted 33 years before being repeals, which left just enough time to start work on this the torture angler before everyone decided they hated that as well.",
+    "confidence": 0.857,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:48.64",
+        "adjustedEnd": "0:01:58.64",
+        "start": "0:01:48.64",
+        "end": "0:01:58.64"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "text": "And in 2023, the ban was put back in place.",
+    "confidence": 0.9343,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:58.68",
+        "adjustedEnd": "0:02:01.64",
+        "start": "0:01:58.68",
+        "end": "0:02:01.64"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "text": "You will find plenty of skyscrapers here in La de Fonts, the city's central business district, 9 kilometers away from the city centre, beyond the outer ring roads.",
+    "confidence": 0.7643,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:02.2",
+        "adjustedEnd": "0:02:11.92",
+        "start": "0:02:02.2",
+        "end": "0:02:11.92"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "text": "And looking around, you can see why Parisians are so keen on saying no to skyscrapers.",
+    "confidence": 0.8611,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:12.32",
+        "adjustedEnd": "0:02:17.28",
+        "start": "0:02:12.32",
+        "end": "0:02:17.28"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "text": "There are few other major cities anywhere in the world that have kept such a uniform architectural style, which is key to giving Paris it's sort of Vivra.",
+    "confidence": 0.8371,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:17.6",
+        "adjustedEnd": "0:02:25.6",
+        "start": "0:02:17.6",
+        "end": "0:02:25.6"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "text": "But that's today.",
+    "confidence": 0.7535,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:25.88",
+        "adjustedEnd": "0:02:26.96",
+        "start": "0:02:25.88",
+        "end": "0:02:26.96"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "text": "Back in the 1950s, things were very different.",
+    "confidence": 0.9206,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:27.16",
+        "adjustedEnd": "0:02:30.08",
+        "start": "0:02:27.16",
+        "end": "0:02:30.08"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "text": "The city was run down, shabby and even at its best was hardly fit for purpose.",
+    "confidence": 0.8071,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:30.08",
+        "adjustedEnd": "0:02:35.16",
+        "start": "0:02:30.08",
+        "end": "0:02:35.16"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "text": "But that's not the only thing that's not fit for purpose.",
+    "confidence": 0.9787,
+    "speakerId": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:36.24",
+        "adjustedEnd": "0:02:38.76",
+        "start": "0:02:36.24",
+        "end": "0:02:38.76"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "text": "You could also say that about the way we get our news.",
+    "confidence": 0.9755,
+    "speakerId": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:38.84",
+        "adjustedEnd": "0:02:41.4",
+        "start": "0:02:38.84",
+        "end": "0:02:41.4"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "text": "I don't know about you, but I find it's easy to sometimes get your news by just doom scrolling through social media.",
+    "confidence": 0.9259,
+    "speakerId": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:41.4",
+        "adjustedEnd": "0:02:46.32",
+        "start": "0:02:41.4",
+        "end": "0:02:46.32"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "text": "But that's no good.",
+    "confidence": 0.9766,
+    "speakerId": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:46.32",
+        "adjustedEnd": "0:02:47.52",
+        "start": "0:02:46.32",
+        "end": "0:02:47.52"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "text": "The way we consume information is getting increasingly partisan, with misinformation of fake news becoming scarily common, especially with the rise of AI.",
+    "confidence": 0.9246,
+    "speakerId": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:47.68",
+        "adjustedEnd": "0:02:56.4",
+        "start": "0:02:47.68",
+        "end": "0:02:56.4"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "text": "And that's a huge part of why I've loved working with Straight Hour News.",
+    "confidence": 0.7925,
+    "speakerId": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:56.64",
+        "adjustedEnd": "0:03:00.36",
+        "start": "0:02:56.64",
+        "end": "0:03:00.36"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "text": "For over.",
+    "confidence": 0.9657,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:00.36",
+        "adjustedEnd": "0:03:01.08",
+        "start": "0:03:00.36",
+        "end": "0:03:01.08"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "text": "A year now you've.",
+    "confidence": 0.8586,
+    "speakerId": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:01.08",
+        "adjustedEnd": "0:03:01.84",
+        "start": "0:03:01.08",
+        "end": "0:03:01.84"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "text": "Probably heard me.",
+    "confidence": 0.6757,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:01.88",
+        "adjustedEnd": "0:03:02.52",
+        "start": "0:03:01.88",
+        "end": "0:03:02.52"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "text": "Mention a few times how it's.",
+    "confidence": 0.8741,
+    "speakerId": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:02.52",
+        "adjustedEnd": "0:03:03.72",
+        "start": "0:03:02.52",
+        "end": "0:03:03.72"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "text": "Different to.",
+    "confidence": 0.6942,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:03.72",
+        "adjustedEnd": "0:03:04.2",
+        "start": "0:03:03.72",
+        "end": "0:03:04.2"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "text": "Other news apps because it brings you reporting from a wide range of media outlets on both sides of the political divide but there's a really crucial benefit because whether.",
+    "confidence": 0.8848,
+    "speakerId": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:04.2",
+        "adjustedEnd": "0:03:12.96",
+        "start": "0:03:04.2",
+        "end": "0:03:12.96"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "text": "You're on the.",
+    "confidence": 0.9168,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:12.96",
+        "adjustedEnd": "0:03:13.28",
+        "start": "0:03:12.96",
+        "end": "0:03:13.28"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "text": "Left.",
+    "confidence": 0.889,
+    "speakerId": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:13.28",
+        "adjustedEnd": "0:03:13.64",
+        "start": "0:03:13.28",
+        "end": "0:03:13.64"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "text": "The right or.",
+    "confidence": 0.8495,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:13.64",
+        "adjustedEnd": "0:03:14.32",
+        "start": "0:03:13.64",
+        "end": "0:03:14.32"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "text": "Somewhere in between, the chances are you're missing important stories.",
+    "confidence": 0.7943,
+    "speakerId": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:14.32",
+        "adjustedEnd": "0:03:17.88",
+        "start": "0:03:14.32",
+        "end": "0:03:17.88"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "text": "Because of editorial.",
+    "confidence": 0.8522,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:17.88",
+        "adjustedEnd": "0:03:19.04",
+        "start": "0:03:17.88",
+        "end": "0:03:19.04"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "text": "Bias Straight Hour News has a feature called Media Miss, which reports on a huge range of stories.",
+    "confidence": 0.7544,
+    "speakerId": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:19.04",
+        "adjustedEnd": "0:03:24.8",
+        "start": "0:03:19.04",
+        "end": "0:03:24.8"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "text": "And analyzes who else is.",
+    "confidence": 0.7761,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:25.2",
+        "adjustedEnd": "0:03:27.24",
+        "start": "0:03:25.2",
+        "end": "0:03:27.24"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "text": "Or isn't covering them honestly go?",
+    "confidence": 0.8937,
+    "speakerId": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:27.28",
+        "adjustedEnd": "0:03:29.68",
+        "start": "0:03:27.28",
+        "end": "0:03:29.68"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "text": "And search any.",
+    "confidence": 0.8586,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:29.68",
+        "adjustedEnd": "0:03:30.44",
+        "start": "0:03:29.68",
+        "end": "0:03:30.44"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "text": "Story that's happening right now and they'll give you a score showing you who's under or over reporting on the issue.",
+    "confidence": 0.9269,
+    "speakerId": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30.44",
+        "adjustedEnd": "0:03:36.84",
+        "start": "0:03:30.44",
+        "end": "0:03:36.84"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "text": "It's amazing to see how much we can miss from being in our echo chambers with a certified balance rating from all sides.",
+    "confidence": 0.883,
+    "speakerId": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:36.84",
+        "adjustedEnd": "0:03:43.6",
+        "start": "0:03:36.84",
+        "end": "0:03:43.6"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "text": "Media Straight Hour News is pushing the trust back into journalism, which is great if, like me, you're interested in making up your own mind about things rather than being told what to think.",
+    "confidence": 0.8564,
+    "speakerId": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:43.6",
+        "adjustedEnd": "0:03:52.64",
+        "start": "0:03:43.6",
+        "end": "0:03:52.64"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "text": "If you want a new source that gives it to you straight, then download the Straight Arrow News app using the QR code on screen.",
+    "confidence": 0.8878,
+    "speakerId": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:52.84",
+        "adjustedEnd": "0:03:58.56",
+        "start": "0:03:52.84",
+        "end": "0:03:58.56"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "text": "It's completely free and you'll be massively helping us by taking the time to go and check out one of our video.",
+    "confidence": 0.9432,
+    "speakerId": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:59",
+        "adjustedEnd": "0:04:03.6",
+        "start": "0:03:59",
+        "end": "0:04:03.6"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "text": "Sponsors.",
+    "confidence": 0.9204,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:04:03.6",
+        "adjustedEnd": "0:04:04.4",
+        "start": "0:04:03.6",
+        "end": "0:04:04.4"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "text": "Now let's get.",
+    "confidence": 0.9354,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:04:05",
+        "adjustedEnd": "0:04:06.44",
+        "start": "0:04:05",
+        "end": "0:04:06.44"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "text": "Back to Paris.",
+    "confidence": 0.7046,
+    "speakerId": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:04:06.44",
+        "adjustedEnd": "0:04:07.16",
+        "start": "0:04:06.44",
+        "end": "0:04:07.16"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "text": "As the New world began to emerge from the wreckage of the Second World War, so did new ways of living and working.",
+    "confidence": 0.9187,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:04:08.36",
+        "adjustedEnd": "0:04:13.8",
+        "start": "0:04:08.36",
+        "end": "0:04:13.8"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "text": "Paris's elegant apartments and endless monuments were far from an asset.",
+    "confidence": 0.8401,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:04:14.24",
+        "adjustedEnd": "0:04:18.64",
+        "start": "0:04:14.24",
+        "end": "0:04:18.64"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "text": "They were a sign of a city that was kind of stuck in the past.",
+    "confidence": 0.8755,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:04:18.84",
+        "adjustedEnd": "0:04:22.04",
+        "start": "0:04:18.84",
+        "end": "0:04:22.04"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "text": "Elsewhere, places like London and New York were building modern offices fit for the demands of the new economy.",
+    "confidence": 0.8694,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:04:22.4",
+        "adjustedEnd": "0:04:28.04",
+        "start": "0:04:22.4",
+        "end": "0:04:28.04"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "text": "But Paris was still a city of workshops and studios, and it was beginning to get left behind.",
+    "confidence": 0.8497,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:04:28.56",
+        "adjustedEnd": "0:04:33.96",
+        "start": "0:04:28.56",
+        "end": "0:04:33.96"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "text": "Paris is very much about artisanal crafts, which is it's a long history that goes back to the medieval period, but so in the 60s you have the move to decentralize, and that's something that's happening in the wake of the war as well.",
+    "confidence": 0.8841,
+    "speakerId": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:04:34.28",
+        "adjustedEnd": "0:04:49",
+        "start": "0:04:34.28",
+        "end": "0:04:49"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "text": "So if you think of the Marshall Plan and what's happening in terms of reconstruction after the war, it's not necessarily focused on Paris, it's focused on other parts of the country.",
+    "confidence": 0.9271,
+    "speakerId": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:04:49",
+        "adjustedEnd": "0:04:58.44",
+        "start": "0:04:49",
+        "end": "0:04:58.44"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "text": "Enter senator and state prefects Edgar Bazani.",
+    "confidence": 0.72,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:04:59.04",
+        "adjustedEnd": "0:05:02.24",
+        "start": "0:04:59.04",
+        "end": "0:05:02.24"
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "text": "He wanted to create a modern destination in the heart of the city that would attract office workers back into Paris and show that it was capable of competing with other major global cities.",
+    "confidence": 0.9384,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:02.28",
+        "adjustedEnd": "0:05:12.28",
+        "start": "0:05:02.28",
+        "end": "0:05:12.28"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "text": "The place he chose was this Montanas.",
+    "confidence": 0.8028,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:12.88",
+        "adjustedEnd": "0:05:15.92",
+        "start": "0:05:12.88",
+        "end": "0:05:15.92"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "text": "Now few places could have better illustrated the transformation from old to new as this storied neighborhoods.",
+    "confidence": 0.8547,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:16.44",
+        "adjustedEnd": "0:05:22.52",
+        "start": "0:05:16.44",
+        "end": "0:05:22.52"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "text": "The area was named after the home for Greek muses and had once been a favorite haunt of artists who would rent tables in the nearby cafferies for refuse on teams.",
+    "confidence": 0.8055,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:22.56",
+        "adjustedEnd": "0:05:30.8",
+        "start": "0:05:22.56",
+        "end": "0:05:30.8"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "text": "The walls of La Rotonda were once decorated with sketches by panelists, artists in lieu of payments.",
+    "confidence": 0.8135,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:31.36",
+        "adjustedEnd": "0:05:37.2",
+        "start": "0:05:31.36",
+        "end": "0:05:37.2"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "text": "You know, you can imagine like Mopal Nass was went from a literary artistic centre.",
+    "confidence": 0.6817,
+    "speakerId": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:37.6",
+        "adjustedEnd": "0:05:44.44",
+        "start": "0:05:37.6",
+        "end": "0:05:44.44"
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "text": "We've all the great artists there in the the 1920s and 30s it becomes like a jazz, maybe a little bit more of a seedy element.",
+    "confidence": 0.8774,
+    "speakerId": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:44.68",
+        "adjustedEnd": "0:05:54.84",
+        "start": "0:05:44.68",
+        "end": "0:05:54.84"
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "text": "So there is this post to try to clean up these, if you will, poorer areas and infuse it with something that's modern.",
+    "confidence": 0.8314,
+    "speakerId": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:55.32",
+        "adjustedEnd": "0:06:02.24",
+        "start": "0:05:55.32",
+        "end": "0:06:02.24"
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "text": "At its centre was the garment panasse, which you may recognize from this, but in the 1950's the station was bringing a very different crowd into the area.",
+    "confidence": 0.8302,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:02.64",
+        "adjustedEnd": "0:06:12.64",
+        "start": "0:06:02.64",
+        "end": "0:06:12.64"
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "text": "Commuters.",
+    "confidence": 0.9568,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:12.84",
+        "adjustedEnd": "0:06:13.76",
+        "start": "0:06:12.84",
+        "end": "0:06:13.76"
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "text": "Every day 50,000 people and a few cats poured into the neighborhoods and the grand old building was struggling to keep up.",
+    "confidence": 0.8403,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:13.88",
+        "adjustedEnd": "0:06:20.52",
+        "start": "0:06:13.88",
+        "end": "0:06:20.52"
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "text": "For Pasani, this was an opportunity to clear out the old and let fresh air into the city.",
+    "confidence": 0.8869,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:21.04",
+        "adjustedEnd": "0:06:26.08",
+        "start": "0:06:21.04",
+        "end": "0:06:26.08"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "text": "In 1959, he unveiled the main Mont Panas plan, a vast new district to be built in four separate phases.",
+    "confidence": 0.8039,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:27.08",
+        "adjustedEnd": "0:06:34.12",
+        "start": "0:06:27.08",
+        "end": "0:06:34.12"
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "text": "Phase one would see 2 new housing blocks built either side of the station.",
+    "confidence": 0.9172,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:34.52",
+        "adjustedEnd": "0:06:38.48",
+        "start": "0:06:34.52",
+        "end": "0:06:38.48"
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "text": "Phase three would see the creation of a shopping mall and the all important skyscraper, while the station itself would get a redevelopment under phase 4.",
+    "confidence": 0.9041,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:38.88",
+        "adjustedEnd": "0:06:46.6",
+        "start": "0:06:38.88",
+        "end": "0:06:46.6"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "text": "By 1966, the station and housing were complete, but the new skyscraper, as well as being the most controversial aspect of the plan, was proving to be the most difficult.",
+    "confidence": 0.9482,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:47.08",
+        "adjustedEnd": "0:06:56.16",
+        "start": "0:06:47.08",
+        "end": "0:06:56.16"
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "text": "Now building a skyscraper today is challenging, but we can't take for granted that it is possible.",
+    "confidence": 0.9006,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:56.56",
+        "adjustedEnd": "0:07:02",
+        "start": "0:06:56.56",
+        "end": "0:07:02"
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "text": "But when the main Montanas plan was dreamed up in 1959, that was far from guaranteed.",
+    "confidence": 0.8259,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:02.48",
+        "adjustedEnd": "0:07:08.44",
+        "start": "0:07:02.48",
+        "end": "0:07:08.44"
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "text": "The development was being led by the French governments, which had no experience constructing such a huge building.",
+    "confidence": 0.9179,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:08.76",
+        "adjustedEnd": "0:07:14.48",
+        "start": "0:07:08.76",
+        "end": "0:07:14.48"
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "text": "And it wasn't just the engineering that was new.",
+    "confidence": 0.9572,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:14.56",
+        "adjustedEnd": "0:07:16.84",
+        "start": "0:07:14.56",
+        "end": "0:07:16.84"
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "text": "So were the economics that made this possible.",
+    "confidence": 0.8836,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:16.92",
+        "adjustedEnd": "0:07:19.36",
+        "start": "0:07:16.92",
+        "end": "0:07:19.36"
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "text": "For the solution, they turned to an American real estate developer, Wiley Tuttle.",
+    "confidence": 0.9004,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:19.84",
+        "adjustedEnd": "0:07:24.6",
+        "start": "0:07:19.84",
+        "end": "0:07:24.6"
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "text": "The initial plan was for a 150 meter tower surrounded by a shopping mall and a smaller office block.",
+    "confidence": 0.9056,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:24.72",
+        "adjustedEnd": "0:07:30.16",
+        "start": "0:07:24.72",
+        "end": "0:07:30.16"
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "text": "But the state owned company in charge of the development struggled to find the 65,000,000 francs needed to cover the construction and the Tuttle.",
+    "confidence": 0.8251,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:30.4",
+        "adjustedEnd": "0:07:38.16",
+        "start": "0:07:30.4",
+        "end": "0:07:38.16"
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "text": "The plans for the tower grew another 60 meters, bringing the building to a staggering 59 stories.",
+    "confidence": 0.8398,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:38.16",
+        "adjustedEnd": "0:07:43.72",
+        "start": "0:07:38.16",
+        "end": "0:07:43.72"
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "text": "Extra space meant more tenants, enabling Tuttle to generate the finance to cover the built.",
+    "confidence": 0.8762,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:43.96",
+        "adjustedEnd": "0:07:49.44",
+        "start": "0:07:43.96",
+        "end": "0:07:49.44"
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "text": "In 1970, eleven years after the plan was first drawn up, construction began.",
+    "confidence": 0.9044,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:49.56",
+        "adjustedEnd": "0:07:54.6",
+        "start": "0:07:49.56",
+        "end": "0:07:54.6"
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "text": "But while the business case had been resolved, Tuttle's engineers still had huge problems to overcome.",
+    "confidence": 0.8586,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:55.08",
+        "adjustedEnd": "0:08:00.8",
+        "start": "0:07:55.08",
+        "end": "0:08:00.8"
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "text": "This is the site laid out for the construction of the tower, and these are the metro lines that run just beneath the surface.",
+    "confidence": 0.9286,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:08:02.12",
+        "adjustedEnd": "0:08:08.8",
+        "start": "0:08:02.12",
+        "end": "0:08:08.8"
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "text": "One in particular, Line six runs directly under the towers footprints.",
+    "confidence": 0.9024,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:08:08.96",
+        "adjustedEnd": "0:08:13.64",
+        "start": "0:08:08.96",
+        "end": "0:08:13.64"
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "text": "The enormous weight of this skyscraper and the soft soil meant that placing it around the line would cause the soil to subside and the tunnel to collapse.",
+    "confidence": 0.899,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:08:14.16",
+        "adjustedEnd": "0:08:22.64",
+        "start": "0:08:14.16",
+        "end": "0:08:22.64"
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "text": "The only way of avoiding this was to build the 122,000 ton structure directly over the metro line and spread the weight evenly on each side.",
+    "confidence": 0.8941,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:08:22.76",
+        "adjustedEnd": "0:08:31.44",
+        "start": "0:08:22.76",
+        "end": "0:08:31.44"
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "text": "To do that the tunnel would obviously need to be reinforced.",
+    "confidence": 0.9532,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:08:31.44",
+        "adjustedEnd": "0:08:34.96",
+        "start": "0:08:31.44",
+        "end": "0:08:34.96"
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "text": "Concrete walls were constructed on either side of the rail tracks, strong enough to protect the tunnel and bear some of the building load above.",
+    "confidence": 0.8681,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:08:35.44",
+        "adjustedEnd": "0:08:42.52",
+        "start": "0:08:35.44",
+        "end": "0:08:42.52"
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "text": "4 concrete beams were installed to strengthen the roof, capable of taking 40,000 tons of weight.",
+    "confidence": 0.9198,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:08:42.52",
+        "adjustedEnd": "0:08:48.52",
+        "start": "0:08:42.52",
+        "end": "0:08:48.52"
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "text": "Piles were sunk either side of this to secure the building's foundation, but the soil beneath the tunnel throughout further problems.",
+    "confidence": 0.8258,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:08:49.12",
+        "adjustedEnd": "0:08:55.92",
+        "start": "0:08:49.12",
+        "end": "0:08:55.92"
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "text": "This area had historically been used for quarrying, leaving the subsoil with large, loosely packed areas of dirt.",
+    "confidence": 0.8861,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:08:56.08",
+        "adjustedEnd": "0:09:02.24",
+        "start": "0:08:56.08",
+        "end": "0:09:02.24"
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "text": "The piles therefore needed to be dug down to an incredible depth, 60 meters, nearly 1/3 of the height of the building, all to reach a more stable stratum of clay.",
+    "confidence": 0.9057,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:09:02.6",
+        "adjustedEnd": "0:09:12.68",
+        "start": "0:09:02.6",
+        "end": "0:09:12.68"
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "text": "56 piles were dug into the Montpenas soil, in total using an incredible volume of concrete.",
+    "confidence": 0.8411,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:09:13.24",
+        "adjustedEnd": "0:09:18.8",
+        "start": "0:09:13.24",
+        "end": "0:09:18.8"
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "text": "12,000 cubic meters of it were used to fill the piles, just over 1/4 of the total volume of concrete used in the entire building.",
+    "confidence": 0.9088,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:09:19.08",
+        "adjustedEnd": "0:09:26.68",
+        "start": "0:09:19.08",
+        "end": "0:09:26.68"
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "text": "For this new type of structure, Tuttle's team turned to a new type of construction.",
+    "confidence": 0.8024,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:09:26.92",
+        "adjustedEnd": "0:09:31.28",
+        "start": "0:09:26.92",
+        "end": "0:09:31.28"
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "text": "It involves designing the building around a concrete core containing space for stairs, lifts and surfaces.",
+    "confidence": 0.892,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:09:31.76",
+        "adjustedEnd": "0:09:37.56",
+        "start": "0:09:31.76",
+        "end": "0:09:37.56"
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "text": "Around this stands a steel superstructure holding the building's floor plates.",
+    "confidence": 0.8552,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:09:38.04",
+        "adjustedEnd": "0:09:42.32",
+        "start": "0:09:38.04",
+        "end": "0:09:42.32"
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "text": "Then, last of all, the cladding is added.",
+    "confidence": 0.8877,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:09:42.36",
+        "adjustedEnd": "0:09:44.36",
+        "start": "0:09:42.36",
+        "end": "0:09:44.36"
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "text": "Now today nearly every new building is constructed using this method, but at the time it made use of a relatively new technique called slip forming.",
+    "confidence": 0.8848,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:09:45.84",
+        "adjustedEnd": "0:09:53.96",
+        "start": "0:09:45.84",
+        "end": "0:09:53.96"
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "text": "It had been developed in the US in the early 20th century to build agricultural structures like silos, but by the 1960s it was being used in high rise buildings.",
+    "confidence": 0.8944,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:09:54.48",
+        "adjustedEnd": "0:10:04.12",
+        "start": "0:09:54.48",
+        "end": "0:10:04.12"
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "text": "It works by constructing a mold, which concrete is continuously poured into.",
+    "confidence": 0.8145,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:10:04.36",
+        "adjustedEnd": "0:10:08.36",
+        "start": "0:10:04.36",
+        "end": "0:10:08.36"
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "text": "As the lower layers sets, hydraulic jacks push the mold up, creating a continuously growing building.",
+    "confidence": 0.8432,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:10:08.52",
+        "adjustedEnd": "0:10:14.04",
+        "start": "0:10:08.52",
+        "end": "0:10:14.04"
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "text": "Now one of the biggest benefits of slip form construction is the speed.",
+    "confidence": 0.8999,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:10:14.28",
+        "adjustedEnd": "0:10:17.8",
+        "start": "0:10:14.28",
+        "end": "0:10:17.8"
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "text": "The core of the Tormon Panas was under construction 24/7, growing at a rate of around 30 centimeters every day.",
+    "confidence": 0.7918,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:10:18.2",
+        "adjustedEnd": "0:10:25.48",
+        "start": "0:10:18.2",
+        "end": "0:10:25.48"
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "text": "By 1973, the tower was nearing completion, but down at ground level, mines were already made-up.",
+    "confidence": 0.8943,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:10:25.8",
+        "adjustedEnd": "0:10:32.6",
+        "start": "0:10:25.8",
+        "end": "0:10:32.6"
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "text": "The Torment Panas was supposed to represent a new, vital Paris rising up out of the smoky old fashioned city.",
+    "confidence": 0.7839,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:10:38.4",
+        "adjustedEnd": "0:10:45.36",
+        "start": "0:10:38.4",
+        "end": "0:10:45.36"
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "text": "But there was a problem.",
+    "confidence": 0.9454,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:10:46.16",
+        "adjustedEnd": "0:10:47.16",
+        "start": "0:10:46.16",
+        "end": "0:10:47.16"
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "text": "Everyone quite liked the smoky old fashioned city.",
+    "confidence": 0.8024,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:10:47.4",
+        "adjustedEnd": "0:10:50.64",
+        "start": "0:10:47.4",
+        "end": "0:10:50.64"
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "text": "And today it's an incredibly homogeneous city.",
+    "confidence": 0.7954,
+    "speakerId": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:10:51.08",
+        "adjustedEnd": "0:10:53.96",
+        "start": "0:10:51.08",
+        "end": "0:10:53.96"
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "text": "Imagine Paris is created largely of limestone.",
+    "confidence": 0.8809,
+    "speakerId": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:10:53.96",
+        "adjustedEnd": "0:10:57.48",
+        "start": "0:10:53.96",
+        "end": "0:10:57.48"
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "text": "It's local limestone.",
+    "confidence": 0.6783,
+    "speakerId": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:10:57.48",
+        "adjustedEnd": "0:10:58.92",
+        "start": "0:10:57.48",
+        "end": "0:10:58.92"
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "text": "So you get that idea of the palace city with a uniformity of materials, which is something that Houseman is kind of regulating.",
+    "confidence": 0.9034,
+    "speakerId": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:10:58.92",
+        "adjustedEnd": "0:11:05.88",
+        "start": "0:10:58.92",
+        "end": "0:11:05.88"
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "text": "There's a uniformity of facades.",
+    "confidence": 0.9158,
+    "speakerId": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:11:06.08",
+        "adjustedEnd": "0:11:07.84",
+        "start": "0:11:06.08",
+        "end": "0:11:07.84"
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "text": "Everything is is that that homogeneous kind of structure.",
+    "confidence": 0.862,
+    "speakerId": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:11:07.92",
+        "adjustedEnd": "0:11:12.28",
+        "start": "0:11:07.92",
+        "end": "0:11:12.28"
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "text": "And here we have the antithesis.",
+    "confidence": 0.9338,
+    "speakerId": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:11:12.28",
+        "adjustedEnd": "0:11:13.8",
+        "start": "0:11:12.28",
+        "end": "0:11:13.8"
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "text": "There's something that's quite dark with dark and glass that is a mono block.",
+    "confidence": 0.7529,
+    "speakerId": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:11:13.88",
+        "adjustedEnd": "0:11:18.72",
+        "start": "0:11:13.88",
+        "end": "0:11:18.72"
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "text": "I don't think I have that one parishion that likes it.",
+    "confidence": 0.7481,
+    "speakerId": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:11:18.88",
+        "adjustedEnd": "0:11:20.88",
+        "start": "0:11:18.88",
+        "end": "0:11:20.88"
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "text": "Stop us if you've heard this one before, but Paris owes much of its aesthetic to this man, Baron Osman.",
+    "confidence": 0.8533,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:11:21.2",
+        "adjustedEnd": "0:11:28.04",
+        "start": "0:11:21.2",
+        "end": "0:11:28.04"
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "text": "Drawing inspiration from London's Regent Streets, Osman extensively remodeled Paris between 1853 and 1870, transforming it from a medieval city of timber frame buildings into the neoclassical style we all see today.",
+    "confidence": 0.8383,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:11:28.12",
+        "adjustedEnd": "0:11:42.4",
+        "start": "0:11:28.12",
+        "end": "0:11:42.4"
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "text": "The most visible legacy of this are the city's long straight boulevards and the apartment block, a six or seven Storey building in cream limestone with commercial space at the bottom and a grey mansard roof.",
+    "confidence": 0.8494,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:11:43.4",
+        "adjustedEnd": "0:11:55.04",
+        "start": "0:11:43.4",
+        "end": "0:11:55.04"
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "text": "It gives the whole city a fairly uniform building heights, which creates a sense of scale that the tower fell well foul of.",
+    "confidence": 0.9011,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:11:55.4",
+        "adjustedEnd": "0:12:02.44",
+        "start": "0:11:55.4",
+        "end": "0:12:02.44"
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "text": "You have a scale that goes from.",
+    "confidence": 0.9334,
+    "speakerId": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:12:03.16",
+        "adjustedEnd": "0:12:06",
+        "start": "0:12:03.16",
+        "end": "0:12:06"
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "text": "Scale limits are around 3031, and then they go up to 37 meters.",
+    "confidence": 0.8073,
+    "speakerId": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:12:06.4",
+        "adjustedEnd": "0:12:12.24",
+        "start": "0:12:06.4",
+        "end": "0:12:12.24"
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "text": "And here we've got a building that goes up to 210 meters tall.",
+    "confidence": 0.9293,
+    "speakerId": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:12:12.68",
+        "adjustedEnd": "0:12:16.32",
+        "start": "0:12:12.68",
+        "end": "0:12:16.32"
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "text": "I mean, it's just, it sticks out.",
+    "confidence": 0.9061,
+    "speakerId": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:12:16.64",
+        "adjustedEnd": "0:12:18.84",
+        "start": "0:12:16.64",
+        "end": "0:12:18.84"
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "text": "So in terms of its scale, it's just, it's just radical.",
+    "confidence": 0.898,
+    "speakerId": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:12:18.84",
+        "adjustedEnd": "0:12:22.52",
+        "start": "0:12:18.84",
+        "end": "0:12:22.52"
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "text": "It's like a Stella, right?",
+    "confidence": 0.8249,
+    "speakerId": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:12:22.52",
+        "adjustedEnd": "0:12:23.8",
+        "start": "0:12:22.52",
+        "end": "0:12:23.8"
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "text": "It's meant to be seen from from wherever you are in Paris.",
+    "confidence": 0.925,
+    "speakerId": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:12:24.04",
+        "adjustedEnd": "0:12:28.96",
+        "start": "0:12:24.04",
+        "end": "0:12:28.96"
+      }
+    ]
+  },
+  {
+    "id": 147,
+    "text": "It's a different concept of the way in which Paris functions.",
+    "confidence": 0.8183,
+    "speakerId": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:12:28.96",
+        "adjustedEnd": "0:12:32.56",
+        "start": "0:12:28.96",
+        "end": "0:12:32.56"
+      }
+    ]
+  },
+  {
+    "id": 148,
+    "text": "As if that wasn't bad enough, by standing so tall amid such a low rise city, the tower also loomed conspicuously into view around some of Paris's most cherished landmarks.",
+    "confidence": 0.8661,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:12:33.08",
+        "adjustedEnd": "0:12:43.48",
+        "start": "0:12:33.08",
+        "end": "0:12:43.48"
+      }
+    ]
+  },
+  {
+    "id": 149,
+    "text": "With such a strong classical identity, it's kind of inevitable that anything new is going to stick out, which goes some way to explain Parisians historical antagonism towards new structures.",
+    "confidence": 0.9003,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:12:46",
+        "adjustedEnd": "0:12:56.88",
+        "start": "0:12:46",
+        "end": "0:12:56.88"
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "text": "The Pompidou Centre, the Louvre, Pyramids and even the Eiffel Tower were all widely criticized before eventually becoming iconic landmarks.",
+    "confidence": 0.8303,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:12:57.32",
+        "adjustedEnd": "0:13:05.36",
+        "start": "0:12:57.32",
+        "end": "0:13:05.36"
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "text": "I'd say there are presents that lament the fact that because there are no big towers within the centre of Paris, that you that it's it's stagnated.",
+    "confidence": 0.8011,
+    "speakerId": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:13:05.56",
+        "adjustedEnd": "0:13:17.68",
+        "start": "0:13:05.56",
+        "end": "0:13:17.68"
+      }
+    ]
+  },
+  {
+    "id": 152,
+    "text": "Paris has becomes the city of tourists, right?",
+    "confidence": 0.7286,
+    "speakerId": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:13:17.68",
+        "adjustedEnd": "0:13:20.64",
+        "start": "0:13:17.68",
+        "end": "0:13:20.64"
+      }
+    ]
+  },
+  {
+    "id": 153,
+    "text": "And this is one of the critiques.",
+    "confidence": 0.9398,
+    "speakerId": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:13:21.56",
+        "adjustedEnd": "0:13:22.8",
+        "start": "0:13:21.56",
+        "end": "0:13:22.8"
+      }
+    ]
+  },
+  {
+    "id": 154,
+    "text": "If you go back to Houseman, the poor are being pushed out of the city.",
+    "confidence": 0.8688,
+    "speakerId": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:13:22.8",
+        "adjustedEnd": "0:13:28.6",
+        "start": "0:13:22.8",
+        "end": "0:13:28.6"
+      }
+    ]
+  },
+  {
+    "id": 155,
+    "text": "In the twenty 10s various politicians and mayoral hopefuls were openly calling for the tower to be demolished, until in 2017 the introduced tower was thrown a lifeline.",
+    "confidence": 0.8465,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:13:30.12",
+        "adjustedEnd": "0:13:40.96",
+        "start": "0:13:30.12",
+        "end": "0:13:40.96"
+      }
+    ]
+  },
+  {
+    "id": 156,
+    "text": "A plan was approved for a full scale renovation based on a design by a consortium of architects Nouvelle AOM.",
+    "confidence": 0.8064,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:13:41.16",
+        "adjustedEnd": "0:13:47.92",
+        "start": "0:13:41.16",
+        "end": "0:13:47.92"
+      }
+    ]
+  },
+  {
+    "id": 157,
+    "text": "The design makes a huge effort to break up the monolithic presence of the old building.",
+    "confidence": 0.9577,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:13:48.12",
+        "adjustedEnd": "0:13:52.68",
+        "start": "0:13:48.12",
+        "end": "0:13:52.68"
+      }
+    ]
+  },
+  {
+    "id": 158,
+    "text": "The bands of sky gardens create more horizontal features than effort to break up the solid verticality of the old structure.",
+    "confidence": 0.8725,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:13:53.16",
+        "adjustedEnd": "0:13:59.84",
+        "start": "0:13:53.16",
+        "end": "0:13:59.84"
+      }
+    ]
+  },
+  {
+    "id": 159,
+    "text": "Today the skyscraper is battled by strong winds that race up against its huge sail like exterior.",
+    "confidence": 0.8515,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:14:00.08",
+        "adjustedEnd": "0:14:05.88",
+        "start": "0:14:00.08",
+        "end": "0:14:05.88"
+      }
+    ]
+  },
+  {
+    "id": 160,
+    "text": "But the new design uses that to its advantage, creating openings in the facade that allow this air to naturally ventilate the building.",
+    "confidence": 0.8887,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:14:06.08",
+        "adjustedEnd": "0:14:12.96",
+        "start": "0:14:06.08",
+        "end": "0:14:12.96"
+      }
+    ]
+  },
+  {
+    "id": 161,
+    "text": "But the elephant in the room, or rather on the facade, is the transparent glazing, which helps the tower to, well, blend in.",
+    "confidence": 0.8379,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:14:13.16",
+        "adjustedEnd": "0:14:20.52",
+        "start": "0:14:13.16",
+        "end": "0:14:20.52"
+      }
+    ]
+  },
+  {
+    "id": 162,
+    "text": "Yeah, it's so it looks pretty, right.",
+    "confidence": 0.8211,
+    "speakerId": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:14:21.04",
+        "adjustedEnd": "0:14:23.44",
+        "start": "0:14:21.04",
+        "end": "0:14:23.44"
+      }
+    ]
+  },
+  {
+    "id": 163,
+    "text": "It looks it looks like it's going to be a nice version of a of the tour Mont Barnes.",
+    "confidence": 0.8137,
+    "speakerId": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:14:23.52",
+        "adjustedEnd": "0:14:30.84",
+        "start": "0:14:23.52",
+        "end": "0:14:30.84"
+      }
+    ]
+  },
+  {
+    "id": 164,
+    "text": "But my inner historian questions that radical makeover.",
+    "confidence": 0.8824,
+    "speakerId": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:14:31.08",
+        "adjustedEnd": "0:14:35.72",
+        "start": "0:14:31.08",
+        "end": "0:14:35.72"
+      }
+    ]
+  },
+  {
+    "id": 165,
+    "text": "But I I don't know, you know, will we lament this, you know, iconic love it or hate it, most people hate it.",
+    "confidence": 0.8497,
+    "speakerId": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:14:35.88",
+        "adjustedEnd": "0:14:44.16",
+        "start": "0:14:35.88",
+        "end": "0:14:44.16"
+      }
+    ]
+  },
+  {
+    "id": 166,
+    "text": "Of course, building couldn't have retained it's revetment and maybe had some kind of at least, OK, you've got the form, but at least that certain elements kind of preserved.",
+    "confidence": 0.8089,
+    "speakerId": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:14:44.16",
+        "adjustedEnd": "0:14:57.12",
+        "start": "0:14:44.16",
+        "end": "0:14:57.12"
+      }
+    ]
+  },
+  {
+    "id": 167,
+    "text": "It's hard to say, you know, it seems pretty and attractive, but I feel like maybe we might be losing something a bit more.",
+    "confidence": 0.8935,
+    "speakerId": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:14:57.28",
+        "adjustedEnd": "0:15:03.12",
+        "start": "0:14:57.28",
+        "end": "0:15:03.12"
+      }
+    ]
+  },
+  {
+    "id": 168,
+    "text": "The work due to begin on the renovation next year, at which point the tower is going to be stripped back to its core and steel frame.",
+    "confidence": 0.8553,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:15:03.96",
+        "adjustedEnd": "0:15:09.96",
+        "start": "0:15:03.96",
+        "end": "0:15:09.96"
+      }
+    ]
+  },
+  {
+    "id": 169,
+    "text": "After that, the big question is will it work?",
+    "confidence": 0.9062,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:15:10.04",
+        "adjustedEnd": "0:15:13.32",
+        "start": "0:15:10.04",
+        "end": "0:15:13.32"
+      }
+    ]
+  },
+  {
+    "id": 170,
+    "text": "Is the old tower the ugly duckling growing into a graceful swan?",
+    "confidence": 0.8605,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:15:13.68",
+        "adjustedEnd": "0:15:18.08",
+        "start": "0:15:13.68",
+        "end": "0:15:18.08"
+      }
+    ]
+  },
+  {
+    "id": 171,
+    "text": "Or is the only way to get prisons to love this building to make it disappear?",
+    "confidence": 0.8909,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:15:18.28",
+        "adjustedEnd": "0:15:23.32",
+        "start": "0:15:18.28",
+        "end": "0:15:23.32"
+      }
+    ]
+  },
+  {
+    "id": 172,
+    "text": "Remember guys, if you want to get the news without the usual bias, then get involved in straight hour news via the link below.",
+    "confidence": 0.8894,
+    "speakerId": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:15:24.32",
+        "adjustedEnd": "0:15:29.84",
+        "start": "0:15:24.32",
+        "end": "0:15:29.84"
+      }
+    ]
+  },
+  {
+    "id": 173,
+    "text": "And as always guys, if you enjoyed this video and you want to get more from the definitive video channel for construction.",
+    "confidence": 0.8715,
+    "speakerId": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:15:30.2",
+        "adjustedEnd": "0:15:36",
+        "start": "0:15:30.2",
+        "end": "0:15:36"
+      }
+    ]
+  },
+  {
+    "id": 174,
+    "text": "Make sure you subscribe to the.",
+    "confidence": 0.9168,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:15:36.52",
+        "adjustedEnd": "0:15:38.08",
+        "start": "0:15:36.52",
+        "end": "0:15:38.08"
+      }
+    ]
+  },
+  {
+    "id": 175,
+    "text": "B1M.",
+    "confidence": 0.8602,
+    "speakerId": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:15:38.08",
+        "adjustedEnd": "0:15:38.72",
+        "start": "0:15:38.08",
+        "end": "0:15:38.72"
+      }
+    ]
+  }
+]

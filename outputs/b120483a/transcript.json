@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "text": "2 The ionosphere can be fickle.",
+    "confidence": 0.8633,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:00.44",
+        "adjustedEnd": "0:00:02.44",
+        "start": "0:00:00.44",
+        "end": "0:00:02.44"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "text": "It changes a lot, especially due to solar flares, and back in the 50s and 60s people were worried that nuclear tests might mess with it too.",
+    "confidence": 0.922,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:02.68",
+        "adjustedEnd": "0:00:09.28",
+        "start": "0:00:02.68",
+        "end": "0:00:09.28"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "text": "Because of all that, OTH radio got disrupted kind of a lot, and the concern was that if there was a solar storm and the USSR snipped one of the USS undersea cables, the whole long range communication system would be down.",
+    "confidence": 0.8681,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:09.56",
+        "adjustedEnd": "0:00:20",
+        "start": "0:00:09.56",
+        "end": "0:00:20"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "text": "Enter the needles.",
+    "confidence": 0.9537,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:20.4",
+        "adjustedEnd": "0:00:21.84",
+        "start": "0:00:20.4",
+        "end": "0:00:21.84"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "text": "The idea was to create a ring of copper wires orbiting the Earth that could do the job of the ionosphere more consistently.",
+    "confidence": 0.9224,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:22.16",
+        "adjustedEnd": "0:00:27.84",
+        "start": "0:00:22.16",
+        "end": "0:00:27.84"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "text": "Each one would be 1.8 centimeters long and serve as a dipole antenna for 8 gigahertz signals sent from the Earth.",
+    "confidence": 0.9087,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:28.24",
+        "adjustedEnd": "0:00:33.96",
+        "start": "0:00:28.24",
+        "end": "0:00:33.96"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "text": "If I went to plan, the US could send one of those signals into the sky.",
+    "confidence": 0.8888,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:34.24",
+        "adjustedEnd": "0:00:37.32",
+        "start": "0:00:34.24",
+        "end": "0:00:37.32"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "text": "It would refract through all those little antenna and come back down to Earth somewhere far, far away.",
+    "confidence": 0.9353,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:37.48",
+        "adjustedEnd": "0:00:42.56",
+        "start": "0:00:37.48",
+        "end": "0:00:42.56"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "text": "But first there was a matter of getting hundreds of millions of copper wires into the sky.",
+    "confidence": 0.9127,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:43.04",
+        "adjustedEnd": "0:00:46.96",
+        "start": "0:00:43.04",
+        "end": "0:00:46.96"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "text": "To do that, the Project Westford folks built this a dispersal machine, though this is just a prototype, the real ones are still in space.",
+    "confidence": 0.9079,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:47.24",
+        "adjustedEnd": "0:00:55.16",
+        "start": "0:00:47.24",
+        "end": "0:00:55.16"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "text": "It's about the length and width of a standard Wiener dog, and would carry a canister full of copper needles in case in a naphalene gel, which the spring would slowly push out once it reached space.",
+    "confidence": 0.8375,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:55.44",
+        "adjustedEnd": "0:01:03.96",
+        "start": "0:00:55.44",
+        "end": "0:01:03.96"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "text": "When the gel met sunlight, it would slowly melt during orbit, scattering needles around the planet and completing a Space Needle ring in a matter of weeks.",
+    "confidence": 0.8275,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:04.12",
+        "adjustedEnd": "0:01:10.72",
+        "start": "0:01:04.12",
+        "end": "0:01:10.72"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "text": "Their first attempt of this was in October of 1961, and it didn't really work because of a malfunctioning release mechanism.",
+    "confidence": 0.858,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:10.96",
+        "adjustedEnd": "0:01:16.88",
+        "start": "0:01:10.96",
+        "end": "0:01:16.88"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "text": "They tried again in May of 1963, and it worked.",
+    "confidence": 0.8867,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:17.24",
+        "adjustedEnd": "0:01:20.56",
+        "start": "0:01:17.24",
+        "end": "0:01:20.56"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "text": "The belt formed in a polar orbit over the course of about 40 days, and it didn't include the full number of needles they needed.",
+    "confidence": 0.8807,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:20.8",
+        "adjustedEnd": "0:01:26.52",
+        "start": "0:01:20.8",
+        "end": "0:01:26.52"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "text": "It was cool enough to make a partial belt and test the system, and huzzah voice transmissions between Massachusetts and California were successful.",
+    "confidence": 0.8734,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:26.64",
+        "adjustedEnd": "0:01:33.64",
+        "start": "0:01:26.64",
+        "end": "0:01:33.64"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "text": "Whoopee.",
+    "confidence": 0.4128,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:33.68",
+        "adjustedEnd": "0:01:34.36",
+        "start": "0:01:33.68",
+        "end": "0:01:34.36"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "text": "So why didn't we ever send up the rest of the needles or really end up using the ones that were there?",
+    "confidence": 0.8996,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:35.08",
+        "adjustedEnd": "0:01:38.96",
+        "start": "0:01:35.08",
+        "end": "0:01:38.96"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "text": "And why do people get so mad?",
+    "confidence": 0.8744,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:39.16",
+        "adjustedEnd": "0:01:40.6",
+        "start": "0:01:39.16",
+        "end": "0:01:40.6"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "text": "And where are they now?",
+    "confidence": 0.9554,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:40.8",
+        "adjustedEnd": "0:01:41.92",
+        "start": "0:01:40.8",
+        "end": "0:01:41.92"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "text": "One of the big concerns was the president the United States was setting by filling Earth's orbit with needles, songs, anyone else's consent.",
+    "confidence": 0.8036,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:41.92",
+        "adjustedEnd": "0:01:47.92",
+        "start": "0:01:41.92",
+        "end": "0:01:47.92"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "text": "In the astronomy world, people were worried that a belt of conductive material in Earth's orbit could distort or otherwise harm tools trying to take measurements or images of outer space.",
+    "confidence": 0.9329,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:48.12",
+        "adjustedEnd": "0:01:56.16",
+        "start": "0:01:48.12",
+        "end": "0:01:56.16"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "text": "And beyond astronomers, other countries were miffed.",
+    "confidence": 0.8722,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:56.44",
+        "adjustedEnd": "0:01:58.68",
+        "start": "0:01:56.44",
+        "end": "0:01:58.68"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "text": "The United States military, setting the existential threat of nuclear war with the USSR, was unilaterally deciding what to put in everyone's sky.",
+    "confidence": 0.857,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:58.68",
+        "adjustedEnd": "0:02:06.2",
+        "start": "0:01:58.68",
+        "end": "0:02:06.2"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "text": "And while studies in additional launches prove that these needles didn't cause problems for anyones astronomy instruments or the general aesthetics of the sky, the world was rightfully uncomfortable with how it all went down.",
+    "confidence": 0.9067,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:06.64",
+        "adjustedEnd": "0:02:16.28",
+        "start": "0:02:06.64",
+        "end": "0:02:16.28"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "text": "Or rather, how it all went up.",
+    "confidence": 0.8848,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:16.56",
+        "adjustedEnd": "0:02:17.92",
+        "start": "0:02:16.56",
+        "end": "0:02:17.92"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "text": "So when the Outer Space Treaty of 1967 was drafted, Article 9 include language stating that whatever you get up into space, you must give quote due regard to the corresponding interests of all other states parties to the treaty.",
+    "confidence": 0.8996,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:18.44",
+        "adjustedEnd": "0:02:29.64",
+        "start": "0:02:18.44",
+        "end": "0:02:29.64"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "text": "Which is to say, if we went needle mode again, we'd need other countries to agree instead of just throwing 480 million of the things up there and saying, see, it didn't bother anybody.",
+    "confidence": 0.9033,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:29.96",
+        "adjustedEnd": "0:02:38.72",
+        "start": "0:02:29.96",
+        "end": "0:02:38.72"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "text": "But since they didn't actually bother anybody, why didn't we use what we'd already sent up?",
+    "confidence": 0.9294,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:39.04",
+        "adjustedEnd": "0:02:43.08",
+        "start": "0:02:39.04",
+        "end": "0:02:43.08"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "text": "Well, Project Needles as it was first known, was started in 1958 with the successful dispersed of Needles and the subsequent successful communication tests not happening until 1963.",
+    "confidence": 0.8649,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:43.44",
+        "adjustedEnd": "0:02:52.96",
+        "start": "0:02:43.44",
+        "end": "0:02:52.96"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "text": "And by 1963 a few key things had happened.",
+    "confidence": 0.9696,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:53.24",
+        "adjustedEnd": "0:02:56.16",
+        "start": "0:02:53.24",
+        "end": "0:02:56.16"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "text": "First, Little Eva had released the Locomotion, so I assumed the world was a bit less focused on long range communications and a little more focused on doing a brand new dance.",
+    "confidence": 0.9153,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:56.36",
+        "adjustedEnd": "0:03:04.04",
+        "start": "0:02:56.36",
+        "end": "0:03:04.04"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "text": "Now come on baby, do the Locomotion.",
+    "confidence": 0.9256,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:04.04",
+        "adjustedEnd": "0:03:05.92",
+        "start": "0:03:04.04",
+        "end": "0:03:05.92"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "text": "Also, AT&T had launched Telstar, the world's first active communication satellite, and the United States had created the Communications Satellite Corporation, or COMSAT, a massive federal investment in satellite communications worldwide.",
+    "confidence": 0.8442,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:06.52",
+        "adjustedEnd": "0:03:18.88",
+        "start": "0:03:06.52",
+        "end": "0:03:18.88"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "text": "So by the time we knew that needles worked, they were basically obsolete.",
+    "confidence": 0.9432,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:19.08",
+        "adjustedEnd": "0:03:22.48",
+        "start": "0:03:19.08",
+        "end": "0:03:22.48"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "text": "All it was left to do was collect all 480 million needles out of the sky since we wouldn't be needing other services.",
+    "confidence": 0.8621,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:22.84",
+        "adjustedEnd": "0:03:27.76",
+        "start": "0:03:22.84",
+        "end": "0:03:27.76"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "text": "JK, we didn't do that, we just left them there.",
+    "confidence": 0.8229,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:27.76",
+        "adjustedEnd": "0:03:31.04",
+        "start": "0:03:27.76",
+        "end": "0:03:31.04"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "text": "It's generally assumed that since the 60s most of those needles did re enter the atmosphere at some point points, like when some kind of solar wind came through.",
+    "confidence": 0.818,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:31.44",
+        "adjustedEnd": "0:03:38.88",
+        "start": "0:03:31.44",
+        "end": "0:03:38.88"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "text": "Meaning if you find yourself at the north or South Pole, make sure to pan for the snow a bit.",
+    "confidence": 0.916,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:39.2",
+        "adjustedEnd": "0:03:42.84",
+        "start": "0:03:39.2",
+        "end": "0:03:42.84"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "text": "There are probably quite a lot of copper needles laying around there, but there are still a ton or activate.",
+    "confidence": 0.8995,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:43.04",
+        "adjustedEnd": "0:03:47.76",
+        "start": "0:03:43.04",
+        "end": "0:03:47.76"
+      }
+    ]
+  }
+]

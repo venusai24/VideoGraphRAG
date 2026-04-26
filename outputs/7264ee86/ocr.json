@@ -1,0 +1,7124 @@
+[
+  {
+    "id": 1,
+    "text": "1952",
+    "confidence": 0.994,
+    "left": 1089,
+    "top": 330,
+    "width": 89,
+    "height": 58,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:32",
+        "adjustedEnd": "0:02:34.0333333",
+        "start": "0:02:32",
+        "end": "0:02:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "text": "12:39",
+    "confidence": 0.998,
+    "left": 832,
+    "top": 459,
+    "width": 74,
+    "height": 23,
+    "angle": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:46",
+        "adjustedEnd": "0:05:47.0333333",
+        "start": "0:05:46",
+        "end": "0:05:47.0333333"
+      },
+      {
+        "adjustedStart": "0:05:49",
+        "adjustedEnd": "0:05:51.0333333",
+        "start": "0:05:49",
+        "end": "0:05:51.0333333"
+      },
+      {
+        "adjustedStart": "0:05:53",
+        "adjustedEnd": "0:05:53.0333333",
+        "start": "0:05:53",
+        "end": "0:05:53.0333333"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "text": "12:5",
+    "confidence": 0.981,
+    "left": 817,
+    "top": 493,
+    "width": 59,
+    "height": 24,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:46",
+        "adjustedEnd": "0:05:47.0333333",
+        "start": "0:05:46",
+        "end": "0:05:47.0333333"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "text": "13:",
+    "confidence": 0.993,
+    "left": 838,
+    "top": 528,
+    "width": 36,
+    "height": 23,
+    "angle": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:46",
+        "adjustedEnd": "0:05:46.0333333",
+        "start": "0:05:46",
+        "end": "0:05:46.0333333"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "text": "27",
+    "confidence": 0.998,
+    "left": 1173,
+    "top": 515,
+    "width": 47,
+    "height": 25,
+    "angle": 4,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:46",
+        "adjustedEnd": "0:05:53.0333333",
+        "start": "0:05:46",
+        "end": "0:05:53.0333333"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "text": "22",
+    "confidence": 0.998,
+    "left": 1190,
+    "top": 550,
+    "width": 30,
+    "height": 24,
+    "angle": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:46",
+        "adjustedEnd": "0:05:53.0333333",
+        "start": "0:05:46",
+        "end": "0:05:53.0333333"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "text": "41",
+    "confidence": 0.996,
+    "left": 1191,
+    "top": 584,
+    "width": 32,
+    "height": 22,
+    "angle": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:46",
+        "adjustedEnd": "0:05:53.0333333",
+        "start": "0:05:46",
+        "end": "0:05:53.0333333"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "text": "29",
+    "confidence": 0.998,
+    "left": 1193,
+    "top": 617,
+    "width": 29,
+    "height": 22,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:46",
+        "adjustedEnd": "0:05:53.0333333",
+        "start": "0:05:46",
+        "end": "0:05:53.0333333"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "text": "13:48",
+    "confidence": 0.998,
+    "left": 836,
+    "top": 635,
+    "width": 66,
+    "height": 24,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:46",
+        "adjustedEnd": "0:05:53.0333333",
+        "start": "0:05:46",
+        "end": "0:05:53.0333333"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "text": "30",
+    "confidence": 0.995,
+    "left": 1192,
+    "top": 649,
+    "width": 27,
+    "height": 22,
+    "angle": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:46",
+        "adjustedEnd": "0:05:53.0333333",
+        "start": "0:05:46",
+        "end": "0:05:53.0333333"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "text": "28",
+    "confidence": 0.998,
+    "left": 1193,
+    "top": 682,
+    "width": 25,
+    "height": 22,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:46",
+        "adjustedEnd": "0:05:53.0333333",
+        "start": "0:05:46",
+        "end": "0:05:53.0333333"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "text": "11",
+    "confidence": 0.956,
+    "left": 1192,
+    "top": 714,
+    "width": 25,
+    "height": 24,
+    "angle": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:46",
+        "adjustedEnd": "0:05:53.0333333",
+        "start": "0:05:46",
+        "end": "0:05:53.0333333"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "text": "23",
+    "confidence": 0.998,
+    "left": 1191,
+    "top": 748,
+    "width": 25,
+    "height": 23,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:46",
+        "adjustedEnd": "0:05:50.0333333",
+        "start": "0:05:46",
+        "end": "0:05:50.0333333"
+      },
+      {
+        "adjustedStart": "0:05:53",
+        "adjustedEnd": "0:05:53.0333333",
+        "start": "0:05:53",
+        "end": "0:05:53.0333333"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "text": "5324",
+    "confidence": 0.9,
+    "left": 1103,
+    "top": 778,
+    "width": 57,
+    "height": 24,
+    "angle": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:46",
+        "adjustedEnd": "0:05:46.0333333",
+        "start": "0:05:46",
+        "end": "0:05:46.0333333"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "text": "43",
+    "confidence": 0.998,
+    "left": 1192,
+    "top": 780,
+    "width": 25,
+    "height": 25,
+    "angle": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:46",
+        "adjustedEnd": "0:05:53.0333333",
+        "start": "0:05:46",
+        "end": "0:05:53.0333333"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "text": "31",
+    "confidence": 0.998,
+    "left": 1166,
+    "top": 484,
+    "width": 35,
+    "height": 23,
+    "angle": 7,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:47",
+        "adjustedEnd": "0:05:52.0333333",
+        "start": "0:05:47",
+        "end": "0:05:52.0333333"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "text": "13:2",
+    "confidence": 0.991,
+    "left": 815,
+    "top": 564,
+    "width": 58,
+    "height": 25,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:47",
+        "adjustedEnd": "0:05:47.0333333",
+        "start": "0:05:47",
+        "end": "0:05:47.0333333"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "text": "5870",
+    "confidence": 0.994,
+    "left": 1083,
+    "top": 747,
+    "width": 54,
+    "height": 23,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:47",
+        "adjustedEnd": "0:05:50.0333333",
+        "start": "0:05:47",
+        "end": "0:05:50.0333333"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "text": "324",
+    "confidence": 0.995,
+    "left": 1096,
+    "top": 778,
+    "width": 42,
+    "height": 23,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:47",
+        "adjustedEnd": "0:05:49.0333333",
+        "start": "0:05:47",
+        "end": "0:05:49.0333333"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "text": "2:39",
+    "confidence": 0.928,
+    "left": 809,
+    "top": 453,
+    "width": 56,
+    "height": 24,
+    "angle": 4,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:48",
+        "adjustedEnd": "0:05:48.0333333",
+        "start": "0:05:48",
+        "end": "0:05:48.0333333"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "text": "12:57",
+    "confidence": 0.998,
+    "left": 794,
+    "top": 487,
+    "width": 73,
+    "height": 25,
+    "angle": 4,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:48",
+        "adjustedEnd": "0:05:53.0333333",
+        "start": "0:05:48",
+        "end": "0:05:53.0333333"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "text": "5723",
+    "confidence": 0.992,
+    "left": 1069,
+    "top": 508,
+    "width": 54,
+    "height": 22,
+    "angle": 5,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:48",
+        "adjustedEnd": "0:05:50.0333333",
+        "start": "0:05:48",
+        "end": "0:05:50.0333333"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "text": "13:08",
+    "confidence": 0.998,
+    "left": 798,
+    "top": 525,
+    "width": 69,
+    "height": 23,
+    "angle": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:48",
+        "adjustedEnd": "0:05:53.0333333",
+        "start": "0:05:48",
+        "end": "0:05:53.0333333"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "text": "5984",
+    "confidence": 0.995,
+    "left": 1068,
+    "top": 541,
+    "width": 55,
+    "height": 22,
+    "angle": 5,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:48",
+        "adjustedEnd": "0:05:51.0333333",
+        "start": "0:05:48",
+        "end": "0:05:51.0333333"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "text": "13:3",
+    "confidence": 0.995,
+    "left": 778,
+    "top": 594,
+    "width": 58,
+    "height": 25,
+    "angle": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:48",
+        "adjustedEnd": "0:05:50.0333333",
+        "start": "0:05:48",
+        "end": "0:05:50.0333333"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "text": "903",
+    "confidence": 0.996,
+    "left": 1066,
+    "top": 475,
+    "width": 39,
+    "height": 21,
+    "angle": 4,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:49",
+        "adjustedEnd": "0:05:53.0333333",
+        "start": "0:05:49",
+        "end": "0:05:53.0333333"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "text": "608",
+    "confidence": 0.995,
+    "left": 979,
+    "top": 566,
+    "width": 45,
+    "height": 22,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:51",
+        "adjustedEnd": "0:05:51.0333333",
+        "start": "0:05:51",
+        "end": "0:05:51.0333333"
+      },
+      {
+        "adjustedStart": "0:05:53",
+        "adjustedEnd": "0:05:53.0333333",
+        "start": "0:05:53",
+        "end": "0:05:53.0333333"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "text": "13:37",
+    "confidence": 0.99,
+    "left": 762,
+    "top": 590,
+    "width": 68,
+    "height": 26,
+    "angle": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:51",
+        "adjustedEnd": "0:05:53.0333333",
+        "start": "0:05:51",
+        "end": "0:05:53.0333333"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "text": "997",
+    "confidence": 0.996,
+    "left": 1036,
+    "top": 705,
+    "width": 57,
+    "height": 23,
+    "angle": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:51",
+        "adjustedEnd": "0:05:53.0333333",
+        "start": "0:05:51",
+        "end": "0:05:53.0333333"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "text": "870",
+    "confidence": 0.963,
+    "left": 1040,
+    "top": 739,
+    "width": 53,
+    "height": 25,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:51",
+        "adjustedEnd": "0:05:52.0333333",
+        "start": "0:05:51",
+        "end": "0:05:52.0333333"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "text": "723",
+    "confidence": 0.995,
+    "left": 1009,
+    "top": 496,
+    "width": 39,
+    "height": 22,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:52",
+        "adjustedEnd": "0:05:53.0333333",
+        "start": "0:05:52",
+        "end": "0:05:53.0333333"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "text": "984",
+    "confidence": 0.996,
+    "left": 1011,
+    "top": 529,
+    "width": 37,
+    "height": 22,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:52",
+        "adjustedEnd": "0:05:53.0333333",
+        "start": "0:05:52",
+        "end": "0:05:53.0333333"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "text": "-13%",
+    "confidence": 0.968,
+    "left": 1468,
+    "top": 781,
+    "width": 31,
+    "height": 18,
+    "angle": -7,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:51",
+        "adjustedEnd": "0:06:54.0333333",
+        "start": "0:06:51",
+        "end": "0:06:54.0333333"
+      },
+      {
+        "adjustedStart": "0:07:07",
+        "adjustedEnd": "0:07:07.0333333",
+        "start": "0:07:07",
+        "end": "0:07:07.0333333"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "text": "1:27",
+    "confidence": 0.991,
+    "left": 1371,
+    "top": 893,
+    "width": 26,
+    "height": 18,
+    "angle": -2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:51",
+        "adjustedEnd": "0:06:54.0333333",
+        "start": "0:06:51",
+        "end": "0:06:54.0333333"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "text": "4:05:27",
+    "confidence": 0.985,
+    "left": 697,
+    "top": 973,
+    "width": 56,
+    "height": 15,
+    "angle": -5,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:51",
+        "adjustedEnd": "0:06:54.0333333",
+        "start": "0:06:51",
+        "end": "0:06:54.0333333"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "text": "14:09",
+    "confidence": 0.96,
+    "left": 1546,
+    "top": 1040,
+    "width": 79,
+    "height": 25,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:58",
+        "adjustedEnd": "0:07:01.0333333",
+        "start": "0:06:58",
+        "end": "0:07:01.0333333"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "text": "+1:16:13",
+    "confidence": 0.94,
+    "left": 1092,
+    "top": 721,
+    "width": 69,
+    "height": 16,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:07",
+        "adjustedEnd": "0:07:07.0333333",
+        "start": "0:07:07",
+        "end": "0:07:07.0333333"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "text": "Political Instability in Cyprus",
+    "confidence": 0.9928,
+    "left": 516,
+    "top": 148,
+    "width": 890,
+    "height": 71,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:44",
+        "adjustedEnd": "0:00:47.0333333",
+        "start": "0:00:44",
+        "end": "0:00:47.0333333"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "text": "BAD",
+    "confidence": 0.997,
+    "left": 740,
+    "top": 551,
+    "width": 387,
+    "height": 158,
+    "angle": 23,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:44",
+        "adjustedEnd": "0:00:47.0333333",
+        "start": "0:00:44",
+        "end": "0:00:47.0333333"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "text": "nea",
+    "confidence": 0.995,
+    "left": 1482,
+    "top": 339,
+    "width": 87,
+    "height": 33,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:45",
+        "adjustedEnd": "0:00:46.0333333",
+        "start": "0:00:45",
+        "end": "0:00:46.0333333"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "text": "neat",
+    "confidence": 0.996,
+    "left": 1018,
+    "top": 332,
+    "width": 123,
+    "height": 42,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:47",
+        "adjustedEnd": "0:00:47.0333333",
+        "start": "0:00:47",
+        "end": "0:00:47.0333333"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "text": "ERCAN",
+    "confidence": 0.911,
+    "left": 143,
+    "top": 492,
+    "width": 134,
+    "height": 70,
+    "angle": -27,
+    "language": "tr-TR",
+    "instances": [
+      {
+        "adjustedStart": "0:00:48",
+        "adjustedEnd": "0:00:48.0333333",
+        "start": "0:00:48",
+        "end": "0:00:48.0333333"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "text": "Ercan International Airport",
+    "confidence": 0.9707,
+    "left": 1073,
+    "top": 535,
+    "width": 465,
+    "height": 42,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:57",
+        "adjustedEnd": "0:01:17.0333333",
+        "start": "0:00:57",
+        "end": "0:01:17.0333333"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "text": "İzmir",
+    "confidence": 0.996,
+    "left": 286,
+    "top": 638,
+    "width": 93,
+    "height": 38,
+    "angle": 3,
+    "language": "tr-TR",
+    "instances": [
+      {
+        "adjustedStart": "0:01:04",
+        "adjustedEnd": "0:01:09.0333333",
+        "start": "0:01:04",
+        "end": "0:01:09.0333333"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "text": "Antalya",
+    "confidence": 0.998,
+    "left": 652,
+    "top": 683,
+    "width": 123,
+    "height": 37,
+    "angle": 1,
+    "language": "tr-TR",
+    "instances": [
+      {
+        "adjustedStart": "0:01:04",
+        "adjustedEnd": "0:01:10.0333333",
+        "start": "0:01:04",
+        "end": "0:01:10.0333333"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "text": "Istanbul",
+    "confidence": 0.926,
+    "left": 293,
+    "top": 286,
+    "width": 136,
+    "height": 34,
+    "angle": -1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:05",
+        "adjustedEnd": "0:01:09.0333333",
+        "start": "0:01:05",
+        "end": "0:01:09.0333333"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "text": "Istanbul (Sabiha)",
+    "confidence": 0.9425,
+    "left": 491,
+    "top": 308,
+    "width": 289,
+    "height": 38,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:06",
+        "adjustedEnd": "0:01:09.0333333",
+        "start": "0:01:06",
+        "end": "0:01:09.0333333"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "text": "Ankara",
+    "confidence": 0.998,
+    "left": 820,
+    "top": 311,
+    "width": 120,
+    "height": 32,
+    "angle": 0,
+    "language": "tr-TR",
+    "instances": [
+      {
+        "adjustedStart": "0:01:06",
+        "adjustedEnd": "0:01:09.0333333",
+        "start": "0:01:06",
+        "end": "0:01:09.0333333"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "text": "Kayseri",
+    "confidence": 0.998,
+    "left": 996,
+    "top": 384,
+    "width": 115,
+    "height": 34,
+    "angle": 0,
+    "language": "to-TO",
+    "instances": [
+      {
+        "adjustedStart": "0:01:06",
+        "adjustedEnd": "0:01:09.0333333",
+        "start": "0:01:06",
+        "end": "0:01:09.0333333"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "text": "Trabzon",
+    "confidence": 0.998,
+    "left": 1253,
+    "top": 118,
+    "width": 126,
+    "height": 33,
+    "angle": 1,
+    "language": "tr-TR",
+    "instances": [
+      {
+        "adjustedStart": "0:01:07",
+        "adjustedEnd": "0:01:09.0333333",
+        "start": "0:01:07",
+        "end": "0:01:09.0333333"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "text": "Çukurova",
+    "confidence": 0.998,
+    "left": 992,
+    "top": 556,
+    "width": 162,
+    "height": 43,
+    "angle": 0,
+    "language": "tr-TR",
+    "instances": [
+      {
+        "adjustedStart": "0:01:07",
+        "adjustedEnd": "0:01:10.0333333",
+        "start": "0:01:07",
+        "end": "0:01:10.0333333"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "text": "Hatay",
+    "confidence": 0.998,
+    "left": 1193,
+    "top": 704,
+    "width": 81,
+    "height": 26,
+    "angle": 15,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:07",
+        "adjustedEnd": "0:01:10.0333333",
+        "start": "0:01:07",
+        "end": "0:01:10.0333333"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "text": "Gaziantep",
+    "confidence": 0.998,
+    "left": 1275,
+    "top": 509,
+    "width": 175,
+    "height": 35,
+    "angle": 1,
+    "language": "tr-TR",
+    "instances": [
+      {
+        "adjustedStart": "0:01:08",
+        "adjustedEnd": "0:01:09.0333333",
+        "start": "0:01:08",
+        "end": "0:01:09.0333333"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "text": "Diyarbakır",
+    "confidence": 0.994,
+    "left": 1451,
+    "top": 387,
+    "width": 182,
+    "height": 40,
+    "angle": 0,
+    "language": "tr-TR",
+    "instances": [
+      {
+        "adjustedStart": "0:01:09",
+        "adjustedEnd": "0:01:09.0333333",
+        "start": "0:01:09",
+        "end": "0:01:09.0333333"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "text": "DMZ展 览 馆",
+    "confidence": 0.989,
+    "left": 1441,
+    "top": 235,
+    "width": 89,
+    "height": 15,
+    "angle": 1,
+    "language": "zh-Hans",
+    "instances": [
+      {
+        "adjustedStart": "0:01:24",
+        "adjustedEnd": "0:01:24.0333333",
+        "start": "0:01:24",
+        "end": "0:01:24.0333333"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "text": "DMZ Pavilion",
+    "confidence": 0.989,
+    "left": 1443,
+    "top": 254,
+    "width": 85,
+    "height": 14,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:24",
+        "adjustedEnd": "0:01:25.0333333",
+        "start": "0:01:24",
+        "end": "0:01:25.0333333"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "text": "DMZ 전시관",
+    "confidence": 0.9943,
+    "left": 546,
+    "top": 252,
+    "width": 62,
+    "height": 14,
+    "angle": 0,
+    "language": "ko-KR",
+    "instances": [
+      {
+        "adjustedStart": "0:01:24",
+        "adjustedEnd": "0:01:24.0333333",
+        "start": "0:01:24",
+        "end": "0:01:24.0333333"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "text": "DMZ 展 览 馆",
+    "confidence": 0.9883,
+    "left": 1440,
+    "top": 267,
+    "width": 89,
+    "height": 15,
+    "angle": 0,
+    "language": "zh-Hans",
+    "instances": [
+      {
+        "adjustedStart": "0:01:25",
+        "adjustedEnd": "0:01:25.0333333",
+        "start": "0:01:25",
+        "end": "0:01:25.0333333"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "text": "DMZ 展 示館",
+    "confidence": 0.9895,
+    "left": 1444,
+    "top": 304,
+    "width": 84,
+    "height": 14,
+    "angle": 0,
+    "language": "ja-JP",
+    "instances": [
+      {
+        "adjustedStart": "0:01:25",
+        "adjustedEnd": "0:01:25.0333333",
+        "start": "0:01:25",
+        "end": "0:01:25.0333333"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "text": "STOP",
+    "confidence": 0.996,
+    "left": 1532,
+    "top": 381,
+    "width": 66,
+    "height": 22,
+    "angle": -1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:26",
+        "adjustedEnd": "0:01:33.0333333",
+        "start": "0:01:26",
+        "end": "0:01:33.0333333"
+      },
+      {
+        "adjustedStart": "0:03:21",
+        "adjustedEnd": "0:03:28.0333333",
+        "start": "0:03:21",
+        "end": "0:03:28.0333333"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "text": "NO MAN'S",
+    "confidence": 0.97,
+    "left": 424,
+    "top": 699,
+    "width": 279,
+    "height": 74,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:26",
+        "adjustedEnd": "0:01:33.0333333",
+        "start": "0:01:26",
+        "end": "0:01:33.0333333"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "text": "PROHIBITED",
+    "confidence": 0.936,
+    "left": 78,
+    "top": 729,
+    "width": 114,
+    "height": 15,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:26",
+        "adjustedEnd": "0:01:27.0333333",
+        "start": "0:01:26",
+        "end": "0:01:27.0333333"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "text": "N'T TAKE PHOT",
+    "confidence": 0.9597,
+    "left": 7,
+    "top": 761,
+    "width": 149,
+    "height": 18,
+    "angle": 3,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:01:26",
+        "adjustedEnd": "0:01:28.0333333",
+        "start": "0:01:26",
+        "end": "0:01:28.0333333"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "text": "LA ND",
+    "confidence": 0.998,
+    "left": 468,
+    "top": 783,
+    "width": 196,
+    "height": 70,
+    "angle": 4,
+    "language": "es-ES",
+    "instances": [
+      {
+        "adjustedStart": "0:01:26",
+        "adjustedEnd": "0:01:33.0333333",
+        "start": "0:01:26",
+        "end": "0:01:33.0333333"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "text": "DO NOT ENTER",
+    "confidence": 0.9883,
+    "left": 727,
+    "top": 795,
+    "width": 227,
+    "height": 27,
+    "angle": 5,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:26",
+        "adjustedEnd": "0:01:33.0333333",
+        "start": "0:01:26",
+        "end": "0:01:33.0333333"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "text": "MILITARY ZONE",
+    "confidence": 0.9955,
+    "left": 718,
+    "top": 901,
+    "width": 234,
+    "height": 26,
+    "angle": 5,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:26",
+        "adjustedEnd": "0:01:33.0333333",
+        "start": "0:01:26",
+        "end": "0:01:33.0333333"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "text": "DON T",
+    "confidence": 0.992,
+    "left": 7,
+    "top": 744,
+    "width": 65,
+    "height": 16,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:29",
+        "adjustedEnd": "0:01:29.0333333",
+        "start": "0:01:29",
+        "end": "0:01:29.0333333"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "text": "OPEYMENH",
+    "confidence": 0.957,
+    "left": 8,
+    "top": 809,
+    "width": 115,
+    "height": 19,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:29",
+        "adjustedEnd": "0:01:31.0333333",
+        "start": "0:01:29",
+        "end": "0:01:31.0333333"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "text": "OHIBITED",
+    "confidence": 0.929,
+    "left": 1,
+    "top": 720,
+    "width": 127,
+    "height": 22,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:30",
+        "adjustedEnd": "0:01:30.0333333",
+        "start": "0:01:30",
+        "end": "0:01:30.0333333"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "text": "BITED",
+    "confidence": 0.997,
+    "left": 19,
+    "top": 722,
+    "width": 56,
+    "height": 19,
+    "angle": 4,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:31",
+        "adjustedEnd": "0:01:31.0333333",
+        "start": "0:01:31",
+        "end": "0:01:31.0333333"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "text": "HOT",
+    "confidence": 0.993,
+    "left": 48,
+    "top": 765,
+    "width": 39,
+    "height": 14,
+    "angle": 6,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:31",
+        "adjustedEnd": "0:01:33.0333333",
+        "start": "0:01:31",
+        "end": "0:01:33.0333333"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "text": "The Turkish Republic",
+    "confidence": 0.9977,
+    "left": 1057,
+    "top": 270,
+    "width": 373,
+    "height": 40,
+    "angle": 4,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:36",
+        "adjustedEnd": "0:01:41.0333333",
+        "start": "0:01:36",
+        "end": "0:01:41.0333333"
+      },
+      {
+        "adjustedStart": "0:01:50",
+        "adjustedEnd": "0:01:54.0333333",
+        "start": "0:01:50",
+        "end": "0:01:54.0333333"
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "text": "of Northern Cyprus",
+    "confidence": 0.998,
+    "left": 1049,
+    "top": 368,
+    "width": 281,
+    "height": 31,
+    "angle": -7,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:36",
+        "adjustedEnd": "0:01:41.0333333",
+        "start": "0:01:36",
+        "end": "0:01:41.0333333"
+      },
+      {
+        "adjustedStart": "0:01:50",
+        "adjustedEnd": "0:01:54.0333333",
+        "start": "0:01:50",
+        "end": "0:01:54.0333333"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "text": "UN Buffer Zone",
+    "confidence": 0.9973,
+    "left": 910,
+    "top": 504,
+    "width": 146,
+    "height": 21,
+    "angle": -7,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:36",
+        "adjustedEnd": "0:01:41.0333333",
+        "start": "0:01:36",
+        "end": "0:01:41.0333333"
+      },
+      {
+        "adjustedStart": "0:01:50",
+        "adjustedEnd": "0:01:54.0333333",
+        "start": "0:01:50",
+        "end": "0:01:54.0333333"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "text": "The Republic of Cyprus",
+    "confidence": 0.9975,
+    "left": 630,
+    "top": 712,
+    "width": 338,
+    "height": 37,
+    "angle": -7,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:36",
+        "adjustedEnd": "0:01:41.0333333",
+        "start": "0:01:36",
+        "end": "0:01:41.0333333"
+      },
+      {
+        "adjustedStart": "0:01:50",
+        "adjustedEnd": "0:01:54.0333333",
+        "start": "0:01:50",
+        "end": "0:01:54.0333333"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "text": "Free Shop",
+    "confidence": 0.9955,
+    "left": 84,
+    "top": 415,
+    "width": 98,
+    "height": 14,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:44",
+        "adjustedEnd": "0:01:44.0333333",
+        "start": "0:01:44",
+        "end": "0:01:44.0333333"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "text": "Bata",
+    "confidence": 0.96,
+    "left": 0,
+    "top": 449,
+    "width": 157,
+    "height": 34,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:44",
+        "adjustedEnd": "0:01:46.0333333",
+        "start": "0:01:44",
+        "end": "0:01:46.0333333"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "text": "ee Shop",
+    "confidence": 0.995,
+    "left": 0,
+    "top": 401,
+    "width": 88,
+    "height": 14,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:45",
+        "adjustedEnd": "0:01:45.0333333",
+        "start": "0:01:45",
+        "end": "0:01:45.0333333"
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "text": "Shop",
+    "confidence": 0.996,
+    "left": 18,
+    "top": 399,
+    "width": 50,
+    "height": 15,
+    "angle": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:46",
+        "adjustedEnd": "0:01:46.0333333",
+        "start": "0:01:46",
+        "end": "0:01:46.0333333"
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "text": "British Overseas",
+    "confidence": 0.998,
+    "left": 1152,
+    "top": 807,
+    "width": 316,
+    "height": 39,
+    "angle": 9,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:53",
+        "adjustedEnd": "0:01:54.0333333",
+        "start": "0:01:53",
+        "end": "0:01:54.0333333"
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "text": "Territories",
+    "confidence": 0.994,
+    "left": 1195,
+    "top": 862,
+    "width": 204,
+    "height": 37,
+    "angle": 9,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:53",
+        "adjustedEnd": "0:01:54.0333333",
+        "start": "0:01:53",
+        "end": "0:01:54.0333333"
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "text": "PA",
+    "confidence": 0.954,
+    "left": 1025,
+    "top": 204,
+    "width": 62,
+    "height": 50,
+    "angle": -26,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:32",
+        "adjustedEnd": "0:02:33.0333333",
+        "start": "0:02:32",
+        "end": "0:02:33.0333333"
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "text": "TPIA",
+    "confidence": 0.972,
+    "left": 672,
+    "top": 273,
+    "width": 75,
+    "height": 41,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:32",
+        "adjustedEnd": "0:02:34.0333333",
+        "start": "0:02:32",
+        "end": "0:02:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "text": "Anó TO",
+    "confidence": 0.948,
+    "left": 1058,
+    "top": 279,
+    "width": 134,
+    "height": 59,
+    "angle": 2,
+    "language": "es-ES",
+    "instances": [
+      {
+        "adjustedStart": "0:02:32",
+        "adjustedEnd": "0:02:33.0333333",
+        "start": "0:02:32",
+        "end": "0:02:33.0333333"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "text": "REGIS",
+    "confidence": 0.972,
+    "left": 701,
+    "top": 559,
+    "width": 63,
+    "height": 29,
+    "angle": -4,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:33",
+        "adjustedEnd": "0:02:33.0333333",
+        "start": "0:02:33",
+        "end": "0:02:33.0333333"
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "text": "AEK",
+    "confidence": 0.923,
+    "left": 321,
+    "top": 514,
+    "width": 70,
+    "height": 64,
+    "angle": -86,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:34",
+        "adjustedEnd": "0:02:34.0333333",
+        "start": "0:02:34",
+        "end": "0:02:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "text": "SK",
+    "confidence": 0.969,
+    "left": 1278,
+    "top": 1011,
+    "width": 23,
+    "height": 12,
+    "angle": -18,
+    "language": "sk-SK",
+    "instances": [
+      {
+        "adjustedStart": "0:02:42",
+        "adjustedEnd": "0:02:44.0333333",
+        "start": "0:02:42",
+        "end": "0:02:44.0333333"
+      },
+      {
+        "adjustedStart": "0:03:03",
+        "adjustedEnd": "0:03:03.0333333",
+        "start": "0:03:03",
+        "end": "0:03:03.0333333"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "text": "ATER",
+    "confidence": 0.956,
+    "left": 1274,
+    "top": 1022,
+    "width": 31,
+    "height": 13,
+    "angle": -17,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:42",
+        "adjustedEnd": "0:02:44.0333333",
+        "start": "0:02:42",
+        "end": "0:02:44.0333333"
+      },
+      {
+        "adjustedStart": "0:03:03",
+        "adjustedEnd": "0:03:04.0333333",
+        "start": "0:03:03",
+        "end": "0:03:04.0333333"
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "text": "TEF",
+    "confidence": 0.923,
+    "left": 1273,
+    "top": 994,
+    "width": 27,
+    "height": 13,
+    "angle": -2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:43",
+        "adjustedEnd": "0:02:44.0333333",
+        "start": "0:02:43",
+        "end": "0:02:44.0333333"
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "text": "CE CREAM",
+    "confidence": 0.9905,
+    "left": 1275,
+    "top": 1042,
+    "width": 46,
+    "height": 13,
+    "angle": 0,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:02:43",
+        "adjustedEnd": "0:02:44.0333333",
+        "start": "0:02:43",
+        "end": "0:02:44.0333333"
+      },
+      {
+        "adjustedStart": "0:03:03",
+        "adjustedEnd": "0:03:04.0333333",
+        "start": "0:03:03",
+        "end": "0:03:04.0333333"
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "text": "SOFT DRINK",
+    "confidence": 0.919,
+    "left": 1272,
+    "top": 1035,
+    "width": 40,
+    "height": 10,
+    "angle": -6,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:44",
+        "adjustedEnd": "0:02:44.0333333",
+        "start": "0:02:44",
+        "end": "0:02:44.0333333"
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "text": "I'm protecting",
+    "confidence": 0.9955,
+    "left": 1115,
+    "top": 388,
+    "width": 213,
+    "height": 36,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:01",
+        "adjustedEnd": "0:03:02.0333333",
+        "start": "0:03:01",
+        "end": "0:03:02.0333333"
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "text": "my little",
+    "confidence": 0.998,
+    "left": 1118,
+    "top": 425,
+    "width": 130,
+    "height": 38,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:01",
+        "adjustedEnd": "0:03:01.0333333",
+        "start": "0:03:01",
+        "end": "0:03:01.0333333"
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "text": "my little guys!",
+    "confidence": 0.998,
+    "left": 1121,
+    "top": 418,
+    "width": 219,
+    "height": 40,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:02",
+        "adjustedEnd": "0:03:02.0333333",
+        "start": "0:03:02",
+        "end": "0:03:02.0333333"
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "text": "ICES",
+    "confidence": 0.929,
+    "left": 1283,
+    "top": 1023,
+    "width": 28,
+    "height": 15,
+    "angle": -2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:03",
+        "adjustedEnd": "0:03:03.0333333",
+        "start": "0:03:03",
+        "end": "0:03:03.0333333"
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "text": "TEPO",
+    "confidence": 0.931,
+    "left": 1280,
+    "top": 997,
+    "width": 32,
+    "height": 9,
+    "angle": -5,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:04",
+        "adjustedEnd": "0:03:04.0333333",
+        "start": "0:03:04",
+        "end": "0:03:04.0333333"
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "text": "KEEP AWAY! NO PHOTOGRAPHS ALLOWED",
+    "confidence": 0.9198,
+    "left": 259,
+    "top": 718,
+    "width": 293,
+    "height": 26,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:05",
+        "adjustedEnd": "0:03:07.0333333",
+        "start": "0:03:05",
+        "end": "0:03:07.0333333"
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "text": "ZONE INTERDITE!",
+    "confidence": 0.947,
+    "left": 322,
+    "top": 763,
+    "width": 172,
+    "height": 26,
+    "angle": 0,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:03:05",
+        "adjustedEnd": "0:03:07.0333333",
+        "start": "0:03:05",
+        "end": "0:03:07.0333333"
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "text": "SPERRGEBIET!",
+    "confidence": 0.972,
+    "left": 343,
+    "top": 841,
+    "width": 135,
+    "height": 25,
+    "angle": 0,
+    "language": "de-DE",
+    "instances": [
+      {
+        "adjustedStart": "0:03:05",
+        "adjustedEnd": "0:03:07.0333333",
+        "start": "0:03:05",
+        "end": "0:03:07.0333333"
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "text": "Republic of Cyprus",
+    "confidence": 0.998,
+    "left": 657,
+    "top": 462,
+    "width": 435,
+    "height": 56,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:12",
+        "adjustedEnd": "0:03:15.0333333",
+        "start": "0:03:12",
+        "end": "0:03:15.0333333"
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "text": "Northern Cyprus",
+    "confidence": 0.998,
+    "left": 849,
+    "top": 472,
+    "width": 382,
+    "height": 50,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:14",
+        "adjustedEnd": "0:03:15.0333333",
+        "start": "0:03:14",
+        "end": "0:03:15.0333333"
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "text": "This is the",
+    "confidence": 0.997,
+    "left": 1321,
+    "top": 127,
+    "width": 188,
+    "height": 27,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:21",
+        "adjustedEnd": "0:03:29.0333333",
+        "start": "0:03:21",
+        "end": "0:03:29.0333333"
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "text": "United Nations Buffer Zone.",
+    "confidence": 0.998,
+    "left": 1325,
+    "top": 158,
+    "width": 487,
+    "height": 29,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:21",
+        "adjustedEnd": "0:03:29.0333333",
+        "start": "0:03:21",
+        "end": "0:03:29.0333333"
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "text": "Burası Birleşmiş Milletler",
+    "confidence": 0.998,
+    "left": 1332,
+    "top": 274,
+    "width": 444,
+    "height": 30,
+    "angle": 0,
+    "language": "tr-TR",
+    "instances": [
+      {
+        "adjustedStart": "0:03:21",
+        "adjustedEnd": "0:03:28.0333333",
+        "start": "0:03:21",
+        "end": "0:03:28.0333333"
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "text": "Ara Bölgesidir.",
+    "confidence": 0.994,
+    "left": 1333,
+    "top": 306,
+    "width": 266,
+    "height": 30,
+    "angle": 0,
+    "language": "tr-TR",
+    "instances": [
+      {
+        "adjustedStart": "0:03:21",
+        "adjustedEnd": "0:03:28.0333333",
+        "start": "0:03:21",
+        "end": "0:03:28.0333333"
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "text": "NO ACCESS BEYOND THIS POINT",
+    "confidence": 0.9974,
+    "left": 1368,
+    "top": 409,
+    "width": 397,
+    "height": 28,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:21",
+        "adjustedEnd": "0:03:28.0333333",
+        "start": "0:03:21",
+        "end": "0:03:28.0333333"
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "text": "UN AUTHORIZED PERSONNEL",
+    "confidence": 0.9957,
+    "left": 1390,
+    "top": 438,
+    "width": 358,
+    "height": 26,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:21",
+        "adjustedEnd": "0:03:28.0333333",
+        "start": "0:03:21",
+        "end": "0:03:28.0333333"
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "text": "AND VEHICLES ONLY",
+    "confidence": 0.9927,
+    "left": 1442,
+    "top": 469,
+    "width": 257,
+    "height": 25,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:21",
+        "adjustedEnd": "0:03:28.0333333",
+        "start": "0:03:21",
+        "end": "0:03:28.0333333"
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "text": "DUR",
+    "confidence": 0.996,
+    "left": 1555,
+    "top": 708,
+    "width": 57,
+    "height": 20,
+    "angle": 0,
+    "language": "tr-TR",
+    "instances": [
+      {
+        "adjustedStart": "0:03:21",
+        "adjustedEnd": "0:03:28.0333333",
+        "start": "0:03:21",
+        "end": "0:03:28.0333333"
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "text": "NOKTADAN İLERİYE GİTMEK YASAKTIR",
+    "confidence": 0.998,
+    "left": 1351,
+    "top": 738,
+    "width": 474,
+    "height": 28,
+    "angle": -1,
+    "language": "tr-TR",
+    "instances": [
+      {
+        "adjustedStart": "0:03:21",
+        "adjustedEnd": "0:03:28.0333333",
+        "start": "0:03:21",
+        "end": "0:03:28.0333333"
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "text": "YALNIZ BİRLESMİŞ MİLLETLER",
+    "confidence": 0.9583,
+    "left": 1404,
+    "top": 767,
+    "width": 369,
+    "height": 25,
+    "angle": -1,
+    "language": "tr-TR",
+    "instances": [
+      {
+        "adjustedStart": "0:03:21",
+        "adjustedEnd": "0:03:28.0333333",
+        "start": "0:03:21",
+        "end": "0:03:28.0333333"
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "text": "MENSUBLARI",
+    "confidence": 0.993,
+    "left": 1506,
+    "top": 795,
+    "width": 165,
+    "height": 24,
+    "angle": -1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:21",
+        "adjustedEnd": "0:03:28.0333333",
+        "start": "0:03:21",
+        "end": "0:03:28.0333333"
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "text": "İZİNLİ PERSONNEL VE ARACLAR",
+    "confidence": 0.9965,
+    "left": 1392,
+    "top": 822,
+    "width": 396,
+    "height": 30,
+    "angle": -1,
+    "language": "tr-TR",
+    "instances": [
+      {
+        "adjustedStart": "0:03:21",
+        "adjustedEnd": "0:03:28.0333333",
+        "start": "0:03:21",
+        "end": "0:03:28.0333333"
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "text": "AAT",
+    "confidence": 0.951,
+    "left": 1555,
+    "top": 544,
+    "width": 48,
+    "height": 20,
+    "angle": -1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:22",
+        "adjustedEnd": "0:03:26.0333333",
+        "start": "0:03:22",
+        "end": "0:03:26.0333333"
+      },
+      {
+        "adjustedStart": "0:03:28",
+        "adjustedEnd": "0:03:28.0333333",
+        "start": "0:03:28",
+        "end": "0:03:28.0333333"
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "text": "North Cyprus.",
+    "confidence": 0.9875,
+    "left": 349,
+    "top": 317,
+    "width": 270,
+    "height": 43,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:31",
+        "adjustedEnd": "0:03:31.0333333",
+        "start": "0:03:31",
+        "end": "0:03:31.0333333"
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "text": "Doc 7300/9",
+    "confidence": 0.995,
+    "left": 753,
+    "top": 159,
+    "width": 80,
+    "height": 17,
+    "angle": -1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:51",
+        "adjustedEnd": "0:03:57.0333333",
+        "start": "0:03:51",
+        "end": "0:03:57.0333333"
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "text": "际民就组织",
+    "confidence": 0.9048,
+    "left": 1141,
+    "top": 196,
+    "width": 67,
+    "height": 16,
+    "angle": 28,
+    "language": "zh-Hans",
+    "instances": [
+      {
+        "adjustedStart": "0:03:51",
+        "adjustedEnd": "0:03:51.0333333",
+        "start": "0:03:51",
+        "end": "0:03:51.0333333"
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "text": "Convention on",
+    "confidence": 0.9975,
+    "left": 668,
+    "top": 302,
+    "width": 209,
+    "height": 25,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:51",
+        "adjustedEnd": "0:03:57.0333333",
+        "start": "0:03:51",
+        "end": "0:03:57.0333333"
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "text": "International Civil Aviation",
+    "confidence": 0.9617,
+    "left": 668,
+    "top": 330,
+    "width": 394,
+    "height": 27,
+    "angle": -1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:51",
+        "adjustedEnd": "0:03:57.0333333",
+        "start": "0:03:51",
+        "end": "0:03:57.0333333"
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "text": "Convention relative à",
+    "confidence": 0.9923,
+    "left": 668,
+    "top": 379,
+    "width": 313,
+    "height": 27,
+    "angle": 0,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:03:51",
+        "adjustedEnd": "0:03:57.0333333",
+        "start": "0:03:51",
+        "end": "0:03:57.0333333"
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "text": "l'aviation civile internationale",
+    "confidence": 0.9723,
+    "left": 666,
+    "top": 408,
+    "width": 440,
+    "height": 28,
+    "angle": 0,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:03:51",
+        "adjustedEnd": "0:03:57.0333333",
+        "start": "0:03:51",
+        "end": "0:03:57.0333333"
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "text": "Convenio sobre",
+    "confidence": 0.998,
+    "left": 668,
+    "top": 457,
+    "width": 225,
+    "height": 28,
+    "angle": -1,
+    "language": "es-ES",
+    "instances": [
+      {
+        "adjustedStart": "0:03:51",
+        "adjustedEnd": "0:03:57.0333333",
+        "start": "0:03:51",
+        "end": "0:03:57.0333333"
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "text": "Aviación Civil Internacional",
+    "confidence": 0.9747,
+    "left": 671,
+    "top": 486,
+    "width": 405,
+    "height": 28,
+    "angle": -1,
+    "language": "es-ES",
+    "instances": [
+      {
+        "adjustedStart": "0:03:51",
+        "adjustedEnd": "0:03:57.0333333",
+        "start": "0:03:51",
+        "end": "0:03:57.0333333"
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "text": "Конвенция о международной",
+    "confidence": 0.997,
+    "left": 665,
+    "top": 536,
+    "width": 432,
+    "height": 28,
+    "angle": 0,
+    "language": "ru-RU",
+    "instances": [
+      {
+        "adjustedStart": "0:03:51",
+        "adjustedEnd": "0:03:57.0333333",
+        "start": "0:03:51",
+        "end": "0:03:57.0333333"
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "text": "гражданской авиации",
+    "confidence": 0.996,
+    "left": 668,
+    "top": 569,
+    "width": 322,
+    "height": 28,
+    "angle": -1,
+    "language": "ru-RU",
+    "instances": [
+      {
+        "adjustedStart": "0:03:51",
+        "adjustedEnd": "0:03:57.0333333",
+        "start": "0:03:51",
+        "end": "0:03:57.0333333"
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "text": "This document supersedes Doc 7300/8.",
+    "confidence": 0.9852,
+    "left": 759,
+    "top": 677,
+    "width": 211,
+    "height": 16,
+    "angle": -1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:51",
+        "adjustedEnd": "0:03:57.0333333",
+        "start": "0:03:51",
+        "end": "0:03:57.0333333"
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "text": "Le présent document annule et remplace le Doc 7300/8.",
+    "confidence": 0.9714,
+    "left": 756,
+    "top": 682,
+    "width": 295,
+    "height": 15,
+    "angle": 0,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:03:51",
+        "adjustedEnd": "0:03:57.0333333",
+        "start": "0:03:51",
+        "end": "0:03:57.0333333"
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "text": "Este documento remplaza el Doc 7300/8.",
+    "confidence": 0.9712,
+    "left": 759,
+    "top": 698,
+    "width": 223,
+    "height": 17,
+    "angle": -1,
+    "language": "es-ES",
+    "instances": [
+      {
+        "adjustedStart": "0:03:51",
+        "adjustedEnd": "0:03:52.0333333",
+        "start": "0:03:51",
+        "end": "0:03:52.0333333"
+      },
+      {
+        "adjustedStart": "0:03:54",
+        "adjustedEnd": "0:03:57.0333333",
+        "start": "0:03:54",
+        "end": "0:03:57.0333333"
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "text": "Ninth Edition - Neuvieme edition - Novena edicion - Издание девятое - 2006",
+    "confidence": 0.9828,
+    "left": 757,
+    "top": 804,
+    "width": 396,
+    "height": 16,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:51",
+        "adjustedEnd": "0:03:57.0333333",
+        "start": "0:03:51",
+        "end": "0:03:57.0333333"
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "text": "International Civil Aviation Organization",
+    "confidence": 0.9718,
+    "left": 760,
+    "top": 910,
+    "width": 280,
+    "height": 17,
+    "angle": -1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:51",
+        "adjustedEnd": "0:03:57.0333333",
+        "start": "0:03:51",
+        "end": "0:03:57.0333333"
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "text": "Organisation de l'aviation civile internationale",
+    "confidence": 0.994,
+    "left": 761,
+    "top": 928,
+    "width": 323,
+    "height": 17,
+    "angle": -1,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:03:51",
+        "adjustedEnd": "0:03:57.0333333",
+        "start": "0:03:51",
+        "end": "0:03:57.0333333"
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "text": "Organización de Aviación Civil Internacional",
+    "confidence": 0.9618,
+    "left": 761,
+    "top": 946,
+    "width": 310,
+    "height": 18,
+    "angle": 0,
+    "language": "es-ES",
+    "instances": [
+      {
+        "adjustedStart": "0:03:51",
+        "adjustedEnd": "0:03:57.0333333",
+        "start": "0:03:51",
+        "end": "0:03:57.0333333"
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "text": "Международная организация гражданской авиации",
+    "confidence": 0.995,
+    "left": 762,
+    "top": 966,
+    "width": 380,
+    "height": 16,
+    "angle": 0,
+    "language": "ru-RU",
+    "instances": [
+      {
+        "adjustedStart": "0:03:51",
+        "adjustedEnd": "0:03:57.0333333",
+        "start": "0:03:51",
+        "end": "0:03:57.0333333"
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "text": "国际民航组织。",
+    "confidence": 0.9031,
+    "left": 1151,
+    "top": 184,
+    "width": 68,
+    "height": 17,
+    "angle": 33,
+    "language": "zh-Hans",
+    "instances": [
+      {
+        "adjustedStart": "0:03:52",
+        "adjustedEnd": "0:03:52.0333333",
+        "start": "0:03:52",
+        "end": "0:03:52.0333333"
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "text": "Настоящий документ заменяет Doc 7300/8.",
+    "confidence": 0.9016,
+    "left": 754,
+    "top": 707,
+    "width": 238,
+    "height": 14,
+    "angle": 0,
+    "language": "ru-RU",
+    "instances": [
+      {
+        "adjustedStart": "0:03:52",
+        "adjustedEnd": "0:03:57.0333333",
+        "start": "0:03:52",
+        "end": "0:03:57.0333333"
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "text": "ИКАО",
+    "confidence": 0.995,
+    "left": 833,
+    "top": 241,
+    "width": 194,
+    "height": 64,
+    "angle": 42,
+    "language": "ru-RU",
+    "instances": [
+      {
+        "adjustedStart": "0:03:53",
+        "adjustedEnd": "0:03:53.0333333",
+        "start": "0:03:53",
+        "end": "0:03:53.0333333"
+      },
+      {
+        "adjustedStart": "0:04:34",
+        "adjustedEnd": "0:04:38.0333333",
+        "start": "0:04:34",
+        "end": "0:04:38.0333333"
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "text": "CAO",
+    "confidence": 0.976,
+    "left": 1163,
+    "top": 100,
+    "width": 31,
+    "height": 20,
+    "angle": -21,
+    "language": "vi-VN",
+    "instances": [
+      {
+        "adjustedStart": "0:03:53",
+        "adjustedEnd": "0:03:55.0333333",
+        "start": "0:03:53",
+        "end": "0:03:55.0333333"
+      },
+      {
+        "adjustedStart": "0:03:57",
+        "adjustedEnd": "0:03:57.0333333",
+        "start": "0:03:57",
+        "end": "0:03:57.0333333"
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "text": "Este documento rempla",
+    "confidence": 0.9957,
+    "left": 750,
+    "top": 696,
+    "width": 132,
+    "height": 15,
+    "angle": 0,
+    "language": "es-ES",
+    "instances": [
+      {
+        "adjustedStart": "0:03:53",
+        "adjustedEnd": "0:03:53.0333333",
+        "start": "0:03:53",
+        "end": "0:03:53.0333333"
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "text": "el Doc 7300/8",
+    "confidence": 0.927,
+    "left": 889,
+    "top": 696,
+    "width": 89,
+    "height": 16,
+    "angle": 0,
+    "language": "es-ES",
+    "instances": [
+      {
+        "adjustedStart": "0:03:55",
+        "adjustedEnd": "0:03:55.0333333",
+        "start": "0:03:55",
+        "end": "0:03:55.0333333"
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "text": "remplaza",
+    "confidence": 0.923,
+    "left": 835,
+    "top": 707,
+    "width": 54,
+    "height": 15,
+    "angle": 0,
+    "language": "es-ES",
+    "instances": [
+      {
+        "adjustedStart": "0:03:55",
+        "adjustedEnd": "0:03:55.0333333",
+        "start": "0:03:55",
+        "end": "0:03:55.0333333"
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "text": "AND APPLICATION OF THE CONVENTION",
+    "confidence": 0.9948,
+    "left": 459,
+    "top": 14,
+    "width": 965,
+    "height": 53,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:58",
+        "adjustedEnd": "0:03:58.0333333",
+        "start": "0:03:58",
+        "end": "0:03:58.0333333"
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "text": "Article 1",
+    "confidence": 0.991,
+    "left": 826,
+    "top": 230,
+    "width": 230,
+    "height": 62,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:58",
+        "adjustedEnd": "0:04:08.0333333",
+        "start": "0:03:58",
+        "end": "0:04:08.0333333"
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "text": "Sovereignty",
+    "confidence": 0.992,
+    "left": 188,
+    "top": 393,
+    "width": 292,
+    "height": 60,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:58",
+        "adjustedEnd": "0:04:08.0333333",
+        "start": "0:03:58",
+        "end": "0:04:08.0333333"
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "text": "Sou",
+    "confidence": 0.996,
+    "left": 1817,
+    "top": 393,
+    "width": 94,
+    "height": 50,
+    "angle": 1,
+    "language": "pt-PT",
+    "instances": [
+      {
+        "adjustedStart": "0:03:58",
+        "adjustedEnd": "0:03:58.0333333",
+        "start": "0:03:58",
+        "end": "0:03:58.0333333"
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "text": "The contracting States recognize that every State has",
+    "confidence": 0.9961,
+    "left": 265,
+    "top": 527,
+    "width": 1427,
+    "height": 68,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:58",
+        "adjustedEnd": "0:04:08.0333333",
+        "start": "0:03:58",
+        "end": "0:04:08.0333333"
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "text": "complete and exclusive sovereignty over the airspace above its",
+    "confidence": 0.9958,
+    "left": 191,
+    "top": 605,
+    "width": 1499,
+    "height": 63,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:58",
+        "adjustedEnd": "0:04:08.0333333",
+        "start": "0:03:58",
+        "end": "0:04:08.0333333"
+      }
+    ]
+  },
+  {
+    "id": 147,
+    "text": "territory.",
+    "confidence": 0.992,
+    "left": 191,
+    "top": 680,
+    "width": 213,
+    "height": 57,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:58",
+        "adjustedEnd": "0:04:08.0333333",
+        "start": "0:03:58",
+        "end": "0:04:08.0333333"
+      }
+    ]
+  },
+  {
+    "id": 148,
+    "text": "des",
+    "confidence": 0.993,
+    "left": 1815,
+    "top": 677,
+    "width": 83,
+    "height": 54,
+    "angle": 2,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:03:58",
+        "adjustedEnd": "0:03:58.0333333",
+        "start": "0:03:58",
+        "end": "0:03:58.0333333"
+      }
+    ]
+  },
+  {
+    "id": 149,
+    "text": "Article 2",
+    "confidence": 0.9945,
+    "left": 825,
+    "top": 956,
+    "width": 226,
+    "height": 51,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:58",
+        "adjustedEnd": "0:04:08.0333333",
+        "start": "0:03:58",
+        "end": "0:04:08.0333333"
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "text": "So",
+    "confidence": 0.998,
+    "left": 1846,
+    "top": 354,
+    "width": 66,
+    "height": 55,
+    "angle": -2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:59",
+        "adjustedEnd": "0:04:01.0333333",
+        "start": "0:03:59",
+        "end": "0:04:01.0333333"
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "text": "la",
+    "confidence": 0.965,
+    "left": 1846,
+    "top": 571,
+    "width": 57,
+    "height": 56,
+    "angle": 0,
+    "language": "es-ES",
+    "instances": [
+      {
+        "adjustedStart": "0:03:59",
+        "adjustedEnd": "0:04:02.0333333",
+        "start": "0:03:59",
+        "end": "0:04:02.0333333"
+      }
+    ]
+  },
+  {
+    "id": 152,
+    "text": "de",
+    "confidence": 0.998,
+    "left": 1848,
+    "top": 649,
+    "width": 63,
+    "height": 51,
+    "angle": -3,
+    "language": "es-ES",
+    "instances": [
+      {
+        "adjustedStart": "0:03:59",
+        "adjustedEnd": "0:04:02.0333333",
+        "start": "0:03:59",
+        "end": "0:04:02.0333333"
+      }
+    ]
+  },
+  {
+    "id": 153,
+    "text": "ICAO",
+    "confidence": 0.974,
+    "left": 440,
+    "top": 398,
+    "width": 168,
+    "height": 57,
+    "angle": -50,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:04:33",
+        "adjustedEnd": "0:04:34.0333333",
+        "start": "0:04:33",
+        "end": "0:04:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 154,
+    "text": "国际民航组织",
+    "confidence": 0.9938,
+    "left": 460,
+    "top": 611,
+    "width": 290,
+    "height": 65,
+    "angle": 38,
+    "language": "zh-Hans",
+    "instances": [
+      {
+        "adjustedStart": "0:04:33",
+        "adjustedEnd": "0:04:34.0333333",
+        "start": "0:04:33",
+        "end": "0:04:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 155,
+    "text": "ACI",
+    "confidence": 0.933,
+    "left": 258,
+    "top": 59,
+    "width": 149,
+    "height": 83,
+    "angle": 9,
+    "language": "it-IT",
+    "instances": [
+      {
+        "adjustedStart": "0:04:35",
+        "adjustedEnd": "0:04:38.0333333",
+        "start": "0:04:35",
+        "end": "0:04:38.0333333"
+      }
+    ]
+  },
+  {
+    "id": 156,
+    "text": "民航组织",
+    "confidence": 0.9758,
+    "left": 46,
+    "top": 684,
+    "width": 275,
+    "height": 77,
+    "angle": 28,
+    "language": "zh-Hans",
+    "instances": [
+      {
+        "adjustedStart": "0:04:35",
+        "adjustedEnd": "0:04:38.0333333",
+        "start": "0:04:35",
+        "end": "0:04:38.0333333"
+      }
+    ]
+  },
+  {
+    "id": 157,
+    "text": "0794 H",
+    "confidence": 0.9165,
+    "left": 115,
+    "top": 672,
+    "width": 67,
+    "height": 19,
+    "angle": -4,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:04:49",
+        "adjustedEnd": "0:04:49.0333333",
+        "start": "0:04:49",
+        "end": "0:04:49.0333333"
+      }
+    ]
+  },
+  {
+    "id": 158,
+    "text": "ERCAN HAVALIMAN",
+    "confidence": 0.9345,
+    "left": 819,
+    "top": 334,
+    "width": 966,
+    "height": 98,
+    "angle": -20,
+    "language": "tr-TR",
+    "instances": [
+      {
+        "adjustedStart": "0:05:03",
+        "adjustedEnd": "0:05:07.0333333",
+        "start": "0:05:03",
+        "end": "0:05:07.0333333"
+      }
+    ]
+  },
+  {
+    "id": 159,
+    "text": "PN 994",
+    "confidence": 0.916,
+    "left": 753,
+    "top": 940,
+    "width": 24,
+    "height": 8,
+    "angle": -5,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:03",
+        "adjustedEnd": "0:05:03.0333333",
+        "start": "0:05:03",
+        "end": "0:05:03.0333333"
+      }
+    ]
+  },
+  {
+    "id": 160,
+    "text": "TURKISH AIRLINES",
+    "confidence": 0.994,
+    "left": 410,
+    "top": 393,
+    "width": 461,
+    "height": 47,
+    "angle": 4,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:12",
+        "adjustedEnd": "0:05:13.0333333",
+        "start": "0:05:12",
+        "end": "0:05:13.0333333"
+      }
+    ]
+  },
+  {
+    "id": 161,
+    "text": "TC-JTR",
+    "confidence": 0.993,
+    "left": 1573,
+    "top": 508,
+    "width": 53,
+    "height": 15,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:12",
+        "adjustedEnd": "0:05:13.0333333",
+        "start": "0:05:12",
+        "end": "0:05:13.0333333"
+      }
+    ]
+  },
+  {
+    "id": 162,
+    "text": "PUL",
+    "confidence": 0.963,
+    "left": 556,
+    "top": 106,
+    "width": 20,
+    "height": 14,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:41",
+        "adjustedEnd": "0:05:41.0333333",
+        "start": "0:05:41",
+        "end": "0:05:41.0333333"
+      }
+    ]
+  },
+  {
+    "id": 163,
+    "text": "AN",
+    "confidence": 0.969,
+    "left": 557,
+    "top": 114,
+    "width": 24,
+    "height": 19,
+    "angle": 5,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:41",
+        "adjustedEnd": "0:05:41.0333333",
+        "start": "0:05:41",
+        "end": "0:05:41.0333333"
+      }
+    ]
+  },
+  {
+    "id": 164,
+    "text": "BE",
+    "confidence": 0.941,
+    "left": 543,
+    "top": 99,
+    "width": 28,
+    "height": 18,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:42",
+        "adjustedEnd": "0:05:42.0333333",
+        "start": "0:05:42",
+        "end": "0:05:42.0333333"
+      }
+    ]
+  },
+  {
+    "id": 165,
+    "text": "POLICE",
+    "confidence": 0.998,
+    "left": 313,
+    "top": 526,
+    "width": 70,
+    "height": 23,
+    "angle": 24,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:44",
+        "adjustedEnd": "0:05:44.0333333",
+        "start": "0:05:44",
+        "end": "0:05:44.0333333"
+      }
+    ]
+  },
+  {
+    "id": 166,
+    "text": "TIME",
+    "confidence": 0.993,
+    "left": 735,
+    "top": 379,
+    "width": 53,
+    "height": 23,
+    "angle": 4,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:46",
+        "adjustedEnd": "0:05:46.0333333",
+        "start": "0:05:46",
+        "end": "0:05:46.0333333"
+      },
+      {
+        "adjustedStart": "0:05:52",
+        "adjustedEnd": "0:05:53.0333333",
+        "start": "0:05:52",
+        "end": "0:05:53.0333333"
+      }
+    ]
+  },
+  {
+    "id": 167,
+    "text": "DESTINATION",
+    "confidence": 0.992,
+    "left": 931,
+    "top": 408,
+    "width": 139,
+    "height": 23,
+    "angle": 5,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:46",
+        "adjustedEnd": "0:05:53.0333333",
+        "start": "0:05:46",
+        "end": "0:05:53.0333333"
+      }
+    ]
+  },
+  {
+    "id": 168,
+    "text": "FLIGHT",
+    "confidence": 0.901,
+    "left": 1078,
+    "top": 422,
+    "width": 75,
+    "height": 23,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:46",
+        "adjustedEnd": "0:05:53.0333333",
+        "start": "0:05:46",
+        "end": "0:05:53.0333333"
+      }
+    ]
+  },
+  {
+    "id": 169,
+    "text": "GATE REMARKS",
+    "confidence": 0.982,
+    "left": 1194,
+    "top": 432,
+    "width": 145,
+    "height": 23,
+    "angle": 4,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:46",
+        "adjustedEnd": "0:05:53.0333333",
+        "start": "0:05:46",
+        "end": "0:05:53.0333333"
+      }
+    ]
+  },
+  {
+    "id": 170,
+    "text": "CL 903 31",
+    "confidence": 0.997,
+    "left": 1087,
+    "top": 476,
+    "width": 149,
+    "height": 25,
+    "angle": 5,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:46",
+        "adjustedEnd": "0:05:46.0333333",
+        "start": "0:05:46",
+        "end": "0:05:46.0333333"
+      }
+    ]
+  },
+  {
+    "id": 171,
+    "text": "CANCELLED",
+    "confidence": 0.995,
+    "left": 1252,
+    "top": 489,
+    "width": 105,
+    "height": 23,
+    "angle": 4,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:46",
+        "adjustedEnd": "0:05:53.0333333",
+        "start": "0:05:46",
+        "end": "0:05:53.0333333"
+      }
+    ]
+  },
+  {
+    "id": 172,
+    "text": "UQ5723",
+    "confidence": 0.97,
+    "left": 1086,
+    "top": 510,
+    "width": 83,
+    "height": 24,
+    "angle": 4,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:46",
+        "adjustedEnd": "0:05:47.0333333",
+        "start": "0:05:46",
+        "end": "0:05:47.0333333"
+      }
+    ]
+  },
+  {
+    "id": 173,
+    "text": "IC5984",
+    "confidence": 0.969,
+    "left": 1086,
+    "top": 545,
+    "width": 85,
+    "height": 24,
+    "angle": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:46",
+        "adjustedEnd": "0:05:47.0333333",
+        "start": "0:05:46",
+        "end": "0:05:47.0333333"
+      }
+    ]
+  },
+  {
+    "id": 174,
+    "text": "AM 608",
+    "confidence": 0.921,
+    "left": 1087,
+    "top": 578,
+    "width": 73,
+    "height": 22,
+    "angle": 4,
+    "language": "de-DE",
+    "instances": [
+      {
+        "adjustedStart": "0:05:46",
+        "adjustedEnd": "0:05:50.0333333",
+        "start": "0:05:46",
+        "end": "0:05:50.0333333"
+      }
+    ]
+  },
+  {
+    "id": 175,
+    "text": "DELAYED",
+    "confidence": 0.969,
+    "left": 1253,
+    "top": 588,
+    "width": 80,
+    "height": 22,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:46",
+        "adjustedEnd": "0:05:53.0333333",
+        "start": "0:05:46",
+        "end": "0:05:53.0333333"
+      }
+    ]
+  },
+  {
+    "id": 176,
+    "text": "IC5471",
+    "confidence": 0.981,
+    "left": 1083,
+    "top": 610,
+    "width": 77,
+    "height": 24,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:46",
+        "adjustedEnd": "0:05:50.0333333",
+        "start": "0:05:46",
+        "end": "0:05:50.0333333"
+      }
+    ]
+  },
+  {
+    "id": 177,
+    "text": "EK3941",
+    "confidence": 0.982,
+    "left": 1086,
+    "top": 645,
+    "width": 75,
+    "height": 23,
+    "angle": 3,
+    "language": "nl-NL",
+    "instances": [
+      {
+        "adjustedStart": "0:05:46",
+        "adjustedEnd": "0:05:53.0333333",
+        "start": "0:05:46",
+        "end": "0:05:53.0333333"
+      }
+    ]
+  },
+  {
+    "id": 178,
+    "text": "AM5021",
+    "confidence": 0.996,
+    "left": 1085,
+    "top": 679,
+    "width": 72,
+    "height": 24,
+    "angle": 2,
+    "language": "de-DE",
+    "instances": [
+      {
+        "adjustedStart": "0:05:46",
+        "adjustedEnd": "0:05:53.0333333",
+        "start": "0:05:46",
+        "end": "0:05:53.0333333"
+      }
+    ]
+  },
+  {
+    "id": 179,
+    "text": "ON 997",
+    "confidence": 0.967,
+    "left": 1085,
+    "top": 713,
+    "width": 74,
+    "height": 23,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:46",
+        "adjustedEnd": "0:05:49.0333333",
+        "start": "0:05:46",
+        "end": "0:05:49.0333333"
+      }
+    ]
+  },
+  {
+    "id": 180,
+    "text": "CANCEL",
+    "confidence": 0.998,
+    "left": 1252,
+    "top": 717,
+    "width": 69,
+    "height": 25,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:46",
+        "adjustedEnd": "0:05:46.0333333",
+        "start": "0:05:46",
+        "end": "0:05:46.0333333"
+      }
+    ]
+  },
+  {
+    "id": 181,
+    "text": "CL 903",
+    "confidence": 0.9975,
+    "left": 1065,
+    "top": 476,
+    "width": 89,
+    "height": 24,
+    "angle": 5,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:47",
+        "adjustedEnd": "0:05:47.0333333",
+        "start": "0:05:47",
+        "end": "0:05:47.0333333"
+      }
+    ]
+  },
+  {
+    "id": 182,
+    "text": "23 DELAYED",
+    "confidence": 0.9705,
+    "left": 1105,
+    "top": 740,
+    "width": 146,
+    "height": 25,
+    "angle": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:51",
+        "adjustedEnd": "0:05:52.0333333",
+        "start": "0:05:51",
+        "end": "0:05:52.0333333"
+      }
+    ]
+  },
+  {
+    "id": 183,
+    "text": "C5471",
+    "confidence": 0.992,
+    "left": 988,
+    "top": 594,
+    "width": 60,
+    "height": 23,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:52",
+        "adjustedEnd": "0:05:53.0333333",
+        "start": "0:05:52",
+        "end": "0:05:53.0333333"
+      }
+    ]
+  },
+  {
+    "id": 184,
+    "text": "CANF",
+    "confidence": 0.924,
+    "left": 1128,
+    "top": 766,
+    "width": 56,
+    "height": 23,
+    "angle": -1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:52",
+        "adjustedEnd": "0:05:52.0333333",
+        "start": "0:05:52",
+        "end": "0:05:52.0333333"
+      }
+    ]
+  },
+  {
+    "id": 185,
+    "text": "Basketball",
+    "confidence": 0.995,
+    "left": 1209,
+    "top": 224,
+    "width": 97,
+    "height": 22,
+    "angle": 4,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:14",
+        "adjustedEnd": "0:06:14.0333333",
+        "start": "0:06:14",
+        "end": "0:06:14.0333333"
+      }
+    ]
+  },
+  {
+    "id": 186,
+    "text": "Spoons",
+    "confidence": 0.998,
+    "left": 467,
+    "top": 235,
+    "width": 72,
+    "height": 28,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:14",
+        "adjustedEnd": "0:06:14.0333333",
+        "start": "0:06:14",
+        "end": "0:06:14.0333333"
+      }
+    ]
+  },
+  {
+    "id": 187,
+    "text": "ABOLISH",
+    "confidence": 0.998,
+    "left": 332,
+    "top": 263,
+    "width": 1117,
+    "height": 258,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:14",
+        "adjustedEnd": "0:06:14.0333333",
+        "start": "0:06:14",
+        "end": "0:06:14.0333333"
+      },
+      {
+        "adjustedStart": "0:06:16",
+        "adjustedEnd": "0:06:18.0333333",
+        "start": "0:06:16",
+        "end": "0:06:18.0333333"
+      },
+      {
+        "adjustedStart": "0:06:20",
+        "adjustedEnd": "0:06:20.0333333",
+        "start": "0:06:20",
+        "end": "0:06:20.0333333"
+      },
+      {
+        "adjustedStart": "0:06:50",
+        "adjustedEnd": "0:06:54.0333333",
+        "start": "0:06:50",
+        "end": "0:06:54.0333333"
+      }
+    ]
+  },
+  {
+    "id": 188,
+    "text": "Landlords",
+    "confidence": 0.993,
+    "left": 1601,
+    "top": 429,
+    "width": 96,
+    "height": 25,
+    "angle": 14,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:14",
+        "adjustedEnd": "0:06:14.0333333",
+        "start": "0:06:14",
+        "end": "0:06:14.0333333"
+      }
+    ]
+  },
+  {
+    "id": 189,
+    "text": "Marriage",
+    "confidence": 0.998,
+    "left": 187,
+    "top": 482,
+    "width": 87,
+    "height": 26,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:14",
+        "adjustedEnd": "0:06:14.0333333",
+        "start": "0:06:14",
+        "end": "0:06:14.0333333"
+      }
+    ]
+  },
+  {
+    "id": 190,
+    "text": "EVERYTHING!",
+    "confidence": 0.995,
+    "left": 263,
+    "top": 498,
+    "width": 1380,
+    "height": 259,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:14",
+        "adjustedEnd": "0:06:14.0333333",
+        "start": "0:06:14",
+        "end": "0:06:14.0333333"
+      },
+      {
+        "adjustedStart": "0:06:50",
+        "adjustedEnd": "0:06:54.0333333",
+        "start": "0:06:50",
+        "end": "0:06:54.0333333"
+      }
+    ]
+  },
+  {
+    "id": 191,
+    "text": "ORIGINAL",
+    "confidence": 0.983,
+    "left": 1003,
+    "top": 798,
+    "width": 253,
+    "height": 29,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:14",
+        "adjustedEnd": "0:06:14.0333333",
+        "start": "0:06:14",
+        "end": "0:06:14.0333333"
+      }
+    ]
+  },
+  {
+    "id": 192,
+    "text": "Comments",
+    "confidence": 0.953,
+    "left": 633,
+    "top": 992,
+    "width": 104,
+    "height": 25,
+    "angle": 5,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:14",
+        "adjustedEnd": "0:06:14.0333333",
+        "start": "0:06:14",
+        "end": "0:06:14.0333333"
+      }
+    ]
+  },
+  {
+    "id": 193,
+    "text": "DON'T",
+    "confidence": 0.998,
+    "left": 378,
+    "top": 38,
+    "width": 67,
+    "height": 20,
+    "angle": 15,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:15",
+        "adjustedEnd": "0:06:19.0333333",
+        "start": "0:06:15",
+        "end": "0:06:19.0333333"
+      },
+      {
+        "adjustedStart": "0:06:21",
+        "adjustedEnd": "0:06:22.0333333",
+        "start": "0:06:21",
+        "end": "0:06:22.0333333"
+      }
+    ]
+  },
+  {
+    "id": 194,
+    "text": "SWALLOW",
+    "confidence": 0.998,
+    "left": 372,
+    "top": 88,
+    "width": 101,
+    "height": 19,
+    "angle": 16,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:15",
+        "adjustedEnd": "0:06:17.0333333",
+        "start": "0:06:15",
+        "end": "0:06:17.0333333"
+      },
+      {
+        "adjustedStart": "0:06:19",
+        "adjustedEnd": "0:06:19.0333333",
+        "start": "0:06:19",
+        "end": "0:06:19.0333333"
+      },
+      {
+        "adjustedStart": "0:06:21",
+        "adjustedEnd": "0:06:22.0333333",
+        "start": "0:06:21",
+        "end": "0:06:22.0333333"
+      }
+    ]
+  },
+  {
+    "id": 195,
+    "text": "HEIR LIES",
+    "confidence": 0.994,
+    "left": 360,
+    "top": 107,
+    "width": 107,
+    "height": 21,
+    "angle": 16,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:15",
+        "adjustedEnd": "0:06:17.0333333",
+        "start": "0:06:15",
+        "end": "0:06:17.0333333"
+      }
+    ]
+  },
+  {
+    "id": 196,
+    "text": "BIC",
+    "confidence": 0.941,
+    "left": 1391,
+    "top": 148,
+    "width": 84,
+    "height": 37,
+    "angle": -3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:15",
+        "adjustedEnd": "0:06:15.0333333",
+        "start": "0:06:15",
+        "end": "0:06:15.0333333"
+      },
+      {
+        "adjustedStart": "0:06:17",
+        "adjustedEnd": "0:06:18.0333333",
+        "start": "0:06:17",
+        "end": "0:06:18.0333333"
+      }
+    ]
+  },
+  {
+    "id": 197,
+    "text": "ALLOW",
+    "confidence": 0.998,
+    "left": 0,
+    "top": 162,
+    "width": 75,
+    "height": 20,
+    "angle": 5,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:15",
+        "adjustedEnd": "0:06:18.0333333",
+        "start": "0:06:15",
+        "end": "0:06:18.0333333"
+      }
+    ]
+  },
+  {
+    "id": 198,
+    "text": "SWAL",
+    "confidence": 0.926,
+    "left": 1402,
+    "top": 299,
+    "width": 49,
+    "height": 15,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:15",
+        "adjustedEnd": "0:06:16.0333333",
+        "start": "0:06:15",
+        "end": "0:06:16.0333333"
+      },
+      {
+        "adjustedStart": "0:06:27",
+        "adjustedEnd": "0:06:27.0333333",
+        "start": "0:06:27",
+        "end": "0:06:27.0333333"
+      }
+    ]
+  },
+  {
+    "id": 199,
+    "text": "THEIR",
+    "confidence": 0.998,
+    "left": 1392,
+    "top": 313,
+    "width": 51,
+    "height": 16,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:15",
+        "adjustedEnd": "0:06:16.0333333",
+        "start": "0:06:15",
+        "end": "0:06:16.0333333"
+      },
+      {
+        "adjustedStart": "0:06:18",
+        "adjustedEnd": "0:06:18.0333333",
+        "start": "0:06:18",
+        "end": "0:06:18.0333333"
+      }
+    ]
+  },
+  {
+    "id": 200,
+    "text": "TIES WITH",
+    "confidence": 0.986,
+    "left": 6,
+    "top": 345,
+    "width": 134,
+    "height": 43,
+    "angle": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:15",
+        "adjustedEnd": "0:06:17.0333333",
+        "start": "0:06:15",
+        "end": "0:06:17.0333333"
+      },
+      {
+        "adjustedStart": "0:06:20",
+        "adjustedEnd": "0:06:20.0333333",
+        "start": "0:06:20",
+        "end": "0:06:20.0333333"
+      }
+    ]
+  },
+  {
+    "id": 201,
+    "text": "TREE",
+    "confidence": 0.963,
+    "left": 1664,
+    "top": 789,
+    "width": 90,
+    "height": 62,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:15",
+        "adjustedEnd": "0:06:15.0333333",
+        "start": "0:06:15",
+        "end": "0:06:15.0333333"
+      }
+    ]
+  },
+  {
+    "id": 202,
+    "text": "CHILDREN",
+    "confidence": 0.998,
+    "left": 372,
+    "top": 457,
+    "width": 511,
+    "height": 92,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:16",
+        "adjustedEnd": "0:06:17.0333333",
+        "start": "0:06:16",
+        "end": "0:06:17.0333333"
+      }
+    ]
+  },
+  {
+    "id": 203,
+    "text": "DOING PLAYS",
+    "confidence": 0.995,
+    "left": 294,
+    "top": 574,
+    "width": 668,
+    "height": 105,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:17",
+        "adjustedEnd": "0:06:17.0333333",
+        "start": "0:06:17",
+        "end": "0:06:17.0333333"
+      }
+    ]
+  },
+  {
+    "id": 204,
+    "text": "DEA",
+    "confidence": 0.993,
+    "left": 1416,
+    "top": 0,
+    "width": 77,
+    "height": 21,
+    "angle": 0,
+    "language": "it-IT",
+    "instances": [
+      {
+        "adjustedStart": "0:06:18",
+        "adjustedEnd": "0:06:18.0333333",
+        "start": "0:06:18",
+        "end": "0:06:18.0333333"
+      }
+    ]
+  },
+  {
+    "id": 205,
+    "text": "DON",
+    "confidence": 0.99,
+    "left": 1456,
+    "top": 165,
+    "width": 40,
+    "height": 13,
+    "angle": -1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:18",
+        "adjustedEnd": "0:06:18.0333333",
+        "start": "0:06:18",
+        "end": "0:06:18.0333333"
+      }
+    ]
+  },
+  {
+    "id": 206,
+    "text": "UT TIES WITH",
+    "confidence": 0.9263,
+    "left": 0,
+    "top": 225,
+    "width": 158,
+    "height": 39,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:18",
+        "adjustedEnd": "0:06:18.0333333",
+        "start": "0:06:18",
+        "end": "0:06:18.0333333"
+      }
+    ]
+  },
+  {
+    "id": 207,
+    "text": "PODCASTING",
+    "confidence": 0.996,
+    "left": 233,
+    "top": 324,
+    "width": 514,
+    "height": 109,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:18",
+        "adjustedEnd": "0:06:18.0333333",
+        "start": "0:06:18",
+        "end": "0:06:18.0333333"
+      }
+    ]
+  },
+  {
+    "id": 208,
+    "text": "THEIR LIES",
+    "confidence": 0.9965,
+    "left": 1405,
+    "top": 288,
+    "width": 96,
+    "height": 16,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:19",
+        "adjustedEnd": "0:06:22.0333333",
+        "start": "0:06:19",
+        "end": "0:06:22.0333333"
+      }
+    ]
+  },
+  {
+    "id": 209,
+    "text": "BIG",
+    "confidence": 0.963,
+    "left": 1404,
+    "top": 117,
+    "width": 95,
+    "height": 42,
+    "angle": -2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:19",
+        "adjustedEnd": "0:06:22.0333333",
+        "start": "0:06:19",
+        "end": "0:06:22.0333333"
+      }
+    ]
+  },
+  {
+    "id": 210,
+    "text": "SPOON",
+    "confidence": 0.941,
+    "left": 1404,
+    "top": 157,
+    "width": 92,
+    "height": 26,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:19",
+        "adjustedEnd": "0:06:22.0333333",
+        "start": "0:06:19",
+        "end": "0:06:22.0333333"
+      }
+    ]
+  },
+  {
+    "id": 211,
+    "text": "S WITH",
+    "confidence": 0.99,
+    "left": 0,
+    "top": 320,
+    "width": 88,
+    "height": 40,
+    "angle": 6,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:19",
+        "adjustedEnd": "0:06:19.0333333",
+        "start": "0:06:19",
+        "end": "0:06:19.0333333"
+      }
+    ]
+  },
+  {
+    "id": 212,
+    "text": "ABOLISH THE",
+    "confidence": 0.9975,
+    "left": 208,
+    "top": 404,
+    "width": 774,
+    "height": 73,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:19",
+        "adjustedEnd": "0:06:19.0333333",
+        "start": "0:06:19",
+        "end": "0:06:19.0333333"
+      }
+    ]
+  },
+  {
+    "id": 213,
+    "text": "NUMBER FIVE",
+    "confidence": 0.997,
+    "left": 200,
+    "top": 507,
+    "width": 797,
+    "height": 74,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:19",
+        "adjustedEnd": "0:06:19.0333333",
+        "start": "0:06:19",
+        "end": "0:06:19.0333333"
+      }
+    ]
+  },
+  {
+    "id": 214,
+    "text": "MUSICAL",
+    "confidence": 0.998,
+    "left": 337,
+    "top": 789,
+    "width": 109,
+    "height": 28,
+    "angle": 20,
+    "language": "es-ES",
+    "instances": [
+      {
+        "adjustedStart": "0:06:19",
+        "adjustedEnd": "0:06:22.0333333",
+        "start": "0:06:19",
+        "end": "0:06:22.0333333"
+      }
+    ]
+  },
+  {
+    "id": 215,
+    "text": "CLOSING",
+    "confidence": 0.997,
+    "left": 343,
+    "top": 825,
+    "width": 74,
+    "height": 19,
+    "angle": 20,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:19",
+        "adjustedEnd": "0:06:22.0333333",
+        "start": "0:06:19",
+        "end": "0:06:22.0333333"
+      }
+    ]
+  },
+  {
+    "id": 216,
+    "text": "ETS",
+    "confidence": 0.995,
+    "left": 1701,
+    "top": 832,
+    "width": 74,
+    "height": 65,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:19",
+        "adjustedEnd": "0:06:19.0333333",
+        "start": "0:06:19",
+        "end": "0:06:19.0333333"
+      }
+    ]
+  },
+  {
+    "id": 217,
+    "text": "UMBERS",
+    "confidence": 0.998,
+    "left": 336,
+    "top": 847,
+    "width": 99,
+    "height": 26,
+    "angle": 21,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:19",
+        "adjustedEnd": "0:06:22.0333333",
+        "start": "0:06:19",
+        "end": "0:06:22.0333333"
+      }
+    ]
+  },
+  {
+    "id": 218,
+    "text": "BROCCOLI",
+    "confidence": 0.986,
+    "left": 1779,
+    "top": 850,
+    "width": 135,
+    "height": 38,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:19",
+        "adjustedEnd": "0:06:20.0333333",
+        "start": "0:06:19",
+        "end": "0:06:20.0333333"
+      },
+      {
+        "adjustedStart": "0:06:22",
+        "adjustedEnd": "0:06:22.0333333",
+        "start": "0:06:22",
+        "end": "0:06:22.0333333"
+      }
+    ]
+  },
+  {
+    "id": 219,
+    "text": "ON",
+    "confidence": 0.974,
+    "left": 0,
+    "top": 10,
+    "width": 51,
+    "height": 37,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:20",
+        "adjustedEnd": "0:06:20.0333333",
+        "start": "0:06:20",
+        "end": "0:06:20.0333333"
+      }
+    ]
+  },
+  {
+    "id": 220,
+    "text": "LOW",
+    "confidence": 0.93,
+    "left": 2,
+    "top": 189,
+    "width": 40,
+    "height": 22,
+    "angle": 6,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:20",
+        "adjustedEnd": "0:06:20.0333333",
+        "start": "0:06:20",
+        "end": "0:06:20.0333333"
+      }
+    ]
+  },
+  {
+    "id": 221,
+    "text": "MOVIE",
+    "confidence": 0.983,
+    "left": 217,
+    "top": 343,
+    "width": 417,
+    "height": 146,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:20",
+        "adjustedEnd": "0:06:20.0333333",
+        "start": "0:06:20",
+        "end": "0:06:20.0333333"
+      }
+    ]
+  },
+  {
+    "id": 222,
+    "text": "EVE",
+    "confidence": 0.993,
+    "left": 1592,
+    "top": 205,
+    "width": 327,
+    "height": 227,
+    "angle": -5,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:20",
+        "adjustedEnd": "0:06:20.0333333",
+        "start": "0:06:20",
+        "end": "0:06:20.0333333"
+      }
+    ]
+  },
+  {
+    "id": 223,
+    "text": "TRAILERS",
+    "confidence": 0.997,
+    "left": 206,
+    "top": 509,
+    "width": 642,
+    "height": 153,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:20",
+        "adjustedEnd": "0:06:20.0333333",
+        "start": "0:06:20",
+        "end": "0:06:20.0333333"
+      }
+    ]
+  },
+  {
+    "id": 224,
+    "text": "THE",
+    "confidence": 0.997,
+    "left": 128,
+    "top": 63,
+    "width": 228,
+    "height": 116,
+    "angle": -13,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:21",
+        "adjustedEnd": "0:06:21.0333333",
+        "start": "0:06:21",
+        "end": "0:06:21.0333333"
+      },
+      {
+        "adjustedStart": "0:06:24",
+        "adjustedEnd": "0:06:24.0333333",
+        "start": "0:06:24",
+        "end": "0:06:24.0333333"
+      },
+      {
+        "adjustedStart": "0:06:48",
+        "adjustedEnd": "0:06:49.0333333",
+        "start": "0:06:48",
+        "end": "0:06:49.0333333"
+      }
+    ]
+  },
+  {
+    "id": 225,
+    "text": "ABOLISH THOSE RABBITS THAT",
+    "confidence": 0.9965,
+    "left": 194,
+    "top": 277,
+    "width": 789,
+    "height": 44,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:21",
+        "adjustedEnd": "0:06:22.0333333",
+        "start": "0:06:21",
+        "end": "0:06:22.0333333"
+      }
+    ]
+  },
+  {
+    "id": 226,
+    "text": "WITH",
+    "confidence": 0.995,
+    "left": 7,
+    "top": 340,
+    "width": 72,
+    "height": 39,
+    "angle": 4,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:21",
+        "adjustedEnd": "0:06:22.0333333",
+        "start": "0:06:21",
+        "end": "0:06:22.0333333"
+      }
+    ]
+  },
+  {
+    "id": 227,
+    "text": "ARE WAY TOO BIG SO THEY'RE",
+    "confidence": 0.9965,
+    "left": 198,
+    "top": 343,
+    "width": 782,
+    "height": 46,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:21",
+        "adjustedEnd": "0:06:22.0333333",
+        "start": "0:06:21",
+        "end": "0:06:22.0333333"
+      }
+    ]
+  },
+  {
+    "id": 228,
+    "text": "LIKE THE SIZE OF DOGS",
+    "confidence": 0.996,
+    "left": 295,
+    "top": 410,
+    "width": 588,
+    "height": 44,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:21",
+        "adjustedEnd": "0:06:22.0333333",
+        "start": "0:06:21",
+        "end": "0:06:22.0333333"
+      }
+    ]
+  },
+  {
+    "id": 229,
+    "text": "RACHEL COSTER",
+    "confidence": 0.998,
+    "left": 265,
+    "top": 751,
+    "width": 174,
+    "height": 18,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:23",
+        "adjustedEnd": "0:06:23.0333333",
+        "start": "0:06:23",
+        "end": "0:06:23.0333333"
+      }
+    ]
+  },
+  {
+    "id": 230,
+    "text": "CHANDLE",
+    "confidence": 0.993,
+    "left": 483,
+    "top": 281,
+    "width": 188,
+    "height": 64,
+    "angle": -6,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:25",
+        "adjustedEnd": "0:06:26.0333333",
+        "start": "0:06:25",
+        "end": "0:06:26.0333333"
+      }
+    ]
+  },
+  {
+    "id": 231,
+    "text": "DAN TOOMEY",
+    "confidence": 0.9965,
+    "left": 38,
+    "top": 888,
+    "width": 240,
+    "height": 30,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:25",
+        "adjustedEnd": "0:06:26.0333333",
+        "start": "0:06:25",
+        "end": "0:06:26.0333333"
+      }
+    ]
+  },
+  {
+    "id": 232,
+    "text": "GIANMARCO SORESI",
+    "confidence": 0.987,
+    "left": 714,
+    "top": 887,
+    "width": 329,
+    "height": 28,
+    "angle": -1,
+    "language": "it-IT",
+    "instances": [
+      {
+        "adjustedStart": "0:06:25",
+        "adjustedEnd": "0:06:26.0333333",
+        "start": "0:06:25",
+        "end": "0:06:26.0333333"
+      }
+    ]
+  },
+  {
+    "id": 233,
+    "text": "ANDY VEGA",
+    "confidence": 0.995,
+    "left": 1630,
+    "top": 888,
+    "width": 206,
+    "height": 27,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:25",
+        "adjustedEnd": "0:06:26.0333333",
+        "start": "0:06:25",
+        "end": "0:06:26.0333333"
+      }
+    ]
+  },
+  {
+    "id": 234,
+    "text": "hich is 7x",
+    "confidence": 0.946,
+    "left": 3,
+    "top": 513,
+    "width": 312,
+    "height": 59,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:27",
+        "adjustedEnd": "0:06:27.0333333",
+        "start": "0:06:27",
+        "end": "0:06:27.0333333"
+      }
+    ]
+  },
+  {
+    "id": 235,
+    "text": "ost",
+    "confidence": 0.996,
+    "left": 5,
+    "top": 602,
+    "width": 104,
+    "height": 45,
+    "angle": 0,
+    "language": "de-DE",
+    "instances": [
+      {
+        "adjustedStart": "0:06:27",
+        "adjustedEnd": "0:06:27.0333333",
+        "start": "0:06:27",
+        "end": "0:06:27.0333333"
+      }
+    ]
+  },
+  {
+    "id": 236,
+    "text": "action in",
+    "confidence": 0.9975,
+    "left": 11,
+    "top": 670,
+    "width": 272,
+    "height": 59,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:27",
+        "adjustedEnd": "0:06:27.0333333",
+        "start": "0:06:27",
+        "end": "0:06:27.0333333"
+      }
+    ]
+  },
+  {
+    "id": 237,
+    "text": "KEEP",
+    "confidence": 0.939,
+    "left": 1638,
+    "top": 915,
+    "width": 58,
+    "height": 31,
+    "angle": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:27",
+        "adjustedEnd": "0:06:27.0333333",
+        "start": "0:06:27",
+        "end": "0:06:27.0333333"
+      }
+    ]
+  },
+  {
+    "id": 238,
+    "text": "BAD GUY",
+    "confidence": 0.982,
+    "left": 1591,
+    "top": 959,
+    "width": 128,
+    "height": 50,
+    "angle": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:27",
+        "adjustedEnd": "0:06:27.0333333",
+        "start": "0:06:27",
+        "end": "0:06:27.0333333"
+      }
+    ]
+  },
+  {
+    "id": 239,
+    "text": "LOS",
+    "confidence": 0.969,
+    "left": 1086,
+    "top": 35,
+    "width": 109,
+    "height": 52,
+    "angle": -15,
+    "language": "es-ES",
+    "instances": [
+      {
+        "adjustedStart": "0:06:28",
+        "adjustedEnd": "0:06:28.0333333",
+        "start": "0:06:28",
+        "end": "0:06:28.0333333"
+      }
+    ]
+  },
+  {
+    "id": 240,
+    "text": "UR",
+    "confidence": 0.978,
+    "left": 994,
+    "top": 312,
+    "width": 32,
+    "height": 25,
+    "angle": -2,
+    "language": "pl-PL",
+    "instances": [
+      {
+        "adjustedStart": "0:06:28",
+        "adjustedEnd": "0:06:28.0333333",
+        "start": "0:06:28",
+        "end": "0:06:28.0333333"
+      }
+    ]
+  },
+  {
+    "id": 241,
+    "text": "FAHRENHEIT 420",
+    "confidence": 0.9775,
+    "left": 830,
+    "top": 348,
+    "width": 289,
+    "height": 36,
+    "angle": -89,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:28",
+        "adjustedEnd": "0:06:28.0333333",
+        "start": "0:06:28",
+        "end": "0:06:28.0333333"
+      }
+    ]
+  },
+  {
+    "id": 242,
+    "text": "JOSH NASSER",
+    "confidence": 0.9575,
+    "left": 1061,
+    "top": 863,
+    "width": 204,
+    "height": 26,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:28",
+        "adjustedEnd": "0:06:28.0333333",
+        "start": "0:06:28",
+        "end": "0:06:28.0333333"
+      }
+    ]
+  },
+  {
+    "id": 243,
+    "text": "SIC",
+    "confidence": 0.93,
+    "left": 1726,
+    "top": 219,
+    "width": 113,
+    "height": 77,
+    "angle": -15,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:29",
+        "adjustedEnd": "0:06:29.0333333",
+        "start": "0:06:29",
+        "end": "0:06:29.0333333"
+      }
+    ]
+  },
+  {
+    "id": 244,
+    "text": "SCAV",
+    "confidence": 0.974,
+    "left": 342,
+    "top": 325,
+    "width": 1273,
+    "height": 398,
+    "angle": -1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:31",
+        "adjustedEnd": "0:06:31.0333333",
+        "start": "0:06:31",
+        "end": "0:06:31.0333333"
+      }
+    ]
+  },
+  {
+    "id": 245,
+    "text": "PALLAS",
+    "confidence": 0.985,
+    "left": 1021,
+    "top": 645,
+    "width": 83,
+    "height": 24,
+    "angle": -67,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:06:40",
+        "adjustedEnd": "0:06:41.0333333",
+        "start": "0:06:40",
+        "end": "0:06:41.0333333"
+      }
+    ]
+  },
+  {
+    "id": 246,
+    "text": "JET",
+    "confidence": 0.995,
+    "left": 1468,
+    "top": 889,
+    "width": 110,
+    "height": 67,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:44",
+        "adjustedEnd": "0:06:47.0333333",
+        "start": "0:06:44",
+        "end": "0:06:47.0333333"
+      }
+    ]
+  },
+  {
+    "id": 247,
+    "text": "LAG",
+    "confidence": 0.991,
+    "left": 1694,
+    "top": 893,
+    "width": 146,
+    "height": 63,
+    "angle": -2,
+    "language": "de-DE",
+    "instances": [
+      {
+        "adjustedStart": "0:06:44",
+        "adjustedEnd": "0:06:47.0333333",
+        "start": "0:06:44",
+        "end": "0:06:47.0333333"
+      }
+    ]
+  },
+  {
+    "id": 248,
+    "text": "THE GAME",
+    "confidence": 0.9965,
+    "left": 1728,
+    "top": 966,
+    "width": 132,
+    "height": 30,
+    "angle": -8,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:44",
+        "adjustedEnd": "0:06:47.0333333",
+        "start": "0:06:44",
+        "end": "0:06:47.0333333"
+      },
+      {
+        "adjustedStart": "0:07:03",
+        "adjustedEnd": "0:07:05.0333333",
+        "start": "0:07:03",
+        "end": "0:07:05.0333333"
+      }
+    ]
+  },
+  {
+    "id": 249,
+    "text": "NEBULA",
+    "confidence": 0.998,
+    "left": 1499,
+    "top": 1017,
+    "width": 130,
+    "height": 19,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:46",
+        "adjustedEnd": "0:06:46.0333333",
+        "start": "0:06:46",
+        "end": "0:06:46.0333333"
+      },
+      {
+        "adjustedStart": "0:06:48",
+        "adjustedEnd": "0:06:48.0333333",
+        "start": "0:06:48",
+        "end": "0:06:48.0333333"
+      }
+    ]
+  },
+  {
+    "id": 250,
+    "text": "MATT KROL",
+    "confidence": 0.993,
+    "left": 327,
+    "top": 427,
+    "width": 100,
+    "height": 28,
+    "angle": 5,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:48",
+        "adjustedEnd": "0:06:48.0333333",
+        "start": "0:06:48",
+        "end": "0:06:48.0333333"
+      }
+    ]
+  },
+  {
+    "id": 251,
+    "text": "GETAWAY",
+    "confidence": 0.939,
+    "left": 907,
+    "top": 404,
+    "width": 126,
+    "height": 41,
+    "angle": -14,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:48",
+        "adjustedEnd": "0:06:49.0333333",
+        "start": "0:06:48",
+        "end": "0:06:49.0333333"
+      }
+    ]
+  },
+  {
+    "id": 252,
+    "text": "SEASON 2",
+    "confidence": 0.9935,
+    "left": 491,
+    "top": 84,
+    "width": 224,
+    "height": 54,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:50",
+        "adjustedEnd": "0:06:54.0333333",
+        "start": "0:06:50",
+        "end": "0:06:54.0333333"
+      }
+    ]
+  },
+  {
+    "id": 253,
+    "text": "Emily Wilson, Jacklyn Uweh, Ashton Womack, and Martin",
+    "confidence": 0.9978,
+    "left": 381,
+    "top": 493,
+    "width": 485,
+    "height": 21,
+    "angle": -1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:50",
+        "adjustedEnd": "0:06:54.0333333",
+        "start": "0:06:50",
+        "end": "0:06:54.0333333"
+      }
+    ]
+  },
+  {
+    "id": 254,
+    "text": "Featured",
+    "confidence": 0.998,
+    "left": 410,
+    "top": 723,
+    "width": 69,
+    "height": 16,
+    "angle": -3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:50",
+        "adjustedEnd": "0:07:07.0333333",
+        "start": "0:06:50",
+        "end": "0:07:07.0333333"
+      }
+    ]
+  },
+  {
+    "id": 255,
+    "text": "Only on Nebula",
+    "confidence": 0.9943,
+    "left": 515,
+    "top": 724,
+    "width": 114,
+    "height": 17,
+    "angle": -3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:50",
+        "adjustedEnd": "0:07:07.0333333",
+        "start": "0:06:50",
+        "end": "0:07:07.0333333"
+      }
+    ]
+  },
+  {
+    "id": 256,
+    "text": "Black History Month",
+    "confidence": 0.998,
+    "left": 683,
+    "top": 712,
+    "width": 141,
+    "height": 17,
+    "angle": -3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:50",
+        "adjustedEnd": "0:07:07.0333333",
+        "start": "0:06:50",
+        "end": "0:07:07.0333333"
+      }
+    ]
+  },
+  {
+    "id": 257,
+    "text": "Dunk",
+    "confidence": 0.996,
+    "left": 547,
+    "top": 808,
+    "width": 150,
+    "height": 43,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:50",
+        "adjustedEnd": "0:06:54.0333333",
+        "start": "0:06:50",
+        "end": "0:06:54.0333333"
+      },
+      {
+        "adjustedStart": "0:07:02",
+        "adjustedEnd": "0:07:07.0333333",
+        "start": "0:07:02",
+        "end": "0:07:07.0333333"
+      }
+    ]
+  },
+  {
+    "id": 258,
+    "text": "Time",
+    "confidence": 0.996,
+    "left": 557,
+    "top": 854,
+    "width": 133,
+    "height": 42,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:50",
+        "adjustedEnd": "0:06:54.0333333",
+        "start": "0:06:50",
+        "end": "0:06:54.0333333"
+      },
+      {
+        "adjustedStart": "0:07:02",
+        "adjustedEnd": "0:07:07.0333333",
+        "start": "0:07:02",
+        "end": "0:07:07.0333333"
+      }
+    ]
+  },
+  {
+    "id": 259,
+    "text": "Home",
+    "confidence": 0.996,
+    "left": 385,
+    "top": 20,
+    "width": 54,
+    "height": 16,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:51",
+        "adjustedEnd": "0:06:54.0333333",
+        "start": "0:06:51",
+        "end": "0:06:54.0333333"
+      },
+      {
+        "adjustedStart": "0:07:02",
+        "adjustedEnd": "0:07:07.0333333",
+        "start": "0:07:02",
+        "end": "0:07:07.0333333"
+      }
+    ]
+  },
+  {
+    "id": 260,
+    "text": "Explore",
+    "confidence": 0.998,
+    "left": 485,
+    "top": 28,
+    "width": 62,
+    "height": 16,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:51",
+        "adjustedEnd": "0:06:54.0333333",
+        "start": "0:06:51",
+        "end": "0:06:54.0333333"
+      },
+      {
+        "adjustedStart": "0:07:02",
+        "adjustedEnd": "0:07:07.0333333",
+        "start": "0:07:02",
+        "end": "0:07:07.0333333"
+      }
+    ]
+  },
+  {
+    "id": 261,
+    "text": "Store",
+    "confidence": 0.998,
+    "left": 594,
+    "top": 35,
+    "width": 45,
+    "height": 15,
+    "angle": 4,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:51",
+        "adjustedEnd": "0:06:54.0333333",
+        "start": "0:06:51",
+        "end": "0:06:54.0333333"
+      },
+      {
+        "adjustedStart": "0:07:02",
+        "adjustedEnd": "0:07:04.0333333",
+        "start": "0:07:02",
+        "end": "0:07:04.0333333"
+      },
+      {
+        "adjustedStart": "0:07:06",
+        "adjustedEnd": "0:07:07.0333333",
+        "start": "0:07:06",
+        "end": "0:07:07.0333333"
+      }
+    ]
+  },
+  {
+    "id": 262,
+    "text": "Herlihy abolish girl books, trailers, white history, and",
+    "confidence": 0.9968,
+    "left": 381,
+    "top": 517,
+    "width": 450,
+    "height": 21,
+    "angle": -1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:51",
+        "adjustedEnd": "0:06:54.0333333",
+        "start": "0:06:51",
+        "end": "0:06:54.0333333"
+      }
+    ]
+  },
+  {
+    "id": 263,
+    "text": "Shawshank stans.",
+    "confidence": 0.9805,
+    "left": 382,
+    "top": 540,
+    "width": 160,
+    "height": 18,
+    "angle": -1,
+    "language": "sv-SE",
+    "instances": [
+      {
+        "adjustedStart": "0:06:51",
+        "adjustedEnd": "0:06:54.0333333",
+        "start": "0:06:51",
+        "end": "0:06:54.0333333"
+      }
+    ]
+  },
+  {
+    "id": 264,
+    "text": "Go to Series",
+    "confidence": 0.998,
+    "left": 407,
+    "top": 601,
+    "width": 92,
+    "height": 15,
+    "angle": -1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:51",
+        "adjustedEnd": "0:06:54.0333333",
+        "start": "0:06:51",
+        "end": "0:06:54.0333333"
+      },
+      {
+        "adjustedStart": "0:07:02",
+        "adjustedEnd": "0:07:07.0333333",
+        "start": "0:07:02",
+        "end": "0:07:07.0333333"
+      }
+    ]
+  },
+  {
+    "id": 265,
+    "text": "News",
+    "confidence": 0.996,
+    "left": 879,
+    "top": 695,
+    "width": 35,
+    "height": 13,
+    "angle": -2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:51",
+        "adjustedEnd": "0:07:07.0333333",
+        "start": "0:06:51",
+        "end": "0:07:07.0333333"
+      }
+    ]
+  },
+  {
+    "id": 266,
+    "text": "Culture",
+    "confidence": 0.998,
+    "left": 961,
+    "top": 689,
+    "width": 46,
+    "height": 12,
+    "angle": -1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:51",
+        "adjustedEnd": "0:07:07.0333333",
+        "start": "0:06:51",
+        "end": "0:07:07.0333333"
+      }
+    ]
+  },
+  {
+    "id": 267,
+    "text": "Science",
+    "confidence": 0.998,
+    "left": 1051,
+    "top": 685,
+    "width": 46,
+    "height": 12,
+    "angle": -1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:51",
+        "adjustedEnd": "0:07:07.0333333",
+        "start": "0:06:51",
+        "end": "0:07:07.0333333"
+      }
+    ]
+  },
+  {
+    "id": 268,
+    "text": "History",
+    "confidence": 0.998,
+    "left": 1138,
+    "top": 678,
+    "width": 46,
+    "height": 13,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:51",
+        "adjustedEnd": "0:07:07.0333333",
+        "start": "0:06:51",
+        "end": "0:07:07.0333333"
+      }
+    ]
+  },
+  {
+    "id": 269,
+    "text": "Fiction",
+    "confidence": 0.998,
+    "left": 1225,
+    "top": 674,
+    "width": 38,
+    "height": 10,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:51",
+        "adjustedEnd": "0:07:02.0333333",
+        "start": "0:06:51",
+        "end": "0:07:02.0333333"
+      },
+      {
+        "adjustedStart": "0:07:05",
+        "adjustedEnd": "0:07:07.0333333",
+        "start": "0:07:05",
+        "end": "0:07:07.0333333"
+      }
+    ]
+  },
+  {
+    "id": 270,
+    "text": "Podcasts",
+    "confidence": 0.99,
+    "left": 1301,
+    "top": 667,
+    "width": 49,
+    "height": 12,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:51",
+        "adjustedEnd": "0:07:07.0333333",
+        "start": "0:06:51",
+        "end": "0:07:07.0333333"
+      }
+    ]
+  },
+  {
+    "id": 271,
+    "text": "Top Videos",
+    "confidence": 0.9975,
+    "left": 387,
+    "top": 787,
+    "width": 123,
+    "height": 24,
+    "angle": -5,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:51",
+        "adjustedEnd": "0:06:54.0333333",
+        "start": "0:06:51",
+        "end": "0:06:54.0333333"
+      }
+    ]
+  },
+  {
+    "id": 272,
+    "text": "Feb. 2026",
+    "confidence": 0.9345,
+    "left": 1264,
+    "top": 764,
+    "width": 88,
+    "height": 18,
+    "angle": -3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:51",
+        "adjustedEnd": "0:06:54.0333333",
+        "start": "0:06:51",
+        "end": "0:06:54.0333333"
+      }
+    ]
+  },
+  {
+    "id": 273,
+    "text": "Feb. 2025",
+    "confidence": 0.9945,
+    "left": 1121,
+    "top": 774,
+    "width": 92,
+    "height": 22,
+    "angle": -4,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:51",
+        "adjustedEnd": "0:06:54.0333333",
+        "start": "0:06:51",
+        "end": "0:06:54.0333333"
+      }
+    ]
+  },
+  {
+    "id": 274,
+    "text": "with Schwift",
+    "confidence": 0.997,
+    "left": 552,
+    "top": 950,
+    "width": 140,
+    "height": 24,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:51",
+        "adjustedEnd": "0:06:54.0333333",
+        "start": "0:06:51",
+        "end": "0:06:54.0333333"
+      },
+      {
+        "adjustedStart": "0:07:02",
+        "adjustedEnd": "0:07:07.0333333",
+        "start": "0:07:02",
+        "end": "0:07:07.0333333"
+      }
+    ]
+  },
+  {
+    "id": 275,
+    "text": "Why Unpopular Leaders Love War",
+    "confidence": 0.9708,
+    "left": 1448,
+    "top": 925,
+    "width": 208,
+    "height": 18,
+    "angle": -7,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:51",
+        "adjustedEnd": "0:06:54.0333333",
+        "start": "0:06:51",
+        "end": "0:06:54.0333333"
+      }
+    ]
+  },
+  {
+    "id": 276,
+    "text": "conservatives in 2025 vs 2026",
+    "confidence": 0.9944,
+    "left": 1159,
+    "top": 962,
+    "width": 209,
+    "height": 17,
+    "angle": -7,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:51",
+        "adjustedEnd": "0:06:54.0333333",
+        "start": "0:06:51",
+        "end": "0:06:54.0333333"
+      }
+    ]
+  },
+  {
+    "id": 277,
+    "text": "Dunk Time #5: In the Name of the",
+    "confidence": 0.9934,
+    "left": 823,
+    "top": 1002,
+    "width": 266,
+    "height": 20,
+    "angle": -7,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:51",
+        "adjustedEnd": "0:06:54.0333333",
+        "start": "0:06:51",
+        "end": "0:06:54.0333333"
+      }
+    ]
+  },
+  {
+    "id": 278,
+    "text": "Man Carrying Thing . Feb 16, 2026",
+    "confidence": 0.9876,
+    "left": 1163,
+    "top": 984,
+    "width": 202,
+    "height": 17,
+    "angle": -7,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:51",
+        "adjustedEnd": "0:06:54.0333333",
+        "start": "0:06:51",
+        "end": "0:06:54.0333333"
+      }
+    ]
+  },
+  {
+    "id": 279,
+    "text": "The Tyler Perry Video",
+    "confidence": 0.9975,
+    "left": 424,
+    "top": 1050,
+    "width": 205,
+    "height": 22,
+    "angle": -6,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:51",
+        "adjustedEnd": "0:06:54.0333333",
+        "start": "0:06:51",
+        "end": "0:06:54.0333333"
+      }
+    ]
+  },
+  {
+    "id": 280,
+    "text": "Mother (extended)",
+    "confidence": 0.9975,
+    "left": 827,
+    "top": 1023,
+    "width": 150,
+    "height": 19,
+    "angle": -7,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:51",
+        "adjustedEnd": "0:06:54.0333333",
+        "start": "0:06:51",
+        "end": "0:06:54.0333333"
+      }
+    ]
+  },
+  {
+    "id": 281,
+    "text": "Feb 14, 2026",
+    "confidence": 0.995,
+    "left": 538,
+    "top": 1062,
+    "width": 98,
+    "height": 17,
+    "angle": -5,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:51",
+        "adjustedEnd": "0:06:53.0333333",
+        "start": "0:06:51",
+        "end": "0:06:53.0333333"
+      }
+    ]
+  },
+  {
+    "id": 282,
+    "text": "Glidus . Feb 15, 2026",
+    "confidence": 0.955,
+    "left": 370,
+    "top": 963,
+    "width": 135,
+    "height": 15,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:51",
+        "adjustedEnd": "0:06:54.0333333",
+        "start": "0:06:51",
+        "end": "0:06:54.0333333"
+      },
+      {
+        "adjustedStart": "0:07:04",
+        "adjustedEnd": "0:07:07.0333333",
+        "start": "0:07:04",
+        "end": "0:07:07.0333333"
+      }
+    ]
+  },
+  {
+    "id": 283,
+    "text": "Classes",
+    "confidence": 0.998,
+    "left": 1285,
+    "top": 407,
+    "width": 45,
+    "height": 10,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:52",
+        "adjustedEnd": "0:07:04.0333333",
+        "start": "0:06:52",
+        "end": "0:07:04.0333333"
+      },
+      {
+        "adjustedStart": "0:07:07",
+        "adjustedEnd": "0:07:07.0333333",
+        "start": "0:07:07",
+        "end": "0:07:07.0333333"
+      }
+    ]
+  },
+  {
+    "id": 284,
+    "text": "nifier . Feb 14, 2026",
+    "confidence": 0.9522,
+    "left": 474,
+    "top": 1062,
+    "width": 163,
+    "height": 17,
+    "angle": -5,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:54",
+        "adjustedEnd": "0:06:54.0333333",
+        "start": "0:06:54",
+        "end": "0:06:54.0333333"
+      }
+    ]
+  },
+  {
+    "id": 285,
+    "text": "Day PASS",
+    "confidence": 0.996,
+    "left": 48,
+    "top": 200,
+    "width": 624,
+    "height": 164,
+    "angle": -3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:55",
+        "adjustedEnd": "0:06:57.0333333",
+        "start": "0:06:55",
+        "end": "0:06:57.0333333"
+      }
+    ]
+  },
+  {
+    "id": 286,
+    "text": "How much can you do with a single day pass before",
+    "confidence": 0.9955,
+    "left": 40,
+    "top": 462,
+    "width": 534,
+    "height": 30,
+    "angle": -2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:55",
+        "adjustedEnd": "0:07:00.0333333",
+        "start": "0:06:55",
+        "end": "0:07:00.0333333"
+      }
+    ]
+  },
+  {
+    "id": 287,
+    "text": "sunset? Jason Slaughter, creator of Not Just Bikes, takes",
+    "confidence": 0.9972,
+    "left": 40,
+    "top": 493,
+    "width": 588,
+    "height": 28,
+    "angle": -2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:55",
+        "adjustedEnd": "0:07:01.0333333",
+        "start": "0:06:55",
+        "end": "0:07:01.0333333"
+      }
+    ]
+  },
+  {
+    "id": 288,
+    "text": "on the challenge.",
+    "confidence": 0.9963,
+    "left": 37,
+    "top": 522,
+    "width": 169,
+    "height": 27,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:55",
+        "adjustedEnd": "0:07:01.0333333",
+        "start": "0:06:55",
+        "end": "0:07:01.0333333"
+      }
+    ]
+  },
+  {
+    "id": 289,
+    "text": "Watch Trailer",
+    "confidence": 0.998,
+    "left": 58,
+    "top": 606,
+    "width": 112,
+    "height": 21,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:55",
+        "adjustedEnd": "0:07:01.0333333",
+        "start": "0:06:55",
+        "end": "0:07:01.0333333"
+      }
+    ]
+  },
+  {
+    "id": 290,
+    "text": "New Releases",
+    "confidence": 0.9965,
+    "left": 15,
+    "top": 851,
+    "width": 170,
+    "height": 29,
+    "angle": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:55",
+        "adjustedEnd": "0:07:01.0333333",
+        "start": "0:06:55",
+        "end": "0:07:01.0333333"
+      }
+    ]
+  },
+  {
+    "id": 291,
+    "text": "Latest videos from creators exploring biology, engineering, natural sciences, urbanism, outer space, and more.",
+    "confidence": 0.9921,
+    "left": 11,
+    "top": 892,
+    "width": 1322,
+    "height": 31,
+    "angle": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:55",
+        "adjustedEnd": "0:07:01.0333333",
+        "start": "0:06:55",
+        "end": "0:07:01.0333333"
+      }
+    ]
+  },
+  {
+    "id": 292,
+    "text": "INTERSTELLAR",
+    "confidence": 0.993,
+    "left": 629,
+    "top": 987,
+    "width": 350,
+    "height": 36,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:55",
+        "adjustedEnd": "0:07:01.0333333",
+        "start": "0:06:55",
+        "end": "0:07:01.0333333"
+      }
+    ]
+  },
+  {
+    "id": 293,
+    "text": "RELAYS",
+    "confidence": 0.998,
+    "left": 705,
+    "top": 958,
+    "width": 184,
+    "height": 37,
+    "angle": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:56",
+        "adjustedEnd": "0:07:01.0333333",
+        "start": "0:06:56",
+        "end": "0:07:01.0333333"
+      }
+    ]
+  },
+  {
+    "id": 294,
+    "text": "SFIA",
+    "confidence": 0.992,
+    "left": 528,
+    "top": 1031,
+    "width": 37,
+    "height": 13,
+    "angle": -3,
+    "language": "it-IT",
+    "instances": [
+      {
+        "adjustedStart": "0:06:57",
+        "adjustedEnd": "0:07:01.0333333",
+        "start": "0:06:57",
+        "end": "0:07:01.0333333"
+      }
+    ]
+  },
+  {
+    "id": 295,
+    "text": "SEARCHING",
+    "confidence": 0.993,
+    "left": 1691,
+    "top": 782,
+    "width": 228,
+    "height": 32,
+    "angle": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:58",
+        "adjustedEnd": "0:07:01.0333333",
+        "start": "0:06:58",
+        "end": "0:07:01.0333333"
+      }
+    ]
+  },
+  {
+    "id": 296,
+    "text": "The Haunted Universe",
+    "confidence": 0.9977,
+    "left": 107,
+    "top": 996,
+    "width": 222,
+    "height": 25,
+    "angle": 4,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:58",
+        "adjustedEnd": "0:07:01.0333333",
+        "start": "0:06:58",
+        "end": "0:07:01.0333333"
+      }
+    ]
+  },
+  {
+    "id": 297,
+    "text": "THIS IS REAL",
+    "confidence": 0.9953,
+    "left": 1161,
+    "top": 999,
+    "width": 361,
+    "height": 55,
+    "angle": 4,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:58",
+        "adjustedEnd": "0:07:01.0333333",
+        "start": "0:06:58",
+        "end": "0:07:01.0333333"
+      }
+    ]
+  },
+  {
+    "id": 298,
+    "text": "CALIFOR",
+    "confidence": 0.997,
+    "left": 1710,
+    "top": 1017,
+    "width": 209,
+    "height": 33,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:58",
+        "adjustedEnd": "0:07:01.0333333",
+        "start": "0:06:58",
+        "end": "0:07:01.0333333"
+      }
+    ]
+  },
+  {
+    "id": 299,
+    "text": "Sarah Davis Baker . Feb 15, 2026",
+    "confidence": 0.9326,
+    "left": 105,
+    "top": 1033,
+    "width": 281,
+    "height": 22,
+    "angle": 4,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:58",
+        "adjustedEnd": "0:07:01.0333333",
+        "start": "0:06:58",
+        "end": "0:07:01.0333333"
+      }
+    ]
+  },
+  {
+    "id": 300,
+    "text": "Interstellar Relays - Moving",
+    "confidence": 0.9875,
+    "left": 565,
+    "top": 948,
+    "width": 339,
+    "height": 28,
+    "angle": 4,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:58",
+        "adjustedEnd": "0:07:01.0333333",
+        "start": "0:06:58",
+        "end": "0:07:01.0333333"
+      }
+    ]
+  },
+  {
+    "id": 301,
+    "text": "RAREST BU",
+    "confidence": 0.998,
+    "left": 1698,
+    "top": 967,
+    "width": 221,
+    "height": 30,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:59",
+        "adjustedEnd": "0:07:01.0333333",
+        "start": "0:06:59",
+        "end": "0:07:01.0333333"
+      }
+    ]
+  },
+  {
+    "id": 302,
+    "text": "Signals and Spaceships Between ...",
+    "confidence": 0.9966,
+    "left": 566,
+    "top": 980,
+    "width": 421,
+    "height": 30,
+    "angle": 5,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:59",
+        "adjustedEnd": "0:07:01.0333333",
+        "start": "0:06:59",
+        "end": "0:07:01.0333333"
+      }
+    ]
+  },
+  {
+    "id": 303,
+    "text": "Asia's Forgotten Giant Spiders |",
+    "confidence": 0.9564,
+    "left": 1112,
+    "top": 990,
+    "width": 475,
+    "height": 33,
+    "angle": 4,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:59",
+        "adjustedEnd": "0:07:01.0333333",
+        "start": "0:06:59",
+        "end": "0:07:01.0333333"
+      }
+    ]
+  },
+  {
+    "id": 304,
+    "text": "Isaac Arthur · Feb 15, 2026",
+    "confidence": 0.914,
+    "left": 567,
+    "top": 1020,
+    "width": 269,
+    "height": 24,
+    "angle": 5,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:59",
+        "adjustedEnd": "0:07:01.0333333",
+        "start": "0:06:59",
+        "end": "0:07:01.0333333"
+      }
+    ]
+  },
+  {
+    "id": 305,
+    "text": "Weird Planet",
+    "confidence": 0.998,
+    "left": 1110,
+    "top": 1027,
+    "width": 186,
+    "height": 28,
+    "angle": 4,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:59",
+        "adjustedEnd": "0:07:01.0333333",
+        "start": "0:06:59",
+        "end": "0:07:01.0333333"
+      }
+    ]
+  },
+  {
+    "id": 306,
+    "text": "Search",
+    "confidence": 0.998,
+    "left": 1793,
+    "top": 1047,
+    "width": 119,
+    "height": 26,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:59",
+        "adjustedEnd": "0:06:59.0333333",
+        "start": "0:06:59",
+        "end": "0:06:59.0333333"
+      }
+    ]
+  },
+  {
+    "id": 307,
+    "text": "MyWildBackyard . Feb 14, 2026",
+    "confidence": 0.9138,
+    "left": 1102,
+    "top": 891,
+    "width": 389,
+    "height": 30,
+    "angle": 4,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:00",
+        "adjustedEnd": "0:07:01.0333333",
+        "start": "0:07:00",
+        "end": "0:07:01.0333333"
+      }
+    ]
+  },
+  {
+    "id": 308,
+    "text": "Butterfl",
+    "confidence": 0.94,
+    "left": 1784,
+    "top": 990,
+    "width": 135,
+    "height": 30,
+    "angle": 4,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:00",
+        "adjustedEnd": "0:07:01.0333333",
+        "start": "0:07:00",
+        "end": "0:07:01.0333333"
+      }
+    ]
+  },
+  {
+    "id": 309,
+    "text": "Digging for Dinosaurs",
+    "confidence": 0.9973,
+    "left": 76,
+    "top": 984,
+    "width": 249,
+    "height": 34,
+    "angle": 6,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:00",
+        "adjustedEnd": "0:07:01.0333333",
+        "start": "0:07:00",
+        "end": "0:07:01.0333333"
+      }
+    ]
+  },
+  {
+    "id": 310,
+    "text": "Atlas Pro",
+    "confidence": 0.9975,
+    "left": 1785,
+    "top": 1038,
+    "width": 134,
+    "height": 26,
+    "angle": 4,
+    "language": "cs-CZ",
+    "instances": [
+      {
+        "adjustedStart": "0:07:00",
+        "adjustedEnd": "0:07:01.0333333",
+        "start": "0:07:00",
+        "end": "0:07:01.0333333"
+      }
+    ]
+  },
+  {
+    "id": 311,
+    "text": "Explore a variety of topics about ev",
+    "confidence": 0.9731,
+    "left": 75,
+    "top": 1023,
+    "width": 330,
+    "height": 30,
+    "angle": 6,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:00",
+        "adjustedEnd": "0:07:00.0333333",
+        "start": "0:07:00",
+        "end": "0:07:00.0333333"
+      }
+    ]
+  },
+  {
+    "id": 312,
+    "text": "How much can you do with a single day pd.",
+    "confidence": 0.9461,
+    "left": 76,
+    "top": 31,
+    "width": 401,
+    "height": 30,
+    "angle": -4,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:01",
+        "adjustedEnd": "0:07:01.0333333",
+        "start": "0:07:01",
+        "end": "0:07:01.0333333"
+      }
+    ]
+  },
+  {
+    "id": 313,
+    "text": "Explore a variety of topics about every child's prehistoric friends.",
+    "confidence": 0.9827,
+    "left": 90,
+    "top": 945,
+    "width": 632,
+    "height": 28,
+    "angle": 6,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:01",
+        "adjustedEnd": "0:07:01.0333333",
+        "start": "0:07:01",
+        "end": "0:07:01.0333333"
+      }
+    ]
+  },
+  {
+    "id": 314,
+    "text": "Sign in",
+    "confidence": 0.9965,
+    "left": 1389,
+    "top": 85,
+    "width": 48,
+    "height": 14,
+    "angle": -1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:02",
+        "adjustedEnd": "0:07:07.0333333",
+        "start": "0:07:02",
+        "end": "0:07:07.0333333"
+      }
+    ]
+  },
+  {
+    "id": 315,
+    "text": "Start free trial",
+    "confidence": 0.9967,
+    "left": 1479,
+    "top": 83,
+    "width": 100,
+    "height": 17,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:02",
+        "adjustedEnd": "0:07:07.0333333",
+        "start": "0:07:02",
+        "end": "0:07:07.0333333"
+      }
+    ]
+  },
+  {
+    "id": 316,
+    "text": "JET LAG",
+    "confidence": 0.9955,
+    "left": 341,
+    "top": 293,
+    "width": 143,
+    "height": 25,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:02",
+        "adjustedEnd": "0:07:05.0333333",
+        "start": "0:07:02",
+        "end": "0:07:05.0333333"
+      }
+    ]
+  },
+  {
+    "id": 317,
+    "text": "Hide+Seek",
+    "confidence": 0.994,
+    "left": 330,
+    "top": 329,
+    "width": 442,
+    "height": 71,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:02",
+        "adjustedEnd": "0:07:06.0333333",
+        "start": "0:07:02",
+        "end": "0:07:06.0333333"
+      }
+    ]
+  },
+  {
+    "id": 318,
+    "text": "UNITED KINGDOM",
+    "confidence": 0.998,
+    "left": 330,
+    "top": 406,
+    "width": 164,
+    "height": 19,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:02",
+        "adjustedEnd": "0:07:07.0333333",
+        "start": "0:07:02",
+        "end": "0:07:07.0333333"
+      }
+    ]
+  },
+  {
+    "id": 319,
+    "text": "SEASON SIXTEEN",
+    "confidence": 0.9975,
+    "left": 615,
+    "top": 406,
+    "width": 155,
+    "height": 18,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:02",
+        "adjustedEnd": "0:07:07.0333333",
+        "start": "0:07:02",
+        "end": "0:07:07.0333333"
+      }
+    ]
+  },
+  {
+    "id": 320,
+    "text": "FULL SEASON NOW STREAMING",
+    "confidence": 0.997,
+    "left": 333,
+    "top": 456,
+    "width": 237,
+    "height": 17,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:02",
+        "adjustedEnd": "0:07:07.0333333",
+        "start": "0:07:02",
+        "end": "0:07:07.0333333"
+      }
+    ]
+  },
+  {
+    "id": 321,
+    "text": "Spanning four countries, this game pushes the boys to",
+    "confidence": 0.9968,
+    "left": 332,
+    "top": 488,
+    "width": 389,
+    "height": 18,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:02",
+        "adjustedEnd": "0:07:07.0333333",
+        "start": "0:07:02",
+        "end": "0:07:07.0333333"
+      }
+    ]
+  },
+  {
+    "id": 322,
+    "text": "their limits as they pit classic questions against a",
+    "confidence": 0.9962,
+    "left": 335,
+    "top": 507,
+    "width": 350,
+    "height": 17,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:02",
+        "adjustedEnd": "0:07:07.0333333",
+        "start": "0:07:02",
+        "end": "0:07:07.0333333"
+      }
+    ]
+  },
+  {
+    "id": 323,
+    "text": "revamped Hider Deck.",
+    "confidence": 0.984,
+    "left": 332,
+    "top": 472,
+    "width": 157,
+    "height": 18,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:02",
+        "adjustedEnd": "0:07:07.0333333",
+        "start": "0:07:02",
+        "end": "0:07:07.0333333"
+      }
+    ]
+  },
+  {
+    "id": 324,
+    "text": "Nebula Plus VIEW MORE",
+    "confidence": 0.922,
+    "left": 335,
+    "top": 729,
+    "width": 220,
+    "height": 18,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:02",
+        "adjustedEnd": "0:07:07.0333333",
+        "start": "0:07:02",
+        "end": "0:07:07.0333333"
+      }
+    ]
+  },
+  {
+    "id": 325,
+    "text": "Latest bonus videos and extended cuts.",
+    "confidence": 0.9963,
+    "left": 332,
+    "top": 754,
+    "width": 284,
+    "height": 17,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:02",
+        "adjustedEnd": "0:07:07.0333333",
+        "start": "0:07:02",
+        "end": "0:07:07.0333333"
+      }
+    ]
+  },
+  {
+    "id": 326,
+    "text": "MARRIED",
+    "confidence": 0.993,
+    "left": 813,
+    "top": 944,
+    "width": 127,
+    "height": 22,
+    "angle": -2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:02",
+        "adjustedEnd": "0:07:07.0333333",
+        "start": "0:07:02",
+        "end": "0:07:07.0333333"
+      }
+    ]
+  },
+  {
+    "id": 327,
+    "text": "and Glid",
+    "confidence": 0.942,
+    "left": 565,
+    "top": 977,
+    "width": 96,
+    "height": 21,
+    "angle": -1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:02",
+        "adjustedEnd": "0:07:02.0333333",
+        "start": "0:07:02",
+        "end": "0:07:02.0333333"
+      }
+    ]
+  },
+  {
+    "id": 328,
+    "text": "TOO YOUNG",
+    "confidence": 0.9945,
+    "left": 802,
+    "top": 967,
+    "width": 152,
+    "height": 24,
+    "angle": -1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:02",
+        "adjustedEnd": "0:07:07.0333333",
+        "start": "0:07:02",
+        "end": "0:07:07.0333333"
+      }
+    ]
+  },
+  {
+    "id": 329,
+    "text": "+ 1:16:13",
+    "confidence": 0.985,
+    "left": 1091,
+    "top": 989,
+    "width": 63,
+    "height": 15,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:02",
+        "adjustedEnd": "0:07:03.0333333",
+        "start": "0:07:02",
+        "end": "0:07:03.0333333"
+      },
+      {
+        "adjustedStart": "0:07:05",
+        "adjustedEnd": "0:07:06.0333333",
+        "start": "0:07:05",
+        "end": "0:07:06.0333333"
+      }
+    ]
+  },
+  {
+    "id": 330,
+    "text": "+ 13:29",
+    "confidence": 0.988,
+    "left": 1528,
+    "top": 987,
+    "width": 54,
+    "height": 14,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:02",
+        "adjustedEnd": "0:07:03.0333333",
+        "start": "0:07:02",
+        "end": "0:07:03.0333333"
+      }
+    ]
+  },
+  {
+    "id": 331,
+    "text": "+ 3:37:36",
+    "confidence": 0.9885,
+    "left": 660,
+    "top": 778,
+    "width": 65,
+    "height": 14,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:03",
+        "adjustedEnd": "0:07:03.0333333",
+        "start": "0:07:03",
+        "end": "0:07:03.0333333"
+      },
+      {
+        "adjustedStart": "0:07:06",
+        "adjustedEnd": "0:07:06.0333333",
+        "start": "0:07:06",
+        "end": "0:07:06.0333333"
+      }
+    ]
+  },
+  {
+    "id": 332,
+    "text": "Dunk Time #5: In the Name of the Mother",
+    "confidence": 0.9954,
+    "left": 374,
+    "top": 974,
+    "width": 302,
+    "height": 18,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:03",
+        "adjustedEnd": "0:07:07.0333333",
+        "start": "0:07:03",
+        "end": "0:07:07.0333333"
+      }
+    ]
+  },
+  {
+    "id": 333,
+    "text": "Married Too Young",
+    "confidence": 0.9973,
+    "left": 803,
+    "top": 974,
+    "width": 142,
+    "height": 18,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:03",
+        "adjustedEnd": "0:07:07.0333333",
+        "start": "0:07:03",
+        "end": "0:07:07.0333333"
+      }
+    ]
+  },
+  {
+    "id": 334,
+    "text": "Steve Buscemi: From New York Firefighter to",
+    "confidence": 0.9966,
+    "left": 1230,
+    "top": 973,
+    "width": 325,
+    "height": 20,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:03",
+        "adjustedEnd": "0:07:03.0333333",
+        "start": "0:07:03",
+        "end": "0:07:03.0333333"
+      }
+    ]
+  },
+  {
+    "id": 335,
+    "text": "(extended)",
+    "confidence": 0.996,
+    "left": 376,
+    "top": 994,
+    "width": 79,
+    "height": 15,
+    "angle": -1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:03",
+        "adjustedEnd": "0:07:07.0333333",
+        "start": "0:07:03",
+        "end": "0:07:07.0333333"
+      }
+    ]
+  },
+  {
+    "id": 336,
+    "text": "RiffTrax . Feb 14, 2026",
+    "confidence": 0.9054,
+    "left": 802,
+    "top": 997,
+    "width": 141,
+    "height": 15,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:03",
+        "adjustedEnd": "0:07:07.0333333",
+        "start": "0:07:03",
+        "end": "0:07:07.0333333"
+      }
+    ]
+  },
+  {
+    "id": 337,
+    "text": "World-Renowned Character Actor - Let's Rewind",
+    "confidence": 0.9945,
+    "left": 1229,
+    "top": 992,
+    "width": 365,
+    "height": 19,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:03",
+        "adjustedEnd": "0:07:03.0333333",
+        "start": "0:07:03",
+        "end": "0:07:03.0333333"
+      }
+    ]
+  },
+  {
+    "id": 338,
+    "text": "Firefighter to",
+    "confidence": 0.9965,
+    "left": 1457,
+    "top": 920,
+    "width": 96,
+    "height": 18,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:04",
+        "adjustedEnd": "0:07:04.0333333",
+        "start": "0:07:04",
+        "end": "0:07:04.0333333"
+      }
+    ]
+  },
+  {
+    "id": 339,
+    "text": "Let's Rewind",
+    "confidence": 0.9805,
+    "left": 1500,
+    "top": 940,
+    "width": 95,
+    "height": 18,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:04",
+        "adjustedEnd": "0:07:04.0333333",
+        "start": "0:07:04",
+        "end": "0:07:04.0333333"
+      }
+    ]
+  },
+  {
+    "id": 340,
+    "text": "4 Nebula First VIEW MORE",
+    "confidence": 0.9542,
+    "left": 322,
+    "top": 972,
+    "width": 224,
+    "height": 20,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:05",
+        "adjustedEnd": "0:07:07.0333333",
+        "start": "0:07:05",
+        "end": "0:07:07.0333333"
+      }
+    ]
+  },
+  {
+    "id": 341,
+    "text": "Early releases available on Nebula before anywhere else.",
+    "confidence": 0.9974,
+    "left": 320,
+    "top": 999,
+    "width": 408,
+    "height": 18,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:05",
+        "adjustedEnd": "0:07:07.0333333",
+        "start": "0:07:05",
+        "end": "0:07:07.0333333"
+      }
+    ]
+  },
+  {
+    "id": 342,
+    "text": "APPROVAL RATINGS",
+    "confidence": 0.992,
+    "left": 719,
+    "top": 993,
+    "width": 159,
+    "height": 18,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:06",
+        "adjustedEnd": "0:07:07.0333333",
+        "start": "0:07:06",
+        "end": "0:07:07.0333333"
+      }
+    ]
+  },
+  {
+    "id": 343,
+    "text": "Steve B",
+    "confidence": 0.994,
+    "left": 1236,
+    "top": 761,
+    "width": 55,
+    "height": 17,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:07",
+        "adjustedEnd": "0:07:07.0333333",
+        "start": "0:07:07",
+        "end": "0:07:07.0333333"
+      }
+    ]
+  },
+  {
+    "id": 344,
+    "text": "World",
+    "confidence": 0.998,
+    "left": 1237,
+    "top": 779,
+    "width": 46,
+    "height": 16,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:07",
+        "adjustedEnd": "0:07:11.0333333",
+        "start": "0:07:07",
+        "end": "0:07:11.0333333"
+      }
+    ]
+  },
+  {
+    "id": 345,
+    "text": "Cinen",
+    "confidence": 0.983,
+    "left": 1239,
+    "top": 805,
+    "width": 35,
+    "height": 12,
+    "angle": 2,
+    "language": "fi-FI",
+    "instances": [
+      {
+        "adjustedStart": "0:07:07",
+        "adjustedEnd": "0:07:07.0333333",
+        "start": "0:07:07",
+        "end": "0:07:07.0333333"
+      }
+    ]
+  },
+  {
+    "id": 346,
+    "text": "IT'S A",
+    "confidence": 0.991,
+    "left": 892,
+    "top": 9,
+    "width": 150,
+    "height": 55,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:08",
+        "adjustedEnd": "0:07:11.0333333",
+        "start": "0:07:08",
+        "end": "0:07:11.0333333"
+      }
+    ]
+  },
+  {
+    "id": 347,
+    "text": "FLOP",
+    "confidence": 0.995,
+    "left": 802,
+    "top": 64,
+    "width": 299,
+    "height": 98,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:08",
+        "adjustedEnd": "0:07:11.0333333",
+        "start": "0:07:08",
+        "end": "0:07:11.0333333"
+      }
+    ]
+  },
+  {
+    "id": 348,
+    "text": "Everyone",
+    "confidence": 0.932,
+    "left": 1611,
+    "top": 155,
+    "width": 145,
+    "height": 46,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:08",
+        "adjustedEnd": "0:07:11.0333333",
+        "start": "0:07:08",
+        "end": "0:07:11.0333333"
+      }
+    ]
+  },
+  {
+    "id": 349,
+    "text": "LOVES",
+    "confidence": 0.998,
+    "left": 1576,
+    "top": 198,
+    "width": 213,
+    "height": 68,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:08",
+        "adjustedEnd": "0:07:11.0333333",
+        "start": "0:07:08",
+        "end": "0:07:11.0333333"
+      }
+    ]
+  },
+  {
+    "id": 350,
+    "text": "AFTER ALL",
+    "confidence": 0.993,
+    "left": 812,
+    "top": 293,
+    "width": 289,
+    "height": 45,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:08",
+        "adjustedEnd": "0:07:11.0333333",
+        "start": "0:07:08",
+        "end": "0:07:11.0333333"
+      }
+    ]
+  },
+  {
+    "id": 351,
+    "text": "¥44:50",
+    "confidence": 0.931,
+    "left": 1132,
+    "top": 467,
+    "width": 110,
+    "height": 27,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:08",
+        "adjustedEnd": "0:07:11.0333333",
+        "start": "0:07:08",
+        "end": "0:07:11.0333333"
+      }
+    ]
+  },
+  {
+    "id": 352,
+    "text": "Let's Compare and Contrast Disney's Flop Eras",
+    "confidence": 0.9959,
+    "left": 372,
+    "top": 556,
+    "width": 844,
+    "height": 44,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:08",
+        "adjustedEnd": "0:07:11.0333333",
+        "start": "0:07:08",
+        "end": "0:07:11.0333333"
+      }
+    ]
+  },
+  {
+    "id": 353,
+    "text": "Lindsay Ellis . Jul 18, 2025",
+    "confidence": 0.9035,
+    "left": 371,
+    "top": 618,
+    "width": 444,
+    "height": 40,
+    "angle": -1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:08",
+        "adjustedEnd": "0:07:11.0333333",
+        "start": "0:07:08",
+        "end": "0:07:11.0333333"
+      }
+    ]
+  },
+  {
+    "id": 354,
+    "text": "MINISERIES",
+    "confidence": 0.988,
+    "left": 225,
+    "top": 974,
+    "width": 257,
+    "height": 39,
+    "angle": -4,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:08",
+        "adjustedEnd": "0:07:11.0333333",
+        "start": "0:07:08",
+        "end": "0:07:11.0333333"
+      }
+    ]
+  },
+  {
+    "id": 355,
+    "text": "nd the Bleachers",
+    "confidence": 0.981,
+    "left": 450,
+    "top": 1011,
+    "width": 617,
+    "height": 66,
+    "angle": -3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:08",
+        "adjustedEnd": "0:07:11.0333333",
+        "start": "0:07:08",
+        "end": "0:07:11.0333333"
+      }
+    ]
+  },
+  {
+    "id": 356,
+    "text": "LINDSAY ELLIS",
+    "confidence": 0.9955,
+    "left": 1611,
+    "top": 91,
+    "width": 147,
+    "height": 21,
+    "angle": 5,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:10",
+        "adjustedEnd": "0:07:11.0333333",
+        "start": "0:07:10",
+        "end": "0:07:11.0333333"
+      }
+    ]
+  },
+  {
+    "id": 357,
+    "text": "(Now)",
+    "confidence": 0.992,
+    "left": 1728,
+    "top": 552,
+    "width": 69,
+    "height": 31,
+    "angle": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:10",
+        "adjustedEnd": "0:07:11.0333333",
+        "start": "0:07:10",
+        "end": "0:07:11.0333333"
+      }
+    ]
+  },
+  {
+    "id": 358,
+    "text": "Use the link below for 50%",
+    "confidence": 0.9968,
+    "left": 822,
+    "top": 523,
+    "width": 887,
+    "height": 71,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:14",
+        "adjustedEnd": "0:07:26.0333333",
+        "start": "0:07:14",
+        "end": "0:07:26.0333333"
+      }
+    ]
+  },
+  {
+    "id": 359,
+    "text": "off an annual subscription.",
+    "confidence": 0.996,
+    "left": 840,
+    "top": 613,
+    "width": 886,
+    "height": 70,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:14",
+        "adjustedEnd": "0:07:26.0333333",
+        "start": "0:07:14",
+        "end": "0:07:26.0333333"
+      }
+    ]
+  },
+  {
+    "id": 360,
+    "text": "go.nebula.tv/hai",
+    "confidence": 0.987,
+    "left": 637,
+    "top": 964,
+    "width": 635,
+    "height": 87,
+    "angle": -1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:14",
+        "adjustedEnd": "0:07:26.0333333",
+        "start": "0:07:14",
+        "end": "0:07:26.0333333"
+      }
+    ]
+  }
+]

@@ -1,0 +1,4278 @@
+{
+  "partition": null,
+  "description": null,
+  "privacyMode": "Private",
+  "state": "Processed",
+  "accountId": "6a69f8ca-0f6e-46d3-bd5a-6f3a83dc7b2b",
+  "id": "n2wq3edbkn",
+  "name": "video_ac1682fb",
+  "userName": "satvik aderla",
+  "created": "2026-04-25T18:14:15.68+00:00",
+  "isOwned": true,
+  "isEditable": true,
+  "isBase": true,
+  "durationInSeconds": 120,
+  "duration": "0:02:00.001",
+  "summarizedInsights": {
+    "name": "video_ac1682fb",
+    "id": "n2wq3edbkn",
+    "privacyMode": "Private",
+    "duration": {
+      "time": "0:02:00.001",
+      "seconds": 120
+    },
+    "thumbnailVideoId": "n2wq3edbkn",
+    "thumbnailId": "f4f865d1-2442-40bb-a9ae-567637f30976",
+    "faces": [],
+    "keywords": [
+      {
+        "isTranscript": false,
+        "id": 1,
+        "name": "ree shop",
+        "appearances": [
+          {
+            "startTime": "0:01:44",
+            "endTime": "0:01:45.9",
+            "startSeconds": 104,
+            "endSeconds": 105.9
+          }
+        ]
+      },
+      {
+        "isTranscript": false,
+        "id": 2,
+        "name": "cyprus",
+        "appearances": [
+          {
+            "startTime": "0:00:43.4666667",
+            "endTime": "0:00:47.5",
+            "startSeconds": 43.5,
+            "endSeconds": 47.5
+          },
+          {
+            "startTime": "0:01:35.7333333",
+            "endTime": "0:01:41.6333333",
+            "startSeconds": 95.7,
+            "endSeconds": 101.6
+          },
+          {
+            "startTime": "0:01:54.6666667",
+            "endTime": "0:01:54.7",
+            "startSeconds": 114.7,
+            "endSeconds": 114.7
+          }
+        ]
+      },
+      {
+        "isTranscript": false,
+        "id": 3,
+        "name": "republic",
+        "appearances": [
+          {
+            "startTime": "0:01:35.7333333",
+            "endTime": "0:01:41.6333333",
+            "startSeconds": 95.7,
+            "endSeconds": 101.6
+          },
+          {
+            "startTime": "0:01:49.3333333",
+            "endTime": "0:01:49.3666667",
+            "startSeconds": 109.3,
+            "endSeconds": 109.4
+          },
+          {
+            "startTime": "0:01:54.6666667",
+            "endTime": "0:01:54.7",
+            "startSeconds": 114.7,
+            "endSeconds": 114.7
+          }
+        ]
+      },
+      {
+        "isTranscript": false,
+        "id": 4,
+        "name": "istanbul",
+        "appearances": [
+          {
+            "startTime": "0:01:04.8",
+            "endTime": "0:01:09.9",
+            "startSeconds": 64.8,
+            "endSeconds": 69.9
+          }
+        ]
+      },
+      {
+        "isTranscript": false,
+        "id": 5,
+        "name": "phot",
+        "appearances": [
+          {
+            "startTime": "0:01:25.6",
+            "endTime": "0:01:30.4333333",
+            "startSeconds": 85.6,
+            "endSeconds": 90.4
+          }
+        ]
+      }
+    ],
+    "sentiments": [],
+    "emotions": [],
+    "audioEffects": [],
+    "labels": [
+      {
+        "id": 3,
+        "name": "clothing",
+        "appearances": [
+          {
+            "confidence": 0.9725,
+            "startTime": "0:00:09.3333333",
+            "endTime": "0:00:12.8333333",
+            "startSeconds": 9.3,
+            "endSeconds": 12.8
+          },
+          {
+            "confidence": 0.9889,
+            "startTime": "0:00:18.9333333",
+            "endTime": "0:00:30.9666667",
+            "startSeconds": 18.9,
+            "endSeconds": 31
+          },
+          {
+            "confidence": 0.9701,
+            "startTime": "0:00:45.8666667",
+            "endTime": "0:00:54.1666667",
+            "startSeconds": 45.9,
+            "endSeconds": 54.2
+          },
+          {
+            "confidence": 0.9812,
+            "startTime": "0:01:17.3333333",
+            "endTime": "0:01:21.1",
+            "startSeconds": 77.3,
+            "endSeconds": 81.1
+          },
+          {
+            "confidence": 0.9561,
+            "startTime": "0:01:47.2",
+            "endTime": "0:01:48.8333333",
+            "startSeconds": 107.2,
+            "endSeconds": 108.8
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "name": "map",
+        "appearances": [
+          {
+            "confidence": 0.9927,
+            "startTime": "0:00:00.2666667",
+            "endTime": "0:00:08.8333333",
+            "startSeconds": 0.3,
+            "endSeconds": 8.8
+          },
+          {
+            "confidence": 0.9973,
+            "startTime": "0:00:13.0666667",
+            "endTime": "0:00:15.5",
+            "startSeconds": 13.1,
+            "endSeconds": 15.5
+          },
+          {
+            "confidence": 0.9796,
+            "startTime": "0:00:18.6666667",
+            "endTime": "0:00:18.7",
+            "startSeconds": 18.7,
+            "endSeconds": 18.7
+          },
+          {
+            "confidence": 0.9608,
+            "startTime": "0:00:31.7333333",
+            "endTime": "0:00:38.4333333",
+            "startSeconds": 31.7,
+            "endSeconds": 38.4
+          },
+          {
+            "confidence": 0.9947,
+            "startTime": "0:00:54.9333333",
+            "endTime": "0:00:56.3",
+            "startSeconds": 54.9,
+            "endSeconds": 56.3
+          },
+          {
+            "confidence": 0.9967,
+            "startTime": "0:01:04.5333333",
+            "endTime": "0:01:07.7666667",
+            "startSeconds": 64.5,
+            "endSeconds": 67.8
+          },
+          {
+            "confidence": 0.9937,
+            "startTime": "0:01:12",
+            "endTime": "0:01:14.1666667",
+            "startSeconds": 72,
+            "endSeconds": 74.2
+          },
+          {
+            "confidence": 0.9585,
+            "startTime": "0:01:49.8666667",
+            "endTime": "0:01:50.4333333",
+            "startSeconds": 109.9,
+            "endSeconds": 110.4
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "outdoor",
+        "appearances": [
+          {
+            "confidence": 0.9532,
+            "startTime": "0:00:48",
+            "endTime": "0:00:51.5",
+            "startSeconds": 48,
+            "endSeconds": 51.5
+          },
+          {
+            "confidence": 0.9761,
+            "startTime": "0:01:21.3333333",
+            "endTime": "0:01:33.6333333",
+            "startSeconds": 81.3,
+            "endSeconds": 93.6
+          },
+          {
+            "confidence": 0.9974,
+            "startTime": "0:01:42.1333333",
+            "endTime": "0:01:43.7666667",
+            "startSeconds": 102.1,
+            "endSeconds": 103.8
+          },
+          {
+            "confidence": 0.9693,
+            "startTime": "0:01:54.6666667",
+            "endTime": "0:01:56.8333333",
+            "startSeconds": 114.7,
+            "endSeconds": 116.8
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "text",
+        "appearances": [
+          {
+            "confidence": 0.9836,
+            "startTime": "0:00:45.8666667",
+            "endTime": "0:00:45.9",
+            "startSeconds": 45.9,
+            "endSeconds": 45.9
+          },
+          {
+            "confidence": 0.9566,
+            "startTime": "0:01:08",
+            "endTime": "0:01:09.3666667",
+            "startSeconds": 68,
+            "endSeconds": 69.4
+          },
+          {
+            "confidence": 0.9665,
+            "startTime": "0:01:25.6",
+            "endTime": "0:01:29.3666667",
+            "startSeconds": 85.6,
+            "endSeconds": 89.4
+          },
+          {
+            "confidence": 0.976,
+            "startTime": "0:01:32.8",
+            "endTime": "0:01:41.6333333",
+            "startSeconds": 92.8,
+            "endSeconds": 101.6
+          },
+          {
+            "confidence": 0.997,
+            "startTime": "0:01:49.6",
+            "endTime": "0:01:54.4333333",
+            "startSeconds": 109.6,
+            "endSeconds": 114.4
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "sky",
+        "appearances": [
+          {
+            "confidence": 0.9647,
+            "startTime": "0:00:47.7333333",
+            "endTime": "0:00:50.1666667",
+            "startSeconds": 47.7,
+            "endSeconds": 50.2
+          },
+          {
+            "confidence": 0.9697,
+            "startTime": "0:01:21.8666667",
+            "endTime": "0:01:32.8333333",
+            "startSeconds": 81.9,
+            "endSeconds": 92.8
+          },
+          {
+            "confidence": 0.9984,
+            "startTime": "0:01:42.1333333",
+            "endTime": "0:01:43.7666667",
+            "startSeconds": 102.1,
+            "endSeconds": 103.8
+          },
+          {
+            "confidence": 0.9709,
+            "startTime": "0:01:54.6666667",
+            "endTime": "0:01:56.8333333",
+            "startSeconds": 114.7,
+            "endSeconds": 116.8
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "building",
+        "appearances": [
+          {
+            "confidence": 0.9835,
+            "startTime": "0:00:50.4",
+            "endTime": "0:00:54.4333333",
+            "startSeconds": 50.4,
+            "endSeconds": 54.4
+          },
+          {
+            "confidence": 0.979,
+            "startTime": "0:01:43.4666667",
+            "endTime": "0:01:49.3666667",
+            "startSeconds": 103.5,
+            "endSeconds": 109.4
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "jacket",
+        "appearances": [
+          {
+            "confidence": 0.966,
+            "startTime": "0:00:10.1333333",
+            "endTime": "0:00:12.5666667",
+            "startSeconds": 10.1,
+            "endSeconds": 12.6
+          },
+          {
+            "confidence": 0.9712,
+            "startTime": "0:00:30.1333333",
+            "endTime": "0:00:30.9666667",
+            "startSeconds": 30.1,
+            "endSeconds": 31
+          },
+          {
+            "confidence": 0.9614,
+            "startTime": "0:00:46.1333333",
+            "endTime": "0:00:51.5",
+            "startSeconds": 46.1,
+            "endSeconds": 51.5
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "name": "person",
+        "appearances": [
+          {
+            "confidence": 0.9795,
+            "startTime": "0:01:17.6",
+            "endTime": "0:01:21.1",
+            "startSeconds": 77.6,
+            "endSeconds": 81.1
+          },
+          {
+            "confidence": 0.9913,
+            "startTime": "0:01:34.1333333",
+            "endTime": "0:01:35.7666667",
+            "startSeconds": 94.1,
+            "endSeconds": 95.8
+          },
+          {
+            "confidence": 0.9608,
+            "startTime": "0:01:47.4666667",
+            "endTime": "0:01:47.5",
+            "startSeconds": 107.5,
+            "endSeconds": 107.5
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "water",
+        "appearances": [
+          {
+            "confidence": 0.9664,
+            "startTime": "0:00:03.7333333",
+            "endTime": "0:00:08.5666667",
+            "startSeconds": 3.7,
+            "endSeconds": 8.6
+          },
+          {
+            "confidence": 0.9632,
+            "startTime": "0:01:41.8666667",
+            "endTime": "0:01:41.9",
+            "startSeconds": 101.9,
+            "endSeconds": 101.9
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "name": "weapon",
+        "appearances": [
+          {
+            "confidence": 0.9607,
+            "startTime": "0:01:29.6",
+            "endTime": "0:01:33.6333333",
+            "startSeconds": 89.6,
+            "endSeconds": 93.6
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "name": "cloud",
+        "appearances": [
+          {
+            "confidence": 0.9532,
+            "startTime": "0:01:26.6666667",
+            "endTime": "0:01:26.7",
+            "startSeconds": 86.7,
+            "endSeconds": 86.7
+          },
+          {
+            "confidence": 0.9939,
+            "startTime": "0:01:42.1333333",
+            "endTime": "0:01:43.7666667",
+            "startSeconds": 102.1,
+            "endSeconds": 103.8
+          },
+          {
+            "confidence": 0.9525,
+            "startTime": "0:01:55.2",
+            "endTime": "0:01:57.3666667",
+            "startSeconds": 115.2,
+            "endSeconds": 117.4
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "name": "military vehicle",
+        "appearances": [
+          {
+            "confidence": 0.972,
+            "startTime": "0:01:29.8666667",
+            "endTime": "0:01:33.6333333",
+            "startSeconds": 89.9,
+            "endSeconds": 93.6
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "name": "tree",
+        "appearances": [
+          {
+            "confidence": 0.9649,
+            "startTime": "0:01:24",
+            "endTime": "0:01:25.6333333",
+            "startSeconds": 84,
+            "endSeconds": 85.6
+          },
+          {
+            "confidence": 0.9536,
+            "startTime": "0:01:55.7333333",
+            "endTime": "0:01:56.8333333",
+            "startSeconds": 115.7,
+            "endSeconds": 116.8
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "painting",
+        "appearances": [
+          {
+            "confidence": 0.9799,
+            "startTime": "0:00:25.0666667",
+            "endTime": "0:00:26.9666667",
+            "startSeconds": 25.1,
+            "endSeconds": 27
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "name": "human face",
+        "appearances": [
+          {
+            "confidence": 0.981,
+            "startTime": "0:01:33.8666667",
+            "endTime": "0:01:35.7666667",
+            "startSeconds": 93.9,
+            "endSeconds": 95.8
+          },
+          {
+            "confidence": 0.9543,
+            "startTime": "0:01:47.4666667",
+            "endTime": "0:01:47.5",
+            "startSeconds": 107.5,
+            "endSeconds": 107.5
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "name": "landscape",
+        "appearances": [
+          {
+            "confidence": 0.9853,
+            "startTime": "0:01:54.9333333",
+            "endTime": "0:01:56.8333333",
+            "startSeconds": 114.9,
+            "endSeconds": 116.8
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "nature",
+        "appearances": [
+          {
+            "confidence": 0.9543,
+            "startTime": "0:00:40",
+            "endTime": "0:00:40.0333333",
+            "startSeconds": 40,
+            "endSeconds": 40
+          },
+          {
+            "confidence": 0.9758,
+            "startTime": "0:01:55.2",
+            "endTime": "0:01:56.8333333",
+            "startSeconds": 115.2,
+            "endSeconds": 116.8
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "name": "fence",
+        "appearances": [
+          {
+            "confidence": 0.9541,
+            "startTime": "0:01:21.6",
+            "endTime": "0:01:22.7",
+            "startSeconds": 81.6,
+            "endSeconds": 82.7
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "name": "indoor",
+        "appearances": [
+          {
+            "confidence": 0.9586,
+            "startTime": "0:01:44.2666667",
+            "endTime": "0:01:45.3666667",
+            "startSeconds": 104.3,
+            "endSeconds": 105.4
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "couch",
+        "appearances": [
+          {
+            "confidence": 0.9546,
+            "startTime": "0:01:18.1333333",
+            "endTime": "0:01:18.7",
+            "startSeconds": 78.1,
+            "endSeconds": 78.7
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "name": "playground",
+        "appearances": [
+          {
+            "confidence": 0.9638,
+            "startTime": "0:01:24.2666667",
+            "endTime": "0:01:24.5666667",
+            "startSeconds": 84.3,
+            "endSeconds": 84.6
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "name": "sign",
+        "appearances": [
+          {
+            "confidence": 0.9859,
+            "startTime": "0:01:25.3333333",
+            "endTime": "0:01:25.6333333",
+            "startSeconds": 85.3,
+            "endSeconds": 85.6
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "name": "ground",
+        "appearances": [
+          {
+            "confidence": 0.9557,
+            "startTime": "0:01:25.3333333",
+            "endTime": "0:01:25.3666667",
+            "startSeconds": 85.3,
+            "endSeconds": 85.4
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "name": "tank",
+        "appearances": [
+          {
+            "confidence": 0.9574,
+            "startTime": "0:01:33.3333333",
+            "endTime": "0:01:33.3666667",
+            "startSeconds": 93.3,
+            "endSeconds": 93.4
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "name": "transport",
+        "appearances": [
+          {
+            "confidence": 0.9536,
+            "startTime": "0:01:33.3333333",
+            "endTime": "0:01:33.3666667",
+            "startSeconds": 93.3,
+            "endSeconds": 93.4
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "name": "balloon",
+        "appearances": [
+          {
+            "confidence": 0.9747,
+            "startTime": "0:01:49.3333333",
+            "endTime": "0:01:49.3666667",
+            "startSeconds": 109.3,
+            "endSeconds": 109.4
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "name": "ball",
+        "appearances": [
+          {
+            "confidence": 0.9717,
+            "startTime": "0:01:46.9333333",
+            "endTime": "0:01:46.9666667",
+            "startSeconds": 106.9,
+            "endSeconds": 107
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "name": "sunrise",
+        "appearances": [
+          {
+            "confidence": 0.9518,
+            "startTime": "0:01:54.9333333",
+            "endTime": "0:01:54.9666667",
+            "startSeconds": 114.9,
+            "endSeconds": 115
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "name": "plant",
+        "appearances": [
+          {
+            "confidence": 0.9517,
+            "startTime": "0:01:24.2666667",
+            "endTime": "0:01:24.3",
+            "startSeconds": 84.3,
+            "endSeconds": 84.3
+          }
+        ]
+      }
+    ],
+    "framePatterns": [],
+    "brands": [],
+    "namedLocations": [
+      {
+        "referenceId": "Ercan_International_Airport",
+        "referenceUrl": "https://en.wikipedia.org/wiki/Ercan_International_Airport",
+        "confidence": 0.595,
+        "description": "Ercan International Airport (IATA: ECN, ICAO: LCEN) is the primary civilian airport of North Cyprus. It is located about 13 km east of North Nicosia, near the village of Tymvou. Turkish and other airline booking sites commonly refer to this airport as Lefkoşa (Nicosia) Airport.",
+        "seenDuration": 29.1,
+        "id": 1,
+        "name": "Ercan International Airport",
+        "appearances": [
+          {
+            "startTime": "0:00:48",
+            "endTime": "0:01:17.1",
+            "startSeconds": 48,
+            "endSeconds": 77.1
+          }
+        ]
+      },
+      {
+        "referenceId": "İzmir",
+        "referenceUrl": "https://en.wikipedia.org/wiki/İzmir",
+        "confidence": 0.35,
+        "description": "İzmir ([ˈizmiɾ]) is a metropolitan city in the western extremity of Anatolia. It is the third most populous city in Turkey, after Istanbul and Ankara, and the second largest metropolitan area on the Aegean Sea after Athens, Greece. In 2018, the city of İzmir had a population of 2,947,000, while İzmir Province had a total population of 4,320,519. İzmir's metropolitan area extends along the outlying waters of the Gulf of İzmir and inland to the north across the Gediz River delta; to the east along an alluvial plain created by several small streams; and to slightly more rugged terrain in the south.",
+        "seenDuration": 6.7,
+        "id": 2,
+        "name": "İzmir",
+        "appearances": [
+          {
+            "startTime": "0:01:03.2",
+            "endTime": "0:01:09.9",
+            "startSeconds": 63.2,
+            "endSeconds": 69.9
+          }
+        ]
+      },
+      {
+        "referenceId": "Istanbul",
+        "referenceUrl": "https://en.wikipedia.org/wiki/Istanbul",
+        "confidence": 0.46,
+        "description": "Istanbul (/ˌɪstænˈbʊl, ˌɪstɑːn-, -ˈbuːl/, also US: /ˌɪstən-, ˈɪstənbʊl, -buːl, ɪˈstɑːnbʊl/; Turkish: İstanbul [isˈtanbuɫ] ), formerly known as Byzantium and Constantinople, is the most populous city in Turkey and the country's economic, cultural and historic center. Istanbul is a transcontinental city in Eurasia, straddling the Bosporus strait (which separates Europe and Asia) between the Sea of Marmara and the Black Sea. Its commercial and historical center lies on the European side and about a third of its population lives in suburbs on the Asian side of the Bosporus. With a total population of around 15 million residents in its metropolitan area, Istanbul is one of the world's most populous cities, ranking as the world's fourth largest city proper and the largest European city. The city is the administrative center of the Istanbul Metropolitan Municipality (coterminous with Istanbul Province). Istanbul is a bridge between the East and West.",
+        "seenDuration": 5.1,
+        "id": 3,
+        "name": "Istanbul",
+        "appearances": [
+          {
+            "startTime": "0:01:04.8",
+            "endTime": "0:01:09.9",
+            "startSeconds": 64.8,
+            "endSeconds": 69.9
+          }
+        ]
+      },
+      {
+        "referenceId": "Ankara",
+        "referenceUrl": "https://en.wikipedia.org/wiki/Ankara",
+        "confidence": 0.38,
+        "description": "Ankara (/ˈæŋkərə/, also US: /ˈɑːŋ-/, Turkish: [ˈaŋkaɾa] ), historically known as Ancyra (/ænˈsaɪrə/) and Angora (/æŋˈɡɔːrə/, also US: /ˈæŋɡərə/), is the capital of Turkey. With a population of 4,587,558 in the urban center and 5,150,072 in its province , it is Turkey's second largest city after Istanbul (the former imperial capital), having outranked İzmir in the 20th century.",
+        "seenDuration": 4.3,
+        "id": 4,
+        "name": "Ankara",
+        "appearances": [
+          {
+            "startTime": "0:01:05.6",
+            "endTime": "0:01:09.9",
+            "startSeconds": 65.6,
+            "endSeconds": 69.9
+          }
+        ]
+      },
+      {
+        "referenceId": "Kayseri",
+        "referenceUrl": "https://en.wikipedia.org/wiki/Kayseri",
+        "confidence": 0.37,
+        "description": "Kayseri ([ˈkajseɾi]) is a large industrialised city in Central Anatolia, Turkey. It is the seat of Kayseri Province. The city of Kayseri, as defined by the boundaries of Kayseri Metropolitan Municipality, is structurally composed of five metropolitan districts, the two core districts of Kocasinan and Melikgazi, and since 2004, also Hacılar, İncesu and Talas.",
+        "seenDuration": 4,
+        "id": 5,
+        "name": "Kayseri",
+        "appearances": [
+          {
+            "startTime": "0:01:05.8666667",
+            "endTime": "0:01:09.9",
+            "startSeconds": 65.9,
+            "endSeconds": 69.9
+          }
+        ]
+      },
+      {
+        "referenceId": "Çukurova",
+        "referenceUrl": "https://en.wikipedia.org/wiki/Çukurova",
+        "confidence": 0.37,
+        "description": "Çukurova ([tʃuˈkuɾova]), alternatively known as Cilicia, is a geo-cultural region in south-central Turkey, covering the provinces of Mersin, Adana, Osmaniye and Hatay. With a population of almost 6 million, it is one of the largest population concentrations in Turkey.",
+        "seenDuration": 3.5,
+        "id": 6,
+        "name": "Çukurova",
+        "appearances": [
+          {
+            "startTime": "0:01:06.4",
+            "endTime": "0:01:09.9",
+            "startSeconds": 66.4,
+            "endSeconds": 69.9
+          }
+        ]
+      },
+      {
+        "referenceId": "Trabzon",
+        "referenceUrl": "https://en.wikipedia.org/wiki/Trabzon",
+        "confidence": 0.34,
+        "description": "Trabzon ([ˈtɾabzon]), historically known as Trebizond, is a city on the Black Sea coast of northeastern Turkey and the capital of Trabzon Province. Trabzon, located on the historical Silk Road, became a melting pot of religions, languages and culture for centuries and a trade gateway to Persia in the southeast and the Caucasus to the northeast. The Venetian and Genoese merchants paid visits to Trebizond during the medieval period and sold silk, linen and woolen fabric. Both republics had merchant colonies within the city - Leonkastron and the former 'Venetian castle - that played a role to Trebizond similar to the one Galata played to Constantinople (modern Istanbul). Trabzon formed the basis of several states in its long history and was the capital city of the Empire of Trebizond between 1204 and 1461. During the early modern period, Trabzon, because of the importance of its port, again became a focal point of trade to Persia and the Caucasus.",
+        "seenDuration": 2.7,
+        "id": 7,
+        "name": "Trabzon",
+        "appearances": [
+          {
+            "startTime": "0:01:06.9333333",
+            "endTime": "0:01:09.6333333",
+            "startSeconds": 66.9,
+            "endSeconds": 69.6
+          }
+        ]
+      },
+      {
+        "referenceId": "Diyarbakır",
+        "referenceUrl": "https://en.wikipedia.org/wiki/Diyarbakır",
+        "confidence": 0.3,
+        "description": "Diyarbakır (Kurdish: Amed‎) is one of the largest cities in southeastern Turkey. Situated on the banks of the Tigris River, it is the administrative capital of the Diyarbakır Province. With a population of about 930,000 it is the second largest city in Turkey's south-eastern Anatolia region, after Gaziantep.",
+        "seenDuration": 1.1,
+        "id": 8,
+        "name": "Diyarbakır",
+        "appearances": [
+          {
+            "startTime": "0:01:08.8",
+            "endTime": "0:01:09.9",
+            "startSeconds": 68.8,
+            "endSeconds": 69.9
+          }
+        ]
+      }
+    ],
+    "namedPeople": [],
+    "statistics": {
+      "correspondenceCount": 0,
+      "speakerTalkToListenRatio": {},
+      "speakerLongestMonolog": {},
+      "speakerNumberOfFragments": {},
+      "speakerWordCount": {}
+    },
+    "topics": [
+      {
+        "referenceUrl": "https://en.wikipedia.org/wiki/Category:Eastern_Mediterranean",
+        "iptcName": null,
+        "iabName": null,
+        "confidence": 0.5908,
+        "id": 1,
+        "name": "Eastern Mediterranean",
+        "appearances": [
+          {
+            "startTime": "0:00:43.4666667",
+            "endTime": "0:00:47.5",
+            "startSeconds": 43.5,
+            "endSeconds": 47.5
+          },
+          {
+            "startTime": "0:01:35.7333333",
+            "endTime": "0:01:41.6333333",
+            "startSeconds": 95.7,
+            "endSeconds": 101.6
+          },
+          {
+            "startTime": "0:01:54.6666667",
+            "endTime": "0:01:54.7",
+            "startSeconds": 114.7,
+            "endSeconds": 114.7
+          }
+        ]
+      },
+      {
+        "referenceUrl": "https://en.wikipedia.org/wiki/Category:Southern_European_countries",
+        "iptcName": null,
+        "iabName": null,
+        "confidence": 0.5889,
+        "id": 2,
+        "name": "Southern European countries",
+        "appearances": [
+          {
+            "startTime": "0:00:43.4666667",
+            "endTime": "0:00:47.5",
+            "startSeconds": 43.5,
+            "endSeconds": 47.5
+          },
+          {
+            "startTime": "0:01:35.7333333",
+            "endTime": "0:01:41.6333333",
+            "startSeconds": 95.7,
+            "endSeconds": 101.6
+          },
+          {
+            "startTime": "0:01:54.6666667",
+            "endTime": "0:01:54.7",
+            "startSeconds": 114.7,
+            "endSeconds": 114.7
+          }
+        ]
+      }
+    ]
+  },
+  "videos": [
+    {
+      "accountId": "6a69f8ca-0f6e-46d3-bd5a-6f3a83dc7b2b",
+      "id": "n2wq3edbkn",
+      "state": "Processed",
+      "moderationState": "OK",
+      "reviewState": "None",
+      "privacyMode": "Private",
+      "processingProgress": "100%",
+      "failureMessage": "",
+      "externalId": null,
+      "externalUrl": null,
+      "metadata": null,
+      "insights": {
+        "version": "1.0.0.0",
+        "duration": "0:02:00.001",
+        "sourceLanguage": "en-US",
+        "sourceLanguages": [
+          "en-US"
+        ],
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "ocrMaxTokenCount": 50000,
+        "ocrAnalyzedTokenCount": 889,
+        "ocr": [
+          {
+            "id": 1,
+            "text": "Political Instab",
+            "confidence": 0.9765,
+            "left": 516,
+            "top": 150,
+            "width": 458,
+            "height": 62,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:43.2",
+                "adjustedEnd": "0:00:43.2333333",
+                "start": "0:00:43.2",
+                "end": "0:00:43.2333333"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "text": "Political Instability in Cyprus",
+            "confidence": 0.9913,
+            "left": 517,
+            "top": 148,
+            "width": 885,
+            "height": 71,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:43.4666667",
+                "adjustedEnd": "0:00:47.5",
+                "start": "0:00:43.4666667",
+                "end": "0:00:47.5"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "text": "BAD",
+            "confidence": 0.997,
+            "left": 740,
+            "top": 551,
+            "width": 387,
+            "height": 158,
+            "angle": 23,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:44",
+                "adjustedEnd": "0:00:47.5",
+                "start": "0:00:44",
+                "end": "0:00:47.5"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "text": "neat",
+            "confidence": 0.996,
+            "left": 1479,
+            "top": 336,
+            "width": 119,
+            "height": 39,
+            "angle": -1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:45.0666667",
+                "adjustedEnd": "0:00:47.5",
+                "start": "0:00:45.0666667",
+                "end": "0:00:47.5"
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "text": "ERCAN",
+            "confidence": 0.911,
+            "left": 143,
+            "top": 492,
+            "width": 134,
+            "height": 70,
+            "angle": -27,
+            "language": "tr-TR",
+            "instances": [
+              {
+                "adjustedStart": "0:00:48",
+                "adjustedEnd": "0:00:48.5666667",
+                "start": "0:00:48",
+                "end": "0:00:48.5666667"
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "text": "Ercan International Airport",
+            "confidence": 0.9777,
+            "left": 1073,
+            "top": 535,
+            "width": 461,
+            "height": 39,
+            "angle": 1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:56.2666667",
+                "adjustedEnd": "0:01:17.1",
+                "start": "0:00:56.2666667",
+                "end": "0:01:17.1"
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "text": "İzmir",
+            "confidence": 0.992,
+            "left": 289,
+            "top": 666,
+            "width": 75,
+            "height": 31,
+            "angle": 3,
+            "language": "tr-TR",
+            "instances": [
+              {
+                "adjustedStart": "0:01:03.2",
+                "adjustedEnd": "0:01:09.9",
+                "start": "0:01:03.2",
+                "end": "0:01:09.9"
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "text": "Antalya",
+            "confidence": 0.998,
+            "left": 652,
+            "top": 683,
+            "width": 123,
+            "height": 37,
+            "angle": 1,
+            "language": "tr-TR",
+            "instances": [
+              {
+                "adjustedStart": "0:01:04",
+                "adjustedEnd": "0:01:09.9",
+                "start": "0:01:04",
+                "end": "0:01:09.9"
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "text": "Istanbul",
+            "confidence": 0.903,
+            "left": 295,
+            "top": 286,
+            "width": 136,
+            "height": 33,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:04.8",
+                "adjustedEnd": "0:01:09.9",
+                "start": "0:01:04.8",
+                "end": "0:01:09.9"
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "text": "Istanbul (Sabiha)",
+            "confidence": 0.9425,
+            "left": 484,
+            "top": 317,
+            "width": 275,
+            "height": 38,
+            "angle": 2,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:05.3333333",
+                "adjustedEnd": "0:01:09.9",
+                "start": "0:01:05.3333333",
+                "end": "0:01:09.9"
+              }
+            ]
+          },
+          {
+            "id": 11,
+            "text": "Ankara",
+            "confidence": 0.998,
+            "left": 817,
+            "top": 319,
+            "width": 112,
+            "height": 29,
+            "angle": 3,
+            "language": "tr-TR",
+            "instances": [
+              {
+                "adjustedStart": "0:01:05.6",
+                "adjustedEnd": "0:01:09.9",
+                "start": "0:01:05.6",
+                "end": "0:01:09.9"
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "text": "Kayseri",
+            "confidence": 0.994,
+            "left": 988,
+            "top": 375,
+            "width": 127,
+            "height": 41,
+            "angle": 1,
+            "language": "to-TO",
+            "instances": [
+              {
+                "adjustedStart": "0:01:05.8666667",
+                "adjustedEnd": "0:01:09.9",
+                "start": "0:01:05.8666667",
+                "end": "0:01:09.9"
+              }
+            ]
+          },
+          {
+            "id": 13,
+            "text": "Çukurova",
+            "confidence": 0.995,
+            "left": 1000,
+            "top": 561,
+            "width": 157,
+            "height": 40,
+            "angle": 0,
+            "language": "tr-TR",
+            "instances": [
+              {
+                "adjustedStart": "0:01:06.4",
+                "adjustedEnd": "0:01:09.9",
+                "start": "0:01:06.4",
+                "end": "0:01:09.9"
+              }
+            ]
+          },
+          {
+            "id": 14,
+            "text": "Trabzon",
+            "confidence": 0.99,
+            "left": 1253,
+            "top": 120,
+            "width": 125,
+            "height": 33,
+            "angle": 0,
+            "language": "tr-TR",
+            "instances": [
+              {
+                "adjustedStart": "0:01:06.9333333",
+                "adjustedEnd": "0:01:09.6333333",
+                "start": "0:01:06.9333333",
+                "end": "0:01:09.6333333"
+              }
+            ]
+          },
+          {
+            "id": 15,
+            "text": "Hatay",
+            "confidence": 0.998,
+            "left": 1200,
+            "top": 712,
+            "width": 99,
+            "height": 34,
+            "angle": 5,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:07.2",
+                "adjustedEnd": "0:01:09.9",
+                "start": "0:01:07.2",
+                "end": "0:01:09.9"
+              }
+            ]
+          },
+          {
+            "id": 16,
+            "text": "Gaziantep",
+            "confidence": 0.969,
+            "left": 1289,
+            "top": 527,
+            "width": 137,
+            "height": 28,
+            "angle": 14,
+            "language": "tr-TR",
+            "instances": [
+              {
+                "adjustedStart": "0:01:07.4666667",
+                "adjustedEnd": "0:01:09.9",
+                "start": "0:01:07.4666667",
+                "end": "0:01:09.9"
+              }
+            ]
+          },
+          {
+            "id": 17,
+            "text": "Diyarbakır",
+            "confidence": 0.995,
+            "left": 1455,
+            "top": 393,
+            "width": 167,
+            "height": 39,
+            "angle": 1,
+            "language": "tr-TR",
+            "instances": [
+              {
+                "adjustedStart": "0:01:08.8",
+                "adjustedEnd": "0:01:09.9",
+                "start": "0:01:08.8",
+                "end": "0:01:09.9"
+              }
+            ]
+          },
+          {
+            "id": 18,
+            "text": "DM L전시관",
+            "confidence": 0.928,
+            "left": 1211,
+            "top": 193,
+            "width": 181,
+            "height": 32,
+            "angle": 0,
+            "language": "ko-KR",
+            "instances": [
+              {
+                "adjustedStart": "0:01:24",
+                "adjustedEnd": "0:01:24.8333333",
+                "start": "0:01:24",
+                "end": "0:01:24.8333333"
+              }
+            ]
+          },
+          {
+            "id": 19,
+            "text": "DMZ展 览 馆",
+            "confidence": 0.9888,
+            "left": 1441,
+            "top": 235,
+            "width": 89,
+            "height": 15,
+            "angle": 1,
+            "language": "zh-Hans",
+            "instances": [
+              {
+                "adjustedStart": "0:01:24",
+                "adjustedEnd": "0:01:24.0333333",
+                "start": "0:01:24",
+                "end": "0:01:24.0333333"
+              }
+            ]
+          },
+          {
+            "id": 20,
+            "text": "DMZ Pavilion",
+            "confidence": 0.989,
+            "left": 1443,
+            "top": 254,
+            "width": 85,
+            "height": 14,
+            "angle": 1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:24",
+                "adjustedEnd": "0:01:24.8333333",
+                "start": "0:01:24",
+                "end": "0:01:24.8333333"
+              }
+            ]
+          },
+          {
+            "id": 21,
+            "text": "DMZ 전시관",
+            "confidence": 0.9943,
+            "left": 546,
+            "top": 252,
+            "width": 62,
+            "height": 14,
+            "angle": 0,
+            "language": "ko-KR",
+            "instances": [
+              {
+                "adjustedStart": "0:01:24",
+                "adjustedEnd": "0:01:24.8333333",
+                "start": "0:01:24",
+                "end": "0:01:24.8333333"
+              }
+            ]
+          },
+          {
+            "id": 22,
+            "text": "DMZ 展览馆",
+            "confidence": 0.991,
+            "left": 1441,
+            "top": 244,
+            "width": 89,
+            "height": 16,
+            "angle": 0,
+            "language": "zh-Hans",
+            "instances": [
+              {
+                "adjustedStart": "0:01:24.2666667",
+                "adjustedEnd": "0:01:24.3",
+                "start": "0:01:24.2666667",
+                "end": "0:01:24.3"
+              }
+            ]
+          },
+          {
+            "id": 23,
+            "text": "DMZ 展 示館",
+            "confidence": 0.9565,
+            "left": 1441,
+            "top": 288,
+            "width": 89,
+            "height": 13,
+            "angle": 2,
+            "language": "ja-JP",
+            "instances": [
+              {
+                "adjustedStart": "0:01:24.2666667",
+                "adjustedEnd": "0:01:24.5666667",
+                "start": "0:01:24.2666667",
+                "end": "0:01:24.5666667"
+              }
+            ]
+          },
+          {
+            "id": 24,
+            "text": "DMZ 展 览 馆",
+            "confidence": 0.988,
+            "left": 1442,
+            "top": 253,
+            "width": 89,
+            "height": 14,
+            "angle": 1,
+            "language": "zh-Hans",
+            "instances": [
+              {
+                "adjustedStart": "0:01:24.5333333",
+                "adjustedEnd": "0:01:24.8333333",
+                "start": "0:01:24.5333333",
+                "end": "0:01:24.8333333"
+              }
+            ]
+          },
+          {
+            "id": 25,
+            "text": "Pavilion",
+            "confidence": 0.981,
+            "left": 1474,
+            "top": 289,
+            "width": 58,
+            "height": 12,
+            "angle": 2,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:25.0666667",
+                "adjustedEnd": "0:01:25.1",
+                "start": "0:01:25.0666667",
+                "end": "0:01:25.1"
+              }
+            ]
+          },
+          {
+            "id": 26,
+            "text": "示館",
+            "confidence": 0.9755,
+            "left": 1483,
+            "top": 308,
+            "width": 45,
+            "height": 13,
+            "angle": -1,
+            "language": "ja-JP",
+            "instances": [
+              {
+                "adjustedStart": "0:01:25.0666667",
+                "adjustedEnd": "0:01:25.1",
+                "start": "0:01:25.0666667",
+                "end": "0:01:25.1"
+              }
+            ]
+          },
+          {
+            "id": 27,
+            "text": "NO MAN'S",
+            "confidence": 0.963,
+            "left": 420,
+            "top": 701,
+            "width": 272,
+            "height": 73,
+            "angle": 3,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:25.3333333",
+                "adjustedEnd": "0:01:33.6333333",
+                "start": "0:01:25.3333333",
+                "end": "0:01:33.6333333"
+              }
+            ]
+          },
+          {
+            "id": 28,
+            "text": "STOP",
+            "confidence": 0.996,
+            "left": 747,
+            "top": 735,
+            "width": 174,
+            "height": 58,
+            "angle": 5,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:25.3333333",
+                "adjustedEnd": "0:01:33.9",
+                "start": "0:01:25.3333333",
+                "end": "0:01:33.9"
+              }
+            ]
+          },
+          {
+            "id": 29,
+            "text": "LA ND",
+            "confidence": 0.998,
+            "left": 463,
+            "top": 783,
+            "width": 198,
+            "height": 69,
+            "angle": 4,
+            "language": "es-ES",
+            "instances": [
+              {
+                "adjustedStart": "0:01:25.3333333",
+                "adjustedEnd": "0:01:33.9",
+                "start": "0:01:25.3333333",
+                "end": "0:01:33.9"
+              }
+            ]
+          },
+          {
+            "id": 30,
+            "text": "DO NOT ENTER",
+            "confidence": 0.9967,
+            "left": 714,
+            "top": 795,
+            "width": 228,
+            "height": 28,
+            "angle": 5,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:25.3333333",
+                "adjustedEnd": "0:01:33.9",
+                "start": "0:01:25.3333333",
+                "end": "0:01:33.9"
+              }
+            ]
+          },
+          {
+            "id": 31,
+            "text": "MILITARY ZONE",
+            "confidence": 0.9965,
+            "left": 707,
+            "top": 895,
+            "width": 235,
+            "height": 27,
+            "angle": 6,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:25.3333333",
+                "adjustedEnd": "0:01:33.9",
+                "start": "0:01:25.3333333",
+                "end": "0:01:33.9"
+              }
+            ]
+          },
+          {
+            "id": 32,
+            "text": "DON'T APPRO",
+            "confidence": 0.964,
+            "left": 63,
+            "top": 746,
+            "width": 134,
+            "height": 16,
+            "angle": 3,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:25.6",
+                "adjustedEnd": "0:01:26.9666667",
+                "start": "0:01:25.6",
+                "end": "0:01:26.9666667"
+              }
+            ]
+          },
+          {
+            "id": 33,
+            "text": "DON'T TAKE PHOT",
+            "confidence": 0.9233,
+            "left": 24,
+            "top": 764,
+            "width": 165,
+            "height": 15,
+            "angle": 1,
+            "language": "fr-FR",
+            "instances": [
+              {
+                "adjustedStart": "0:01:25.6",
+                "adjustedEnd": "0:01:28.5666667",
+                "start": "0:01:25.6",
+                "end": "0:01:28.5666667"
+              }
+            ]
+          },
+          {
+            "id": 34,
+            "text": "PROHIBITED",
+            "confidence": 0.969,
+            "left": 53,
+            "top": 729,
+            "width": 132,
+            "height": 15,
+            "angle": 3,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:25.8666667",
+                "adjustedEnd": "0:01:32.8333333",
+                "start": "0:01:25.8666667",
+                "end": "0:01:32.8333333"
+              }
+            ]
+          },
+          {
+            "id": 35,
+            "text": "DON",
+            "confidence": 0.987,
+            "left": 35,
+            "top": 746,
+            "width": 47,
+            "height": 14,
+            "angle": 1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:27.7333333",
+                "adjustedEnd": "0:01:27.7666667",
+                "start": "0:01:27.7333333",
+                "end": "0:01:27.7666667"
+              }
+            ]
+          },
+          {
+            "id": 36,
+            "text": "OPEYMENH",
+            "confidence": 0.944,
+            "left": 5,
+            "top": 810,
+            "width": 114,
+            "height": 19,
+            "angle": 1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:28.2666667",
+                "adjustedEnd": "0:01:31.5",
+                "start": "0:01:28.2666667",
+                "end": "0:01:31.5"
+              }
+            ]
+          },
+          {
+            "id": 37,
+            "text": "ATTENT",
+            "confidence": 0.985,
+            "left": 25,
+            "top": 703,
+            "width": 92,
+            "height": 20,
+            "angle": 3,
+            "language": "nl-NL",
+            "instances": [
+              {
+                "adjustedStart": "0:01:28.5333333",
+                "adjustedEnd": "0:01:29.1",
+                "start": "0:01:28.5333333",
+                "end": "0:01:29.1"
+              }
+            ]
+          },
+          {
+            "id": 38,
+            "text": "TAKE PHOT",
+            "confidence": 0.94,
+            "left": 10,
+            "top": 762,
+            "width": 112,
+            "height": 17,
+            "angle": 2,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:28.8",
+                "adjustedEnd": "0:01:30.4333333",
+                "start": "0:01:28.8",
+                "end": "0:01:30.4333333"
+              }
+            ]
+          },
+          {
+            "id": 39,
+            "text": "PPR",
+            "confidence": 0.996,
+            "left": 24,
+            "top": 743,
+            "width": 42,
+            "height": 20,
+            "angle": 4,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:30.1333333",
+                "adjustedEnd": "0:01:33.1",
+                "start": "0:01:30.1333333",
+                "end": "0:01:33.1"
+              }
+            ]
+          },
+          {
+            "id": 40,
+            "text": "HOT",
+            "confidence": 0.992,
+            "left": 14,
+            "top": 765,
+            "width": 40,
+            "height": 13,
+            "angle": 4,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:30.6666667",
+                "adjustedEnd": "0:01:32.8333333",
+                "start": "0:01:30.6666667",
+                "end": "0:01:32.8333333"
+              }
+            ]
+          },
+          {
+            "id": 41,
+            "text": "EO",
+            "confidence": 0.93,
+            "left": 2,
+            "top": 791,
+            "width": 38,
+            "height": 18,
+            "angle": 5,
+            "language": "mg-MG",
+            "instances": [
+              {
+                "adjustedStart": "0:01:32.2666667",
+                "adjustedEnd": "0:01:32.5666667",
+                "start": "0:01:32.2666667",
+                "end": "0:01:32.5666667"
+              }
+            ]
+          },
+          {
+            "id": 42,
+            "text": "NH",
+            "confidence": 0.993,
+            "left": 0,
+            "top": 814,
+            "width": 36,
+            "height": 15,
+            "angle": 5,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:32.5333333",
+                "adjustedEnd": "0:01:32.8333333",
+                "start": "0:01:32.5333333",
+                "end": "0:01:32.8333333"
+              }
+            ]
+          },
+          {
+            "id": 43,
+            "text": "The Turkish Republic",
+            "confidence": 0.9977,
+            "left": 1062,
+            "top": 274,
+            "width": 366,
+            "height": 40,
+            "angle": 3,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:35.7333333",
+                "adjustedEnd": "0:01:41.6333333",
+                "start": "0:01:35.7333333",
+                "end": "0:01:41.6333333"
+              },
+              {
+                "adjustedStart": "0:01:49.3333333",
+                "adjustedEnd": "0:01:54.4333333",
+                "start": "0:01:49.3333333",
+                "end": "0:01:54.4333333"
+              }
+            ]
+          },
+          {
+            "id": 44,
+            "text": "of Northern Cyprus",
+            "confidence": 0.998,
+            "left": 1045,
+            "top": 368,
+            "width": 283,
+            "height": 32,
+            "angle": -8,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:35.7333333",
+                "adjustedEnd": "0:01:41.6333333",
+                "start": "0:01:35.7333333",
+                "end": "0:01:41.6333333"
+              },
+              {
+                "adjustedStart": "0:01:49.3333333",
+                "adjustedEnd": "0:01:54.4333333",
+                "start": "0:01:49.3333333",
+                "end": "0:01:54.4333333"
+              }
+            ]
+          },
+          {
+            "id": 45,
+            "text": "UN Buffer Zone",
+            "confidence": 0.9973,
+            "left": 915,
+            "top": 504,
+            "width": 142,
+            "height": 20,
+            "angle": -7,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:35.7333333",
+                "adjustedEnd": "0:01:41.6333333",
+                "start": "0:01:35.7333333",
+                "end": "0:01:41.6333333"
+              },
+              {
+                "adjustedStart": "0:01:49.6",
+                "adjustedEnd": "0:01:54.4333333",
+                "start": "0:01:49.6",
+                "end": "0:01:54.4333333"
+              }
+            ]
+          },
+          {
+            "id": 46,
+            "text": "The Republic of Cyprus",
+            "confidence": 0.9975,
+            "left": 463,
+            "top": 615,
+            "width": 428,
+            "height": 44,
+            "angle": 4,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:35.7333333",
+                "adjustedEnd": "0:01:41.6333333",
+                "start": "0:01:35.7333333",
+                "end": "0:01:41.6333333"
+              },
+              {
+                "adjustedStart": "0:01:49.6",
+                "adjustedEnd": "0:01:54.4333333",
+                "start": "0:01:49.6",
+                "end": "0:01:54.4333333"
+              }
+            ]
+          },
+          {
+            "id": 47,
+            "text": "Free Shop",
+            "confidence": 0.9955,
+            "left": 84,
+            "top": 415,
+            "width": 98,
+            "height": 14,
+            "angle": 1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:44",
+                "adjustedEnd": "0:01:44.0333333",
+                "start": "0:01:44",
+                "end": "0:01:44.0333333"
+              }
+            ]
+          },
+          {
+            "id": 48,
+            "text": "Bata",
+            "confidence": 0.929,
+            "left": 10,
+            "top": 448,
+            "width": 160,
+            "height": 37,
+            "angle": 1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:44",
+                "adjustedEnd": "0:01:45.9",
+                "start": "0:01:44",
+                "end": "0:01:45.9"
+              }
+            ]
+          },
+          {
+            "id": 49,
+            "text": "ree Shop",
+            "confidence": 0.9795,
+            "left": 6,
+            "top": 401,
+            "width": 96,
+            "height": 16,
+            "angle": 2,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:44.2666667",
+                "adjustedEnd": "0:01:45.9",
+                "start": "0:01:44.2666667",
+                "end": "0:01:45.9"
+              }
+            ]
+          },
+          {
+            "id": 50,
+            "text": "Shop",
+            "confidence": 0.996,
+            "left": 15,
+            "top": 400,
+            "width": 65,
+            "height": 15,
+            "angle": 4,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:45.3333333",
+                "adjustedEnd": "0:01:45.3666667",
+                "start": "0:01:45.3333333",
+                "end": "0:01:45.3666667"
+              }
+            ]
+          },
+          {
+            "id": 51,
+            "text": "The Republic of",
+            "confidence": 0.9973,
+            "left": 467,
+            "top": 625,
+            "width": 289,
+            "height": 42,
+            "angle": 2,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:49.3333333",
+                "adjustedEnd": "0:01:49.3666667",
+                "start": "0:01:49.3333333",
+                "end": "0:01:49.3666667"
+              }
+            ]
+          },
+          {
+            "id": 52,
+            "text": "British Overseas",
+            "confidence": 0.9945,
+            "left": 1260,
+            "top": 852,
+            "width": 91,
+            "height": 13,
+            "angle": 9,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:52.5333333",
+                "adjustedEnd": "0:01:54.4333333",
+                "start": "0:01:52.5333333",
+                "end": "0:01:54.4333333"
+              }
+            ]
+          },
+          {
+            "id": 53,
+            "text": "Territories",
+            "confidence": 0.929,
+            "left": 1274,
+            "top": 869,
+            "width": 60,
+            "height": 11,
+            "angle": 10,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:52.5333333",
+                "adjustedEnd": "0:01:54.4333333",
+                "start": "0:01:52.5333333",
+                "end": "0:01:54.4333333"
+              }
+            ]
+          },
+          {
+            "id": 54,
+            "text": "Republic",
+            "confidence": 0.998,
+            "left": 1276,
+            "top": 267,
+            "width": 165,
+            "height": 43,
+            "angle": 10,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:54.6666667",
+                "adjustedEnd": "0:01:54.7",
+                "start": "0:01:54.6666667",
+                "end": "0:01:54.7"
+              }
+            ]
+          },
+          {
+            "id": 55,
+            "text": "Cyprus",
+            "confidence": 0.998,
+            "left": 1284,
+            "top": 316,
+            "width": 141,
+            "height": 42,
+            "angle": 9,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:54.6666667",
+                "adjustedEnd": "0:01:54.7",
+                "start": "0:01:54.6666667",
+                "end": "0:01:54.7"
+              }
+            ]
+          },
+          {
+            "id": 56,
+            "text": "Overseas",
+            "confidence": 0.998,
+            "left": 1263,
+            "top": 834,
+            "width": 187,
+            "height": 32,
+            "angle": 12,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:54.6666667",
+                "adjustedEnd": "0:01:54.7",
+                "start": "0:01:54.6666667",
+                "end": "0:01:54.7"
+              }
+            ]
+          },
+          {
+            "id": 57,
+            "text": "tories",
+            "confidence": 0.998,
+            "left": 1257,
+            "top": 884,
+            "width": 116,
+            "height": 31,
+            "angle": 11,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:54.6666667",
+                "adjustedEnd": "0:01:54.7",
+                "start": "0:01:54.6666667",
+                "end": "0:01:54.7"
+              }
+            ]
+          }
+        ],
+        "keywords": [
+          {
+            "id": 1,
+            "text": "ree shop",
+            "confidence": 0.9498,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:44",
+                "adjustedEnd": "0:01:44.0333333",
+                "start": "0:01:44",
+                "end": "0:01:44.0333333"
+              },
+              {
+                "adjustedStart": "0:01:44.2666667",
+                "adjustedEnd": "0:01:45.9",
+                "start": "0:01:44.2666667",
+                "end": "0:01:45.9"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "text": "cyprus",
+            "confidence": 0.6262,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:43.4666667",
+                "adjustedEnd": "0:00:47.5",
+                "start": "0:00:43.4666667",
+                "end": "0:00:47.5"
+              },
+              {
+                "adjustedStart": "0:01:35.7333333",
+                "adjustedEnd": "0:01:41.6333333",
+                "start": "0:01:35.7333333",
+                "end": "0:01:41.6333333"
+              },
+              {
+                "adjustedStart": "0:01:35.7333333",
+                "adjustedEnd": "0:01:41.6333333",
+                "start": "0:01:35.7333333",
+                "end": "0:01:41.6333333"
+              },
+              {
+                "adjustedStart": "0:01:54.6666667",
+                "adjustedEnd": "0:01:54.7",
+                "start": "0:01:54.6666667",
+                "end": "0:01:54.7"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "text": "republic",
+            "confidence": 0.6262,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:35.7333333",
+                "adjustedEnd": "0:01:41.6333333",
+                "start": "0:01:35.7333333",
+                "end": "0:01:41.6333333"
+              },
+              {
+                "adjustedStart": "0:01:35.7333333",
+                "adjustedEnd": "0:01:41.6333333",
+                "start": "0:01:35.7333333",
+                "end": "0:01:41.6333333"
+              },
+              {
+                "adjustedStart": "0:01:49.3333333",
+                "adjustedEnd": "0:01:49.3666667",
+                "start": "0:01:49.3333333",
+                "end": "0:01:49.3666667"
+              },
+              {
+                "adjustedStart": "0:01:54.6666667",
+                "adjustedEnd": "0:01:54.7",
+                "start": "0:01:54.6666667",
+                "end": "0:01:54.7"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "text": "istanbul",
+            "confidence": 0.6211,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:04.8",
+                "adjustedEnd": "0:01:09.9",
+                "start": "0:01:04.8",
+                "end": "0:01:09.9"
+              },
+              {
+                "adjustedStart": "0:01:05.3333333",
+                "adjustedEnd": "0:01:09.9",
+                "start": "0:01:05.3333333",
+                "end": "0:01:09.9"
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "text": "phot",
+            "confidence": 0.6211,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:25.6",
+                "adjustedEnd": "0:01:28.5666667",
+                "start": "0:01:25.6",
+                "end": "0:01:28.5666667"
+              },
+              {
+                "adjustedStart": "0:01:28.8",
+                "adjustedEnd": "0:01:30.4333333",
+                "start": "0:01:28.8",
+                "end": "0:01:30.4333333"
+              }
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "id": 1,
+            "name": "Eastern Mediterranean",
+            "referenceId": "Category:Eastern_Mediterranean",
+            "referenceUrl": "https://en.wikipedia.org/wiki/Category:Eastern_Mediterranean",
+            "referenceType": "Wikipedia",
+            "confidence": 0.5908,
+            "iabName": null,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:43.4666667",
+                "adjustedEnd": "0:00:47.5",
+                "start": "0:00:43.4666667",
+                "end": "0:00:47.5"
+              },
+              {
+                "adjustedStart": "0:01:35.7333333",
+                "adjustedEnd": "0:01:41.6333333",
+                "start": "0:01:35.7333333",
+                "end": "0:01:41.6333333"
+              },
+              {
+                "adjustedStart": "0:01:54.6666667",
+                "adjustedEnd": "0:01:54.7",
+                "start": "0:01:54.6666667",
+                "end": "0:01:54.7"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Southern European countries",
+            "referenceId": "Category:Southern_European_countries",
+            "referenceUrl": "https://en.wikipedia.org/wiki/Category:Southern_European_countries",
+            "referenceType": "Wikipedia",
+            "confidence": 0.5889,
+            "iabName": null,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:43.4666667",
+                "adjustedEnd": "0:00:47.5",
+                "start": "0:00:43.4666667",
+                "end": "0:00:47.5"
+              },
+              {
+                "adjustedStart": "0:01:35.7333333",
+                "adjustedEnd": "0:01:41.6333333",
+                "start": "0:01:35.7333333",
+                "end": "0:01:41.6333333"
+              },
+              {
+                "adjustedStart": "0:01:54.6666667",
+                "adjustedEnd": "0:01:54.7",
+                "start": "0:01:54.6666667",
+                "end": "0:01:54.7"
+              }
+            ]
+          }
+        ],
+        "labels": [
+          {
+            "id": 1,
+            "name": "map",
+            "referenceId": "creation/representation/map",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9975,
+                "adjustedStart": "0:00:00.2666667",
+                "adjustedEnd": "0:00:00.5666667",
+                "start": "0:00:00.2666667",
+                "end": "0:00:00.5666667"
+              },
+              {
+                "confidence": 0.9927,
+                "adjustedStart": "0:00:03.4666667",
+                "adjustedEnd": "0:00:08.8333333",
+                "start": "0:00:03.4666667",
+                "end": "0:00:08.8333333"
+              },
+              {
+                "confidence": 0.9894,
+                "adjustedStart": "0:00:13.0666667",
+                "adjustedEnd": "0:00:13.1",
+                "start": "0:00:13.0666667",
+                "end": "0:00:13.1"
+              },
+              {
+                "confidence": 0.9983,
+                "adjustedStart": "0:00:13.8666667",
+                "adjustedEnd": "0:00:13.9",
+                "start": "0:00:13.8666667",
+                "end": "0:00:13.9"
+              },
+              {
+                "confidence": 0.9973,
+                "adjustedStart": "0:00:14.6666667",
+                "adjustedEnd": "0:00:15.5",
+                "start": "0:00:14.6666667",
+                "end": "0:00:15.5"
+              },
+              {
+                "confidence": 0.9796,
+                "adjustedStart": "0:00:18.6666667",
+                "adjustedEnd": "0:00:18.7",
+                "start": "0:00:18.6666667",
+                "end": "0:00:18.7"
+              },
+              {
+                "confidence": 0.9848,
+                "adjustedStart": "0:00:31.7333333",
+                "adjustedEnd": "0:00:36.0333333",
+                "start": "0:00:31.7333333",
+                "end": "0:00:36.0333333"
+              },
+              {
+                "confidence": 0.9608,
+                "adjustedStart": "0:00:37.8666667",
+                "adjustedEnd": "0:00:38.4333333",
+                "start": "0:00:37.8666667",
+                "end": "0:00:38.4333333"
+              },
+              {
+                "confidence": 0.9947,
+                "adjustedStart": "0:00:54.9333333",
+                "adjustedEnd": "0:00:56.3",
+                "start": "0:00:54.9333333",
+                "end": "0:00:56.3"
+              },
+              {
+                "confidence": 0.9973,
+                "adjustedStart": "0:01:04.5333333",
+                "adjustedEnd": "0:01:05.1",
+                "start": "0:01:04.5333333",
+                "end": "0:01:05.1"
+              },
+              {
+                "confidence": 0.9967,
+                "adjustedStart": "0:01:05.6",
+                "adjustedEnd": "0:01:05.9",
+                "start": "0:01:05.6",
+                "end": "0:01:05.9"
+              },
+              {
+                "confidence": 0.9967,
+                "adjustedStart": "0:01:06.4",
+                "adjustedEnd": "0:01:07.7666667",
+                "start": "0:01:06.4",
+                "end": "0:01:07.7666667"
+              },
+              {
+                "confidence": 0.9949,
+                "adjustedStart": "0:01:12",
+                "adjustedEnd": "0:01:12.0333333",
+                "start": "0:01:12",
+                "end": "0:01:12.0333333"
+              },
+              {
+                "confidence": 0.9937,
+                "adjustedStart": "0:01:12.5333333",
+                "adjustedEnd": "0:01:14.1666667",
+                "start": "0:01:12.5333333",
+                "end": "0:01:14.1666667"
+              },
+              {
+                "confidence": 0.9527,
+                "adjustedStart": "0:01:49.8666667",
+                "adjustedEnd": "0:01:49.9",
+                "start": "0:01:49.8666667",
+                "end": "0:01:49.9"
+              },
+              {
+                "confidence": 0.9585,
+                "adjustedStart": "0:01:50.4",
+                "adjustedEnd": "0:01:50.4333333",
+                "start": "0:01:50.4",
+                "end": "0:01:50.4333333"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "water",
+            "referenceId": "matter/liquid/water",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9664,
+                "adjustedStart": "0:00:03.7333333",
+                "adjustedEnd": "0:00:08.5666667",
+                "start": "0:00:03.7333333",
+                "end": "0:00:08.5666667"
+              },
+              {
+                "confidence": 0.9632,
+                "adjustedStart": "0:01:41.8666667",
+                "adjustedEnd": "0:01:41.9",
+                "start": "0:01:41.8666667",
+                "end": "0:01:41.9"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "clothing",
+            "referenceId": "consumer goods/clothing",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9725,
+                "adjustedStart": "0:00:09.3333333",
+                "adjustedEnd": "0:00:12.8333333",
+                "start": "0:00:09.3333333",
+                "end": "0:00:12.8333333"
+              },
+              {
+                "confidence": 0.9829,
+                "adjustedStart": "0:00:18.9333333",
+                "adjustedEnd": "0:00:24.5666667",
+                "start": "0:00:18.9333333",
+                "end": "0:00:24.5666667"
+              },
+              {
+                "confidence": 0.9889,
+                "adjustedStart": "0:00:27.2",
+                "adjustedEnd": "0:00:30.9666667",
+                "start": "0:00:27.2",
+                "end": "0:00:30.9666667"
+              },
+              {
+                "confidence": 0.9872,
+                "adjustedStart": "0:00:45.8666667",
+                "adjustedEnd": "0:00:47.7666667",
+                "start": "0:00:45.8666667",
+                "end": "0:00:47.7666667"
+              },
+              {
+                "confidence": 0.965,
+                "adjustedStart": "0:00:48.2666667",
+                "adjustedEnd": "0:00:48.8333333",
+                "start": "0:00:48.2666667",
+                "end": "0:00:48.8333333"
+              },
+              {
+                "confidence": 0.9701,
+                "adjustedStart": "0:00:49.3333333",
+                "adjustedEnd": "0:00:54.1666667",
+                "start": "0:00:49.3333333",
+                "end": "0:00:54.1666667"
+              },
+              {
+                "confidence": 0.9812,
+                "adjustedStart": "0:01:17.3333333",
+                "adjustedEnd": "0:01:21.1",
+                "start": "0:01:17.3333333",
+                "end": "0:01:21.1"
+              },
+              {
+                "confidence": 0.9808,
+                "adjustedStart": "0:01:47.2",
+                "adjustedEnd": "0:01:47.5",
+                "start": "0:01:47.2",
+                "end": "0:01:47.5"
+              },
+              {
+                "confidence": 0.9702,
+                "adjustedStart": "0:01:48",
+                "adjustedEnd": "0:01:48.0333333",
+                "start": "0:01:48",
+                "end": "0:01:48.0333333"
+              },
+              {
+                "confidence": 0.9561,
+                "adjustedStart": "0:01:48.5333333",
+                "adjustedEnd": "0:01:48.8333333",
+                "start": "0:01:48.5333333",
+                "end": "0:01:48.8333333"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "name": "jacket",
+            "referenceId": "clothing/coat/jacket",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9601,
+                "adjustedStart": "0:00:10.1333333",
+                "adjustedEnd": "0:00:10.7",
+                "start": "0:00:10.1333333",
+                "end": "0:00:10.7"
+              },
+              {
+                "confidence": 0.9561,
+                "adjustedStart": "0:00:11.2",
+                "adjustedEnd": "0:00:11.7666667",
+                "start": "0:00:11.2",
+                "end": "0:00:11.7666667"
+              },
+              {
+                "confidence": 0.966,
+                "adjustedStart": "0:00:12.5333333",
+                "adjustedEnd": "0:00:12.5666667",
+                "start": "0:00:12.5333333",
+                "end": "0:00:12.5666667"
+              },
+              {
+                "confidence": 0.9503,
+                "adjustedStart": "0:00:30.1333333",
+                "adjustedEnd": "0:00:30.1666667",
+                "start": "0:00:30.1333333",
+                "end": "0:00:30.1666667"
+              },
+              {
+                "confidence": 0.9712,
+                "adjustedStart": "0:00:30.9333333",
+                "adjustedEnd": "0:00:30.9666667",
+                "start": "0:00:30.9333333",
+                "end": "0:00:30.9666667"
+              },
+              {
+                "confidence": 0.9642,
+                "adjustedStart": "0:00:46.1333333",
+                "adjustedEnd": "0:00:46.9666667",
+                "start": "0:00:46.1333333",
+                "end": "0:00:46.9666667"
+              },
+              {
+                "confidence": 0.9785,
+                "adjustedStart": "0:00:48",
+                "adjustedEnd": "0:00:50.1666667",
+                "start": "0:00:48",
+                "end": "0:00:50.1666667"
+              },
+              {
+                "confidence": 0.9614,
+                "adjustedStart": "0:00:51.4666667",
+                "adjustedEnd": "0:00:51.5",
+                "start": "0:00:51.4666667",
+                "end": "0:00:51.5"
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "name": "painting",
+            "referenceId": "painting",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9799,
+                "adjustedStart": "0:00:25.0666667",
+                "adjustedEnd": "0:00:26.9666667",
+                "start": "0:00:25.0666667",
+                "end": "0:00:26.9666667"
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "name": "nature",
+            "referenceId": "nature",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9543,
+                "adjustedStart": "0:00:40",
+                "adjustedEnd": "0:00:40.0333333",
+                "start": "0:00:40",
+                "end": "0:00:40.0333333"
+              },
+              {
+                "confidence": 0.9758,
+                "adjustedStart": "0:01:55.2",
+                "adjustedEnd": "0:01:56.8333333",
+                "start": "0:01:55.2",
+                "end": "0:01:56.8333333"
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "name": "text",
+            "referenceId": "communication/writing/text",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9836,
+                "adjustedStart": "0:00:45.8666667",
+                "adjustedEnd": "0:00:45.9",
+                "start": "0:00:45.8666667",
+                "end": "0:00:45.9"
+              },
+              {
+                "confidence": 0.9614,
+                "adjustedStart": "0:01:08",
+                "adjustedEnd": "0:01:08.5666667",
+                "start": "0:01:08",
+                "end": "0:01:08.5666667"
+              },
+              {
+                "confidence": 0.9566,
+                "adjustedStart": "0:01:09.3333333",
+                "adjustedEnd": "0:01:09.3666667",
+                "start": "0:01:09.3333333",
+                "end": "0:01:09.3666667"
+              },
+              {
+                "confidence": 0.9665,
+                "adjustedStart": "0:01:25.6",
+                "adjustedEnd": "0:01:29.3666667",
+                "start": "0:01:25.6",
+                "end": "0:01:29.3666667"
+              },
+              {
+                "confidence": 0.964,
+                "adjustedStart": "0:01:32.8",
+                "adjustedEnd": "0:01:33.1",
+                "start": "0:01:32.8",
+                "end": "0:01:33.1"
+              },
+              {
+                "confidence": 0.9697,
+                "adjustedStart": "0:01:33.8666667",
+                "adjustedEnd": "0:01:33.9",
+                "start": "0:01:33.8666667",
+                "end": "0:01:33.9"
+              },
+              {
+                "confidence": 0.9947,
+                "adjustedStart": "0:01:36",
+                "adjustedEnd": "0:01:36.0333333",
+                "start": "0:01:36",
+                "end": "0:01:36.0333333"
+              },
+              {
+                "confidence": 0.976,
+                "adjustedStart": "0:01:36.5333333",
+                "adjustedEnd": "0:01:41.6333333",
+                "start": "0:01:36.5333333",
+                "end": "0:01:41.6333333"
+              },
+              {
+                "confidence": 0.997,
+                "adjustedStart": "0:01:49.6",
+                "adjustedEnd": "0:01:54.4333333",
+                "start": "0:01:49.6",
+                "end": "0:01:54.4333333"
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "name": "sky",
+            "referenceId": "atmosphere/sky",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9647,
+                "adjustedStart": "0:00:47.7333333",
+                "adjustedEnd": "0:00:50.1666667",
+                "start": "0:00:47.7333333",
+                "end": "0:00:50.1666667"
+              },
+              {
+                "confidence": 0.9534,
+                "adjustedStart": "0:01:21.8666667",
+                "adjustedEnd": "0:01:21.9",
+                "start": "0:01:21.8666667",
+                "end": "0:01:21.9"
+              },
+              {
+                "confidence": 0.9613,
+                "adjustedStart": "0:01:22.6666667",
+                "adjustedEnd": "0:01:23.2333333",
+                "start": "0:01:22.6666667",
+                "end": "0:01:23.2333333"
+              },
+              {
+                "confidence": 0.984,
+                "adjustedStart": "0:01:25.0666667",
+                "adjustedEnd": "0:01:29.9",
+                "start": "0:01:25.0666667",
+                "end": "0:01:29.9"
+              },
+              {
+                "confidence": 0.957,
+                "adjustedStart": "0:01:30.4",
+                "adjustedEnd": "0:01:31.5",
+                "start": "0:01:30.4",
+                "end": "0:01:31.5"
+              },
+              {
+                "confidence": 0.9802,
+                "adjustedStart": "0:01:32",
+                "adjustedEnd": "0:01:32.3",
+                "start": "0:01:32",
+                "end": "0:01:32.3"
+              },
+              {
+                "confidence": 0.9697,
+                "adjustedStart": "0:01:32.8",
+                "adjustedEnd": "0:01:32.8333333",
+                "start": "0:01:32.8",
+                "end": "0:01:32.8333333"
+              },
+              {
+                "confidence": 0.9984,
+                "adjustedStart": "0:01:42.1333333",
+                "adjustedEnd": "0:01:43.7666667",
+                "start": "0:01:42.1333333",
+                "end": "0:01:43.7666667"
+              },
+              {
+                "confidence": 0.9709,
+                "adjustedStart": "0:01:54.6666667",
+                "adjustedEnd": "0:01:56.8333333",
+                "start": "0:01:54.6666667",
+                "end": "0:01:56.8333333"
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "name": "outdoor",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9615,
+                "adjustedStart": "0:00:48",
+                "adjustedEnd": "0:00:48.3",
+                "start": "0:00:48",
+                "end": "0:00:48.3"
+              },
+              {
+                "confidence": 0.9639,
+                "adjustedStart": "0:00:50.1333333",
+                "adjustedEnd": "0:00:50.1666667",
+                "start": "0:00:50.1333333",
+                "end": "0:00:50.1666667"
+              },
+              {
+                "confidence": 0.9603,
+                "adjustedStart": "0:00:50.6666667",
+                "adjustedEnd": "0:00:50.7",
+                "start": "0:00:50.6666667",
+                "end": "0:00:50.7"
+              },
+              {
+                "confidence": 0.9532,
+                "adjustedStart": "0:00:51.4666667",
+                "adjustedEnd": "0:00:51.5",
+                "start": "0:00:51.4666667",
+                "end": "0:00:51.5"
+              },
+              {
+                "confidence": 0.9761,
+                "adjustedStart": "0:01:21.3333333",
+                "adjustedEnd": "0:01:33.6333333",
+                "start": "0:01:21.3333333",
+                "end": "0:01:33.6333333"
+              },
+              {
+                "confidence": 0.9974,
+                "adjustedStart": "0:01:42.1333333",
+                "adjustedEnd": "0:01:43.7666667",
+                "start": "0:01:42.1333333",
+                "end": "0:01:43.7666667"
+              },
+              {
+                "confidence": 0.9693,
+                "adjustedStart": "0:01:54.6666667",
+                "adjustedEnd": "0:01:56.8333333",
+                "start": "0:01:54.6666667",
+                "end": "0:01:56.8333333"
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "name": "building",
+            "referenceId": "structure/building",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9835,
+                "adjustedStart": "0:00:50.4",
+                "adjustedEnd": "0:00:54.4333333",
+                "start": "0:00:50.4",
+                "end": "0:00:54.4333333"
+              },
+              {
+                "confidence": 0.956,
+                "adjustedStart": "0:01:43.4666667",
+                "adjustedEnd": "0:01:43.5",
+                "start": "0:01:43.4666667",
+                "end": "0:01:43.5"
+              },
+              {
+                "confidence": 0.979,
+                "adjustedStart": "0:01:44",
+                "adjustedEnd": "0:01:49.3666667",
+                "start": "0:01:44",
+                "end": "0:01:49.3666667"
+              }
+            ]
+          },
+          {
+            "id": 11,
+            "name": "person",
+            "referenceId": "person",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9795,
+                "adjustedStart": "0:01:17.6",
+                "adjustedEnd": "0:01:21.1",
+                "start": "0:01:17.6",
+                "end": "0:01:21.1"
+              },
+              {
+                "confidence": 0.9913,
+                "adjustedStart": "0:01:34.1333333",
+                "adjustedEnd": "0:01:35.7666667",
+                "start": "0:01:34.1333333",
+                "end": "0:01:35.7666667"
+              },
+              {
+                "confidence": 0.9608,
+                "adjustedStart": "0:01:47.4666667",
+                "adjustedEnd": "0:01:47.5",
+                "start": "0:01:47.4666667",
+                "end": "0:01:47.5"
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "name": "couch",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9546,
+                "adjustedStart": "0:01:18.1333333",
+                "adjustedEnd": "0:01:18.7",
+                "start": "0:01:18.1333333",
+                "end": "0:01:18.7"
+              }
+            ]
+          },
+          {
+            "id": 13,
+            "name": "fence",
+            "referenceId": "structure/barrier/fence",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9519,
+                "adjustedStart": "0:01:21.6",
+                "adjustedEnd": "0:01:21.6333333",
+                "start": "0:01:21.6",
+                "end": "0:01:21.6333333"
+              },
+              {
+                "confidence": 0.9541,
+                "adjustedStart": "0:01:22.6666667",
+                "adjustedEnd": "0:01:22.7",
+                "start": "0:01:22.6666667",
+                "end": "0:01:22.7"
+              }
+            ]
+          },
+          {
+            "id": 14,
+            "name": "tree",
+            "referenceId": "plant/tree",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9767,
+                "adjustedStart": "0:01:24",
+                "adjustedEnd": "0:01:24.0333333",
+                "start": "0:01:24",
+                "end": "0:01:24.0333333"
+              },
+              {
+                "confidence": 0.9727,
+                "adjustedStart": "0:01:24.5333333",
+                "adjustedEnd": "0:01:24.8333333",
+                "start": "0:01:24.5333333",
+                "end": "0:01:24.8333333"
+              },
+              {
+                "confidence": 0.9649,
+                "adjustedStart": "0:01:25.3333333",
+                "adjustedEnd": "0:01:25.6333333",
+                "start": "0:01:25.3333333",
+                "end": "0:01:25.6333333"
+              },
+              {
+                "confidence": 0.9516,
+                "adjustedStart": "0:01:55.7333333",
+                "adjustedEnd": "0:01:55.7666667",
+                "start": "0:01:55.7333333",
+                "end": "0:01:55.7666667"
+              },
+              {
+                "confidence": 0.9536,
+                "adjustedStart": "0:01:56.2666667",
+                "adjustedEnd": "0:01:56.8333333",
+                "start": "0:01:56.2666667",
+                "end": "0:01:56.8333333"
+              }
+            ]
+          },
+          {
+            "id": 15,
+            "name": "playground",
+            "referenceId": "location/area/playground",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9638,
+                "adjustedStart": "0:01:24.2666667",
+                "adjustedEnd": "0:01:24.5666667",
+                "start": "0:01:24.2666667",
+                "end": "0:01:24.5666667"
+              }
+            ]
+          },
+          {
+            "id": 16,
+            "name": "plant",
+            "referenceId": "structure/building complex/plant",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9517,
+                "adjustedStart": "0:01:24.2666667",
+                "adjustedEnd": "0:01:24.3",
+                "start": "0:01:24.2666667",
+                "end": "0:01:24.3"
+              }
+            ]
+          },
+          {
+            "id": 17,
+            "name": "sign",
+            "referenceId": "communication/indication/sign",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9859,
+                "adjustedStart": "0:01:25.3333333",
+                "adjustedEnd": "0:01:25.6333333",
+                "start": "0:01:25.3333333",
+                "end": "0:01:25.6333333"
+              }
+            ]
+          },
+          {
+            "id": 18,
+            "name": "ground",
+            "referenceId": "land/ground",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9557,
+                "adjustedStart": "0:01:25.3333333",
+                "adjustedEnd": "0:01:25.3666667",
+                "start": "0:01:25.3333333",
+                "end": "0:01:25.3666667"
+              }
+            ]
+          },
+          {
+            "id": 19,
+            "name": "cloud",
+            "referenceId": "natural phenomenon/weather/cloud",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9532,
+                "adjustedStart": "0:01:26.6666667",
+                "adjustedEnd": "0:01:26.7",
+                "start": "0:01:26.6666667",
+                "end": "0:01:26.7"
+              },
+              {
+                "confidence": 0.9939,
+                "adjustedStart": "0:01:42.1333333",
+                "adjustedEnd": "0:01:43.7666667",
+                "start": "0:01:42.1333333",
+                "end": "0:01:43.7666667"
+              },
+              {
+                "confidence": 0.972,
+                "adjustedStart": "0:01:55.2",
+                "adjustedEnd": "0:01:56.8333333",
+                "start": "0:01:55.2",
+                "end": "0:01:56.8333333"
+              },
+              {
+                "confidence": 0.9525,
+                "adjustedStart": "0:01:57.3333333",
+                "adjustedEnd": "0:01:57.3666667",
+                "start": "0:01:57.3333333",
+                "end": "0:01:57.3666667"
+              }
+            ]
+          },
+          {
+            "id": 20,
+            "name": "weapon",
+            "referenceId": "weapon",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.957,
+                "adjustedStart": "0:01:29.6",
+                "adjustedEnd": "0:01:32.5666667",
+                "start": "0:01:29.6",
+                "end": "0:01:32.5666667"
+              },
+              {
+                "confidence": 0.964,
+                "adjustedStart": "0:01:33.0666667",
+                "adjustedEnd": "0:01:33.1",
+                "start": "0:01:33.0666667",
+                "end": "0:01:33.1"
+              },
+              {
+                "confidence": 0.9607,
+                "adjustedStart": "0:01:33.6",
+                "adjustedEnd": "0:01:33.6333333",
+                "start": "0:01:33.6",
+                "end": "0:01:33.6333333"
+              }
+            ]
+          },
+          {
+            "id": 21,
+            "name": "military vehicle",
+            "referenceId": "vehicle/military vehicle/military vehicle",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9588,
+                "adjustedStart": "0:01:29.8666667",
+                "adjustedEnd": "0:01:32.0333333",
+                "start": "0:01:29.8666667",
+                "end": "0:01:32.0333333"
+              },
+              {
+                "confidence": 0.9537,
+                "adjustedStart": "0:01:32.5333333",
+                "adjustedEnd": "0:01:32.5666667",
+                "start": "0:01:32.5333333",
+                "end": "0:01:32.5666667"
+              },
+              {
+                "confidence": 0.972,
+                "adjustedStart": "0:01:33.0666667",
+                "adjustedEnd": "0:01:33.6333333",
+                "start": "0:01:33.0666667",
+                "end": "0:01:33.6333333"
+              }
+            ]
+          },
+          {
+            "id": 22,
+            "name": "tank",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9574,
+                "adjustedStart": "0:01:33.3333333",
+                "adjustedEnd": "0:01:33.3666667",
+                "start": "0:01:33.3333333",
+                "end": "0:01:33.3666667"
+              }
+            ]
+          },
+          {
+            "id": 23,
+            "name": "transport",
+            "referenceId": "conveyance/transport",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9536,
+                "adjustedStart": "0:01:33.3333333",
+                "adjustedEnd": "0:01:33.3666667",
+                "start": "0:01:33.3333333",
+                "end": "0:01:33.3666667"
+              }
+            ]
+          },
+          {
+            "id": 24,
+            "name": "human face",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.981,
+                "adjustedStart": "0:01:33.8666667",
+                "adjustedEnd": "0:01:35.7666667",
+                "start": "0:01:33.8666667",
+                "end": "0:01:35.7666667"
+              },
+              {
+                "confidence": 0.9543,
+                "adjustedStart": "0:01:47.4666667",
+                "adjustedEnd": "0:01:47.5",
+                "start": "0:01:47.4666667",
+                "end": "0:01:47.5"
+              }
+            ]
+          },
+          {
+            "id": 25,
+            "name": "indoor",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9586,
+                "adjustedStart": "0:01:44.2666667",
+                "adjustedEnd": "0:01:45.3666667",
+                "start": "0:01:44.2666667",
+                "end": "0:01:45.3666667"
+              }
+            ]
+          },
+          {
+            "id": 26,
+            "name": "ball",
+            "referenceId": "game/ball",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9717,
+                "adjustedStart": "0:01:46.9333333",
+                "adjustedEnd": "0:01:46.9666667",
+                "start": "0:01:46.9333333",
+                "end": "0:01:46.9666667"
+              }
+            ]
+          },
+          {
+            "id": 27,
+            "name": "balloon",
+            "referenceId": "vehicle/aircraft/balloon",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9747,
+                "adjustedStart": "0:01:49.3333333",
+                "adjustedEnd": "0:01:49.3666667",
+                "start": "0:01:49.3333333",
+                "end": "0:01:49.3666667"
+              }
+            ]
+          },
+          {
+            "id": 28,
+            "name": "landscape",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9853,
+                "adjustedStart": "0:01:54.9333333",
+                "adjustedEnd": "0:01:56.8333333",
+                "start": "0:01:54.9333333",
+                "end": "0:01:56.8333333"
+              }
+            ]
+          },
+          {
+            "id": 29,
+            "name": "sunrise",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9518,
+                "adjustedStart": "0:01:54.9333333",
+                "adjustedEnd": "0:01:54.9666667",
+                "start": "0:01:54.9333333",
+                "end": "0:01:54.9666667"
+              }
+            ]
+          }
+        ],
+        "scenes": [
+          {
+            "id": 1,
+            "instances": [
+              {
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:00:13.1",
+                "start": "0:00:00",
+                "end": "0:00:13.1"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "instances": [
+              {
+                "adjustedStart": "0:00:13.1",
+                "adjustedEnd": "0:00:47.5333333",
+                "start": "0:00:13.1",
+                "end": "0:00:47.5333333"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "instances": [
+              {
+                "adjustedStart": "0:00:47.7333333",
+                "adjustedEnd": "0:01:35.6666667",
+                "start": "0:00:47.7333333",
+                "end": "0:01:35.6666667"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "instances": [
+              {
+                "adjustedStart": "0:01:35.8666667",
+                "adjustedEnd": "0:02:00",
+                "start": "0:01:35.8666667",
+                "end": "0:02:00"
+              }
+            ]
+          }
+        ],
+        "shots": [
+          {
+            "id": 1,
+            "keyFrames": [
+              {
+                "id": 1,
+                "instances": [
+                  {
+                    "thumbnailId": "3059a08c-bb79-4181-a852-e5a3ea49c1ad",
+                    "adjustedStart": "0:00:00.2333333",
+                    "adjustedEnd": "0:00:00.2666667",
+                    "start": "0:00:00.2333333",
+                    "end": "0:00:00.2666667"
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "instances": [
+                  {
+                    "thumbnailId": "e340d3b7-bef1-4a4f-bf78-0a5da62d2273",
+                    "adjustedStart": "0:00:03.9666667",
+                    "adjustedEnd": "0:00:04",
+                    "start": "0:00:03.9666667",
+                    "end": "0:00:04"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:00:08.6",
+                "start": "0:00:00",
+                "end": "0:00:08.6"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "keyFrames": [
+              {
+                "id": 3,
+                "instances": [
+                  {
+                    "thumbnailId": "6e73e905-8f50-49bf-9481-9ba700e502b3",
+                    "adjustedStart": "0:00:08.8333333",
+                    "adjustedEnd": "0:00:08.8666667",
+                    "start": "0:00:08.8333333",
+                    "end": "0:00:08.8666667"
+                  }
+                ]
+              },
+              {
+                "id": 4,
+                "instances": [
+                  {
+                    "thumbnailId": "ec27ea78-f444-4223-9660-829161370a28",
+                    "adjustedStart": "0:00:09.1333333",
+                    "adjustedEnd": "0:00:09.1666667",
+                    "start": "0:00:09.1333333",
+                    "end": "0:00:09.1666667"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:08.6",
+                "adjustedEnd": "0:00:13.1",
+                "start": "0:00:08.6",
+                "end": "0:00:13.1"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "keyFrames": [
+              {
+                "id": 5,
+                "instances": [
+                  {
+                    "thumbnailId": "77eec995-d41a-459a-8853-4f7ab735a0f0",
+                    "adjustedStart": "0:00:13.4333333",
+                    "adjustedEnd": "0:00:13.4666667",
+                    "start": "0:00:13.4333333",
+                    "end": "0:00:13.4666667"
+                  }
+                ]
+              },
+              {
+                "id": 6,
+                "instances": [
+                  {
+                    "thumbnailId": "6cd11dfd-9421-4d04-b931-1271ac8bbd2a",
+                    "adjustedStart": "0:00:13.6333333",
+                    "adjustedEnd": "0:00:13.6666667",
+                    "start": "0:00:13.6333333",
+                    "end": "0:00:13.6666667"
+                  }
+                ]
+              },
+              {
+                "id": 7,
+                "instances": [
+                  {
+                    "thumbnailId": "e4c831d3-f647-4a0c-80cb-90dcb1925983",
+                    "adjustedStart": "0:00:15.6666667",
+                    "adjustedEnd": "0:00:15.7",
+                    "start": "0:00:15.6666667",
+                    "end": "0:00:15.7"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:13.1",
+                "adjustedEnd": "0:00:15.7",
+                "start": "0:00:13.1",
+                "end": "0:00:15.7"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "keyFrames": [
+              {
+                "id": 8,
+                "instances": [
+                  {
+                    "thumbnailId": "002766f7-a4dd-407d-8d83-e77e32e6d788",
+                    "adjustedStart": "0:00:16.7666667",
+                    "adjustedEnd": "0:00:16.8",
+                    "start": "0:00:16.7666667",
+                    "end": "0:00:16.8"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:15.9",
+                "adjustedEnd": "0:00:18.4333333",
+                "start": "0:00:15.9",
+                "end": "0:00:18.4333333"
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "keyFrames": [
+              {
+                "id": 9,
+                "instances": [
+                  {
+                    "thumbnailId": "e6de1d3b-5798-4a40-b344-c6ec3ba6b111",
+                    "adjustedStart": "0:00:18.6666667",
+                    "adjustedEnd": "0:00:18.7",
+                    "start": "0:00:18.6666667",
+                    "end": "0:00:18.7"
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "instances": [
+                  {
+                    "thumbnailId": "e6e46e18-e48d-4653-a5eb-9a902952a654",
+                    "adjustedStart": "0:00:18.9333333",
+                    "adjustedEnd": "0:00:18.9666667",
+                    "start": "0:00:18.9333333",
+                    "end": "0:00:18.9666667"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:18.4333333",
+                "adjustedEnd": "0:00:23.4666667",
+                "start": "0:00:18.4333333",
+                "end": "0:00:23.4666667"
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "keyFrames": [
+              {
+                "id": 11,
+                "instances": [
+                  {
+                    "thumbnailId": "b6128b18-52f1-4c30-8fad-cac8a6079643",
+                    "adjustedStart": "0:00:25.4666667",
+                    "adjustedEnd": "0:00:25.5",
+                    "start": "0:00:25.4666667",
+                    "end": "0:00:25.5"
+                  }
+                ]
+              },
+              {
+                "id": 12,
+                "instances": [
+                  {
+                    "thumbnailId": "a74e8571-3ff3-4942-b05c-e34e0be66a88",
+                    "adjustedStart": "0:00:31.4666667",
+                    "adjustedEnd": "0:00:31.5",
+                    "start": "0:00:31.4666667",
+                    "end": "0:00:31.5"
+                  }
+                ]
+              },
+              {
+                "id": 13,
+                "instances": [
+                  {
+                    "thumbnailId": "9223a5b6-6c89-4e80-ac47-4274ee9c5bd6",
+                    "adjustedStart": "0:00:36.6666667",
+                    "adjustedEnd": "0:00:36.7",
+                    "start": "0:00:36.6666667",
+                    "end": "0:00:36.7"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:23.6666667",
+                "adjustedEnd": "0:00:39.3333333",
+                "start": "0:00:23.6666667",
+                "end": "0:00:39.3333333"
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "keyFrames": [
+              {
+                "id": 14,
+                "instances": [
+                  {
+                    "thumbnailId": "f8f7da77-fe58-4691-8ba7-0e79cd7d6fef",
+                    "adjustedStart": "0:00:39.6666667",
+                    "adjustedEnd": "0:00:39.7",
+                    "start": "0:00:39.6666667",
+                    "end": "0:00:39.7"
+                  }
+                ]
+              },
+              {
+                "id": 15,
+                "instances": [
+                  {
+                    "thumbnailId": "a393d18e-db71-4798-91af-10f13d84cd72",
+                    "adjustedStart": "0:00:43.4333333",
+                    "adjustedEnd": "0:00:43.4666667",
+                    "start": "0:00:43.4333333",
+                    "end": "0:00:43.4666667"
+                  }
+                ]
+              },
+              {
+                "id": 16,
+                "instances": [
+                  {
+                    "thumbnailId": "6e659f6e-48ab-48d1-9334-049e9940e8da",
+                    "adjustedStart": "0:00:47.1333333",
+                    "adjustedEnd": "0:00:47.1666667",
+                    "start": "0:00:47.1333333",
+                    "end": "0:00:47.1666667"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:39.5666667",
+                "adjustedEnd": "0:00:47.5333333",
+                "start": "0:00:39.5666667",
+                "end": "0:00:47.5333333"
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "keyFrames": [
+              {
+                "id": 17,
+                "instances": [
+                  {
+                    "thumbnailId": "5bb759ea-8ce8-4544-937a-6279d571eaee",
+                    "adjustedStart": "0:00:50.5333333",
+                    "adjustedEnd": "0:00:50.5666667",
+                    "start": "0:00:50.5333333",
+                    "end": "0:00:50.5666667"
+                  }
+                ]
+              },
+              {
+                "id": 18,
+                "instances": [
+                  {
+                    "thumbnailId": "052d353b-cbc5-4f72-8b9e-9f5ca893e129",
+                    "adjustedStart": "0:01:00",
+                    "adjustedEnd": "0:01:00.0333333",
+                    "start": "0:01:00",
+                    "end": "0:01:00.0333333"
+                  }
+                ]
+              },
+              {
+                "id": 19,
+                "instances": [
+                  {
+                    "thumbnailId": "9f2f48bd-b46a-4628-a1e3-b97381dd9289",
+                    "adjustedStart": "0:01:02.0666667",
+                    "adjustedEnd": "0:01:02.1",
+                    "start": "0:01:02.0666667",
+                    "end": "0:01:02.1"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:47.7333333",
+                "adjustedEnd": "0:01:09.8",
+                "start": "0:00:47.7333333",
+                "end": "0:01:09.8"
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "keyFrames": [
+              {
+                "id": 20,
+                "instances": [
+                  {
+                    "thumbnailId": "ae17028c-9271-4b52-aa75-3f8989523d39",
+                    "adjustedStart": "0:01:10.1666667",
+                    "adjustedEnd": "0:01:10.2",
+                    "start": "0:01:10.1666667",
+                    "end": "0:01:10.2"
+                  }
+                ]
+              },
+              {
+                "id": 21,
+                "instances": [
+                  {
+                    "thumbnailId": "d89fd58b-1c64-40db-998f-67b515825e11",
+                    "adjustedStart": "0:01:17.3",
+                    "adjustedEnd": "0:01:17.3333333",
+                    "start": "0:01:17.3",
+                    "end": "0:01:17.3333333"
+                  }
+                ]
+              },
+              {
+                "id": 22,
+                "instances": [
+                  {
+                    "thumbnailId": "401e0118-30dd-4af1-858d-6612fd8b2e9b",
+                    "adjustedStart": "0:01:21.6",
+                    "adjustedEnd": "0:01:21.6333333",
+                    "start": "0:01:21.6",
+                    "end": "0:01:21.6333333"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:10",
+                "adjustedEnd": "0:01:24.8",
+                "start": "0:01:10",
+                "end": "0:01:24.8"
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "keyFrames": [
+              {
+                "id": 23,
+                "instances": [
+                  {
+                    "thumbnailId": "01c2bbd6-10d5-4415-8494-b93fbcd024ac",
+                    "adjustedStart": "0:01:25.8333333",
+                    "adjustedEnd": "0:01:25.8666667",
+                    "start": "0:01:25.8333333",
+                    "end": "0:01:25.8666667"
+                  }
+                ]
+              },
+              {
+                "id": 24,
+                "instances": [
+                  {
+                    "thumbnailId": "d9104fd6-04e6-40aa-9983-f6380b105ecf",
+                    "adjustedStart": "0:01:29.4666667",
+                    "adjustedEnd": "0:01:29.5",
+                    "start": "0:01:29.4666667",
+                    "end": "0:01:29.5"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:25",
+                "adjustedEnd": "0:01:33.7",
+                "start": "0:01:25",
+                "end": "0:01:33.7"
+              }
+            ]
+          },
+          {
+            "id": 11,
+            "keyFrames": [
+              {
+                "id": 25,
+                "instances": [
+                  {
+                    "thumbnailId": "fc3bb82a-0afa-4cce-ad75-e0481ccab731",
+                    "adjustedStart": "0:01:33.9666667",
+                    "adjustedEnd": "0:01:34",
+                    "start": "0:01:33.9666667",
+                    "end": "0:01:34"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:33.7",
+                "adjustedEnd": "0:01:35.6666667",
+                "start": "0:01:33.7",
+                "end": "0:01:35.6666667"
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "keyFrames": [
+              {
+                "id": 26,
+                "instances": [
+                  {
+                    "thumbnailId": "5f9bf234-ded0-4e60-be72-9d29daf50ae0",
+                    "adjustedStart": "0:01:36.0333333",
+                    "adjustedEnd": "0:01:36.0666667",
+                    "start": "0:01:36.0333333",
+                    "end": "0:01:36.0666667"
+                  }
+                ]
+              },
+              {
+                "id": 27,
+                "instances": [
+                  {
+                    "thumbnailId": "d267b065-3750-4999-be84-d0a0caff870a",
+                    "adjustedStart": "0:01:42.0333333",
+                    "adjustedEnd": "0:01:42.0666667",
+                    "start": "0:01:42.0333333",
+                    "end": "0:01:42.0666667"
+                  }
+                ]
+              },
+              {
+                "id": 28,
+                "instances": [
+                  {
+                    "thumbnailId": "9efd4018-54ec-4f77-9ecf-31e2eef3aa12",
+                    "adjustedStart": "0:01:45.9666667",
+                    "adjustedEnd": "0:01:46",
+                    "start": "0:01:45.9666667",
+                    "end": "0:01:46"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:35.8666667",
+                "adjustedEnd": "0:01:49.2333333",
+                "start": "0:01:35.8666667",
+                "end": "0:01:49.2333333"
+              }
+            ]
+          },
+          {
+            "id": 13,
+            "keyFrames": [
+              {
+                "id": 29,
+                "instances": [
+                  {
+                    "thumbnailId": "53fe0cbc-d520-4a6d-bde1-9dd78f241cf0",
+                    "adjustedStart": "0:01:49.4666667",
+                    "adjustedEnd": "0:01:49.5",
+                    "start": "0:01:49.4666667",
+                    "end": "0:01:49.5"
+                  }
+                ]
+              },
+              {
+                "id": 30,
+                "instances": [
+                  {
+                    "thumbnailId": "35015c99-3a14-4f16-8235-5bc5f69e8ccf",
+                    "adjustedStart": "0:01:49.6",
+                    "adjustedEnd": "0:01:49.6333333",
+                    "start": "0:01:49.6",
+                    "end": "0:01:49.6333333"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:49.4333333",
+                "adjustedEnd": "0:01:54.4666667",
+                "start": "0:01:49.4333333",
+                "end": "0:01:54.4666667"
+              }
+            ]
+          },
+          {
+            "id": 14,
+            "keyFrames": [
+              {
+                "id": 31,
+                "instances": [
+                  {
+                    "thumbnailId": "280b5eac-21b5-400f-afc4-169b8868384a",
+                    "adjustedStart": "0:01:55.5666667",
+                    "adjustedEnd": "0:01:55.6",
+                    "start": "0:01:55.5666667",
+                    "end": "0:01:55.6"
+                  }
+                ]
+              },
+              {
+                "id": 32,
+                "instances": [
+                  {
+                    "thumbnailId": "d06c2daa-f8b5-43b4-9f5d-bf6c482c2c7b",
+                    "adjustedStart": "0:01:57.2333333",
+                    "adjustedEnd": "0:01:57.2666667",
+                    "start": "0:01:57.2333333",
+                    "end": "0:01:57.2666667"
+                  }
+                ]
+              },
+              {
+                "id": 33,
+                "instances": [
+                  {
+                    "thumbnailId": "6b578793-1c58-4b50-97a3-4a385b65f881",
+                    "adjustedStart": "0:01:59.4333333",
+                    "adjustedEnd": "0:01:59.4666667",
+                    "start": "0:01:59.4333333",
+                    "end": "0:01:59.4666667"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:54.4666667",
+                "adjustedEnd": "0:02:00",
+                "start": "0:01:54.4666667",
+                "end": "0:02:00"
+              }
+            ]
+          }
+        ],
+        "namedLocations": [
+          {
+            "id": 1,
+            "name": "Ercan International Airport",
+            "referenceId": "Ercan_International_Airport",
+            "referenceUrl": "https://en.wikipedia.org/wiki/Ercan_International_Airport",
+            "description": "Ercan International Airport (IATA: ECN, ICAO: LCEN) is the primary civilian airport of North Cyprus. It is located about 13 km east of North Nicosia, near the village of Tymvou. Turkish and other airline booking sites commonly refer to this airport as Lefkoşa (Nicosia) Airport.",
+            "tags": [],
+            "confidence": 0.595,
+            "isCustom": false,
+            "instances": [
+              {
+                "instanceSource": "Ocr",
+                "adjustedStart": "0:00:48",
+                "adjustedEnd": "0:00:48.5666667",
+                "start": "0:00:48",
+                "end": "0:00:48.5666667"
+              },
+              {
+                "instanceSource": "Ocr",
+                "adjustedStart": "0:00:56.2666667",
+                "adjustedEnd": "0:01:17.1",
+                "start": "0:00:56.2666667",
+                "end": "0:01:17.1"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "İzmir",
+            "referenceId": "İzmir",
+            "referenceUrl": "https://en.wikipedia.org/wiki/İzmir",
+            "description": "İzmir ([ˈizmiɾ]) is a metropolitan city in the western extremity of Anatolia. It is the third most populous city in Turkey, after Istanbul and Ankara, and the second largest metropolitan area on the Aegean Sea after Athens, Greece. In 2018, the city of İzmir had a population of 2,947,000, while İzmir Province had a total population of 4,320,519. İzmir's metropolitan area extends along the outlying waters of the Gulf of İzmir and inland to the north across the Gediz River delta; to the east along an alluvial plain created by several small streams; and to slightly more rugged terrain in the south.",
+            "tags": [],
+            "confidence": 0.35,
+            "isCustom": false,
+            "instances": [
+              {
+                "instanceSource": "Ocr",
+                "adjustedStart": "0:01:03.2",
+                "adjustedEnd": "0:01:09.9",
+                "start": "0:01:03.2",
+                "end": "0:01:09.9"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "Istanbul",
+            "referenceId": "Istanbul",
+            "referenceUrl": "https://en.wikipedia.org/wiki/Istanbul",
+            "description": "Istanbul (/ˌɪstænˈbʊl, ˌɪstɑːn-, -ˈbuːl/, also US: /ˌɪstən-, ˈɪstənbʊl, -buːl, ɪˈstɑːnbʊl/; Turkish: İstanbul [isˈtanbuɫ] ), formerly known as Byzantium and Constantinople, is the most populous city in Turkey and the country's economic, cultural and historic center. Istanbul is a transcontinental city in Eurasia, straddling the Bosporus strait (which separates Europe and Asia) between the Sea of Marmara and the Black Sea. Its commercial and historical center lies on the European side and about a third of its population lives in suburbs on the Asian side of the Bosporus. With a total population of around 15 million residents in its metropolitan area, Istanbul is one of the world's most populous cities, ranking as the world's fourth largest city proper and the largest European city. The city is the administrative center of the Istanbul Metropolitan Municipality (coterminous with Istanbul Province). Istanbul is a bridge between the East and West.",
+            "tags": [],
+            "confidence": 0.46,
+            "isCustom": false,
+            "instances": [
+              {
+                "instanceSource": "Ocr",
+                "adjustedStart": "0:01:04.8",
+                "adjustedEnd": "0:01:09.9",
+                "start": "0:01:04.8",
+                "end": "0:01:09.9"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "name": "Ankara",
+            "referenceId": "Ankara",
+            "referenceUrl": "https://en.wikipedia.org/wiki/Ankara",
+            "description": "Ankara (/ˈæŋkərə/, also US: /ˈɑːŋ-/, Turkish: [ˈaŋkaɾa] ), historically known as Ancyra (/ænˈsaɪrə/) and Angora (/æŋˈɡɔːrə/, also US: /ˈæŋɡərə/), is the capital of Turkey. With a population of 4,587,558 in the urban center and 5,150,072 in its province , it is Turkey's second largest city after Istanbul (the former imperial capital), having outranked İzmir in the 20th century.",
+            "tags": [],
+            "confidence": 0.38,
+            "isCustom": false,
+            "instances": [
+              {
+                "instanceSource": "Ocr",
+                "adjustedStart": "0:01:05.6",
+                "adjustedEnd": "0:01:09.9",
+                "start": "0:01:05.6",
+                "end": "0:01:09.9"
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "name": "Kayseri",
+            "referenceId": "Kayseri",
+            "referenceUrl": "https://en.wikipedia.org/wiki/Kayseri",
+            "description": "Kayseri ([ˈkajseɾi]) is a large industrialised city in Central Anatolia, Turkey. It is the seat of Kayseri Province. The city of Kayseri, as defined by the boundaries of Kayseri Metropolitan Municipality, is structurally composed of five metropolitan districts, the two core districts of Kocasinan and Melikgazi, and since 2004, also Hacılar, İncesu and Talas.",
+            "tags": [],
+            "confidence": 0.37,
+            "isCustom": false,
+            "instances": [
+              {
+                "instanceSource": "Ocr",
+                "adjustedStart": "0:01:05.8666667",
+                "adjustedEnd": "0:01:09.9",
+                "start": "0:01:05.8666667",
+                "end": "0:01:09.9"
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "name": "Çukurova",
+            "referenceId": "Çukurova",
+            "referenceUrl": "https://en.wikipedia.org/wiki/Çukurova",
+            "description": "Çukurova ([tʃuˈkuɾova]), alternatively known as Cilicia, is a geo-cultural region in south-central Turkey, covering the provinces of Mersin, Adana, Osmaniye and Hatay. With a population of almost 6 million, it is one of the largest population concentrations in Turkey.",
+            "tags": [],
+            "confidence": 0.37,
+            "isCustom": false,
+            "instances": [
+              {
+                "instanceSource": "Ocr",
+                "adjustedStart": "0:01:06.4",
+                "adjustedEnd": "0:01:09.9",
+                "start": "0:01:06.4",
+                "end": "0:01:09.9"
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "name": "Trabzon",
+            "referenceId": "Trabzon",
+            "referenceUrl": "https://en.wikipedia.org/wiki/Trabzon",
+            "description": "Trabzon ([ˈtɾabzon]), historically known as Trebizond, is a city on the Black Sea coast of northeastern Turkey and the capital of Trabzon Province. Trabzon, located on the historical Silk Road, became a melting pot of religions, languages and culture for centuries and a trade gateway to Persia in the southeast and the Caucasus to the northeast. The Venetian and Genoese merchants paid visits to Trebizond during the medieval period and sold silk, linen and woolen fabric. Both republics had merchant colonies within the city - Leonkastron and the former 'Venetian castle - that played a role to Trebizond similar to the one Galata played to Constantinople (modern Istanbul). Trabzon formed the basis of several states in its long history and was the capital city of the Empire of Trebizond between 1204 and 1461. During the early modern period, Trabzon, because of the importance of its port, again became a focal point of trade to Persia and the Caucasus.",
+            "tags": [],
+            "confidence": 0.34,
+            "isCustom": false,
+            "instances": [
+              {
+                "instanceSource": "Ocr",
+                "adjustedStart": "0:01:06.9333333",
+                "adjustedEnd": "0:01:09.6333333",
+                "start": "0:01:06.9333333",
+                "end": "0:01:09.6333333"
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "name": "Diyarbakır",
+            "referenceId": "Diyarbakır",
+            "referenceUrl": "https://en.wikipedia.org/wiki/Diyarbakır",
+            "description": "Diyarbakır (Kurdish: Amed‎) is one of the largest cities in southeastern Turkey. Situated on the banks of the Tigris River, it is the administrative capital of the Diyarbakır Province. With a population of about 930,000 it is the second largest city in Turkey's south-eastern Anatolia region, after Gaziantep.",
+            "tags": [],
+            "confidence": 0.3,
+            "isCustom": false,
+            "instances": [
+              {
+                "instanceSource": "Ocr",
+                "adjustedStart": "0:01:08.8",
+                "adjustedEnd": "0:01:09.9",
+                "start": "0:01:08.8",
+                "end": "0:01:09.9"
+              }
+            ]
+          }
+        ],
+        "observedPeople": [
+          {
+            "id": 1,
+            "thumbnailId": "8e76d48f-833c-45b9-a542-e34dac26ddce",
+            "clothing": [
+              {
+                "id": 1,
+                "type": "sleeve",
+                "properties": {
+                  "length": "short"
+                }
+              },
+              {
+                "id": 2,
+                "type": "skirtAndDress"
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:00:03.2",
+                "start": "0:00:00",
+                "end": "0:00:03.2"
+              },
+              {
+                "adjustedStart": "0:00:13.6",
+                "adjustedEnd": "0:00:15.3",
+                "start": "0:00:13.6",
+                "end": "0:00:15.3"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "thumbnailId": "2d9e3572-8716-4ec2-9a39-40e28adfd6a4",
+            "clothing": [
+              {
+                "id": 1,
+                "type": "sleeve",
+                "properties": {
+                  "length": "long"
+                }
+              },
+              {
+                "id": 2,
+                "type": "pants",
+                "properties": {
+                  "length": "long"
+                }
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:09.2333333",
+                "adjustedEnd": "0:00:12.9333333",
+                "start": "0:00:09.2333333",
+                "end": "0:00:12.9333333"
+              },
+              {
+                "adjustedStart": "0:00:18.8",
+                "adjustedEnd": "0:00:24.8333333",
+                "start": "0:00:18.8",
+                "end": "0:00:24.8333333"
+              },
+              {
+                "adjustedStart": "0:00:27.1333333",
+                "adjustedEnd": "0:00:31.1",
+                "start": "0:00:27.1333333",
+                "end": "0:00:31.1"
+              },
+              {
+                "adjustedStart": "0:00:45.9666666",
+                "adjustedEnd": "0:00:54.4",
+                "start": "0:00:45.9666666",
+                "end": "0:00:54.4"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "thumbnailId": "f7237b8e-30ac-45e8-ae97-c399b750a324",
+            "instances": [
+              {
+                "adjustedStart": "0:00:11.9",
+                "adjustedEnd": "0:00:12.2666666",
+                "start": "0:00:11.9",
+                "end": "0:00:12.2666666"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "thumbnailId": "e937a7b4-fbcc-49ea-bc0b-340488ea3919",
+            "clothing": [
+              {
+                "id": 1,
+                "type": "sleeve",
+                "properties": {
+                  "length": "long"
+                }
+              },
+              {
+                "id": 2,
+                "type": "pants",
+                "properties": {
+                  "length": "long"
+                }
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:17.4333333",
+                "adjustedEnd": "0:01:21.1333333",
+                "start": "0:01:17.4333333",
+                "end": "0:01:21.1333333"
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "thumbnailId": "5a1adf76-196c-4291-b8b2-d902a6cd0af8",
+            "clothing": [
+              {
+                "id": 1,
+                "type": "sleeve",
+                "properties": {
+                  "length": "long"
+                }
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:17.4333333",
+                "adjustedEnd": "0:01:20.9666666",
+                "start": "0:01:17.4333333",
+                "end": "0:01:20.9666666"
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "thumbnailId": "632e1726-61d1-490d-b32c-ed922b6dd5fd",
+            "clothing": [
+              {
+                "id": 1,
+                "type": "sleeve",
+                "properties": {
+                  "length": "long"
+                }
+              },
+              {
+                "id": 2,
+                "type": "pants",
+                "properties": {
+                  "length": "long"
+                }
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:33.9333333",
+                "adjustedEnd": "0:01:35.9333333",
+                "start": "0:01:33.9333333",
+                "end": "0:01:35.9333333"
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "thumbnailId": "88b650b1-b320-44a0-b63a-2a4134697511",
+            "clothing": [
+              {
+                "id": 1,
+                "type": "sleeve",
+                "properties": {
+                  "length": "short"
+                }
+              },
+              {
+                "id": 2,
+                "type": "pants",
+                "properties": {
+                  "length": "long"
+                }
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:47.6333333",
+                "adjustedEnd": "0:01:49.3",
+                "start": "0:01:47.6333333",
+                "end": "0:01:49.3"
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "thumbnailId": "cd94b511-3529-4b71-8cf6-afb46aeee21e",
+            "instances": [
+              {
+                "adjustedStart": "0:01:58.6333333",
+                "adjustedEnd": "0:01:59.3333333",
+                "start": "0:01:58.6333333",
+                "end": "0:01:59.3333333"
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "thumbnailId": "bf277651-71e3-4962-9b7e-419beda1b9d8",
+            "instances": [
+              {
+                "adjustedStart": "0:01:59.4666666",
+                "adjustedEnd": "0:01:59.8333333",
+                "start": "0:01:59.4666666",
+                "end": "0:01:59.8333333"
+              }
+            ]
+          }
+        ],
+        "detectedObjects": [
+          {
+            "id": 1,
+            "type": "Couch",
+            "thumbnailId": "42a0514a-8c99-4f6d-bd94-07341e7cdb6b",
+            "displayName": "couch",
+            "wikiDataId": "Q131514",
+            "instances": [
+              {
+                "confidence": 0.789,
+                "adjustedStart": "0:01:17.233333",
+                "adjustedEnd": "0:01:21.133333",
+                "start": "0:01:17.233333",
+                "end": "0:01:21.133333"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "type": "Frisbee",
+            "thumbnailId": "1917bc80-1fa6-41e5-a27f-01aeb20dbc48",
+            "displayName": "frisbee",
+            "wikiDataId": "Q131689",
+            "instances": [
+              {
+                "confidence": 0.953,
+                "adjustedStart": "0:01:48.133333",
+                "adjustedEnd": "0:01:48.666667",
+                "start": "0:01:48.133333",
+                "end": "0:01:48.666667"
+              }
+            ]
+          }
+        ],
+        "textualContentModeration": {
+          "id": 0,
+          "bannedWordsCount": 0,
+          "bannedWordsRatio": 0,
+          "instances": []
+        },
+        "statistics": {
+          "correspondenceCount": 0,
+          "speakerTalkToListenRatio": {},
+          "speakerLongestMonolog": {},
+          "speakerNumberOfFragments": {},
+          "speakerWordCount": {}
+        }
+      },
+      "thumbnailId": "f4f865d1-2442-40bb-a9ae-567637f30976",
+      "width": 1920,
+      "height": 1080,
+      "detectSourceLanguage": false,
+      "languageAutoDetectMode": "None",
+      "sourceLanguage": "en-US",
+      "sourceLanguages": [
+        "en-US"
+      ],
+      "language": "en-US",
+      "languages": [
+        "en-US"
+      ],
+      "indexingPreset": "AdvancedVideo",
+      "streamingPreset": "Default",
+      "linguisticModelId": "00000000-0000-0000-0000-000000000000",
+      "personModelId": "00000000-0000-0000-0000-000000000000",
+      "logoGroupId": null,
+      "isAdult": false,
+      "excludedAIs": [],
+      "isSearchable": true,
+      "publishedUrl": "https://api.videoindexer.ai/internals/Trial/Accounts/6a69f8ca-0f6e-46d3-bd5a-6f3a83dc7b2b/Videos/n2wq3edbkn/streaming-manifest/manifest.m3u8",
+      "publishedProxyUrl": null,
+      "viewToken": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJWZXJzaW9uIjoiMi4wLjAuMCIsIktleVZlcnNpb24iOiI1OGYzODM3MTQ0MDc0ZGJiYTg3N2RkNTdhNzUyMDUxYiIsIkFjY291bnRJZCI6IjZhNjlmOGNhLTBmNmUtNDZkMy1iZDVhLTZmM2E4M2RjN2IyYiIsIkFjY291bnRUeXBlIjoiVHJpYWwiLCJWaWRlb0lkIjoibjJ3cTNlZGJrbiIsIlBlcm1pc3Npb24iOiJSZXN0cmljdGVkVmlld2VyIiwiRXh0ZXJuYWxVc2VySWQiOiIzQTk4NDNCREI3Mzg0N0E1QUI5OTY2RjcxQzQ4Mjk4MSIsIlVzZXJUeXBlIjoiTWljcm9zb2Z0Q29ycEFhZCIsIklzc3VlckxvY2F0aW9uIjoiVHJpYWwiLCJuYmYiOjE3NzcxNTIxNDUsImV4cCI6MTc3NzE1NjA0NSwiaXNzIjoiaHR0cHM6Ly9hcGkudmlkZW9pbmRleGVyLmFpLyIsImF1ZCI6Imh0dHBzOi8vYXBpLnZpZGVvaW5kZXhlci5haS8ifQ.PHSaBbhzCL6hrbSu10R_6GooAyt8mv5zJHC8zmV9E_b_AGBUmFMIjsFw7Eek6F--O3Y7BJsDFtTKzJiyOY12EHIlQiSbbnmHIC2SZOoC8diAnOTm4YvlpiFENq3w8eHXotyt1jyp_4kLrmg-6YA13fzAKTZhqQX5AQMIPlcnrxiGgigXjcNzKstm6CVxOW_giVO38ItWNHaxGG60no5Jek7nNRSDWADkigHppoggFW6wi86RmGTCDQkrUXTsSs2fqyXxnszLf4TpMr93HuBr_5drobbXZL817QznQHU7GIOBznTXEkq9rj6sxz3exZsvZpwSlhTBmhudbBh1sm7Z-g"
+    }
+  ],
+  "videosRanges": [
+    {
+      "videoId": "n2wq3edbkn",
+      "range": {
+        "start": "0:00:00",
+        "end": "0:02:00.001"
+      }
+    }
+  ]
+}

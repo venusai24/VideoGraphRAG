@@ -1,0 +1,890 @@
+[
+  {
+    "id": 1,
+    "text": "pre ordering",
+    "confidence": 0.9847,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:26.16",
+        "adjustedEnd": "0:05:28",
+        "start": "0:05:26.16",
+        "end": "0:05:28"
+      },
+      {
+        "adjustedStart": "0:05:28",
+        "adjustedEnd": "0:05:32.04",
+        "start": "0:05:28",
+        "end": "0:05:32.04"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "text": "incredibly impractical",
+    "confidence": 0.9847,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:22.36",
+        "adjustedEnd": "0:07:30.84",
+        "start": "0:07:22.36",
+        "end": "0:07:30.84"
+      },
+      {
+        "adjustedStart": "0:09:35.12",
+        "adjustedEnd": "0:09:41.72",
+        "start": "0:09:35.12",
+        "end": "0:09:41.72"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "text": "rail access",
+    "confidence": 0.9847,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:11:00.6",
+        "adjustedEnd": "0:11:05.64",
+        "start": "0:11:00.6",
+        "end": "0:11:05.64"
+      },
+      {
+        "adjustedStart": "0:12:06.44",
+        "adjustedEnd": "0:12:09.52",
+        "start": "0:12:06.44",
+        "end": "0:12:09.52"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "text": "blasted rock",
+    "confidence": 0.976,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:26.6",
+        "adjustedEnd": "0:06:31.08",
+        "start": "0:06:26.6",
+        "end": "0:06:31.08"
+      },
+      {
+        "adjustedStart": "0:07:02.36",
+        "adjustedEnd": "0:07:07.92",
+        "start": "0:07:02.36",
+        "end": "0:07:07.92"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "text": "river flowing",
+    "confidence": 0.9727,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:56.12",
+        "adjustedEnd": "0:01:04.08",
+        "start": "0:00:56.12",
+        "end": "0:01:04.08"
+      },
+      {
+        "adjustedStart": "0:12:01.08",
+        "adjustedEnd": "0:12:06.44",
+        "start": "0:12:01.08",
+        "end": "0:12:06.44"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "text": "commercial centre",
+    "confidence": 0.9697,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:54.56",
+        "adjustedEnd": "0:03:58.44",
+        "start": "0:03:54.56",
+        "end": "0:03:58.44"
+      },
+      {
+        "adjustedStart": "0:03:57.237",
+        "adjustedEnd": "0:04:01.2743667",
+        "start": "0:03:57.237",
+        "end": "0:04:01.2743667"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "text": "navi mumbai",
+    "confidence": 0.9645,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:07.28",
+        "adjustedEnd": "0:00:14.2",
+        "start": "0:00:07.28",
+        "end": "0:00:14.2"
+      },
+      {
+        "adjustedStart": "0:00:18",
+        "adjustedEnd": "0:00:26.56",
+        "start": "0:00:18",
+        "end": "0:00:26.56"
+      },
+      {
+        "adjustedStart": "0:00:46.68",
+        "adjustedEnd": "0:00:51.96",
+        "start": "0:00:46.68",
+        "end": "0:00:51.96"
+      },
+      {
+        "adjustedStart": "0:01:04.44",
+        "adjustedEnd": "0:01:11.28",
+        "start": "0:01:04.44",
+        "end": "0:01:11.28"
+      },
+      {
+        "adjustedStart": "0:03:58.52",
+        "adjustedEnd": "0:04:06.4",
+        "start": "0:03:58.52",
+        "end": "0:04:06.4"
+      },
+      {
+        "adjustedStart": "0:07:42.2",
+        "adjustedEnd": "0:07:47.92",
+        "start": "0:07:42.2",
+        "end": "0:07:47.92"
+      },
+      {
+        "adjustedStart": "0:08:49.6",
+        "adjustedEnd": "0:08:56.68",
+        "start": "0:08:49.6",
+        "end": "0:08:56.68"
+      },
+      {
+        "adjustedStart": "0:09:08.68",
+        "adjustedEnd": "0:09:18.44",
+        "start": "0:09:08.68",
+        "end": "0:09:18.44"
+      },
+      {
+        "adjustedStart": "0:11:16.04",
+        "adjustedEnd": "0:11:24.76",
+        "start": "0:11:16.04",
+        "end": "0:11:24.76"
+      },
+      {
+        "adjustedStart": "0:11:25.16",
+        "adjustedEnd": "0:11:34.96",
+        "start": "0:11:25.16",
+        "end": "0:11:34.96"
+      },
+      {
+        "adjustedStart": "0:11:45",
+        "adjustedEnd": "0:11:51.52",
+        "start": "0:11:45",
+        "end": "0:11:51.52"
+      },
+      {
+        "adjustedStart": "0:00:09.009",
+        "adjustedEnd": "0:00:10.0433667",
+        "start": "0:00:09.009",
+        "end": "0:00:10.0433667"
+      },
+      {
+        "adjustedStart": "0:08:35.515",
+        "adjustedEnd": "0:08:36.5493667",
+        "start": "0:08:35.515",
+        "end": "0:08:36.5493667"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "text": "land",
+    "confidence": 0.7217,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:19.56",
+        "adjustedEnd": "0:03:23.4",
+        "start": "0:03:19.56",
+        "end": "0:03:23.4"
+      },
+      {
+        "adjustedStart": "0:03:47.12",
+        "adjustedEnd": "0:03:54",
+        "start": "0:03:47.12",
+        "end": "0:03:54"
+      },
+      {
+        "adjustedStart": "0:04:06.48",
+        "adjustedEnd": "0:04:12.08",
+        "start": "0:04:06.48",
+        "end": "0:04:12.08"
+      },
+      {
+        "adjustedStart": "0:05:52.4",
+        "adjustedEnd": "0:05:55.6",
+        "start": "0:05:52.4",
+        "end": "0:05:55.6"
+      },
+      {
+        "adjustedStart": "0:06:32.96",
+        "adjustedEnd": "0:06:36.44",
+        "start": "0:06:32.96",
+        "end": "0:06:36.44"
+      },
+      {
+        "adjustedStart": "0:06:52.32",
+        "adjustedEnd": "0:07:02.16",
+        "start": "0:06:52.32",
+        "end": "0:07:02.16"
+      },
+      {
+        "adjustedStart": "0:07:52.32",
+        "adjustedEnd": "0:07:57.24",
+        "start": "0:07:52.32",
+        "end": "0:07:57.24"
+      },
+      {
+        "adjustedStart": "0:07:57.48",
+        "adjustedEnd": "0:08:02.8",
+        "start": "0:07:57.48",
+        "end": "0:08:02.8"
+      },
+      {
+        "adjustedStart": "0:12:01.08",
+        "adjustedEnd": "0:12:06.44",
+        "start": "0:12:01.08",
+        "end": "0:12:06.44"
+      },
+      {
+        "adjustedStart": "0:01:57.117",
+        "adjustedEnd": "0:01:58.1513667",
+        "start": "0:01:57.117",
+        "end": "0:01:58.1513667"
+      },
+      {
+        "adjustedStart": "0:05:53.353",
+        "adjustedEnd": "0:05:54.3873667",
+        "start": "0:05:53.353",
+        "end": "0:05:54.3873667"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "text": "rock",
+    "confidence": 0.7217,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:02.44",
+        "adjustedEnd": "0:06:06",
+        "start": "0:06:02.44",
+        "end": "0:06:06"
+      },
+      {
+        "adjustedStart": "0:06:16.6",
+        "adjustedEnd": "0:06:23.52",
+        "start": "0:06:16.6",
+        "end": "0:06:23.52"
+      },
+      {
+        "adjustedStart": "0:06:26.6",
+        "adjustedEnd": "0:06:31.08",
+        "start": "0:06:26.6",
+        "end": "0:06:31.08"
+      },
+      {
+        "adjustedStart": "0:06:42.56",
+        "adjustedEnd": "0:06:52",
+        "start": "0:06:42.56",
+        "end": "0:06:52"
+      },
+      {
+        "adjustedStart": "0:06:52.32",
+        "adjustedEnd": "0:07:02.16",
+        "start": "0:06:52.32",
+        "end": "0:07:02.16"
+      },
+      {
+        "adjustedStart": "0:07:02.36",
+        "adjustedEnd": "0:07:07.92",
+        "start": "0:07:02.36",
+        "end": "0:07:07.92"
+      },
+      {
+        "adjustedStart": "0:07:07.92",
+        "adjustedEnd": "0:07:16.48",
+        "start": "0:07:07.92",
+        "end": "0:07:16.48"
+      },
+      {
+        "adjustedStart": "0:07:57.48",
+        "adjustedEnd": "0:08:02.8",
+        "start": "0:07:57.48",
+        "end": "0:08:02.8"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "text": "mumbai",
+    "confidence": 0.7173,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:07.28",
+        "adjustedEnd": "0:00:14.2",
+        "start": "0:00:07.28",
+        "end": "0:00:14.2"
+      },
+      {
+        "adjustedStart": "0:00:18",
+        "adjustedEnd": "0:00:26.56",
+        "start": "0:00:18",
+        "end": "0:00:26.56"
+      },
+      {
+        "adjustedStart": "0:00:46.68",
+        "adjustedEnd": "0:00:51.96",
+        "start": "0:00:46.68",
+        "end": "0:00:51.96"
+      },
+      {
+        "adjustedStart": "0:01:04.44",
+        "adjustedEnd": "0:01:11.28",
+        "start": "0:01:04.44",
+        "end": "0:01:11.28"
+      },
+      {
+        "adjustedStart": "0:01:30.68",
+        "adjustedEnd": "0:01:34.48",
+        "start": "0:01:30.68",
+        "end": "0:01:34.48"
+      },
+      {
+        "adjustedStart": "0:01:57.2",
+        "adjustedEnd": "0:02:01.48",
+        "start": "0:01:57.2",
+        "end": "0:02:01.48"
+      },
+      {
+        "adjustedStart": "0:02:17",
+        "adjustedEnd": "0:02:23.04",
+        "start": "0:02:17",
+        "end": "0:02:23.04"
+      },
+      {
+        "adjustedStart": "0:02:29.48",
+        "adjustedEnd": "0:02:35.92",
+        "start": "0:02:29.48",
+        "end": "0:02:35.92"
+      },
+      {
+        "adjustedStart": "0:02:38.36",
+        "adjustedEnd": "0:02:42.8",
+        "start": "0:02:38.36",
+        "end": "0:02:42.8"
+      },
+      {
+        "adjustedStart": "0:03:28.4",
+        "adjustedEnd": "0:03:34.6",
+        "start": "0:03:28.4",
+        "end": "0:03:34.6"
+      },
+      {
+        "adjustedStart": "0:03:54.56",
+        "adjustedEnd": "0:03:58.44",
+        "start": "0:03:54.56",
+        "end": "0:03:58.44"
+      },
+      {
+        "adjustedStart": "0:03:58.52",
+        "adjustedEnd": "0:04:06.4",
+        "start": "0:03:58.52",
+        "end": "0:04:06.4"
+      },
+      {
+        "adjustedStart": "0:07:42.2",
+        "adjustedEnd": "0:07:47.92",
+        "start": "0:07:42.2",
+        "end": "0:07:47.92"
+      },
+      {
+        "adjustedStart": "0:08:49.6",
+        "adjustedEnd": "0:08:56.68",
+        "start": "0:08:49.6",
+        "end": "0:08:56.68"
+      },
+      {
+        "adjustedStart": "0:09:08.68",
+        "adjustedEnd": "0:09:18.44",
+        "start": "0:09:08.68",
+        "end": "0:09:18.44"
+      },
+      {
+        "adjustedStart": "0:11:16.04",
+        "adjustedEnd": "0:11:24.76",
+        "start": "0:11:16.04",
+        "end": "0:11:24.76"
+      },
+      {
+        "adjustedStart": "0:11:25.16",
+        "adjustedEnd": "0:11:34.96",
+        "start": "0:11:25.16",
+        "end": "0:11:34.96"
+      },
+      {
+        "adjustedStart": "0:11:45",
+        "adjustedEnd": "0:11:51.52",
+        "start": "0:11:45",
+        "end": "0:11:51.52"
+      },
+      {
+        "adjustedStart": "0:11:51.52",
+        "adjustedEnd": "0:12:00.92",
+        "start": "0:11:51.52",
+        "end": "0:12:00.92"
+      },
+      {
+        "adjustedStart": "0:12:13.2",
+        "adjustedEnd": "0:12:16.88",
+        "start": "0:12:13.2",
+        "end": "0:12:16.88"
+      },
+      {
+        "adjustedStart": "0:00:09.009",
+        "adjustedEnd": "0:00:10.0433667",
+        "start": "0:00:09.009",
+        "end": "0:00:10.0433667"
+      },
+      {
+        "adjustedStart": "0:01:32.092",
+        "adjustedEnd": "0:01:33.1263667",
+        "start": "0:01:32.092",
+        "end": "0:01:33.1263667"
+      },
+      {
+        "adjustedStart": "0:02:00.12",
+        "adjustedEnd": "0:02:02.1553667",
+        "start": "0:02:00.12",
+        "end": "0:02:02.1553667"
+      },
+      {
+        "adjustedStart": "0:08:35.515",
+        "adjustedEnd": "0:08:36.5493667",
+        "start": "0:08:35.515",
+        "end": "0:08:36.5493667"
+      },
+      {
+        "adjustedStart": "0:11:28.688",
+        "adjustedEnd": "0:11:32.7253667",
+        "start": "0:11:28.688",
+        "end": "0:11:32.7253667"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "text": "river",
+    "confidence": 0.6947,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:56.12",
+        "adjustedEnd": "0:01:04.08",
+        "start": "0:00:56.12",
+        "end": "0:01:04.08"
+      },
+      {
+        "adjustedStart": "0:05:52.4",
+        "adjustedEnd": "0:05:55.6",
+        "start": "0:05:52.4",
+        "end": "0:05:55.6"
+      },
+      {
+        "adjustedStart": "0:07:19.2",
+        "adjustedEnd": "0:07:22.12",
+        "start": "0:07:19.2",
+        "end": "0:07:22.12"
+      },
+      {
+        "adjustedStart": "0:07:22.36",
+        "adjustedEnd": "0:07:30.84",
+        "start": "0:07:22.36",
+        "end": "0:07:30.84"
+      },
+      {
+        "adjustedStart": "0:08:07.08",
+        "adjustedEnd": "0:08:10.68",
+        "start": "0:08:07.08",
+        "end": "0:08:10.68"
+      },
+      {
+        "adjustedStart": "0:12:01.08",
+        "adjustedEnd": "0:12:06.44",
+        "start": "0:12:01.08",
+        "end": "0:12:06.44"
+      },
+      {
+        "adjustedStart": "0:01:03.063",
+        "adjustedEnd": "0:01:04.0973667",
+        "start": "0:01:03.063",
+        "end": "0:01:04.0973667"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "text": "love",
+    "confidence": 0.69,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:32.04",
+        "adjustedEnd": "0:05:43.8",
+        "start": "0:05:32.04",
+        "end": "0:05:43.8"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "text": "covered",
+    "confidence": 0.69,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:56.12",
+        "adjustedEnd": "0:01:04.08",
+        "start": "0:00:56.12",
+        "end": "0:01:04.08"
+      },
+      {
+        "adjustedStart": "0:06:36.48",
+        "adjustedEnd": "0:06:42.56",
+        "start": "0:06:36.48",
+        "end": "0:06:42.56"
+      },
+      {
+        "adjustedStart": "0:12:01.08",
+        "adjustedEnd": "0:12:06.44",
+        "start": "0:12:01.08",
+        "end": "0:12:06.44"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "text": "airport",
+    "confidence": 0.6877,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:07.28",
+        "adjustedEnd": "0:00:14.2",
+        "start": "0:00:07.28",
+        "end": "0:00:14.2"
+      },
+      {
+        "adjustedStart": "0:00:36.4",
+        "adjustedEnd": "0:00:39.36",
+        "start": "0:00:36.4",
+        "end": "0:00:39.36"
+      },
+      {
+        "adjustedStart": "0:00:56.12",
+        "adjustedEnd": "0:01:04.08",
+        "start": "0:00:56.12",
+        "end": "0:01:04.08"
+      },
+      {
+        "adjustedStart": "0:01:04.44",
+        "adjustedEnd": "0:01:11.28",
+        "start": "0:01:04.44",
+        "end": "0:01:11.28"
+      },
+      {
+        "adjustedStart": "0:01:22",
+        "adjustedEnd": "0:01:30.28",
+        "start": "0:01:22",
+        "end": "0:01:30.28"
+      },
+      {
+        "adjustedStart": "0:01:34.92",
+        "adjustedEnd": "0:01:41.4",
+        "start": "0:01:34.92",
+        "end": "0:01:41.4"
+      },
+      {
+        "adjustedStart": "0:01:47.32",
+        "adjustedEnd": "0:01:50.52",
+        "start": "0:01:47.32",
+        "end": "0:01:50.52"
+      },
+      {
+        "adjustedStart": "0:01:57.2",
+        "adjustedEnd": "0:02:01.48",
+        "start": "0:01:57.2",
+        "end": "0:02:01.48"
+      },
+      {
+        "adjustedStart": "0:02:17",
+        "adjustedEnd": "0:02:23.04",
+        "start": "0:02:17",
+        "end": "0:02:23.04"
+      },
+      {
+        "adjustedStart": "0:02:29.48",
+        "adjustedEnd": "0:02:35.92",
+        "start": "0:02:29.48",
+        "end": "0:02:35.92"
+      },
+      {
+        "adjustedStart": "0:02:38.36",
+        "adjustedEnd": "0:02:42.8",
+        "start": "0:02:38.36",
+        "end": "0:02:42.8"
+      },
+      {
+        "adjustedStart": "0:03:00.96",
+        "adjustedEnd": "0:03:09.64",
+        "start": "0:03:00.96",
+        "end": "0:03:09.64"
+      },
+      {
+        "adjustedStart": "0:03:34.68",
+        "adjustedEnd": "0:03:37.76",
+        "start": "0:03:34.68",
+        "end": "0:03:37.76"
+      },
+      {
+        "adjustedStart": "0:03:38.36",
+        "adjustedEnd": "0:03:45.44",
+        "start": "0:03:38.36",
+        "end": "0:03:45.44"
+      },
+      {
+        "adjustedStart": "0:05:56.64",
+        "adjustedEnd": "0:06:00.12",
+        "start": "0:05:56.64",
+        "end": "0:06:00.12"
+      },
+      {
+        "adjustedStart": "0:06:32.96",
+        "adjustedEnd": "0:06:36.44",
+        "start": "0:06:32.96",
+        "end": "0:06:36.44"
+      },
+      {
+        "adjustedStart": "0:07:42.2",
+        "adjustedEnd": "0:07:47.92",
+        "start": "0:07:42.2",
+        "end": "0:07:47.92"
+      },
+      {
+        "adjustedStart": "0:08:38.08",
+        "adjustedEnd": "0:08:48.32",
+        "start": "0:08:38.08",
+        "end": "0:08:48.32"
+      },
+      {
+        "adjustedStart": "0:08:56.8",
+        "adjustedEnd": "0:09:01.72",
+        "start": "0:08:56.8",
+        "end": "0:09:01.72"
+      },
+      {
+        "adjustedStart": "0:10:52.44",
+        "adjustedEnd": "0:11:00.08",
+        "start": "0:10:52.44",
+        "end": "0:11:00.08"
+      },
+      {
+        "adjustedStart": "0:11:16.04",
+        "adjustedEnd": "0:11:24.76",
+        "start": "0:11:16.04",
+        "end": "0:11:24.76"
+      },
+      {
+        "adjustedStart": "0:11:35.52",
+        "adjustedEnd": "0:11:44.52",
+        "start": "0:11:35.52",
+        "end": "0:11:44.52"
+      },
+      {
+        "adjustedStart": "0:11:45",
+        "adjustedEnd": "0:11:51.52",
+        "start": "0:11:45",
+        "end": "0:11:51.52"
+      },
+      {
+        "adjustedStart": "0:11:51.52",
+        "adjustedEnd": "0:12:00.92",
+        "start": "0:11:51.52",
+        "end": "0:12:00.92"
+      },
+      {
+        "adjustedStart": "0:12:06.44",
+        "adjustedEnd": "0:12:09.52",
+        "start": "0:12:06.44",
+        "end": "0:12:09.52"
+      },
+      {
+        "adjustedStart": "0:00:09.009",
+        "adjustedEnd": "0:00:10.0433667",
+        "start": "0:00:09.009",
+        "end": "0:00:10.0433667"
+      },
+      {
+        "adjustedStart": "0:00:22.022",
+        "adjustedEnd": "0:00:27.0603667",
+        "start": "0:00:22.022",
+        "end": "0:00:27.0603667"
+      },
+      {
+        "adjustedStart": "0:00:23.023",
+        "adjustedEnd": "0:00:27.0603667",
+        "start": "0:00:23.023",
+        "end": "0:00:27.0603667"
+      },
+      {
+        "adjustedStart": "0:00:40.04",
+        "adjustedEnd": "0:00:42.0753667",
+        "start": "0:00:40.04",
+        "end": "0:00:42.0753667"
+      },
+      {
+        "adjustedStart": "0:00:46.046",
+        "adjustedEnd": "0:00:51.0843667",
+        "start": "0:00:46.046",
+        "end": "0:00:51.0843667"
+      },
+      {
+        "adjustedStart": "0:01:47.107",
+        "adjustedEnd": "0:01:47.1403667",
+        "start": "0:01:47.107",
+        "end": "0:01:47.1403667"
+      },
+      {
+        "adjustedStart": "0:01:49.109",
+        "adjustedEnd": "0:01:49.1423667",
+        "start": "0:01:49.109",
+        "end": "0:01:49.1423667"
+      },
+      {
+        "adjustedStart": "0:01:52.112",
+        "adjustedEnd": "0:01:52.1453667",
+        "start": "0:01:52.112",
+        "end": "0:01:52.1453667"
+      },
+      {
+        "adjustedStart": "0:01:54.114",
+        "adjustedEnd": "0:01:54.1473667",
+        "start": "0:01:54.114",
+        "end": "0:01:54.1473667"
+      },
+      {
+        "adjustedStart": "0:01:55.115",
+        "adjustedEnd": "0:01:56.1493667",
+        "start": "0:01:55.115",
+        "end": "0:01:56.1493667"
+      },
+      {
+        "adjustedStart": "0:02:00.12",
+        "adjustedEnd": "0:02:02.1553667",
+        "start": "0:02:00.12",
+        "end": "0:02:02.1553667"
+      },
+      {
+        "adjustedStart": "0:02:09.129",
+        "adjustedEnd": "0:02:09.1623667",
+        "start": "0:02:09.129",
+        "end": "0:02:09.1623667"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "text": "passengers",
+    "confidence": 0.6806,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:07.28",
+        "adjustedEnd": "0:00:14.2",
+        "start": "0:00:07.28",
+        "end": "0:00:14.2"
+      },
+      {
+        "adjustedStart": "0:00:18",
+        "adjustedEnd": "0:00:26.56",
+        "start": "0:00:18",
+        "end": "0:00:26.56"
+      },
+      {
+        "adjustedStart": "0:01:50.88",
+        "adjustedEnd": "0:01:57",
+        "start": "0:01:50.88",
+        "end": "0:01:57"
+      },
+      {
+        "adjustedStart": "0:02:04.4",
+        "adjustedEnd": "0:02:08.92",
+        "start": "0:02:04.4",
+        "end": "0:02:08.92"
+      },
+      {
+        "adjustedStart": "0:03:28.4",
+        "adjustedEnd": "0:03:34.6",
+        "start": "0:03:28.4",
+        "end": "0:03:34.6"
+      },
+      {
+        "adjustedStart": "0:08:49.6",
+        "adjustedEnd": "0:08:56.68",
+        "start": "0:08:49.6",
+        "end": "0:08:56.68"
+      },
+      {
+        "adjustedStart": "0:09:08.68",
+        "adjustedEnd": "0:09:18.44",
+        "start": "0:09:08.68",
+        "end": "0:09:18.44"
+      },
+      {
+        "adjustedStart": "0:10:26.72",
+        "adjustedEnd": "0:10:31.8",
+        "start": "0:10:26.72",
+        "end": "0:10:31.8"
+      },
+      {
+        "adjustedStart": "0:00:23.023",
+        "adjustedEnd": "0:00:27.0603667",
+        "start": "0:00:23.023",
+        "end": "0:00:27.0603667"
+      },
+      {
+        "adjustedStart": "0:02:07.127",
+        "adjustedEnd": "0:02:09.1623667",
+        "start": "0:02:07.127",
+        "end": "0:02:09.1623667"
+      },
+      {
+        "adjustedStart": "0:08:53.533",
+        "adjustedEnd": "0:08:54.5673667",
+        "start": "0:08:53.533",
+        "end": "0:08:54.5673667"
+      }
+    ]
+  }
+]

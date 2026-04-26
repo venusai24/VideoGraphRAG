@@ -1,0 +1,584 @@
+[
+  {
+    "id": 1,
+    "text": "widescreen hacks",
+    "confidence": 0.942,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:33",
+        "adjustedEnd": "0:00:37.7916667",
+        "start": "0:00:33",
+        "end": "0:00:37.7916667"
+      },
+      {
+        "adjustedStart": "0:00:51.75",
+        "adjustedEnd": "0:00:54.2916667",
+        "start": "0:00:51.75",
+        "end": "0:00:54.2916667"
+      },
+      {
+        "adjustedStart": "0:00:56.75",
+        "adjustedEnd": "0:00:58.5416667",
+        "start": "0:00:56.75",
+        "end": "0:00:58.5416667"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "text": "s500 mistake",
+    "confidence": 0.9348,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:33",
+        "adjustedEnd": "0:00:36.2916667",
+        "start": "0:00:33",
+        "end": "0:00:36.2916667"
+      },
+      {
+        "adjustedStart": "0:00:51.75",
+        "adjustedEnd": "0:00:54.2916667",
+        "start": "0:00:51.75",
+        "end": "0:00:54.2916667"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "text": "godot game",
+    "confidence": 0.9347,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:13.25",
+        "adjustedEnd": "0:00:20.2916667",
+        "start": "0:00:13.25",
+        "end": "0:00:20.2916667"
+      },
+      {
+        "adjustedStart": "0:00:27.5",
+        "adjustedEnd": "0:00:38.2916667",
+        "start": "0:00:27.5",
+        "end": "0:00:38.2916667"
+      },
+      {
+        "adjustedStart": "0:00:27.75",
+        "adjustedEnd": "0:00:29.5416667",
+        "start": "0:00:27.75",
+        "end": "0:00:29.5416667"
+      },
+      {
+        "adjustedStart": "0:00:30.75",
+        "adjustedEnd": "0:00:31.7916667",
+        "start": "0:00:30.75",
+        "end": "0:00:31.7916667"
+      },
+      {
+        "adjustedStart": "0:00:32",
+        "adjustedEnd": "0:00:37.7916667",
+        "start": "0:00:32",
+        "end": "0:00:37.7916667"
+      },
+      {
+        "adjustedStart": "0:00:33.25",
+        "adjustedEnd": "0:00:37.7916667",
+        "start": "0:00:33.25",
+        "end": "0:00:37.7916667"
+      },
+      {
+        "adjustedStart": "0:00:48.5",
+        "adjustedEnd": "0:00:49.0416667",
+        "start": "0:00:48.5",
+        "end": "0:00:49.0416667"
+      },
+      {
+        "adjustedStart": "0:00:52",
+        "adjustedEnd": "0:00:54.0416667",
+        "start": "0:00:52",
+        "end": "0:00:54.0416667"
+      },
+      {
+        "adjustedStart": "0:00:54.25",
+        "adjustedEnd": "0:00:54.2916667",
+        "start": "0:00:54.25",
+        "end": "0:00:54.2916667"
+      },
+      {
+        "adjustedStart": "0:00:57.25",
+        "adjustedEnd": "0:00:58.5416667",
+        "start": "0:00:57.25",
+        "end": "0:00:58.5416667"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "text": "2d scene",
+    "confidence": 0.9331,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:27.75",
+        "adjustedEnd": "0:00:29.5416667",
+        "start": "0:00:27.75",
+        "end": "0:00:29.5416667"
+      },
+      {
+        "adjustedStart": "0:00:32",
+        "adjustedEnd": "0:00:37.7916667",
+        "start": "0:00:32",
+        "end": "0:00:37.7916667"
+      },
+      {
+        "adjustedStart": "0:00:51.75",
+        "adjustedEnd": "0:00:54.5416667",
+        "start": "0:00:51.75",
+        "end": "0:00:54.5416667"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "text": "platformer game",
+    "confidence": 0.9315,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:27.75",
+        "adjustedEnd": "0:00:29.5416667",
+        "start": "0:00:27.75",
+        "end": "0:00:29.5416667"
+      },
+      {
+        "adjustedStart": "0:00:30.75",
+        "adjustedEnd": "0:00:31.7916667",
+        "start": "0:00:30.75",
+        "end": "0:00:31.7916667"
+      },
+      {
+        "adjustedStart": "0:00:32",
+        "adjustedEnd": "0:00:37.7916667",
+        "start": "0:00:32",
+        "end": "0:00:37.7916667"
+      },
+      {
+        "adjustedStart": "0:00:51.75",
+        "adjustedEnd": "0:00:54.5416667",
+        "start": "0:00:51.75",
+        "end": "0:00:54.5416667"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "text": "game >",
+    "confidence": 0.9295,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:27.5",
+        "adjustedEnd": "0:00:37.7916667",
+        "start": "0:00:27.5",
+        "end": "0:00:37.7916667"
+      },
+      {
+        "adjustedStart": "0:00:46.75",
+        "adjustedEnd": "0:00:49.2916667",
+        "start": "0:00:46.75",
+        "end": "0:00:49.2916667"
+      },
+      {
+        "adjustedStart": "0:00:50.5",
+        "adjustedEnd": "0:00:55.2916667",
+        "start": "0:00:50.5",
+        "end": "0:00:55.2916667"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "text": "game",
+    "confidence": 0.6508,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:13.25",
+        "adjustedEnd": "0:00:20.2916667",
+        "start": "0:00:13.25",
+        "end": "0:00:20.2916667"
+      },
+      {
+        "adjustedStart": "0:00:27.5",
+        "adjustedEnd": "0:00:37.7916667",
+        "start": "0:00:27.5",
+        "end": "0:00:37.7916667"
+      },
+      {
+        "adjustedStart": "0:00:27.5",
+        "adjustedEnd": "0:00:38.2916667",
+        "start": "0:00:27.5",
+        "end": "0:00:38.2916667"
+      },
+      {
+        "adjustedStart": "0:00:27.75",
+        "adjustedEnd": "0:00:29.5416667",
+        "start": "0:00:27.75",
+        "end": "0:00:29.5416667"
+      },
+      {
+        "adjustedStart": "0:00:30.75",
+        "adjustedEnd": "0:00:31.7916667",
+        "start": "0:00:30.75",
+        "end": "0:00:31.7916667"
+      },
+      {
+        "adjustedStart": "0:00:32",
+        "adjustedEnd": "0:00:37.7916667",
+        "start": "0:00:32",
+        "end": "0:00:37.7916667"
+      },
+      {
+        "adjustedStart": "0:00:33.25",
+        "adjustedEnd": "0:00:37.7916667",
+        "start": "0:00:33.25",
+        "end": "0:00:37.7916667"
+      },
+      {
+        "adjustedStart": "0:00:34",
+        "adjustedEnd": "0:00:36.0416667",
+        "start": "0:00:34",
+        "end": "0:00:36.0416667"
+      },
+      {
+        "adjustedStart": "0:00:36.25",
+        "adjustedEnd": "0:00:37.7916667",
+        "start": "0:00:36.25",
+        "end": "0:00:37.7916667"
+      },
+      {
+        "adjustedStart": "0:00:46.75",
+        "adjustedEnd": "0:00:49.2916667",
+        "start": "0:00:46.75",
+        "end": "0:00:49.2916667"
+      },
+      {
+        "adjustedStart": "0:00:48.5",
+        "adjustedEnd": "0:00:49.0416667",
+        "start": "0:00:48.5",
+        "end": "0:00:49.0416667"
+      },
+      {
+        "adjustedStart": "0:00:50.5",
+        "adjustedEnd": "0:00:55.2916667",
+        "start": "0:00:50.5",
+        "end": "0:00:55.2916667"
+      },
+      {
+        "adjustedStart": "0:00:51.75",
+        "adjustedEnd": "0:00:54.5416667",
+        "start": "0:00:51.75",
+        "end": "0:00:54.5416667"
+      },
+      {
+        "adjustedStart": "0:00:52",
+        "adjustedEnd": "0:00:54.0416667",
+        "start": "0:00:52",
+        "end": "0:00:54.0416667"
+      },
+      {
+        "adjustedStart": "0:00:54.25",
+        "adjustedEnd": "0:00:54.2916667",
+        "start": "0:00:54.25",
+        "end": "0:00:54.2916667"
+      },
+      {
+        "adjustedStart": "0:00:57.25",
+        "adjustedEnd": "0:00:58.5416667",
+        "start": "0:00:57.25",
+        "end": "0:00:58.5416667"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "text": "crash",
+    "confidence": 0.6462,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:13.25",
+        "adjustedEnd": "0:00:20.2916667",
+        "start": "0:00:13.25",
+        "end": "0:00:20.2916667"
+      },
+      {
+        "adjustedStart": "0:00:18.75",
+        "adjustedEnd": "0:00:19.7916667",
+        "start": "0:00:18.75",
+        "end": "0:00:19.7916667"
+      },
+      {
+        "adjustedStart": "0:00:27.5",
+        "adjustedEnd": "0:00:38.2916667",
+        "start": "0:00:27.5",
+        "end": "0:00:38.2916667"
+      },
+      {
+        "adjustedStart": "0:00:33",
+        "adjustedEnd": "0:00:37.7916667",
+        "start": "0:00:33",
+        "end": "0:00:37.7916667"
+      },
+      {
+        "adjustedStart": "0:00:41.25",
+        "adjustedEnd": "0:00:41.5416667",
+        "start": "0:00:41.25",
+        "end": "0:00:41.5416667"
+      },
+      {
+        "adjustedStart": "0:00:48.25",
+        "adjustedEnd": "0:00:49.2916667",
+        "start": "0:00:48.25",
+        "end": "0:00:49.2916667"
+      },
+      {
+        "adjustedStart": "0:00:51.75",
+        "adjustedEnd": "0:00:54.0416667",
+        "start": "0:00:51.75",
+        "end": "0:00:54.0416667"
+      },
+      {
+        "adjustedStart": "0:00:57",
+        "adjustedEnd": "0:00:58.5416667",
+        "start": "0:00:57",
+        "end": "0:00:58.5416667"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "text": "learn",
+    "confidence": 0.6442,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:27.75",
+        "adjustedEnd": "0:00:29.5416667",
+        "start": "0:00:27.75",
+        "end": "0:00:29.5416667"
+      },
+      {
+        "adjustedStart": "0:00:30.75",
+        "adjustedEnd": "0:00:31.7916667",
+        "start": "0:00:30.75",
+        "end": "0:00:31.7916667"
+      },
+      {
+        "adjustedStart": "0:00:32",
+        "adjustedEnd": "0:00:37.7916667",
+        "start": "0:00:32",
+        "end": "0:00:37.7916667"
+      },
+      {
+        "adjustedStart": "0:00:44.75",
+        "adjustedEnd": "0:00:47.0416667",
+        "start": "0:00:44.75",
+        "end": "0:00:47.0416667"
+      },
+      {
+        "adjustedStart": "0:00:51.75",
+        "adjustedEnd": "0:00:54.5416667",
+        "start": "0:00:51.75",
+        "end": "0:00:54.5416667"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "text": "spielberg",
+    "confidence": 0.637,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:33",
+        "adjustedEnd": "0:00:37.7916667",
+        "start": "0:00:33",
+        "end": "0:00:37.7916667"
+      },
+      {
+        "adjustedStart": "0:00:33",
+        "adjustedEnd": "0:00:37.7916667",
+        "start": "0:00:33",
+        "end": "0:00:37.7916667"
+      },
+      {
+        "adjustedStart": "0:00:48.5",
+        "adjustedEnd": "0:00:49.2916667",
+        "start": "0:00:48.5",
+        "end": "0:00:49.2916667"
+      },
+      {
+        "adjustedStart": "0:00:51.75",
+        "adjustedEnd": "0:00:54.0416667",
+        "start": "0:00:51.75",
+        "end": "0:00:54.0416667"
+      },
+      {
+        "adjustedStart": "0:00:57",
+        "adjustedEnd": "0:00:58.5416667",
+        "start": "0:00:57",
+        "end": "0:00:58.5416667"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "text": "watch",
+    "confidence": 0.6211,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:02.25",
+        "adjustedEnd": "0:00:03.7916667",
+        "start": "0:00:02.25",
+        "end": "0:00:03.7916667"
+      },
+      {
+        "adjustedStart": "0:00:32.75",
+        "adjustedEnd": "0:00:37.7916667",
+        "start": "0:00:32.75",
+        "end": "0:00:37.7916667"
+      },
+      {
+        "adjustedStart": "0:00:48.25",
+        "adjustedEnd": "0:00:49.2916667",
+        "start": "0:00:48.25",
+        "end": "0:00:49.2916667"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "text": "beginne",
+    "confidence": 0.6211,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:13.25",
+        "adjustedEnd": "0:00:20.2916667",
+        "start": "0:00:13.25",
+        "end": "0:00:20.2916667"
+      },
+      {
+        "adjustedStart": "0:00:27.5",
+        "adjustedEnd": "0:00:38.2916667",
+        "start": "0:00:27.5",
+        "end": "0:00:38.2916667"
+      },
+      {
+        "adjustedStart": "0:00:33",
+        "adjustedEnd": "0:00:37.7916667",
+        "start": "0:00:33",
+        "end": "0:00:37.7916667"
+      },
+      {
+        "adjustedStart": "0:00:41.25",
+        "adjustedEnd": "0:00:41.5416667",
+        "start": "0:00:41.25",
+        "end": "0:00:41.5416667"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "text": "saving",
+    "confidence": 0.6211,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:27.5",
+        "adjustedEnd": "0:00:37.7916667",
+        "start": "0:00:27.5",
+        "end": "0:00:37.7916667"
+      },
+      {
+        "adjustedStart": "0:00:36.25",
+        "adjustedEnd": "0:00:37.7916667",
+        "start": "0:00:36.25",
+        "end": "0:00:37.7916667"
+      },
+      {
+        "adjustedStart": "0:00:46.75",
+        "adjustedEnd": "0:00:49.2916667",
+        "start": "0:00:46.75",
+        "end": "0:00:49.2916667"
+      },
+      {
+        "adjustedStart": "0:00:50.5",
+        "adjustedEnd": "0:00:55.2916667",
+        "start": "0:00:50.5",
+        "end": "0:00:55.2916667"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "text": "loading",
+    "confidence": 0.6211,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:27.5",
+        "adjustedEnd": "0:00:37.7916667",
+        "start": "0:00:27.5",
+        "end": "0:00:37.7916667"
+      },
+      {
+        "adjustedStart": "0:00:36.25",
+        "adjustedEnd": "0:00:37.7916667",
+        "start": "0:00:36.25",
+        "end": "0:00:37.7916667"
+      },
+      {
+        "adjustedStart": "0:00:46.75",
+        "adjustedEnd": "0:00:49.2916667",
+        "start": "0:00:46.75",
+        "end": "0:00:49.2916667"
+      },
+      {
+        "adjustedStart": "0:00:50.5",
+        "adjustedEnd": "0:00:55.2916667",
+        "start": "0:00:50.5",
+        "end": "0:00:55.2916667"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "text": "beginners",
+    "confidence": 0.6211,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:27.5",
+        "adjustedEnd": "0:00:38.2916667",
+        "start": "0:00:27.5",
+        "end": "0:00:38.2916667"
+      },
+      {
+        "adjustedStart": "0:00:33",
+        "adjustedEnd": "0:00:37.7916667",
+        "start": "0:00:33",
+        "end": "0:00:37.7916667"
+      },
+      {
+        "adjustedStart": "0:00:41.25",
+        "adjustedEnd": "0:00:41.5416667",
+        "start": "0:00:41.25",
+        "end": "0:00:41.5416667"
+      }
+    ]
+  }
+]

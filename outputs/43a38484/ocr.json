@@ -1,0 +1,8090 @@
+[
+  {
+    "id": 1,
+    "text": "1977",
+    "confidence": 0.996,
+    "left": 864,
+    "top": 791,
+    "width": 194,
+    "height": 62,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:48",
+        "adjustedEnd": "0:01:49.0333333",
+        "start": "0:01:48",
+        "end": "0:01:49.0333333"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "text": "2020",
+    "confidence": 0.995,
+    "left": 848,
+    "top": 791,
+    "width": 216,
+    "height": 60,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:51",
+        "adjustedEnd": "0:01:53.0333333",
+        "start": "0:01:51",
+        "end": "0:01:53.0333333"
+      },
+      {
+        "adjustedStart": "0:01:58",
+        "adjustedEnd": "0:01:58.0333333",
+        "start": "0:01:58",
+        "end": "0:01:58.0333333"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "text": "2023",
+    "confidence": 0.993,
+    "left": 842,
+    "top": 790,
+    "width": 218,
+    "height": 61,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:00",
+        "adjustedEnd": "0:02:01.0333333",
+        "start": "0:02:00",
+        "end": "0:02:01.0333333"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "text": "9:",
+    "confidence": 0.972,
+    "left": 1902,
+    "top": 162,
+    "width": 15,
+    "height": 15,
+    "angle": 4,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:11",
+        "adjustedEnd": "0:03:11.0333333",
+        "start": "0:03:11",
+        "end": "0:03:11.0333333"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "text": "9:41",
+    "confidence": 0.996,
+    "left": 353,
+    "top": 147,
+    "width": 33,
+    "height": 16,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:13",
+        "adjustedEnd": "0:03:15.0333333",
+        "start": "0:03:13",
+        "end": "0:03:15.0333333"
+      },
+      {
+        "adjustedStart": "0:03:23",
+        "adjustedEnd": "0:03:26.0333333",
+        "start": "0:03:23",
+        "end": "0:03:26.0333333"
+      },
+      {
+        "adjustedStart": "0:03:53",
+        "adjustedEnd": "0:03:59.0333333",
+        "start": "0:03:53",
+        "end": "0:03:59.0333333"
+      },
+      {
+        "adjustedStart": "0:04:01",
+        "adjustedEnd": "0:04:04.0333333",
+        "start": "0:04:01",
+        "end": "0:04:04.0333333"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "text": "10",
+    "confidence": 0.996,
+    "left": 1032,
+    "top": 691,
+    "width": 14,
+    "height": 10,
+    "angle": -4,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:35",
+        "adjustedEnd": "0:03:40.0333333",
+        "start": "0:03:35",
+        "end": "0:03:40.0333333"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "text": "100/100",
+    "confidence": 0.98,
+    "left": 1258,
+    "top": 720,
+    "width": 337,
+    "height": 66,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:43",
+        "adjustedEnd": "0:03:45.0333333",
+        "start": "0:03:43",
+        "end": "0:03:45.0333333"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "text": "25",
+    "confidence": 0.942,
+    "left": 652,
+    "top": 92,
+    "width": 26,
+    "height": 25,
+    "angle": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:11:39",
+        "adjustedEnd": "0:11:39.0333333",
+        "start": "0:11:39",
+        "end": "0:11:39.0333333"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "text": "1932",
+    "confidence": 0.993,
+    "left": 1704,
+    "top": 477,
+    "width": 58,
+    "height": 20,
+    "angle": -4,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:14:35",
+        "adjustedEnd": "0:14:35.0333333",
+        "start": "0:14:35",
+        "end": "0:14:35.0333333"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "text": "THE",
+    "confidence": 0.997,
+    "left": 56,
+    "top": 45,
+    "width": 67,
+    "height": 27,
+    "angle": -1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:00",
+        "adjustedEnd": "0:00:52.0333333",
+        "start": "0:00:00",
+        "end": "0:00:52.0333333"
+      },
+      {
+        "adjustedStart": "0:00:54",
+        "adjustedEnd": "0:01:15.0333333",
+        "start": "0:00:54",
+        "end": "0:01:15.0333333"
+      },
+      {
+        "adjustedStart": "0:01:17",
+        "adjustedEnd": "0:03:21.0333333",
+        "start": "0:01:17",
+        "end": "0:03:21.0333333"
+      },
+      {
+        "adjustedStart": "0:03:27",
+        "adjustedEnd": "0:03:29.0333333",
+        "start": "0:03:27",
+        "end": "0:03:29.0333333"
+      },
+      {
+        "adjustedStart": "0:03:42",
+        "adjustedEnd": "0:03:51.0333333",
+        "start": "0:03:42",
+        "end": "0:03:51.0333333"
+      },
+      {
+        "adjustedStart": "0:03:53",
+        "adjustedEnd": "0:08:09.0333333",
+        "start": "0:03:53",
+        "end": "0:08:09.0333333"
+      },
+      {
+        "adjustedStart": "0:08:11",
+        "adjustedEnd": "0:12:29.0333333",
+        "start": "0:08:11",
+        "end": "0:12:29.0333333"
+      },
+      {
+        "adjustedStart": "0:12:33",
+        "adjustedEnd": "0:13:44.0333333",
+        "start": "0:12:33",
+        "end": "0:13:44.0333333"
+      },
+      {
+        "adjustedStart": "0:13:46",
+        "adjustedEnd": "0:14:18.0333333",
+        "start": "0:13:46",
+        "end": "0:14:18.0333333"
+      },
+      {
+        "adjustedStart": "0:14:20",
+        "adjustedEnd": "0:15:23.0333333",
+        "start": "0:14:20",
+        "end": "0:15:23.0333333"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "text": "B1M",
+    "confidence": 0.932,
+    "left": 55,
+    "top": 76,
+    "width": 118,
+    "height": 53,
+    "angle": -1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:00",
+        "adjustedEnd": "0:00:52.0333333",
+        "start": "0:00:00",
+        "end": "0:00:52.0333333"
+      },
+      {
+        "adjustedStart": "0:00:54",
+        "adjustedEnd": "0:01:15.0333333",
+        "start": "0:00:54",
+        "end": "0:01:15.0333333"
+      },
+      {
+        "adjustedStart": "0:01:17",
+        "adjustedEnd": "0:02:04.0333333",
+        "start": "0:01:17",
+        "end": "0:02:04.0333333"
+      },
+      {
+        "adjustedStart": "0:02:06",
+        "adjustedEnd": "0:03:21.0333333",
+        "start": "0:02:06",
+        "end": "0:03:21.0333333"
+      },
+      {
+        "adjustedStart": "0:03:27",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:27",
+        "end": "0:03:34.0333333"
+      },
+      {
+        "adjustedStart": "0:03:48",
+        "adjustedEnd": "0:03:51.0333333",
+        "start": "0:03:48",
+        "end": "0:03:51.0333333"
+      },
+      {
+        "adjustedStart": "0:03:53",
+        "adjustedEnd": "0:05:14.0333333",
+        "start": "0:03:53",
+        "end": "0:05:14.0333333"
+      },
+      {
+        "adjustedStart": "0:05:36",
+        "adjustedEnd": "0:06:23.0333333",
+        "start": "0:05:36",
+        "end": "0:06:23.0333333"
+      },
+      {
+        "adjustedStart": "0:06:25",
+        "adjustedEnd": "0:10:50.0333333",
+        "start": "0:06:25",
+        "end": "0:10:50.0333333"
+      },
+      {
+        "adjustedStart": "0:10:53",
+        "adjustedEnd": "0:11:13.0333333",
+        "start": "0:10:53",
+        "end": "0:11:13.0333333"
+      },
+      {
+        "adjustedStart": "0:11:15",
+        "adjustedEnd": "0:11:59.0333333",
+        "start": "0:11:15",
+        "end": "0:11:59.0333333"
+      },
+      {
+        "adjustedStart": "0:12:02",
+        "adjustedEnd": "0:12:28.0333333",
+        "start": "0:12:02",
+        "end": "0:12:28.0333333"
+      },
+      {
+        "adjustedStart": "0:12:30",
+        "adjustedEnd": "0:12:53.0333333",
+        "start": "0:12:30",
+        "end": "0:12:53.0333333"
+      },
+      {
+        "adjustedStart": "0:12:55",
+        "adjustedEnd": "0:14:32.0333333",
+        "start": "0:12:55",
+        "end": "0:14:32.0333333"
+      },
+      {
+        "adjustedStart": "0:14:35",
+        "adjustedEnd": "0:15:10.0333333",
+        "start": "0:14:35",
+        "end": "0:15:10.0333333"
+      },
+      {
+        "adjustedStart": "0:15:12",
+        "adjustedEnd": "0:15:23.0333333",
+        "start": "0:15:12",
+        "end": "0:15:23.0333333"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "text": "gewd",
+    "confidence": 0.956,
+    "left": 1143,
+    "top": 547,
+    "width": 112,
+    "height": 33,
+    "angle": 46,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:05",
+        "adjustedEnd": "0:00:06.0333333",
+        "start": "0:00:05",
+        "end": "0:00:06.0333333"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "text": "McDonald's",
+    "confidence": 0.956,
+    "left": 363,
+    "top": 21,
+    "width": 405,
+    "height": 74,
+    "angle": 23,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:08",
+        "adjustedEnd": "0:00:08.0333333",
+        "start": "0:00:08",
+        "end": "0:00:08.0333333"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "text": "MURRAY",
+    "confidence": 0.978,
+    "left": 284,
+    "top": 975,
+    "width": 223,
+    "height": 59,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:17",
+        "adjustedEnd": "0:00:18.0333333",
+        "start": "0:00:17",
+        "end": "0:00:18.0333333"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "text": "HEAD",
+    "confidence": 0.996,
+    "left": 357,
+    "top": 1028,
+    "width": 147,
+    "height": 43,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:17",
+        "adjustedEnd": "0:00:18.0333333",
+        "start": "0:00:17",
+        "end": "0:00:18.0333333"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "text": "Acuitis",
+    "confidence": 0.985,
+    "left": 48,
+    "top": 312,
+    "width": 91,
+    "height": 30,
+    "angle": 28,
+    "language": "es-ES",
+    "instances": [
+      {
+        "adjustedStart": "0:00:27",
+        "adjustedEnd": "0:00:29.0333333",
+        "start": "0:00:27",
+        "end": "0:00:29.0333333"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "text": "itis",
+    "confidence": 0.993,
+    "left": 1,
+    "top": 238,
+    "width": 56,
+    "height": 25,
+    "angle": 4,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:28",
+        "adjustedEnd": "0:00:29.0333333",
+        "start": "0:00:28",
+        "end": "0:00:29.0333333"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "text": "& DE LOIN",
+    "confidence": 0.9727,
+    "left": 32,
+    "top": 613,
+    "width": 84,
+    "height": 33,
+    "angle": 10,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:00:28",
+        "adjustedEnd": "0:00:29.0333333",
+        "start": "0:00:28",
+        "end": "0:00:29.0333333"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "text": "uitis",
+    "confidence": 0.995,
+    "left": 0,
+    "top": 288,
+    "width": 76,
+    "height": 29,
+    "angle": 23,
+    "language": "nl-NL",
+    "instances": [
+      {
+        "adjustedStart": "0:00:30",
+        "adjustedEnd": "0:00:30.0333333",
+        "start": "0:00:30",
+        "end": "0:00:30.0333333"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "text": "DE LOIN",
+    "confidence": 0.9835,
+    "left": 8,
+    "top": 612,
+    "width": 73,
+    "height": 36,
+    "angle": 11,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:00:30",
+        "adjustedEnd": "0:00:30.0333333",
+        "start": "0:00:30",
+        "end": "0:00:30.0333333"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "text": "- PLEASE STAND BY -",
+    "confidence": 0.977,
+    "left": 562,
+    "top": 522,
+    "width": 782,
+    "height": 75,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:31",
+        "adjustedEnd": "0:00:34.0333333",
+        "start": "0:00:31",
+        "end": "0:00:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "text": "TOUR",
+    "confidence": 0.96,
+    "left": 563,
+    "top": 839,
+    "width": 40,
+    "height": 9,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:35",
+        "adjustedEnd": "0:00:36.0333333",
+        "start": "0:00:35",
+        "end": "0:00:36.0333333"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "text": "MONTPARNASSE",
+    "confidence": 0.992,
+    "left": 722,
+    "top": 494,
+    "width": 417,
+    "height": 44,
+    "angle": 0,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:00:35",
+        "adjustedEnd": "0:00:36.0333333",
+        "start": "0:00:35",
+        "end": "0:00:36.0333333"
+      },
+      {
+        "adjustedStart": "0:05:16",
+        "adjustedEnd": "0:05:16.0333333",
+        "start": "0:05:16",
+        "end": "0:05:16.0333333"
+      },
+      {
+        "adjustedStart": "0:08:02",
+        "adjustedEnd": "0:08:02.0333333",
+        "start": "0:08:02",
+        "end": "0:08:02.0333333"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "text": "OD",
+    "confidence": 0.925,
+    "left": 1877,
+    "top": 1031,
+    "width": 28,
+    "height": 14,
+    "angle": 0,
+    "language": "pl-PL",
+    "instances": [
+      {
+        "adjustedStart": "0:00:35",
+        "adjustedEnd": "0:00:35.0333333",
+        "start": "0:00:35",
+        "end": "0:00:35.0333333"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "text": "Tour Montparnasse",
+    "confidence": 0.9945,
+    "left": 487,
+    "top": 489,
+    "width": 947,
+    "height": 95,
+    "angle": 0,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:00:37",
+        "adjustedEnd": "0:00:40.0333333",
+        "start": "0:00:37",
+        "end": "0:00:40.0333333"
+      },
+      {
+        "adjustedStart": "0:01:34",
+        "adjustedEnd": "0:01:35.0333333",
+        "start": "0:01:34",
+        "end": "0:01:35.0333333"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "text": "TACO",
+    "confidence": 0.962,
+    "left": 1785,
+    "top": 1032,
+    "width": 32,
+    "height": 10,
+    "angle": -2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:39",
+        "adjustedEnd": "0:00:40.0333333",
+        "start": "0:00:39",
+        "end": "0:00:40.0333333"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "text": "210 M",
+    "confidence": 0.9945,
+    "left": 674,
+    "top": 523,
+    "width": 161,
+    "height": 44,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:44",
+        "adjustedEnd": "0:00:44.0333333",
+        "start": "0:00:44",
+        "end": "0:00:44.0333333"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "text": "PAR",
+    "confidence": 0.915,
+    "left": 1227,
+    "top": 319,
+    "width": 61,
+    "height": 31,
+    "angle": 16,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:00:50",
+        "adjustedEnd": "0:00:50.0333333",
+        "start": "0:00:50",
+        "end": "0:00:50.0333333"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "text": "ACHAT",
+    "confidence": 0.986,
+    "left": 1190,
+    "top": 636,
+    "width": 37,
+    "height": 13,
+    "angle": -2,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:00:50",
+        "adjustedEnd": "0:00:51.0333333",
+        "start": "0:00:50",
+        "end": "0:00:51.0333333"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "text": "OR",
+    "confidence": 0.997,
+    "left": 1192,
+    "top": 649,
+    "width": 26,
+    "height": 14,
+    "angle": -2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:50",
+        "adjustedEnd": "0:00:51.0333333",
+        "start": "0:00:50",
+        "end": "0:00:51.0333333"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "text": "BAR",
+    "confidence": 0.997,
+    "left": 59,
+    "top": 675,
+    "width": 32,
+    "height": 16,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:50",
+        "adjustedEnd": "0:00:51.0333333",
+        "start": "0:00:50",
+        "end": "0:00:51.0333333"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "text": "ino",
+    "confidence": 0.963,
+    "left": 1618,
+    "top": 686,
+    "width": 125,
+    "height": 40,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:50",
+        "adjustedEnd": "0:00:51.0333333",
+        "start": "0:00:50",
+        "end": "0:00:51.0333333"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "text": "SAUF",
+    "confidence": 0.991,
+    "left": 1636,
+    "top": 738,
+    "width": 49,
+    "height": 13,
+    "angle": 1,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:00:50",
+        "adjustedEnd": "0:00:51.0333333",
+        "start": "0:00:50",
+        "end": "0:00:51.0333333"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "text": "BRASSERIE",
+    "confidence": 0.994,
+    "left": 305,
+    "top": 742,
+    "width": 105,
+    "height": 19,
+    "angle": 1,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:00:50",
+        "adjustedEnd": "0:00:51.0333333",
+        "start": "0:00:50",
+        "end": "0:00:51.0333333"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "text": "LA LIBERTE",
+    "confidence": 0.998,
+    "left": 616,
+    "top": 775,
+    "width": 144,
+    "height": 20,
+    "angle": 6,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:00:50",
+        "adjustedEnd": "0:00:51.0333333",
+        "start": "0:00:50",
+        "end": "0:00:51.0333333"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "text": "LA",
+    "confidence": 0.983,
+    "left": 806,
+    "top": 451,
+    "width": 46,
+    "height": 23,
+    "angle": 1,
+    "language": "es-ES",
+    "instances": [
+      {
+        "adjustedStart": "0:00:51",
+        "adjustedEnd": "0:00:51.0333333",
+        "start": "0:00:51",
+        "end": "0:00:51.0333333"
+      },
+      {
+        "adjustedStart": "0:05:32",
+        "adjustedEnd": "0:05:33.0333333",
+        "start": "0:05:32",
+        "end": "0:05:33.0333333"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "text": "FRUITS & LEGUMES",
+    "confidence": 0.9907,
+    "left": 821,
+    "top": 425,
+    "width": 328,
+    "height": 29,
+    "angle": -1,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:00:52",
+        "adjustedEnd": "0:00:52.0333333",
+        "start": "0:00:52",
+        "end": "0:00:52.0333333"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "text": "La Boulangerie du",
+    "confidence": 0.9693,
+    "left": 1401,
+    "top": 432,
+    "width": 510,
+    "height": 60,
+    "angle": 0,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:00:52",
+        "adjustedEnd": "0:00:52.0333333",
+        "start": "0:00:52",
+        "end": "0:00:52.0333333"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "text": "GRATUIT",
+    "confidence": 0.901,
+    "left": 13,
+    "top": 1044,
+    "width": 60,
+    "height": 16,
+    "angle": 1,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:00:53",
+        "adjustedEnd": "0:00:53.0333333",
+        "start": "0:00:53",
+        "end": "0:00:53.0333333"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "text": "EURONEWS",
+    "confidence": 0.998,
+    "left": 1772,
+    "top": 1034,
+    "width": 111,
+    "height": 20,
+    "angle": 0,
+    "language": "cs-CZ",
+    "instances": [
+      {
+        "adjustedStart": "0:01:00",
+        "adjustedEnd": "0:01:01.0333333",
+        "start": "0:01:00",
+        "end": "0:01:01.0333333"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "text": "NOUVELLE AOM",
+    "confidence": 0.997,
+    "left": 1729,
+    "top": 1035,
+    "width": 155,
+    "height": 20,
+    "angle": 0,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:01:03",
+        "adjustedEnd": "0:01:13.0333333",
+        "start": "0:01:03",
+        "end": "0:01:13.0333333"
+      },
+      {
+        "adjustedStart": "0:13:37",
+        "adjustedEnd": "0:13:39.0333333",
+        "start": "0:13:37",
+        "end": "0:13:39.0333333"
+      },
+      {
+        "adjustedStart": "0:13:42",
+        "adjustedEnd": "0:13:47.0333333",
+        "start": "0:13:42",
+        "end": "0:13:47.0333333"
+      },
+      {
+        "adjustedStart": "0:13:53",
+        "adjustedEnd": "0:13:59.0333333",
+        "start": "0:13:53",
+        "end": "0:13:59.0333333"
+      },
+      {
+        "adjustedStart": "0:14:07",
+        "adjustedEnd": "0:14:21.0333333",
+        "start": "0:14:07",
+        "end": "0:14:21.0333333"
+      },
+      {
+        "adjustedStart": "0:14:26",
+        "adjustedEnd": "0:14:35.0333333",
+        "start": "0:14:26",
+        "end": "0:14:35.0333333"
+      },
+      {
+        "adjustedStart": "0:14:40",
+        "adjustedEnd": "0:14:42.0333333",
+        "start": "0:14:40",
+        "end": "0:14:42.0333333"
+      },
+      {
+        "adjustedStart": "0:15:10",
+        "adjustedEnd": "0:15:13.0333333",
+        "start": "0:15:10",
+        "end": "0:15:13.0333333"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "text": "STRAIGHT ARROW NEWS",
+    "confidence": 0.9967,
+    "left": 648,
+    "top": 570,
+    "width": 625,
+    "height": 44,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:18",
+        "adjustedEnd": "0:01:20.0333333",
+        "start": "0:01:18",
+        "end": "0:01:20.0333333"
+      },
+      {
+        "adjustedStart": "0:03:01",
+        "adjustedEnd": "0:03:01.0333333",
+        "start": "0:03:01",
+        "end": "0:03:01.0333333"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "text": "SPONSORED BY",
+    "confidence": 0.997,
+    "left": 53,
+    "top": 839,
+    "width": 202,
+    "height": 26,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:19",
+        "adjustedEnd": "0:01:20.0333333",
+        "start": "0:01:19",
+        "end": "0:01:20.0333333"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "text": "SAN",
+    "confidence": 0.997,
+    "left": 1511,
+    "top": 139,
+    "width": 150,
+    "height": 59,
+    "angle": -4,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:19",
+        "adjustedEnd": "0:01:20.0333333",
+        "start": "0:01:19",
+        "end": "0:01:20.0333333"
+      },
+      {
+        "adjustedStart": "0:02:50",
+        "adjustedEnd": "0:02:55.0333333",
+        "start": "0:02:50",
+        "end": "0:02:55.0333333"
+      },
+      {
+        "adjustedStart": "0:03:00",
+        "adjustedEnd": "0:03:01.0333333",
+        "start": "0:03:00",
+        "end": "0:03:01.0333333"
+      },
+      {
+        "adjustedStart": "0:03:06",
+        "adjustedEnd": "0:03:07.0333333",
+        "start": "0:03:06",
+        "end": "0:03:07.0333333"
+      },
+      {
+        "adjustedStart": "0:03:13",
+        "adjustedEnd": "0:03:15.0333333",
+        "start": "0:03:13",
+        "end": "0:03:15.0333333"
+      },
+      {
+        "adjustedStart": "0:03:23",
+        "adjustedEnd": "0:03:26.0333333",
+        "start": "0:03:23",
+        "end": "0:03:26.0333333"
+      },
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      },
+      {
+        "adjustedStart": "0:03:42",
+        "adjustedEnd": "0:03:47.0333333",
+        "start": "0:03:42",
+        "end": "0:03:47.0333333"
+      },
+      {
+        "adjustedStart": "0:03:55",
+        "adjustedEnd": "0:03:55.0333333",
+        "start": "0:03:55",
+        "end": "0:03:55.0333333"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "text": "WORLD'S BEST",
+    "confidence": 0.997,
+    "left": 159,
+    "top": 889,
+    "width": 195,
+    "height": 23,
+    "angle": -2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:21",
+        "adjustedEnd": "0:01:28.0333333",
+        "start": "0:01:21",
+        "end": "0:01:28.0333333"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "text": "CONSTRUCTION",
+    "confidence": 0.993,
+    "left": 157,
+    "top": 915,
+    "width": 205,
+    "height": 23,
+    "angle": -2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:21",
+        "adjustedEnd": "0:01:28.0333333",
+        "start": "0:01:21",
+        "end": "0:01:28.0333333"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "text": "podcast",
+    "confidence": 0.924,
+    "left": 214,
+    "top": 940,
+    "width": 81,
+    "height": 21,
+    "angle": -4,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:21",
+        "adjustedEnd": "0:01:28.0333333",
+        "start": "0:01:21",
+        "end": "0:01:28.0333333"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "text": "THE B1M",
+    "confidence": 0.927,
+    "left": 202,
+    "top": 989,
+    "width": 57,
+    "height": 16,
+    "angle": -5,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:21",
+        "adjustedEnd": "0:01:28.0333333",
+        "start": "0:01:21",
+        "end": "0:01:28.0333333"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "text": "BUILDINGS OVER 150-METRES. SOURCE: CTBUH",
+    "confidence": 0.9704,
+    "left": 1446,
+    "top": 1033,
+    "width": 437,
+    "height": 22,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:21",
+        "adjustedEnd": "0:01:27.0333333",
+        "start": "0:01:21",
+        "end": "0:01:27.0333333"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "text": "Available now,",
+    "confidence": 0.99,
+    "left": 361,
+    "top": 950,
+    "width": 202,
+    "height": 25,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:22",
+        "adjustedEnd": "0:01:27.0333333",
+        "start": "0:01:22",
+        "end": "0:01:27.0333333"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "text": "click the",
+    "confidence": 0.9975,
+    "left": 360,
+    "top": 986,
+    "width": 109,
+    "height": 24,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:22",
+        "adjustedEnd": "0:01:22.0333333",
+        "start": "0:01:22",
+        "end": "0:01:22.0333333"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "text": "click the link below to listen",
+    "confidence": 0.9973,
+    "left": 358,
+    "top": 983,
+    "width": 391,
+    "height": 30,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:23",
+        "adjustedEnd": "0:01:27.0333333",
+        "start": "0:01:23",
+        "end": "0:01:27.0333333"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "text": "Available",
+    "confidence": 0.998,
+    "left": 359,
+    "top": 951,
+    "width": 118,
+    "height": 24,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:28",
+        "adjustedEnd": "0:01:28.0333333",
+        "start": "0:01:28",
+        "end": "0:01:28.0333333"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "text": "POTAMUS",
+    "confidence": 0.997,
+    "left": 6,
+    "top": 961,
+    "width": 207,
+    "height": 59,
+    "angle": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:40",
+        "adjustedEnd": "0:01:42.0333333",
+        "start": "0:01:40",
+        "end": "0:01:42.0333333"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "text": "Giscard d'Estaing",
+    "confidence": 0.9975,
+    "left": 394,
+    "top": 896,
+    "width": 380,
+    "height": 43,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:43",
+        "adjustedEnd": "0:01:46.0333333",
+        "start": "0:01:43",
+        "end": "0:01:46.0333333"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "text": "President of France, 1974 - 1981",
+    "confidence": 0.9952,
+    "left": 321,
+    "top": 960,
+    "width": 455,
+    "height": 34,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:43",
+        "adjustedEnd": "0:01:46.0333333",
+        "start": "0:01:43",
+        "end": "0:01:46.0333333"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "text": "ina.fr",
+    "confidence": 0.996,
+    "left": 1443,
+    "top": 936,
+    "width": 152,
+    "height": 52,
+    "angle": 0,
+    "language": "de-DE",
+    "instances": [
+      {
+        "adjustedStart": "0:01:43",
+        "adjustedEnd": "0:01:46.0333333",
+        "start": "0:01:43",
+        "end": "0:01:46.0333333"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "text": "VILLE DE PARIS CENTRE SPORTIF E DE JEUNESSE",
+    "confidence": 0.9176,
+    "left": 88,
+    "top": 1017,
+    "width": 508,
+    "height": 24,
+    "angle": 0,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:01:51",
+        "adjustedEnd": "0:01:51.0333333",
+        "start": "0:01:51",
+        "end": "0:01:51.0333333"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "text": "ODES",
+    "confidence": 0.991,
+    "left": 26,
+    "top": 680,
+    "width": 72,
+    "height": 13,
+    "angle": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:52",
+        "adjustedEnd": "0:01:52.0333333",
+        "start": "0:01:52",
+        "end": "0:01:52.0333333"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "text": "TOUR TRIANGLE",
+    "confidence": 0.996,
+    "left": 1472,
+    "top": 87,
+    "width": 303,
+    "height": 32,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:56",
+        "adjustedEnd": "0:01:58.0333333",
+        "start": "0:01:56",
+        "end": "0:01:58.0333333"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "text": "PALA",
+    "confidence": 0.956,
+    "left": 1872,
+    "top": 710,
+    "width": 37,
+    "height": 7,
+    "angle": 5,
+    "language": "it-IT",
+    "instances": [
+      {
+        "adjustedStart": "0:02:03",
+        "adjustedEnd": "0:02:04.0333333",
+        "start": "0:02:03",
+        "end": "0:02:04.0333333"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "text": "NOVOTEL",
+    "confidence": 0.924,
+    "left": 1445,
+    "top": 602,
+    "width": 88,
+    "height": 17,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:05",
+        "adjustedEnd": "0:02:05.0333333",
+        "start": "0:02:05",
+        "end": "0:02:05.0333333"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "text": "FOR ILLUSTRATIVE PURPOSES ONLY",
+    "confidence": 0.995,
+    "left": 1558,
+    "top": 1034,
+    "width": 329,
+    "height": 23,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:06",
+        "adjustedEnd": "0:02:12.0333333",
+        "start": "0:02:06",
+        "end": "0:02:12.0333333"
+      },
+      {
+        "adjustedStart": "0:05:13",
+        "adjustedEnd": "0:05:16.0333333",
+        "start": "0:05:13",
+        "end": "0:05:16.0333333"
+      },
+      {
+        "adjustedStart": "0:08:02",
+        "adjustedEnd": "0:08:13.0333333",
+        "start": "0:08:02",
+        "end": "0:08:13.0333333"
+      },
+      {
+        "adjustedStart": "0:08:36",
+        "adjustedEnd": "0:09:13.0333333",
+        "start": "0:08:36",
+        "end": "0:09:13.0333333"
+      },
+      {
+        "adjustedStart": "0:09:27",
+        "adjustedEnd": "0:09:45.0333333",
+        "start": "0:09:27",
+        "end": "0:09:45.0333333"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "text": "LA DEFENSE",
+    "confidence": 0.998,
+    "left": 732,
+    "top": 335,
+    "width": 361,
+    "height": 48,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:07",
+        "adjustedEnd": "0:02:12.0333333",
+        "start": "0:02:07",
+        "end": "0:02:12.0333333"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "text": "CENTRAL PARIS",
+    "confidence": 0.9975,
+    "left": 1090,
+    "top": 703,
+    "width": 414,
+    "height": 46,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:09",
+        "adjustedEnd": "0:02:12.0333333",
+        "start": "0:02:09",
+        "end": "0:02:12.0333333"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "text": "DUPRAT",
+    "confidence": 0.99,
+    "left": 1543,
+    "top": 847,
+    "width": 49,
+    "height": 17,
+    "angle": -1,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:02:23",
+        "adjustedEnd": "0:02:24.0333333",
+        "start": "0:02:23",
+        "end": "0:02:24.0333333"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "text": "SOSHANA",
+    "confidence": 0.998,
+    "left": 630,
+    "top": 34,
+    "width": 121,
+    "height": 22,
+    "angle": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:32",
+        "adjustedEnd": "0:02:33.0333333",
+        "start": "0:02:32",
+        "end": "0:02:33.0333333"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "text": "DANSER",
+    "confidence": 0.98,
+    "left": 631,
+    "top": 279,
+    "width": 130,
+    "height": 44,
+    "angle": -6,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:02:32",
+        "adjustedEnd": "0:02:33.0333333",
+        "start": "0:02:32",
+        "end": "0:02:33.0333333"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "text": "PO",
+    "confidence": 0.963,
+    "left": 454,
+    "top": 322,
+    "width": 40,
+    "height": 33,
+    "angle": 10,
+    "language": "pl-PL",
+    "instances": [
+      {
+        "adjustedStart": "0:02:32",
+        "adjustedEnd": "0:02:33.0333333",
+        "start": "0:02:32",
+        "end": "0:02:33.0333333"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "text": "PASCAUD",
+    "confidence": 0.998,
+    "left": 920,
+    "top": 390,
+    "width": 61,
+    "height": 11,
+    "angle": 2,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:02:32",
+        "adjustedEnd": "0:02:33.0333333",
+        "start": "0:02:32",
+        "end": "0:02:33.0333333"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "text": "Alhambra",
+    "confidence": 0.984,
+    "left": 559,
+    "top": 462,
+    "width": 153,
+    "height": 31,
+    "angle": -1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:32",
+        "adjustedEnd": "0:02:33.0333333",
+        "start": "0:02:32",
+        "end": "0:02:33.0333333"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "text": "MAURICE CHEVALIER",
+    "confidence": 0.9815,
+    "left": 551,
+    "top": 483,
+    "width": 158,
+    "height": 21,
+    "angle": -1,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:02:32",
+        "adjustedEnd": "0:02:33.0333333",
+        "start": "0:02:32",
+        "end": "0:02:33.0333333"
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "text": "Le CENTRE",
+    "confidence": 0.994,
+    "left": 871,
+    "top": 473,
+    "width": 132,
+    "height": 26,
+    "angle": -1,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:02:32",
+        "adjustedEnd": "0:02:33.0333333",
+        "start": "0:02:32",
+        "end": "0:02:33.0333333"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "text": "DES JEUNES",
+    "confidence": 0.996,
+    "left": 868,
+    "top": 506,
+    "width": 142,
+    "height": 23,
+    "angle": -4,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:02:32",
+        "adjustedEnd": "0:02:33.0333333",
+        "start": "0:02:32",
+        "end": "0:02:33.0333333"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "text": "scist",
+    "confidence": 0.963,
+    "left": 1018,
+    "top": 499,
+    "width": 28,
+    "height": 16,
+    "angle": -2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:32",
+        "adjustedEnd": "0:02:33.0333333",
+        "start": "0:02:32",
+        "end": "0:02:33.0333333"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "text": "NON",
+    "confidence": 0.995,
+    "left": 731,
+    "top": 597,
+    "width": 51,
+    "height": 17,
+    "angle": -1,
+    "language": "it-IT",
+    "instances": [
+      {
+        "adjustedStart": "0:02:32",
+        "adjustedEnd": "0:02:33.0333333",
+        "start": "0:02:32",
+        "end": "0:02:33.0333333"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "text": "VOTEZ NON!",
+    "confidence": 0.9625,
+    "left": 316,
+    "top": 675,
+    "width": 190,
+    "height": 22,
+    "angle": -2,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:02:32",
+        "adjustedEnd": "0:02:33.0333333",
+        "start": "0:02:32",
+        "end": "0:02:33.0333333"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "text": "VOTEZ",
+    "confidence": 0.993,
+    "left": 305,
+    "top": 721,
+    "width": 37,
+    "height": 12,
+    "angle": 0,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:02:32",
+        "adjustedEnd": "0:02:33.0333333",
+        "start": "0:02:32",
+        "end": "0:02:33.0333333"
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "text": "APPRENEZ",
+    "confidence": 0.928,
+    "left": 659,
+    "top": 258,
+    "width": 64,
+    "height": 13,
+    "angle": -3,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:02:33",
+        "adjustedEnd": "0:02:33.0333333",
+        "start": "0:02:33",
+        "end": "0:02:33.0333333"
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "text": "ing this site, you agree to our updated Privacy Pollcy",
+    "confidence": 0.9273,
+    "left": 792,
+    "top": 773,
+    "width": 982,
+    "height": 32,
+    "angle": 10,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:42",
+        "adjustedEnd": "0:02:42.0333333",
+        "start": "0:02:42",
+        "end": "0:02:42.0333333"
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "text": "Terms of Use.",
+    "confidence": 0.973,
+    "left": 802,
+    "top": 811,
+    "width": 244,
+    "height": 30,
+    "angle": 11,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:42",
+        "adjustedEnd": "0:02:42.0333333",
+        "start": "0:02:42",
+        "end": "0:02:42.0333333"
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "text": "XI's new look is a power move",
+    "confidence": 0.9709,
+    "left": 981,
+    "top": 636,
+    "width": 797,
+    "height": 31,
+    "angle": 9,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:43",
+        "adjustedEnd": "0:02:43.0333333",
+        "start": "0:02:43",
+        "end": "0:02:43.0333333"
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "text": "LEARN MORE >",
+    "confidence": 0.994,
+    "left": 1219,
+    "top": 726,
+    "width": 286,
+    "height": 23,
+    "angle": 9,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:44",
+        "adjustedEnd": "0:02:44.0333333",
+        "start": "0:02:44",
+        "end": "0:02:44.0333333"
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "text": "Featured",
+    "confidence": 0.996,
+    "left": 797,
+    "top": 758,
+    "width": 211,
+    "height": 28,
+    "angle": 11,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:44",
+        "adjustedEnd": "0:02:44.0333333",
+        "start": "0:02:44",
+        "end": "0:02:44.0333333"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "text": "CAM 2",
+    "confidence": 0.989,
+    "left": 316,
+    "top": 70,
+    "width": 28,
+    "height": 14,
+    "angle": -2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:48",
+        "adjustedEnd": "0:02:49.0333333",
+        "start": "0:02:48",
+        "end": "0:02:49.0333333"
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "text": "CAM",
+    "confidence": 0.917,
+    "left": 536,
+    "top": 34,
+    "width": 24,
+    "height": 13,
+    "angle": -2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:49",
+        "adjustedEnd": "0:02:49.0333333",
+        "start": "0:02:49",
+        "end": "0:02:49.0333333"
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "text": "BUSINESS",
+    "confidence": 0.998,
+    "left": 459,
+    "top": 556,
+    "width": 142,
+    "height": 21,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:50",
+        "adjustedEnd": "0:02:51.0333333",
+        "start": "0:02:50",
+        "end": "0:02:51.0333333"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "text": "NEWS",
+    "confidence": 0.995,
+    "left": 470,
+    "top": 584,
+    "width": 104,
+    "height": 28,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:50",
+        "adjustedEnd": "0:02:51.0333333",
+        "start": "0:02:50",
+        "end": "0:02:51.0333333"
+      },
+      {
+        "adjustedStart": "0:03:53",
+        "adjustedEnd": "0:03:53.0333333",
+        "start": "0:03:53",
+        "end": "0:03:53.0333333"
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "text": "LIVE",
+    "confidence": 0.995,
+    "left": 463,
+    "top": 615,
+    "width": 112,
+    "height": 24,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:50",
+        "adjustedEnd": "0:02:51.0333333",
+        "start": "0:02:50",
+        "end": "0:02:51.0333333"
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "text": "RETAIL SALES PLUNGE BY RECORD DUE TO COVID-19",
+    "confidence": 0.9959,
+    "left": 608,
+    "top": 601,
+    "width": 638,
+    "height": 28,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:50",
+        "adjustedEnd": "0:02:51.0333333",
+        "start": "0:02:50",
+        "end": "0:02:51.0333333"
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "text": "CA",
+    "confidence": 0.945,
+    "left": 127,
+    "top": 920,
+    "width": 27,
+    "height": 11,
+    "angle": 4,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:57",
+        "adjustedEnd": "0:03:01.0333333",
+        "start": "0:02:57",
+        "end": "0:03:01.0333333"
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "text": "Unbiased. Straight Facts.",
+    "confidence": 0.9863,
+    "left": 374,
+    "top": 721,
+    "width": 1137,
+    "height": 101,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:01",
+        "adjustedEnd": "0:03:01.0333333",
+        "start": "0:03:01",
+        "end": "0:03:01.0333333"
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "text": "TM",
+    "confidence": 0.994,
+    "left": 1511,
+    "top": 730,
+    "width": 35,
+    "height": 21,
+    "angle": -2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:01",
+        "adjustedEnd": "0:03:01.0333333",
+        "start": "0:03:01",
+        "end": "0:03:01.0333333"
+      },
+      {
+        "adjustedStart": "0:03:22",
+        "adjustedEnd": "0:03:26.0333333",
+        "start": "0:03:22",
+        "end": "0:03:26.0333333"
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "text": "@2025 STRAIGHT ARROW NEWS, LLC",
+    "confidence": 0.9202,
+    "left": 783,
+    "top": 1006,
+    "width": 356,
+    "height": 24,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:01",
+        "adjustedEnd": "0:03:01.0333333",
+        "start": "0:03:01",
+        "end": "0:03:01.0333333"
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "text": "SA",
+    "confidence": 0.934,
+    "left": 127,
+    "top": 920,
+    "width": 29,
+    "height": 13,
+    "angle": 2,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:03:08",
+        "adjustedEnd": "0:03:10.0333333",
+        "start": "0:03:08",
+        "end": "0:03:10.0333333"
+      },
+      {
+        "adjustedStart": "0:03:41",
+        "adjustedEnd": "0:03:47.0333333",
+        "start": "0:03:41",
+        "end": "0:03:47.0333333"
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "text": "STR",
+    "confidence": 0.991,
+    "left": 1766,
+    "top": 407,
+    "width": 144,
+    "height": 49,
+    "angle": -1,
+    "language": "de-DE",
+    "instances": [
+      {
+        "adjustedStart": "0:03:09",
+        "adjustedEnd": "0:03:09.0333333",
+        "start": "0:03:09",
+        "end": "0:03:09.0333333"
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "text": "is story",
+    "confidence": 0.922,
+    "left": 0,
+    "top": 844,
+    "width": 37,
+    "height": 10,
+    "angle": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:11",
+        "adjustedEnd": "0:03:11.0333333",
+        "start": "0:03:11",
+        "end": "0:03:11.0333333"
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "text": "Get caught up",
+    "confidence": 0.9973,
+    "left": 1262,
+    "top": 259,
+    "width": 114,
+    "height": 19,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:13",
+        "adjustedEnd": "0:03:15.0333333",
+        "start": "0:03:13",
+        "end": "0:03:15.0333333"
+      },
+      {
+        "adjustedStart": "0:03:53",
+        "adjustedEnd": "0:04:04.0333333",
+        "start": "0:03:53",
+        "end": "0:04:04.0333333"
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "text": "Politics",
+    "confidence": 0.918,
+    "left": 363,
+    "top": 268,
+    "width": 47,
+    "height": 15,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:13",
+        "adjustedEnd": "0:03:15.0333333",
+        "start": "0:03:13",
+        "end": "0:03:15.0333333"
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "text": "Trump reforms migrant",
+    "confidence": 0.998,
+    "left": 349,
+    "top": 319,
+    "width": 308,
+    "height": 31,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:13",
+        "adjustedEnd": "0:03:15.0333333",
+        "start": "0:03:13",
+        "end": "0:03:15.0333333"
+      },
+      {
+        "adjustedStart": "0:03:53",
+        "adjustedEnd": "0:04:04.0333333",
+        "start": "0:03:53",
+        "end": "0:04:04.0333333"
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "text": "program after US loses",
+    "confidence": 0.998,
+    "left": 348,
+    "top": 356,
+    "width": 311,
+    "height": 28,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:13",
+        "adjustedEnd": "0:03:15.0333333",
+        "start": "0:03:13",
+        "end": "0:03:15.0333333"
+      },
+      {
+        "adjustedStart": "0:03:53",
+        "adjustedEnd": "0:04:04.0333333",
+        "start": "0:03:53",
+        "end": "0:04:04.0333333"
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "text": "track of more than",
+    "confidence": 0.9973,
+    "left": 353,
+    "top": 387,
+    "width": 247,
+    "height": 29,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:13",
+        "adjustedEnd": "0:03:15.0333333",
+        "start": "0:03:13",
+        "end": "0:03:15.0333333"
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "text": "300K children",
+    "confidence": 0.996,
+    "left": 353,
+    "top": 419,
+    "width": 188,
+    "height": 29,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:13",
+        "adjustedEnd": "0:03:15.0333333",
+        "start": "0:03:13",
+        "end": "0:03:15.0333333"
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "text": "Wednesday, April 2, 2025",
+    "confidence": 0.9703,
+    "left": 353,
+    "top": 474,
+    "width": 155,
+    "height": 15,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:13",
+        "adjustedEnd": "0:03:15.0333333",
+        "start": "0:03:13",
+        "end": "0:03:15.0333333"
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "text": "U.S. 14 mins ago 3 min read",
+    "confidence": 0.9139,
+    "left": 1265,
+    "top": 489,
+    "width": 158,
+    "height": 17,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:13",
+        "adjustedEnd": "0:03:15.0333333",
+        "start": "0:03:13",
+        "end": "0:03:15.0333333"
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "text": "By Kalé Carey (News Reporter)",
+    "confidence": 0.9324,
+    "left": 356,
+    "top": 502,
+    "width": 176,
+    "height": 16,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:13",
+        "adjustedEnd": "0:03:15.0333333",
+        "start": "0:03:13",
+        "end": "0:03:15.0333333"
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "text": "Many of America's vital",
+    "confidence": 0.9973,
+    "left": 1262,
+    "top": 521,
+    "width": 236,
+    "height": 24,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:13",
+        "adjustedEnd": "0:03:15.0333333",
+        "start": "0:03:13",
+        "end": "0:03:15.0333333"
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "text": "pollinators are at an",
+    "confidence": 0.9965,
+    "left": 1262,
+    "top": 551,
+    "width": 199,
+    "height": 23,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:13",
+        "adjustedEnd": "0:03:15.0333333",
+        "start": "0:03:13",
+        "end": "0:03:15.0333333"
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "text": "elevated risk of extinction",
+    "confidence": 0.9938,
+    "left": 1261,
+    "top": 578,
+    "width": 256,
+    "height": 23,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:13",
+        "adjustedEnd": "0:03:15.0333333",
+        "start": "0:03:13",
+        "end": "0:03:15.0333333"
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "text": "Get the big picture",
+    "confidence": 0.997,
+    "left": 1258,
+    "top": 661,
+    "width": 110,
+    "height": 16,
+    "angle": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:13",
+        "adjustedEnd": "0:03:15.0333333",
+        "start": "0:03:13",
+        "end": "0:03:15.0333333"
+      },
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "text": "Unbiased Updates™",
+    "confidence": 0.942,
+    "left": 1250,
+    "top": 769,
+    "width": 166,
+    "height": 20,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:13",
+        "adjustedEnd": "0:03:15.0333333",
+        "start": "0:03:13",
+        "end": "0:03:15.0333333"
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "text": "1:22 min listen",
+    "confidence": 0.994,
+    "left": 398,
+    "top": 784,
+    "width": 107,
+    "height": 17,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:13",
+        "adjustedEnd": "0:03:15.0333333",
+        "start": "0:03:13",
+        "end": "0:03:15.0333333"
+      },
+      {
+        "adjustedStart": "0:03:53",
+        "adjustedEnd": "0:04:04.0333333",
+        "start": "0:03:53",
+        "end": "0:04:04.0333333"
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "text": "Trump cabinet members",
+    "confidence": 0.9953,
+    "left": 1254,
+    "top": 827,
+    "width": 201,
+    "height": 18,
+    "angle": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:13",
+        "adjustedEnd": "0:03:15.0333333",
+        "start": "0:03:13",
+        "end": "0:03:15.0333333"
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "text": "Summary",
+    "confidence": 0.998,
+    "left": 383,
+    "top": 855,
+    "width": 64,
+    "height": 13,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:13",
+        "adjustedEnd": "0:03:15.0333333",
+        "start": "0:03:13",
+        "end": "0:03:15.0333333"
+      },
+      {
+        "adjustedStart": "0:03:53",
+        "adjustedEnd": "0:04:04.0333333",
+        "start": "0:03:53",
+        "end": "0:04:04.0333333"
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "text": "Full story",
+    "confidence": 0.9955,
+    "left": 468,
+    "top": 850,
+    "width": 59,
+    "height": 15,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:13",
+        "adjustedEnd": "0:03:15.0333333",
+        "start": "0:03:13",
+        "end": "0:03:15.0333333"
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "text": "Facts",
+    "confidence": 0.998,
+    "left": 548,
+    "top": 848,
+    "width": 46,
+    "height": 12,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:13",
+        "adjustedEnd": "0:03:15.0333333",
+        "start": "0:03:13",
+        "end": "0:03:15.0333333"
+      },
+      {
+        "adjustedStart": "0:03:53",
+        "adjustedEnd": "0:04:00.0333333",
+        "start": "0:03:53",
+        "end": "0:04:00.0333333"
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "text": "Why this story r",
+    "confidence": 0.9873,
+    "left": 606,
+    "top": 847,
+    "width": 93,
+    "height": 14,
+    "angle": -1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:13",
+        "adjustedEnd": "0:03:15.0333333",
+        "start": "0:03:13",
+        "end": "0:03:15.0333333"
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "text": "Explore",
+    "confidence": 0.958,
+    "left": 1302,
+    "top": 894,
+    "width": 36,
+    "height": 9,
+    "angle": 6,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:13",
+        "adjustedEnd": "0:03:15.0333333",
+        "start": "0:03:13",
+        "end": "0:03:15.0333333"
+      },
+      {
+        "adjustedStart": "0:03:23",
+        "adjustedEnd": "0:03:26.0333333",
+        "start": "0:03:23",
+        "end": "0:03:26.0333333"
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "text": "Player",
+    "confidence": 0.998,
+    "left": 1373,
+    "top": 908,
+    "width": 34,
+    "height": 8,
+    "angle": 5,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:13",
+        "adjustedEnd": "0:03:15.0333333",
+        "start": "0:03:13",
+        "end": "0:03:15.0333333"
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "text": "Media Miss",
+    "confidence": 0.9945,
+    "left": 1436,
+    "top": 910,
+    "width": 51,
+    "height": 12,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:13",
+        "adjustedEnd": "0:03:15.0333333",
+        "start": "0:03:13",
+        "end": "0:03:15.0333333"
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "text": "Settings",
+    "confidence": 0.998,
+    "left": 1511,
+    "top": 913,
+    "width": 39,
+    "height": 11,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:13",
+        "adjustedEnd": "0:03:15.0333333",
+        "start": "0:03:13",
+        "end": "0:03:15.0333333"
+      },
+      {
+        "adjustedStart": "0:03:23",
+        "adjustedEnd": "0:03:26.0333333",
+        "start": "0:03:23",
+        "end": "0:03:26.0333333"
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "text": "Today",
+    "confidence": 0.998,
+    "left": 371,
+    "top": 914,
+    "width": 32,
+    "height": 10,
+    "angle": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:13",
+        "adjustedEnd": "0:03:15.0333333",
+        "start": "0:03:13",
+        "end": "0:03:15.0333333"
+      },
+      {
+        "adjustedStart": "0:03:23",
+        "adjustedEnd": "0:03:26.0333333",
+        "start": "0:03:23",
+        "end": "0:03:26.0333333"
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "text": "MEDIA MISS",
+    "confidence": 0.96,
+    "left": 187,
+    "top": 480,
+    "width": 850,
+    "height": 120,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:22",
+        "adjustedEnd": "0:03:26.0333333",
+        "start": "0:03:22",
+        "end": "0:03:26.0333333"
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "text": "Left Misses",
+    "confidence": 0.996,
+    "left": 1294,
+    "top": 273,
+    "width": 56,
+    "height": 14,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:23",
+        "adjustedEnd": "0:03:26.0333333",
+        "start": "0:03:23",
+        "end": "0:03:26.0333333"
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "text": "All Misses",
+    "confidence": 0.9785,
+    "left": 1388,
+    "top": 269,
+    "width": 47,
+    "height": 12,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:23",
+        "adjustedEnd": "0:03:26.0333333",
+        "start": "0:03:23",
+        "end": "0:03:26.0333333"
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "text": "Right Misses",
+    "confidence": 0.998,
+    "left": 1472,
+    "top": 264,
+    "width": 66,
+    "height": 14,
+    "angle": -1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:23",
+        "adjustedEnd": "0:03:26.0333333",
+        "start": "0:03:23",
+        "end": "0:03:26.0333333"
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "text": "Left Media Miss",
+    "confidence": 0.996,
+    "left": 1288,
+    "top": 430,
+    "width": 79,
+    "height": 15,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:23",
+        "adjustedEnd": "0:03:26.0333333",
+        "start": "0:03:23",
+        "end": "0:03:26.0333333"
+      },
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:40.0333333",
+        "start": "0:03:30",
+        "end": "0:03:40.0333333"
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "text": "Trump may pick Stephen Miller as national",
+    "confidence": 0.9971,
+    "left": 1271,
+    "top": 473,
+    "width": 241,
+    "height": 17,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:23",
+        "adjustedEnd": "0:03:23.0333333",
+        "start": "0:03:23",
+        "end": "0:03:23.0333333"
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "text": "security adviser",
+    "confidence": 0.998,
+    "left": 1274,
+    "top": 495,
+    "width": 87,
+    "height": 16,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:23",
+        "adjustedEnd": "0:03:23.0333333",
+        "start": "0:03:23",
+        "end": "0:03:23.0333333"
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "text": "Right Media Miss",
+    "confidence": 0.9973,
+    "left": 1255,
+    "top": 766,
+    "width": 101,
+    "height": 14,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:23",
+        "adjustedEnd": "0:03:23.0333333",
+        "start": "0:03:23",
+        "end": "0:03:23.0333333"
+      },
+      {
+        "adjustedStart": "0:03:25",
+        "adjustedEnd": "0:03:26.0333333",
+        "start": "0:03:25",
+        "end": "0:03:26.0333333"
+      },
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "text": "Email mistake reveals secret plans to end",
+    "confidence": 0.9973,
+    "left": 1255,
+    "top": 777,
+    "width": 236,
+    "height": 19,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:23",
+        "adjustedEnd": "0:03:23.0333333",
+        "start": "0:03:23",
+        "end": "0:03:23.0333333"
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "text": "research on Head Start and other child safe ...",
+    "confidence": 0.9943,
+    "left": 1255,
+    "top": 801,
+    "width": 259,
+    "height": 15,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:23",
+        "adjustedEnd": "0:03:23.0333333",
+        "start": "0:03:23",
+        "end": "0:03:23.0333333"
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "text": "employees: 'Afraid to fight'",
+    "confidence": 0.971,
+    "left": 1258,
+    "top": 321,
+    "width": 178,
+    "height": 17,
+    "angle": -2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:24",
+        "adjustedEnd": "0:03:24.0333333",
+        "start": "0:03:24",
+        "end": "0:03:24.0333333"
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "text": "Maine teacher says Donald Trump and his",
+    "confidence": 0.9957,
+    "left": 1244,
+    "top": 606,
+    "width": 285,
+    "height": 17,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:24",
+        "adjustedEnd": "0:03:26.0333333",
+        "start": "0:03:24",
+        "end": "0:03:26.0333333"
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "text": "allies should be killed",
+    "confidence": 0.998,
+    "left": 1247,
+    "top": 628,
+    "width": 141,
+    "height": 15,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:24",
+        "adjustedEnd": "0:03:26.0333333",
+        "start": "0:03:24",
+        "end": "0:03:26.0333333"
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "text": "12% left coverage | 56% right coverage",
+    "confidence": 0.9169,
+    "left": 1245,
+    "top": 656,
+    "width": 211,
+    "height": 12,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:24",
+        "adjustedEnd": "0:03:25.0333333",
+        "start": "0:03:24",
+        "end": "0:03:25.0333333"
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "text": "Barclays indicates it may ban trans women",
+    "confidence": 0.997,
+    "left": 1237,
+    "top": 807,
+    "width": 292,
+    "height": 18,
+    "angle": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:25",
+        "adjustedEnd": "0:03:26.0333333",
+        "start": "0:03:25",
+        "end": "0:03:26.0333333"
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "text": "from women's toilets",
+    "confidence": 0.997,
+    "left": 1239,
+    "top": 831,
+    "width": 138,
+    "height": 14,
+    "angle": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:25",
+        "adjustedEnd": "0:03:26.0333333",
+        "start": "0:03:25",
+        "end": "0:03:26.0333333"
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "text": "12% left coverage",
+    "confidence": 0.9927,
+    "left": 1249,
+    "top": 536,
+    "width": 98,
+    "height": 14,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:26",
+        "adjustedEnd": "0:03:26.0333333",
+        "start": "0:03:26",
+        "end": "0:03:26.0333333"
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "text": "56% right coverage",
+    "confidence": 0.9773,
+    "left": 1354,
+    "top": 536,
+    "width": 106,
+    "height": 13,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:26",
+        "adjustedEnd": "0:03:26.0333333",
+        "start": "0:03:26",
+        "end": "0:03:26.0333333"
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "text": "67% left coverage | 0% right coverage",
+    "confidence": 0.9393,
+    "left": 1239,
+    "top": 845,
+    "width": 205,
+    "height": 12,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:26",
+        "adjustedEnd": "0:03:26.0333333",
+        "start": "0:03:26",
+        "end": "0:03:26.0333333"
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "text": "TV",
+    "confidence": 0.916,
+    "left": 899,
+    "top": 467,
+    "width": 21,
+    "height": 20,
+    "angle": 25,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:28",
+        "adjustedEnd": "0:03:28.0333333",
+        "start": "0:03:28",
+        "end": "0:03:28.0333333"
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "text": "News",
+    "confidence": 0.995,
+    "left": 679,
+    "top": 29,
+    "width": 47,
+    "height": 15,
+    "angle": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "text": "SAN Unbiased. Straight Facts.",
+    "confidence": 0.9873,
+    "left": 35,
+    "top": 16,
+    "width": 314,
+    "height": 29,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:40.0333333",
+        "start": "0:03:30",
+        "end": "0:03:40.0333333"
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "text": "MEDIA MMISS",
+    "confidence": 0.9185,
+    "left": 881,
+    "top": 487,
+    "width": 133,
+    "height": 19,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:40.0333333",
+        "start": "0:03:30",
+        "end": "0:03:40.0333333"
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "text": "Unbiased Updates",
+    "confidence": 0.9955,
+    "left": 831,
+    "top": 31,
+    "width": 136,
+    "height": 15,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 147,
+    "text": "Watch and Listen",
+    "confidence": 0.9977,
+    "left": 974,
+    "top": 31,
+    "width": 128,
+    "height": 15,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 148,
+    "text": "Lifestyle Yesterday 7 min read",
+    "confidence": 0.9856,
+    "left": 877,
+    "top": 128,
+    "width": 175,
+    "height": 15,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 149,
+    "text": "Trump's threat to sue Noah over a joke",
+    "confidence": 0.9948,
+    "left": 27,
+    "top": 154,
+    "width": 253,
+    "height": 16,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "text": "would face a tough crowd in court",
+    "confidence": 0.9967,
+    "left": 24,
+    "top": 174,
+    "width": 225,
+    "height": 15,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "text": "Tech",
+    "confidence": 0.996,
+    "left": 332,
+    "top": 169,
+    "width": 33,
+    "height": 11,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 152,
+    "text": "15 hrs ago 3 min read",
+    "confidence": 0.9842,
+    "left": 369,
+    "top": 167,
+    "width": 122,
+    "height": 14,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 153,
+    "text": "Is the era of the all-powerful real estate",
+    "confidence": 0.9903,
+    "left": 880,
+    "top": 153,
+    "width": 259,
+    "height": 16,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 154,
+    "text": "agent over?",
+    "confidence": 0.998,
+    "left": 879,
+    "top": 175,
+    "width": 84,
+    "height": 16,
+    "angle": -1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 155,
+    "text": "Jeffrey Epstein wanted to hire 'top",
+    "confidence": 0.9907,
+    "left": 335,
+    "top": 199,
+    "width": 452,
+    "height": 31,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 156,
+    "text": "hacker.' What was he looking for?",
+    "confidence": 0.9805,
+    "left": 335,
+    "top": 229,
+    "width": 438,
+    "height": 32,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 157,
+    "text": "Politics Friday 8 min read",
+    "confidence": 0.9778,
+    "left": 878,
+    "top": 222,
+    "width": 152,
+    "height": 15,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 158,
+    "text": "Does Congress need a retirement age?",
+    "confidence": 0.9933,
+    "left": 880,
+    "top": 246,
+    "width": 259,
+    "height": 17,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 159,
+    "text": "Houston is the testing ground",
+    "confidence": 0.9978,
+    "left": 880,
+    "top": 266,
+    "width": 197,
+    "height": 16,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 160,
+    "text": "The US Ju",
+    "confidence": 0.9533,
+    "left": 660,
+    "top": 275,
+    "width": 34,
+    "height": 9,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:30.0333333",
+        "start": "0:03:30",
+        "end": "0:03:30.0333333"
+      },
+      {
+        "adjustedStart": "0:03:33",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:33",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 161,
+    "text": "U.S. Thursday 7 min read",
+    "confidence": 0.9808,
+    "left": 878,
+    "top": 314,
+    "width": 152,
+    "height": 15,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:30.0333333",
+        "start": "0:03:30",
+        "end": "0:03:30.0333333"
+      },
+      {
+        "adjustedStart": "0:03:32",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:32",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 162,
+    "text": "Politics 17 hrs ago 3 min read",
+    "confidence": 0.9781,
+    "left": 472,
+    "top": 333,
+    "width": 172,
+    "height": 17,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 163,
+    "text": "What are the odds on the Las Vegas",
+    "confidence": 0.9964,
+    "left": 879,
+    "top": 339,
+    "width": 239,
+    "height": 17,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 164,
+    "text": "Democrat wins Texas House seat; upset in",
+    "confidence": 0.9973,
+    "left": 478,
+    "top": 368,
+    "width": 347,
+    "height": 19,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 165,
+    "text": "economy bouncing back in 2026?",
+    "confidence": 0.9974,
+    "left": 880,
+    "top": 361,
+    "width": 223,
+    "height": 17,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 166,
+    "text": "Noem gives feds in Minnesota body",
+    "confidence": 0.9968,
+    "left": 26,
+    "top": 399,
+    "width": 235,
+    "height": 16,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 167,
+    "text": "red State Senate district",
+    "confidence": 0.9968,
+    "left": 474,
+    "top": 390,
+    "width": 206,
+    "height": 17,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 168,
+    "text": "cameras as Pretti death ruled a",
+    "confidence": 0.9967,
+    "left": 26,
+    "top": 419,
+    "width": 205,
+    "height": 15,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 169,
+    "text": "Health Jan 27 14 min read",
+    "confidence": 0.9932,
+    "left": 878,
+    "top": 408,
+    "width": 158,
+    "height": 15,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 170,
+    "text": "homicide",
+    "confidence": 0.998,
+    "left": 26,
+    "top": 439,
+    "width": 62,
+    "height": 14,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 171,
+    "text": "Some still tout ivermectin as a cure-all.",
+    "confidence": 0.9951,
+    "left": 880,
+    "top": 435,
+    "width": 257,
+    "height": 15,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 172,
+    "text": "Here's what the science says",
+    "confidence": 0.997,
+    "left": 879,
+    "top": 453,
+    "width": 194,
+    "height": 16,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 173,
+    "text": "Politics 17 hrs ago 2 min read",
+    "confidence": 0.9241,
+    "left": 470,
+    "top": 468,
+    "width": 174,
+    "height": 15,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 174,
+    "text": "Energy 12 hrs ago 3 min read",
+    "confidence": 0.9881,
+    "left": 24,
+    "top": 487,
+    "width": 170,
+    "height": 13,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 175,
+    "text": "To build nuclear faster, energy dept.",
+    "confidence": 0.9972,
+    "left": 26,
+    "top": 512,
+    "width": 236,
+    "height": 14,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 176,
+    "text": "NRA pushes back against Trump;",
+    "confidence": 0.9956,
+    "left": 476,
+    "top": 501,
+    "width": 273,
+    "height": 20,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 177,
+    "text": "pitches bypassing environmental laws",
+    "confidence": 0.9953,
+    "left": 26,
+    "top": 533,
+    "width": 255,
+    "height": 15,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 178,
+    "text": "Administration sues woman for $1M for",
+    "confidence": 0.995,
+    "left": 474,
+    "top": 524,
+    "width": 329,
+    "height": 19,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 179,
+    "text": "failing to self-deport",
+    "confidence": 0.993,
+    "left": 475,
+    "top": 546,
+    "width": 169,
+    "height": 19,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 180,
+    "text": "U.S. 12hrs ago 4 min read",
+    "confidence": 0.9452,
+    "left": 26,
+    "top": 580,
+    "width": 152,
+    "height": 14,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 181,
+    "text": "MEDIA MISS MINUTE",
+    "confidence": 0.978,
+    "left": 478,
+    "top": 578,
+    "width": 154,
+    "height": 18,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 182,
+    "text": "Florida produce feeds the nation, but",
+    "confidence": 0.9972,
+    "left": 23,
+    "top": 606,
+    "width": 251,
+    "height": 15,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 183,
+    "text": "the winter freeze puts groceries at risk",
+    "confidence": 0.9961,
+    "left": 26,
+    "top": 625,
+    "width": 255,
+    "height": 17,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 184,
+    "text": "STEPHE",
+    "confidence": 0.998,
+    "left": 1043,
+    "top": 641,
+    "width": 31,
+    "height": 8,
+    "angle": 0,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 185,
+    "text": "Insults, threats - and now a White House",
+    "confidence": 0.98,
+    "left": 471,
+    "top": 678,
+    "width": 347,
+    "height": 20,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 186,
+    "text": "Walz, Ellison to testify on Minnesota",
+    "confidence": 0.9978,
+    "left": 879,
+    "top": 673,
+    "width": 239,
+    "height": 17,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 187,
+    "text": "Ed Martin, head of the Trump DOJ's",
+    "confidence": 0.997,
+    "left": 25,
+    "top": 698,
+    "width": 238,
+    "height": 16,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 188,
+    "text": "meeting between Trump, Colombia's leader",
+    "confidence": 0.9976,
+    "left": 473,
+    "top": 701,
+    "width": 358,
+    "height": 19,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 189,
+    "text": "fraud in March",
+    "confidence": 0.9967,
+    "left": 881,
+    "top": 694,
+    "width": 93,
+    "height": 15,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 190,
+    "text": "'weaponization' unit, leaving role",
+    "confidence": 0.963,
+    "left": 24,
+    "top": 719,
+    "width": 217,
+    "height": 16,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 191,
+    "text": "15% left coverage | 65% right coverage",
+    "confidence": 0.9633,
+    "left": 26,
+    "top": 758,
+    "width": 200,
+    "height": 15,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:40.0333333",
+        "start": "0:03:30",
+        "end": "0:03:40.0333333"
+      }
+    ]
+  },
+  {
+    "id": 192,
+    "text": "Tech 14 hrs ago 7 min read",
+    "confidence": 0.9911,
+    "left": 26,
+    "top": 768,
+    "width": 158,
+    "height": 13,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 193,
+    "text": "States rush to deny Al personhood",
+    "confidence": 0.98,
+    "left": 27,
+    "top": 792,
+    "width": 231,
+    "height": 17,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 194,
+    "text": "amid growing fight over who should",
+    "confidence": 0.9967,
+    "left": 27,
+    "top": 812,
+    "width": 236,
+    "height": 17,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 195,
+    "text": "regulate",
+    "confidence": 0.982,
+    "left": 25,
+    "top": 833,
+    "width": 56,
+    "height": 15,
+    "angle": -2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 196,
+    "text": "Trump says Kennedy Center will close for",
+    "confidence": 0.997,
+    "left": 475,
+    "top": 834,
+    "width": 343,
+    "height": 19,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 197,
+    "text": "POLICE",
+    "confidence": 0.902,
+    "left": 997,
+    "top": 827,
+    "width": 29,
+    "height": 13,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 198,
+    "text": "ICE",
+    "confidence": 0.972,
+    "left": 1000,
+    "top": 837,
+    "width": 24,
+    "height": 12,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 199,
+    "text": "two-year renovation",
+    "confidence": 0.997,
+    "left": 478,
+    "top": 856,
+    "width": 164,
+    "height": 18,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 200,
+    "text": "Healt",
+    "confidence": 0.997,
+    "left": 23,
+    "top": 882,
+    "width": 35,
+    "height": 11,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 201,
+    "text": "Dru",
+    "confidence": 0.994,
+    "left": 25,
+    "top": 908,
+    "width": 27,
+    "height": 11,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 202,
+    "text": "t-gen",
+    "confidence": 0.998,
+    "left": 237,
+    "top": 908,
+    "width": 38,
+    "height": 11,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 203,
+    "text": "flu v",
+    "confidence": 0.977,
+    "left": 28,
+    "top": 926,
+    "width": 26,
+    "height": 13,
+    "angle": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 204,
+    "text": "ases",
+    "confidence": 0.996,
+    "left": 236,
+    "top": 927,
+    "width": 31,
+    "height": 11,
+    "angle": 2,
+    "language": "es-ES",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 205,
+    "text": "New ICE memo gives officers more",
+    "confidence": 0.9922,
+    "left": 880,
+    "top": 925,
+    "width": 232,
+    "height": 17,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 206,
+    "text": "rise",
+    "confidence": 0.992,
+    "left": 29,
+    "top": 948,
+    "width": 24,
+    "height": 10,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 207,
+    "text": "U.S. | 21 hrs ago 2 min read",
+    "confidence": 0.9133,
+    "left": 473,
+    "top": 955,
+    "width": 155,
+    "height": 17,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 208,
+    "text": "leeway to conduct warrantless arrests",
+    "confidence": 0.9954,
+    "left": 880,
+    "top": 946,
+    "width": 253,
+    "height": 17,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 209,
+    "text": "62% left coverage 18% right coverage",
+    "confidence": 0.9913,
+    "left": 882,
+    "top": 970,
+    "width": 198,
+    "height": 13,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 210,
+    "text": "'Today' anchor Savannah Guthrie's mother",
+    "confidence": 0.9852,
+    "left": 475,
+    "top": 989,
+    "width": 349,
+    "height": 20,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 211,
+    "text": "U.S.",
+    "confidence": 0.944,
+    "left": 28,
+    "top": 997,
+    "width": 20,
+    "height": 8,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 212,
+    "text": "reported missing in Arizona",
+    "confidence": 0.998,
+    "left": 472,
+    "top": 1012,
+    "width": 230,
+    "height": 18,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 213,
+    "text": "Powered by Ground News™",
+    "confidence": 0.921,
+    "left": 982,
+    "top": 1010,
+    "width": 160,
+    "height": 15,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:40.0333333",
+        "start": "0:03:30",
+        "end": "0:03:40.0333333"
+      }
+    ]
+  },
+  {
+    "id": 214,
+    "text": "violate teacher's religious rights, court",
+    "confidence": 0.9966,
+    "left": 23,
+    "top": 1038,
+    "width": 259,
+    "height": 17,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 215,
+    "text": "rules",
+    "confidence": 0.998,
+    "left": 26,
+    "top": 1061,
+    "width": 37,
+    "height": 11,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:30",
+        "adjustedEnd": "0:03:34.0333333",
+        "start": "0:03:30",
+        "end": "0:03:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 216,
+    "text": "U.S. Thursday",
+    "confidence": 0.9255,
+    "left": 878,
+    "top": 314,
+    "width": 88,
+    "height": 15,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:31",
+        "adjustedEnd": "0:03:31.0333333",
+        "start": "0:03:31",
+        "end": "0:03:31.0333333"
+      }
+    ]
+  },
+  {
+    "id": 217,
+    "text": "7 min read",
+    "confidence": 0.992,
+    "left": 968,
+    "top": 314,
+    "width": 62,
+    "height": 14,
+    "angle": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:31",
+        "adjustedEnd": "0:03:31.0333333",
+        "start": "0:03:31",
+        "end": "0:03:31.0333333"
+      }
+    ]
+  },
+  {
+    "id": 218,
+    "text": "News Media Miss Unbiased Updates Watch and Listen",
+    "confidence": 0.9943,
+    "left": 679,
+    "top": 29,
+    "width": 425,
+    "height": 18,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:35",
+        "adjustedEnd": "0:03:39.0333333",
+        "start": "0:03:35",
+        "end": "0:03:39.0333333"
+      }
+    ]
+  },
+  {
+    "id": 219,
+    "text": "Walz, Ellison to testify on Minnesota fraud in March",
+    "confidence": 0.9979,
+    "left": 25,
+    "top": 184,
+    "width": 1002,
+    "height": 45,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:35",
+        "adjustedEnd": "0:03:39.0333333",
+        "start": "0:03:35",
+        "end": "0:03:39.0333333"
+      }
+    ]
+  },
+  {
+    "id": 220,
+    "text": "Feb 2, 2026 at 3:57 PM",
+    "confidence": 0.9905,
+    "left": 28,
+    "top": 235,
+    "width": 134,
+    "height": 17,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:35",
+        "adjustedEnd": "0:03:39.0333333",
+        "start": "0:03:35",
+        "end": "0:03:39.0333333"
+      }
+    ]
+  },
+  {
+    "id": 221,
+    "text": "Ally Heath",
+    "confidence": 0.9965,
+    "left": 26,
+    "top": 257,
+    "width": 59,
+    "height": 16,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:35",
+        "adjustedEnd": "0:03:39.0333333",
+        "start": "0:03:35",
+        "end": "0:03:39.0333333"
+      }
+    ]
+  },
+  {
+    "id": 222,
+    "text": "Discover reporting you're not seeing from",
+    "confidence": 0.9895,
+    "left": 770,
+    "top": 363,
+    "width": 344,
+    "height": 20,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:35",
+        "adjustedEnd": "0:03:40.0333333",
+        "start": "0:03:35",
+        "end": "0:03:40.0333333"
+      }
+    ]
+  },
+  {
+    "id": 223,
+    "text": "biased, mainstream media outlets.",
+    "confidence": 0.993,
+    "left": 768,
+    "top": 384,
+    "width": 281,
+    "height": 19,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:35",
+        "adjustedEnd": "0:03:40.0333333",
+        "start": "0:03:35",
+        "end": "0:03:40.0333333"
+      }
+    ]
+  },
+  {
+    "id": 224,
+    "text": "Using our real-time Media Miss™ tool powered by",
+    "confidence": 0.9829,
+    "left": 765,
+    "top": 427,
+    "width": 326,
+    "height": 18,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:35",
+        "adjustedEnd": "0:03:40.0333333",
+        "start": "0:03:35",
+        "end": "0:03:40.0333333"
+      }
+    ]
+  },
+  {
+    "id": 225,
+    "text": "Ground News, we spotlight stories that right-leaning",
+    "confidence": 0.9426,
+    "left": 766,
+    "top": 449,
+    "width": 340,
+    "height": 18,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:35",
+        "adjustedEnd": "0:03:40.0333333",
+        "start": "0:03:35",
+        "end": "0:03:40.0333333"
+      }
+    ]
+  },
+  {
+    "id": 226,
+    "text": "and left-leaning news outlets aren't covering to bring",
+    "confidence": 0.9968,
+    "left": 764,
+    "top": 470,
+    "width": 348,
+    "height": 18,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:35",
+        "adjustedEnd": "0:03:40.0333333",
+        "start": "0:03:35",
+        "end": "0:03:40.0333333"
+      }
+    ]
+  },
+  {
+    "id": 227,
+    "text": "you a complete picture of the news.",
+    "confidence": 0.995,
+    "left": 766,
+    "top": 493,
+    "width": 233,
+    "height": 17,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:35",
+        "adjustedEnd": "0:03:40.0333333",
+        "start": "0:03:35",
+        "end": "0:03:40.0333333"
+      }
+    ]
+  },
+  {
+    "id": 228,
+    "text": "Learn more about how Media Miss™ works.",
+    "confidence": 0.9676,
+    "left": 765,
+    "top": 536,
+    "width": 295,
+    "height": 17,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:35",
+        "adjustedEnd": "0:03:40.0333333",
+        "start": "0:03:35",
+        "end": "0:03:40.0333333"
+      }
+    ]
+  },
+  {
+    "id": 229,
+    "text": "Media Landscape",
+    "confidence": 0.998,
+    "left": 766,
+    "top": 641,
+    "width": 147,
+    "height": 17,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:35",
+        "adjustedEnd": "0:03:40.0333333",
+        "start": "0:03:35",
+        "end": "0:03:40.0333333"
+      }
+    ]
+  },
+  {
+    "id": 230,
+    "text": "Click on bars to see headlines",
+    "confidence": 0.997,
+    "left": 766,
+    "top": 662,
+    "width": 169,
+    "height": 15,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:35",
+        "adjustedEnd": "0:03:40.0333333",
+        "start": "0:03:35",
+        "end": "0:03:40.0333333"
+      }
+    ]
+  },
+  {
+    "id": 231,
+    "text": "40 total sources",
+    "confidence": 0.9957,
+    "left": 1020,
+    "top": 662,
+    "width": 93,
+    "height": 13,
+    "angle": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:35",
+        "adjustedEnd": "0:03:40.0333333",
+        "start": "0:03:35",
+        "end": "0:03:40.0333333"
+      }
+    ]
+  },
+  {
+    "id": 232,
+    "text": "Image credit: STEPHEN MATUREN/AFP via Getty Images",
+    "confidence": 0.919,
+    "left": 487,
+    "top": 721,
+    "width": 228,
+    "height": 14,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:35",
+        "adjustedEnd": "0:03:40.0333333",
+        "start": "0:03:35",
+        "end": "0:03:40.0333333"
+      }
+    ]
+  },
+  {
+    "id": 233,
+    "text": "This story is a Media Miss by the left as only 15% is from left-leaning media.",
+    "confidence": 0.9938,
+    "left": 24,
+    "top": 802,
+    "width": 443,
+    "height": 16,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:35",
+        "adjustedEnd": "0:03:40.0333333",
+        "start": "0:03:35",
+        "end": "0:03:40.0333333"
+      }
+    ]
+  },
+  {
+    "id": 234,
+    "text": "LEFT",
+    "confidence": 0.992,
+    "left": 771,
+    "top": 809,
+    "width": 32,
+    "height": 12,
+    "angle": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:35",
+        "adjustedEnd": "0:03:40.0333333",
+        "start": "0:03:35",
+        "end": "0:03:40.0333333"
+      }
+    ]
+  },
+  {
+    "id": 235,
+    "text": "CENTER",
+    "confidence": 0.998,
+    "left": 917,
+    "top": 810,
+    "width": 45,
+    "height": 10,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:35",
+        "adjustedEnd": "0:03:40.0333333",
+        "start": "0:03:35",
+        "end": "0:03:40.0333333"
+      }
+    ]
+  },
+  {
+    "id": 236,
+    "text": "RIGHT",
+    "confidence": 0.997,
+    "left": 1071,
+    "top": 810,
+    "width": 38,
+    "height": 11,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:35",
+        "adjustedEnd": "0:03:40.0333333",
+        "start": "0:03:35",
+        "end": "0:03:40.0333333"
+      }
+    ]
+  },
+  {
+    "id": 237,
+    "text": "Other (sources without bias rating):",
+    "confidence": 0.9966,
+    "left": 768,
+    "top": 840,
+    "width": 203,
+    "height": 14,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:35",
+        "adjustedEnd": "0:03:40.0333333",
+        "start": "0:03:35",
+        "end": "0:03:40.0333333"
+      }
+    ]
+  },
+  {
+    "id": 238,
+    "text": "See headlines from Other sources",
+    "confidence": 0.9848,
+    "left": 768,
+    "top": 860,
+    "width": 219,
+    "height": 15,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:35",
+        "adjustedEnd": "0:03:40.0333333",
+        "start": "0:03:35",
+        "end": "0:03:40.0333333"
+      }
+    ]
+  },
+  {
+    "id": 239,
+    "text": "8 sources",
+    "confidence": 0.993,
+    "left": 1054,
+    "top": 862,
+    "width": 59,
+    "height": 10,
+    "angle": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:35",
+        "adjustedEnd": "0:03:39.0333333",
+        "start": "0:03:35",
+        "end": "0:03:39.0333333"
+      }
+    ]
+  },
+  {
+    "id": 240,
+    "text": "Min",
+    "confidence": 0.996,
+    "left": 25,
+    "top": 921,
+    "width": 28,
+    "height": 14,
+    "angle": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:35",
+        "adjustedEnd": "0:03:38.0333333",
+        "start": "0:03:35",
+        "end": "0:03:38.0333333"
+      }
+    ]
+  },
+  {
+    "id": 241,
+    "text": "orney General Keith Ellison will both testify in front of the House",
+    "confidence": 0.9971,
+    "left": 235,
+    "top": 920,
+    "width": 412,
+    "height": 18,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:35",
+        "adjustedEnd": "0:03:39.0333333",
+        "start": "0:03:35",
+        "end": "0:03:39.0333333"
+      }
+    ]
+  },
+  {
+    "id": 242,
+    "text": "Ove",
+    "confidence": 0.991,
+    "left": 28,
+    "top": 942,
+    "width": 24,
+    "height": 14,
+    "angle": 2,
+    "language": "sr-Cyrl-RS",
+    "instances": [
+      {
+        "adjustedStart": "0:03:35",
+        "adjustedEnd": "0:03:39.0333333",
+        "start": "0:03:35",
+        "end": "0:03:39.0333333"
+      }
+    ]
+  },
+  {
+    "id": 243,
+    "text": "4. Rep. James Comer, R-Ky ., the committee's chair, confirmed the pair",
+    "confidence": 0.9897,
+    "left": 230,
+    "top": 940,
+    "width": 454,
+    "height": 18,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:35",
+        "adjustedEnd": "0:03:39.0333333",
+        "start": "0:03:35",
+        "end": "0:03:39.0333333"
+      }
+    ]
+  },
+  {
+    "id": 244,
+    "text": "wou",
+    "confidence": 0.993,
+    "left": 27,
+    "top": 968,
+    "width": 27,
+    "height": 9,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:35",
+        "adjustedEnd": "0:03:39.0333333",
+        "start": "0:03:35",
+        "end": "0:03:39.0333333"
+      }
+    ]
+  },
+  {
+    "id": 245,
+    "text": "aud allegations within Minnesota's social services programs.",
+    "confidence": 0.9921,
+    "left": 234,
+    "top": 963,
+    "width": 394,
+    "height": 17,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:35",
+        "adjustedEnd": "0:03:39.0333333",
+        "start": "0:03:35",
+        "end": "0:03:39.0333333"
+      }
+    ]
+  },
+  {
+    "id": 246,
+    "text": "Forr",
+    "confidence": 0.986,
+    "left": 26,
+    "top": 1000,
+    "width": 30,
+    "height": 11,
+    "angle": 2,
+    "language": "hu-HU",
+    "instances": [
+      {
+        "adjustedStart": "0:03:35",
+        "adjustedEnd": "0:03:39.0333333",
+        "start": "0:03:35",
+        "end": "0:03:39.0333333"
+      }
+    ]
+  },
+  {
+    "id": 247,
+    "text": "ney Joe Thompson previously announced that fraud uncovered in autism,",
+    "confidence": 0.9859,
+    "left": 235,
+    "top": 999,
+    "width": 476,
+    "height": 17,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:35",
+        "adjustedEnd": "0:03:39.0333333",
+        "start": "0:03:35",
+        "end": "0:03:39.0333333"
+      }
+    ]
+  },
+  {
+    "id": 248,
+    "text": "Meaicaia, ana nousing programs in Minnesota could total as high as $9 billion or more.",
+    "confidence": 0.9012,
+    "left": 24,
+    "top": 1020,
+    "width": 559,
+    "height": 17,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:35",
+        "adjustedEnd": "0:03:38.0333333",
+        "start": "0:03:35",
+        "end": "0:03:38.0333333"
+      }
+    ]
+  },
+  {
+    "id": 249,
+    "text": "The House Oversight Committee recently heard testimony from Minnesota state lawmakers who stated",
+    "confidence": 0.9962,
+    "left": 27,
+    "top": 1055,
+    "width": 669,
+    "height": 17,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:35",
+        "adjustedEnd": "0:03:38.0333333",
+        "start": "0:03:35",
+        "end": "0:03:38.0333333"
+      }
+    ]
+  },
+  {
+    "id": 250,
+    "text": "ecoexperts",
+    "confidence": 0.992,
+    "left": 835,
+    "top": 902,
+    "width": 59,
+    "height": 10,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:39",
+        "adjustedEnd": "0:03:40.0333333",
+        "start": "0:03:39",
+        "end": "0:03:40.0333333"
+      }
+    ]
+  },
+  {
+    "id": 251,
+    "text": "Mec",
+    "confidence": 0.995,
+    "left": 28,
+    "top": 954,
+    "width": 26,
+    "height": 12,
+    "angle": 2,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:03:39",
+        "adjustedEnd": "0:03:39.0333333",
+        "start": "0:03:39",
+        "end": "0:03:39.0333333"
+      }
+    ]
+  },
+  {
+    "id": 252,
+    "text": "i in Minnesota could total as high as $9 billion or more.",
+    "confidence": 0.9811,
+    "left": 230,
+    "top": 952,
+    "width": 352,
+    "height": 17,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:39",
+        "adjustedEnd": "0:03:39.0333333",
+        "start": "0:03:39",
+        "end": "0:03:39.0333333"
+      }
+    ]
+  },
+  {
+    "id": 253,
+    "text": "The",
+    "confidence": 0.997,
+    "left": 28,
+    "top": 989,
+    "width": 26,
+    "height": 13,
+    "angle": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:39",
+        "adjustedEnd": "0:03:39.0333333",
+        "start": "0:03:39",
+        "end": "0:03:39.0333333"
+      }
+    ]
+  },
+  {
+    "id": 254,
+    "text": "nmittoe recently heard testimony from Minnesota state lawmakers who stated",
+    "confidence": 0.9438,
+    "left": 191,
+    "top": 832,
+    "width": 507,
+    "height": 18,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:39",
+        "adjustedEnd": "0:03:40.0333333",
+        "start": "0:03:39",
+        "end": "0:03:40.0333333"
+      }
+    ]
+  },
+  {
+    "id": 255,
+    "text": "that",
+    "confidence": 0.996,
+    "left": 26,
+    "top": 1009,
+    "width": 30,
+    "height": 13,
+    "angle": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:39",
+        "adjustedEnd": "0:03:40.0333333",
+        "start": "0:03:39",
+        "end": "0:03:40.0333333"
+      }
+    ]
+  },
+  {
+    "id": 256,
+    "text": ": to stop widespread fraud and retaliated against whistleblowers who",
+    "confidence": 0.9907,
+    "left": 230,
+    "top": 854,
+    "width": 449,
+    "height": 18,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:39",
+        "adjustedEnd": "0:03:40.0333333",
+        "start": "0:03:39",
+        "end": "0:03:40.0333333"
+      }
+    ]
+  },
+  {
+    "id": 257,
+    "text": "raised concerns.",
+    "confidence": 0.9835,
+    "left": 26,
+    "top": 1032,
+    "width": 109,
+    "height": 14,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:39",
+        "adjustedEnd": "0:03:39.0333333",
+        "start": "0:03:39",
+        "end": "0:03:39.0333333"
+      }
+    ]
+  },
+  {
+    "id": 258,
+    "text": "News Media Miss",
+    "confidence": 0.995,
+    "left": 681,
+    "top": 29,
+    "width": 143,
+    "height": 17,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:40",
+        "adjustedEnd": "0:03:40.0333333",
+        "start": "0:03:40",
+        "end": "0:03:40.0333333"
+      }
+    ]
+  },
+  {
+    "id": 259,
+    "text": "Unbiased Updates Watch and Listen",
+    "confidence": 0.9958,
+    "left": 828,
+    "top": 30,
+    "width": 277,
+    "height": 17,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:40",
+        "adjustedEnd": "0:03:40.0333333",
+        "start": "0:03:40",
+        "end": "0:03:40.0333333"
+      }
+    ]
+  },
+  {
+    "id": 260,
+    "text": "Minnesota Gov. Tim Walz and Attorney General Keith Ellison will both testify in front of the House",
+    "confidence": 0.9964,
+    "left": 25,
+    "top": 696,
+    "width": 623,
+    "height": 18,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:40",
+        "adjustedEnd": "0:03:40.0333333",
+        "start": "0:03:40",
+        "end": "0:03:40.0333333"
+      }
+    ]
+  },
+  {
+    "id": 261,
+    "text": "Oversight Committee on March 4. Rep. James Comer, R-Ky ., the committee's chair, confirmed the pair",
+    "confidence": 0.9932,
+    "left": 28,
+    "top": 718,
+    "width": 656,
+    "height": 17,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:40",
+        "adjustedEnd": "0:03:40.0333333",
+        "start": "0:03:40",
+        "end": "0:03:40.0333333"
+      }
+    ]
+  },
+  {
+    "id": 262,
+    "text": "would answer questions about fraud allegations within Minnesota's social services programs.",
+    "confidence": 0.9897,
+    "left": 24,
+    "top": 740,
+    "width": 602,
+    "height": 18,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:40",
+        "adjustedEnd": "0:03:40.0333333",
+        "start": "0:03:40",
+        "end": "0:03:40.0333333"
+      }
+    ]
+  },
+  {
+    "id": 263,
+    "text": "Former First Assistant U.S. Attorney Joe Thompson previously announced that fraud uncovered in autism,",
+    "confidence": 0.9887,
+    "left": 27,
+    "top": 776,
+    "width": 686,
+    "height": 17,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:40",
+        "adjustedEnd": "0:03:40.0333333",
+        "start": "0:03:40",
+        "end": "0:03:40.0333333"
+      }
+    ]
+  },
+  {
+    "id": 264,
+    "text": "Medicaid, and housing programs in Minnesota could total as high as $9 billion or more.",
+    "confidence": 0.9934,
+    "left": 27,
+    "top": 798,
+    "width": 555,
+    "height": 16,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:40",
+        "adjustedEnd": "0:03:40.0333333",
+        "start": "0:03:40",
+        "end": "0:03:40.0333333"
+      }
+    ]
+  },
+  {
+    "id": 265,
+    "text": "TAG:",
+    "confidence": 0.982,
+    "left": 26,
+    "top": 927,
+    "width": 29,
+    "height": 10,
+    "angle": 0,
+    "language": "de-DE",
+    "instances": [
+      {
+        "adjustedStart": "0:03:40",
+        "adjustedEnd": "0:03:40.0333333",
+        "start": "0:03:40",
+        "end": "0:03:40.0333333"
+      }
+    ]
+  },
+  {
+    "id": 266,
+    "text": "TEE, MINNEAPOLIS, TIM WALZ",
+    "confidence": 0.982,
+    "left": 230,
+    "top": 924,
+    "width": 190,
+    "height": 16,
+    "angle": 0,
+    "language": "de-DE",
+    "instances": [
+      {
+        "adjustedStart": "0:03:40",
+        "adjustedEnd": "0:03:40.0333333",
+        "start": "0:03:40",
+        "end": "0:03:40.0333333"
+      }
+    ]
+  },
+  {
+    "id": 267,
+    "text": "Electricians Agree: Solar Panels",
+    "confidence": 0.9945,
+    "left": 819,
+    "top": 912,
+    "width": 243,
+    "height": 17,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:40",
+        "adjustedEnd": "0:03:40.0333333",
+        "start": "0:03:40",
+        "end": "0:03:40.0333333"
+      }
+    ]
+  },
+  {
+    "id": 268,
+    "text": "Are Only Worthwhile If Your Roof",
+    "confidence": 0.987,
+    "left": 813,
+    "top": 932,
+    "width": 254,
+    "height": 20,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:40",
+        "adjustedEnd": "0:03:40.0333333",
+        "start": "0:03:40",
+        "end": "0:03:40.0333333"
+      }
+    ]
+  },
+  {
+    "id": 269,
+    "text": "Trending Stories",
+    "confidence": 0.998,
+    "left": 767,
+    "top": 1025,
+    "width": 140,
+    "height": 19,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:40",
+        "adjustedEnd": "0:03:40.0333333",
+        "start": "0:03:40",
+        "end": "0:03:40.0333333"
+      }
+    ]
+  },
+  {
+    "id": 270,
+    "text": "U.S. 11 hrs ago 7 min read",
+    "confidence": 0.9284,
+    "left": 767,
+    "top": 1059,
+    "width": 156,
+    "height": 15,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:40",
+        "adjustedEnd": "0:03:40.0333333",
+        "start": "0:03:40",
+        "end": "0:03:40.0333333"
+      }
+    ]
+  },
+  {
+    "id": 271,
+    "text": "SAN provides",
+    "confidence": 0.997,
+    "left": 864,
+    "top": 234,
+    "width": 349,
+    "height": 58,
+    "angle": -5,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:42",
+        "adjustedEnd": "0:03:47.0333333",
+        "start": "0:03:42",
+        "end": "0:03:47.0333333"
+      }
+    ]
+  },
+  {
+    "id": 272,
+    "text": "Unbiased. Straight Facts.™",
+    "confidence": 0.9537,
+    "left": 864,
+    "top": 287,
+    "width": 742,
+    "height": 52,
+    "angle": -4,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:42",
+        "adjustedEnd": "0:03:47.0333333",
+        "start": "0:03:42",
+        "end": "0:03:47.0333333"
+      }
+    ]
+  },
+  {
+    "id": 273,
+    "text": "Don't just take our word for it.",
+    "confidence": 0.9964,
+    "left": 865,
+    "top": 376,
+    "width": 503,
+    "height": 40,
+    "angle": -2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:42",
+        "adjustedEnd": "0:03:47.0333333",
+        "start": "0:03:42",
+        "end": "0:03:47.0333333"
+      }
+    ]
+  },
+  {
+    "id": 274,
+    "text": "Certified balanced",
+    "confidence": 0.9975,
+    "left": 868,
+    "top": 504,
+    "width": 298,
+    "height": 36,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:42",
+        "adjustedEnd": "0:03:47.0333333",
+        "start": "0:03:42",
+        "end": "0:03:47.0333333"
+      }
+    ]
+  },
+  {
+    "id": 275,
+    "text": "Transparent and",
+    "confidence": 0.996,
+    "left": 1227,
+    "top": 501,
+    "width": 333,
+    "height": 41,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:42",
+        "adjustedEnd": "0:03:47.0333333",
+        "start": "0:03:42",
+        "end": "0:03:47.0333333"
+      }
+    ]
+  },
+  {
+    "id": 276,
+    "text": "reporting",
+    "confidence": 0.984,
+    "left": 864,
+    "top": 551,
+    "width": 150,
+    "height": 33,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:42",
+        "adjustedEnd": "0:03:47.0333333",
+        "start": "0:03:42",
+        "end": "0:03:47.0333333"
+      }
+    ]
+  },
+  {
+    "id": 277,
+    "text": "credible",
+    "confidence": 0.998,
+    "left": 1228,
+    "top": 551,
+    "width": 156,
+    "height": 36,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:42",
+        "adjustedEnd": "0:03:47.0333333",
+        "start": "0:03:42",
+        "end": "0:03:47.0333333"
+      }
+    ]
+  },
+  {
+    "id": 278,
+    "text": "According to media bias",
+    "confidence": 0.9975,
+    "left": 864,
+    "top": 597,
+    "width": 275,
+    "height": 26,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:42",
+        "adjustedEnd": "0:03:47.0333333",
+        "start": "0:03:42",
+        "end": "0:03:47.0333333"
+      }
+    ]
+  },
+  {
+    "id": 279,
+    "text": "Awarded a perfect reliability",
+    "confidence": 0.9955,
+    "left": 1227,
+    "top": 602,
+    "width": 393,
+    "height": 31,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:42",
+        "adjustedEnd": "0:03:47.0333333",
+        "start": "0:03:42",
+        "end": "0:03:47.0333333"
+      }
+    ]
+  },
+  {
+    "id": 280,
+    "text": "experts at AllSides",
+    "confidence": 0.994,
+    "left": 863,
+    "top": 636,
+    "width": 207,
+    "height": 24,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:42",
+        "adjustedEnd": "0:03:47.0333333",
+        "start": "0:03:42",
+        "end": "0:03:47.0333333"
+      }
+    ]
+  },
+  {
+    "id": 281,
+    "text": "rating from NewsGuard",
+    "confidence": 0.997,
+    "left": 1229,
+    "top": 644,
+    "width": 318,
+    "height": 31,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:42",
+        "adjustedEnd": "0:03:47.0333333",
+        "start": "0:03:42",
+        "end": "0:03:47.0333333"
+      }
+    ]
+  },
+  {
+    "id": 282,
+    "text": "CERTIFIED",
+    "confidence": 0.99,
+    "left": 982,
+    "top": 715,
+    "width": 106,
+    "height": 18,
+    "angle": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:42",
+        "adjustedEnd": "0:03:47.0333333",
+        "start": "0:03:42",
+        "end": "0:03:47.0333333"
+      }
+    ]
+  },
+  {
+    "id": 283,
+    "text": "BALANCED",
+    "confidence": 0.998,
+    "left": 982,
+    "top": 734,
+    "width": 106,
+    "height": 18,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:42",
+        "adjustedEnd": "0:03:47.0333333",
+        "start": "0:03:42",
+        "end": "0:03:47.0333333"
+      }
+    ]
+  },
+  {
+    "id": 284,
+    "text": "Welcome back to trustworthy journalism.",
+    "confidence": 0.996,
+    "left": 866,
+    "top": 870,
+    "width": 754,
+    "height": 38,
+    "angle": 6,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:42",
+        "adjustedEnd": "0:03:47.0333333",
+        "start": "0:03:42",
+        "end": "0:03:47.0333333"
+      }
+    ]
+  },
+  {
+    "id": 285,
+    "text": "Find out more",
+    "confidence": 0.997,
+    "left": 1108,
+    "top": 1006,
+    "width": 210,
+    "height": 29,
+    "angle": 8,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:42",
+        "adjustedEnd": "0:03:47.0333333",
+        "start": "0:03:42",
+        "end": "0:03:47.0333333"
+      }
+    ]
+  },
+  {
+    "id": 286,
+    "text": "May 2025",
+    "confidence": 0.93,
+    "left": 927,
+    "top": 765,
+    "width": 41,
+    "height": 9,
+    "angle": 7,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:43",
+        "adjustedEnd": "0:03:47.0333333",
+        "start": "0:03:43",
+        "end": "0:03:47.0333333"
+      }
+    ]
+  },
+  {
+    "id": 287,
+    "text": "AllSides",
+    "confidence": 0.914,
+    "left": 972,
+    "top": 766,
+    "width": 64,
+    "height": 15,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:43",
+        "adjustedEnd": "0:03:47.0333333",
+        "start": "0:03:43",
+        "end": "0:03:47.0333333"
+      }
+    ]
+  },
+  {
+    "id": 288,
+    "text": "Many of America's vital pollinators are",
+    "confidence": 0.9958,
+    "left": 288,
+    "top": 414,
+    "width": 213,
+    "height": 13,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:53",
+        "adjustedEnd": "0:04:04.0333333",
+        "start": "0:03:53",
+        "end": "0:04:04.0333333"
+      }
+    ]
+  },
+  {
+    "id": 289,
+    "text": "Chinese tariffs hit US farm produ",
+    "confidence": 0.9973,
+    "left": 532,
+    "top": 415,
+    "width": 181,
+    "height": 13,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:53",
+        "adjustedEnd": "0:04:04.0333333",
+        "start": "0:03:53",
+        "end": "0:04:04.0333333"
+      }
+    ]
+  },
+  {
+    "id": 290,
+    "text": "at an elevated risk of extinction",
+    "confidence": 0.9965,
+    "left": 287,
+    "top": 429,
+    "width": 175,
+    "height": 13,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:53",
+        "adjustedEnd": "0:04:04.0333333",
+        "start": "0:03:53",
+        "end": "0:04:04.0333333"
+      }
+    ]
+  },
+  {
+    "id": 291,
+    "text": "trade tensions escalate",
+    "confidence": 0.9977,
+    "left": 531,
+    "top": 430,
+    "width": 133,
+    "height": 12,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:53",
+        "adjustedEnd": "0:04:04.0333333",
+        "start": "0:03:53",
+        "end": "0:04:04.0333333"
+      }
+    ]
+  },
+  {
+    "id": 292,
+    "text": "Download on the",
+    "confidence": 0.9973,
+    "left": 1394,
+    "top": 436,
+    "width": 195,
+    "height": 26,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:53",
+        "adjustedEnd": "0:04:04.0333333",
+        "start": "0:03:53",
+        "end": "0:04:04.0333333"
+      }
+    ]
+  },
+  {
+    "id": 293,
+    "text": "App Store",
+    "confidence": 0.9975,
+    "left": 1394,
+    "top": 467,
+    "width": 206,
+    "height": 43,
+    "angle": -1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:53",
+        "adjustedEnd": "0:04:04.0333333",
+        "start": "0:03:53",
+        "end": "0:04:04.0333333"
+      }
+    ]
+  },
+  {
+    "id": 294,
+    "text": "track of more than 300K",
+    "confidence": 0.9962,
+    "left": 739,
+    "top": 514,
+    "width": 197,
+    "height": 20,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:53",
+        "adjustedEnd": "0:04:04.0333333",
+        "start": "0:03:53",
+        "end": "0:04:04.0333333"
+      }
+    ]
+  },
+  {
+    "id": 295,
+    "text": "CAN",
+    "confidence": 0.983,
+    "left": 1123,
+    "top": 515,
+    "width": 54,
+    "height": 14,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:53",
+        "adjustedEnd": "0:04:04.0333333",
+        "start": "0:03:53",
+        "end": "0:04:04.0333333"
+      }
+    ]
+  },
+  {
+    "id": 296,
+    "text": "Get the latest",
+    "confidence": 0.9797,
+    "left": 277,
+    "top": 540,
+    "width": 76,
+    "height": 12,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:53",
+        "adjustedEnd": "0:04:04.0333333",
+        "start": "0:03:53",
+        "end": "0:04:04.0333333"
+      }
+    ]
+  },
+  {
+    "id": 297,
+    "text": "Get the facts",
+    "confidence": 0.9967,
+    "left": 469,
+    "top": 539,
+    "width": 76,
+    "height": 13,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:53",
+        "adjustedEnd": "0:04:04.0333333",
+        "start": "0:03:53",
+        "end": "0:04:04.0333333"
+      }
+    ]
+  },
+  {
+    "id": 298,
+    "text": "children",
+    "confidence": 0.998,
+    "left": 741,
+    "top": 538,
+    "width": 69,
+    "height": 17,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:53",
+        "adjustedEnd": "0:04:04.0333333",
+        "start": "0:03:53",
+        "end": "0:04:04.0333333"
+      }
+    ]
+  },
+  {
+    "id": 299,
+    "text": "STRAIGHT",
+    "confidence": 0.963,
+    "left": 1124,
+    "top": 535,
+    "width": 54,
+    "height": 14,
+    "angle": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:53",
+        "adjustedEnd": "0:04:04.0333333",
+        "start": "0:03:53",
+        "end": "0:04:04.0333333"
+      }
+    ]
+  },
+  {
+    "id": 300,
+    "text": "GET IT ON",
+    "confidence": 0.997,
+    "left": 1414,
+    "top": 567,
+    "width": 106,
+    "height": 25,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:53",
+        "adjustedEnd": "0:04:04.0333333",
+        "start": "0:03:53",
+        "end": "0:04:04.0333333"
+      }
+    ]
+  },
+  {
+    "id": 301,
+    "text": "Google Play",
+    "confidence": 0.9965,
+    "left": 1412,
+    "top": 593,
+    "width": 233,
+    "height": 57,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:53",
+        "adjustedEnd": "0:04:04.0333333",
+        "start": "0:03:53",
+        "end": "0:04:04.0333333"
+      }
+    ]
+  },
+  {
+    "id": 302,
+    "text": "Research finds lonely people feel even sadder",
+    "confidence": 0.9206,
+    "left": 279,
+    "top": 679,
+    "width": 169,
+    "height": 9,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:53",
+        "adjustedEnd": "0:04:04.0333333",
+        "start": "0:03:53",
+        "end": "0:04:04.0333333"
+      }
+    ]
+  },
+  {
+    "id": 303,
+    "text": "after interacting with chatbots",
+    "confidence": 0.973,
+    "left": 279,
+    "top": 692,
+    "width": 115,
+    "height": 9,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:53",
+        "adjustedEnd": "0:04:04.0333333",
+        "start": "0:03:53",
+        "end": "0:04:04.0333333"
+      }
+    ]
+  },
+  {
+    "id": 304,
+    "text": "Trump reforms migrant program after US loses",
+    "confidence": 0.9184,
+    "left": 280,
+    "top": 733,
+    "width": 172,
+    "height": 11,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:53",
+        "adjustedEnd": "0:04:04.0333333",
+        "start": "0:03:53",
+        "end": "0:04:04.0333333"
+      }
+    ]
+  },
+  {
+    "id": 305,
+    "text": "track of more than 300K children",
+    "confidence": 0.9605,
+    "left": 280,
+    "top": 745,
+    "width": 127,
+    "height": 10,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:53",
+        "adjustedEnd": "0:03:56.0333333",
+        "start": "0:03:53",
+        "end": "0:03:56.0333333"
+      },
+      {
+        "adjustedStart": "0:03:58",
+        "adjustedEnd": "0:04:04.0333333",
+        "start": "0:03:58",
+        "end": "0:04:04.0333333"
+      }
+    ]
+  },
+  {
+    "id": 306,
+    "text": "International law doesn't allow deep-sea",
+    "confidence": 0.9144,
+    "left": 277,
+    "top": 787,
+    "width": 153,
+    "height": 12,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:53",
+        "adjustedEnd": "0:04:04.0333333",
+        "start": "0:03:53",
+        "end": "0:04:04.0333333"
+      }
+    ]
+  },
+  {
+    "id": 307,
+    "text": "mining, but Trump admin may permit it",
+    "confidence": 0.9177,
+    "left": 278,
+    "top": 800,
+    "width": 146,
+    "height": 10,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:53",
+        "adjustedEnd": "0:04:04.0333333",
+        "start": "0:03:53",
+        "end": "0:04:04.0333333"
+      }
+    ]
+  },
+  {
+    "id": 308,
+    "text": "Trump cabinet member",
+    "confidence": 0.998,
+    "left": 584,
+    "top": 799,
+    "width": 129,
+    "height": 13,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:53",
+        "adjustedEnd": "0:04:04.0333333",
+        "start": "0:03:53",
+        "end": "0:04:04.0333333"
+      }
+    ]
+  },
+  {
+    "id": 309,
+    "text": "AFE . BAR",
+    "confidence": 0.9127,
+    "left": 1373,
+    "top": 84,
+    "width": 358,
+    "height": 57,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:04:22",
+        "adjustedEnd": "0:04:22.0333333",
+        "start": "0:04:22",
+        "end": "0:04:22.0333333"
+      }
+    ]
+  },
+  {
+    "id": 310,
+    "text": "Professor Nicole Griggs",
+    "confidence": 0.9977,
+    "left": 307,
+    "top": 904,
+    "width": 519,
+    "height": 43,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:04:39",
+        "adjustedEnd": "0:04:43.0333333",
+        "start": "0:04:39",
+        "end": "0:04:43.0333333"
+      }
+    ]
+  },
+  {
+    "id": 311,
+    "text": "Architectural Historian / Editor",
+    "confidence": 0.9933,
+    "left": 309,
+    "top": 977,
+    "width": 451,
+    "height": 33,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:04:39",
+        "adjustedEnd": "0:04:43.0333333",
+        "start": "0:04:39",
+        "end": "0:04:43.0333333"
+      }
+    ]
+  },
+  {
+    "id": 312,
+    "text": "Edgard Pisani",
+    "confidence": 0.998,
+    "left": 279,
+    "top": 819,
+    "width": 390,
+    "height": 59,
+    "angle": 0,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:05:00",
+        "adjustedEnd": "0:05:03.0333333",
+        "start": "0:05:00",
+        "end": "0:05:03.0333333"
+      }
+    ]
+  },
+  {
+    "id": 313,
+    "text": "BIM",
+    "confidence": 0.928,
+    "left": 56,
+    "top": 77,
+    "width": 119,
+    "height": 58,
+    "angle": -3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:16",
+        "adjustedEnd": "0:05:34.0333333",
+        "start": "0:05:16",
+        "end": "0:05:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 314,
+    "text": "Pablo Picasso",
+    "confidence": 0.998,
+    "left": 670,
+    "top": 875,
+    "width": 545,
+    "height": 72,
+    "angle": 0,
+    "language": "pl-PL",
+    "instances": [
+      {
+        "adjustedStart": "0:05:31",
+        "adjustedEnd": "0:05:31.0333333",
+        "start": "0:05:31",
+        "end": "0:05:31.0333333"
+      }
+    ]
+  },
+  {
+    "id": 315,
+    "text": "LAROTONDE",
+    "confidence": 0.939,
+    "left": 570,
+    "top": 493,
+    "width": 127,
+    "height": 41,
+    "angle": 0,
+    "language": "nl-NL",
+    "instances": [
+      {
+        "adjustedStart": "0:05:32",
+        "adjustedEnd": "0:05:33.0333333",
+        "start": "0:05:32",
+        "end": "0:05:33.0333333"
+      }
+    ]
+  },
+  {
+    "id": 316,
+    "text": "TAXIS",
+    "confidence": 0.998,
+    "left": 1680,
+    "top": 1033,
+    "width": 80,
+    "height": 39,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:33",
+        "adjustedEnd": "0:05:37.0333333",
+        "start": "0:05:33",
+        "end": "0:05:37.0333333"
+      }
+    ]
+  },
+  {
+    "id": 317,
+    "text": "LAROTOND",
+    "confidence": 0.963,
+    "left": 1091,
+    "top": 657,
+    "width": 618,
+    "height": 97,
+    "angle": -2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:34",
+        "adjustedEnd": "0:05:36.0333333",
+        "start": "0:05:34",
+        "end": "0:05:36.0333333"
+      }
+    ]
+  },
+  {
+    "id": 318,
+    "text": "AIN",
+    "confidence": 0.985,
+    "left": 972,
+    "top": 371,
+    "width": 61,
+    "height": 25,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:36",
+        "adjustedEnd": "0:05:37.0333333",
+        "start": "0:05:36",
+        "end": "0:05:37.0333333"
+      }
+    ]
+  },
+  {
+    "id": 319,
+    "text": "PHARMACIE",
+    "confidence": 0.997,
+    "left": 1609,
+    "top": 645,
+    "width": 297,
+    "height": 34,
+    "angle": 1,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:05:46",
+        "adjustedEnd": "0:05:50.0333333",
+        "start": "0:05:46",
+        "end": "0:05:50.0333333"
+      }
+    ]
+  },
+  {
+    "id": 320,
+    "text": "Bebe",
+    "confidence": 0.96,
+    "left": 1209,
+    "top": 707,
+    "width": 33,
+    "height": 20,
+    "angle": -2,
+    "language": "mg-MG",
+    "instances": [
+      {
+        "adjustedStart": "0:05:46",
+        "adjustedEnd": "0:05:50.0333333",
+        "start": "0:05:46",
+        "end": "0:05:50.0333333"
+      }
+    ]
+  },
+  {
+    "id": 321,
+    "text": "Rennes Assas",
+    "confidence": 0.9975,
+    "left": 1666,
+    "top": 691,
+    "width": 182,
+    "height": 20,
+    "angle": 1,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:05:46",
+        "adjustedEnd": "0:05:50.0333333",
+        "start": "0:05:46",
+        "end": "0:05:50.0333333"
+      }
+    ]
+  },
+  {
+    "id": 322,
+    "text": "TUE LES POUX",
+    "confidence": 0.9817,
+    "left": 1206,
+    "top": 781,
+    "width": 51,
+    "height": 11,
+    "angle": -1,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:05:46",
+        "adjustedEnd": "0:05:50.0333333",
+        "start": "0:05:46",
+        "end": "0:05:50.0333333"
+      }
+    ]
+  },
+  {
+    "id": 323,
+    "text": "2 MINUTES",
+    "confidence": 0.917,
+    "left": 1175,
+    "top": 839,
+    "width": 45,
+    "height": 10,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:46",
+        "adjustedEnd": "0:05:47.0333333",
+        "start": "0:05:46",
+        "end": "0:05:47.0333333"
+      }
+    ]
+  },
+  {
+    "id": 324,
+    "text": "BUS",
+    "confidence": 0.992,
+    "left": 1130,
+    "top": 571,
+    "width": 23,
+    "height": 15,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:51",
+        "adjustedEnd": "0:05:55.0333333",
+        "start": "0:05:51",
+        "end": "0:05:55.0333333"
+      },
+      {
+        "adjustedStart": "0:14:52",
+        "adjustedEnd": "0:14:53.0333333",
+        "start": "0:14:52",
+        "end": "0:14:53.0333333"
+      },
+      {
+        "adjustedStart": "0:14:56",
+        "adjustedEnd": "0:14:56.0333333",
+        "start": "0:14:56",
+        "end": "0:14:56.0333333"
+      }
+    ]
+  },
+  {
+    "id": 325,
+    "text": "BLEUFORET",
+    "confidence": 0.992,
+    "left": 1467,
+    "top": 702,
+    "width": 82,
+    "height": 23,
+    "angle": -3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:51",
+        "adjustedEnd": "0:05:54.0333333",
+        "start": "0:05:51",
+        "end": "0:05:54.0333333"
+      }
+    ]
+  },
+  {
+    "id": 326,
+    "text": "AU BO",
+    "confidence": 0.9795,
+    "left": 1783,
+    "top": 515,
+    "width": 134,
+    "height": 28,
+    "angle": 9,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:06:03",
+        "adjustedEnd": "0:06:04.0333333",
+        "start": "0:06:03",
+        "end": "0:06:04.0333333"
+      }
+    ]
+  },
+  {
+    "id": 327,
+    "text": "AU",
+    "confidence": 0.995,
+    "left": 1795,
+    "top": 516,
+    "width": 63,
+    "height": 28,
+    "angle": 5,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:06:05",
+        "adjustedEnd": "0:06:06.0333333",
+        "start": "0:06:05",
+        "end": "0:06:06.0333333"
+      }
+    ]
+  },
+  {
+    "id": 328,
+    "text": "DE L'OUEST",
+    "confidence": 0.9315,
+    "left": 1003,
+    "top": 310,
+    "width": 98,
+    "height": 21,
+    "angle": -28,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:06:07",
+        "adjustedEnd": "0:06:08.0333333",
+        "start": "0:06:07",
+        "end": "0:06:08.0333333"
+      }
+    ]
+  },
+  {
+    "id": 329,
+    "text": "LE MANS",
+    "confidence": 0.9965,
+    "left": 639,
+    "top": 574,
+    "width": 202,
+    "height": 62,
+    "angle": -10,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:06:09",
+        "adjustedEnd": "0:06:09.0333333",
+        "start": "0:06:09",
+        "end": "0:06:09.0333333"
+      }
+    ]
+  },
+  {
+    "id": 330,
+    "text": "RENNES",
+    "confidence": 0.962,
+    "left": 838,
+    "top": 541,
+    "width": 219,
+    "height": 53,
+    "angle": -11,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:06:09",
+        "adjustedEnd": "0:06:09.0333333",
+        "start": "0:06:09",
+        "end": "0:06:09.0333333"
+      }
+    ]
+  },
+  {
+    "id": 331,
+    "text": "VOITURE 67",
+    "confidence": 0.9845,
+    "left": 503,
+    "top": 214,
+    "width": 743,
+    "height": 224,
+    "angle": 0,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:06:12",
+        "adjustedEnd": "0:06:12.0333333",
+        "start": "0:06:12",
+        "end": "0:06:12.0333333"
+      }
+    ]
+  },
+  {
+    "id": 332,
+    "text": "VOITURE",
+    "confidence": 0.902,
+    "left": 704,
+    "top": 377,
+    "width": 274,
+    "height": 95,
+    "angle": 11,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:06:13",
+        "adjustedEnd": "0:06:13.0333333",
+        "start": "0:06:13",
+        "end": "0:06:13.0333333"
+      }
+    ]
+  },
+  {
+    "id": 333,
+    "text": "Maine-Montparnasse Plan",
+    "confidence": 0.9675,
+    "left": 313,
+    "top": 487,
+    "width": 1299,
+    "height": 104,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:30",
+        "adjustedEnd": "0:06:33.0333333",
+        "start": "0:06:30",
+        "end": "0:06:33.0333333"
+      }
+    ]
+  },
+  {
+    "id": 334,
+    "text": "pullman",
+    "confidence": 0.928,
+    "left": 477,
+    "top": 145,
+    "width": 97,
+    "height": 19,
+    "angle": 2,
+    "language": "it-IT",
+    "instances": [
+      {
+        "adjustedStart": "0:06:57",
+        "adjustedEnd": "0:07:02.0333333",
+        "start": "0:06:57",
+        "end": "0:07:02.0333333"
+      }
+    ]
+  },
+  {
+    "id": 335,
+    "text": "HOTEL",
+    "confidence": 0.921,
+    "left": 481,
+    "top": 213,
+    "width": 80,
+    "height": 16,
+    "angle": 4,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:00",
+        "adjustedEnd": "0:07:01.0333333",
+        "start": "0:07:00",
+        "end": "0:07:01.0333333"
+      }
+    ]
+  },
+  {
+    "id": 336,
+    "text": "Wylie Tuttle's Wide World of Real Estate",
+    "confidence": 0.9957,
+    "left": 841,
+    "top": 127,
+    "width": 333,
+    "height": 21,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:23",
+        "adjustedEnd": "0:07:25.0333333",
+        "start": "0:07:23",
+        "end": "0:07:25.0333333"
+      }
+    ]
+  },
+  {
+    "id": 337,
+    "text": "With Point of View",
+    "confidence": 0.9945,
+    "left": 721,
+    "top": 156,
+    "width": 102,
+    "height": 14,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:23",
+        "adjustedEnd": "0:07:25.0333333",
+        "start": "0:07:23",
+        "end": "0:07:25.0333333"
+      }
+    ]
+  },
+  {
+    "id": 338,
+    "text": "FLY FREE LAS VEGAS",
+    "confidence": 0.9898,
+    "left": 1074,
+    "top": 486,
+    "width": 114,
+    "height": 16,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:23",
+        "adjustedEnd": "0:07:23.0333333",
+        "start": "0:07:23",
+        "end": "0:07:23.0333333"
+      }
+    ]
+  },
+  {
+    "id": 339,
+    "text": "EV. 3-3085",
+    "confidence": 0.901,
+    "left": 1075,
+    "top": 601,
+    "width": 92,
+    "height": 12,
+    "angle": -1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:23",
+        "adjustedEnd": "0:07:23.0333333",
+        "start": "0:07:23",
+        "end": "0:07:23.0333333"
+      }
+    ]
+  },
+  {
+    "id": 340,
+    "text": "SEGO",
+    "confidence": 0.981,
+    "left": 1088,
+    "top": 686,
+    "width": 78,
+    "height": 31,
+    "angle": -3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:23",
+        "adjustedEnd": "0:07:23.0333333",
+        "start": "0:07:23",
+        "end": "0:07:23.0333333"
+      }
+    ]
+  },
+  {
+    "id": 341,
+    "text": "ENROLL NOW!",
+    "confidence": 0.9955,
+    "left": 1056,
+    "top": 822,
+    "width": 80,
+    "height": 10,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:23",
+        "adjustedEnd": "0:07:23.0333333",
+        "start": "0:07:23",
+        "end": "0:07:23.0333333"
+      }
+    ]
+  },
+  {
+    "id": 342,
+    "text": "BE A BEAUTICIAN",
+    "confidence": 0.9727,
+    "left": 1071,
+    "top": 841,
+    "width": 92,
+    "height": 11,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:23",
+        "adjustedEnd": "0:07:23.0333333",
+        "start": "0:07:23",
+        "end": "0:07:23.0333333"
+      }
+    ]
+  },
+  {
+    "id": 343,
+    "text": "LINE 6",
+    "confidence": 0.993,
+    "left": 1151,
+    "top": 381,
+    "width": 187,
+    "height": 55,
+    "angle": 25,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:08:11",
+        "adjustedEnd": "0:08:13.0333333",
+        "start": "0:08:11",
+        "end": "0:08:13.0333333"
+      }
+    ]
+  },
+  {
+    "id": 344,
+    "text": "MAIN",
+    "confidence": 0.994,
+    "left": 729,
+    "top": 963,
+    "width": 65,
+    "height": 13,
+    "angle": -90,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:08:23",
+        "adjustedEnd": "0:08:27.0333333",
+        "start": "0:08:23",
+        "end": "0:08:27.0333333"
+      }
+    ]
+  },
+  {
+    "id": 345,
+    "text": "VILLE DE PARIS CENTRE SPORTIF E",
+    "confidence": 0.9742,
+    "left": 33,
+    "top": 987,
+    "width": 355,
+    "height": 20,
+    "angle": 0,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:08:23",
+        "adjustedEnd": "0:08:27.0333333",
+        "start": "0:08:23",
+        "end": "0:08:27.0333333"
+      }
+    ]
+  },
+  {
+    "id": 346,
+    "text": "DE JEUNESSE",
+    "confidence": 0.91,
+    "left": 398,
+    "top": 983,
+    "width": 126,
+    "height": 19,
+    "angle": 0,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:08:23",
+        "adjustedEnd": "0:08:27.0333333",
+        "start": "0:08:23",
+        "end": "0:08:27.0333333"
+      }
+    ]
+  },
+  {
+    "id": 347,
+    "text": "-40,000T",
+    "confidence": 0.978,
+    "left": 1119,
+    "top": 269,
+    "width": 458,
+    "height": 90,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:08:48",
+        "adjustedEnd": "0:08:51.0333333",
+        "start": "0:08:48",
+        "end": "0:08:51.0333333"
+      }
+    ]
+  },
+  {
+    "id": 348,
+    "text": "LOOSER",
+    "confidence": 0.998,
+    "left": 1409,
+    "top": 291,
+    "width": 238,
+    "height": 40,
+    "angle": 7,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:08:59",
+        "adjustedEnd": "0:09:03.0333333",
+        "start": "0:08:59",
+        "end": "0:09:03.0333333"
+      }
+    ]
+  },
+  {
+    "id": 349,
+    "text": "SOIL",
+    "confidence": 0.991,
+    "left": 1400,
+    "top": 352,
+    "width": 130,
+    "height": 38,
+    "angle": 8,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:08:59",
+        "adjustedEnd": "0:09:03.0333333",
+        "start": "0:08:59",
+        "end": "0:09:03.0333333"
+      }
+    ]
+  },
+  {
+    "id": 350,
+    "text": "14M",
+    "confidence": 0.996,
+    "left": 248,
+    "top": 335,
+    "width": 205,
+    "height": 91,
+    "angle": 14,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:09:05",
+        "adjustedEnd": "0:09:06.0333333",
+        "start": "0:09:05",
+        "end": "0:09:06.0333333"
+      }
+    ]
+  },
+  {
+    "id": 351,
+    "text": "55M",
+    "confidence": 0.997,
+    "left": 252,
+    "top": 320,
+    "width": 199,
+    "height": 78,
+    "angle": 19,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:09:07",
+        "adjustedEnd": "0:09:07.0333333",
+        "start": "0:09:07",
+        "end": "0:09:07.0333333"
+      }
+    ]
+  },
+  {
+    "id": 352,
+    "text": "60M",
+    "confidence": 0.992,
+    "left": 245,
+    "top": 318,
+    "width": 205,
+    "height": 74,
+    "angle": 18,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:09:08",
+        "adjustedEnd": "0:09:13.0333333",
+        "start": "0:09:08",
+        "end": "0:09:13.0333333"
+      }
+    ]
+  },
+  {
+    "id": 353,
+    "text": "CLAY",
+    "confidence": 0.996,
+    "left": 1357,
+    "top": 826,
+    "width": 212,
+    "height": 51,
+    "angle": 19,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:09:12",
+        "adjustedEnd": "0:09:13.0333333",
+        "start": "0:09:12",
+        "end": "0:09:13.0333333"
+      }
+    ]
+  },
+  {
+    "id": 354,
+    "text": "BITSCHNAU GLEIT & SCHALUNGSTECHNIK",
+    "confidence": 0.968,
+    "left": 1498,
+    "top": 1033,
+    "width": 390,
+    "height": 23,
+    "angle": 0,
+    "language": "de-DE",
+    "instances": [
+      {
+        "adjustedStart": "0:10:05",
+        "adjustedEnd": "0:10:14.0333333",
+        "start": "0:10:05",
+        "end": "0:10:14.0333333"
+      }
+    ]
+  },
+  {
+    "id": 355,
+    "text": "BITSCHNA",
+    "confidence": 0.912,
+    "left": 571,
+    "top": 374,
+    "width": 134,
+    "height": 18,
+    "angle": 0,
+    "language": "de-DE",
+    "instances": [
+      {
+        "adjustedStart": "0:10:08",
+        "adjustedEnd": "0:10:10.0333333",
+        "start": "0:10:08",
+        "end": "0:10:10.0333333"
+      }
+    ]
+  },
+  {
+    "id": 356,
+    "text": "I'm not so happy,",
+    "confidence": 0.9965,
+    "left": 725,
+    "top": 946,
+    "width": 469,
+    "height": 51,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:10:33",
+        "adjustedEnd": "0:10:34.0333333",
+        "start": "0:10:33",
+        "end": "0:10:34.0333333"
+      }
+    ]
+  },
+  {
+    "id": 357,
+    "text": "I hope she won't stay in this state.",
+    "confidence": 0.9903,
+    "left": 493,
+    "top": 946,
+    "width": 929,
+    "height": 55,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:10:35",
+        "adjustedEnd": "0:10:35.0333333",
+        "start": "0:10:35",
+        "end": "0:10:35.0333333"
+      }
+    ]
+  },
+  {
+    "id": 358,
+    "text": "It's not even the architecture",
+    "confidence": 0.9846,
+    "left": 565,
+    "top": 946,
+    "width": 789,
+    "height": 49,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:10:36",
+        "adjustedEnd": "0:10:36.0333333",
+        "start": "0:10:36",
+        "end": "0:10:36.0333333"
+      }
+    ]
+  },
+  {
+    "id": 359,
+    "text": "of a building in France.",
+    "confidence": 0.9958,
+    "left": 653,
+    "top": 945,
+    "width": 626,
+    "height": 54,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:10:37",
+        "adjustedEnd": "0:10:38.0333333",
+        "start": "0:10:37",
+        "end": "0:10:38.0333333"
+      }
+    ]
+  },
+  {
+    "id": 360,
+    "text": "ODESSA",
+    "confidence": 0.986,
+    "left": 1737,
+    "top": 934,
+    "width": 157,
+    "height": 25,
+    "angle": -6,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:11:13",
+        "adjustedEnd": "0:11:21.0333333",
+        "start": "0:11:13",
+        "end": "0:11:21.0333333"
+      }
+    ]
+  },
+  {
+    "id": 361,
+    "text": "Georges-Eugène Haussmann",
+    "confidence": 0.9915,
+    "left": 212,
+    "top": 888,
+    "width": 635,
+    "height": 45,
+    "angle": 0,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:11:25",
+        "adjustedEnd": "0:11:28.0333333",
+        "start": "0:11:25",
+        "end": "0:11:28.0333333"
+      }
+    ]
+  },
+  {
+    "id": 362,
+    "text": "ES",
+    "confidence": 0.995,
+    "left": 655,
+    "top": 41,
+    "width": 24,
+    "height": 24,
+    "angle": 5,
+    "language": "es-ES",
+    "instances": [
+      {
+        "adjustedStart": "0:11:39",
+        "adjustedEnd": "0:11:39.0333333",
+        "start": "0:11:39",
+        "end": "0:11:39.0333333"
+      }
+    ]
+  },
+  {
+    "id": 363,
+    "text": "VINS",
+    "confidence": 0.995,
+    "left": 620,
+    "top": 309,
+    "width": 166,
+    "height": 57,
+    "angle": -1,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:11:39",
+        "adjustedEnd": "0:11:39.0333333",
+        "start": "0:11:39",
+        "end": "0:11:39.0333333"
+      }
+    ]
+  },
+  {
+    "id": 364,
+    "text": "HERBINIER",
+    "confidence": 0.93,
+    "left": 1391,
+    "top": 345,
+    "width": 200,
+    "height": 57,
+    "angle": -2,
+    "language": "de-DE",
+    "instances": [
+      {
+        "adjustedStart": "0:11:39",
+        "adjustedEnd": "0:11:39.0333333",
+        "start": "0:11:39",
+        "end": "0:11:39.0333333"
+      }
+    ]
+  },
+  {
+    "id": 365,
+    "text": "CHAUSSURES",
+    "confidence": 0.995,
+    "left": 1383,
+    "top": 425,
+    "width": 215,
+    "height": 42,
+    "angle": -1,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:11:39",
+        "adjustedEnd": "0:11:39.0333333",
+        "start": "0:11:39",
+        "end": "0:11:39.0333333"
+      }
+    ]
+  },
+  {
+    "id": 366,
+    "text": "LANCEL",
+    "confidence": 0.982,
+    "left": 325,
+    "top": 611,
+    "width": 83,
+    "height": 19,
+    "angle": -10,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:11:43",
+        "adjustedEnd": "0:11:43.0333333",
+        "start": "0:11:43",
+        "end": "0:11:43.0333333"
+      },
+      {
+        "adjustedStart": "0:11:45",
+        "adjustedEnd": "0:11:45.0333333",
+        "start": "0:11:45",
+        "end": "0:11:45.0333333"
+      }
+    ]
+  },
+  {
+    "id": 367,
+    "text": "HEMA",
+    "confidence": 0.995,
+    "left": 311,
+    "top": 837,
+    "width": 31,
+    "height": 11,
+    "angle": 4,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:12:00",
+        "adjustedEnd": "0:12:03.0333333",
+        "start": "0:12:00",
+        "end": "0:12:03.0333333"
+      }
+    ]
+  },
+  {
+    "id": 368,
+    "text": "VTPS",
+    "confidence": 0.911,
+    "left": 10,
+    "top": 879,
+    "width": 27,
+    "height": 7,
+    "angle": 17,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:12:00",
+        "adjustedEnd": "0:12:00.0333333",
+        "start": "0:12:00",
+        "end": "0:12:00.0333333"
+      }
+    ]
+  },
+  {
+    "id": 369,
+    "text": "GELATO AL N",
+    "confidence": 0.925,
+    "left": 40,
+    "top": 631,
+    "width": 978,
+    "height": 129,
+    "angle": 20,
+    "language": "it-IT",
+    "instances": [
+      {
+        "adjustedStart": "0:12:36",
+        "adjustedEnd": "0:12:37.0333333",
+        "start": "0:12:36",
+        "end": "0:12:37.0333333"
+      }
+    ]
+  },
+  {
+    "id": 370,
+    "text": "BNP PARIBA",
+    "confidence": 0.9865,
+    "left": 328,
+    "top": 852,
+    "width": 68,
+    "height": 9,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:12:53",
+        "adjustedEnd": "0:12:54.0333333",
+        "start": "0:12:53",
+        "end": "0:12:54.0333333"
+      }
+    ]
+  },
+  {
+    "id": 371,
+    "text": "La banque d'un monde qui change",
+    "confidence": 0.9637,
+    "left": 125,
+    "top": 760,
+    "width": 126,
+    "height": 10,
+    "angle": 0,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:12:53",
+        "adjustedEnd": "0:12:54.0333333",
+        "start": "0:12:53",
+        "end": "0:12:54.0333333"
+      }
+    ]
+  },
+  {
+    "id": 372,
+    "text": "LAVE",
+    "confidence": 0.92,
+    "left": 70,
+    "top": 977,
+    "width": 151,
+    "height": 41,
+    "angle": 2,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:12:57",
+        "adjustedEnd": "0:12:57.0333333",
+        "start": "0:12:57",
+        "end": "0:12:57.0333333"
+      }
+    ]
+  },
+  {
+    "id": 373,
+    "text": "MATY",
+    "confidence": 0.901,
+    "left": 1253,
+    "top": 438,
+    "width": 47,
+    "height": 14,
+    "angle": 1,
+    "language": "mg-MG",
+    "instances": [
+      {
+        "adjustedStart": "0:13:26",
+        "adjustedEnd": "0:13:29.0333333",
+        "start": "0:13:26",
+        "end": "0:13:29.0333333"
+      }
+    ]
+  },
+  {
+    "id": 374,
+    "text": "swotch",
+    "confidence": 0.909,
+    "left": 516,
+    "top": 441,
+    "width": 40,
+    "height": 10,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:13:26",
+        "adjustedEnd": "0:13:29.0333333",
+        "start": "0:13:26",
+        "end": "0:13:29.0333333"
+      }
+    ]
+  },
+  {
+    "id": 375,
+    "text": "aFFReUX",
+    "confidence": 0.9,
+    "left": 100,
+    "top": 428,
+    "width": 567,
+    "height": 99,
+    "angle": 3,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:13:30",
+        "adjustedEnd": "0:13:36.0333333",
+        "start": "0:13:30",
+        "end": "0:13:36.0333333"
+      }
+    ]
+  },
+  {
+    "id": 376,
+    "text": "PeDanTS",
+    "confidence": 0.984,
+    "left": 80,
+    "top": 616,
+    "width": 578,
+    "height": 95,
+    "angle": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:13:30",
+        "adjustedEnd": "0:13:36.0333333",
+        "start": "0:13:30",
+        "end": "0:13:36.0333333"
+      }
+    ]
+  },
+  {
+    "id": 377,
+    "text": "COMPAGNIE DES DRAMATICULE",
+    "confidence": 0.927,
+    "left": 114,
+    "top": 744,
+    "width": 416,
+    "height": 28,
+    "angle": 2,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:13:30",
+        "adjustedEnd": "0:13:36.0333333",
+        "start": "0:13:30",
+        "end": "0:13:36.0333333"
+      }
+    ]
+  },
+  {
+    "id": 378,
+    "text": "LE JDD",
+    "confidence": 0.997,
+    "left": 1817,
+    "top": 1035,
+    "width": 66,
+    "height": 19,
+    "angle": 0,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:13:30",
+        "adjustedEnd": "0:13:36.0333333",
+        "start": "0:13:30",
+        "end": "0:13:36.0333333"
+      }
+    ]
+  },
+  {
+    "id": 379,
+    "text": "Nathalie Kosciusko-Morizet",
+    "confidence": 0.9915,
+    "left": 1151,
+    "top": 913,
+    "width": 599,
+    "height": 44,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:13:31",
+        "adjustedEnd": "0:13:36.0333333",
+        "start": "0:13:31",
+        "end": "0:13:36.0333333"
+      }
+    ]
+  },
+  {
+    "id": 380,
+    "text": "ET CON",
+    "confidence": 0.944,
+    "left": 661,
+    "top": 172,
+    "width": 125,
+    "height": 36,
+    "angle": -5,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:13:49",
+        "adjustedEnd": "0:13:50.0333333",
+        "start": "0:13:49",
+        "end": "0:13:50.0333333"
+      }
+    ]
+  },
+  {
+    "id": 381,
+    "text": "TOUR MONT PAR",
+    "confidence": 0.995,
+    "left": 837,
+    "top": 189,
+    "width": 256,
+    "height": 28,
+    "angle": -6,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:13:50",
+        "adjustedEnd": "0:13:50.0333333",
+        "start": "0:13:50",
+        "end": "0:13:50.0333333"
+      }
+    ]
+  },
+  {
+    "id": 382,
+    "text": "TOUR MONTPA",
+    "confidence": 0.985,
+    "left": 828,
+    "top": 174,
+    "width": 246,
+    "height": 31,
+    "angle": -6,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:13:51",
+        "adjustedEnd": "0:13:51.0333333",
+        "start": "0:13:51",
+        "end": "0:13:51.0333333"
+      }
+    ]
+  },
+  {
+    "id": 383,
+    "text": "TOUR MO",
+    "confidence": 0.9175,
+    "left": 838,
+    "top": 554,
+    "width": 95,
+    "height": 29,
+    "angle": -2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:14:40",
+        "adjustedEnd": "0:14:40.0333333",
+        "start": "0:14:40",
+        "end": "0:14:40.0333333"
+      }
+    ]
+  },
+  {
+    "id": 384,
+    "text": "HOT",
+    "confidence": 0.995,
+    "left": 1824,
+    "top": 633,
+    "width": 59,
+    "height": 33,
+    "angle": -1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:14:41",
+        "adjustedEnd": "0:14:41.0333333",
+        "start": "0:14:41",
+        "end": "0:14:41.0333333"
+      }
+    ]
+  },
+  {
+    "id": 385,
+    "text": "OTEL",
+    "confidence": 0.958,
+    "left": 1656,
+    "top": 650,
+    "width": 76,
+    "height": 33,
+    "angle": -2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:14:42",
+        "adjustedEnd": "0:14:42.0333333",
+        "start": "0:14:42",
+        "end": "0:14:42.0333333"
+      }
+    ]
+  },
+  {
+    "id": 386,
+    "text": "RIS",
+    "confidence": 0.969,
+    "left": 1043,
+    "top": 929,
+    "width": 24,
+    "height": 12,
+    "angle": 2,
+    "language": "da-DK",
+    "instances": [
+      {
+        "adjustedStart": "0:14:51",
+        "adjustedEnd": "0:14:51.0333333",
+        "start": "0:14:51",
+        "end": "0:14:51.0333333"
+      }
+    ]
+  },
+  {
+    "id": 387,
+    "text": "CENTRE",
+    "confidence": 0.998,
+    "left": 1071,
+    "top": 948,
+    "width": 62,
+    "height": 13,
+    "angle": -1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:14:53",
+        "adjustedEnd": "0:14:53.0333333",
+        "start": "0:14:53",
+        "end": "0:14:53.0333333"
+      },
+      {
+        "adjustedStart": "0:14:56",
+        "adjustedEnd": "0:14:56.0333333",
+        "start": "0:14:56",
+        "end": "0:14:56.0333333"
+      }
+    ]
+  },
+  {
+    "id": 388,
+    "text": "PORTIF E",
+    "confidence": 0.9615,
+    "left": 1132,
+    "top": 948,
+    "width": 64,
+    "height": 11,
+    "angle": 0,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:14:53",
+        "adjustedEnd": "0:14:53.0333333",
+        "start": "0:14:53",
+        "end": "0:14:53.0333333"
+      }
+    ]
+  },
+  {
+    "id": 389,
+    "text": "RNASS",
+    "confidence": 0.908,
+    "left": 1469,
+    "top": 906,
+    "width": 29,
+    "height": 10,
+    "angle": -4,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:14:55",
+        "adjustedEnd": "0:14:55.0333333",
+        "start": "0:14:55",
+        "end": "0:14:55.0333333"
+      }
+    ]
+  },
+  {
+    "id": 390,
+    "text": "e Pol",
+    "confidence": 0.9455,
+    "left": 463,
+    "top": 1037,
+    "width": 26,
+    "height": 9,
+    "angle": 0,
+    "language": "it-IT",
+    "instances": [
+      {
+        "adjustedStart": "0:14:55",
+        "adjustedEnd": "0:14:55.0333333",
+        "start": "0:14:55",
+        "end": "0:14:55.0333333"
+      }
+    ]
+  },
+  {
+    "id": 391,
+    "text": "NARRATOR",
+    "confidence": 0.998,
+    "left": 165,
+    "top": 210,
+    "width": 179,
+    "height": 25,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:15:25",
+        "adjustedEnd": "0:15:38.0333333",
+        "start": "0:15:25",
+        "end": "0:15:38.0333333"
+      }
+    ]
+  },
+  {
+    "id": 392,
+    "text": "FRED MILLS",
+    "confidence": 0.997,
+    "left": 163,
+    "top": 235,
+    "width": 172,
+    "height": 22,
+    "angle": -1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:15:25",
+        "adjustedEnd": "0:15:38.0333333",
+        "start": "0:15:25",
+        "end": "0:15:38.0333333"
+      }
+    ]
+  },
+  {
+    "id": 393,
+    "text": "AARON WOOD",
+    "confidence": 0.997,
+    "left": 165,
+    "top": 492,
+    "width": 210,
+    "height": 23,
+    "angle": -1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:15:25",
+        "adjustedEnd": "0:15:38.0333333",
+        "start": "0:15:25",
+        "end": "0:15:38.0333333"
+      }
+    ]
+  },
+  {
+    "id": 394,
+    "text": "SERENA JONES",
+    "confidence": 0.998,
+    "left": 161,
+    "top": 783,
+    "width": 222,
+    "height": 25,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:15:25",
+        "adjustedEnd": "0:15:38.0333333",
+        "start": "0:15:25",
+        "end": "0:15:38.0333333"
+      }
+    ]
+  },
+  {
+    "id": 395,
+    "text": "JAMES DURKIN",
+    "confidence": 0.998,
+    "left": 166,
+    "top": 811,
+    "width": 215,
+    "height": 24,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:15:25",
+        "adjustedEnd": "0:15:38.0333333",
+        "start": "0:15:25",
+        "end": "0:15:38.0333333"
+      }
+    ]
+  },
+  {
+    "id": 396,
+    "text": "PRODUCER + CAMERA",
+    "confidence": 0.9883,
+    "left": 161,
+    "top": 320,
+    "width": 359,
+    "height": 26,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:15:26",
+        "adjustedEnd": "0:15:38.0333333",
+        "start": "0:15:26",
+        "end": "0:15:38.0333333"
+      }
+    ]
+  },
+  {
+    "id": 397,
+    "text": "IAN PARKIN",
+    "confidence": 0.9835,
+    "left": 161,
+    "top": 356,
+    "width": 171,
+    "height": 26,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:15:26",
+        "adjustedEnd": "0:15:38.0333333",
+        "start": "0:15:26",
+        "end": "0:15:38.0333333"
+      }
+    ]
+  },
+  {
+    "id": 398,
+    "text": "VIDEO EDITORS",
+    "confidence": 0.998,
+    "left": 163,
+    "top": 440,
+    "width": 252,
+    "height": 28,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:15:26",
+        "adjustedEnd": "0:15:38.0333333",
+        "start": "0:15:26",
+        "end": "0:15:38.0333333"
+      }
+    ]
+  },
+  {
+    "id": 399,
+    "text": "KURT FERNANDES",
+    "confidence": 0.99,
+    "left": 161,
+    "top": 477,
+    "width": 265,
+    "height": 26,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:15:26",
+        "adjustedEnd": "0:15:38.0333333",
+        "start": "0:15:26",
+        "end": "0:15:38.0333333"
+      }
+    ]
+  },
+  {
+    "id": 400,
+    "text": "GRAPHICS",
+    "confidence": 0.995,
+    "left": 163,
+    "top": 559,
+    "width": 164,
+    "height": 26,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:15:26",
+        "adjustedEnd": "0:15:38.0333333",
+        "start": "0:15:26",
+        "end": "0:15:38.0333333"
+      }
+    ]
+  },
+  {
+    "id": 401,
+    "text": "VINCE NORTH",
+    "confidence": 0.998,
+    "left": 159,
+    "top": 596,
+    "width": 206,
+    "height": 25,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:15:26",
+        "adjustedEnd": "0:15:38.0333333",
+        "start": "0:15:26",
+        "end": "0:15:38.0333333"
+      }
+    ]
+  },
+  {
+    "id": 402,
+    "text": "EXECUTIVE PRODUCERS",
+    "confidence": 0.993,
+    "left": 162,
+    "top": 680,
+    "width": 387,
+    "height": 27,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:15:26",
+        "adjustedEnd": "0:15:38.0333333",
+        "start": "0:15:26",
+        "end": "0:15:38.0333333"
+      }
+    ]
+  }
+]

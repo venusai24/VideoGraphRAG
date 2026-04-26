@@ -1,0 +1,1397 @@
+[
+  {
+    "id": 1,
+    "text": "So back in the 1900s, Imperial Britain hastily withdrew from this area and made a series of decisions that contributed to long term instability that persists to this day.",
+    "confidence": 0.9206,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:00.48",
+        "adjustedEnd": "0:00:08.36",
+        "start": "0:00:00.48",
+        "end": "0:00:08.36"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "text": "Actually, wait, sorry, They did do that here, but I'm not talking about this one.",
+    "confidence": 0.9464,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:08.76",
+        "adjustedEnd": "0:00:12.04",
+        "start": "0:00:08.76",
+        "end": "0:00:12.04"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "text": "OK, try again.",
+    "confidence": 0.8969,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:12.28",
+        "adjustedEnd": "0:00:12.88",
+        "start": "0:00:12.28",
+        "end": "0:00:12.88"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "text": "Back in the 1900s, Imperial Britain hastily withdrew from this area and made a series of decisions that contributed to you know what?",
+    "confidence": 0.9145,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:13.32",
+        "adjustedEnd": "0:00:19.36",
+        "start": "0:00:13.32",
+        "end": "0:00:19.36"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "text": "This still isn't the right one.",
+    "confidence": 0.8984,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:19.56",
+        "adjustedEnd": "0:00:20.68",
+        "start": "0:00:19.56",
+        "end": "0:00:20.68"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "text": "It's so hard to keep track.",
+    "confidence": 0.9184,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:20.68",
+        "adjustedEnd": "0:00:22.12",
+        "start": "0:00:20.68",
+        "end": "0:00:22.12"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "text": "I think it's just a little more wisdom.",
+    "confidence": 0.7744,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:22.36",
+        "adjustedEnd": "0:00:24.28",
+        "start": "0:00:22.36",
+        "end": "0:00:24.28"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "text": "All right, so back to the 1900s.",
+    "confidence": 0.7816,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:24.76",
+        "adjustedEnd": "0:00:26.52",
+        "start": "0:00:24.76",
+        "end": "0:00:26.52"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "text": "No, sorry, forgot about that one.",
+    "confidence": 0.765,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:27.2",
+        "adjustedEnd": "0:00:28.4",
+        "start": "0:00:27.2",
+        "end": "0:00:28.4"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "text": "One more.",
+    "confidence": 0.9719,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:28.44",
+        "adjustedEnd": "0:00:28.84",
+        "start": "0:00:28.44",
+        "end": "0:00:28.84"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "text": "There we go.",
+    "confidence": 0.9791,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:29.16",
+        "adjustedEnd": "0:00:29.92",
+        "start": "0:00:29.16",
+        "end": "0:00:29.92"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "text": "OK, so back in the 1900s, Imperial Britain hastily withdrew from Cyprus and made a series of decisions that contributed to long term instability that persists to this day.",
+    "confidence": 0.911,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:30.4",
+        "adjustedEnd": "0:00:39",
+        "start": "0:00:30.4",
+        "end": "0:00:39"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "text": "Most political instability is not neat, but there's a very small portion of the political instability in Cyprus that is neat.",
+    "confidence": 0.93,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:39.48",
+        "adjustedEnd": "0:00:45.4",
+        "start": "0:00:39.48",
+        "end": "0:00:45.4"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "text": "And hear me out here.",
+    "confidence": 0.9405,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:45.52",
+        "adjustedEnd": "0:00:46.4",
+        "start": "0:00:45.52",
+        "end": "0:00:46.4"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "text": "That's because it created this airport and this airport is illegal.",
+    "confidence": 0.9411,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:46.68",
+        "adjustedEnd": "0:00:50.56",
+        "start": "0:00:46.68",
+        "end": "0:00:50.56"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "text": "HI says you're allowed to do political instability if it causes cool aviation logistics.",
+    "confidence": 0.8173,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:51.08",
+        "adjustedEnd": "0:00:54.4",
+        "start": "0:00:51.08",
+        "end": "0:00:54.4"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "text": "This is Northern Cyprus's Air con International Airport.",
+    "confidence": 0.6892,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:54.8",
+        "adjustedEnd": "0:00:57.88",
+        "start": "0:00:54.8",
+        "end": "0:00:57.88"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "text": "If you peek at its destinations, you can tell it's got a tantalizing set of international destinations, including Turkey, Turkey, Turkey, Turkey, Turkey, Turkey, Turkey, Turkey, Turkey, Turkey, and even Turkey.",
+    "confidence": 0.8921,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:58.12",
+        "adjustedEnd": "0:01:08.8",
+        "start": "0:00:58.12",
+        "end": "0:01:08.8"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "text": "It's located here just north of one of those borders that's so messed up that it's not actually technically accurate to even call it a border because nobody really ever agreed it was a border.",
+    "confidence": 0.936,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:09.24",
+        "adjustedEnd": "0:01:16.96",
+        "start": "0:01:09.24",
+        "end": "0:01:16.96"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "text": "This is just where two different groups of people who really wanted Cyprus stopped fighting and it's actually the closest equivalent of the world to the much more iconic Korean DMZ.",
+    "confidence": 0.8821,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:17.08",
+        "adjustedEnd": "0:01:24.48",
+        "start": "0:01:17.08",
+        "end": "0:01:24.48"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "text": "The Cypress one is also run by the UN.",
+    "confidence": 0.86,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:24.88",
+        "adjustedEnd": "0:01:26.68",
+        "start": "0:01:24.88",
+        "end": "0:01:26.68"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "text": "It's also a non military zone flanked on two sides by much military and it's also supposed to be temporary but as of yet isn't.",
+    "confidence": 0.925,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:26.8",
+        "adjustedEnd": "0:01:33.48",
+        "start": "0:01:26.8",
+        "end": "0:01:33.48"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "text": "It's also low key a bummer because there's a bunch of stuff and things in it that people used to use like houses and farms in this beach town, but also an entirely unrelated airport.",
+    "confidence": 0.891,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:33.84",
+        "adjustedEnd": "0:01:42.4",
+        "start": "0:01:33.84",
+        "end": "0:01:42.4"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "text": "That's kind of cool because everyone left it in like 1 day and it still looks exactly like it did on that one day because the UN said no you're not allowed to go there.",
+    "confidence": 0.8771,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:42.4",
+        "adjustedEnd": "0:01:49.32",
+        "start": "0:01:42.4",
+        "end": "0:01:49.32"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "text": "So anyways, borders kind of cooked.",
+    "confidence": 0.7791,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:49.44",
+        "adjustedEnd": "0:01:51.04",
+        "start": "0:01:49.44",
+        "end": "0:01:51.04"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "text": "Also Britain's still down there for some reason.",
+    "confidence": 0.9008,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:51.2",
+        "adjustedEnd": "0:01:52.96",
+        "start": "0:01:51.2",
+        "end": "0:01:52.96"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "text": "Shenanigans were clearly happier.",
+    "confidence": 0.7628,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:53.04",
+        "adjustedEnd": "0:01:54.36",
+        "start": "0:01:53.04",
+        "end": "0:01:54.36"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "text": "Those shenanigans got started really, really early because Cyprus spent time under control by the Greeks and the Persians and the Romans, all the big guys, but eventually ended up controlled by the Ottomans.",
+    "confidence": 0.8885,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:54.8",
+        "adjustedEnd": "0:02:03.52",
+        "start": "0:01:54.8",
+        "end": "0:02:03.52"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "text": "It was near Constantinople.",
+    "confidence": 0.8218,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:03.52",
+        "adjustedEnd": "0:02:05.04",
+        "start": "0:02:03.52",
+        "end": "0:02:05.04"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "text": "Quick flight, my speeches.",
+    "confidence": 0.7159,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:05.08",
+        "adjustedEnd": "0:02:06.4",
+        "start": "0:02:05.08",
+        "end": "0:02:06.4"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "text": "But then Constantinople Constantinoped out of there as part of a secret agreement with Britain, where Britain got control of Cyprus in exchange for backing the Ottomans.",
+    "confidence": 0.8737,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:06.6",
+        "adjustedEnd": "0:02:13.44",
+        "start": "0:02:06.6",
+        "end": "0:02:13.44"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "text": "At the big Europe wide beef squashing meeting they were about to go to Britain said neat.",
+    "confidence": 0.8902,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:13.44",
+        "adjustedEnd": "0:02:17.72",
+        "start": "0:02:13.44",
+        "end": "0:02:17.72"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "text": "And now they had another island where boats could go.",
+    "confidence": 0.9085,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:17.88",
+        "adjustedEnd": "0:02:19.92",
+        "start": "0:02:17.88",
+        "end": "0:02:19.92"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "text": "But then Britain was done with Cyprus and was like, you're a country now.",
+    "confidence": 0.8976,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:20.28",
+        "adjustedEnd": "0:02:23",
+        "start": "0:02:20.28",
+        "end": "0:02:23"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "text": "But then everyone on it was like, whose country is it?",
+    "confidence": 0.9048,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:23",
+        "adjustedEnd": "0:02:26.28",
+        "start": "0:02:23",
+        "end": "0:02:26.28"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "text": "You see, there were the Greeks, or like the OGS, and there were the Turks, who moved in with the more recent empire.",
+    "confidence": 0.891,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:26.48",
+        "adjustedEnd": "0:02:31",
+        "start": "0:02:26.48",
+        "end": "0:02:31"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "text": "Even with hundreds of years of shared history, Greek and Turkish Cypriots lived mostly separate from each other, with distinct towns, schools, and churches.",
+    "confidence": 0.9627,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:31.32",
+        "adjustedEnd": "0:02:38.28",
+        "start": "0:02:31.32",
+        "end": "0:02:38.28"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "text": "Basically, there was little homogenization.",
+    "confidence": 0.8863,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:38.48",
+        "adjustedEnd": "0:02:40.4",
+        "start": "0:02:38.48",
+        "end": "0:02:40.4"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "text": "The Turks were really not keen on becoming part of Greece, while the Greeks were really keen on becoming part of Greece.",
+    "confidence": 0.9219,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:41.12",
+        "adjustedEnd": "0:02:45.52",
+        "start": "0:02:41.12",
+        "end": "0:02:45.52"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "text": "And this dichotomy escalated and snowballed into outright violence, this one off and on for year after year as the one central government barely functioned.",
+    "confidence": 0.8905,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:45.52",
+        "adjustedEnd": "0:02:53.12",
+        "start": "0:02:45.52",
+        "end": "0:02:53.12"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "text": "And then some people who really wanted union with Greece did a coup in response.",
+    "confidence": 0.9335,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:53.12",
+        "adjustedEnd": "0:02:57",
+        "start": "0:02:53.12",
+        "end": "0:02:57"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "text": "Turkey, the country invaded from the north under the justification of protecting the constitutional rights of Turkish Cypriots and basically took control of a portion of the islands.",
+    "confidence": 0.8976,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:57.12",
+        "adjustedEnd": "0:03:04.32",
+        "start": "0:02:57.12",
+        "end": "0:03:04.32"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "text": "After a bunch of spicy diplomacy, they made that DMZ and sort of the two populations into the two sides like an eighth grade dance against one wall, the Republic of Cyprus against the other N Cyprus.",
+    "confidence": 0.9349,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:04.8",
+        "adjustedEnd": "0:03:14.68",
+        "start": "0:03:04.8",
+        "end": "0:03:14.68"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "text": "And much like an eighth grade dance, you were forbidden from crossing to the other side and dancing with them, even if your crush was over there.",
+    "confidence": 0.9524,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:14.96",
+        "adjustedEnd": "0:03:20.28",
+        "start": "0:03:14.96",
+        "end": "0:03:20.28"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "text": "But instead of being divided by a vast oddity, Gymnatorium Cyprus has a DMZ, and people on the northern side of it really do say they're a completely different country from the South.",
+    "confidence": 0.8768,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:20.72",
+        "adjustedEnd": "0:03:28.48",
+        "start": "0:03:20.72",
+        "end": "0:03:28.48"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "text": "The only guy who agrees with them is Big Daddy Turkey, meaning this is a de facto state that entirely acts like a country but isn't recognized by anyone except Turkey.",
+    "confidence": 0.9284,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:28.72",
+        "adjustedEnd": "0:03:36.36",
+        "start": "0:03:28.72",
+        "end": "0:03:36.36"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "text": "Now we're back to the airport, because literally no one but Turkey thinks Northern Cyprus is its own country.",
+    "confidence": 0.879,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:37",
+        "adjustedEnd": "0:03:41.48",
+        "start": "0:03:37",
+        "end": "0:03:41.48"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "text": "Every other country in the world is technically not allowed to fly there.",
+    "confidence": 0.9559,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:41.56",
+        "adjustedEnd": "0:03:44.36",
+        "start": "0:03:41.56",
+        "end": "0:03:44.36"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "text": "Like it's not even their choice.",
+    "confidence": 0.9513,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:44.56",
+        "adjustedEnd": "0:03:46.04",
+        "start": "0:03:44.56",
+        "end": "0:03:46.04"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "text": "By international law, they're actually not allowed to fly there.",
+    "confidence": 0.9474,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:46.2",
+        "adjustedEnd": "0:03:49.68",
+        "start": "0:03:46.2",
+        "end": "0:03:49.68"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "text": "This is the international law.",
+    "confidence": 0.9468,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:50.24",
+        "adjustedEnd": "0:03:51.76",
+        "start": "0:03:50.24",
+        "end": "0:03:51.76"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "text": "It's called the Chicago Convention, and it's one of the couple that countries actually occasionally follow, sometimes in one bit.",
+    "confidence": 0.9228,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:52.04",
+        "adjustedEnd": "0:03:57.76",
+        "start": "0:03:52.04",
+        "end": "0:03:57.76"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "text": "It says every state has complete and exclusive control over the airspace above its territory.",
+    "confidence": 0.8828,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:57.76",
+        "adjustedEnd": "0:04:01.92",
+        "start": "0:03:57.76",
+        "end": "0:04:01.92"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "text": "And basically in the international law sense, that means they get to say which international airports within their borders are legit.",
+    "confidence": 0.9054,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:04:02.08",
+        "adjustedEnd": "0:04:07.88",
+        "start": "0:04:02.08",
+        "end": "0:04:07.88"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "text": "Obviously someone's got to be in charge of saying which airports are international ports of entry because they got to manage their ports of entry and stuff.",
+    "confidence": 0.8809,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:04:08.32",
+        "adjustedEnd": "0:04:13.68",
+        "start": "0:04:08.32",
+        "end": "0:04:13.68"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "text": "But if all the other countries don't consider one country a country, that non country doesn't get to decide what's an International Airport or not in a bit of plan they claim is their country.",
+    "confidence": 0.838,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:04:13.92",
+        "adjustedEnd": "0:04:21.56",
+        "start": "0:04:13.92",
+        "end": "0:04:21.56"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "text": "It's like how under the Chicago convention, if I declare this chunk of Colorado Sam Landia, I still can't build an airport and send flights to Cancun without the permission of Big Papa US A.",
+    "confidence": 0.9122,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:04:21.88",
+        "adjustedEnd": "0:04:30.12",
+        "start": "0:04:21.88",
+        "end": "0:04:30.12"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "text": "That would be a violation of international law.",
+    "confidence": 0.9616,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:04:30.56",
+        "adjustedEnd": "0:04:32.28",
+        "start": "0:04:30.56",
+        "end": "0:04:32.28"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "text": "And then someone in Montreal would be mad at me, which.",
+    "confidence": 0.9439,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:04:32.36",
+        "adjustedEnd": "0:04:34.24",
+        "start": "0:04:32.36",
+        "end": "0:04:34.24"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "text": "Lives.",
+    "confidence": 0.1571,
+    "speakerId": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:04:34.52",
+        "adjustedEnd": "0:04:34.72",
+        "start": "0:04:34.52",
+        "end": "0:04:34.72"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "text": "I'm scared.",
+    "confidence": 0.6469,
+    "speakerId": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:04:34.76",
+        "adjustedEnd": "0:04:35.2",
+        "start": "0:04:34.76",
+        "end": "0:04:35.2"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "text": "What if they throw a weird sweet bagel at?",
+    "confidence": 0.6801,
+    "speakerId": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:04:35.2",
+        "adjustedEnd": "0:04:36.6",
+        "start": "0:04:35.2",
+        "end": "0:04:36.6"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "text": "Me, that's basically the situation with Air Con International Airport.",
+    "confidence": 0.7278,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:04:36.6",
+        "adjustedEnd": "0:04:41.28",
+        "start": "0:04:36.6",
+        "end": "0:04:41.28"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "text": "But the good news is not many other places really want to fly to Northern Cyprus anyway.",
+    "confidence": 0.8558,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:04:41.52",
+        "adjustedEnd": "0:04:45.16",
+        "start": "0:04:41.52",
+        "end": "0:04:45.16"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "text": "Really only the British have tried because the British really love to go be really loud at hot beaches around Europe, especially if it's a beach that used to be British, like Gibraltar or Malta or Cyprus.",
+    "confidence": 0.8933,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:04:45.48",
+        "adjustedEnd": "0:04:53.84",
+        "start": "0:04:45.48",
+        "end": "0:04:53.84"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "text": "So that's why in practice, the only country served by this illegal International Airport is Turkey, the ethnic homeland of the majority of Northern Cyprus residents.",
+    "confidence": 0.8969,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:04:54.08",
+        "adjustedEnd": "0:05:02.24",
+        "start": "0:04:54.08",
+        "end": "0:05:02.24"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "text": "But even though this airport is illegal, it is undoubtedly an International Airport.",
+    "confidence": 0.8991,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:02.6",
+        "adjustedEnd": "0:05:06.72",
+        "start": "0:05:02.6",
+        "end": "0:05:06.72"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "text": "Nobody considers Northern Cyprus part of Turkey, Turkey, and that creates its own whole mess.",
+    "confidence": 0.681,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:06.72",
+        "adjustedEnd": "0:05:10.76",
+        "start": "0:05:06.72",
+        "end": "0:05:10.76"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "text": "You see, there are a number of crossings between the two halves of the island, meaning someone could fly into Air Con International Airport in Northern Cyprus and then attempt to enter the Republic of Cyprus by land.",
+    "confidence": 0.8655,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:11.12",
+        "adjustedEnd": "0:05:19.36",
+        "start": "0:05:11.12",
+        "end": "0:05:19.36"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "text": "But from Cyprus's perspective, that person would have violated immigration law because they entered the country of Cyprus, specifically occupied territory of the country of Cyprus, without having gone through a Cyprus immigration checkpoint.",
+    "confidence": 0.8836,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:19.6",
+        "adjustedEnd": "0:05:30.92",
+        "start": "0:05:19.6",
+        "end": "0:05:30.92"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "text": "It's like if someone just parachuted onto the island.",
+    "confidence": 0.8987,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:31.28",
+        "adjustedEnd": "0:05:33.48",
+        "start": "0:05:31.28",
+        "end": "0:05:33.48"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "text": "Not allowed.",
+    "confidence": 0.6808,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:33.64",
+        "adjustedEnd": "0:05:34.24",
+        "start": "0:05:33.64",
+        "end": "0:05:34.24"
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "text": "And the DMZ crossing doesn't count either, since, again, according to them, it's all one country.",
+    "confidence": 0.8584,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:34.24",
+        "adjustedEnd": "0:05:39.52",
+        "start": "0:05:34.24",
+        "end": "0:05:39.52"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "text": "In practice, authorities generally let tourists through without trouble, but residents sometimes get up talking to and it causes issues for anyone who then tries to exit Cyprus from one of the legal airports, as exit immigration authorities will see that there's no valid record of entry into the country.",
+    "confidence": 0.8718,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:40",
+        "adjustedEnd": "0:05:52.72",
+        "start": "0:05:40",
+        "end": "0:05:52.72"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "text": "Does any of this matter in practice?",
+    "confidence": 0.9678,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:53",
+        "adjustedEnd": "0:05:54.32",
+        "start": "0:05:53",
+        "end": "0:05:54.32"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "text": "Not really.",
+    "confidence": 0.972,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:54.52",
+        "adjustedEnd": "0:05:55.08",
+        "start": "0:05:54.52",
+        "end": "0:05:55.08"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "text": "Is it neat?",
+    "confidence": 0.8556,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:55.28",
+        "adjustedEnd": "0:05:55.88",
+        "start": "0:05:55.28",
+        "end": "0:05:55.88"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "text": "Kinda.",
+    "confidence": 0.3341,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:56.08",
+        "adjustedEnd": "0:05:56.6",
+        "start": "0:05:56.08",
+        "end": "0:05:56.6"
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "text": "Is this video over?",
+    "confidence": 0.9363,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:56.72",
+        "adjustedEnd": "0:05:57.56",
+        "start": "0:05:56.72",
+        "end": "0:05:57.56"
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "text": "As long as you're on Nebula but here on YouTube, you have to decide between the agony of shifting your sitting position to X out of this video, or the agony of listening to me beg you to subscribe to Nebula for the 300th time.",
+    "confidence": 0.9354,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:57.76",
+        "adjustedEnd": "0:06:08.44",
+        "start": "0:05:57.76",
+        "end": "0:06:08.44"
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "text": "Why should you content good content like abolish everything?",
+    "confidence": 0.9173,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:08.68",
+        "adjustedEnd": "0:06:14.6",
+        "start": "0:06:08.68",
+        "end": "0:06:14.6"
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "text": "Basically we tell comedians to come armed with a PowerPoint and a passion for abolishing some societal ill, like going to Antarctica, your friends as other friends, or the number 5.",
+    "confidence": 0.8478,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:14.88",
+        "adjustedEnd": "0:06:22.04",
+        "start": "0:06:14.88",
+        "end": "0:06:22.04"
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "text": "Then a panel of improvisers and suits tells them why society would collapse if we abolish that.",
+    "confidence": 0.8936,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:22.24",
+        "adjustedEnd": "0:06:26.28",
+        "start": "0:06:22.24",
+        "end": "0:06:26.28"
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "text": "It's good fun.",
+    "confidence": 0.9636,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:26.52",
+        "adjustedEnd": "0:06:27.24",
+        "start": "0:06:26.52",
+        "end": "0:06:27.24"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "text": "And like all fun, it's exclusive to Nebula other fun scave.",
+    "confidence": 0.8263,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:27.28",
+        "adjustedEnd": "0:06:31.24",
+        "start": "0:06:27.28",
+        "end": "0:06:31.24"
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "text": "It's the world's largest annual scavenger hunt where a bunch of college students basically don't sleep for four days and put their lives on the line for nothing but the honor of winning at a fleeting moment of screen time on a docu series on a very cool but admittedly niche upstart streaming surface.",
+    "confidence": 0.8679,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:31.52",
+        "adjustedEnd": "0:06:43.16",
+        "start": "0:06:31.52",
+        "end": "0:06:43.16"
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "text": "Also, maybe watch Jet Lag and could watch it one week earlier and listen to exclusive companion podcast and watch our other projects like The Getaway.",
+    "confidence": 0.7858,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:43.4",
+        "adjustedEnd": "0:06:49.12",
+        "start": "0:06:43.4",
+        "end": "0:06:49.12"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "text": "Also, there are like hundreds of other creators on Nebula and many of them have made their own fantastic exclusive projects.",
+    "confidence": 0.8892,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:49.52",
+        "adjustedEnd": "0:06:54.52",
+        "start": "0:06:49.52",
+        "end": "0:06:54.52"
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "text": "Basically, Nebula is like here, except our budgets are more than the coins, the YouTube Adsense gods dribble upon us and the sun shines our way, meaning we make bigger, more ambitious projects.",
+    "confidence": 0.7981,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:54.76",
+        "adjustedEnd": "0:07:03.56",
+        "start": "0:06:54.76",
+        "end": "0:07:03.56"
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "text": "Also, we post all our normal videos there too, ad and sponsorship free, meaning once you've finally given to us begging you for money, we'll never beg you for money again.",
+    "confidence": 0.8613,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:03.88",
+        "adjustedEnd": "0:07:10.52",
+        "start": "0:07:03.88",
+        "end": "0:07:10.52"
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "text": "Is this blackmail?",
+    "confidence": 0.9662,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:10.88",
+        "adjustedEnd": "0:07:11.8",
+        "start": "0:07:10.88",
+        "end": "0:07:11.8"
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "text": "Maybe, but if it's working, head over to nebula.tv slash HAI.",
+    "confidence": 0.8307,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:11.92",
+        "adjustedEnd": "0:07:15.72",
+        "start": "0:07:11.92",
+        "end": "0:07:15.72"
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "text": "And as a special little thank you for listening to me, I'll even give you 50% off an annual subscription, which brings the cost down to just $30 a year.",
+    "confidence": 0.9246,
+    "speakerId": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:15.76",
+        "adjustedEnd": "0:07:23.48",
+        "start": "0:07:15.76",
+        "end": "0:07:23.48"
+      }
+    ]
+  }
+]

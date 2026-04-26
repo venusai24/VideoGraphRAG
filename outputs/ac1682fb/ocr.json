@@ -1,0 +1,1109 @@
+[
+  {
+    "id": 1,
+    "text": "Political Instab",
+    "confidence": 0.9765,
+    "left": 516,
+    "top": 150,
+    "width": 458,
+    "height": 62,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:43.2",
+        "adjustedEnd": "0:00:43.2333333",
+        "start": "0:00:43.2",
+        "end": "0:00:43.2333333"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "text": "Political Instability in Cyprus",
+    "confidence": 0.9913,
+    "left": 517,
+    "top": 148,
+    "width": 885,
+    "height": 71,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:43.4666667",
+        "adjustedEnd": "0:00:47.5",
+        "start": "0:00:43.4666667",
+        "end": "0:00:47.5"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "text": "BAD",
+    "confidence": 0.997,
+    "left": 740,
+    "top": 551,
+    "width": 387,
+    "height": 158,
+    "angle": 23,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:44",
+        "adjustedEnd": "0:00:47.5",
+        "start": "0:00:44",
+        "end": "0:00:47.5"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "text": "neat",
+    "confidence": 0.996,
+    "left": 1479,
+    "top": 336,
+    "width": 119,
+    "height": 39,
+    "angle": -1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:45.0666667",
+        "adjustedEnd": "0:00:47.5",
+        "start": "0:00:45.0666667",
+        "end": "0:00:47.5"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "text": "ERCAN",
+    "confidence": 0.911,
+    "left": 143,
+    "top": 492,
+    "width": 134,
+    "height": 70,
+    "angle": -27,
+    "language": "tr-TR",
+    "instances": [
+      {
+        "adjustedStart": "0:00:48",
+        "adjustedEnd": "0:00:48.5666667",
+        "start": "0:00:48",
+        "end": "0:00:48.5666667"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "text": "Ercan International Airport",
+    "confidence": 0.9777,
+    "left": 1073,
+    "top": 535,
+    "width": 461,
+    "height": 39,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:56.2666667",
+        "adjustedEnd": "0:01:17.1",
+        "start": "0:00:56.2666667",
+        "end": "0:01:17.1"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "text": "İzmir",
+    "confidence": 0.992,
+    "left": 289,
+    "top": 666,
+    "width": 75,
+    "height": 31,
+    "angle": 3,
+    "language": "tr-TR",
+    "instances": [
+      {
+        "adjustedStart": "0:01:03.2",
+        "adjustedEnd": "0:01:09.9",
+        "start": "0:01:03.2",
+        "end": "0:01:09.9"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "text": "Antalya",
+    "confidence": 0.998,
+    "left": 652,
+    "top": 683,
+    "width": 123,
+    "height": 37,
+    "angle": 1,
+    "language": "tr-TR",
+    "instances": [
+      {
+        "adjustedStart": "0:01:04",
+        "adjustedEnd": "0:01:09.9",
+        "start": "0:01:04",
+        "end": "0:01:09.9"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "text": "Istanbul",
+    "confidence": 0.903,
+    "left": 295,
+    "top": 286,
+    "width": 136,
+    "height": 33,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:04.8",
+        "adjustedEnd": "0:01:09.9",
+        "start": "0:01:04.8",
+        "end": "0:01:09.9"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "text": "Istanbul (Sabiha)",
+    "confidence": 0.9425,
+    "left": 484,
+    "top": 317,
+    "width": 275,
+    "height": 38,
+    "angle": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:05.3333333",
+        "adjustedEnd": "0:01:09.9",
+        "start": "0:01:05.3333333",
+        "end": "0:01:09.9"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "text": "Ankara",
+    "confidence": 0.998,
+    "left": 817,
+    "top": 319,
+    "width": 112,
+    "height": 29,
+    "angle": 3,
+    "language": "tr-TR",
+    "instances": [
+      {
+        "adjustedStart": "0:01:05.6",
+        "adjustedEnd": "0:01:09.9",
+        "start": "0:01:05.6",
+        "end": "0:01:09.9"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "text": "Kayseri",
+    "confidence": 0.994,
+    "left": 988,
+    "top": 375,
+    "width": 127,
+    "height": 41,
+    "angle": 1,
+    "language": "to-TO",
+    "instances": [
+      {
+        "adjustedStart": "0:01:05.8666667",
+        "adjustedEnd": "0:01:09.9",
+        "start": "0:01:05.8666667",
+        "end": "0:01:09.9"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "text": "Çukurova",
+    "confidence": 0.995,
+    "left": 1000,
+    "top": 561,
+    "width": 157,
+    "height": 40,
+    "angle": 0,
+    "language": "tr-TR",
+    "instances": [
+      {
+        "adjustedStart": "0:01:06.4",
+        "adjustedEnd": "0:01:09.9",
+        "start": "0:01:06.4",
+        "end": "0:01:09.9"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "text": "Trabzon",
+    "confidence": 0.99,
+    "left": 1253,
+    "top": 120,
+    "width": 125,
+    "height": 33,
+    "angle": 0,
+    "language": "tr-TR",
+    "instances": [
+      {
+        "adjustedStart": "0:01:06.9333333",
+        "adjustedEnd": "0:01:09.6333333",
+        "start": "0:01:06.9333333",
+        "end": "0:01:09.6333333"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "text": "Hatay",
+    "confidence": 0.998,
+    "left": 1200,
+    "top": 712,
+    "width": 99,
+    "height": 34,
+    "angle": 5,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:07.2",
+        "adjustedEnd": "0:01:09.9",
+        "start": "0:01:07.2",
+        "end": "0:01:09.9"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "text": "Gaziantep",
+    "confidence": 0.969,
+    "left": 1289,
+    "top": 527,
+    "width": 137,
+    "height": 28,
+    "angle": 14,
+    "language": "tr-TR",
+    "instances": [
+      {
+        "adjustedStart": "0:01:07.4666667",
+        "adjustedEnd": "0:01:09.9",
+        "start": "0:01:07.4666667",
+        "end": "0:01:09.9"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "text": "Diyarbakır",
+    "confidence": 0.995,
+    "left": 1455,
+    "top": 393,
+    "width": 167,
+    "height": 39,
+    "angle": 1,
+    "language": "tr-TR",
+    "instances": [
+      {
+        "adjustedStart": "0:01:08.8",
+        "adjustedEnd": "0:01:09.9",
+        "start": "0:01:08.8",
+        "end": "0:01:09.9"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "text": "DM L전시관",
+    "confidence": 0.928,
+    "left": 1211,
+    "top": 193,
+    "width": 181,
+    "height": 32,
+    "angle": 0,
+    "language": "ko-KR",
+    "instances": [
+      {
+        "adjustedStart": "0:01:24",
+        "adjustedEnd": "0:01:24.8333333",
+        "start": "0:01:24",
+        "end": "0:01:24.8333333"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "text": "DMZ展 览 馆",
+    "confidence": 0.9888,
+    "left": 1441,
+    "top": 235,
+    "width": 89,
+    "height": 15,
+    "angle": 1,
+    "language": "zh-Hans",
+    "instances": [
+      {
+        "adjustedStart": "0:01:24",
+        "adjustedEnd": "0:01:24.0333333",
+        "start": "0:01:24",
+        "end": "0:01:24.0333333"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "text": "DMZ Pavilion",
+    "confidence": 0.989,
+    "left": 1443,
+    "top": 254,
+    "width": 85,
+    "height": 14,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:24",
+        "adjustedEnd": "0:01:24.8333333",
+        "start": "0:01:24",
+        "end": "0:01:24.8333333"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "text": "DMZ 전시관",
+    "confidence": 0.9943,
+    "left": 546,
+    "top": 252,
+    "width": 62,
+    "height": 14,
+    "angle": 0,
+    "language": "ko-KR",
+    "instances": [
+      {
+        "adjustedStart": "0:01:24",
+        "adjustedEnd": "0:01:24.8333333",
+        "start": "0:01:24",
+        "end": "0:01:24.8333333"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "text": "DMZ 展览馆",
+    "confidence": 0.991,
+    "left": 1441,
+    "top": 244,
+    "width": 89,
+    "height": 16,
+    "angle": 0,
+    "language": "zh-Hans",
+    "instances": [
+      {
+        "adjustedStart": "0:01:24.2666667",
+        "adjustedEnd": "0:01:24.3",
+        "start": "0:01:24.2666667",
+        "end": "0:01:24.3"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "text": "DMZ 展 示館",
+    "confidence": 0.9565,
+    "left": 1441,
+    "top": 288,
+    "width": 89,
+    "height": 13,
+    "angle": 2,
+    "language": "ja-JP",
+    "instances": [
+      {
+        "adjustedStart": "0:01:24.2666667",
+        "adjustedEnd": "0:01:24.5666667",
+        "start": "0:01:24.2666667",
+        "end": "0:01:24.5666667"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "text": "DMZ 展 览 馆",
+    "confidence": 0.988,
+    "left": 1442,
+    "top": 253,
+    "width": 89,
+    "height": 14,
+    "angle": 1,
+    "language": "zh-Hans",
+    "instances": [
+      {
+        "adjustedStart": "0:01:24.5333333",
+        "adjustedEnd": "0:01:24.8333333",
+        "start": "0:01:24.5333333",
+        "end": "0:01:24.8333333"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "text": "Pavilion",
+    "confidence": 0.981,
+    "left": 1474,
+    "top": 289,
+    "width": 58,
+    "height": 12,
+    "angle": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:25.0666667",
+        "adjustedEnd": "0:01:25.1",
+        "start": "0:01:25.0666667",
+        "end": "0:01:25.1"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "text": "示館",
+    "confidence": 0.9755,
+    "left": 1483,
+    "top": 308,
+    "width": 45,
+    "height": 13,
+    "angle": -1,
+    "language": "ja-JP",
+    "instances": [
+      {
+        "adjustedStart": "0:01:25.0666667",
+        "adjustedEnd": "0:01:25.1",
+        "start": "0:01:25.0666667",
+        "end": "0:01:25.1"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "text": "NO MAN'S",
+    "confidence": 0.963,
+    "left": 420,
+    "top": 701,
+    "width": 272,
+    "height": 73,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:25.3333333",
+        "adjustedEnd": "0:01:33.6333333",
+        "start": "0:01:25.3333333",
+        "end": "0:01:33.6333333"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "text": "STOP",
+    "confidence": 0.996,
+    "left": 747,
+    "top": 735,
+    "width": 174,
+    "height": 58,
+    "angle": 5,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:25.3333333",
+        "adjustedEnd": "0:01:33.9",
+        "start": "0:01:25.3333333",
+        "end": "0:01:33.9"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "text": "LA ND",
+    "confidence": 0.998,
+    "left": 463,
+    "top": 783,
+    "width": 198,
+    "height": 69,
+    "angle": 4,
+    "language": "es-ES",
+    "instances": [
+      {
+        "adjustedStart": "0:01:25.3333333",
+        "adjustedEnd": "0:01:33.9",
+        "start": "0:01:25.3333333",
+        "end": "0:01:33.9"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "text": "DO NOT ENTER",
+    "confidence": 0.9967,
+    "left": 714,
+    "top": 795,
+    "width": 228,
+    "height": 28,
+    "angle": 5,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:25.3333333",
+        "adjustedEnd": "0:01:33.9",
+        "start": "0:01:25.3333333",
+        "end": "0:01:33.9"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "text": "MILITARY ZONE",
+    "confidence": 0.9965,
+    "left": 707,
+    "top": 895,
+    "width": 235,
+    "height": 27,
+    "angle": 6,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:25.3333333",
+        "adjustedEnd": "0:01:33.9",
+        "start": "0:01:25.3333333",
+        "end": "0:01:33.9"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "text": "DON'T APPRO",
+    "confidence": 0.964,
+    "left": 63,
+    "top": 746,
+    "width": 134,
+    "height": 16,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:25.6",
+        "adjustedEnd": "0:01:26.9666667",
+        "start": "0:01:25.6",
+        "end": "0:01:26.9666667"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "text": "DON'T TAKE PHOT",
+    "confidence": 0.9233,
+    "left": 24,
+    "top": 764,
+    "width": 165,
+    "height": 15,
+    "angle": 1,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:01:25.6",
+        "adjustedEnd": "0:01:28.5666667",
+        "start": "0:01:25.6",
+        "end": "0:01:28.5666667"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "text": "PROHIBITED",
+    "confidence": 0.969,
+    "left": 53,
+    "top": 729,
+    "width": 132,
+    "height": 15,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:25.8666667",
+        "adjustedEnd": "0:01:32.8333333",
+        "start": "0:01:25.8666667",
+        "end": "0:01:32.8333333"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "text": "DON",
+    "confidence": 0.987,
+    "left": 35,
+    "top": 746,
+    "width": 47,
+    "height": 14,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:27.7333333",
+        "adjustedEnd": "0:01:27.7666667",
+        "start": "0:01:27.7333333",
+        "end": "0:01:27.7666667"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "text": "OPEYMENH",
+    "confidence": 0.944,
+    "left": 5,
+    "top": 810,
+    "width": 114,
+    "height": 19,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:28.2666667",
+        "adjustedEnd": "0:01:31.5",
+        "start": "0:01:28.2666667",
+        "end": "0:01:31.5"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "text": "ATTENT",
+    "confidence": 0.985,
+    "left": 25,
+    "top": 703,
+    "width": 92,
+    "height": 20,
+    "angle": 3,
+    "language": "nl-NL",
+    "instances": [
+      {
+        "adjustedStart": "0:01:28.5333333",
+        "adjustedEnd": "0:01:29.1",
+        "start": "0:01:28.5333333",
+        "end": "0:01:29.1"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "text": "TAKE PHOT",
+    "confidence": 0.94,
+    "left": 10,
+    "top": 762,
+    "width": 112,
+    "height": 17,
+    "angle": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:28.8",
+        "adjustedEnd": "0:01:30.4333333",
+        "start": "0:01:28.8",
+        "end": "0:01:30.4333333"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "text": "PPR",
+    "confidence": 0.996,
+    "left": 24,
+    "top": 743,
+    "width": 42,
+    "height": 20,
+    "angle": 4,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:30.1333333",
+        "adjustedEnd": "0:01:33.1",
+        "start": "0:01:30.1333333",
+        "end": "0:01:33.1"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "text": "HOT",
+    "confidence": 0.992,
+    "left": 14,
+    "top": 765,
+    "width": 40,
+    "height": 13,
+    "angle": 4,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:30.6666667",
+        "adjustedEnd": "0:01:32.8333333",
+        "start": "0:01:30.6666667",
+        "end": "0:01:32.8333333"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "text": "EO",
+    "confidence": 0.93,
+    "left": 2,
+    "top": 791,
+    "width": 38,
+    "height": 18,
+    "angle": 5,
+    "language": "mg-MG",
+    "instances": [
+      {
+        "adjustedStart": "0:01:32.2666667",
+        "adjustedEnd": "0:01:32.5666667",
+        "start": "0:01:32.2666667",
+        "end": "0:01:32.5666667"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "text": "NH",
+    "confidence": 0.993,
+    "left": 0,
+    "top": 814,
+    "width": 36,
+    "height": 15,
+    "angle": 5,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:32.5333333",
+        "adjustedEnd": "0:01:32.8333333",
+        "start": "0:01:32.5333333",
+        "end": "0:01:32.8333333"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "text": "The Turkish Republic",
+    "confidence": 0.9977,
+    "left": 1062,
+    "top": 274,
+    "width": 366,
+    "height": 40,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:35.7333333",
+        "adjustedEnd": "0:01:41.6333333",
+        "start": "0:01:35.7333333",
+        "end": "0:01:41.6333333"
+      },
+      {
+        "adjustedStart": "0:01:49.3333333",
+        "adjustedEnd": "0:01:54.4333333",
+        "start": "0:01:49.3333333",
+        "end": "0:01:54.4333333"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "text": "of Northern Cyprus",
+    "confidence": 0.998,
+    "left": 1045,
+    "top": 368,
+    "width": 283,
+    "height": 32,
+    "angle": -8,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:35.7333333",
+        "adjustedEnd": "0:01:41.6333333",
+        "start": "0:01:35.7333333",
+        "end": "0:01:41.6333333"
+      },
+      {
+        "adjustedStart": "0:01:49.3333333",
+        "adjustedEnd": "0:01:54.4333333",
+        "start": "0:01:49.3333333",
+        "end": "0:01:54.4333333"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "text": "UN Buffer Zone",
+    "confidence": 0.9973,
+    "left": 915,
+    "top": 504,
+    "width": 142,
+    "height": 20,
+    "angle": -7,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:35.7333333",
+        "adjustedEnd": "0:01:41.6333333",
+        "start": "0:01:35.7333333",
+        "end": "0:01:41.6333333"
+      },
+      {
+        "adjustedStart": "0:01:49.6",
+        "adjustedEnd": "0:01:54.4333333",
+        "start": "0:01:49.6",
+        "end": "0:01:54.4333333"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "text": "The Republic of Cyprus",
+    "confidence": 0.9975,
+    "left": 463,
+    "top": 615,
+    "width": 428,
+    "height": 44,
+    "angle": 4,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:35.7333333",
+        "adjustedEnd": "0:01:41.6333333",
+        "start": "0:01:35.7333333",
+        "end": "0:01:41.6333333"
+      },
+      {
+        "adjustedStart": "0:01:49.6",
+        "adjustedEnd": "0:01:54.4333333",
+        "start": "0:01:49.6",
+        "end": "0:01:54.4333333"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "text": "Free Shop",
+    "confidence": 0.9955,
+    "left": 84,
+    "top": 415,
+    "width": 98,
+    "height": 14,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:44",
+        "adjustedEnd": "0:01:44.0333333",
+        "start": "0:01:44",
+        "end": "0:01:44.0333333"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "text": "Bata",
+    "confidence": 0.929,
+    "left": 10,
+    "top": 448,
+    "width": 160,
+    "height": 37,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:44",
+        "adjustedEnd": "0:01:45.9",
+        "start": "0:01:44",
+        "end": "0:01:45.9"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "text": "ree Shop",
+    "confidence": 0.9795,
+    "left": 6,
+    "top": 401,
+    "width": 96,
+    "height": 16,
+    "angle": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:44.2666667",
+        "adjustedEnd": "0:01:45.9",
+        "start": "0:01:44.2666667",
+        "end": "0:01:45.9"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "text": "Shop",
+    "confidence": 0.996,
+    "left": 15,
+    "top": 400,
+    "width": 65,
+    "height": 15,
+    "angle": 4,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:45.3333333",
+        "adjustedEnd": "0:01:45.3666667",
+        "start": "0:01:45.3333333",
+        "end": "0:01:45.3666667"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "text": "The Republic of",
+    "confidence": 0.9973,
+    "left": 467,
+    "top": 625,
+    "width": 289,
+    "height": 42,
+    "angle": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:49.3333333",
+        "adjustedEnd": "0:01:49.3666667",
+        "start": "0:01:49.3333333",
+        "end": "0:01:49.3666667"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "text": "British Overseas",
+    "confidence": 0.9945,
+    "left": 1260,
+    "top": 852,
+    "width": 91,
+    "height": 13,
+    "angle": 9,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:52.5333333",
+        "adjustedEnd": "0:01:54.4333333",
+        "start": "0:01:52.5333333",
+        "end": "0:01:54.4333333"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "text": "Territories",
+    "confidence": 0.929,
+    "left": 1274,
+    "top": 869,
+    "width": 60,
+    "height": 11,
+    "angle": 10,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:52.5333333",
+        "adjustedEnd": "0:01:54.4333333",
+        "start": "0:01:52.5333333",
+        "end": "0:01:54.4333333"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "text": "Republic",
+    "confidence": 0.998,
+    "left": 1276,
+    "top": 267,
+    "width": 165,
+    "height": 43,
+    "angle": 10,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:54.6666667",
+        "adjustedEnd": "0:01:54.7",
+        "start": "0:01:54.6666667",
+        "end": "0:01:54.7"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "text": "Cyprus",
+    "confidence": 0.998,
+    "left": 1284,
+    "top": 316,
+    "width": 141,
+    "height": 42,
+    "angle": 9,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:54.6666667",
+        "adjustedEnd": "0:01:54.7",
+        "start": "0:01:54.6666667",
+        "end": "0:01:54.7"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "text": "Overseas",
+    "confidence": 0.998,
+    "left": 1263,
+    "top": 834,
+    "width": 187,
+    "height": 32,
+    "angle": 12,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:54.6666667",
+        "adjustedEnd": "0:01:54.7",
+        "start": "0:01:54.6666667",
+        "end": "0:01:54.7"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "text": "tories",
+    "confidence": 0.998,
+    "left": 1257,
+    "top": 884,
+    "width": 116,
+    "height": 31,
+    "angle": 11,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:54.6666667",
+        "adjustedEnd": "0:01:54.7",
+        "start": "0:01:54.6666667",
+        "end": "0:01:54.7"
+      }
+    ]
+  }
+]

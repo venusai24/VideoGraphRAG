@@ -1,0 +1,1130 @@
+[
+  {
+    "id": 1,
+    "text": "valuable assets",
+    "confidence": 0.9847,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:18.96",
+        "adjustedEnd": "0:03:22.68",
+        "start": "0:03:18.96",
+        "end": "0:03:22.68"
+      },
+      {
+        "adjustedStart": "0:03:23.04",
+        "adjustedEnd": "0:03:27.88",
+        "start": "0:03:23.04",
+        "end": "0:03:27.88"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "text": "dumb online",
+    "confidence": 0.9847,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:53.52",
+        "adjustedEnd": "0:06:54.8",
+        "start": "0:06:53.52",
+        "end": "0:06:54.8"
+      },
+      {
+        "adjustedStart": "0:06:56.04",
+        "adjustedEnd": "0:07:03",
+        "start": "0:06:56.04",
+        "end": "0:07:03"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "text": "nord vpn",
+    "confidence": 0.9793,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:56.04",
+        "adjustedEnd": "0:07:03",
+        "start": "0:06:56.04",
+        "end": "0:07:03"
+      },
+      {
+        "adjustedStart": "0:07:27.12",
+        "adjustedEnd": "0:07:40.24",
+        "start": "0:07:27.12",
+        "end": "0:07:40.24"
+      },
+      {
+        "adjustedStart": "0:07:44",
+        "adjustedEnd": "0:07:51.48",
+        "start": "0:07:44",
+        "end": "0:07:51.48"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "text": "press area",
+    "confidence": 0.9657,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:29.32",
+        "adjustedEnd": "0:06:36.88",
+        "start": "0:06:29.32",
+        "end": "0:06:36.88"
+      },
+      {
+        "adjustedStart": "0:06:40",
+        "adjustedEnd": "0:06:43.0333333",
+        "start": "0:06:40",
+        "end": "0:06:43.0333333"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "text": "year plan",
+    "confidence": 0.952,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:07:51.92",
+        "adjustedEnd": "0:08:00.56",
+        "start": "0:07:51.92",
+        "end": "0:08:00.56"
+      },
+      {
+        "adjustedStart": "0:08:07",
+        "adjustedEnd": "0:08:13.0333333",
+        "start": "0:08:07",
+        "end": "0:08:13.0333333"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "text": "nord",
+    "confidence": 0.7514,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:56.04",
+        "adjustedEnd": "0:07:03",
+        "start": "0:06:56.04",
+        "end": "0:07:03"
+      },
+      {
+        "adjustedStart": "0:07:03.32",
+        "adjustedEnd": "0:07:09.16",
+        "start": "0:07:03.32",
+        "end": "0:07:09.16"
+      },
+      {
+        "adjustedStart": "0:07:27.12",
+        "adjustedEnd": "0:07:40.24",
+        "start": "0:07:27.12",
+        "end": "0:07:40.24"
+      },
+      {
+        "adjustedStart": "0:07:44",
+        "adjustedEnd": "0:07:51.48",
+        "start": "0:07:44",
+        "end": "0:07:51.48"
+      },
+      {
+        "adjustedStart": "0:07:51.92",
+        "adjustedEnd": "0:08:00.56",
+        "start": "0:07:51.92",
+        "end": "0:08:00.56"
+      },
+      {
+        "adjustedStart": "0:08:00.68",
+        "adjustedEnd": "0:08:04.08",
+        "start": "0:08:00.68",
+        "end": "0:08:04.08"
+      },
+      {
+        "adjustedStart": "0:08:08.28",
+        "adjustedEnd": "0:08:12.48",
+        "start": "0:08:08.28",
+        "end": "0:08:12.48"
+      },
+      {
+        "adjustedStart": "0:07:02",
+        "adjustedEnd": "0:07:04.0333333",
+        "start": "0:07:02",
+        "end": "0:07:04.0333333"
+      },
+      {
+        "adjustedStart": "0:07:25",
+        "adjustedEnd": "0:07:27.0333333",
+        "start": "0:07:25",
+        "end": "0:07:27.0333333"
+      },
+      {
+        "adjustedStart": "0:07:55",
+        "adjustedEnd": "0:07:59.0333333",
+        "start": "0:07:55",
+        "end": "0:07:59.0333333"
+      },
+      {
+        "adjustedStart": "0:08:07",
+        "adjustedEnd": "0:08:13.0333333",
+        "start": "0:08:07",
+        "end": "0:08:13.0333333"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "text": "delayed",
+    "confidence": 0.7217,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:26.16",
+        "adjustedEnd": "0:00:36.12",
+        "start": "0:00:26.16",
+        "end": "0:00:36.12"
+      },
+      {
+        "adjustedStart": "0:01:20",
+        "adjustedEnd": "0:01:26.12",
+        "start": "0:01:20",
+        "end": "0:01:26.12"
+      },
+      {
+        "adjustedStart": "0:04:41.56",
+        "adjustedEnd": "0:04:50.68",
+        "start": "0:04:41.56",
+        "end": "0:04:50.68"
+      },
+      {
+        "adjustedStart": "0:00:14",
+        "adjustedEnd": "0:00:17.0333333",
+        "start": "0:00:14",
+        "end": "0:00:17.0333333"
+      },
+      {
+        "adjustedStart": "0:04:48",
+        "adjustedEnd": "0:04:51.0333333",
+        "start": "0:04:48",
+        "end": "0:04:51.0333333"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "text": "game",
+    "confidence": 0.7217,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:06.8",
+        "adjustedEnd": "0:00:18.44",
+        "start": "0:00:06.8",
+        "end": "0:00:18.44"
+      },
+      {
+        "adjustedStart": "0:00:26.16",
+        "adjustedEnd": "0:00:36.12",
+        "start": "0:00:26.16",
+        "end": "0:00:36.12"
+      },
+      {
+        "adjustedStart": "0:00:36.32",
+        "adjustedEnd": "0:00:43.48",
+        "start": "0:00:36.32",
+        "end": "0:00:43.48"
+      },
+      {
+        "adjustedStart": "0:01:08.04",
+        "adjustedEnd": "0:01:13.36",
+        "start": "0:01:08.04",
+        "end": "0:01:13.36"
+      },
+      {
+        "adjustedStart": "0:01:58.4",
+        "adjustedEnd": "0:02:02.8",
+        "start": "0:01:58.4",
+        "end": "0:02:02.8"
+      },
+      {
+        "adjustedStart": "0:02:36.32",
+        "adjustedEnd": "0:02:42.36",
+        "start": "0:02:36.32",
+        "end": "0:02:42.36"
+      },
+      {
+        "adjustedStart": "0:03:28",
+        "adjustedEnd": "0:03:32.4",
+        "start": "0:03:28",
+        "end": "0:03:32.4"
+      },
+      {
+        "adjustedStart": "0:03:53.84",
+        "adjustedEnd": "0:04:02.12",
+        "start": "0:03:53.84",
+        "end": "0:04:02.12"
+      },
+      {
+        "adjustedStart": "0:04:02.28",
+        "adjustedEnd": "0:04:14.16",
+        "start": "0:04:02.28",
+        "end": "0:04:14.16"
+      },
+      {
+        "adjustedStart": "0:04:27.84",
+        "adjustedEnd": "0:04:37.4",
+        "start": "0:04:27.84",
+        "end": "0:04:37.4"
+      },
+      {
+        "adjustedStart": "0:04:41.56",
+        "adjustedEnd": "0:04:50.68",
+        "start": "0:04:41.56",
+        "end": "0:04:50.68"
+      },
+      {
+        "adjustedStart": "0:05:23.4",
+        "adjustedEnd": "0:05:29.72",
+        "start": "0:05:23.4",
+        "end": "0:05:29.72"
+      },
+      {
+        "adjustedStart": "0:05:51.8",
+        "adjustedEnd": "0:06:03.6",
+        "start": "0:05:51.8",
+        "end": "0:06:03.6"
+      },
+      {
+        "adjustedStart": "0:06:37.2",
+        "adjustedEnd": "0:06:41.68",
+        "start": "0:06:37.2",
+        "end": "0:06:41.68"
+      },
+      {
+        "adjustedStart": "0:00:03",
+        "adjustedEnd": "0:00:06.0333333",
+        "start": "0:00:03",
+        "end": "0:00:06.0333333"
+      },
+      {
+        "adjustedStart": "0:00:14",
+        "adjustedEnd": "0:00:14.0333333",
+        "start": "0:00:14",
+        "end": "0:00:14.0333333"
+      },
+      {
+        "adjustedStart": "0:00:14",
+        "adjustedEnd": "0:00:14.0333333",
+        "start": "0:00:14",
+        "end": "0:00:14.0333333"
+      },
+      {
+        "adjustedStart": "0:00:23",
+        "adjustedEnd": "0:00:23.0333333",
+        "start": "0:00:23",
+        "end": "0:00:23.0333333"
+      },
+      {
+        "adjustedStart": "0:00:51",
+        "adjustedEnd": "0:00:56.0333333",
+        "start": "0:00:51",
+        "end": "0:00:56.0333333"
+      },
+      {
+        "adjustedStart": "0:00:51",
+        "adjustedEnd": "0:00:56.0333333",
+        "start": "0:00:51",
+        "end": "0:00:56.0333333"
+      },
+      {
+        "adjustedStart": "0:00:51",
+        "adjustedEnd": "0:00:56.0333333",
+        "start": "0:00:51",
+        "end": "0:00:56.0333333"
+      },
+      {
+        "adjustedStart": "0:01:04",
+        "adjustedEnd": "0:01:11.0333333",
+        "start": "0:01:04",
+        "end": "0:01:11.0333333"
+      },
+      {
+        "adjustedStart": "0:01:12",
+        "adjustedEnd": "0:01:12.0333333",
+        "start": "0:01:12",
+        "end": "0:01:12.0333333"
+      },
+      {
+        "adjustedStart": "0:01:13",
+        "adjustedEnd": "0:01:13.0333333",
+        "start": "0:01:13",
+        "end": "0:01:13.0333333"
+      },
+      {
+        "adjustedStart": "0:01:14",
+        "adjustedEnd": "0:01:14.0333333",
+        "start": "0:01:14",
+        "end": "0:01:14.0333333"
+      },
+      {
+        "adjustedStart": "0:01:35",
+        "adjustedEnd": "0:01:38.0333333",
+        "start": "0:01:35",
+        "end": "0:01:38.0333333"
+      },
+      {
+        "adjustedStart": "0:01:48",
+        "adjustedEnd": "0:01:49.0333333",
+        "start": "0:01:48",
+        "end": "0:01:49.0333333"
+      },
+      {
+        "adjustedStart": "0:02:32",
+        "adjustedEnd": "0:02:36.0333333",
+        "start": "0:02:32",
+        "end": "0:02:36.0333333"
+      },
+      {
+        "adjustedStart": "0:03:24",
+        "adjustedEnd": "0:03:24.0333333",
+        "start": "0:03:24",
+        "end": "0:03:24.0333333"
+      },
+      {
+        "adjustedStart": "0:03:24",
+        "adjustedEnd": "0:03:24.0333333",
+        "start": "0:03:24",
+        "end": "0:03:24.0333333"
+      },
+      {
+        "adjustedStart": "0:03:24",
+        "adjustedEnd": "0:03:24.0333333",
+        "start": "0:03:24",
+        "end": "0:03:24.0333333"
+      },
+      {
+        "adjustedStart": "0:03:29",
+        "adjustedEnd": "0:03:32.0333333",
+        "start": "0:03:29",
+        "end": "0:03:32.0333333"
+      },
+      {
+        "adjustedStart": "0:04:46",
+        "adjustedEnd": "0:04:50.0333333",
+        "start": "0:04:46",
+        "end": "0:04:50.0333333"
+      },
+      {
+        "adjustedStart": "0:04:48",
+        "adjustedEnd": "0:04:51.0333333",
+        "start": "0:04:48",
+        "end": "0:04:51.0333333"
+      },
+      {
+        "adjustedStart": "0:04:48",
+        "adjustedEnd": "0:04:51.0333333",
+        "start": "0:04:48",
+        "end": "0:04:51.0333333"
+      },
+      {
+        "adjustedStart": "0:06:40",
+        "adjustedEnd": "0:06:43.0333333",
+        "start": "0:06:40",
+        "end": "0:06:43.0333333"
+      },
+      {
+        "adjustedStart": "0:06:40",
+        "adjustedEnd": "0:06:43.0333333",
+        "start": "0:06:40",
+        "end": "0:06:43.0333333"
+      },
+      {
+        "adjustedStart": "0:06:44",
+        "adjustedEnd": "0:06:46.0333333",
+        "start": "0:06:44",
+        "end": "0:06:46.0333333"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "text": "ready",
+    "confidence": 0.7114,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:36.32",
+        "adjustedEnd": "0:00:43.48",
+        "start": "0:00:36.32",
+        "end": "0:00:43.48"
+      },
+      {
+        "adjustedStart": "0:01:58.4",
+        "adjustedEnd": "0:02:02.8",
+        "start": "0:01:58.4",
+        "end": "0:02:02.8"
+      },
+      {
+        "adjustedStart": "0:04:37.84",
+        "adjustedEnd": "0:04:41.48",
+        "start": "0:04:37.84",
+        "end": "0:04:41.48"
+      },
+      {
+        "adjustedStart": "0:04:54.76",
+        "adjustedEnd": "0:05:04.12",
+        "start": "0:04:54.76",
+        "end": "0:05:04.12"
+      },
+      {
+        "adjustedStart": "0:05:51.8",
+        "adjustedEnd": "0:06:03.6",
+        "start": "0:05:51.8",
+        "end": "0:06:03.6"
+      },
+      {
+        "adjustedStart": "0:00:18",
+        "adjustedEnd": "0:00:18.0333333",
+        "start": "0:00:18",
+        "end": "0:00:18.0333333"
+      },
+      {
+        "adjustedStart": "0:00:23",
+        "adjustedEnd": "0:00:24.0333333",
+        "start": "0:00:23",
+        "end": "0:00:24.0333333"
+      },
+      {
+        "adjustedStart": "0:03:24",
+        "adjustedEnd": "0:03:24.0333333",
+        "start": "0:03:24",
+        "end": "0:03:24.0333333"
+      },
+      {
+        "adjustedStart": "0:05:57",
+        "adjustedEnd": "0:05:59.0333333",
+        "start": "0:05:57",
+        "end": "0:05:59.0333333"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "text": "players",
+    "confidence": 0.6981,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:26.16",
+        "adjustedEnd": "0:00:36.12",
+        "start": "0:00:26.16",
+        "end": "0:00:36.12"
+      },
+      {
+        "adjustedStart": "0:01:49.84",
+        "adjustedEnd": "0:01:58.08",
+        "start": "0:01:49.84",
+        "end": "0:01:58.08"
+      },
+      {
+        "adjustedStart": "0:02:22.16",
+        "adjustedEnd": "0:02:35.96",
+        "start": "0:02:22.16",
+        "end": "0:02:35.96"
+      },
+      {
+        "adjustedStart": "0:02:42.56",
+        "adjustedEnd": "0:02:50.72",
+        "start": "0:02:42.56",
+        "end": "0:02:50.72"
+      },
+      {
+        "adjustedStart": "0:03:05.16",
+        "adjustedEnd": "0:03:13.4",
+        "start": "0:03:05.16",
+        "end": "0:03:13.4"
+      },
+      {
+        "adjustedStart": "0:03:13.6",
+        "adjustedEnd": "0:03:18.64",
+        "start": "0:03:13.6",
+        "end": "0:03:18.64"
+      },
+      {
+        "adjustedStart": "0:04:02.28",
+        "adjustedEnd": "0:04:14.16",
+        "start": "0:04:02.28",
+        "end": "0:04:14.16"
+      },
+      {
+        "adjustedStart": "0:04:14.4",
+        "adjustedEnd": "0:04:16.56",
+        "start": "0:04:14.4",
+        "end": "0:04:16.56"
+      },
+      {
+        "adjustedStart": "0:04:16.56",
+        "adjustedEnd": "0:04:19.84",
+        "start": "0:04:16.56",
+        "end": "0:04:19.84"
+      },
+      {
+        "adjustedStart": "0:04:54.76",
+        "adjustedEnd": "0:05:04.12",
+        "start": "0:04:54.76",
+        "end": "0:05:04.12"
+      },
+      {
+        "adjustedStart": "0:05:32.88",
+        "adjustedEnd": "0:05:40.84",
+        "start": "0:05:32.88",
+        "end": "0:05:40.84"
+      },
+      {
+        "adjustedStart": "0:00:18",
+        "adjustedEnd": "0:00:18.0333333",
+        "start": "0:00:18",
+        "end": "0:00:18.0333333"
+      },
+      {
+        "adjustedStart": "0:00:18",
+        "adjustedEnd": "0:00:18.0333333",
+        "start": "0:00:18",
+        "end": "0:00:18.0333333"
+      },
+      {
+        "adjustedStart": "0:00:18",
+        "adjustedEnd": "0:00:18.0333333",
+        "start": "0:00:18",
+        "end": "0:00:18.0333333"
+      },
+      {
+        "adjustedStart": "0:00:33",
+        "adjustedEnd": "0:00:35.0333333",
+        "start": "0:00:33",
+        "end": "0:00:35.0333333"
+      },
+      {
+        "adjustedStart": "0:02:32",
+        "adjustedEnd": "0:02:36.0333333",
+        "start": "0:02:32",
+        "end": "0:02:36.0333333"
+      },
+      {
+        "adjustedStart": "0:02:32",
+        "adjustedEnd": "0:02:36.0333333",
+        "start": "0:02:32",
+        "end": "0:02:36.0333333"
+      },
+      {
+        "adjustedStart": "0:02:32",
+        "adjustedEnd": "0:02:36.0333333",
+        "start": "0:02:32",
+        "end": "0:02:36.0333333"
+      },
+      {
+        "adjustedStart": "0:03:14",
+        "adjustedEnd": "0:03:14.0333333",
+        "start": "0:03:14",
+        "end": "0:03:14.0333333"
+      },
+      {
+        "adjustedStart": "0:03:14",
+        "adjustedEnd": "0:03:14.0333333",
+        "start": "0:03:14",
+        "end": "0:03:14.0333333"
+      },
+      {
+        "adjustedStart": "0:03:15",
+        "adjustedEnd": "0:03:15.0333333",
+        "start": "0:03:15",
+        "end": "0:03:15.0333333"
+      },
+      {
+        "adjustedStart": "0:03:15",
+        "adjustedEnd": "0:03:15.0333333",
+        "start": "0:03:15",
+        "end": "0:03:15.0333333"
+      },
+      {
+        "adjustedStart": "0:03:16",
+        "adjustedEnd": "0:03:16.0333333",
+        "start": "0:03:16",
+        "end": "0:03:16.0333333"
+      },
+      {
+        "adjustedStart": "0:03:17",
+        "adjustedEnd": "0:03:18.0333333",
+        "start": "0:03:17",
+        "end": "0:03:18.0333333"
+      },
+      {
+        "adjustedStart": "0:03:17",
+        "adjustedEnd": "0:03:17.0333333",
+        "start": "0:03:17",
+        "end": "0:03:17.0333333"
+      },
+      {
+        "adjustedStart": "0:03:19",
+        "adjustedEnd": "0:03:19.0333333",
+        "start": "0:03:19",
+        "end": "0:03:19.0333333"
+      },
+      {
+        "adjustedStart": "0:03:24",
+        "adjustedEnd": "0:03:24.0333333",
+        "start": "0:03:24",
+        "end": "0:03:24.0333333"
+      },
+      {
+        "adjustedStart": "0:04:10",
+        "adjustedEnd": "0:04:14.0333333",
+        "start": "0:04:10",
+        "end": "0:04:14.0333333"
+      },
+      {
+        "adjustedStart": "0:05:57",
+        "adjustedEnd": "0:05:59.0333333",
+        "start": "0:05:57",
+        "end": "0:05:59.0333333"
+      },
+      {
+        "adjustedStart": "0:05:57",
+        "adjustedEnd": "0:05:59.0333333",
+        "start": "0:05:57",
+        "end": "0:05:59.0333333"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "text": "hockey",
+    "confidence": 0.6959,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:00.44",
+        "adjustedEnd": "0:00:06.6",
+        "start": "0:00:00.44",
+        "end": "0:00:06.6"
+      },
+      {
+        "adjustedStart": "0:00:06.8",
+        "adjustedEnd": "0:00:18.44",
+        "start": "0:00:06.8",
+        "end": "0:00:18.44"
+      },
+      {
+        "adjustedStart": "0:00:36.32",
+        "adjustedEnd": "0:00:43.48",
+        "start": "0:00:36.32",
+        "end": "0:00:43.48"
+      },
+      {
+        "adjustedStart": "0:00:56.28",
+        "adjustedEnd": "0:00:59.2",
+        "start": "0:00:56.28",
+        "end": "0:00:59.2"
+      },
+      {
+        "adjustedStart": "0:00:59.48",
+        "adjustedEnd": "0:01:07.72",
+        "start": "0:00:59.48",
+        "end": "0:01:07.72"
+      },
+      {
+        "adjustedStart": "0:01:58.4",
+        "adjustedEnd": "0:02:02.8",
+        "start": "0:01:58.4",
+        "end": "0:02:02.8"
+      },
+      {
+        "adjustedStart": "0:02:13.24",
+        "adjustedEnd": "0:02:21.76",
+        "start": "0:02:13.24",
+        "end": "0:02:21.76"
+      },
+      {
+        "adjustedStart": "0:02:22.16",
+        "adjustedEnd": "0:02:35.96",
+        "start": "0:02:22.16",
+        "end": "0:02:35.96"
+      },
+      {
+        "adjustedStart": "0:02:42.56",
+        "adjustedEnd": "0:02:50.72",
+        "start": "0:02:42.56",
+        "end": "0:02:50.72"
+      },
+      {
+        "adjustedStart": "0:03:13.6",
+        "adjustedEnd": "0:03:18.64",
+        "start": "0:03:13.6",
+        "end": "0:03:18.64"
+      },
+      {
+        "adjustedStart": "0:05:04.68",
+        "adjustedEnd": "0:05:17.36",
+        "start": "0:05:04.68",
+        "end": "0:05:17.36"
+      },
+      {
+        "adjustedStart": "0:00:04",
+        "adjustedEnd": "0:00:06.0333333",
+        "start": "0:00:04",
+        "end": "0:00:06.0333333"
+      },
+      {
+        "adjustedStart": "0:00:14",
+        "adjustedEnd": "0:00:17.0333333",
+        "start": "0:00:14",
+        "end": "0:00:17.0333333"
+      },
+      {
+        "adjustedStart": "0:00:14",
+        "adjustedEnd": "0:00:17.0333333",
+        "start": "0:00:14",
+        "end": "0:00:17.0333333"
+      },
+      {
+        "adjustedStart": "0:00:14",
+        "adjustedEnd": "0:00:17.0333333",
+        "start": "0:00:14",
+        "end": "0:00:17.0333333"
+      },
+      {
+        "adjustedStart": "0:00:15",
+        "adjustedEnd": "0:00:17.0333333",
+        "start": "0:00:15",
+        "end": "0:00:17.0333333"
+      },
+      {
+        "adjustedStart": "0:00:18",
+        "adjustedEnd": "0:00:18.0333333",
+        "start": "0:00:18",
+        "end": "0:00:18.0333333"
+      },
+      {
+        "adjustedStart": "0:00:23",
+        "adjustedEnd": "0:00:24.0333333",
+        "start": "0:00:23",
+        "end": "0:00:24.0333333"
+      },
+      {
+        "adjustedStart": "0:00:23",
+        "adjustedEnd": "0:00:24.0333333",
+        "start": "0:00:23",
+        "end": "0:00:24.0333333"
+      },
+      {
+        "adjustedStart": "0:00:23",
+        "adjustedEnd": "0:00:24.0333333",
+        "start": "0:00:23",
+        "end": "0:00:24.0333333"
+      },
+      {
+        "adjustedStart": "0:00:23",
+        "adjustedEnd": "0:00:23.0333333",
+        "start": "0:00:23",
+        "end": "0:00:23.0333333"
+      },
+      {
+        "adjustedStart": "0:02:32",
+        "adjustedEnd": "0:02:36.0333333",
+        "start": "0:02:32",
+        "end": "0:02:36.0333333"
+      },
+      {
+        "adjustedStart": "0:03:14",
+        "adjustedEnd": "0:03:14.0333333",
+        "start": "0:03:14",
+        "end": "0:03:14.0333333"
+      },
+      {
+        "adjustedStart": "0:03:14",
+        "adjustedEnd": "0:03:14.0333333",
+        "start": "0:03:14",
+        "end": "0:03:14.0333333"
+      },
+      {
+        "adjustedStart": "0:03:15",
+        "adjustedEnd": "0:03:19.0333333",
+        "start": "0:03:15",
+        "end": "0:03:19.0333333"
+      },
+      {
+        "adjustedStart": "0:03:24",
+        "adjustedEnd": "0:03:24.0333333",
+        "start": "0:03:24",
+        "end": "0:03:24.0333333"
+      },
+      {
+        "adjustedStart": "0:04:44",
+        "adjustedEnd": "0:04:45.0333333",
+        "start": "0:04:44",
+        "end": "0:04:45.0333333"
+      },
+      {
+        "adjustedStart": "0:04:46",
+        "adjustedEnd": "0:04:50.0333333",
+        "start": "0:04:46",
+        "end": "0:04:50.0333333"
+      },
+      {
+        "adjustedStart": "0:05:52",
+        "adjustedEnd": "0:05:55.0333333",
+        "start": "0:05:52",
+        "end": "0:05:55.0333333"
+      },
+      {
+        "adjustedStart": "0:05:57",
+        "adjustedEnd": "0:05:59.0333333",
+        "start": "0:05:57",
+        "end": "0:05:59.0333333"
+      },
+      {
+        "adjustedStart": "0:06:40",
+        "adjustedEnd": "0:06:43.0333333",
+        "start": "0:06:40",
+        "end": "0:06:43.0333333"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "text": "january",
+    "confidence": 0.6938,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:00.44",
+        "adjustedEnd": "0:00:06.6",
+        "start": "0:00:00.44",
+        "end": "0:00:06.6"
+      },
+      {
+        "adjustedStart": "0:00:06.8",
+        "adjustedEnd": "0:00:18.44",
+        "start": "0:00:06.8",
+        "end": "0:00:18.44"
+      },
+      {
+        "adjustedStart": "0:00:21.4",
+        "adjustedEnd": "0:00:25.84",
+        "start": "0:00:21.4",
+        "end": "0:00:25.84"
+      },
+      {
+        "adjustedStart": "0:04:27.84",
+        "adjustedEnd": "0:04:37.4",
+        "start": "0:04:27.84",
+        "end": "0:04:37.4"
+      },
+      {
+        "adjustedStart": "0:00:01",
+        "adjustedEnd": "0:00:06.0333333",
+        "start": "0:00:01",
+        "end": "0:00:06.0333333"
+      },
+      {
+        "adjustedStart": "0:00:08",
+        "adjustedEnd": "0:00:09.0333333",
+        "start": "0:00:08",
+        "end": "0:00:09.0333333"
+      },
+      {
+        "adjustedStart": "0:00:10",
+        "adjustedEnd": "0:00:10.0333333",
+        "start": "0:00:10",
+        "end": "0:00:10.0333333"
+      },
+      {
+        "adjustedStart": "0:00:12",
+        "adjustedEnd": "0:00:12.0333333",
+        "start": "0:00:12",
+        "end": "0:00:12.0333333"
+      },
+      {
+        "adjustedStart": "0:00:22",
+        "adjustedEnd": "0:00:22.0333333",
+        "start": "0:00:22",
+        "end": "0:00:22.0333333"
+      },
+      {
+        "adjustedStart": "0:00:23",
+        "adjustedEnd": "0:00:24.0333333",
+        "start": "0:00:23",
+        "end": "0:00:24.0333333"
+      },
+      {
+        "adjustedStart": "0:02:27",
+        "adjustedEnd": "0:02:29.0333333",
+        "start": "0:02:27",
+        "end": "0:02:29.0333333"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "text": "plan",
+    "confidence": 0.6938,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:56.28",
+        "adjustedEnd": "0:00:59.2",
+        "start": "0:00:56.28",
+        "end": "0:00:59.2"
+      },
+      {
+        "adjustedStart": "0:01:08.04",
+        "adjustedEnd": "0:01:13.36",
+        "start": "0:01:08.04",
+        "end": "0:01:13.36"
+      },
+      {
+        "adjustedStart": "0:01:20",
+        "adjustedEnd": "0:01:26.12",
+        "start": "0:01:20",
+        "end": "0:01:26.12"
+      },
+      {
+        "adjustedStart": "0:01:31.56",
+        "adjustedEnd": "0:01:38.52",
+        "start": "0:01:31.56",
+        "end": "0:01:38.52"
+      },
+      {
+        "adjustedStart": "0:04:37.84",
+        "adjustedEnd": "0:04:41.48",
+        "start": "0:04:37.84",
+        "end": "0:04:41.48"
+      },
+      {
+        "adjustedStart": "0:06:24.12",
+        "adjustedEnd": "0:06:28.96",
+        "start": "0:06:24.12",
+        "end": "0:06:28.96"
+      },
+      {
+        "adjustedStart": "0:07:51.92",
+        "adjustedEnd": "0:08:00.56",
+        "start": "0:07:51.92",
+        "end": "0:08:00.56"
+      },
+      {
+        "adjustedStart": "0:01:00",
+        "adjustedEnd": "0:01:01.0333333",
+        "start": "0:01:00",
+        "end": "0:01:01.0333333"
+      },
+      {
+        "adjustedStart": "0:01:12",
+        "adjustedEnd": "0:01:12.0333333",
+        "start": "0:01:12",
+        "end": "0:01:12.0333333"
+      },
+      {
+        "adjustedStart": "0:01:13",
+        "adjustedEnd": "0:01:13.0333333",
+        "start": "0:01:13",
+        "end": "0:01:13.0333333"
+      },
+      {
+        "adjustedStart": "0:01:14",
+        "adjustedEnd": "0:01:14.0333333",
+        "start": "0:01:14",
+        "end": "0:01:14.0333333"
+      },
+      {
+        "adjustedStart": "0:01:33",
+        "adjustedEnd": "0:01:34.0333333",
+        "start": "0:01:33",
+        "end": "0:01:34.0333333"
+      },
+      {
+        "adjustedStart": "0:07:28",
+        "adjustedEnd": "0:07:28.0333333",
+        "start": "0:07:28",
+        "end": "0:07:28.0333333"
+      },
+      {
+        "adjustedStart": "0:08:07",
+        "adjustedEnd": "0:08:13.0333333",
+        "start": "0:08:07",
+        "end": "0:08:13.0333333"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "text": "pull",
+    "confidence": 0.69,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:26.16",
+        "adjustedEnd": "0:00:36.12",
+        "start": "0:00:26.16",
+        "end": "0:00:36.12"
+      },
+      {
+        "adjustedStart": "0:02:22.16",
+        "adjustedEnd": "0:02:35.96",
+        "start": "0:02:22.16",
+        "end": "0:02:35.96"
+      },
+      {
+        "adjustedStart": "0:04:02.28",
+        "adjustedEnd": "0:04:14.16",
+        "start": "0:04:02.28",
+        "end": "0:04:14.16"
+      },
+      {
+        "adjustedStart": "0:04:16.56",
+        "adjustedEnd": "0:04:19.84",
+        "start": "0:04:16.56",
+        "end": "0:04:19.84"
+      },
+      {
+        "adjustedStart": "0:04:20.04",
+        "adjustedEnd": "0:04:27.4",
+        "start": "0:04:20.04",
+        "end": "0:04:27.4"
+      },
+      {
+        "adjustedStart": "0:06:03.92",
+        "adjustedEnd": "0:06:11.36",
+        "start": "0:06:03.92",
+        "end": "0:06:11.36"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "text": "fall",
+    "confidence": 0.69,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:31.56",
+        "adjustedEnd": "0:01:38.52",
+        "start": "0:01:31.56",
+        "end": "0:01:38.52"
+      },
+      {
+        "adjustedStart": "0:02:55.2",
+        "adjustedEnd": "0:03:04.76",
+        "start": "0:02:55.2",
+        "end": "0:03:04.76"
+      }
+    ]
+  }
+]

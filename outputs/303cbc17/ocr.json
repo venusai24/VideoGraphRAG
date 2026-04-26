@@ -1,0 +1,3400 @@
+[
+  {
+    "id": 1,
+    "text": "103",
+    "confidence": 0.997,
+    "left": 580,
+    "top": 167,
+    "width": 77,
+    "height": 36,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:13.013",
+        "adjustedEnd": "0:00:14.0473667",
+        "start": "0:00:13.013",
+        "end": "0:00:14.0473667"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "text": "100",
+    "confidence": 0.991,
+    "left": 319,
+    "top": 135,
+    "width": 69,
+    "height": 34,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:22.022",
+        "adjustedEnd": "0:00:27.0603667",
+        "start": "0:00:22.022",
+        "end": "0:00:27.0603667"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "text": "50",
+    "confidence": 0.994,
+    "left": 246,
+    "top": 520,
+    "width": 54,
+    "height": 35,
+    "angle": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:22.022",
+        "adjustedEnd": "0:00:27.0603667",
+        "start": "0:00:22.022",
+        "end": "0:00:27.0603667"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "text": "200",
+    "confidence": 0.993,
+    "left": 1755,
+    "top": 513,
+    "width": 39,
+    "height": 19,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:38.098",
+        "adjustedEnd": "0:01:39.1323667",
+        "start": "0:01:38.098",
+        "end": "0:01:39.1323667"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "text": "52",
+    "confidence": 0.998,
+    "left": 715,
+    "top": 457,
+    "width": 20,
+    "height": 15,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:41.101",
+        "adjustedEnd": "0:01:42.1353667",
+        "start": "0:01:41.101",
+        "end": "0:01:42.1353667"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "text": "51",
+    "confidence": 0.96,
+    "left": 62,
+    "top": 453,
+    "width": 23,
+    "height": 15,
+    "angle": -2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:41.101",
+        "adjustedEnd": "0:01:42.1353667",
+        "start": "0:01:41.101",
+        "end": "0:01:42.1353667"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "text": "21:45",
+    "confidence": 0.929,
+    "left": 987,
+    "top": 1067,
+    "width": 58,
+    "height": 37,
+    "angle": -144,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:04:32.272",
+        "adjustedEnd": "0:04:32.3053667",
+        "start": "0:04:32.272",
+        "end": "0:04:32.3053667"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "text": "18",
+    "confidence": 0.998,
+    "left": 1741,
+    "top": 83,
+    "width": 53,
+    "height": 46,
+    "angle": -1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:49.349",
+        "adjustedEnd": "0:05:49.3823667",
+        "start": "0:05:49.349",
+        "end": "0:05:49.3823667"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "text": "77",
+    "confidence": 0.978,
+    "left": 1222,
+    "top": 817,
+    "width": 23,
+    "height": 15,
+    "angle": -5,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:10:10.61",
+        "adjustedEnd": "0:10:14.6473667",
+        "start": "0:10:10.61",
+        "end": "0:10:14.6473667"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "text": "THE",
+    "confidence": 0.997,
+    "left": 54,
+    "top": 45,
+    "width": 69,
+    "height": 25,
+    "angle": -2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:00",
+        "adjustedEnd": "0:00:10.0433667",
+        "start": "0:00:00",
+        "end": "0:00:10.0433667"
+      },
+      {
+        "adjustedStart": "0:00:12.012",
+        "adjustedEnd": "0:01:11.1043667",
+        "start": "0:00:12.012",
+        "end": "0:01:11.1043667"
+      },
+      {
+        "adjustedStart": "0:01:13.073",
+        "adjustedEnd": "0:10:08.6413667",
+        "start": "0:01:13.073",
+        "end": "0:10:08.6413667"
+      },
+      {
+        "adjustedStart": "0:10:10.61",
+        "adjustedEnd": "0:12:32.7853667",
+        "start": "0:10:10.61",
+        "end": "0:12:32.7853667"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "text": "B1M",
+    "confidence": 0.93,
+    "left": 54,
+    "top": 76,
+    "width": 121,
+    "height": 53,
+    "angle": -1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:00",
+        "adjustedEnd": "0:00:10.0433667",
+        "start": "0:00:00",
+        "end": "0:00:10.0433667"
+      },
+      {
+        "adjustedStart": "0:00:12.012",
+        "adjustedEnd": "0:00:28.0613667",
+        "start": "0:00:12.012",
+        "end": "0:00:28.0613667"
+      },
+      {
+        "adjustedStart": "0:00:31.031",
+        "adjustedEnd": "0:00:46.0793667",
+        "start": "0:00:31.031",
+        "end": "0:00:46.0793667"
+      },
+      {
+        "adjustedStart": "0:00:52.052",
+        "adjustedEnd": "0:01:11.1043667",
+        "start": "0:00:52.052",
+        "end": "0:01:11.1043667"
+      },
+      {
+        "adjustedStart": "0:01:14.074",
+        "adjustedEnd": "0:01:49.1423667",
+        "start": "0:01:14.074",
+        "end": "0:01:49.1423667"
+      },
+      {
+        "adjustedStart": "0:01:53.113",
+        "adjustedEnd": "0:02:27.1803667",
+        "start": "0:01:53.113",
+        "end": "0:02:27.1803667"
+      },
+      {
+        "adjustedStart": "0:02:30.15",
+        "adjustedEnd": "0:09:42.6153667",
+        "start": "0:02:30.15",
+        "end": "0:09:42.6153667"
+      },
+      {
+        "adjustedStart": "0:09:44.584",
+        "adjustedEnd": "0:10:08.6413667",
+        "start": "0:09:44.584",
+        "end": "0:10:08.6413667"
+      },
+      {
+        "adjustedStart": "0:10:10.61",
+        "adjustedEnd": "0:12:32.7853667",
+        "start": "0:10:10.61",
+        "end": "0:12:32.7853667"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "text": "ADANI",
+    "confidence": 0.998,
+    "left": 1818,
+    "top": 1035,
+    "width": 64,
+    "height": 19,
+    "angle": 0,
+    "language": "it-IT",
+    "instances": [
+      {
+        "adjustedStart": "0:00:00",
+        "adjustedEnd": "0:00:07.0403667",
+        "start": "0:00:00",
+        "end": "0:00:07.0403667"
+      },
+      {
+        "adjustedStart": "0:00:11.011",
+        "adjustedEnd": "0:00:21.0543667",
+        "start": "0:00:11.011",
+        "end": "0:00:21.0543667"
+      },
+      {
+        "adjustedStart": "0:08:35.515",
+        "adjustedEnd": "0:09:01.5743667",
+        "start": "0:08:35.515",
+        "end": "0:09:01.5743667"
+      },
+      {
+        "adjustedStart": "0:09:12.552",
+        "adjustedEnd": "0:09:24.5973667",
+        "start": "0:09:12.552",
+        "end": "0:09:24.5973667"
+      },
+      {
+        "adjustedStart": "0:09:41.581",
+        "adjustedEnd": "0:10:24.6573667",
+        "start": "0:09:41.581",
+        "end": "0:10:24.6573667"
+      },
+      {
+        "adjustedStart": "0:10:39.639",
+        "adjustedEnd": "0:10:46.6793667",
+        "start": "0:10:39.639",
+        "end": "0:10:46.6793667"
+      },
+      {
+        "adjustedStart": "0:10:49.649",
+        "adjustedEnd": "0:10:52.6853667",
+        "start": "0:10:49.649",
+        "end": "0:10:52.6853667"
+      },
+      {
+        "adjustedStart": "0:10:56.656",
+        "adjustedEnd": "0:11:00.6933667",
+        "start": "0:10:56.656",
+        "end": "0:11:00.6933667"
+      },
+      {
+        "adjustedStart": "0:11:19.679",
+        "adjustedEnd": "0:11:21.7143667",
+        "start": "0:11:19.679",
+        "end": "0:11:21.7143667"
+      },
+      {
+        "adjustedStart": "0:12:09.729",
+        "adjustedEnd": "0:12:25.7783667",
+        "start": "0:12:09.729",
+        "end": "0:12:25.7783667"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "text": "Navi Mumbai",
+    "confidence": 0.997,
+    "left": 542,
+    "top": 994,
+    "width": 235,
+    "height": 32,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:09.009",
+        "adjustedEnd": "0:00:10.0433667",
+        "start": "0:00:09.009",
+        "end": "0:00:10.0433667"
+      },
+      {
+        "adjustedStart": "0:00:23.023",
+        "adjustedEnd": "0:00:27.0603667",
+        "start": "0:00:23.023",
+        "end": "0:00:27.0603667"
+      },
+      {
+        "adjustedStart": "0:04:00.24",
+        "adjustedEnd": "0:04:06.2793667",
+        "start": "0:04:00.24",
+        "end": "0:04:06.2793667"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "text": "International Airport",
+    "confidence": 0.961,
+    "left": 563,
+    "top": 630,
+    "width": 773,
+    "height": 74,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:09.009",
+        "adjustedEnd": "0:00:10.0433667",
+        "start": "0:00:09.009",
+        "end": "0:00:10.0433667"
+      },
+      {
+        "adjustedStart": "0:04:00.24",
+        "adjustedEnd": "0:04:06.2793667",
+        "start": "0:04:00.24",
+        "end": "0:04:06.2793667"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "text": "गेट Gate",
+    "confidence": 0.9815,
+    "left": 580,
+    "top": 130,
+    "width": 86,
+    "height": 23,
+    "angle": 5,
+    "language": "hi-IN",
+    "instances": [
+      {
+        "adjustedStart": "0:00:13.013",
+        "adjustedEnd": "0:00:14.0473667",
+        "start": "0:00:13.013",
+        "end": "0:00:14.0473667"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "text": "SOURCE: CHANGI AIRPORT GROUP AND ADANI",
+    "confidence": 0.992,
+    "left": 1452,
+    "top": 1034,
+    "width": 430,
+    "height": 21,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:22.022",
+        "adjustedEnd": "0:00:27.0603667",
+        "start": "0:00:22.022",
+        "end": "0:00:27.0603667"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "text": "Number of Passengers Per Year (in Millions)",
+    "confidence": 0.9963,
+    "left": 515,
+    "top": 25,
+    "width": 879,
+    "height": 42,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:23.023",
+        "adjustedEnd": "0:00:27.0603667",
+        "start": "0:00:23.023",
+        "end": "0:00:27.0603667"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "text": "Changi Airport",
+    "confidence": 0.998,
+    "left": 1143,
+    "top": 995,
+    "width": 266,
+    "height": 37,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:23.023",
+        "adjustedEnd": "0:00:27.0603667",
+        "start": "0:00:23.023",
+        "end": "0:00:27.0603667"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "text": "VOICE OF AMERICA",
+    "confidence": 0.9933,
+    "left": 1702,
+    "top": 1034,
+    "width": 179,
+    "height": 20,
+    "angle": 0,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:00:28.028",
+        "adjustedEnd": "0:00:30.0633667",
+        "start": "0:00:28.028",
+        "end": "0:00:30.0633667"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "text": "Fred Mills",
+    "confidence": 0.9965,
+    "left": 220,
+    "top": 461,
+    "width": 277,
+    "height": 57,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:32.032",
+        "adjustedEnd": "0:00:35.0683667",
+        "start": "0:00:32.032",
+        "end": "0:00:35.0683667"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "text": "Singapore Changi Airport",
+    "confidence": 0.998,
+    "left": 73,
+    "top": 484,
+    "width": 1768,
+    "height": 126,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:40.04",
+        "adjustedEnd": "0:00:42.0753667",
+        "start": "0:00:40.04",
+        "end": "0:00:42.0753667"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "text": "SHARON HAHN DARLIN",
+    "confidence": 0.997,
+    "left": 1665,
+    "top": 1034,
+    "width": 217,
+    "height": 21,
+    "angle": 0,
+    "language": "de-DE",
+    "instances": [
+      {
+        "adjustedStart": "0:00:40.04",
+        "adjustedEnd": "0:00:40.0733667",
+        "start": "0:00:40.04",
+        "end": "0:00:40.0733667"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "text": "MATTEO MORANDO",
+    "confidence": 0.998,
+    "left": 1696,
+    "top": 1035,
+    "width": 184,
+    "height": 19,
+    "angle": 0,
+    "language": "it-IT",
+    "instances": [
+      {
+        "adjustedStart": "0:00:41.041",
+        "adjustedEnd": "0:00:42.0753667",
+        "start": "0:00:41.041",
+        "end": "0:00:42.0753667"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "text": "B1M YouTube",
+    "confidence": 0.928,
+    "left": 54,
+    "top": 76,
+    "width": 267,
+    "height": 53,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:46.046",
+        "adjustedEnd": "0:00:51.0843667",
+        "start": "0:00:46.046",
+        "end": "0:00:51.0843667"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "text": "Search",
+    "confidence": 0.998,
+    "left": 674,
+    "top": 123,
+    "width": 49,
+    "height": 17,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:46.046",
+        "adjustedEnd": "0:00:51.0843667",
+        "start": "0:00:46.046",
+        "end": "0:00:51.0843667"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "text": "Why Singapore Built a $2BN Dome Over Its Airport",
+    "confidence": 0.9836,
+    "left": 213,
+    "top": 871,
+    "width": 564,
+    "height": 30,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:46.046",
+        "adjustedEnd": "0:00:51.0843667",
+        "start": "0:00:46.046",
+        "end": "0:00:51.0843667"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "text": "Subscribe",
+    "confidence": 0.969,
+    "left": 404,
+    "top": 929,
+    "width": 67,
+    "height": 16,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:46.046",
+        "adjustedEnd": "0:00:51.0843667",
+        "start": "0:00:46.046",
+        "end": "0:00:51.0843667"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "text": "Save",
+    "confidence": 0.995,
+    "left": 1192,
+    "top": 938,
+    "width": 37,
+    "height": 16,
+    "angle": -3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:46.046",
+        "adjustedEnd": "0:00:47.0803667",
+        "start": "0:00:46.046",
+        "end": "0:00:47.0803667"
+      },
+      {
+        "adjustedStart": "0:00:51.051",
+        "adjustedEnd": "0:00:51.0843667",
+        "start": "0:00:51.051",
+        "end": "0:00:51.0843667"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "text": "THE JEWEL",
+    "confidence": 0.9975,
+    "left": 615,
+    "top": 531,
+    "width": 198,
+    "height": 27,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:48.048",
+        "adjustedEnd": "0:00:50.0833667",
+        "start": "0:00:48.048",
+        "end": "0:00:50.0833667"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "text": "$1.3BN USD",
+    "confidence": 0.9975,
+    "left": 509,
+    "top": 734,
+    "width": 411,
+    "height": 63,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:00:50.05",
+        "adjustedEnd": "0:00:51.0843667",
+        "start": "0:00:50.05",
+        "end": "0:00:51.0843667"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "text": "Ulwe Hill",
+    "confidence": 0.9835,
+    "left": 869,
+    "top": 236,
+    "width": 403,
+    "height": 96,
+    "angle": 7,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:01.061",
+        "adjustedEnd": "0:01:01.0943667",
+        "start": "0:01:01.061",
+        "end": "0:01:01.0943667"
+      },
+      {
+        "adjustedStart": "0:05:52.352",
+        "adjustedEnd": "0:05:52.3853667",
+        "start": "0:05:52.352",
+        "end": "0:05:52.3853667"
+      },
+      {
+        "adjustedStart": "0:05:56.356",
+        "adjustedEnd": "0:05:57.3903667",
+        "start": "0:05:56.356",
+        "end": "0:05:57.3903667"
+      },
+      {
+        "adjustedStart": "0:06:02.362",
+        "adjustedEnd": "0:06:03.3963667",
+        "start": "0:06:02.362",
+        "end": "0:06:03.3963667"
+      },
+      {
+        "adjustedStart": "0:06:28.388",
+        "adjustedEnd": "0:06:28.4213667",
+        "start": "0:06:28.388",
+        "end": "0:06:28.4213667"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "text": "Ulwe River",
+    "confidence": 0.99,
+    "left": 1049,
+    "top": 480,
+    "width": 404,
+    "height": 72,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:03.063",
+        "adjustedEnd": "0:01:04.0973667",
+        "start": "0:01:03.063",
+        "end": "0:01:04.0973667"
+      },
+      {
+        "adjustedStart": "0:05:55.355",
+        "adjustedEnd": "0:05:55.3883667",
+        "start": "0:05:55.355",
+        "end": "0:05:55.3883667"
+      },
+      {
+        "adjustedStart": "0:07:18.438",
+        "adjustedEnd": "0:07:29.4823667",
+        "start": "0:07:18.438",
+        "end": "0:07:29.4823667"
+      },
+      {
+        "adjustedStart": "0:08:18.498",
+        "adjustedEnd": "0:08:21.5343667",
+        "start": "0:08:18.498",
+        "end": "0:08:21.5343667"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "text": "ZAHA HADID ARCHITECTS",
+    "confidence": 0.9947,
+    "left": 1640,
+    "top": 1034,
+    "width": 242,
+    "height": 21,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:05.065",
+        "adjustedEnd": "0:01:08.1013667",
+        "start": "0:01:05.065",
+        "end": "0:01:08.1013667"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "text": "ONE WOF",
+    "confidence": 0.993,
+    "left": 1781,
+    "top": 746,
+    "width": 52,
+    "height": 13,
+    "angle": -2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:17.077",
+        "adjustedEnd": "0:01:17.1103667",
+        "start": "0:01:17.077",
+        "end": "0:01:17.1103667"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "text": "ONE WORLD",
+    "confidence": 0.997,
+    "left": 1842,
+    "top": 745,
+    "width": 70,
+    "height": 12,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:18.078",
+        "adjustedEnd": "0:01:18.1113667",
+        "start": "0:01:18.078",
+        "end": "0:01:18.1113667"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "text": "BHARATAHS",
+    "confidence": 0.997,
+    "left": 1765,
+    "top": 1034,
+    "width": 116,
+    "height": 21,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:24.084",
+        "adjustedEnd": "0:01:25.1183667",
+        "start": "0:01:24.084",
+        "end": "0:01:25.1183667"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "text": "SAMSUNG",
+    "confidence": 0.997,
+    "left": 917,
+    "top": 478,
+    "width": 88,
+    "height": 18,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:25.085",
+        "adjustedEnd": "0:01:25.1183667",
+        "start": "0:01:25.085",
+        "end": "0:01:25.1183667"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "text": "Do bigger things",
+    "confidence": 0.998,
+    "left": 1028,
+    "top": 501,
+    "width": 170,
+    "height": 22,
+    "angle": 0,
+    "language": "pt-PT",
+    "instances": [
+      {
+        "adjustedStart": "0:01:25.085",
+        "adjustedEnd": "0:01:25.1183667",
+        "start": "0:01:25.085",
+        "end": "0:01:25.1183667"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "text": "ANK KUMAR",
+    "confidence": 0.9975,
+    "left": 1768,
+    "top": 1035,
+    "width": 114,
+    "height": 19,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:26.086",
+        "adjustedEnd": "0:01:27.1203667",
+        "start": "0:01:26.086",
+        "end": "0:01:27.1203667"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "text": "Narendra Modi",
+    "confidence": 0.997,
+    "left": 649,
+    "top": 890,
+    "width": 594,
+    "height": 71,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:28.088",
+        "adjustedEnd": "0:01:31.1243667",
+        "start": "0:01:28.088",
+        "end": "0:01:31.1243667"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "text": "Prime Minister of India",
+    "confidence": 0.9893,
+    "left": 731,
+    "top": 984,
+    "width": 453,
+    "height": 38,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:28.088",
+        "adjustedEnd": "0:01:31.1243667",
+        "start": "0:01:28.088",
+        "end": "0:01:31.1243667"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "text": "Mumbai, India",
+    "confidence": 0.977,
+    "left": 146,
+    "top": 911,
+    "width": 347,
+    "height": 45,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:32.092",
+        "adjustedEnd": "0:01:33.1263667",
+        "start": "0:01:32.092",
+        "end": "0:01:33.1263667"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "text": "YEARS OF",
+    "confidence": 0.998,
+    "left": 1270,
+    "top": 631,
+    "width": 92,
+    "height": 15,
+    "angle": -1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:34.094",
+        "adjustedEnd": "0:01:35.1283667",
+        "start": "0:01:34.094",
+        "end": "0:01:35.1283667"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "text": "CELEBRATING",
+    "confidence": 0.994,
+    "left": 1271,
+    "top": 647,
+    "width": 117,
+    "height": 16,
+    "angle": -2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:34.094",
+        "adjustedEnd": "0:01:35.1283667",
+        "start": "0:01:34.094",
+        "end": "0:01:35.1283667"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "text": "THE MAHATMA",
+    "confidence": 0.997,
+    "left": 1270,
+    "top": 661,
+    "width": 126,
+    "height": 15,
+    "angle": -1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:34.094",
+        "adjustedEnd": "0:01:35.1283667",
+        "start": "0:01:34.094",
+        "end": "0:01:35.1283667"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "text": "ETHAN'SPHOTOGRAPHY 82",
+    "confidence": 0.99,
+    "left": 1633,
+    "top": 1034,
+    "width": 252,
+    "height": 20,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:34.094",
+        "adjustedEnd": "0:01:35.1283667",
+        "start": "0:01:34.094",
+        "end": "0:01:35.1283667"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "text": "IN",
+    "confidence": 0.978,
+    "left": 956,
+    "top": 278,
+    "width": 368,
+    "height": 102,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:35.095",
+        "adjustedEnd": "0:01:35.1283667",
+        "start": "0:01:35.095",
+        "end": "0:01:35.1283667"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "text": "NA",
+    "confidence": 0.901,
+    "left": 1608,
+    "top": 264,
+    "width": 151,
+    "height": 104,
+    "angle": 47,
+    "language": "pl-PL",
+    "instances": [
+      {
+        "adjustedStart": "0:01:41.101",
+        "adjustedEnd": "0:01:41.1343667",
+        "start": "0:01:41.101",
+        "end": "0:01:41.1343667"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "text": "ANA",
+    "confidence": 0.994,
+    "left": 1342,
+    "top": 486,
+    "width": 88,
+    "height": 33,
+    "angle": -56,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:41.101",
+        "adjustedEnd": "0:01:42.1353667",
+        "start": "0:01:41.101",
+        "end": "0:01:42.1353667"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "text": "AKE 877",
+    "confidence": 0.9735,
+    "left": 1248,
+    "top": 910,
+    "width": 61,
+    "height": 24,
+    "angle": 11,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:41.101",
+        "adjustedEnd": "0:01:42.1353667",
+        "start": "0:01:41.101",
+        "end": "0:01:42.1353667"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "text": "AKE 3588 U",
+    "confidence": 0.9807,
+    "left": 1594,
+    "top": 913,
+    "width": 88,
+    "height": 25,
+    "angle": 7,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:41.101",
+        "adjustedEnd": "0:01:42.1353667",
+        "start": "0:01:41.101",
+        "end": "0:01:42.1353667"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "text": "AKE 02105 UA",
+    "confidence": 0.9573,
+    "left": 1687,
+    "top": 938,
+    "width": 93,
+    "height": 28,
+    "angle": 8,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:41.101",
+        "adjustedEnd": "0:01:42.1353667",
+        "start": "0:01:41.101",
+        "end": "0:01:42.1353667"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "text": "ED",
+    "confidence": 0.939,
+    "left": 60,
+    "top": 919,
+    "width": 30,
+    "height": 11,
+    "angle": 2,
+    "language": "it-IT",
+    "instances": [
+      {
+        "adjustedStart": "0:01:41.101",
+        "adjustedEnd": "0:01:42.1353667",
+        "start": "0:01:41.101",
+        "end": "0:01:42.1353667"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "text": "AKE 9495 UA",
+    "confidence": 0.9077,
+    "left": 875,
+    "top": 1006,
+    "width": 83,
+    "height": 31,
+    "angle": 14,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:41.101",
+        "adjustedEnd": "0:01:42.1353667",
+        "start": "0:01:41.101",
+        "end": "0:01:42.1353667"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "text": "IRLINES",
+    "confidence": 0.903,
+    "left": 152,
+    "top": 1060,
+    "width": 46,
+    "height": 12,
+    "angle": -1,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:01:42.102",
+        "adjustedEnd": "0:01:42.1353667",
+        "start": "0:01:42.102",
+        "end": "0:01:42.1353667"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "text": "B50",
+    "confidence": 0.995,
+    "left": 1689,
+    "top": 425,
+    "width": 118,
+    "height": 62,
+    "angle": -1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:43.103",
+        "adjustedEnd": "0:01:45.1383667",
+        "start": "0:01:43.103",
+        "end": "0:01:45.1383667"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "text": "London",
+    "confidence": 0.93,
+    "left": 387,
+    "top": 449,
+    "width": 1159,
+    "height": 216,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:46.106",
+        "adjustedEnd": "0:01:46.1393667",
+        "start": "0:01:46.106",
+        "end": "0:01:46.1393667"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "text": "Heathrow Airport",
+    "confidence": 0.998,
+    "left": 376,
+    "top": 191,
+    "width": 980,
+    "height": 107,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:47.107",
+        "adjustedEnd": "0:01:47.1403667",
+        "start": "0:01:47.107",
+        "end": "0:01:47.1403667"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "text": "( the good one )",
+    "confidence": 0.9878,
+    "left": 644,
+    "top": 299,
+    "width": 447,
+    "height": 58,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:47.107",
+        "adjustedEnd": "0:01:47.1403667",
+        "start": "0:01:47.107",
+        "end": "0:01:47.1403667"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "text": "Google Earth",
+    "confidence": 0.998,
+    "left": 1526,
+    "top": 902,
+    "width": 195,
+    "height": 35,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:47.107",
+        "adjustedEnd": "0:02:02.1553667",
+        "start": "0:01:47.107",
+        "end": "0:02:02.1553667"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "text": "( the bad one )",
+    "confidence": 0.9926,
+    "left": 606,
+    "top": 475,
+    "width": 253,
+    "height": 33,
+    "angle": -45,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:49.109",
+        "adjustedEnd": "0:01:49.1423667",
+        "start": "0:01:49.109",
+        "end": "0:01:49.1423667"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "text": "London Stansted Airport",
+    "confidence": 0.998,
+    "left": 351,
+    "top": 641,
+    "width": 853,
+    "height": 56,
+    "angle": -45,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:49.109",
+        "adjustedEnd": "0:01:49.1423667",
+        "start": "0:01:49.109",
+        "end": "0:01:49.1423667"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "text": "London City Airport",
+    "confidence": 0.9973,
+    "left": 439,
+    "top": 274,
+    "width": 1021,
+    "height": 99,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:52.112",
+        "adjustedEnd": "0:01:52.1453667",
+        "start": "0:01:52.112",
+        "end": "0:01:52.1453667"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "text": "( the posh one )",
+    "confidence": 0.9894,
+    "left": 747,
+    "top": 374,
+    "width": 401,
+    "height": 56,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:52.112",
+        "adjustedEnd": "0:01:52.1453667",
+        "start": "0:01:52.112",
+        "end": "0:01:52.1453667"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "text": "London Luton Airport",
+    "confidence": 0.998,
+    "left": 497,
+    "top": 388,
+    "width": 1110,
+    "height": 93,
+    "angle": -15,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:54.114",
+        "adjustedEnd": "0:01:54.1473667",
+        "start": "0:01:54.114",
+        "end": "0:01:54.1473667"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "text": "(the one that's not really in London )",
+    "confidence": 0.9706,
+    "left": 608,
+    "top": 467,
+    "width": 931,
+    "height": 45,
+    "angle": -15,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:54.114",
+        "adjustedEnd": "0:01:54.1473667",
+        "start": "0:01:54.114",
+        "end": "0:01:54.1473667"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "text": "( the one that's definitely not in London )",
+    "confidence": 0.9919,
+    "left": 817,
+    "top": 929,
+    "width": 909,
+    "height": 43,
+    "angle": -36,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:55.115",
+        "adjustedEnd": "0:01:56.1493667",
+        "start": "0:01:55.115",
+        "end": "0:01:56.1493667"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "text": "London Southend Airport",
+    "confidence": 0.9943,
+    "left": 658,
+    "top": 939,
+    "width": 1173,
+    "height": 72,
+    "angle": -36,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:55.115",
+        "adjustedEnd": "0:01:56.1493667",
+        "start": "0:01:55.115",
+        "end": "0:01:56.1493667"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "text": "Landsat / Copernicus, Data SIO, NOAA",
+    "confidence": 0.9925,
+    "left": 1394,
+    "top": 943,
+    "width": 328,
+    "height": 23,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:01:57.117",
+        "adjustedEnd": "0:01:58.1513667",
+        "start": "0:01:57.117",
+        "end": "0:01:58.1513667"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "text": "Chhatrapati Shivaji Maharaj",
+    "confidence": 0.997,
+    "left": 441,
+    "top": 260,
+    "width": 1017,
+    "height": 79,
+    "angle": -1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:00.12",
+        "adjustedEnd": "0:02:02.1553667",
+        "start": "0:02:00.12",
+        "end": "0:02:02.1553667"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "text": "International Airport Mumbai",
+    "confidence": 0.9817,
+    "left": 421,
+    "top": 354,
+    "width": 1085,
+    "height": 67,
+    "angle": -1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:00.12",
+        "adjustedEnd": "0:02:02.1553667",
+        "start": "0:02:00.12",
+        "end": "0:02:02.1553667"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "text": "( the only one ... until now )",
+    "confidence": 0.9864,
+    "left": 657,
+    "top": 427,
+    "width": 589,
+    "height": 48,
+    "angle": -1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:00.12",
+        "adjustedEnd": "0:02:02.1553667",
+        "start": "0:02:00.12",
+        "end": "0:02:02.1553667"
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "text": "Airbus",
+    "confidence": 0.93,
+    "left": 1673,
+    "top": 951,
+    "width": 56,
+    "height": 18,
+    "angle": -1,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:02:00.12",
+        "adjustedEnd": "0:02:02.1553667",
+        "start": "0:02:00.12",
+        "end": "0:02:02.1553667"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "text": "Departures",
+    "confidence": 0.981,
+    "left": 634,
+    "top": 357,
+    "width": 203,
+    "height": 51,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:06.126",
+        "adjustedEnd": "0:02:08.1613667",
+        "start": "0:02:06.126",
+        "end": "0:02:08.1613667"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "text": "100M",
+    "confidence": 0.956,
+    "left": 487,
+    "top": 370,
+    "width": 1000,
+    "height": 291,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:07.127",
+        "adjustedEnd": "0:02:09.1623667",
+        "start": "0:02:07.127",
+        "end": "0:02:09.1623667"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "text": "pig",
+    "confidence": 0.938,
+    "left": 233,
+    "top": 629,
+    "width": 39,
+    "height": 25,
+    "angle": 24,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:07.127",
+        "adjustedEnd": "0:02:09.1623667",
+        "start": "0:02:07.127",
+        "end": "0:02:09.1623667"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "text": "Missing Passengers",
+    "confidence": 0.9975,
+    "left": 551,
+    "top": 691,
+    "width": 844,
+    "height": 83,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:07.127",
+        "adjustedEnd": "0:02:09.1623667",
+        "start": "0:02:07.127",
+        "end": "0:02:09.1623667"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "text": "Bag",
+    "confidence": 0.996,
+    "left": 149,
+    "top": 942,
+    "width": 31,
+    "height": 31,
+    "angle": 6,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:07.127",
+        "adjustedEnd": "0:02:07.1603667",
+        "start": "0:02:07.127",
+        "end": "0:02:07.1603667"
+      },
+      {
+        "adjustedStart": "0:02:09.129",
+        "adjustedEnd": "0:02:09.1623667",
+        "start": "0:02:09.129",
+        "end": "0:02:09.1623667"
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "text": "(Sounds like a standard afternoon at Stansted Airport)",
+    "confidence": 0.994,
+    "left": 570,
+    "top": 945,
+    "width": 789,
+    "height": 34,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:09.129",
+        "adjustedEnd": "0:02:09.1623667",
+        "start": "0:02:09.129",
+        "end": "0:02:09.1623667"
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "text": "TEN STUDIOS",
+    "confidence": 0.991,
+    "left": 1759,
+    "top": 1034,
+    "width": 122,
+    "height": 20,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:10.13",
+        "adjustedEnd": "0:02:15.1683667",
+        "start": "0:02:10.13",
+        "end": "0:02:15.1683667"
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "text": "sats",
+    "confidence": 0.948,
+    "left": 31,
+    "top": 950,
+    "width": 57,
+    "height": 17,
+    "angle": -5,
+    "language": "sv-SE",
+    "instances": [
+      {
+        "adjustedStart": "0:02:19.139",
+        "adjustedEnd": "0:02:19.1723667",
+        "start": "0:02:19.139",
+        "end": "0:02:19.1723667"
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "text": "Electric Boogaloo",
+    "confidence": 0.996,
+    "left": 695,
+    "top": 649,
+    "width": 547,
+    "height": 57,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:22.142",
+        "adjustedEnd": "0:02:23.1763667",
+        "start": "0:02:22.142",
+        "end": "0:02:23.1763667"
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "text": "mapping",
+    "confidence": 0.951,
+    "left": 806,
+    "top": 1026,
+    "width": 102,
+    "height": 20,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:42.162",
+        "adjustedEnd": "0:02:42.1953667",
+        "start": "0:02:42.162",
+        "end": "0:02:42.1953667"
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "text": "Terminal 1",
+    "confidence": 0.972,
+    "left": 820,
+    "top": 474,
+    "width": 232,
+    "height": 47,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:02:44.164",
+        "adjustedEnd": "0:02:48.2013667",
+        "start": "0:02:44.164",
+        "end": "0:02:48.2013667"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "text": "USDA USGS, AEX, GeoEve, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the G",
+    "confidence": 0.911,
+    "left": 458,
+    "top": 1020,
+    "width": 900,
+    "height": 27,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:00.18",
+        "adjustedEnd": "0:03:15.2283667",
+        "start": "0:03:00.18",
+        "end": "0:03:15.2283667"
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "text": "EGP",
+    "confidence": 0.992,
+    "left": 1187,
+    "top": 1028,
+    "width": 60,
+    "height": 19,
+    "angle": -10,
+    "language": "tr-TR",
+    "instances": [
+      {
+        "adjustedStart": "0:03:25.205",
+        "adjustedEnd": "0:03:25.2383667",
+        "start": "0:03:25.205",
+        "end": "0:03:25.2383667"
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "text": "KURUSH PAWAR",
+    "confidence": 0.998,
+    "left": 1726,
+    "top": 1034,
+    "width": 157,
+    "height": 20,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:29.209",
+        "adjustedEnd": "0:03:31.2443667",
+        "start": "0:03:29.209",
+        "end": "0:03:31.2443667"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "text": "NNOCENTBUNNY",
+    "confidence": 0.992,
+    "left": 1718,
+    "top": 1034,
+    "width": 162,
+    "height": 20,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:32.212",
+        "adjustedEnd": "0:03:38.2513667",
+        "start": "0:03:32.212",
+        "end": "0:03:38.2513667"
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "text": "and",
+    "confidence": 0.995,
+    "left": 1231,
+    "top": 1025,
+    "width": 73,
+    "height": 19,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:54.234",
+        "adjustedEnd": "0:03:54.2673667",
+        "start": "0:03:54.234",
+        "end": "0:03:54.2673667"
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "text": "The old",
+    "confidence": 0.9965,
+    "left": 356,
+    "top": 575,
+    "width": 158,
+    "height": 35,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:57.237",
+        "adjustedEnd": "0:04:02.2753667",
+        "start": "0:03:57.237",
+        "end": "0:04:02.2753667"
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "text": "commercial centre",
+    "confidence": 0.976,
+    "left": 272,
+    "top": 607,
+    "width": 348,
+    "height": 36,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:03:57.237",
+        "adjustedEnd": "0:04:01.2743667",
+        "start": "0:03:57.237",
+        "end": "0:04:01.2743667"
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "text": "mercial centre",
+    "confidence": 0.997,
+    "left": 1,
+    "top": 667,
+    "width": 266,
+    "height": 35,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:04:02.242",
+        "adjustedEnd": "0:04:02.2753667",
+        "start": "0:04:02.242",
+        "end": "0:04:02.2753667"
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "text": "IGN",
+    "confidence": 0.928,
+    "left": 1026,
+    "top": 1022,
+    "width": 45,
+    "height": 22,
+    "angle": -1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:04:11.251",
+        "adjustedEnd": "0:04:11.2843667",
+        "start": "0:04:11.251",
+        "end": "0:04:11.2843667"
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "text": "From the founder",
+    "confidence": 0.9953,
+    "left": 605,
+    "top": 26,
+    "width": 146,
+    "height": 26,
+    "angle": -7,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:04:27.267",
+        "adjustedEnd": "0:04:29.3023667",
+        "start": "0:04:27.267",
+        "end": "0:04:29.3023667"
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "text": "of the most",
+    "confidence": 0.997,
+    "left": 571,
+    "top": 39,
+    "width": 108,
+    "height": 25,
+    "angle": -3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:04:27.267",
+        "adjustedEnd": "0:04:29.3023667",
+        "start": "0:04:27.267",
+        "end": "0:04:29.3023667"
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "text": "subscribed-to",
+    "confidence": 0.97,
+    "left": 566,
+    "top": 69,
+    "width": 131,
+    "height": 24,
+    "angle": -4,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:04:27.267",
+        "adjustedEnd": "0:04:30.3033667",
+        "start": "0:04:27.267",
+        "end": "0:04:30.3033667"
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "text": "construction",
+    "confidence": 0.978,
+    "left": 605,
+    "top": 109,
+    "width": 98,
+    "height": 21,
+    "angle": -6,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:04:27.267",
+        "adjustedEnd": "0:04:36.3093667",
+        "start": "0:04:27.267",
+        "end": "0:04:36.3093667"
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "text": "channel in",
+    "confidence": 0.998,
+    "left": 572,
+    "top": 124,
+    "width": 99,
+    "height": 26,
+    "angle": -3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:04:27.267",
+        "adjustedEnd": "0:04:30.3033667",
+        "start": "0:04:27.267",
+        "end": "0:04:30.3033667"
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "text": "the world",
+    "confidence": 0.971,
+    "left": 602,
+    "top": 157,
+    "width": 81,
+    "height": 27,
+    "angle": -4,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:04:27.267",
+        "adjustedEnd": "0:04:30.3033667",
+        "start": "0:04:27.267",
+        "end": "0:04:30.3033667"
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "text": "TEN COLOSSAL",
+    "confidence": 0.997,
+    "left": 256,
+    "top": 763,
+    "width": 201,
+    "height": 25,
+    "angle": -10,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:04:27.267",
+        "adjustedEnd": "0:04:36.3093667",
+        "start": "0:04:27.267",
+        "end": "0:04:36.3093667"
+      },
+      {
+        "adjustedStart": "0:04:41.281",
+        "adjustedEnd": "0:04:50.3233667",
+        "start": "0:04:41.281",
+        "end": "0:04:50.3233667"
+      },
+      {
+        "adjustedStart": "0:04:58.298",
+        "adjustedEnd": "0:05:14.3473667",
+        "start": "0:04:58.298",
+        "end": "0:05:14.3473667"
+      },
+      {
+        "adjustedStart": "0:05:16.316",
+        "adjustedEnd": "0:05:31.3643667",
+        "start": "0:05:16.316",
+        "end": "0:05:31.3643667"
+      },
+      {
+        "adjustedStart": "0:05:38.338",
+        "adjustedEnd": "0:05:43.3763667",
+        "start": "0:05:38.338",
+        "end": "0:05:43.3763667"
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "text": "PROJECTS THAT",
+    "confidence": 0.9965,
+    "left": 787,
+    "top": 855,
+    "width": 359,
+    "height": 46,
+    "angle": 7,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:04:27.267",
+        "adjustedEnd": "0:04:36.3093667",
+        "start": "0:04:27.267",
+        "end": "0:04:36.3093667"
+      },
+      {
+        "adjustedStart": "0:04:41.281",
+        "adjustedEnd": "0:04:50.3233667",
+        "start": "0:04:41.281",
+        "end": "0:04:50.3233667"
+      },
+      {
+        "adjustedStart": "0:04:58.298",
+        "adjustedEnd": "0:05:14.3473667",
+        "start": "0:04:58.298",
+        "end": "0:05:14.3473667"
+      },
+      {
+        "adjustedStart": "0:05:16.316",
+        "adjustedEnd": "0:05:31.3643667",
+        "start": "0:05:16.316",
+        "end": "0:05:31.3643667"
+      },
+      {
+        "adjustedStart": "0:05:38.338",
+        "adjustedEnd": "0:05:43.3763667",
+        "start": "0:05:38.338",
+        "end": "0:05:43.3763667"
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "text": "WILL CHANGE",
+    "confidence": 0.997,
+    "left": 294,
+    "top": 785,
+    "width": 189,
+    "height": 26,
+    "angle": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:04:27.267",
+        "adjustedEnd": "0:04:36.3093667",
+        "start": "0:04:27.267",
+        "end": "0:04:36.3093667"
+      },
+      {
+        "adjustedStart": "0:04:41.281",
+        "adjustedEnd": "0:04:50.3233667",
+        "start": "0:04:41.281",
+        "end": "0:04:50.3233667"
+      },
+      {
+        "adjustedStart": "0:04:58.298",
+        "adjustedEnd": "0:05:14.3473667",
+        "start": "0:04:58.298",
+        "end": "0:05:14.3473667"
+      },
+      {
+        "adjustedStart": "0:05:16.316",
+        "adjustedEnd": "0:05:31.3643667",
+        "start": "0:05:16.316",
+        "end": "0:05:31.3643667"
+      },
+      {
+        "adjustedStart": "0:05:38.338",
+        "adjustedEnd": "0:05:43.3763667",
+        "start": "0:05:38.338",
+        "end": "0:05:43.3763667"
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "text": "OUR WORLD",
+    "confidence": 0.9975,
+    "left": 786,
+    "top": 967,
+    "width": 292,
+    "height": 39,
+    "angle": 8,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:04:27.267",
+        "adjustedEnd": "0:04:36.3093667",
+        "start": "0:04:27.267",
+        "end": "0:04:36.3093667"
+      },
+      {
+        "adjustedStart": "0:04:41.281",
+        "adjustedEnd": "0:04:50.3233667",
+        "start": "0:04:41.281",
+        "end": "0:04:50.3233667"
+      },
+      {
+        "adjustedStart": "0:04:58.298",
+        "adjustedEnd": "0:05:14.3473667",
+        "start": "0:04:58.298",
+        "end": "0:05:14.3473667"
+      },
+      {
+        "adjustedStart": "0:05:16.316",
+        "adjustedEnd": "0:05:31.3643667",
+        "start": "0:05:16.316",
+        "end": "0:05:31.3643667"
+      },
+      {
+        "adjustedStart": "0:05:38.338",
+        "adjustedEnd": "0:05:43.3763667",
+        "start": "0:05:38.338",
+        "end": "0:05:43.3763667"
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "text": "FRED M",
+    "confidence": 0.9915,
+    "left": 789,
+    "top": 1030,
+    "width": 161,
+    "height": 35,
+    "angle": 7,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:04:27.267",
+        "adjustedEnd": "0:04:27.3003667",
+        "start": "0:04:27.267",
+        "end": "0:04:27.3003667"
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "text": "FRED",
+    "confidence": 0.972,
+    "left": 788,
+    "top": 1042,
+    "width": 128,
+    "height": 31,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:04:28.268",
+        "adjustedEnd": "0:04:28.3013667",
+        "start": "0:04:28.268",
+        "end": "0:04:28.3013667"
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "text": "FRED MILLS",
+    "confidence": 0.997,
+    "left": 300,
+    "top": 903,
+    "width": 143,
+    "height": 24,
+    "angle": -9,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:04:29.269",
+        "adjustedEnd": "0:04:36.3093667",
+        "start": "0:04:29.269",
+        "end": "0:04:36.3093667"
+      },
+      {
+        "adjustedStart": "0:04:41.281",
+        "adjustedEnd": "0:04:50.3233667",
+        "start": "0:04:41.281",
+        "end": "0:04:50.3233667"
+      },
+      {
+        "adjustedStart": "0:04:58.298",
+        "adjustedEnd": "0:05:14.3473667",
+        "start": "0:04:58.298",
+        "end": "0:05:14.3473667"
+      },
+      {
+        "adjustedStart": "0:05:16.316",
+        "adjustedEnd": "0:05:31.3643667",
+        "start": "0:05:16.316",
+        "end": "0:05:31.3643667"
+      },
+      {
+        "adjustedStart": "0:05:38.338",
+        "adjustedEnd": "0:05:43.3763667",
+        "start": "0:05:38.338",
+        "end": "0:05:43.3763667"
+      },
+      {
+        "adjustedStart": "0:12:34.754",
+        "adjustedEnd": "0:12:45.7983667",
+        "start": "0:12:34.754",
+        "end": "0:12:45.7983667"
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "text": "CONSTRUCTION",
+    "confidence": 0.992,
+    "left": 363,
+    "top": 740,
+    "width": 191,
+    "height": 23,
+    "angle": -2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:04:41.281",
+        "adjustedEnd": "0:04:50.3233667",
+        "start": "0:04:41.281",
+        "end": "0:04:50.3233667"
+      },
+      {
+        "adjustedStart": "0:04:58.298",
+        "adjustedEnd": "0:05:14.3473667",
+        "start": "0:04:58.298",
+        "end": "0:05:14.3473667"
+      },
+      {
+        "adjustedStart": "0:05:16.316",
+        "adjustedEnd": "0:05:31.3643667",
+        "start": "0:05:16.316",
+        "end": "0:05:31.3643667"
+      },
+      {
+        "adjustedStart": "0:05:38.338",
+        "adjustedEnd": "0:05:43.3763667",
+        "start": "0:05:38.338",
+        "end": "0:05:43.3763667"
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "text": "BUILDS",
+    "confidence": 0.949,
+    "left": 375,
+    "top": 607,
+    "width": 203,
+    "height": 111,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:04:42.282",
+        "adjustedEnd": "0:04:50.3233667",
+        "start": "0:04:42.282",
+        "end": "0:04:50.3233667"
+      },
+      {
+        "adjustedStart": "0:04:58.298",
+        "adjustedEnd": "0:05:05.3383667",
+        "start": "0:04:58.298",
+        "end": "0:05:05.3383667"
+      },
+      {
+        "adjustedStart": "0:05:18.318",
+        "adjustedEnd": "0:05:31.3643667",
+        "start": "0:05:18.318",
+        "end": "0:05:31.3643667"
+      },
+      {
+        "adjustedStart": "0:05:38.338",
+        "adjustedEnd": "0:05:39.3723667",
+        "start": "0:05:38.338",
+        "end": "0:05:39.3723667"
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "text": "2A",
+    "confidence": 0.994,
+    "left": 1271,
+    "top": 132,
+    "width": 43,
+    "height": 29,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:04:51.291",
+        "adjustedEnd": "0:04:51.3243667",
+        "start": "0:04:51.291",
+        "end": "0:04:51.3243667"
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "text": "THE B1M",
+    "confidence": 0.948,
+    "left": 1026,
+    "top": 500,
+    "width": 133,
+    "height": 28,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:33.333",
+        "adjustedEnd": "0:05:33.3663667",
+        "start": "0:05:33.333",
+        "end": "0:05:33.3663667"
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "text": "COURTESY OF TELT",
+    "confidence": 0.997,
+    "left": 1700,
+    "top": 1034,
+    "width": 180,
+    "height": 21,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:34.334",
+        "adjustedEnd": "0:05:34.3673667",
+        "start": "0:05:34.334",
+        "end": "0:05:34.3673667"
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "text": "ENGINS",
+    "confidence": 0.989,
+    "left": 92,
+    "top": 544,
+    "width": 99,
+    "height": 24,
+    "angle": -5,
+    "language": "fr-FR",
+    "instances": [
+      {
+        "adjustedStart": "0:05:35.335",
+        "adjustedEnd": "0:05:35.3683667",
+        "start": "0:05:35.335",
+        "end": "0:05:35.3683667"
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "text": "MANITOU",
+    "confidence": 0.99,
+    "left": 423,
+    "top": 337,
+    "width": 241,
+    "height": 54,
+    "angle": -43,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:37.337",
+        "adjustedEnd": "0:05:37.3703667",
+        "start": "0:05:37.337",
+        "end": "0:05:37.3703667"
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "text": "NEWS 18",
+    "confidence": 0.983,
+    "left": 1593,
+    "top": 88,
+    "width": 203,
+    "height": 52,
+    "angle": -1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:44.344",
+        "adjustedEnd": "0:05:48.3813667",
+        "start": "0:05:44.344",
+        "end": "0:05:48.3813667"
+      },
+      {
+        "adjustedStart": "0:05:50.35",
+        "adjustedEnd": "0:05:51.3843667",
+        "start": "0:05:50.35",
+        "end": "0:05:51.3843667"
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "text": "CNN-NEWS 18",
+    "confidence": 0.9975,
+    "left": 1755,
+    "top": 1036,
+    "width": 126,
+    "height": 19,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:44.344",
+        "adjustedEnd": "0:05:51.3843667",
+        "start": "0:05:44.344",
+        "end": "0:05:51.3843667"
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "text": "NEWS",
+    "confidence": 0.996,
+    "left": 1595,
+    "top": 91,
+    "width": 151,
+    "height": 48,
+    "angle": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:49.349",
+        "adjustedEnd": "0:05:49.3823667",
+        "start": "0:05:49.349",
+        "end": "0:05:49.3823667"
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "text": "Swamp Land",
+    "confidence": 0.9975,
+    "left": 212,
+    "top": 217,
+    "width": 1516,
+    "height": 205,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:05:53.353",
+        "adjustedEnd": "0:05:54.3873667",
+        "start": "0:05:53.353",
+        "end": "0:05:54.3873667"
+      },
+      {
+        "adjustedStart": "0:06:29.389",
+        "adjustedEnd": "0:06:30.4233667",
+        "start": "0:06:29.389",
+        "end": "0:06:30.4233667"
+      },
+      {
+        "adjustedStart": "0:07:16.436",
+        "adjustedEnd": "0:07:17.4703667",
+        "start": "0:07:16.436",
+        "end": "0:07:17.4703667"
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "text": "49m",
+    "confidence": 0.995,
+    "left": 953,
+    "top": 353,
+    "width": 185,
+    "height": 68,
+    "angle": 6,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:04.364",
+        "adjustedEnd": "0:06:04.3973667",
+        "start": "0:06:04.364",
+        "end": "0:06:04.3973667"
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "text": "89m",
+    "confidence": 0.997,
+    "left": 955,
+    "top": 296,
+    "width": 188,
+    "height": 67,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:05.365",
+        "adjustedEnd": "0:06:05.3983667",
+        "start": "0:06:05.365",
+        "end": "0:06:05.3983667"
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "text": "92m",
+    "confidence": 0.997,
+    "left": 967,
+    "top": 291,
+    "width": 181,
+    "height": 72,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:06.366",
+        "adjustedEnd": "0:06:10.4033667",
+        "start": "0:06:06.366",
+        "end": "0:06:10.4033667"
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "text": "DEEPTEC",
+    "confidence": 0.998,
+    "left": 1794,
+    "top": 1035,
+    "width": 87,
+    "height": 18,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:06:14.374",
+        "adjustedEnd": "0:06:23.4163667",
+        "start": "0:06:14.374",
+        "end": "0:06:23.4163667"
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "text": "89M",
+    "confidence": 0.995,
+    "left": 951,
+    "top": 509,
+    "width": 205,
+    "height": 82,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:08:14.494",
+        "adjustedEnd": "0:08:14.5273667",
+        "start": "0:08:14.494",
+        "end": "0:08:14.5273667"
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "text": "200M",
+    "confidence": 0.981,
+    "left": 883,
+    "top": 513,
+    "width": 266,
+    "height": 79,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:08:15.495",
+        "adjustedEnd": "0:08:17.5303667",
+        "start": "0:08:15.495",
+        "end": "0:08:17.5303667"
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "text": "नवी मुंबईत आपले स्वागत आहे नवी मुंबई में आपका स्वागत है",
+    "confidence": 0.992,
+    "left": 216,
+    "top": 486,
+    "width": 1597,
+    "height": 107,
+    "angle": 1,
+    "language": "hi-IN",
+    "instances": [
+      {
+        "adjustedStart": "0:08:35.515",
+        "adjustedEnd": "0:08:36.5493667",
+        "start": "0:08:35.515",
+        "end": "0:08:36.5493667"
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "text": "Welcome to Navi Mumbai",
+    "confidence": 0.9975,
+    "left": 676,
+    "top": 668,
+    "width": 826,
+    "height": 69,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:08:35.515",
+        "adjustedEnd": "0:08:36.5493667",
+        "start": "0:08:35.515",
+        "end": "0:08:36.5493667"
+      },
+      {
+        "adjustedStart": "0:08:41.521",
+        "adjustedEnd": "0:08:42.5553667",
+        "start": "0:08:41.521",
+        "end": "0:08:42.5553667"
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "text": "त आपले स्वागत आहे नवी मुंबई में आपका स्वार",
+    "confidence": 0.9071,
+    "left": 738,
+    "top": 276,
+    "width": 571,
+    "height": 49,
+    "angle": -2,
+    "language": "hi-IN",
+    "instances": [
+      {
+        "adjustedStart": "0:08:41.521",
+        "adjustedEnd": "0:08:42.5553667",
+        "start": "0:08:41.521",
+        "end": "0:08:42.5553667"
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "text": "Transfers",
+    "confidence": 0.98,
+    "left": 784,
+    "top": 464,
+    "width": 75,
+    "height": 22,
+    "angle": -2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:08:41.521",
+        "adjustedEnd": "0:08:42.5553667",
+        "start": "0:08:41.521",
+        "end": "0:08:42.5553667"
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "text": "December, 2025",
+    "confidence": 0.996,
+    "left": 144,
+    "top": 822,
+    "width": 412,
+    "height": 50,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:08:41.521",
+        "adjustedEnd": "0:08:44.5573667",
+        "start": "0:08:41.521",
+        "end": "0:08:44.5573667"
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "text": "20M",
+    "confidence": 0.989,
+    "left": 632,
+    "top": 358,
+    "width": 652,
+    "height": 269,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:08:52.532",
+        "adjustedEnd": "0:08:54.5673667",
+        "start": "0:08:52.532",
+        "end": "0:08:54.5673667"
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "text": "Passengers Per Year",
+    "confidence": 0.997,
+    "left": 514,
+    "top": 651,
+    "width": 914,
+    "height": 80,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:08:53.533",
+        "adjustedEnd": "0:08:54.5673667",
+        "start": "0:08:53.533",
+        "end": "0:08:54.5673667"
+      },
+      {
+        "adjustedStart": "0:09:13.553",
+        "adjustedEnd": "0:09:14.5873667",
+        "start": "0:09:13.553",
+        "end": "0:09:14.5873667"
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "text": "500,000 MT",
+    "confidence": 0.997,
+    "left": 211,
+    "top": 392,
+    "width": 1512,
+    "height": 224,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:08:55.535",
+        "adjustedEnd": "0:08:57.5703667",
+        "start": "0:08:55.535",
+        "end": "0:08:57.5703667"
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "text": "Cargo Per Year",
+    "confidence": 0.997,
+    "left": 618,
+    "top": 662,
+    "width": 702,
+    "height": 81,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:08:55.535",
+        "adjustedEnd": "0:08:57.5703667",
+        "start": "0:08:55.535",
+        "end": "0:08:57.5703667"
+      },
+      {
+        "adjustedStart": "0:09:16.556",
+        "adjustedEnd": "0:09:18.5913667",
+        "start": "0:09:16.556",
+        "end": "0:09:18.5913667"
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "text": "90M",
+    "confidence": 0.968,
+    "left": 632,
+    "top": 358,
+    "width": 687,
+    "height": 256,
+    "angle": 2,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:09:13.553",
+        "adjustedEnd": "0:09:14.5873667",
+        "start": "0:09:13.553",
+        "end": "0:09:14.5873667"
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "text": "3M+",
+    "confidence": 0.903,
+    "left": 657,
+    "top": 358,
+    "width": 633,
+    "height": 244,
+    "angle": 5,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:09:15.555",
+        "adjustedEnd": "0:09:18.5913667",
+        "start": "0:09:15.555",
+        "end": "0:09:18.5913667"
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "text": "A Akasa Air",
+    "confidence": 0.9817,
+    "left": 59,
+    "top": 128,
+    "width": 236,
+    "height": 47,
+    "angle": 17,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:09:41.581",
+        "adjustedEnd": "0:09:43.6163667",
+        "start": "0:09:41.581",
+        "end": "0:09:43.6163667"
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "text": "C2",
+    "confidence": 0.997,
+    "left": 671,
+    "top": 412,
+    "width": 32,
+    "height": 28,
+    "angle": 7,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:09:41.581",
+        "adjustedEnd": "0:09:43.6163667",
+        "start": "0:09:41.581",
+        "end": "0:09:43.6163667"
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "text": "C3",
+    "confidence": 0.961,
+    "left": 751,
+    "top": 428,
+    "width": 28,
+    "height": 24,
+    "angle": 6,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:09:41.581",
+        "adjustedEnd": "0:09:41.6143667",
+        "start": "0:09:41.581",
+        "end": "0:09:41.6143667"
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "text": "C1",
+    "confidence": 0.998,
+    "left": 24,
+    "top": 292,
+    "width": 64,
+    "height": 58,
+    "angle": 7,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:09:42.582",
+        "adjustedEnd": "0:09:43.6163667",
+        "start": "0:09:42.582",
+        "end": "0:09:43.6163667"
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "text": "Flight",
+    "confidence": 0.994,
+    "left": 990,
+    "top": 645,
+    "width": 40,
+    "height": 17,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:10:56.656",
+        "adjustedEnd": "0:11:00.6933667",
+        "start": "0:10:56.656",
+        "end": "0:11:00.6933667"
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "text": "Origi",
+    "confidence": 0.965,
+    "left": 1127,
+    "top": 649,
+    "width": 35,
+    "height": 15,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:10:56.656",
+        "adjustedEnd": "0:10:56.6893667",
+        "start": "0:10:56.656",
+        "end": "0:10:56.6893667"
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "text": "Status",
+    "confidence": 0.998,
+    "left": 1246,
+    "top": 654,
+    "width": 44,
+    "height": 12,
+    "angle": 1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:10:56.656",
+        "adjustedEnd": "0:11:00.6933667",
+        "start": "0:10:56.656",
+        "end": "0:11:00.6933667"
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "text": "Origin",
+    "confidence": 0.974,
+    "left": 1162,
+    "top": 646,
+    "width": 44,
+    "height": 16,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:10:57.657",
+        "adjustedEnd": "0:11:00.6933667",
+        "start": "0:10:57.657",
+        "end": "0:11:00.6933667"
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "text": "NARENDRA MODI",
+    "confidence": 0.996,
+    "left": 1717,
+    "top": 1033,
+    "width": 164,
+    "height": 20,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:11:25.685",
+        "adjustedEnd": "0:11:28.7213667",
+        "start": "0:11:25.685",
+        "end": "0:11:28.7213667"
+      },
+      {
+        "adjustedStart": "0:11:33.693",
+        "adjustedEnd": "0:11:38.7313667",
+        "start": "0:11:33.693",
+        "end": "0:11:38.7313667"
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "text": "Mum",
+    "confidence": 0.993,
+    "left": 146,
+    "top": 914,
+    "width": 130,
+    "height": 45,
+    "angle": 3,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:11:27.687",
+        "adjustedEnd": "0:11:27.7203667",
+        "start": "0:11:27.687",
+        "end": "0:11:27.7203667"
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "text": "Mumbai Trans Harbour Link",
+    "confidence": 0.9975,
+    "left": 146,
+    "top": 908,
+    "width": 689,
+    "height": 48,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:11:28.688",
+        "adjustedEnd": "0:11:32.7253667",
+        "start": "0:11:28.688",
+        "end": "0:11:32.7253667"
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "text": "NISE LEISURE",
+    "confidence": 0.995,
+    "left": 1756,
+    "top": 1034,
+    "width": 125,
+    "height": 20,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:11:29.689",
+        "adjustedEnd": "0:11:32.7253667",
+        "start": "0:11:29.689",
+        "end": "0:11:32.7253667"
+      }
+    ]
+  },
+  {
+    "id": 147,
+    "text": "DAILY NIRAV VLOGS - DNV",
+    "confidence": 0.9938,
+    "left": 1637,
+    "top": 1034,
+    "width": 245,
+    "height": 22,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:11:39.699",
+        "adjustedEnd": "0:11:44.7373667",
+        "start": "0:11:39.699",
+        "end": "0:11:44.7373667"
+      }
+    ]
+  },
+  {
+    "id": 148,
+    "text": "2026 THE BIM LIMITED",
+    "confidence": 0.9348,
+    "left": 1527,
+    "top": 1020,
+    "width": 328,
+    "height": 27,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:12:33.753",
+        "adjustedEnd": "0:12:45.7983667",
+        "start": "0:12:33.753",
+        "end": "0:12:45.7983667"
+      }
+    ]
+  },
+  {
+    "id": 149,
+    "text": "NARRATOR",
+    "confidence": 0.997,
+    "left": 65,
+    "top": 203,
+    "width": 183,
+    "height": 26,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:12:34.754",
+        "adjustedEnd": "0:12:45.7983667",
+        "start": "0:12:34.754",
+        "end": "0:12:45.7983667"
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "text": "PRODUCER",
+    "confidence": 0.998,
+    "left": 65,
+    "top": 328,
+    "width": 182,
+    "height": 23,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:12:34.754",
+        "adjustedEnd": "0:12:45.7983667",
+        "start": "0:12:34.754",
+        "end": "0:12:45.7983667"
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "text": "JAMES RABEY",
+    "confidence": 0.998,
+    "left": 62,
+    "top": 353,
+    "width": 207,
+    "height": 21,
+    "angle": -1,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:12:34.754",
+        "adjustedEnd": "0:12:45.7983667",
+        "start": "0:12:34.754",
+        "end": "0:12:45.7983667"
+      }
+    ]
+  },
+  {
+    "id": 152,
+    "text": "SERENA JONES",
+    "confidence": 0.998,
+    "left": 63,
+    "top": 738,
+    "width": 223,
+    "height": 23,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:12:34.754",
+        "adjustedEnd": "0:12:45.7983667",
+        "start": "0:12:34.754",
+        "end": "0:12:45.7983667"
+      }
+    ]
+  },
+  {
+    "id": 153,
+    "text": "JAMES DURKIN",
+    "confidence": 0.9945,
+    "left": 65,
+    "top": 766,
+    "width": 215,
+    "height": 26,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:12:34.754",
+        "adjustedEnd": "0:12:45.7983667",
+        "start": "0:12:34.754",
+        "end": "0:12:45.7983667"
+      }
+    ]
+  },
+  {
+    "id": 154,
+    "text": "VIDEO EDITOR",
+    "confidence": 0.998,
+    "left": 63,
+    "top": 441,
+    "width": 238,
+    "height": 28,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:12:35.755",
+        "adjustedEnd": "0:12:45.7983667",
+        "start": "0:12:35.755",
+        "end": "0:12:45.7983667"
+      }
+    ]
+  },
+  {
+    "id": 155,
+    "text": "JIM CASEY",
+    "confidence": 0.9865,
+    "left": 65,
+    "top": 477,
+    "width": 153,
+    "height": 26,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:12:35.755",
+        "adjustedEnd": "0:12:45.7983667",
+        "start": "0:12:35.755",
+        "end": "0:12:45.7983667"
+      }
+    ]
+  },
+  {
+    "id": 156,
+    "text": "MOTION GRAPHICS",
+    "confidence": 0.996,
+    "left": 66,
+    "top": 558,
+    "width": 301,
+    "height": 29,
+    "angle": 0,
+    "language": "pt-PT",
+    "instances": [
+      {
+        "adjustedStart": "0:12:35.755",
+        "adjustedEnd": "0:12:45.7983667",
+        "start": "0:12:35.755",
+        "end": "0:12:45.7983667"
+      }
+    ]
+  },
+  {
+    "id": 157,
+    "text": "VINCE NORTH",
+    "confidence": 0.998,
+    "left": 65,
+    "top": 596,
+    "width": 202,
+    "height": 25,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:12:35.755",
+        "adjustedEnd": "0:12:45.7983667",
+        "start": "0:12:35.755",
+        "end": "0:12:45.7983667"
+      }
+    ]
+  },
+  {
+    "id": 158,
+    "text": "EXECUTIVE PRODUCERS",
+    "confidence": 0.9945,
+    "left": 67,
+    "top": 681,
+    "width": 387,
+    "height": 26,
+    "angle": 0,
+    "language": "en-US",
+    "instances": [
+      {
+        "adjustedStart": "0:12:35.755",
+        "adjustedEnd": "0:12:45.7983667",
+        "start": "0:12:35.755",
+        "end": "0:12:45.7983667"
+      }
+    ]
+  }
+]

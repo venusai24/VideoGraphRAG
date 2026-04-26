@@ -1,0 +1,17 @@
+2026-04-26 02:33:41,347 - numexpr.utils - INFO - Note: NumExpr detected 32 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2026-04-26 02:33:41,347 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2026-04-26 02:34:46,650 - RebuildGraph - INFO - Processing 1 output directories...
+2026-04-26 02:34:46,650 - RebuildGraph - INFO - ============================================================
+2026-04-26 02:34:46,650 - RebuildGraph - INFO - Video: b120483a
+2026-04-26 02:34:46,650 - RebuildGraph - INFO -   Path:            outputs/b120483a
+2026-04-26 02:34:46,650 - RebuildGraph - INFO -   reconstructed:   ✓
+2026-04-26 02:34:46,651 - RebuildGraph - INFO -   clips/:          ✓
+2026-04-26 02:34:46,651 - RebuildGraph - INFO -   missing required:    none
+2026-04-26 02:34:46,651 - RebuildGraph - INFO -   missing recommended: none
+2026-04-26 02:34:46,651 - RebuildGraph - INFO -   [DRY RUN] Would rebuild graph for b120483a
+2026-04-26 02:34:46,651 - RebuildGraph - INFO - 
+============================================================
+2026-04-26 02:34:46,651 - RebuildGraph - INFO - SUMMARY
+2026-04-26 02:34:46,651 - RebuildGraph - INFO -   Success: 1
+2026-04-26 02:34:46,651 - RebuildGraph - INFO -   Failed:  0
+2026-04-26 02:34:46,651 - RebuildGraph - INFO -   Skipped: 0
