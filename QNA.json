@@ -1,0 +1,364 @@
+[
+  {
+    "id": "D1",
+    "level": "direct",
+    "question": "How many copper needles were intended to be launched as part of Project West Ford?",
+    "expected_answer": "480 million",
+    "answer_type": "numeric",
+    "keywords": ["480 million", "4.8e8", "needles count"],
+    "tolerance": 0
+  },
+  {
+    "id": "D2",
+    "level": "direct",
+    "question": "What was the physical length of an individual copper needle?",
+    "expected_answer": "1.8 centimeters",
+    "answer_type": "numeric",
+    "keywords": ["1.8 cm", "1.8 centimeters"],
+    "tolerance": 0.1
+  },
+  {
+    "id": "M1",
+    "level": "medium",
+    "question": "What problem was the artificial ionosphere designed to solve?",
+    "expected_answer": "Provide backup long-range communication in case undersea cables were destroyed, especially during solar storms or Soviet attacks.",
+    "answer_type": "abstractive",
+    "keywords": [
+      "backup communication",
+      "undersea cables",
+      "solar storm",
+      "USSR",
+      "redundancy"
+    ]
+  },
+  {
+    "id": "M2",
+    "level": "medium",
+    "question": "What was the purpose of the naphthalene gel in deploying the needles?",
+    "expected_answer": "It prevented the needles from tangling and later sublimated in space, allowing them to disperse gradually.",
+    "answer_type": "abstractive",
+    "keywords": [
+      "prevent tangling",
+      "sublimate",
+      "disperse",
+      "release mechanism"
+    ]
+  },
+  {
+    "id": "H1",
+    "level": "difficult",
+    "question": "How did the failure in 1961 relate to the success in 1963?",
+    "expected_answer": "The 1961 launch failed due to a release mechanism issue, while the 1963 launch fixed it and successfully deployed a needle belt enabling communication.",
+    "answer_type": "multi-hop",
+    "keywords": [
+      "1961 failure",
+      "release mechanism",
+      "1963 success",
+      "needle belt",
+      "communication"
+    ],
+    "requires_multi_hop": true
+  },
+  {
+    "id": "H2",
+    "level": "difficult",
+    "question": "How did the controversy over orbital debris influence space law?",
+    "expected_answer": "It led to the Outer Space Treaty of 1967, especially Article IX requiring nations to avoid harmful interference and respect others' interests.",
+    "answer_type": "multi-hop",
+    "keywords": [
+      "controversy",
+      "astronomers",
+      "Outer Space Treaty",
+      "Article IX",
+      "harmful interference"
+    ],
+    "requires_multi_hop": true
+  },{
+    "id": "D1",
+    "level": "direct",
+    "question": "What is the name of the international airport in Northern Cyprus that is described as illegal?",
+    "expected_answer": "Ercan International Airport",
+    "aliases": ["Ercan Havalimanı"],
+    "answer_type": "entity",
+    "keywords": ["ercan", "airport"]
+  },
+  {
+    "id": "D2",
+    "level": "direct",
+    "question": "What is the only country that serves as a destination for international flights from Ercan Airport?",
+    "expected_answer": "Turkey",
+    "answer_type": "entity",
+    "keywords": ["turkey"]
+  },
+  {
+    "id": "M1",
+    "level": "medium",
+    "question": "Why is the Cyprus partition compared to an 8th-grade dance?",
+    "expected_answer": "It describes how the two sides are separated and not allowed to interact despite being close.",
+    "answer_type": "abstractive",
+    "keywords": [
+      "separated",
+      "partition",
+      "not allowed to cross",
+      "opposite sides",
+      "no interaction"
+    ]
+  },
+  {
+    "id": "M2",
+    "level": "medium",
+    "question": "Why are British tourists particularly drawn to Cyprus?",
+    "expected_answer": "Because of beach tourism culture and Cyprus being a former British territory.",
+    "answer_type": "abstractive",
+    "keywords": [
+      "beaches",
+      "tourism",
+      "former british territory",
+      "history",
+      "british influence"
+    ]
+  },
+  {
+    "id": "H1",
+    "level": "difficult",
+    "question": "Explain the Samlandia analogy and its relevance to Ercan Airport's legal status.",
+    "expected_answer": "It shows that only recognized states can authorize international airports, and Northern Cyprus is not widely recognized.",
+    "answer_type": "multi-hop",
+    "keywords": [
+      "not recognized",
+      "sovereignty",
+      "international law",
+      "chicago convention",
+      "airport legality"
+    ],
+    "requires_multi_hop": true
+  },
+  {
+    "id": "H2",
+    "level": "difficult",
+    "question": "What legal risk does a traveler face when entering Cyprus through Ercan and leaving via the south?",
+    "expected_answer": "They lack a valid entry record and may face legal issues when exiting through the Republic of Cyprus.",
+    "answer_type": "multi-hop",
+    "keywords": [
+      "no entry record",
+      "immigration issue",
+      "illegal entry",
+      "checkpoint",
+      "legal risk"
+    ],
+    "requires_multi_hop": true
+  },
+  {
+    "id": "F1",
+    "level": "direct",
+    "question": "Who built the Seattle Space Needle?",
+    "expected_answer": "Howard S. Wright Construction Company",
+    "aliases": ["Balfour Beatty"],
+    "answer_type": "entity",
+    "keywords": ["wright", "construction"]
+  },
+  {
+    "id": "F2",
+    "level": "direct",
+    "question": "What frequency were the copper needles designed to reflect?",
+    "expected_answer": "8 GHz",
+    "answer_type": "numeric",
+    "keywords": ["8 ghz", "gigahertz"],
+    "tolerance": 0
+  },
+  {
+    "id": "F3",
+    "level": "direct",
+    "question": "Which treaty resulted from the Project West Ford controversy?",
+    "expected_answer": "Outer Space Treaty of 1967",
+    "answer_type": "entity",
+    "keywords": ["outer space treaty", "1967", "article ix"]
+  },
+  {
+    "id": "F4",
+    "level": "medium",
+    "question": "How is Westford, Massachusetts connected to Project West Ford?",
+    "expected_answer": "The project was named after it and it hosted the Millstone Hill transmission facility.",
+    "answer_type": "multi-span",
+    "keywords": [
+      "named after westford",
+      "millstone hill",
+      "transmitter",
+      "massachusetts"
+    ]
+  },
+{
+    "id": "E1",
+    "level": "easy",
+    "question": "What is the planned annual passenger capacity of Navi Mumbai International Airport?",
+    "expected_answer": "90 million passengers per year",
+    "answer_type": "numeric",
+    "keywords": ["90 million", "passenger capacity"],
+    "timestamp": ["00:20"]
+  },
+  {
+    "id": "E2",
+    "level": "easy",
+    "question": "Which firm designed Navi Mumbai International Airport and what is the design inspired by?",
+    "expected_answer": "Zaha Hadid Architects, inspired by a lotus flower",
+    "answer_type": "entity",
+    "keywords": ["zaha hadid", "lotus"],
+    "timestamp": ["09:21"]
+  },
+  {
+    "id": "E3",
+    "level": "easy",
+    "question": "When did the first phase of Navi Mumbai International Airport open?",
+    "expected_answer": "December 2025",
+    "aliases": ["Christmas Day 2025"],
+    "answer_type": "date",
+    "keywords": ["2025", "december"],
+    "timestamp": ["00:11", "08:38"]
+  },
+  {
+    "id": "M1",
+    "level": "medium",
+    "question": "What were the major geographical challenges at the Navi Mumbai airport site?",
+    "expected_answer": "A 92-meter hill, swampy mangroves/mudflats, and a river",
+    "answer_type": "multi-span",
+    "keywords": ["hill", "swamp", "mangroves", "river"],
+    "timestamp": ["05:46", "07:22"]
+  },
+  {
+    "id": "M2",
+    "level": "medium",
+    "question": "How was the flattened hill used to stabilize the swampy land?",
+    "expected_answer": "Blasted rock was used to raise ground level and compact marshy soil",
+    "answer_type": "abstractive",
+    "keywords": ["blasted rock", "raise ground", "compact soil", "swamp"],
+    "timestamp": ["06:16", "07:05"]
+  },
+  {
+    "id": "M3",
+    "level": "medium",
+    "question": "What dual purpose do the skylights in the terminal roof serve?",
+    "expected_answer": "They allow natural light and manage rainwater and wind resistance",
+    "answer_type": "abstractive",
+    "keywords": ["natural light", "rainwater", "wind"],
+    "timestamp": ["10:20", "10:31"]
+  },
+  {
+    "id": "H1",
+    "level": "hard",
+    "question": "How do the runway designs differ between the old Mumbai airport and Navi Mumbai airport?",
+    "expected_answer": "Old airport has intersecting runways; new airport has parallel runways for higher capacity",
+    "answer_type": "multi-hop",
+    "keywords": ["intersecting", "parallel", "capacity", "runways"],
+    "requires_multi_hop": true,
+    "timestamp": ["03:13", "03:25", "09:03"]
+  },
+  {
+    "id": "H2",
+    "level": "hard",
+    "question": "What environmental risks were caused by construction and how were they mitigated?",
+    "expected_answer": "Flooding risk due to wetland removal, mitigated by expanding the Ulwe River",
+    "answer_type": "multi-hop",
+    "keywords": ["flooding", "wetlands", "ulwe river", "mitigation"],
+    "requires_multi_hop": true,
+    "timestamp": ["07:54", "08:08"]
+  },
+  {
+    "id": "H3",
+    "level": "hard",
+    "question": "Why might passengers struggle to use app-based transport at the airport currently?",
+    "expected_answer": "Lack of rail connectivity and poor mobile network",
+    "answer_type": "multi-hop",
+    "keywords": ["no metro", "no rail", "poor network", "connectivity"],
+    "requires_multi_hop": true,
+    "timestamp": ["11:02", "11:06"]
+  },
+  {
+    "id": "X1",
+    "level": "expert",
+    "question": "How is the large terminal roof structurally supported while keeping the interior open?",
+    "expected_answer": "Supported by petal-shaped columns, hidden columns, and large-span steel trusses",
+    "answer_type": "technical",
+    "keywords": ["columns", "trusses", "girders", "structure"],
+    "timestamp": ["09:43", "10:08"]
+  },
+   {
+    "id": "A1",
+    "level": "easy",
+    "question": "Which airport was built on swamp land?",
+    "expected_answer": "Navi Mumbai International Airport",
+    "golden_truth": "Navi Mumbai International Airport was constructed on reclaimed swampy land.",
+    "answer_type": "entity",
+    "keywords": ["navi mumbai", "swamp"]
+  },
+  {
+    "id": "A2",
+    "level": "easy",
+    "question": "Navi Mumbai airport was built on what type of land?",
+    "expected_answer": "Swampy mangroves and mudflats",
+    "golden_truth": "The airport was built on swampy mangrove wetlands and mudflats.",
+    "answer_type": "span",
+    "keywords": ["swamp", "mangroves", "mudflats"]
+  },
+ {
+    "id": "E1",
+    "level": "easy",
+    "question": "What is the name of the first skyscraper built in Paris that is the focus of the video?",
+    "expected_answer": "Tour Montparnasse",
+    "golden_truth": "The first skyscraper highlighted in the video is the Tour Montparnasse in Paris.",
+    "answer_type": "entity",
+    "keywords": ["tour montparnasse", "skyscraper paris"],
+    "timestamp": ["00:33"]
+  },
+  {
+    "id": "E2",
+    "level": "easy",
+    "question": "What are the height and office space of the Tour Montparnasse?",
+    "expected_answer": "210 meters and 120000 square meters",
+    "golden_truth": "The Tour Montparnasse is 210 meters tall and contains approximately 120,000 square meters of office space.",
+    "answer_type": "numeric_multi",
+    "keywords": ["210 meters", "120000 sqm", "height", "office space"],
+    "timestamp": ["00:42"]
+  },
+  {
+    "id": "M1",
+    "level": "medium",
+    "question": "What law was introduced in 1977 in response to the construction of Tour Montparnasse?",
+    "expected_answer": "Ban on buildings taller than 25 meters in central Paris",
+    "golden_truth": "In 1977, a law banned buildings taller than 25 meters in central Paris, and it remained in effect for 33 years.",
+    "answer_type": "abstractive",
+    "keywords": ["25 meters", "height restriction", "ban", "central paris", "1977"],
+    "timestamp": ["01:39"]
+  },
+  {
+    "id": "M2",
+    "level": "medium",
+    "question": "How did engineers prevent damage to Metro Line 6 during construction?",
+    "expected_answer": "They reinforced the tunnel with concrete walls and beams",
+    "golden_truth": "Engineers built reinforced concrete walls on both sides of the metro line and installed four concrete beams above it to support up to 40,000 tons and prevent collapse.",
+    "answer_type": "abstractive",
+    "keywords": ["reinforced walls", "concrete beams", "metro line 6", "support"],
+    "timestamp": ["08:16"]
+  },
+  {
+    "id": "H1",
+    "level": "hard",
+    "question": "What is slip forming and how fast did the building core grow using this method?",
+    "expected_answer": "Continuous concrete pouring method growing about 30 cm per day",
+    "golden_truth": "Slip forming is a continuous construction technique where concrete is poured non-stop and the mold is gradually raised using hydraulic jacks, allowing the tower core to grow at about 30 centimeters per day.",
+    "answer_type": "multi-hop",
+    "keywords": ["slip forming", "continuous pour", "hydraulic jacks", "30 cm per day"],
+    "requires_multi_hop": true,
+    "timestamp": ["10:04"]
+  },
+  {
+    "id": "H2",
+    "level": "hard",
+    "question": "What changes are proposed in the Nouvelle AOM renovation plan?",
+    "expected_answer": "Transparent facade, sky gardens, and ventilation openings",
+    "golden_truth": "The renovation plan proposes transparent glazing to reduce visual impact, horizontal sky gardens to break the building’s vertical mass, and facade openings for natural ventilation.",
+    "answer_type": "multi-hop",
+    "keywords": ["transparent glazing", "sky gardens", "ventilation", "facade"],
+    "requires_multi_hop": true,
+    "timestamp": ["13:48"]
+  }
+]

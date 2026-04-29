@@ -1,0 +1,4 @@
+{"query": "Which airport was built on swamp land?", "provider_attempts": [], "final_provider": "fast_path", "final_model": "fast_path", "total_llm_time": 0.006087292000302114}
+{"query": "what happend in jan 2017", "provider_attempts": [], "final_provider": "fast_path", "final_model": "fast_path", "total_llm_time": 0.009439166002266575}
+{"query": "What happened in jan 2017", "provider_attempts": [], "final_provider": "fast_path", "final_model": "fast_path", "total_llm_time": 0.00048145799519261345}
+{"query": "What happened in jan 2017", "provider_attempts": [], "final_provider": "fast_path", "final_model": "fast_path", "total_llm_time": 0.0008686669971211813}

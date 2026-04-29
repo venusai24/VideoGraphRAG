@@ -18,7 +18,7 @@ class SubQuery(BaseModel):
     id: str = Field(..., description="Unique identifier, e.g. 'Q1'.")
     type: str = Field(..., description="Sub-query type, e.g. 'entity_lookup', 'temporal_traversal'.")
     goal: str = Field(..., description="What this sub-query resolves.")
-    required_graph_components: List[Literal["APPEARS_IN", "NEXT", "SHARES_ENTITY", "RELATED_TO", "SUBCLASS_OF", "EntityRef", "ClipRef"]] = Field(...)
+    required_graph_components: List[Literal["APPEARS_IN", "NEXT", "SHARES_ENTITY", "RELATED_TO", "EntityRef", "ClipRef"]] = Field(...)
 
 
 # ─── Structured Execution Step types ───────────────────────────────────────────
@@ -34,7 +34,7 @@ class StepTraverse(BaseModel):
     step: int
     operation: Literal["traverse"]
     from_node: str = Field(..., alias="from", description="Source node type or variable (EntityRef / ClipRef).")
-    edge: Literal["APPEARS_IN", "NEXT", "SHARES_ENTITY", "RELATED_TO", "SUBCLASS_OF"]
+    edge: Literal["APPEARS_IN", "NEXT", "SHARES_ENTITY", "RELATED_TO"]
     to_node: str = Field(..., alias="to", description="Target node type or variable (EntityRef / ClipRef).")
     filter: Optional[Dict[str, Any]] = Field(None, description="Optional filter conditions on traversal.")
 
@@ -78,6 +78,7 @@ class QueryDecomposition(BaseModel):
     )
     confidence: float = Field(0.0, ge=0.0, le=1.0)
     ambiguity_flags: List[str] = Field(default_factory=list)
+    llm_logs: Optional[Dict[str, Any]] = Field(None, description="Observability logs for the LLM execution.")
 
 
     def get_typed_execution_plan(self) -> List[ExecutionStep]:
@@ -102,3 +103,4 @@ class FailureResponse(BaseModel):
     status: str = Field("failure")
     reason: str
     fallback: Optional[Any] = None
+    llm_logs: Optional[Dict[str, Any]] = Field(None, description="Observability logs for the failed LLM execution.")

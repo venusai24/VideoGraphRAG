@@ -41,7 +41,13 @@ from .models import (
 )
 
 VALID_OPERATIONS = {"resolve_entity", "traverse", "filter", "temporal_traverse", "extract"}
-VALID_EDGES = {"APPEARS_IN", "NEXT", "SHARES_ENTITY", "RELATED_TO", "SUBCLASS_OF"}
+VALID_EDGES = {"APPEARS_IN", "NEXT", "SHARES_ENTITY", "RELATED_TO"}
+
+# ── Hard traversal limits ──────────────────────────────────────────────────────
+MAX_NODES_PER_STEP = 50
+MAX_TOTAL_EXPANSIONS = 300
+EARLY_STOP_SCORE_THRESHOLD = 0.3
+EARLY_STOP_AFTER_STEP = 2
 
 logger = logging.getLogger(__name__)
 
@@ -186,8 +192,15 @@ class TraversalExecutor:
 
         # Seed with a single empty state
         states: List[TraversalState] = [TraversalState()]
+        total_expansions = 0
+        traversal_telemetry = {
+            "nodes_expanded": 0,
+            "depth_reached": 0,
+            "fallback_triggered": False,
+            "early_stop": False,
+        }
 
-        for step in typed_steps:
+        for step_idx, step in enumerate(typed_steps):
             if not states:
                 logger.warning("All states pruned before plan completion.")
                 break
@@ -198,8 +211,44 @@ class TraversalExecutor:
                 f"active_states={len(states)}"
             )
 
+            # HARD LIMIT: total expansion budget
+            if total_expansions >= MAX_TOTAL_EXPANSIONS:
+                logger.warning(
+                    f"Traversal expansion limit reached ({MAX_TOTAL_EXPANSIONS}). "
+                    f"Stopping early at step {step_idx+1}."
+                )
+                traversal_telemetry["early_stop"] = True
+                break
+
             states = self._dispatch(step, states)
+
+            # Enforce per-step node limit
+            if len(states) > MAX_NODES_PER_STEP:
+                states.sort(key=lambda s: s.score, reverse=True)
+                states = states[:MAX_NODES_PER_STEP]
+                logger.info(f"Per-step limit: pruned to {MAX_NODES_PER_STEP} states")
+
+            total_expansions += len(states)
             states = self._prune(states)
+
+            # Track telemetry
+            max_depth = max((s.depth for s in states), default=0)
+            traversal_telemetry["depth_reached"] = max(traversal_telemetry["depth_reached"], max_depth)
+            traversal_telemetry["nodes_expanded"] = total_expansions
+
+            # Early termination: if avg score < threshold after step 2
+            if step_idx >= EARLY_STOP_AFTER_STEP and states:
+                avg_score = sum(s.score for s in states) / len(states)
+                if avg_score < EARLY_STOP_SCORE_THRESHOLD:
+                    logger.warning(
+                        f"Early termination: avg score {avg_score:.3f} < {EARLY_STOP_SCORE_THRESHOLD} "
+                        f"after step {step_idx+1}. Falling back to keyword search."
+                    )
+                    traversal_telemetry["early_stop"] = True
+                    traversal_telemetry["fallback_triggered"] = True
+                    break
+
+        logger.info(f"Traversal telemetry: {traversal_telemetry}")
 
         # ── collect & re-rank ────────────────────────────────────────────────
         candidates = self._collect_candidates(states)
@@ -310,8 +359,6 @@ class TraversalExecutor:
                 if edge_type == "APPEARS_IN":
                     # Confidence from MappingStore is typically 0.0-1.0
                     boost = 1.2 * edge.weight
-                elif edge_type == "SUBCLASS_OF":
-                    boost = 1.1  # Prefer hierarchical traversal
                 else:
                     boost = 1.0
 

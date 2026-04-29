@@ -31,11 +31,11 @@ if _preprocessing_dir not in sys.path:
 if os.path.join(_preprocessing_dir, "config") not in sys.path:
     sys.path.insert(0, os.path.join(_preprocessing_dir, "config"))
 
-    from graph_store.connection import MultiGraphManager, GraphConnection  # noqa: E402
-    from graph_store.mapping_store import MappingStore  # noqa: E402
-    from dotenv import load_dotenv  # noqa: E402
+from graph_store.connection import MultiGraphManager, GraphConnection  # noqa: E402
+from graph_store.mapping_store import MappingStore  # noqa: E402
+from dotenv import load_dotenv  # noqa: E402
 
-    load_dotenv()
+load_dotenv()
 
 logger = logging.getLogger(__name__)
 
@@ -433,6 +433,7 @@ class GraphAPI:
             "       c.start AS start, c.end AS end, "
             "       c.transcript AS transcript, c.ocr AS ocr, "
             "       c.keywords AS keywords, c.summary AS summary, "
+            "       c.clip_path AS clip_path, "
             "       c.average_sentiment AS average_sentiment, "
             "       c.emotion AS emotion, c.speaker_ids AS speaker_ids"
         )
@@ -460,7 +461,82 @@ class GraphAPI:
             if nid not in self._property_cache:
                 self._property_cache[nid] = {}
 
-    # ── 6. Cache management ─────────────────────────────────────────────────
+    # ── 6. Keyword fallback search ──────────────────────────────────────────
+
+    def keyword_fallback_search(
+        self,
+        keywords: List[str],
+        top_k: int = 15,
+    ) -> List[Dict[str, Any]]:
+        """
+        Full-text keyword search across clip transcripts, OCR, summaries, and
+        keyword fields.  Used as a last-resort retrieval when entity resolution
+        fails to produce any graph candidates.
+
+        Returns a list of dicts with keys: clip_id, score, match_fields.
+        Clips are ranked by weighted keyword hit count.
+
+        Weight scheme:
+            transcript match → 1.2
+            ocr match        → 1.0
+            keywords match   → 1.0
+            summary match    → 0.5
+        """
+        self._ensure_connected()
+
+        if not keywords:
+            return []
+
+        # Build a Cypher query that checks all text fields for any keyword
+        # We use toLower(field) CONTAINS toLower(keyword) for case-insensitive matching
+        conditions = []
+        for i, kw in enumerate(keywords[:5]):  # Cap at 5 keywords to avoid Cypher explosion
+            param_name = f"kw{i}"
+            conditions.append(
+                f"(CASE WHEN toLower(c.transcript) CONTAINS ${param_name} THEN 1.2 ELSE 0 END + "
+                f"CASE WHEN toLower(c.ocr) CONTAINS ${param_name} THEN 1.0 ELSE 0 END + "
+                f"CASE WHEN toLower(c.keywords) CONTAINS ${param_name} THEN 1.0 ELSE 0 END + "
+                f"CASE WHEN toLower(c.summary) CONTAINS ${param_name} THEN 0.5 ELSE 0 END)"
+            )
+
+        score_expr = " + ".join(conditions) if conditions else "0"
+        params = {f"kw{i}": kw.lower() for i, kw in enumerate(keywords[:5])}
+
+        cypher = (
+            f"MATCH (c:Clip) "
+            f"WITH c, ({score_expr}) AS relevance "
+            f"WHERE relevance > 0 "
+            f"RETURN c.id AS clip_id, c.video_id AS video_id, "
+            f"       c.start AS start, c.end AS end, "
+            f"       c.transcript AS transcript, c.summary AS summary, "
+            f"       relevance "
+            f"ORDER BY relevance DESC "
+            f"LIMIT $top_k"
+        )
+        params["top_k"] = top_k
+
+        try:
+            records = self._clip.execute_query(cypher, params)
+        except Exception as e:
+            logger.error(f"keyword_fallback_search failed: {e}")
+            return []
+
+        results = []
+        for r in records:
+            results.append({
+                "clip_id": r["clip_id"],
+                "video_id": r.get("video_id"),
+                "start": r.get("start"),
+                "end": r.get("end"),
+                "score": float(r.get("relevance", 0)),
+                "transcript_snippet": (r.get("transcript") or "")[:200],
+                "summary": r.get("summary") or "",
+            })
+
+        logger.info(f"keyword_fallback_search: {len(results)} clips for keywords={keywords[:5]}")
+        return results
+
+    # ── 7. Cache management ─────────────────────────────────────────────────
 
     def clear_cache(self) -> None:
         """Flush all internal caches."""

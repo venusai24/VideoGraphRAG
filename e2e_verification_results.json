@@ -1,0 +1,782 @@
+{
+  "metadata": {
+    "timestamp": "2026-04-26T14:32:12",
+    "num_queries": 8,
+    "version": "e2e_hardened_v2"
+  },
+  "per_query": [
+    {
+      "query": "How many copper needles were intended to be launched as part of Project West Ford?",
+      "query_id": "D1",
+      "level": "direct",
+      "status": "success",
+      "timings": {
+        "decomposition": 1.4236,
+        "traversal": 1.783,
+        "ranking": 0.0,
+        "fallback": 0.0,
+        "generation": 0.0001,
+        "total": 3.2067
+      },
+      "retrieval_results_count": 5,
+      "answer_data": {
+        "answer": "Insufficient evidence to answer the query.",
+        "citations": [],
+        "reasoning": "No reliable supporting clips found.",
+        "confidence": 0.0
+      },
+      "retrieved_clip_ids": [
+        "text_project west ford",
+        "text_project west ford, the iau's response, and the",
+        "text_feeling too self-satisfied about the success of project west ford.",
+        "text_figure 2. a schematic illustration of radio signals relayed from the project west ford",
+        "text_liller, w. (1964) optical effects of the 1963 project west ford experiment. science, 143(3605), 437-441."
+      ],
+      "llm_usage": {
+        "decomposition": {
+          "provider_attempts": [
+            {
+              "provider": "cerebras",
+              "model": "qwen-3-235b-a22b-instruct-2507",
+              "status": "success",
+              "error": null,
+              "latency": 1.2379670143127441
+            }
+          ],
+          "final_provider": "cerebras",
+          "final_model": "qwen-3-235b-a22b-instruct-2507",
+          "retry_count": 0,
+          "failure_reasons": [],
+          "total_llm_time": 1.2482064590003574
+        },
+        "generation": {
+          "provider_attempts": [],
+          "final_provider": "gemini",
+          "final_model": "unknown",
+          "retry_count": 0,
+          "media_used": false,
+          "token_estimate": 0,
+          "latency_violation": false
+        }
+      }
+    },
+    {
+      "query": "How did the failure in 1961 relate to the success in 1963?",
+      "query_id": "H1",
+      "level": "difficult",
+      "status": "degraded",
+      "timings": {
+        "decomposition": 1.7481,
+        "traversal": 0.2792,
+        "ranking": 0.0,
+        "fallback": 0.2314,
+        "generation": 16.3524,
+        "total": 18.611
+      },
+      "retrieval_results_count": 15,
+      "answer_data": {
+        "answer": "The failure in October 1961 was the first attempt at Project West Ford, which failed because of a malfunctioning release mechanism. The success in May 1963 was a subsequent attempt that successfully placed a partial belt of copper needles into a polar orbit. This success proved the system's viability by enabling successful voice transmissions between Massachusetts and California.",
+        "citations": [
+          "b120483a_72.67_82.01",
+          "b120483a_82.01_91.36",
+          "b120483a_91.36_100.70"
+        ],
+        "reasoning": "The provided evidence explicitly contrasts the October 1961 failure (due to a release mechanism malfunction) with the May 1963 success. The 1963 attempt successfully created a partial belt that allowed for communication tests, specifically voice transmissions between Massachusetts and California, which the 1961 attempt failed to achieve.",
+        "confidence": 0.5796
+      },
+      "retrieved_clip_ids": [
+        "b120483a_72.67_82.01",
+        "b120483a_91.36_100.70",
+        "b120483a_82.01_91.36",
+        "b120483a_163.03_176.30",
+        "b120483a_210.30_225.63",
+        "b120483a_116.73_126.37",
+        "b120483a_59.82_72.43",
+        "b120483a_102.60_116.53",
+        "7264ee86_83.68_95.67",
+        "7264ee86_95.87_105.31",
+        "b120483a_100.90_102.40",
+        "b120483a_126.37_138.03",
+        "b120483a_138.03_149.70",
+        "b120483a_149.70_159.03",
+        "b120483a_159.03_163.03"
+      ],
+      "llm_usage": {
+        "decomposition": {
+          "provider_attempts": [
+            {
+              "provider": "cerebras",
+              "model": "qwen-3-235b-a22b-instruct-2507",
+              "status": "success",
+              "error": null,
+              "latency": 1.1319890022277832
+            }
+          ],
+          "final_provider": "cerebras",
+          "final_model": "qwen-3-235b-a22b-instruct-2507",
+          "retry_count": 0,
+          "failure_reasons": [],
+          "total_llm_time": 1.1387279159971513
+        },
+        "generation": {
+          "provider_attempts": [
+            {
+              "provider": "gemini",
+              "model": "gemini-flash-latest",
+              "status": "success",
+              "error": null,
+              "latency": 11.93241024017334,
+              "media_used": false
+            }
+          ],
+          "final_provider": "gemini",
+          "final_model": "gemini-flash-latest",
+          "retry_count": 0,
+          "media_used": false,
+          "token_estimate": 3639,
+          "latency_violation": false
+        }
+      }
+    },
+    {
+      "query": "What is the name of the international airport in Northern Cyprus that is described as illegal?",
+      "query_id": "D1",
+      "level": "direct",
+      "status": "degraded",
+      "timings": {
+        "decomposition": 1.5495,
+        "traversal": 4.5928,
+        "ranking": 0.0,
+        "fallback": 0.3855,
+        "generation": 18.2652,
+        "total": 24.793
+      },
+      "retrieval_results_count": 15,
+      "answer_data": {
+        "answer": "The international airport in Northern Cyprus described as illegal is Ercan International Airport.",
+        "citations": [
+          "7264ee86_47.73_59.72",
+          "7264ee86_302.87_313.83"
+        ],
+        "reasoning": "The video explicitly identifies Ercan International Airport (transcribed phonetically as 'Air con') as an illegal airport in Northern Cyprus. It explains that the airport is considered illegal under international law (the Chicago Convention) because Northern Cyprus is a de facto state recognized only by Turkey, and other countries are technically not allowed to fly there without permission from the Republic of Cyprus.",
+        "confidence": 0.4701
+      },
+      "retrieved_clip_ids": [
+        "7264ee86_47.73_59.72",
+        "7264ee86_302.87_313.83",
+        "7264ee86_280.98_291.90",
+        "7264ee86_218.73_228.57",
+        "7264ee86_291.90_302.87",
+        "7264ee86_314.03_326.98",
+        "7264ee86_208.90_218.73",
+        "7264ee86_39.57_47.53",
+        "7264ee86_95.87_105.31",
+        "7264ee86_59.72_71.70",
+        "7264ee86_71.70_83.68",
+        "7264ee86_248.23_259.15",
+        "7264ee86_270.07_280.98",
+        "7264ee86_238.40_248.23",
+        "7264ee86_259.15_270.07"
+      ],
+      "llm_usage": {
+        "decomposition": {
+          "provider_attempts": [
+            {
+              "provider": "cerebras",
+              "model": "qwen-3-235b-a22b-instruct-2507",
+              "status": "success",
+              "error": null,
+              "latency": 0.8060400485992432
+            }
+          ],
+          "final_provider": "cerebras",
+          "final_model": "qwen-3-235b-a22b-instruct-2507",
+          "retry_count": 0,
+          "failure_reasons": [],
+          "total_llm_time": 0.8157359159959015
+        },
+        "generation": {
+          "provider_attempts": [
+            {
+              "provider": "gemini",
+              "model": "gemini-flash-latest",
+              "status": "success",
+              "error": null,
+              "latency": 15.30608582496643,
+              "media_used": false
+            }
+          ],
+          "final_provider": "gemini",
+          "final_model": "gemini-flash-latest",
+          "retry_count": 0,
+          "media_used": false,
+          "token_estimate": 2791,
+          "latency_violation": true
+        }
+      }
+    },
+    {
+      "query": "Explain the Samlandia analogy and its relevance to Ercan Airport's legal status.",
+      "query_id": "H1",
+      "level": "difficult",
+      "status": "degraded",
+      "timings": {
+        "decomposition": 0.6353,
+        "traversal": 0.0003,
+        "ranking": 0.0,
+        "fallback": 0.6849,
+        "generation": 30.9095,
+        "total": 32.2301
+      },
+      "retrieval_results_count": 15,
+      "answer_data": {
+        "answer": "The Samlandia analogy is used to illustrate international aviation law under the Chicago Convention. It posits that if an individual were to declare a portion of Colorado as a new country called 'Samlandia,' they still could not legally operate an international airport or send flights to other countries (like Mexico) without the permission of the recognized sovereign authority (the United States). This analogy explains the legal status of Ercan International Airport in Northern Cyprus; because Northern Cyprus is not widely recognized as a sovereign state, the airport is considered 'illegal' under international law as it operates without the permission of the Republic of Cyprus.",
+        "citations": [
+          "7264ee86_302.87_313.83"
+        ],
+        "reasoning": "The transcript in clip 7264ee86_302.87_313.83 explicitly describes the Samlandia scenario as a way to explain why Ercan International Airport is considered illegal despite its physical existence and international operations. It cites the Chicago Convention as the legal framework requiring permission from the recognized sovereign state.",
+        "confidence": 0.3417
+      },
+      "retrieved_clip_ids": [
+        "43a38484_765.10_772.87",
+        "43a38484_772.87_782.50",
+        "ac1682fb_71.70_83.68",
+        "7264ee86_302.87_313.83",
+        "7264ee86_71.70_83.68",
+        "7264ee86_47.73_59.72",
+        "ac1682fb_47.73_59.72",
+        "ac1682fb_59.72_71.70",
+        "7264ee86_59.72_71.70",
+        "43a38484_792.59_802.69",
+        "43a38484_782.50_792.59",
+        "43a38484_752.80_765.10",
+        "43a38484_741.46_752.80",
+        "43a38484_730.11_741.46",
+        "43a38484_718.77_730.11"
+      ],
+      "llm_usage": {
+        "decomposition": {
+          "provider_attempts": [
+            {
+              "provider": "cerebras",
+              "model": "qwen-3-235b-a22b-instruct-2507",
+              "status": "success",
+              "error": null,
+              "latency": 0.6176879405975342
+            }
+          ],
+          "final_provider": "cerebras",
+          "final_model": "qwen-3-235b-a22b-instruct-2507",
+          "retry_count": 0,
+          "failure_reasons": [],
+          "total_llm_time": 0.634285500003898
+        },
+        "generation": {
+          "provider_attempts": [
+            {
+              "provider": "gemini",
+              "model": "gemini-flash-latest",
+              "status": "success",
+              "error": null,
+              "latency": 27.45790719985962,
+              "media_used": false
+            }
+          ],
+          "final_provider": "gemini",
+          "final_model": "gemini-flash-latest",
+          "retry_count": 0,
+          "media_used": false,
+          "token_estimate": 2309,
+          "latency_violation": true
+        }
+      }
+    },
+    {
+      "query": "When did the first phase of Navi Mumbai International Airport open?",
+      "query_id": "E3",
+      "level": "easy",
+      "status": "degraded",
+      "timings": {
+        "decomposition": 4.9818,
+        "traversal": 2.2379,
+        "ranking": 0.0,
+        "fallback": 0.7376,
+        "generation": 24.4456,
+        "total": 32.403
+      },
+      "retrieval_results_count": 15,
+      "answer_data": {
+        "answer": "The first phase of Navi Mumbai International Airport opened on Christmas Day, December 25, 2025.",
+        "citations": [
+          "303cbc17_5.34_10.98",
+          "303cbc17_522.59_538.47"
+        ],
+        "reasoning": "According to the video, the first phase of the airport, which includes Terminal 1, a control tower, a single runway, and a fire station, opened on Christmas Day 2025. Another segment mentions it opened in 'December last year', which aligns with the specific 2025 date provided in the more detailed clip.",
+        "confidence": 0.4817
+      },
+      "retrieved_clip_ids": [
+        "303cbc17_5.34_10.98",
+        "303cbc17_233.90_243.23",
+        "303cbc17_243.23_252.55",
+        "303cbc17_21.92_31.00",
+        "303cbc17_522.59_538.47",
+        "303cbc17_10.98_18.45",
+        "303cbc17_514.51_522.59",
+        "303cbc17_698.96_709.71",
+        "303cbc17_709.71_720.45",
+        "303cbc17_541.84_552.45",
+        "303cbc17_59.13_66.77",
+        "303cbc17_66.77_74.81",
+        "303cbc17_18.45_21.92",
+        "303cbc17_552.45_563.50",
+        "303cbc17_672.96_684.98"
+      ],
+      "llm_usage": {
+        "decomposition": {
+          "provider_attempts": [
+            {
+              "provider": "cerebras",
+              "model": "qwen-3-235b-a22b-instruct-2507",
+              "status": "failed",
+              "error": "Rate limit hit: Error code: 429 - {'message': \"We're experiencing high traffic right now! Please try again soon.\", 'type': 'too_many_requests_error', 'param': 'queue', 'code': 'queue_exceeded'}",
+              "latency": 0.6512880325317383
+            },
+            {
+              "provider": "cerebras",
+              "model": "qwen-3-235b-a22b-instruct-2507",
+              "status": "failed",
+              "error": "Rate limit hit: Error code: 429 - {'message': \"We're experiencing high traffic right now! Please try again soon.\", 'type': 'too_many_requests_error', 'param': 'queue', 'code': 'queue_exceeded'}",
+              "latency": 1.0133612155914307
+            },
+            {
+              "provider": "groq",
+              "model": "qwen/qwen3-32b",
+              "status": "success",
+              "error": null,
+              "latency": 2.025292158126831
+            }
+          ],
+          "final_provider": "groq",
+          "final_model": "qwen/qwen3-32b",
+          "retry_count": 2,
+          "failure_reasons": [
+            "Rate limit hit: Error code: 429 - {'message': \"We're experiencing high traffic right now! Please try again soon.\", 'type': 'too_many_requests_error', 'param': 'queue', 'code': 'queue_exceeded'}",
+            "Rate limit hit: Error code: 429 - {'message': \"We're experiencing high traffic right now! Please try again soon.\", 'type': 'too_many_requests_error', 'param': 'queue', 'code': 'queue_exceeded'}"
+          ],
+          "total_llm_time": 3.7755285420062137
+        },
+        "generation": {
+          "provider_attempts": [
+            {
+              "provider": "gemini",
+              "model": "gemini-flash-latest",
+              "status": "success",
+              "error": null,
+              "latency": 20.788628816604614,
+              "media_used": false
+            }
+          ],
+          "final_provider": "gemini",
+          "final_model": "gemini-flash-latest",
+          "retry_count": 0,
+          "media_used": false,
+          "token_estimate": 2782,
+          "latency_violation": true
+        }
+      }
+    },
+    {
+      "query": "How do the runway designs differ between the old Mumbai airport and Navi Mumbai airport?",
+      "query_id": "H1",
+      "level": "hard",
+      "status": "success",
+      "timings": {
+        "decomposition": 2.0644,
+        "traversal": 0.6654,
+        "ranking": 0.0,
+        "fallback": 0.6515,
+        "generation": 12.8912,
+        "total": 16.2725
+      },
+      "retrieval_results_count": 15,
+      "answer_data": {
+        "answer": "The primary difference in runway design is that the old Mumbai airport uses intersecting runways, whereas the Navi Mumbai International Airport is designed with parallel runways. The intersecting design of the old airport restricts air traffic because it prevents planes from landing and taking off on both strips simultaneously. Navi Mumbai opened its first phase with a single runway but is being enhanced with a second parallel runway to accommodate up to 90 million passengers annually. Furthermore, constructing the Navi Mumbai runway required engineers to redirect a river that originally flowed through the middle of the site.",
+        "citations": [
+          "303cbc17_233.90_243.23",
+          "303cbc17_541.84_552.45",
+          "303cbc17_208.27_211.95",
+          "303cbc17_522.59_538.47",
+          "303cbc17_514.51_522.59"
+        ],
+        "reasoning": "The evidence clearly contrasts the 'intersecting runways' of the old Mumbai airport with the 'parallel runways' planned for Navi Mumbai. Multiple clips highlight that the old airport's design limits capacity and that the new airport's parallel configuration is key to its massive passenger targets. The clips also detail the specific engineering challenge of redirecting a river to facilitate the Navi Mumbai runway construction.",
+        "confidence": 0.4205
+      },
+      "retrieved_clip_ids": [
+        "303cbc17_233.90_243.23",
+        "303cbc17_541.84_552.45",
+        "303cbc17_208.27_211.95",
+        "303cbc17_522.59_538.47",
+        "303cbc17_243.23_252.55",
+        "303cbc17_51.92_59.13",
+        "303cbc17_672.96_684.98",
+        "303cbc17_5.34_10.98",
+        "303cbc17_83.95_93.43",
+        "303cbc17_21.92_31.00",
+        "303cbc17_514.51_522.59",
+        "303cbc17_684.98_698.96",
+        "303cbc17_552.45_563.50",
+        "303cbc17_211.95_218.45",
+        "303cbc17_118.42_129.60"
+      ],
+      "llm_usage": {
+        "decomposition": {
+          "provider_attempts": [
+            {
+              "provider": "cerebras",
+              "model": "qwen-3-235b-a22b-instruct-2507",
+              "status": "success",
+              "error": null,
+              "latency": 1.1280291080474854
+            }
+          ],
+          "final_provider": "cerebras",
+          "final_model": "qwen-3-235b-a22b-instruct-2507",
+          "retry_count": 0,
+          "failure_reasons": [],
+          "total_llm_time": 1.139241666001908
+        },
+        "generation": {
+          "provider_attempts": [
+            {
+              "provider": "gemini",
+              "model": "gemini-flash-latest",
+              "status": "success",
+              "error": null,
+              "latency": 10.086185932159424,
+              "media_used": false
+            }
+          ],
+          "final_provider": "gemini",
+          "final_model": "gemini-flash-latest",
+          "retry_count": 0,
+          "media_used": false,
+          "token_estimate": 2750,
+          "latency_violation": false
+        }
+      }
+    },
+    {
+      "query": "How is the large terminal roof structurally supported while keeping the interior open?",
+      "query_id": "X1",
+      "level": "expert",
+      "status": "success",
+      "timings": {
+        "decomposition": 4.0777,
+        "traversal": 0.6577,
+        "ranking": 0.0,
+        "fallback": 0.7169,
+        "generation": 11.9332,
+        "total": 17.3855
+      },
+      "retrieval_results_count": 15,
+      "answer_data": {
+        "answer": "The large terminal roof at Navi Mumbai International Airport is structurally supported by 17 giant columns hidden behind 12 front-facing petal-shaped columns. These giant columns bear the weight of the 370-meter canopy roof. The roof itself is constructed from a steel framework featuring large-span rectangular steel trusses and girders. These trusses are designed to carry massive amounts of weight, which allows for a significant reduction in the number of columns needed inside the building, thereby keeping the interior space open.",
+        "citations": [
+          "303cbc17_581.55_597.90",
+          "303cbc17_597.90_604.74",
+          "303cbc17_604.74_615.05"
+        ],
+        "reasoning": "The provided clips explain the structural design of the terminal. Clip 303cbc17_581.55_597.90 identifies the 17 giant columns that support the 370-meter canopy. Clips 303cbc17_597.90_604.74 and 303cbc17_604.74_615.05 detail the use of large-span rectangular steel trusses that carry the roof's weight and specifically mention that this design reduces the need for internal columns to maintain an open interior.",
+        "confidence": 0.5335
+      },
+      "retrieved_clip_ids": [
+        "303cbc17_597.90_604.74",
+        "303cbc17_581.55_597.90",
+        "303cbc17_541.84_552.45",
+        "303cbc17_604.74_615.05",
+        "303cbc17_522.59_538.47",
+        "303cbc17_155.86_166.34",
+        "303cbc17_166.34_176.82",
+        "303cbc17_514.51_522.59",
+        "303cbc17_481.35_486.75",
+        "303cbc17_473.04_481.35",
+        "43a38484_535.43_545.80",
+        "43a38484_650.70_662.04",
+        "303cbc17_486.75_497.93",
+        "303cbc17_497.93_506.22",
+        "43a38484_696.08_707.42"
+      ],
+      "llm_usage": {
+        "decomposition": {
+          "provider_attempts": [
+            {
+              "provider": "cerebras",
+              "model": "qwen-3-235b-a22b-instruct-2507",
+              "status": "failed",
+              "error": "Rate limit hit: Error code: 429 - {'message': \"We're experiencing high traffic right now! Please try again soon.\", 'type': 'too_many_requests_error', 'param': 'queue', 'code': 'queue_exceeded'}",
+              "latency": 0.44641995429992676
+            },
+            {
+              "provider": "cerebras",
+              "model": "qwen-3-235b-a22b-instruct-2507",
+              "status": "failed",
+              "error": "Rate limit hit: Error code: 429 - {'message': \"We're experiencing high traffic right now! Please try again soon.\", 'type': 'too_many_requests_error', 'param': 'queue', 'code': 'queue_exceeded'}",
+              "latency": 0.48233819007873535
+            },
+            {
+              "provider": "groq",
+              "model": "qwen/qwen3-32b",
+              "status": "success",
+              "error": null,
+              "latency": 2.3551559448242188
+            }
+          ],
+          "final_provider": "groq",
+          "final_model": "qwen/qwen3-32b",
+          "retry_count": 2,
+          "failure_reasons": [
+            "Rate limit hit: Error code: 429 - {'message': \"We're experiencing high traffic right now! Please try again soon.\", 'type': 'too_many_requests_error', 'param': 'queue', 'code': 'queue_exceeded'}",
+            "Rate limit hit: Error code: 429 - {'message': \"We're experiencing high traffic right now! Please try again soon.\", 'type': 'too_many_requests_error', 'param': 'queue', 'code': 'queue_exceeded'}"
+          ],
+          "total_llm_time": 3.3069662080015405
+        },
+        "generation": {
+          "provider_attempts": [
+            {
+              "provider": "gemini",
+              "model": "gemini-flash-latest",
+              "status": "success",
+              "error": null,
+              "latency": 9.032094955444336,
+              "media_used": false
+            }
+          ],
+          "final_provider": "gemini",
+          "final_model": "gemini-flash-latest",
+          "retry_count": 0,
+          "media_used": false,
+          "token_estimate": 2722,
+          "latency_violation": false
+        }
+      }
+    },
+    {
+      "query": "What is the name of the first skyscraper built in Paris that is the focus of the video?",
+      "query_id": "E1",
+      "level": "easy",
+      "status": "degraded",
+      "timings": {
+        "decomposition": 9.6463,
+        "traversal": 8.7238,
+        "ranking": 0.0,
+        "fallback": 0.276,
+        "generation": 9.1425,
+        "total": 27.7887
+      },
+      "retrieval_results_count": 15,
+      "answer_data": {
+        "answer": "The first skyscraper built in Paris, which is the focus of the video, is the Tour Montparnasse.",
+        "citations": [
+          "43a38484_33.03_42.87",
+          "43a38484_77.27_88.73"
+        ],
+        "reasoning": "The video explicitly identifies the Tour Montparnasse (referred to in transcripts as 'Tormund Penas' or 'garment panasse' due to phonetic transcription, but clearly shown in OCR as 'TOUR MONTPARNASSE') as the first skyscraper ever built in Paris. It is described as being 210 meters high and the starting point of Paris's complicated history with tall buildings.",
+        "confidence": 0.5889
+      },
+      "retrieved_clip_ids": [
+        "43a38484_33.03_42.87",
+        "43a38484_131.45_139.90",
+        "43a38484_77.27_88.73",
+        "43a38484_493.97_504.33",
+        "43a38484_387.00_400.63",
+        "43a38484_100.16_111.58",
+        "43a38484_123.00_131.45",
+        "43a38484_463.90_473.92",
+        "43a38484_312.07_324.53",
+        "43a38484_42.87_48.87",
+        "43a38484_52.93_62.70",
+        "43a38484_0.00_8.33",
+        "43a38484_400.63_411.91",
+        "43a38484_88.73_100.16",
+        "43a38484_48.87_52.93"
+      ],
+      "llm_usage": {
+        "decomposition": {
+          "provider_attempts": [
+            {
+              "provider": "groq",
+              "model": "qwen/qwen3-32b",
+              "status": "failed",
+              "error": "API status error 400: Error code: 400 - {'error': {'message': \"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': ''}}",
+              "latency": 5.830426216125488
+            },
+            {
+              "provider": "groq",
+              "model": "qwen/qwen3-32b",
+              "status": "success",
+              "error": null,
+              "latency": 2.4758050441741943
+            }
+          ],
+          "final_provider": "groq",
+          "final_model": "qwen/qwen3-32b",
+          "retry_count": 1,
+          "failure_reasons": [
+            "API status error 400: Error code: 400 - {'error': {'message': \"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': ''}}"
+          ],
+          "total_llm_time": 8.33512495800096
+        },
+        "generation": {
+          "provider_attempts": [
+            {
+              "provider": "gemini",
+              "model": "gemini-flash-latest",
+              "status": "success",
+              "error": null,
+              "latency": 3.839766025543213,
+              "media_used": false
+            }
+          ],
+          "final_provider": "gemini",
+          "final_model": "gemini-flash-latest",
+          "retry_count": 0,
+          "media_used": false,
+          "token_estimate": 2859,
+          "latency_violation": false
+        }
+      }
+    }
+  ],
+  "summary": {
+    "num_queries": 8,
+    "success_count": 3,
+    "degraded_count": 5,
+    "failed_count": 0,
+    "avg_latency": {
+      "decomposition": 3.2658,
+      "traversal": 2.3675,
+      "generation": 15.4925,
+      "total": 21.5863
+    },
+    "max_latency": {
+      "decomposition": 9.6463,
+      "traversal": 8.7238,
+      "generation": 30.9095,
+      "total": 32.403
+    },
+    "provider_usage": {
+      "cerebras_pct": 62.5,
+      "groq_pct": 37.5
+    },
+    "gemini_latency": {
+      "avg": 14.06,
+      "min": 3.84,
+      "max": 27.46
+    },
+    "validation_failures": [
+      {
+        "query": "How did the failure in 1961 relate to the success in 1963?",
+        "check": "L3_GEN_SLOW",
+        "detail": "16.35s > 15.0s"
+      },
+      {
+        "query": "What is the name of the international airport in Northern Cy",
+        "check": "L3_GEN_SLOW",
+        "detail": "18.27s > 15.0s"
+      },
+      {
+        "query": "What is the name of the international airport in Northern Cy",
+        "check": "L4_TOTAL_SLOW",
+        "detail": "24.79s > 20.0s"
+      },
+      {
+        "query": "Explain the Samlandia analogy and its relevance to Ercan Air",
+        "check": "L3_GEN_SLOW",
+        "detail": "30.91s > 15.0s"
+      },
+      {
+        "query": "Explain the Samlandia analogy and its relevance to Ercan Air",
+        "check": "L4_TOTAL_SLOW",
+        "detail": "32.23s > 20.0s"
+      },
+      {
+        "query": "When did the first phase of Navi Mumbai International Airpor",
+        "check": "L3_GEN_SLOW",
+        "detail": "24.45s > 15.0s"
+      },
+      {
+        "query": "When did the first phase of Navi Mumbai International Airpor",
+        "check": "L4_TOTAL_SLOW",
+        "detail": "32.40s > 20.0s"
+      },
+      {
+        "query": "What is the name of the first skyscraper built in Paris that",
+        "check": "L1_DECOMP_SLOW",
+        "detail": "9.65s > 5.0s"
+      },
+      {
+        "query": "What is the name of the first skyscraper built in Paris that",
+        "check": "L2_TRAVERSAL_SLOW",
+        "detail": "8.72s > 5.0s"
+      },
+      {
+        "query": "What is the name of the first skyscraper built in Paris that",
+        "check": "L4_TOTAL_SLOW",
+        "detail": "27.79s > 20.0s"
+      }
+    ]
+  },
+  "validation_failures": [
+    {
+      "query": "How did the failure in 1961 relate to the success in 1963?",
+      "check": "L3_GEN_SLOW",
+      "detail": "16.35s > 15.0s"
+    },
+    {
+      "query": "What is the name of the international airport in Northern Cy",
+      "check": "L3_GEN_SLOW",
+      "detail": "18.27s > 15.0s"
+    },
+    {
+      "query": "What is the name of the international airport in Northern Cy",
+      "check": "L4_TOTAL_SLOW",
+      "detail": "24.79s > 20.0s"
+    },
+    {
+      "query": "Explain the Samlandia analogy and its relevance to Ercan Air",
+      "check": "L3_GEN_SLOW",
+      "detail": "30.91s > 15.0s"
+    },
+    {
+      "query": "Explain the Samlandia analogy and its relevance to Ercan Air",
+      "check": "L4_TOTAL_SLOW",
+      "detail": "32.23s > 20.0s"
+    },
+    {
+      "query": "When did the first phase of Navi Mumbai International Airpor",
+      "check": "L3_GEN_SLOW",
+      "detail": "24.45s > 15.0s"
+    },
+    {
+      "query": "When did the first phase of Navi Mumbai International Airpor",
+      "check": "L4_TOTAL_SLOW",
+      "detail": "32.40s > 20.0s"
+    },
+    {
+      "query": "What is the name of the first skyscraper built in Paris that",
+      "check": "L1_DECOMP_SLOW",
+      "detail": "9.65s > 5.0s"
+    },
+    {
+      "query": "What is the name of the first skyscraper built in Paris that",
+      "check": "L2_TRAVERSAL_SLOW",
+      "detail": "8.72s > 5.0s"
+    },
+    {
+      "query": "What is the name of the first skyscraper built in Paris that",
+      "check": "L4_TOTAL_SLOW",
+      "detail": "27.79s > 20.0s"
+    }
+  ],
+  "errors": []
+}

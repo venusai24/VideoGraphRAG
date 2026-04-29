@@ -6,3 +6,6 @@ Qwen2.5-VL-7B*
 outputs/*
 when i breeth.mp4
 orchestrator.log
+portal/frontend/node_modules/
+portal/frontend/.next/
+input/*
