@@ -289,6 +289,13 @@ def run_pipeline(query: str, cerebras_keys: List[str], groq_keys: List[str]):
 
             return generated_answer
 
+            print("\n" + "="*80)
+            print("GROUNDED ANSWER")
+            print("="*80)
+            print(json.dumps(generated_answer, indent=2, ensure_ascii=False))
+
+            return generated_answer
+
 if __name__ == "__main__":
     load_dotenv()
     
