@@ -124,3 +124,7 @@ The pipeline produces a deterministic JSON and image sequence output:
 scene segmentation)
 Deep learning (CLIP + DINOv2 embeddings)
 Efficient algorithms (temporal grouping)
+
+
+
+current messy version with working code and logs
