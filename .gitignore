@@ -1,11 +1,55 @@
+# Environment
 .env
-.env
+.env.*
 .env*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+vgent/
+test_env/
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# IDE
+.qodo/
+.vscode/
+.idea/
+
+# Models (large binaries)
 MLX-Qwen3.5*
 Qwen2.5-VL-7B*
+*.pt
+
+# Data / outputs
 outputs/*
-when i breeth.mp4
-orchestrator.log
+!outputs/.gitkeep
+input/*
+!input/.gitkeep
+
+# Logs
+*.log
+nohup.out
+logs/*.jsonl
+
+# Frontend
 portal/frontend/node_modules/
 portal/frontend/.next/
+
+# Misc
+run_output*.txt
 input/*
+.*
+vgent/*

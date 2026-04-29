@@ -1,110 +1,0 @@
-2026-04-26 07:47:40,065 - INFO - Successfully connected to Clip Graph at neo4j+s://5ad1cf28.databases.neo4j.io
-2026-04-26 07:47:40,690 - INFO - Successfully connected to Entity Graph at neo4j+s://59e1df2f.databases.neo4j.io
-2026-04-26 07:47:40,691 - INFO - MappingStore opened: /mnt/MIG_store/Datasets/blending/madhav/VRAG/outputs/mapping.db
-2026-04-26 07:47:40,691 - INFO - GraphAPI: connected to Neo4j and SQLite MappingStore at /mnt/MIG_store/Datasets/blending/madhav/VRAG/outputs/mapping.db
-2026-04-26 07:47:40,691 - INFO - Fetching entity corpus from Neo4j...
-2026-04-26 07:47:41,151 - INFO - Initializing SentenceTransformer for entity resolution...
-2026-04-26 07:47:41,344 - INFO - No device provided, using cuda:0
-2026-04-26 07:47:51,696 - INFO - HTTP Request: HEAD https://huggingface.co/BAAI/bge-large-en-v1.5/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
-2026-04-26 07:47:51,722 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-large-en-v1.5/d4aa6901d3a41ba39fb536a557fa166f842b0e09/config_sentence_transformers.json "HTTP/1.1 200 OK"
-2026-04-26 07:47:51,723 - INFO - Loading SentenceTransformer model from BAAI/bge-large-en-v1.5.
-2026-04-26 07:47:52,026 - INFO - HTTP Request: HEAD https://huggingface.co/BAAI/bge-large-en-v1.5/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
-Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-2026-04-26 07:47:52,027 - WARNING - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-2026-04-26 07:47:52,052 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-large-en-v1.5/d4aa6901d3a41ba39fb536a557fa166f842b0e09/config_sentence_transformers.json "HTTP/1.1 200 OK"
-2026-04-26 07:47:52,333 - INFO - HTTP Request: HEAD https://huggingface.co/BAAI/bge-large-en-v1.5/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
-2026-04-26 07:47:52,359 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-large-en-v1.5/d4aa6901d3a41ba39fb536a557fa166f842b0e09/README.md "HTTP/1.1 200 OK"
-2026-04-26 07:47:52,639 - INFO - HTTP Request: HEAD https://huggingface.co/BAAI/bge-large-en-v1.5/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
-2026-04-26 07:47:52,666 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-large-en-v1.5/d4aa6901d3a41ba39fb536a557fa166f842b0e09/modules.json "HTTP/1.1 200 OK"
-2026-04-26 07:47:52,944 - INFO - HTTP Request: HEAD https://huggingface.co/BAAI/bge-large-en-v1.5/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
-2026-04-26 07:47:52,970 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-large-en-v1.5/d4aa6901d3a41ba39fb536a557fa166f842b0e09/sentence_bert_config.json "HTTP/1.1 200 OK"
-2026-04-26 07:47:53,246 - INFO - HTTP Request: HEAD https://huggingface.co/BAAI/bge-large-en-v1.5/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
-2026-04-26 07:47:53,524 - INFO - HTTP Request: HEAD https://huggingface.co/BAAI/bge-large-en-v1.5/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
-2026-04-26 07:47:53,549 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-large-en-v1.5/d4aa6901d3a41ba39fb536a557fa166f842b0e09/config.json "HTTP/1.1 200 OK"
-Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 7556.54it/s]
-[1mBertModel LOAD REPORT[0m from: BAAI/bge-large-en-v1.5
-Key                     | Status     |  | 
-------------------------+------------+--+-
-embeddings.position_ids | UNEXPECTED |  | 
-
-Notes:
-- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
-2026-04-26 07:47:53,979 - INFO - HTTP Request: HEAD https://huggingface.co/BAAI/bge-large-en-v1.5/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
-2026-04-26 07:47:54,256 - INFO - HTTP Request: HEAD https://huggingface.co/BAAI/bge-large-en-v1.5/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
-2026-04-26 07:47:54,542 - INFO - HTTP Request: HEAD https://huggingface.co/BAAI/bge-large-en-v1.5/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
-2026-04-26 07:47:54,825 - INFO - HTTP Request: HEAD https://huggingface.co/BAAI/bge-large-en-v1.5/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
-2026-04-26 07:47:55,101 - INFO - HTTP Request: HEAD https://huggingface.co/BAAI/bge-large-en-v1.5/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
-2026-04-26 07:47:55,128 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-large-en-v1.5/d4aa6901d3a41ba39fb536a557fa166f842b0e09/tokenizer_config.json "HTTP/1.1 200 OK"
-2026-04-26 07:47:55,405 - INFO - HTTP Request: HEAD https://huggingface.co/BAAI/bge-large-en-v1.5/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
-2026-04-26 07:47:55,431 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-large-en-v1.5/d4aa6901d3a41ba39fb536a557fa166f842b0e09/config.json "HTTP/1.1 200 OK"
-2026-04-26 07:47:55,716 - INFO - HTTP Request: HEAD https://huggingface.co/BAAI/bge-large-en-v1.5/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
-2026-04-26 07:47:55,743 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-large-en-v1.5/d4aa6901d3a41ba39fb536a557fa166f842b0e09/config.json "HTTP/1.1 200 OK"
-2026-04-26 07:47:56,026 - INFO - HTTP Request: HEAD https://huggingface.co/BAAI/bge-large-en-v1.5/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
-2026-04-26 07:47:56,052 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-large-en-v1.5/d4aa6901d3a41ba39fb536a557fa166f842b0e09/tokenizer_config.json "HTTP/1.1 200 OK"
-2026-04-26 07:47:56,347 - INFO - HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-large-en-v1.5/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
-2026-04-26 07:47:56,626 - INFO - HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-large-en-v1.5/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
-2026-04-26 07:47:56,965 - INFO - HTTP Request: HEAD https://huggingface.co/BAAI/bge-large-en-v1.5/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
-2026-04-26 07:47:56,990 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-large-en-v1.5/d4aa6901d3a41ba39fb536a557fa166f842b0e09/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
-2026-04-26 07:47:57,276 - INFO - HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-large-en-v1.5 "HTTP/1.1 200 OK"
-Batches:   0%|          | 0/90 [00:00<?, ?it/s]Batches:   1%|          | 1/90 [00:00<00:26,  3.41it/s]Batches:   4%|▍         | 4/90 [00:00<00:07, 11.11it/s]Batches:   8%|▊         | 7/90 [00:00<00:05, 15.74it/s]Batches:  12%|█▏        | 11/90 [00:00<00:03, 21.04it/s]Batches:  16%|█▌        | 14/90 [00:00<00:03, 21.93it/s]Batches:  20%|██        | 18/90 [00:00<00:02, 25.19it/s]Batches:  26%|██▌       | 23/90 [00:01<00:02, 29.37it/s]Batches:  31%|███       | 28/90 [00:01<00:01, 34.25it/s]Batches:  38%|███▊      | 34/90 [00:01<00:01, 39.60it/s]Batches:  46%|████▌     | 41/90 [00:01<00:01, 46.46it/s]Batches:  53%|█████▎    | 48/90 [00:01<00:00, 51.88it/s]Batches:  61%|██████    | 55/90 [00:01<00:00, 56.07it/s]Batches:  68%|██████▊   | 61/90 [00:01<00:00, 56.19it/s]Batches:  76%|███████▌  | 68/90 [00:01<00:00, 58.67it/s]Batches:  84%|████████▍ | 76/90 [00:01<00:00, 64.05it/s]Batches:  94%|█████████▍| 85/90 [00:02<00:00, 69.16it/s]Batches: 100%|██████████| 90/90 [00:02<00:00, 43.32it/s]
-2026-04-26 07:47:59,894 - INFO - Processing query: is Airport Constructed on Swamp?
-2026-04-26 07:47:59,894 - INFO - Decomposing: 'is Airport Constructed on Swamp?'
-2026-04-26 07:47:59,894 - INFO - Trying config [cerebras / qwen-3-235b-a22b-instruct-2507] — 1 key(s) available
-2026-04-26 07:47:59,899 - INFO - [cerebras/qwen-3-235b-a22b-instruct-2507] Key attempt 1/3
-2026-04-26 07:48:00,672 - INFO - HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 200 OK"
-2026-04-26 07:48:00,676 - INFO - [cerebras/qwen-3-235b-a22b-instruct-2507] Success.
-2026-04-26 07:48:00,676 - INFO - LLM response validated. Running post-processing...
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 69.39it/s]
-2026-04-26 07:48:00,695 - INFO - Resolved 'Airport' (location) -> 'location_airport' (score=1.00)
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 125.34it/s]
-2026-04-26 07:48:00,708 - INFO - Resolved 'Swamp' (location) -> 'location_swamp' (score=1.00)
-2026-04-26 07:48:00,708 - INFO - Step 1 op=resolve_entity active_states=1
-2026-04-26 07:48:00,943 - INFO - Step 2 op=resolve_entity active_states=5
-2026-04-26 07:48:01,083 - INFO - Step 3 op=traverse active_states=15
-2026-04-26 07:48:02,109 - INFO - Step 4 op=extract active_states=15
-2026-04-26 07:48:04,212 - INFO - Step 5 op=filter active_states=15
-2026-04-26 07:48:04,343 - INFO - Re-ranking using 3 query keywords: {'constructed', 'swamp', 'airport'}
-2026-04-26 07:48:06,078 - INFO - Closed connection to Clip Graph.
-2026-04-26 07:48:06,078 - INFO - Closed connection to Entity Graph.
-2026-04-26 07:48:06,079 - INFO - MappingStore closed: /mnt/MIG_store/Datasets/blending/madhav/VRAG/outputs/mapping.db
-2026-04-26 07:48:06,079 - INFO - GraphAPI: all connections closed.
-
-================================================================================
-QUERY: is Airport Constructed on Swamp?
-================================================================================
-Found 17 potential results (Top 5 shown):
-
-[1] Result: location_airport (Score: 0.6872)
-    Reasoning: Resolved 'Airport' → keyword_airport (score=1.00) → Resolved 'Swamp' → location_swamp (score=1.00) → Traversed -RELATED_TO-> location_airport (w=3.00, boost=1.0) → Extracted ['name'] from 2 var2 nodes → Filter passed: name eq 'Swamp' | Deep Match: 2/3 (w=2.4)
-    👤 ENTITY Type: location
-    🔍 NEO4J (Entity Graph): MATCH (e:Entity {id: 'location_airport'}) RETURN e
-    🔗 APPEARS IN (Sample): 303cbc17_31.00_41.46 (Confidence: 1.00)
-       👉 NEO4J (Clip Graph): MATCH (c:Clip {id: '303cbc17_31.00_41.46'}) RETURN c
-
-[2] Result: location_swamp (Score: 0.6872)
-    Reasoning: Resolved 'Airport' → keyword_airport (score=1.00) → Resolved 'Swamp' → location_swamp (score=1.00) → Traversed -RELATED_TO-> location_airport (w=3.00, boost=1.0) → Extracted ['name'] from 2 var2 nodes → Filter passed: name eq 'Swamp' | Deep Match: 2/3 (w=2.4)
-    👤 ENTITY Type: location
-    🔍 NEO4J (Entity Graph): MATCH (e:Entity {id: 'location_swamp'}) RETURN e
-    🔗 APPEARS IN (Sample): 303cbc17_51.92_59.13 (Confidence: 1.00)
-       👉 NEO4J (Clip Graph): MATCH (c:Clip {id: '303cbc17_51.92_59.13'}) RETURN c
-
-[3] Result: label_map (Score: 0.6722)
-    Reasoning: Resolved 'Airport' → keyword_airport (score=1.00) → Resolved 'Swamp' → location_swamp (score=1.00) → Traversed -RELATED_TO-> label_map (w=3.00, boost=1.0) → Extracted ['name'] from 2 var2 nodes → Filter passed: name eq 'Swamp' | Deep Match: 2/3 (w=2.4)
-    👤 ENTITY Type: label
-    🔍 NEO4J (Entity Graph): MATCH (e:Entity {id: 'label_map'}) RETURN e
-    🔗 APPEARS IN (Sample): 303cbc17_41.46_51.92 (Confidence: 0.99)
-       👉 NEO4J (Clip Graph): MATCH (c:Clip {id: '303cbc17_41.46_51.92'}) RETURN c
-
-[4] Result: label_sky (Score: 0.6722)
-    Reasoning: Resolved 'Airport' → keyword_airport (score=1.00) → Resolved 'Swamp' → location_swamp (score=1.00) → Traversed -RELATED_TO-> label_sky (w=3.00, boost=1.0) → Extracted ['name'] from 2 var2 nodes → Filter passed: name eq 'Swamp' | Deep Match: 2/3 (w=2.4)
-    👤 ENTITY Type: label
-    🔍 NEO4J (Entity Graph): MATCH (e:Entity {id: 'label_sky'}) RETURN e
-    🔗 APPEARS IN (Sample): 303cbc17_0.00_5.34 (Confidence: 0.98)
-       👉 NEO4J (Clip Graph): MATCH (c:Clip {id: '303cbc17_0.00_5.34'}) RETURN c
-
-[5] Result: label_cloud (Score: 0.6722)
-    Reasoning: Resolved 'Airport' → keyword_airport (score=1.00) → Resolved 'Swamp' → location_swamp (score=1.00) → Traversed -RELATED_TO-> label_cloud (w=3.00, boost=1.0) → Extracted ['name'] from 2 var2 nodes → Filter passed: name eq 'Swamp' | Deep Match: 2/3 (w=2.4)
-    👤 ENTITY Type: label
-    🔍 NEO4J (Entity Graph): MATCH (e:Entity {id: 'label_cloud'}) RETURN e
-    🔗 APPEARS IN (Sample): 303cbc17_0.00_5.34 (Confidence: 1.00)
-       👉 NEO4J (Clip Graph): MATCH (c:Clip {id: '303cbc17_0.00_5.34'}) RETURN c
